@@ -40,4 +40,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 * USMARINE108: _Subject Matter Expert_
 
 ## License
+![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
 [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
