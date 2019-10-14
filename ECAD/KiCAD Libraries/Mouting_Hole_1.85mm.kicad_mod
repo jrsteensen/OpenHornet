@@ -1,0 +1,10 @@
+(module Mouting_Hole_1.85mm (layer F.Cu) (tedit 5A7BD47A)
+  (fp_text reference REF** (at 0.54 1.88) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mouting_Hole_1.85mm (at 0.32 1.73) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 1.85 1.85) (drill 1.85) (layers *.Cu)
+    (clearance 0.5) (zone_connect 0))
+)

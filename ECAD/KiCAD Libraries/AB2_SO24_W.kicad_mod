@@ -1,0 +1,131 @@
+(module AB2_SO24_W (layer F.Cu) (tedit 52A7772B)
+
+  (fp_text reference AB2_SO24_W (at 0 -1.27) (layer F.SilkS)
+
+    (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+
+  )
+
+  (fp_text value VAL** (at 0 1.27) (layer F.SilkS)
+
+    (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+
+  )
+
+  (fp_circle (center -6.9 2.95) (end -6.9 2.65) (layer F.SilkS) (width 0.127))
+
+  (fp_line (start -5.715 -4.95) (end -5.715 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -6.985 -4.95) (end -6.985 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -7.7 -3.75) (end 7.7 -3.75) (layer F.SilkS) (width 0.127))
+
+  (fp_line (start 7.7 -3.75) (end 7.7 3.75) (layer F.SilkS) (width 0.127))
+
+  (fp_line (start 7.7 3.75) (end -7.7 3.75) (layer F.SilkS) (width 0.127))
+
+  (fp_line (start -7.7 3.75) (end -7.7 -3.75) (layer F.SilkS) (width 0.127))
+
+  (fp_line (start 5.715 3.9) (end 5.715 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 6.985 3.9) (end 6.985 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -6.985 3.9) (end -6.985 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 4.445 3.9) (end 4.445 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -4.445 -4.95) (end -4.445 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 6.985 -4.95) (end 6.985 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 5.715 -4.95) (end 5.715 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 1.905 -4.95) (end 1.905 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 3.175 -4.95) (end 3.175 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 4.445 -4.95) (end 4.445 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 1.905 3.9) (end 1.905 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 0.635 3.9) (end 0.635 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -0.635 3.9) (end -0.635 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 3.175 3.9) (end 3.175 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -0.635 -4.95) (end -0.635 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -1.905 -4.95) (end -1.905 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -3.175 -4.95) (end -3.175 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start 0.635 -4.95) (end 0.635 -3.9) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -1.905 3.9) (end -1.905 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -5.715 3.9) (end -5.715 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -4.445 3.9) (end -4.445 4.95) (layer F.SilkS) (width 0.41))
+
+  (fp_line (start -3.175 3.9) (end -3.175 4.95) (layer F.SilkS) (width 0.41))
+
+  (pad 23 smd rect (at -5.715 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 24 smd rect (at -6.985 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 11 smd rect (at 5.715 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 12 smd rect (at 6.985 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 1 smd rect (at -6.985 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 10 smd rect (at 4.445 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 22 smd rect (at -4.445 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 13 smd rect (at 6.985 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 17 smd rect (at 1.905 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 16 smd rect (at 3.175 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 15 smd rect (at 4.445 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 14 smd rect (at 5.715 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 9 smd rect (at 3.175 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 8 smd rect (at 1.905 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 7 smd rect (at 0.635 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 6 smd rect (at -0.635 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 2 smd rect (at -5.715 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 3 smd rect (at -4.445 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 4 smd rect (at -3.175 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 5 smd rect (at -1.905 4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 18 smd rect (at 0.635 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 19 smd rect (at -0.635 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 20 smd rect (at -1.905 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (pad 21 smd rect (at -3.175 -4.7) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
+
+  (model ab2_so/AB2_SO24_W.x3d
+
+    (at (xyz 0 0 0))
+
+    (scale (xyz 0.3937 0.3937 0.3937))
+
+    (rotate (xyz 0 0 180))
+
+  )
+
+)

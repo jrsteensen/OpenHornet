@@ -1,0 +1,182 @@
+EESchema Schematic File Version 4
+LIBS:OH Interconnects-cache
+EELAYER 26 0
+EELAYER END
+$Descr D 34000 22000
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ABSIS:ABSIS_Nano SLAVE_1
+U 1 1 5BD0AC03
+P 4900 4650
+F 0 "SLAVE_1" H 4100 5650 50  0000 C CNN
+F 1 "ABSIS_NANO" H 4000 5550 50  0000 C CNN
+F 2 "" H 4800 3700 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 4350 5600 50  0001 C CNN
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5BD0BDCC
+P 6200 5500
+F 0 "SW?" H 6200 5735 50  0000 C CNN
+F 1 "MASTER ARM SWITCH" H 6200 5644 50  0000 C CNN
+F 2 "" H 6200 5500 50  0001 C CNN
+F 3 "" H 6200 5500 50  0001 C CNN
+	1    6200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5BD0BEA4
+P 6200 5700
+F 0 "SW?" H 6200 5500 50  0000 C CNN
+F 1 "PUSH TO JETT BUTTON" H 6100 5600 50  0000 C CNN
+F 2 "" H 6200 5900 50  0001 C CNN
+F 3 "" H 6200 5900 50  0001 C CNN
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 5BD0BF8C
+P 6150 4950
+F 0 "J?" H 6200 5267 50  0000 C CNN
+F 1 "MASTER ARM PUSHBUTTONS" H 6200 5176 50  0000 C CNN
+F 2 "" H 6150 4950 50  0001 C CNN
+F 3 "~" H 6150 4950 50  0001 C CNN
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5BD0C037
+P 6200 4100
+F 0 "J?" H 6279 4092 50  0000 L CNN
+F 1 "DISCH PUSHBUTTON" H 6279 4001 50  0000 L CNN
+F 2 "" H 6200 4100 50  0001 C CNN
+F 3 "~" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5050 6450 5150
+Wire Wire Line
+	6450 5150 5950 5150
+Wire Wire Line
+	5950 5150 5950 5050
+Wire Wire Line
+	5500 4350 5600 4350
+Wire Wire Line
+	5600 4350 5600 4100
+Wire Wire Line
+	5600 4100 6000 4100
+Wire Wire Line
+	6000 4200 5650 4200
+Wire Wire Line
+	5650 4200 5650 4550
+Wire Wire Line
+	5650 4550 5500 4550
+Wire Wire Line
+	5500 4450 5550 4450
+Wire Wire Line
+	5550 4450 5550 4000
+Wire Wire Line
+	5550 4000 6000 4000
+Wire Wire Line
+	5950 4850 5650 4850
+Wire Wire Line
+	5650 4850 5650 4750
+Wire Wire Line
+	5650 4750 5500 4750
+Wire Wire Line
+	6450 4850 6750 4850
+Wire Wire Line
+	6750 4850 6750 4550
+Wire Wire Line
+	6750 4550 5700 4550
+Wire Wire Line
+	5700 4550 5700 4650
+Wire Wire Line
+	5700 4650 5500 4650
+Wire Wire Line
+	5950 4950 5600 4950
+Wire Wire Line
+	5600 4950 5600 4850
+Wire Wire Line
+	5600 4850 5500 4850
+Wire Wire Line
+	5500 4950 5550 4950
+Wire Wire Line
+	5550 4950 5550 5000
+Wire Wire Line
+	5550 5000 5800 5000
+Wire Wire Line
+	5800 5000 5800 5200
+Wire Wire Line
+	5800 5200 6600 5200
+Wire Wire Line
+	6600 5200 6600 4950
+Wire Wire Line
+	6600 4950 6450 4950
+Wire Wire Line
+	6000 5500 5750 5500
+Wire Wire Line
+	5750 5500 5750 5050
+Wire Wire Line
+	5750 5050 5500 5050
+Wire Wire Line
+	6000 5700 5700 5700
+Wire Wire Line
+	5700 5700 5700 5150
+Wire Wire Line
+	5700 5150 5500 5150
+Wire Wire Line
+	6000 4300 6000 4400
+Wire Wire Line
+	6000 4400 6800 4400
+Wire Wire Line
+	6800 4400 6800 5150
+Wire Wire Line
+	6800 5150 6450 5150
+Connection ~ 6450 5150
+Wire Wire Line
+	6800 5150 6800 5500
+Wire Wire Line
+	6800 5500 6400 5500
+Connection ~ 6800 5150
+Wire Wire Line
+	6800 5700 6400 5700
+Connection ~ 6800 5500
+Wire Wire Line
+	6800 5950 5600 5950
+Wire Wire Line
+	5600 5950 5600 5450
+Wire Wire Line
+	5600 5450 5500 5450
+Wire Wire Line
+	6800 5500 6800 5700
+Connection ~ 6800 5700
+Wire Wire Line
+	6800 5700 6800 5950
+Wire Notes Line
+	7150 6000 3750 6000
+Wire Notes Line
+	3750 6000 3750 3550
+Wire Notes Line
+	3750 3550 7150 3550
+Wire Notes Line
+	7150 3550 7150 6000
+Text Notes 6350 3700 0    50   ~ 0
+MASTER ARM PANEL
+$EndSCHEMATC

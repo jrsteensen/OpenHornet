@@ -1,0 +1,8 @@
+(module BLANK_SYMBOL_NOT_FOR_ROUTING (layer F.Cu) (tedit 5A4311D2)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BLANK_SYMBOL_NOT_FOR_ROUTING (at 0 -0.5) (layer Dwgs.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
