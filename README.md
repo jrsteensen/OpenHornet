@@ -36,9 +36,6 @@ OpenHornetSimPit.sldasm
 |- SJU-17.sldasm
 ```
 
-## Discord Server
-[Discord](https://discord.gg/G5PA5ju)
-
 ## Authors and Acknowledgment
 
 ### CORE DEVELOPMENT TEAM
