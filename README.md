@@ -4,6 +4,10 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 
 Currently, this repo reflects the project in its current state and is not 100% functional, and all items are subject to change.
 
+* [OpenHornet Website](https://www.openhornet.com)
+* [OpenHornet Discord](https://discord.gg/G5PA5ju)
+* [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
+
 ## Status
 This project is currently looking for maintainers and people who can help move it across the finish line. 
 
@@ -15,6 +19,22 @@ This project is currently looking for maintainers and people who can help move i
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## OpenHornet MCAD Model
+
+All models are in SolidWorks 2019. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required.
+
+### Top Level Assembly Structure
+
+```
+OpenHornetSimPit.sldasm
+|- Upper Instrument Panel.sldasm
+|- Lower Instrument Panel.sldasm
+|- Left Console.sldasm
+|- Right Console.sldasm
+|- Center Tub.sldasm
+|- SJU-17.sldasm
+```
 
 ## Discord Server
 [Discord](https://discord.gg/G5PA5ju)
