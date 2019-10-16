@@ -27,13 +27,14 @@ All models are in SolidWorks 2019. No models for contribution will be accepted i
 ### Top Level Assembly Structure
 
 ```
-OpenHornetSimPit.sldasm
-|- Upper Instrument Panel.sldasm
-|- Lower Instrument Panel.sldasm
-|- Left Console.sldasm
-|- Right Console.sldasm
-|- Center Tub.sldasm
-|- SJU-17.sldasm
+MCAD
+|- OpenHornetSimPit.sldasm
+   |- Upper Instrument Panel.sldasm
+   |- Lower Instrument Panel.sldasm
+   |- Left Console.sldasm
+   |- Right Console.sldasm
+   |- Center Tub.sldasm
+   |- SJU-17.sldasm
 ```
 
 ## Authors and Acknowledgment
