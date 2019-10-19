@@ -33,7 +33,7 @@ MCAD
    |- Lower Instrument Panel.sldasm
    |- Left Console.sldasm
    |- Right Console.sldasm
-   |- Center Tub.sldasm
+   |- Center Tub.sldasm (Not created yet. .sldprt is a placeholder.)
    |- SJU-17.sldasm
 ```
 
