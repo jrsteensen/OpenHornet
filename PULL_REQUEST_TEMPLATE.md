@@ -40,12 +40,15 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Design has been integrated into Next Higher Assembly (NHA)
 
 ## PCB/ECAD:
-- [ ] Requirements definition captured
-- [ ] Schematic created
-- [ ] Netlist created
-- [ ] PCB Routed
+- [ ] Requirements definition
+- [ ] Schematic completed
+- [ ] PCB routed
 - [ ] PCB constrained by physical footprint limitations
 - [ ] PCB critical component location requirements met
+- [ ] Schematic/PCB reviewed
+- [ ] BOM generated
+- [ ] Gerbers generated
+- [ ] MCAD generated
 
 ## Software:
 - [ ] My code follows the style guidelines of this project
