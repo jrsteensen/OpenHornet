@@ -20,6 +20,14 @@ This project is currently looking for maintainers and people who can help move i
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+* [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/CONTRIBUTING.md)
+
+1. Fork this repo
+1. Create your feature branch (`git checkout -b my-new-feature`)
+1. Commit your changes (`git commit -am 'Add some feature'`)
+1. Push to the branch (`git push origin my-new-feature`)
+1. Create a new pull request
+
 ## OpenHornet MCAD Model
 
 All models are in SolidWorks 2019. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required.
@@ -47,15 +55,14 @@ MCAD
 ### DEVELOPMENT CONTRIBUTOR TEAM
 * Damien Charveriat (Damien022): _Software Design_
 * Hájas Gábor (Gaberun24): _Electrical/Software Design_
+* Balz Reber (Balse): _Electrical/Software Design_
+* Bullant: _Software Design/DCS-BIOS Expert_
 
 ### HONORABLE MENTIONS
-* NegativeONE: _Logo Design_
-* BuckEye: _Beta Builder/Tester_
-* Splash: _Beta Builder/Tester_
-* AJMilner: _Donator_
-* FlyNavy75: _Subject Matter Expert_
-* Sixtigers: _Subject Matter Expert_
-* USMARINE108: _Subject Matter Expert_
+* __Logo Design__: NegativeONE
+* __Beta Builders/Testers__: BuckEye, Splash
+* __Donators__: AJMilner
+* **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108
 
 ## License
 ![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
