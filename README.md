@@ -1,4 +1,4 @@
-# OpenHornet 
+![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
@@ -10,6 +10,8 @@ Currently, this repo reflects the project in its current state and is not 100% f
 
 ## Status
 This project is currently looking for maintainers and people who can help move it across the finish line. 
+
+![Overall Screen Grab](https://github.com/jrsteensen/OpenHornet/blob/master/images/Glareshields.2019.10.21.PNG)
 
 ## Software Requirements
 
