@@ -22,7 +22,7 @@ This project is currently looking for maintainers and people who can help move i
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/CONTRIBUTING.md)
+* [Contributing HOW-TO](CONTRIBUTING.md)
 
     1. Fork this repo
     1. Create your feature branch (`git checkout -b my-new-feature`)
