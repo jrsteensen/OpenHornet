@@ -22,11 +22,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 * [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/CONTRIBUTING.md)
 
-1. Fork this repo
-1. Create your feature branch (`git checkout -b my-new-feature`)
-1. Commit your changes (`git commit -am 'Add some feature'`)
-1. Push to the branch (`git push origin my-new-feature`)
-1. Create a new pull request
+    1. Fork this repo
+    1. Create your feature branch (`git checkout -b my-new-feature`)
+    1. Commit your changes (`git commit -am 'Add some feature'`)
+    1. Push to the branch (`git push origin my-new-feature`)
+    1. Create a new pull request
 
 ## OpenHornet MCAD Model
 
