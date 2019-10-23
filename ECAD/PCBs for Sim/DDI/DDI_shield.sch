@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:DDI_shield-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -26,10 +26,6 @@ Text Label 8000 1700 0    60   ~ 0
 4
 Text Label 8000 1800 0    60   ~ 0
 5(**)
-Text Label 8000 1900 0    60   ~ 0
-6(**)
-Text Label 8000 2000 0    60   ~ 0
-7
 Text Label 8000 2100 0    60   ~ 0
 8
 Text Label 8000 2200 0    60   ~ 0
@@ -40,14 +36,10 @@ Text Label 8000 2400 0    60   ~ 0
 11(**/MOSI)
 Text Label 8000 2500 0    60   ~ 0
 12(MISO)
-Text Label 9850 2500 0    60   ~ 0
-13(SCK)
 Text Label 9850 2200 0    60   ~ 0
 A0
 Text Label 9850 2100 0    60   ~ 0
 A1
-Text Label 9850 2000 0    60   ~ 0
-A2
 Text Label 9850 1900 0    60   ~ 0
 A3
 Text Label 9850 1800 0    60   ~ 0
@@ -56,8 +48,6 @@ Text Label 9850 1700 0    60   ~ 0
 A5
 Text Label 9850 1600 0    60   ~ 0
 A6
-Text Label 9850 1500 0    60   ~ 0
-A7
 Text Label 9850 2300 0    60   ~ 0
 AREF
 Text Notes 10100 1000 0    60   ~ 0
@@ -491,8 +481,6 @@ Wire Wire Line
 Wire Wire Line
 	9750 2400 9450 2400
 Wire Wire Line
-	9850 2000 9450 2000
-Wire Wire Line
 	9450 2100 9850 2100
 Wire Wire Line
 	9850 2200 9450 2200
@@ -627,7 +615,7 @@ L Connector:Conn_01x03_Male J5
 U 1 1 5A505AD7
 P 2650 3950
 F 0 "J5" H 2650 4150 50  0000 C CNN
-F 1 "Pot1" H 2650 3750 50  0000 C CNN
+F 1 "POT1" H 2650 3750 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 2650 3950 50  0001 C CNN
 F 3 "" H 2650 3950 50  0001 C CNN
 	1    2650 3950
@@ -638,21 +626,10 @@ L Connector:Conn_01x03_Male J7
 U 1 1 5A505C11
 P 3300 3950
 F 0 "J7" H 3300 4150 50  0000 C CNN
-F 1 "Pot2" H 3300 3750 50  0000 C CNN
+F 1 "POT2" H 3300 3750 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3300 3950 50  0001 C CNN
 F 3 "" H 3300 3950 50  0001 C CNN
 	1    3300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J8
-U 1 1 5A505C6E
-P 3950 3950
-F 0 "J8" H 3950 4150 50  0000 C CNN
-F 1 "Pot3" H 3950 3750 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3950 3950 50  0001 C CNN
-F 3 "" H 3950 3950 50  0001 C CNN
-	1    3950 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -678,17 +655,6 @@ F 3 "" H 3600 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR013
-U 1 1 5A505E30
-P 4250 3650
-F 0 "#PWR013" H 4250 3500 50  0001 C CNN
-F 1 "+5V" H 4250 3790 50  0000 C CNN
-F 2 "" H 4250 3650 50  0001 C CNN
-F 3 "" H 4250 3650 50  0001 C CNN
-	1    4250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR06
 U 1 1 5A505EB9
 P 2950 4300
@@ -710,17 +676,6 @@ F 3 "" H 3600 4300 50  0001 C CNN
 	1    3600 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5A505F3B
-P 4250 4300
-F 0 "#PWR014" H 4250 4050 50  0001 C CNN
-F 1 "GND" H 4250 4150 50  0000 C CNN
-F 2 "" H 4250 4300 50  0001 C CNN
-F 3 "" H 4250 4300 50  0001 C CNN
-	1    4250 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 3650 2950 3850
 Wire Wire Line
@@ -738,27 +693,15 @@ Wire Wire Line
 Wire Wire Line
 	3600 4050 3500 4050
 Wire Wire Line
-	4150 4050 4250 4050
-Wire Wire Line
-	4250 4050 4250 4300
-Wire Wire Line
-	4150 3850 4250 3850
-Wire Wire Line
-	4250 3850 4250 3650
-Wire Wire Line
 	3050 3950 2850 3950
 Wire Wire Line
 	3700 3950 3500 3950
-Wire Wire Line
-	4350 3950 4150 3950
 Text Label 3050 3950 0    60   ~ 0
 A0
 Text Label 3700 3950 0    60   ~ 0
 A1
-Text Label 4350 3950 0    60   ~ 0
-A2
 Text Notes 3250 4750 0    60   ~ 0
-Potentiometers
+Inputs
 Text Notes 5250 2650 0    60   ~ 0
 I2C addresses\n0b0111000\n0b0111001\n0b0111010\n0b0111011
 Text Notes 2700 6650 0    60   ~ 0
@@ -771,6 +714,7 @@ F 0 "R2" V 2930 5400 50  0000 C CNN
 F 1 "10k" V 2850 5400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 5400 50  0001 C CNN
 F 3 "" H 2850 5400 50  0001 C CNN
+F 4 "VARIOUS" H 0   0   50  0001 C CNN "PN"
 	1    2850 5400
 	1    0    0    -1  
 $EndComp
@@ -782,6 +726,7 @@ F 0 "R3" V 2930 5800 50  0000 C CNN
 F 1 "10k" V 2850 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2780 5800 50  0001 C CNN
 F 3 "" H 2850 5800 50  0001 C CNN
+F 4 "VARIOUS" H 0   0   50  0001 C CNN "PN"
 	1    2850 5800
 	1    0    0    -1  
 $EndComp
@@ -825,6 +770,7 @@ F 0 "R4" V 3480 5400 50  0000 C CNN
 F 1 "10k" V 3400 5400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 5400 50  0001 C CNN
 F 3 "" H 3400 5400 50  0001 C CNN
+F 4 "VARIOUS" H 0   0   50  0001 C CNN "PN"
 	1    3400 5400
 	1    0    0    -1  
 $EndComp
@@ -836,6 +782,7 @@ F 0 "R5" V 3480 5800 50  0000 C CNN
 F 1 "10k" V 3400 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3330 5800 50  0001 C CNN
 F 3 "" H 3400 5800 50  0001 C CNN
+F 4 "VARIOUS" H 0   0   50  0001 C CNN "PN"
 	1    3400 5800
 	1    0    0    -1  
 $EndComp
@@ -882,12 +829,6 @@ Wire Notes Line
 Wire Notes Line
 	2500 3300 2500 2000
 Wire Notes Line
-	2500 3400 4600 3400
-Wire Notes Line
-	4600 3400 4600 4850
-Wire Notes Line
-	4600 4850 2500 4850
-Wire Notes Line
 	2500 4850 2500 3400
 Wire Notes Line
 	2500 4950 4000 4950
@@ -922,14 +863,7 @@ Wire Wire Line
 Text Label 3400 2500 0    60   ~ 0
 4
 NoConn ~ 9450 1500
-NoConn ~ 9450 1600
-NoConn ~ 9450 1700
-NoConn ~ 9450 1800
-NoConn ~ 9450 1900
 NoConn ~ 9450 2500
-NoConn ~ 8650 2500
-NoConn ~ 8650 2400
-NoConn ~ 8650 2300
 NoConn ~ 8650 2000
 NoConn ~ 8650 1900
 $Comp
@@ -973,4 +907,127 @@ Wire Wire Line
 	3700 2400 3600 2400
 Wire Wire Line
 	3600 2400 3600 2350
+$Comp
+L Connector:Conn_01x04_Male J8
+U 1 1 5DB10E32
+P 3900 3900
+F 0 "J8" H 3900 4100 50  0000 C CNN
+F 1 "ROT SW" H 3900 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3900 3900 50  0001 C CNN
+F 3 "" H 3900 3900 50  0001 C CNN
+	1    3900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J9
+U 1 1 5DB12D5B
+P 4750 3950
+F 0 "J9" H 4750 4150 50  0000 C CNN
+F 1 "CRS" H 4750 3750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 3950 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J10
+U 1 1 5DB13864
+P 5250 3950
+F 0 "J10" H 5250 4150 50  0000 C CNN
+F 1 "HDG" H 5250 3750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5250 3950 50  0001 C CNN
+F 3 "" H 5250 3950 50  0001 C CNN
+	1    5250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DB13DB8
+P 4200 4300
+F 0 "#PWR01" H 4200 4050 50  0001 C CNN
+F 1 "GND" H 4200 4150 50  0000 C CNN
+F 2 "" H 4200 4300 50  0001 C CNN
+F 3 "" H 4200 4300 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4100 4200 4100
+Wire Wire Line
+	4200 4100 4200 4300
+Wire Wire Line
+	8650 2300 8000 2300
+Wire Wire Line
+	8650 2400 8000 2400
+Wire Wire Line
+	8650 2500 8000 2500
+Text Label 4100 4000 0    60   ~ 0
+12(MISO)
+Text Label 4100 3900 0    60   ~ 0
+11(**/MOSI)
+Text Label 4100 3800 0    60   ~ 0
+10(**/SS)
+Wire Wire Line
+	9450 1900 9850 1900
+Wire Wire Line
+	9450 1800 9850 1800
+Text Label 4950 3850 0    60   ~ 0
+A3
+Text Label 4950 4050 0    60   ~ 0
+A4
+Wire Wire Line
+	9850 1700 9450 1700
+Wire Wire Line
+	9450 1600 9850 1600
+Text Label 5450 4050 0    60   ~ 0
+A6
+Text Notes 9850 1500 0    60   ~ 0
+A7
+Text Notes 9850 2500 0    60   ~ 0
+13(SCK)
+Text Notes 8000 2000 0    60   ~ 0
+7
+Text Notes 8000 1900 0    60   ~ 0
+6(**)
+$Comp
+L power:GND #PWR02
+U 1 1 5DB303A9
+P 5100 4300
+F 0 "#PWR02" H 5100 4050 50  0001 C CNN
+F 1 "GND" H 5100 4150 50  0000 C CNN
+F 2 "" H 5100 4300 50  0001 C CNN
+F 3 "" H 5100 4300 50  0001 C CNN
+	1    5100 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5DB312FB
+P 5600 4300
+F 0 "#PWR011" H 5600 4050 50  0001 C CNN
+F 1 "GND" H 5600 4150 50  0000 C CNN
+F 2 "" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4300 5600 3950
+Wire Wire Line
+	5600 3950 5450 3950
+Wire Wire Line
+	4950 3950 5100 3950
+Wire Wire Line
+	5100 3950 5100 4300
+Wire Notes Line
+	2500 3400 5750 3400
+Wire Notes Line
+	5750 3400 5750 4850
+Wire Notes Line
+	5750 4850 2500 4850
+NoConn ~ 9450 2000
+Text Notes 9850 2000 0    60   ~ 0
+A2
+Text Label 5450 3850 0    60   ~ 0
+A5
 $EndSCHEMATC
