@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Buttons_AMPCD-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -200,102 +200,102 @@ Wire Wire Line
 $Comp
 L KiCadCustomLib:ExpansionPort J1
 U 1 1 5BD700A9
-P 1750 6200
-F 0 "J1" H 2069 5918 60  0000 L CNN
-F 1 "ExpansionPort" H 2069 5812 60  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 1750 6200 60  0001 C CNN
-F 3 "" H 1750 6200 60  0001 C CNN
-	1    1750 6200
+P 1050 6550
+F 0 "J1" H 1369 6268 60  0000 L CNN
+F 1 "ExpansionPort" H 1369 6162 60  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 1050 6550 60  0001 C CNN
+F 3 "" H 1050 6550 60  0001 C CNN
+	1    1050 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5BD705E9
-P 1450 6850
-F 0 "#PWR0116" H 1450 6600 50  0001 C CNN
-F 1 "GND" H 1455 6677 50  0000 C CNN
-F 2 "" H 1450 6850 50  0001 C CNN
-F 3 "" H 1450 6850 50  0001 C CNN
-	1    1450 6850
+P 3200 7100
+F 0 "#PWR0116" H 3200 6850 50  0001 C CNN
+F 1 "GND" H 3205 6927 50  0000 C CNN
+F 2 "" H 3200 7100 50  0001 C CNN
+F 3 "" H 3200 7100 50  0001 C CNN
+	1    3200 7100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1550 6550 0    50   Input ~ 0
+Text GLabel 850  6900 0    50   Input ~ 0
 SCL
-Text GLabel 1550 6650 0    50   Input ~ 0
+Text GLabel 850  7000 0    50   Input ~ 0
 IRQ
-Text GLabel 1550 6450 0    50   Input ~ 0
+Text GLabel 850  6800 0    50   Input ~ 0
 SDA
 $Comp
 L power:+5V #PWR0117
 U 1 1 5BD706E2
-P 1450 6300
-F 0 "#PWR0117" H 1450 6150 50  0001 C CNN
-F 1 "+5V" H 1465 6473 50  0000 C CNN
-F 2 "" H 1450 6300 50  0001 C CNN
-F 3 "" H 1450 6300 50  0001 C CNN
-	1    1450 6300
+P 3200 6400
+F 0 "#PWR0117" H 3200 6250 50  0001 C CNN
+F 1 "+5V" H 3215 6573 50  0000 C CNN
+F 2 "" H 3200 6400 50  0001 C CNN
+F 3 "" H 3200 6400 50  0001 C CNN
+	1    3200 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 6300 1450 6350
+	750  6650 750  6700
 Wire Wire Line
-	1450 6350 1550 6350
+	750  6700 850  6700
 Wire Wire Line
-	1550 6750 1450 6750
+	850  7100 750  7100
 Wire Wire Line
-	1450 6750 1450 6850
+	750  7100 750  7200
 $Comp
 L power:+5V #PWR0118
 U 1 1 5BD7AF55
-P 3600 6650
-F 0 "#PWR0118" H 3600 6500 50  0001 C CNN
-F 1 "+5V" H 3615 6823 50  0000 C CNN
-F 2 "" H 3600 6650 50  0001 C CNN
-F 3 "" H 3600 6650 50  0001 C CNN
-	1    3600 6650
+P 1100 5800
+F 0 "#PWR0118" H 1100 5650 50  0001 C CNN
+F 1 "+5V" H 1115 5973 50  0000 C CNN
+F 2 "" H 1100 5800 50  0001 C CNN
+F 3 "" H 1100 5800 50  0001 C CNN
+	1    1100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0119
 U 1 1 5BD7AF9A
-P 4050 6700
-F 0 "#PWR0119" H 4050 6450 50  0001 C CNN
-F 1 "GND" H 4055 6527 50  0000 C CNN
-F 2 "" H 4050 6700 50  0001 C CNN
-F 3 "" H 4050 6700 50  0001 C CNN
-	1    4050 6700
+P 1550 5850
+F 0 "#PWR0119" H 1550 5600 50  0001 C CNN
+F 1 "GND" H 1555 5677 50  0000 C CNN
+F 2 "" H 1550 5850 50  0001 C CNN
+F 3 "" H 1550 5850 50  0001 C CNN
+	1    1550 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5BD7B019
-P 4050 6600
-F 0 "#FLG0101" H 4050 6675 50  0001 C CNN
-F 1 "PWR_FLAG" H 4050 6774 50  0000 C CNN
-F 2 "" H 4050 6600 50  0001 C CNN
-F 3 "~" H 4050 6600 50  0001 C CNN
-	1    4050 6600
+P 1550 5750
+F 0 "#FLG0101" H 1550 5825 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 5924 50  0000 C CNN
+F 2 "" H 1550 5750 50  0001 C CNN
+F 3 "~" H 1550 5750 50  0001 C CNN
+	1    1550 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5BD7B0D9
-P 3350 6800
-F 0 "#FLG0102" H 3350 6875 50  0001 C CNN
-F 1 "PWR_FLAG" H 3350 6974 50  0000 C CNN
-F 2 "" H 3350 6800 50  0001 C CNN
-F 3 "~" H 3350 6800 50  0001 C CNN
-	1    3350 6800
+P 850 5950
+F 0 "#FLG0102" H 850 6025 50  0001 C CNN
+F 1 "PWR_FLAG" H 850 6124 50  0000 C CNN
+F 2 "" H 850 5950 50  0001 C CNN
+F 3 "~" H 850 5950 50  0001 C CNN
+	1    850  5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3350 6800 3350 6850
+	850  5950 850  6000
 Wire Wire Line
-	3350 6850 3600 6850
+	850  6000 1100 6000
 Wire Wire Line
-	3600 6850 3600 6650
+	1100 6000 1100 5800
 Wire Wire Line
-	4050 6600 4050 6700
+	1550 5750 1550 5850
 $Comp
 L Switch:SW_Push DL_rocker1
 U 1 1 5BDB39D7
@@ -512,10 +512,7 @@ $EndComp
 Wire Wire Line
 	6200 1750 5900 1750
 Wire Wire Line
-	5900 1750 5900 1850
-Wire Wire Line
 	6200 1850 5900 1850
-Connection ~ 5900 1850
 Wire Wire Line
 	5900 1850 5900 1950
 Wire Wire Line
@@ -738,13 +735,6 @@ F 3 "" H 800 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 4100 800  4100
-Wire Wire Line
-	800  4100 800  4200
-Wire Wire Line
-	1100 4200 800  4200
-Connection ~ 800  4200
-Wire Wire Line
-	800  4200 800  4300
 Wire Wire Line
 	1100 4300 800  4300
 Connection ~ 800  4300
@@ -969,12 +959,8 @@ Wire Wire Line
 	5850 4200 5850 4300
 Wire Wire Line
 	6150 4300 5850 4300
-Connection ~ 5850 4300
-Wire Wire Line
-	5850 4300 5850 4400
 Wire Wire Line
 	6150 4400 5850 4400
-Connection ~ 5850 4400
 Wire Wire Line
 	5850 4400 5850 4550
 $Comp
@@ -1077,8 +1063,188 @@ Wire Wire Line
 Connection ~ 5900 6500
 Wire Wire Line
 	5900 6500 6050 6500
-Text Notes 5150 6100 0    50   ~ 0
+Text Notes 4900 7350 0    50   ~ 0
 I2C pullups\ncalculation http://www.ti.com/lit/pdf/SLVA689
 Text Notes 5500 5550 0    79   ~ 16
-All the devices have the same I2C address\nAll the devices should have a 100nF cap to deal with switching.\nCheck the value of 1k for pullups.\nIRQ Needs a centrall pullup to make the line go high, assuming this on the arduino nano?\n
+Check the value of 1k for pullups once hw is assembled,\ndepending on the lenght of the cable we might need to\nlower or increase resistance\n
+$Comp
+L power:+5V #PWR015
+U 1 1 5DB1AE5F
+P 5900 1700
+F 0 "#PWR015" H 5900 1550 50  0001 C CNN
+F 1 "+5V" H 5915 1873 50  0000 C CNN
+F 2 "" H 5900 1700 50  0001 C CNN
+F 3 "" H 5900 1700 50  0001 C CNN
+	1    5900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1700 5900 1750
+$Comp
+L power:+5V #PWR016
+U 1 1 5DB2447D
+P 700 4050
+F 0 "#PWR016" H 700 3900 50  0001 C CNN
+F 1 "+5V" H 715 4223 50  0000 C CNN
+F 2 "" H 700 4050 50  0001 C CNN
+F 3 "" H 700 4050 50  0001 C CNN
+	1    700  4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4100 800  4300
+Wire Wire Line
+	1100 4200 700  4200
+Wire Wire Line
+	700  4200 700  4050
+$Comp
+L power:+5V #PWR017
+U 1 1 5DB2DAA3
+P 5850 4150
+F 0 "#PWR017" H 5850 4000 50  0001 C CNN
+F 1 "+5V" H 5865 4323 50  0000 C CNN
+F 2 "" H 5850 4150 50  0001 C CNN
+F 3 "" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4150 5850 4200
+Connection ~ 5850 4200
+Text GLabel 5600 7150 0    50   Input ~ 0
+IRQ
+$Comp
+L Device:R R3
+U 1 1 5DB36F00
+P 6300 6700
+F 0 "R3" H 6370 6746 50  0000 L CNN
+F 1 "1k" H 6370 6655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 6700 50  0001 C CNN
+F 3 "~" H 6300 6700 50  0001 C CNN
+	1    6300 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6550 6300 6500
+Wire Wire Line
+	6300 6500 6050 6500
+Connection ~ 6050 6500
+Wire Wire Line
+	6300 6850 6300 7150
+Wire Wire Line
+	6300 7150 5600 7150
+$Comp
+L Device:C C1
+U 1 1 5DB4A911
+P 2700 6750
+F 0 "C1" H 2815 6796 50  0000 L CNN
+F 1 "47uF" H 2700 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2738 6600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 2700 6750 50  0001 C CNN
+F 4 "ZRB18AR60J476ME01L" H 2700 6750 50  0001 C CNN "PN"
+	1    2700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5DB69B49
+P 3050 6750
+F 0 "C2" H 3165 6796 50  0000 L CNN
+F 1 "47uF" H 3050 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3088 6600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 3050 6750 50  0001 C CNN
+F 4 "ZRB18AR60J476ME01L" H 3050 6750 50  0001 C CNN "PN"
+	1    3050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5DB69E20
+P 3400 6750
+F 0 "C3" H 3515 6796 50  0000 L CNN
+F 1 "47uF" H 3400 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 6600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 3400 6750 50  0001 C CNN
+F 4 "ZRB18AR60J476ME01L" H 3400 6750 50  0001 C CNN "PN"
+	1    3400 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5DB6A03D
+P 3750 6750
+F 0 "C4" H 3865 6796 50  0000 L CNN
+F 1 "47uF" H 3750 6650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3788 6600 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 3750 6750 50  0001 C CNN
+F 4 "ZRB18AR60J476ME01L" H 3750 6750 50  0001 C CNN "PN"
+	1    3750 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 6600 2700 6500
+Wire Wire Line
+	2700 6500 3050 6500
+Wire Wire Line
+	3750 6500 3750 6600
+Wire Wire Line
+	3200 6400 3200 6500
+Connection ~ 3200 6500
+Wire Wire Line
+	3200 6500 3400 6500
+Wire Wire Line
+	3050 6600 3050 6500
+Connection ~ 3050 6500
+Wire Wire Line
+	3050 6500 3200 6500
+Wire Wire Line
+	3400 6600 3400 6500
+Connection ~ 3400 6500
+Wire Wire Line
+	3400 6500 3750 6500
+Wire Wire Line
+	2700 6900 2700 7000
+Wire Wire Line
+	2700 7000 3050 7000
+Wire Wire Line
+	3750 7000 3750 6900
+Wire Wire Line
+	3200 7100 3200 7000
+Connection ~ 3200 7000
+Wire Wire Line
+	3200 7000 3400 7000
+Wire Wire Line
+	3050 6900 3050 7000
+Connection ~ 3050 7000
+Wire Wire Line
+	3050 7000 3200 7000
+Wire Wire Line
+	3400 6900 3400 7000
+Connection ~ 3400 7000
+Wire Wire Line
+	3400 7000 3750 7000
+Text Notes 2600 7500 0    50   ~ 0
+Bypass capacitors,\nkeep close to the ICs in the board.
+$Comp
+L power:+5V #PWR0104
+U 1 1 5DBBCBA2
+P 750 6650
+F 0 "#PWR0104" H 750 6500 50  0001 C CNN
+F 1 "+5V" H 765 6823 50  0000 C CNN
+F 2 "" H 750 6650 50  0001 C CNN
+F 3 "" H 750 6650 50  0001 C CNN
+	1    750  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5DBBCFD7
+P 750 7200
+F 0 "#PWR0105" H 750 6950 50  0001 C CNN
+F 1 "GND" H 755 7027 50  0000 C CNN
+F 2 "" H 750 7200 50  0001 C CNN
+F 3 "" H 750 7200 50  0001 C CNN
+	1    750  7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
