@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -20,14 +38,14 @@ ENDDEF
 #
 # Interface_Expansion_TCA9534
 #
-DEF Interface_Expansion_TCA9534 U 0 40 Y Y 1 F N
+DEF Interface_Expansion_TCA9534 U 0 20 Y Y 1 F N
 F0 "U" -250 500 50 H V L CNN
 F1 "Interface_Expansion_TCA9534" 100 500 50 H V L CNN
 F2 "" 950 -550 50 H I C CNN
 F3 "" 100 -100 50 H I C CNN
 $FPLIST
  TSSOP*4.4x5mm*P0.65mm*
- SOIC*7.5x12.8mm*P1.27mm*
+ SOIC*7.5x10.3mm*P1.27mm*
 $ENDFPLIST
 DRAW
 S -250 -550 250 450 0 1 10 f
