@@ -12,12 +12,20 @@ $CMP DDI_Button_PCB
 D DDI Button PCB, based on TCA9534
 $ENDCMP
 #
+$CMP ER-TFTB101A1-1
+D ER-TFTV101A1-1 10.1" TFT Display
+$ENDCMP
+#
 $CMP EWI_PCB
 D EWI PCB based on ABSIS Nano and MAX7219
 $ENDCMP
 #
 $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
+$ENDCMP
+#
+$CMP HB-U14P
+D HB-U14P - HUB, USB 2.0, 13 PORT, SABRENT
 $ENDCMP
 #
 #End Doc Library
