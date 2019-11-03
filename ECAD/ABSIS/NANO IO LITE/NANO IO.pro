@@ -1,6 +1,6 @@
-update=10/20/2019 7:52:54 PM
+update=11/2/2019 1:51:14 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -36,6 +36,8 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2286
+TrackWidth2=0.3048
+TrackWidth3=0.6096
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -64,7 +66,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
