@@ -5,11 +5,16 @@ D TFT Controller for ER-TFTV101A1-1
 $ENDCMP
 #
 $CMP DDI_AMPCD_Shield
-D Arduino Based Simulator Interface System (ABSIS) Nano Rev B
+D Shield for DDI/AMPCD interfacing
 $ENDCMP
 #
 $CMP DDI_Button_PCB
 D DDI Button PCB, based on TCA9534
+$ENDCMP
+#
+$CMP ER-OLEDM023-1W
+D 2.2" OLED Display Module with 20 Pin Breakout (White on Black)
+F https://www.buydisplay.com/download/manual/ER-OLEDM023-1_Series_Datasheet.pdf
 $ENDCMP
 #
 $CMP ER-TFTB101A1-1
@@ -22,10 +27,6 @@ $ENDCMP
 #
 $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
-$ENDCMP
-#
-$CMP HB-U14P
-D HB-U14P - HUB, USB 2.0, 13 PORT, SABRENT
 $ENDCMP
 #
 #End Doc Library
