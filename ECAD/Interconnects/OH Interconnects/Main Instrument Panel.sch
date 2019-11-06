@@ -138,7 +138,7 @@ Connection ~ 17950 7900
 Connection ~ 18300 7900
 Wire Wire Line
 	17100 8200 17000 8200
-Text Notes 17600 6150 0    50   ~ 6
+Text Notes 17600 6150 0    50   ~ 10
 MASTER ARM PANEL
 NoConn ~ 17000 8000
 NoConn ~ 17000 8100
@@ -386,7 +386,7 @@ Wire Wire Line
 Wire Wire Line
 	33600 8400 32500 8400
 Connection ~ 33600 8250
-Text Notes 32950 6150 0    50   ~ 6
+Text Notes 32950 6150 0    50   ~ 10
 SPIN RCVY PANEL
 Wire Notes Line
 	33650 8450 30000 8450
@@ -681,7 +681,7 @@ F 3 "~" H 20250 7850 50  0001 C CNN
 	1    20250 7850
 	1    0    0    -1  
 $EndComp
-Text Notes 17150 6450 0    50   ~ 6
+Text Notes 17150 6450 0    50   ~ 10
 ADD PANEL SIDE CONNECTORS
 $Comp
 L Connector_Generic:Conn_01x03 1A3A1P1
@@ -913,7 +913,7 @@ Wire Notes Line
 	21950 10250 21950 6050
 Wire Notes Line
 	21950 6050 18600 6050
-Text Notes 21300 6150 0    50   ~ 6
+Text Notes 21300 6150 0    50   ~ 10
 LEFT DDI BEZEL
 Wire Wire Line
 	16600 5650 16600 5150
@@ -1231,7 +1231,7 @@ Wire Notes Line
 	29700 10250 29700 6050
 Wire Notes Line
 	29700 6050 26350 6050
-Text Notes 29000 6150 0    50   ~ 6
+Text Notes 29000 6150 0    50   ~ 10
 RIGHT DDI BEZEL
 $Comp
 L OpenHornet:EWI_PCB 1A4A
@@ -1285,7 +1285,7 @@ Wire Notes Line
 	24050 7200 22150 7200
 Wire Notes Line
 	22150 7200 22150 6050
-Text Notes 24050 6350 2    50   ~ 6
+Text Notes 24050 6350 2    50   ~ 10
 LEFT EYEBROW \nWARNING \nINDICATORS
 $Comp
 L Connector_Generic:Conn_01x04 10A1W2P5
@@ -1372,7 +1372,7 @@ Wire Notes Line
 	26150 7200 24250 7200
 Wire Notes Line
 	24250 7200 24250 6050
-Text Notes 26150 6350 2    50   ~ 6
+Text Notes 26150 6350 2    50   ~ 10
 RIGHT EYEBROW \nWARNING \nINDICATORS
 $Comp
 L Connector_Generic:Conn_01x04 10A1W2P6
@@ -1617,7 +1617,7 @@ F 3 "" H 37200 5500 50  0001 C CNN
 	1    37750 5500
 	1    0    0    -1  
 $EndComp
-Text Notes 13550 3550 0    50   ~ 6
+Text Notes 13550 3550 0    50   ~ 10
 4) +12V\n3) +5V\n2) +3.3V\n1) GND
 $Comp
 L OpenHornet:GS105 6A
@@ -1795,7 +1795,7 @@ F 3 "~" H 37750 5000 50  0001 C CNN
 	1    37750 5000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 35000 3850 1    50   Input ~ 6
+Text GLabel 35000 3850 1    50   Input ~ 10
 SIM_PC
 Wire Wire Line
 	35000 3850 35000 4000
@@ -1832,7 +1832,7 @@ F 3 "~" H 34350 3350 50  0001 C CNN
 	1    34350 3350
 	-1   0    0    1   
 $EndComp
-Text Notes 34000 3350 0    50   ~ 6
+Text Notes 34000 3350 0    50   ~ 10
 2) +5V\n1) GND
 $Comp
 L Connector_Generic:Conn_01x01 J6A2W1P2
@@ -1913,9 +1913,9 @@ Wire Wire Line
 	35300 4000 35300 3750
 Wire Wire Line
 	35300 3750 37750 3750
-Text GLabel 41250 4450 1    50   Input ~ 6
+Text GLabel 41250 4450 1    50   Input ~ 10
 STBY_INST_HDMI
-Text GLabel 42050 4450 1    50   Input ~ 6
+Text GLabel 42050 4450 1    50   Input ~ 10
 IFEI_HDMI
 Wire Wire Line
 	37750 3750 37750 4600
@@ -2095,9 +2095,9 @@ Wire Wire Line
 	37100 6350 37100 6500
 Wire Wire Line
 	37850 6500 37850 6350
-Text GLabel 36150 6500 3    50   Input ~ 6
+Text GLabel 36150 6500 3    50   Input ~ 10
 LEFT_DDI_HDMI
-Text GLabel 36250 6500 3    50   Input ~ 6
+Text GLabel 36250 6500 3    50   Input ~ 10
 RIGHT_DDI_HDMI
 Wire Wire Line
 	36150 6350 36150 6500
@@ -2125,7 +2125,7 @@ F 3 "~" H 38850 4800 50  0001 C CNN
 	1    38850 4800
 	0    -1   1    0   
 $EndComp
-Text GLabel 38850 4450 1    50   Input ~ 6
+Text GLabel 38850 4450 1    50   Input ~ 10
 LEFT_DDI_HDMI
 Wire Wire Line
 	38850 4450 38850 4600
@@ -2177,7 +2177,7 @@ F 3 "~" H 39650 4800 50  0001 C CNN
 	1    39650 4800
 	0    -1   1    0   
 $EndComp
-Text GLabel 39650 4450 1    50   Input ~ 6
+Text GLabel 39650 4450 1    50   Input ~ 10
 RIGHT_DDI_HDMI
 Wire Wire Line
 	39650 4450 39650 4600
@@ -2376,7 +2376,7 @@ Wire Wire Line
 Wire Wire Line
 	41750 3250 41750 4600
 Connection ~ 40950 3250
-Text GLabel 40450 4450 1    50   Input ~ 6
+Text GLabel 40450 4450 1    50   Input ~ 10
 AMPCD_HDMI
 Wire Wire Line
 	42050 4450 42050 4600
@@ -2384,11 +2384,11 @@ Wire Wire Line
 	41250 4450 41250 4600
 Wire Wire Line
 	40450 4450 40450 4600
-Text GLabel 37000 6500 3    50   Input ~ 6
+Text GLabel 37000 6500 3    50   Input ~ 10
 AMPCD_HDMI
-Text GLabel 37100 6500 3    50   Input ~ 6
+Text GLabel 37100 6500 3    50   Input ~ 10
 STBY_INST_HDMI
-Text GLabel 37850 6500 3    50   Input ~ 6
+Text GLabel 37850 6500 3    50   Input ~ 10
 IFEI_HDMI
 $Comp
 L Connector_Generic:Conn_01x01 6A1A1J3
@@ -2693,7 +2693,7 @@ Wire Notes Line
 	42450 7550 42450 3000
 Wire Notes Line
 	42450 3000 33950 3000
-Text Notes 40950 3100 0    50   ~ 6
+Text Notes 40950 3100 0    50   ~ 10
 SIMULATOR INTERNAL DISPLAY SYSTEM
 $Comp
 L OpenHornet:HB-U14P A?
@@ -2706,11 +2706,11 @@ F 3 "" H 33750 8900 50  0001 C CNN
 	1    34750 9350
 	1    0    0    -1  
 $EndComp
-Text GLabel 14800 4200 1    50   Input ~ 6
+Text GLabel 14800 4200 1    50   Input ~ 10
 1A1A
-Text GLabel 34150 9800 3    50   Input ~ 6
+Text GLabel 34150 9800 3    50   Input ~ 10
 1A1A
-Text GLabel 34850 8900 1    50   Input ~ 6
+Text GLabel 34850 8900 1    50   Input ~ 10
 SIM_PC
 Wire Wire Line
 	34550 3350 35950 3350
@@ -2727,7 +2727,7 @@ F 3 "~" H 34400 3750 50  0001 C CNN
 	1    34400 3750
 	-1   0    0    1   
 $EndComp
-Text Notes 34000 3750 0    50   ~ 6
+Text Notes 34000 3750 0    50   ~ 10
 2) +12V\n1) GND
 Wire Wire Line
 	34600 3750 34800 3750
@@ -2748,7 +2748,7 @@ F 3 "~" H 38200 3350 50  0001 C CNN
 	1    38200 3350
 	-1   0    0    1   
 $EndComp
-Text Notes 37850 3350 0    50   ~ 6
+Text Notes 37850 3350 0    50   ~ 10
 2) +5V\n1) GND
 Wire Wire Line
 	38400 3250 38550 3250
@@ -2773,7 +2773,7 @@ Connection ~ 40250 3350
 Wire Wire Line
 	40150 3250 40050 3250
 Connection ~ 40150 3250
-Text Notes 39500 3350 0    50   ~ 6
+Text Notes 39500 3350 0    50   ~ 10
 2) +5V\n1) GND
 $Comp
 L Connector_Generic:Conn_01x02 10A1W7P1
@@ -2822,9 +2822,9 @@ Wire Notes Line
 	35900 10300 33950 10300
 Wire Notes Line
 	33950 10300 33950 7750
-Text Notes 35150 7850 0    50   ~ 6
+Text Notes 35150 7850 0    50   ~ 10
 PRIMARY USB HUB
-Text Notes 34050 8150 0    50   ~ 6
+Text Notes 34050 8150 0    50   ~ 10
 2) +5V\n1) GND
 Wire Wire Line
 	34600 8150 34750 8150
@@ -3800,7 +3800,7 @@ F 3 "" H 7650 7650 40  0001 C CNN
 $EndComp
 Entry Bus Bus
 	7250 8200 7350 8100
-Text GLabel 34250 9800 3    50   Input ~ 6
+Text GLabel 34250 9800 3    50   Input ~ 10
 1A8A
 $Comp
 L Connector_Generic:Conn_01x01 1A8A1W1P2
@@ -3868,19 +3868,8 @@ F 3 "~" H 9050 5350 50  0001 C CNN
 	1    9050 5350
 	0    1    1    0   
 $EndComp
-Text GLabel 9400 4300 1    50   Input ~ 6
+Text GLabel 9400 4300 1    50   Input ~ 10
 1A8A
-$Comp
-L Connector_Generic:Conn_01x04 1A8A1J1
-U 1 1 60F28A39
-P 9000 4100
-F 0 "1A8A1J1" V 9000 4600 50  0000 R CNN
-F 1 "Conn_01x04" V 8950 4750 50  0001 R CNN
-F 2 "" H 9000 4100 50  0001 C CNN
-F 3 "~" H 9000 4100 50  0001 C CNN
-	1    9000 4100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L OpenHornet:UFC_SHIELD 1A8A1
 U 1 1 60F23208
@@ -3915,15 +3904,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 10A1W8P1
 U 1 1 614341F2
-P 7250 3550
-F 0 "10A1W8P1" H 7250 3200 50  0000 C CNN
-F 1 "Conn_01x04" H 7168 3216 50  0001 C CNN
-F 2 "" H 7250 3550 50  0001 C CNN
-F 3 "~" H 7250 3550 50  0001 C CNN
-	1    7250 3550
+P 7200 4300
+F 0 "10A1W8P1" H 7200 3950 50  0000 C CNN
+F 1 "Conn_01x04" H 7118 3966 50  0001 C CNN
+F 2 "" H 7200 4300 50  0001 C CNN
+F 3 "~" H 7200 4300 50  0001 C CNN
+	1    7200 4300
 	-1   0    0    1   
 $EndComp
-Text Notes 6800 3650 0    50   ~ 6
+Text Notes 6750 4400 0    50   ~ 10
 4) +12V\n3) +5V\n2) +3.3V\n1) GND
 $Comp
 L Connector_Generic:Conn_01x04 10A1W8P3
@@ -3936,53 +3925,6 @@ F 3 "~" H 7650 5400 50  0001 C CNN
 	1    7650 5400
 	0    -1   1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 10A1W8P2
-U 1 1 61482DDB
-P 9000 3950
-F 0 "10A1W8P2" V 9000 4500 50  0000 R CNN
-F 1 "Conn_01x04" V 8963 3662 50  0001 R CNN
-F 2 "" H 9000 3950 50  0001 C CNN
-F 3 "~" H 9000 3950 50  0001 C CNN
-	1    9000 3950
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	7450 3650 7550 3650
-Wire Wire Line
-	7550 3650 7550 5200
-Wire Wire Line
-	7650 5200 7650 3550
-Wire Wire Line
-	7650 3550 7450 3550
-Wire Wire Line
-	7450 3450 7750 3450
-Wire Wire Line
-	7750 3450 7750 5200
-Wire Wire Line
-	7850 5200 7850 3350
-Wire Wire Line
-	7850 3350 7450 3350
-Wire Wire Line
-	7850 3350 9200 3350
-Wire Wire Line
-	9200 3350 9200 3750
-Connection ~ 7850 3350
-Wire Wire Line
-	9100 3750 9100 3450
-Wire Wire Line
-	9100 3450 7750 3450
-Connection ~ 7750 3450
-Wire Wire Line
-	9000 3750 9000 3550
-Wire Wire Line
-	9000 3550 7650 3550
-Connection ~ 7650 3550
-Wire Wire Line
-	8900 3750 8900 3650
-Wire Wire Line
-	8900 3650 7550 3650
-Connection ~ 7550 3650
 Wire Bus Line
 	4800 8400 4500 8400
 Wire Bus Line
@@ -4001,11 +3943,11 @@ Wire Notes Line
 	13150 10450 1350 10450
 Wire Notes Line
 	1350 10450 1350 3000
-Text Notes 11900 3100 0    50   ~ 6
+Text Notes 11900 3100 0    50   ~ 10
 UPFRONT CONTROL PANEL (UFC)
-Text Notes 500  650  0    94   ~ 6
+Text Notes 500  650  0    94   ~ 19
 NOTES: (UNLESS OTHERWISE SPECIFIED)
-Text Notes 550  950  0    98   ~ 6
+Text Notes 550  950  0    98   ~ 20
 1) XXXXXXXXX\n2) XXXXXXXXX
 Wire Notes Line
 	13350 3000 33750 3000
@@ -4015,8 +3957,28 @@ Wire Notes Line
 	33750 10300 13400 10300
 Wire Notes Line
 	13400 10300 13400 3000
-Text Notes 19950 2150 0    394  ~ 6
+Text Notes 19950 2150 0    394  ~ 79
 UPPER INSTRUMENT PANEL
+NoConn ~ 8900 4300
+NoConn ~ 9000 4300
+NoConn ~ 9100 4300
+NoConn ~ 9200 4300
+Wire Wire Line
+	7400 4400 7550 4400
+Wire Wire Line
+	7550 4400 7550 5200
+Wire Wire Line
+	7400 4300 7650 4300
+Wire Wire Line
+	7650 4300 7650 5200
+Wire Wire Line
+	7750 5200 7750 4200
+Wire Wire Line
+	7750 4200 7400 4200
+Wire Wire Line
+	7400 4100 7850 4100
+Wire Wire Line
+	7850 4100 7850 5200
 Wire Bus Line
 	9650 7600 9650 8200
 Wire Bus Line
