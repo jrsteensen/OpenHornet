@@ -29,4 +29,10 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP SW_Rotary10
+D rotary switch with 12 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
 #End Doc Library
