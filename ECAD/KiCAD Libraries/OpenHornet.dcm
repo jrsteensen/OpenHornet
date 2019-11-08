@@ -29,6 +29,10 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP RWR_Control_Panel
+D EWI PCB based on ABSIS Nano
+$ENDCMP
+#
 $CMP SW_Rotary10
 D rotary switch with 12 positions
 K rotary switch
