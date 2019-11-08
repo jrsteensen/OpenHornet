@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Nano-ABSIS 1A2A
+L ABSIS:ABSIS_Nano 1A2A
 U 1 1 5BD0AC03
 P 16250 7450
 F 0 "1A2A" H 16250 7650 50  0000 C CNN
@@ -157,7 +157,7 @@ NoConn ~ 15500 7050
 NoConn ~ 15500 6950
 NoConn ~ 15500 6850
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Mega_RS485_Bus_Master-ABSIS 1A1A
+L ABSIS:ABSIS_Mega_RS485_Bus_Master 1A1A
 U 1 1 5DBB4D88
 P 14600 4900
 F 0 "1A1A" H 14200 5450 50  0000 R CNN
@@ -171,7 +171,7 @@ NoConn ~ 15000 5000
 NoConn ~ 15000 4900
 NoConn ~ 15000 4800
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Nano-ABSIS 1A7A
+L ABSIS:ABSIS_Nano 1A7A
 U 1 1 5DBBE7FD
 P 31650 7450
 F 0 "1A7A" H 31650 7650 50  0000 C CNN
@@ -594,7 +594,7 @@ Wire Notes Line
 Wire Notes Line
 	30000 6050 30000 8450
 $Comp
-L Main-Instrument-Panel-rescue:DDI_AMPCD_Shield-OpenHornet 1A3A
+L OpenHornet:DDI_AMPCD_Shield 1A3A
 U 1 1 5DCA62DF
 P 19350 7450
 F 0 "1A3A" H 20100 8300 50  0000 C CNN
@@ -836,17 +836,6 @@ Wire Wire Line
 Wire Wire Line
 	19100 3250 19100 5650
 Connection ~ 16000 3250
-$Comp
-L Main-Instrument-Panel-rescue:SW_Rotary6-KiCadCustomLib 1A3A1SW1
-U 1 1 5DD57FFE
-P 21300 8350
-F 0 "1A3A1SW1" H 20850 9100 50  0000 C CNN
-F 1 "MODE" H 20850 9000 50  0000 C CNN
-F 2 "" H 21100 9050 50  0001 C CNN
-F 3 "" H 21100 9050 50  0001 C CNN
-	1    21300 8350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	21900 8450 21900 8350
 NoConn ~ 20900 8050
@@ -863,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	20750 8450 21900 8450
 $Comp
-L Main-Instrument-Panel-rescue:DDI_Button_PCB-OpenHornet 1A3A1A
+L OpenHornet:DDI_Button_PCB 1A3A1A
 U 1 1 5DD9D5FD
 P 19250 10000
 F 0 "1A3A1A" H 19528 10104 50  0000 L CNN
@@ -934,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	19500 5350 19500 5650
 $Comp
-L Main-Instrument-Panel-rescue:DDI_AMPCD_Shield-OpenHornet 1A6A
+L OpenHornet:DDI_AMPCD_Shield 1A6A
 U 1 1 5DDDFE9C
 P 27100 7450
 F 0 "1A6A" H 27850 8300 50  0000 C CNN
@@ -1155,7 +1144,7 @@ F 3 "~" H 27550 5850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:SW_Rotary6-KiCadCustomLib 1A6A1SW1
+L KiCadCustomLib:SW_Rotary6 1A6A1SW1
 U 1 1 5DDDFF5E
 P 29050 8350
 F 0 "1A6A1SW1" H 28600 9100 50  0000 C CNN
@@ -1181,7 +1170,7 @@ Wire Wire Line
 Wire Wire Line
 	28500 8450 29650 8450
 $Comp
-L Main-Instrument-Panel-rescue:DDI_Button_PCB-OpenHornet 1A6A1A
+L OpenHornet:DDI_Button_PCB 1A6A1A
 U 1 1 5DDDFF71
 P 27000 10000
 F 0 "1A6A1A" H 27278 10104 50  0000 L CNN
@@ -1234,7 +1223,7 @@ Wire Notes Line
 Text Notes 29000 6150 0    50   ~ 10
 RIGHT DDI BEZEL
 $Comp
-L Main-Instrument-Panel-rescue:EWI_PCB-OpenHornet 1A4A
+L OpenHornet:EWI_PCB 1A4A
 U 1 1 5DE2797D
 P 22800 6800
 F 0 "1A4A" H 23428 6854 50  0000 L CNN
@@ -1321,7 +1310,7 @@ F 3 "~" H 23250 5850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:EWI_PCB-OpenHornet 1A5A
+L OpenHornet:EWI_PCB 1A5A
 U 1 1 5DE41702
 P 24900 6800
 F 0 "1A5A" H 25528 6854 50  0000 L CNN
@@ -1585,7 +1574,7 @@ Wire Wire Line
 Wire Wire Line
 	31800 5350 31800 5650
 $Comp
-L Main-Instrument-Panel-rescue:RPi_4b-OpenHornet 6A1A
+L OpenHornet:RPi_4b 6A1A
 U 1 1 5E0428E5
 P 36050 5500
 F 0 "6A1A" H 36300 5550 50  0000 L CNN
@@ -1596,7 +1585,7 @@ F 3 "" H 35500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:RPi_4b-OpenHornet 6A2A
+L OpenHornet:RPi_4b 6A2A
 U 1 1 5E0436F3
 P 36900 5500
 F 0 "6A2A" H 37150 5550 50  0000 L CNN
@@ -1607,7 +1596,7 @@ F 3 "" H 36350 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:RPi_4b-OpenHornet 6A3A
+L OpenHornet:RPi_4b 6A3A
 U 1 1 5E0439FB
 P 37750 5500
 F 0 "6A3A" H 38000 5550 50  0000 L CNN
@@ -1620,7 +1609,7 @@ $EndComp
 Text Notes 13550 3550 0    50   ~ 10
 4) +12V\n3) +5V\n2) +3.3V\n1) GND
 $Comp
-L Main-Instrument-Panel-rescue:GS105-OpenHornet 6A
+L OpenHornet:GS105 6A
 U 1 1 5E054493
 P 35050 5450
 F 0 "6A" H 35478 5554 50  0000 L CNN
@@ -1936,7 +1925,7 @@ Wire Wire Line
 Wire Wire Line
 	35850 3250 35850 4600
 $Comp
-L Main-Instrument-Panel-rescue:800168-OpenHornet 6A1A1A
+L OpenHornet:800168 6A1A1A
 U 1 1 5E379BBE
 P 38700 5550
 F 0 "6A1A1A" H 38928 5571 50  0000 L CNN
@@ -1947,7 +1936,7 @@ F 3 "" H 38700 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:800168-OpenHornet 6A1A2A
+L OpenHornet:800168 6A1A2A
 U 1 1 5E37C088
 P 39500 5550
 F 0 "6A1A2A" H 39728 5571 50  0000 L CNN
@@ -2190,7 +2179,7 @@ Wire Wire Line
 Wire Wire Line
 	39350 3250 39350 4600
 $Comp
-L Main-Instrument-Panel-rescue:800168-OpenHornet 6A2A1A
+L OpenHornet:800168 6A2A1A
 U 1 1 5E487251
 P 40300 5550
 F 0 "6A2A1A" H 40528 5571 50  0000 L CNN
@@ -2201,7 +2190,7 @@ F 3 "" H 40300 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:800168-OpenHornet 6A2A2A
+L OpenHornet:800168 6A2A2A
 U 1 1 5E48725B
 P 41100 5550
 F 0 "6A2A2A" H 41328 5571 50  0000 L CNN
@@ -2300,7 +2289,7 @@ F 3 "~" H 41250 4800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:800168-OpenHornet 6A3A1A
+L OpenHornet:800168 6A3A1A
 U 1 1 5E49EC88
 P 41900 5550
 F 0 "6A3A1A" H 42128 5571 50  0000 L CNN
@@ -2501,7 +2490,7 @@ F 3 "~" H 41950 6150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:ER-TFTB101A1-1-OpenHornet 6A1A1DS1
+L OpenHornet:ER-TFTB101A1-1 6A1A1DS1
 U 1 1 5DBE0355
 P 38700 7000
 F 0 "6A1A1DS1" H 38500 6650 50  0000 L CNN
@@ -2538,7 +2527,7 @@ Wire Wire Line
 Wire Wire Line
 	38750 6500 38750 6650
 $Comp
-L Main-Instrument-Panel-rescue:ER-TFTB101A1-1-OpenHornet 6A1A2DS1
+L OpenHornet:ER-TFTB101A1-1 6A1A2DS1
 U 1 1 5DC22852
 P 39500 7000
 F 0 "6A1A2DS1" H 39300 6650 50  0000 L CNN
@@ -2575,7 +2564,7 @@ Wire Wire Line
 Wire Wire Line
 	39550 6500 39550 6650
 $Comp
-L Main-Instrument-Panel-rescue:ER-TFTB101A1-1-OpenHornet 6A2A1DS1
+L OpenHornet:ER-TFTB101A1-1 6A2A1DS1
 U 1 1 5DC3AE8D
 P 40300 7000
 F 0 "6A2A1DS1" H 40100 6650 50  0000 L CNN
@@ -2638,7 +2627,7 @@ Wire Wire Line
 Wire Wire Line
 	41150 6500 41150 6650
 $Comp
-L Main-Instrument-Panel-rescue:ER-TFTB101A1-1-OpenHornet 6A2A2DS1
+L OpenHornet:ER-TFTB101A1-1 6A2A2DS1
 U 1 1 5DC51863
 P 41100 7000
 F 0 "6A2A2DS1" H 40900 6650 50  0000 L CNN
@@ -2649,7 +2638,7 @@ F 3 "" H 41100 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:ER-TFTB101A1-1-OpenHornet 6A3A1DS1
+L OpenHornet:ER-TFTB101A1-1 6A3A1DS1
 U 1 1 5DC6FE91
 P 41900 7000
 F 0 "6A3A1DS1" H 41700 6650 50  0000 L CNN
@@ -2696,7 +2685,7 @@ Wire Notes Line
 Text Notes 40950 3100 0    50   ~ 10
 SIMULATOR INTERNAL DISPLAY SYSTEM
 $Comp
-L Main-Instrument-Panel-rescue:HB-U14P-OpenHornet A?
+L OpenHornet:HB-U14P A?
 U 1 1 5DC32613
 P 34750 9350
 F 0 "A?" H 35428 9396 50  0000 L CNN
@@ -3104,7 +3093,7 @@ F 3 "~" H 11750 6350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:ER-OLEDM023-1W-OpenHornet DS?
+L OpenHornet:ER-OLEDM023-1W DS?
 U 1 1 5DC50D8D
 P 12650 6600
 F 0 "DS?" H 12450 5050 50  0000 C CNN
@@ -3712,7 +3701,7 @@ F 3 "~" H 5700 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:AP_PCB-OpenHornet 1A8A3
+L OpenHornet:AP_PCB 1A8A3
 U 1 1 5F2A5D03
 P 5400 8750
 F 0 "1A8A3" H 5000 8700 50  0000 C CNN
@@ -3788,7 +3777,7 @@ F 3 "~" H 8300 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Main-Instrument-Panel-rescue:UFC-OpenHornet 1A8A
+L OpenHornet:UFC 1A8A
 U 1 1 5DC1CF6D
 P 7950 6750
 F 0 "1A8A" H 7350 7750 40  0000 C CNN
@@ -3871,7 +3860,7 @@ $EndComp
 Text GLabel 9400 4300 1    50   Input ~ 10
 1A8A
 $Comp
-L Main-Instrument-Panel-rescue:UFC_SHIELD-OpenHornet 1A8A1
+L OpenHornet:UFC_SHIELD 1A8A1
 U 1 1 60F23208
 P 9150 4700
 F 0 "1A8A1" H 9478 4721 50  0000 L CNN
@@ -4082,7 +4071,7 @@ Wire Wire Line
 Wire Wire Line
 	16650 16900 16550 16900
 $Comp
-L Main-Instrument-Panel-rescue:DDI_Button_PCB-OpenHornet 6A2A1A
+L OpenHornet:DDI_Button_PCB 6A2A1A
 U 1 1 5DC8126E
 P 15050 19650
 F 0 "6A2A1A" H 15328 19754 50  0000 L CNN
@@ -4241,7 +4230,7 @@ Wire Notes Line
 Wire Notes Line
 	17300 19900 17300 15700
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Nano-ABSIS 2A3A
+L ABSIS:ABSIS_Nano 2A3A
 U 1 1 5E417C66
 P 10250 17100
 F 0 "2A3A" H 10250 17300 50  0000 C CNN
@@ -4500,7 +4489,7 @@ Text GLabel 4750 13750 1    50   Input ~ 10
 Text GLabel 34350 9800 3    50   Input ~ 10
 2A1A
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Nano-ABSIS 2A6A
+L ABSIS:ABSIS_Nano 2A6A
 U 1 1 5F14A745
 P 21250 17100
 F 0 "2A6A" H 21250 17300 50  0000 C CNN
@@ -4732,7 +4721,7 @@ Wire Notes Line
 Text Notes 23750 15900 0    50   ~ 10
 DISP/ECM PANEL &\nCABIN PRESS GAUGE
 $Comp
-L Main-Instrument-Panel-rescue:ABSIS_Nano-ABSIS 2A7A
+L ABSIS:ABSIS_Nano 2A7A
 U 1 1 60D8757A
 P 26300 17100
 F 0 "2A7A" H 26300 17300 50  0000 C CNN
@@ -4955,8 +4944,6 @@ F 3 "~" H 28800 15800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	28900 16200 29200 16200
-Wire Wire Line
-	29200 16400 29200 16300
 Wire Notes Line
 	28550 15700 28550 16500
 Wire Notes Line
@@ -4969,10 +4956,6 @@ Text Notes 29450 15800 0    50   ~ 10
 RUDDER PEDAL ADJUST
 Wire Wire Line
 	28900 16000 28900 16200
-Wire Wire Line
-	28800 16000 28800 16300
-Wire Wire Line
-	28800 16300 29200 16300
 Text Notes 19800 11450 0    394  ~ 79
 LOWER INSTRUMENT PANEL
 $Comp
@@ -5008,8 +4991,6 @@ Wire Wire Line
 	29600 16200 29750 16200
 Wire Wire Line
 	30250 16200 30250 16400
-Wire Wire Line
-	29200 16400 30250 16400
 Wire Notes Line
 	12500 15700 12500 18100
 Wire Notes Line
@@ -5334,6 +5315,23 @@ Wire Notes Line
 	12650 15700 24550 15700
 Wire Notes Line
 	20400 18050 17300 18050
+Text Notes 19550 15800 0    50   ~ 10
+RWR CONTROL PANEL
+$Comp
+L KiCadCustomLib:SW_Rotary6 1A3A1SW1
+U 1 1 5DD57FFE
+P 21300 8350
+F 0 "1A3A1SW1" H 20850 9100 50  0000 C CNN
+F 1 "MODE" H 20850 9000 50  0000 C CNN
+F 2 "" H 21100 9050 50  0001 C CNN
+F 3 "" H 21100 9050 50  0001 C CNN
+	1    21300 8350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	28800 16000 28800 16400
+Wire Wire Line
+	28800 16400 30250 16400
 Wire Bus Line
 	9650 7600 9650 8200
 Wire Bus Line
@@ -5342,6 +5340,4 @@ Wire Bus Line
 	7150 8050 7150 9450
 Wire Bus Line
 	4800 6450 4800 8400
-Text Notes 19550 15800 0    50   ~ 10
-RWR CONTROL PANEL
 $EndSCHEMATC
