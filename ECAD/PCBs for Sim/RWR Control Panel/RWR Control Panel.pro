@@ -1,6 +1,6 @@
-update=11/7/2019 5:49:21 PM
+update=11/10/19 00:52:00
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -248,7 +248,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=control
 Clearance=0.1778
-TrackWidth=0.2286
+TrackWidth=0.1778
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -259,7 +259,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=pwr12v
 Clearance=0.2032
-TrackWidth=0.762
+TrackWidth=0.508
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
