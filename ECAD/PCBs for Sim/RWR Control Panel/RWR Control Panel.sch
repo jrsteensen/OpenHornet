@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:RWR Control Panel-cache
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -1419,8 +1420,6 @@ $EndComp
 Wire Wire Line
 	1650 7150 1600 7150
 Wire Wire Line
-	1400 7250 1650 7250
-Wire Wire Line
 	1650 7350 1600 7350
 $Comp
 L power:+3.3V #PWR013
@@ -1446,56 +1445,14 @@ F 3 "" H 1600 7800 50  0001 C CNN
 	1    1600 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 7350 1600 7400
 Text Label 1250 7250 0    60   ~ 0
 A0
 Text Label 2100 7250 0    60   ~ 0
 A1
 Text Notes 1600 6800 0    50   ~ 0
 ROTARY POT CONNECTIONS
-$Comp
-L Device:R R3
-U 1 1 5C51452F
-P 1600 7550
-F 0 "R3" V 1680 7550 50  0000 C CNN
-F 1 "1K" V 1600 7550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1530 7550 50  0001 C CNN
-F 3 "" H 1600 7550 50  0001 C CNN
-F 4 "VARIOUS" V 1600 7550 60  0001 C CNN "PN"
-	1    1600 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1600 7800 1600 7750
-$Comp
-L Device:R R2
-U 1 1 5C51C765
-P 1400 7550
-F 0 "R2" V 1480 7550 50  0000 C CNN
-F 1 "1M" V 1400 7550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1330 7550 50  0001 C CNN
-F 3 "" H 1400 7550 50  0001 C CNN
-F 4 "VARIOUS" V 1400 7550 60  0001 C CNN "PN"
-	1    1400 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1600 7750 1400 7750
-Wire Wire Line
-	1400 7750 1400 7700
-Connection ~ 1600 7750
-Wire Wire Line
-	1600 7750 1600 7700
-Wire Wire Line
-	1400 7400 1400 7250
-Wire Wire Line
-	1250 7250 1400 7250
-Connection ~ 1400 7250
 Wire Wire Line
 	2500 7150 2450 7150
-Wire Wire Line
-	2250 7250 2500 7250
 Wire Wire Line
 	2500 7350 2450 7350
 $Comp
@@ -1522,46 +1479,6 @@ F 3 "" H 2450 7800 50  0001 C CNN
 	1    2450 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 7350 2450 7400
-$Comp
-L Device:R R5
-U 1 1 5C545B2D
-P 2450 7550
-F 0 "R5" V 2530 7550 50  0000 C CNN
-F 1 "1K" V 2450 7550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2380 7550 50  0001 C CNN
-F 3 "" H 2450 7550 50  0001 C CNN
-F 4 "VARIOUS" V 2450 7550 60  0001 C CNN "PN"
-	1    2450 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2450 7800 2450 7750
-$Comp
-L Device:R R4
-U 1 1 5C545B36
-P 2250 7550
-F 0 "R4" V 2330 7550 50  0000 C CNN
-F 1 "1M" V 2250 7550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 7550 50  0001 C CNN
-F 3 "" H 2250 7550 50  0001 C CNN
-F 4 "VARIOUS" V 2250 7550 60  0001 C CNN "PN"
-	1    2250 7550
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2450 7750 2250 7750
-Wire Wire Line
-	2250 7750 2250 7700
-Connection ~ 2450 7750
-Wire Wire Line
-	2450 7750 2450 7700
-Wire Wire Line
-	2250 7400 2250 7250
-Wire Wire Line
-	2100 7250 2250 7250
-Connection ~ 2250 7250
 $Comp
 L power:GND #PWR027
 U 1 1 5C558DF4
@@ -1573,8 +1490,6 @@ F 3 "" H 4650 7600 50  0001 C CNN
 	1    4650 7600
 	1    0    0    -1  
 $EndComp
-Text Notes 2850 7500 0    50   ~ 0
-ANY INPUT VALUE LESS \nTHEN 0.25V SHOULD BE \nTREATED AS A DEVICE \nDISCONNECT
 $Comp
 L Connector:Conn_01x06_Male J7
 U 1 1 5C49FC33
@@ -1612,4 +1527,12 @@ Text Label 4300 7050 0    60   ~ 0
 A7
 Text Notes 4100 6800 0    50   ~ 0
 ROTARY SWITCH CONNECTIONs
+Wire Wire Line
+	2100 7250 2500 7250
+Wire Wire Line
+	2450 7350 2450 7800
+Wire Wire Line
+	1250 7250 1650 7250
+Wire Wire Line
+	1600 7350 1600 7800
 $EndSCHEMATC
