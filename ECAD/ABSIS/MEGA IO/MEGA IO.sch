@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:MEGA IO-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8

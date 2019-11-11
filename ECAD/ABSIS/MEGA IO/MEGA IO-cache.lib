@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x03_Male
+# Connector_Conn_01x03_Male
 #
-DEF Connector:Conn_01x03_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x03_Male" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -24,11 +24,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x04_Male
+# Connector_Conn_01x04_Male
 #
-DEF Connector:Conn_01x04_Male J 0 40 Y N 1 F N
+DEF Connector_Conn_01x04_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector:Conn_01x04_Male" 0 -300 50 H V C CNN
+F1 "Connector_Conn_01x04_Male" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -50,11 +50,11 @@ X Pin_4 4 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x08
+# Connector_Generic_Conn_01x08
 #
-DEF Connector_Generic:Conn_01x08 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic:Conn_01x08" 0 -500 50 H V C CNN
+F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -81,11 +81,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x10
+# Connector_Generic_Conn_01x10
 #
-DEF Connector_Generic:Conn_01x10 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x10 J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Connector_Generic:Conn_01x10" 0 -600 50 H V C CNN
+F1 "Connector_Generic_Conn_01x10" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -116,11 +116,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x03_Odd_Even
+# Connector_Generic_Conn_02x03_Odd_Even
 #
-DEF Connector_Generic:Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic:Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -143,11 +143,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x07_Odd_Even
+# Connector_Generic_Conn_02x07_Odd_Even
 #
-DEF Connector_Generic:Conn_02x07_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x07_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic:Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_02x07_Odd_Even" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -186,11 +186,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x11_Odd_Even
+# Connector_Generic_Conn_02x11_Odd_Even
 #
-DEF Connector_Generic:Conn_02x11_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x11_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 600 50 H V C CNN
-F1 "Connector_Generic:Conn_02x11_Odd_Even" 50 -600 50 H V C CNN
+F1 "Connector_Generic_Conn_02x11_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -245,11 +245,11 @@ X Pin_9 9 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x16_Odd_Even
+# Connector_Generic_Conn_02x16_Odd_Even
 #
-DEF Connector_Generic:Conn_02x16_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x16_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 800 50 H V C CNN
-F1 "Connector_Generic:Conn_02x16_Odd_Even" 50 -900 50 H V C CNN
+F1 "Connector_Generic_Conn_02x16_Odd_Even" 50 -900 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -324,11 +324,11 @@ X Pin_9 9 -200 300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x18_Odd_Even
+# Connector_Generic_Conn_02x18_Odd_Even
 #
-DEF Connector_Generic:Conn_02x18_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x18_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 900 50 H V C CNN
-F1 "Connector_Generic:Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
+F1 "Connector_Generic_Conn_02x18_Odd_Even" 50 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -411,11 +411,11 @@ X Pin_9 9 -200 400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -429,11 +429,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:D
+# Device_D
 #
-DEF Device:D D 0 40 N N 1 F N
+DEF Device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:D" 0 -100 50 H V C CNN
+F1 "Device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -451,11 +451,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NMOS_DGS
+# Device_Q_NMOS_DGS
 #
-DEF Device:Q_NMOS_DGS Q 0 0 Y N 1 F N
+DEF Device_Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NMOS_DGS" 200 -50 50 H V L CNN
+F1 "Device_Q_NMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -483,11 +483,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -500,11 +500,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_UART:MAX487E
+# Interface_UART_MAX487E
 #
-DEF Interface_UART:MAX487E U 0 20 Y Y 1 F N
+DEF Interface_UART_MAX487E U 0 20 Y Y 1 F N
 F0 "U" -240 450 50 H V C CNN
-F1 "Interface_UART:MAX487E" 30 450 50 H V L CNN
+F1 "Interface_UART_MAX487E" 30 450 50 H V L CNN
 F2 "" 0 -700 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 ALIAS MAX483E MAX485E MAX487E MAX1487E MAX3485 MAX3483 MAX3486
@@ -540,37 +540,11 @@ X VCC 8 0 500 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MEGA-IO-rescue:Conn_01x03_Male
+# Mechanical_MountingHole
 #
-DEF MEGA-IO-rescue:Conn_01x03_Male J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "MEGA-IO-rescue:Conn_01x03_Male" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
-$ENDFPLIST
-DRAW
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-X Pin_1 1 200 100 150 L 50 50 1 1 P
-X Pin_2 2 200 0 150 L 50 50 1 1 P
-X Pin_3 3 200 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Mechanical:MountingHole
-#
-DEF Mechanical:MountingHole MH 0 40 Y Y 1 F N
-F0 "MH" 0 200 50 H V C CNN
-F1 "Mechanical:MountingHole" 0 125 50 H V C CNN
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -581,11 +555,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_DIP_x04
+# Switch_SW_DIP_x04
 #
-DEF Switch:SW_DIP_x04 SW 0 0 Y N 1 F N
+DEF Switch_SW_DIP_x04 SW 0 0 Y N 1 F N
 F0 "SW" 0 350 50 H V C CNN
-F1 "Switch:SW_DIP_x04" 0 -250 50 H V C CNN
+F1 "Switch_SW_DIP_x04" 0 -250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -616,11 +590,11 @@ X ~ 8 300 200 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+12V
+# power_+12V
 #
-DEF power:+12V #PWR 0 0 Y Y 1 F P
+DEF power_+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -631,11 +605,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# power_+3.3V
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -647,11 +621,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -662,11 +636,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -675,11 +649,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
