@@ -83,5 +83,6 @@ void loop() {
 * @returns Description of returned value.
 */
 int sampleFunction(int myParam1, int myParam2) {
+  int myReturn;
   return myReturn;
 }
