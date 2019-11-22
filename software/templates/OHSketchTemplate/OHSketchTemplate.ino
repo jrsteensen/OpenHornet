@@ -42,12 +42,12 @@
  **************************************************************************************/
 
 /**
- * @file <sketchName.ino>
- * @author <Author Name>
- * @date <Date>
- * @brief <Very Brief Description>
+ * @file OHSketchTemplate
+ * @author Balz Reber
+ * @date 22.11.2019
+ * @brief This is the OpenHornet Sketch Template
  *
- * <Put a more detailed description of the sketch here>
+ * Put a more detailed description of the sketch here
  */
 
 
