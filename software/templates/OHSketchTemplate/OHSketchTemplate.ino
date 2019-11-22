@@ -42,7 +42,7 @@
  **************************************************************************************/
 
 /**
- * @file OHSketchTemplate
+ * @file OHSketchTemplate.ino
  * @author Balz Reber
  * @date 22.11.2019
  * @brief This is the OpenHornet Sketch Template
