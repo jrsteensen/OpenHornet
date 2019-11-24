@@ -47,9 +47,19 @@
  * @date 22.11.2019
  * @brief This is the OpenHornet Sketch Template
  *
- * This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
+ * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
  * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
  */
+
+/**
+ * Set DCS Bios to use irq serial
+ */
+#define DCSBIOS_IRQ_SERIAL
+
+/**
+ * DCS Bios library include
+ */
+#include "DcsBios.h"
 
 
 /**
@@ -60,6 +70,9 @@
 */
 void setup() {
 
+  // Run DCS Bios setup function
+  DcsBios::setup();
+
 }
 
 /**
@@ -69,6 +82,9 @@ void setup() {
 * over and over in a loop, belongs in this function.
 */
 void loop() {
+
+  //Run DCS Bios loop function
+  DcsBios::loop();
   
 }
 

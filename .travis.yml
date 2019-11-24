@@ -29,8 +29,9 @@ before_install:
    - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
    - curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/run-clang-format.py > run-clang-format.py
 
-#install:
+install:
 #   - arduino --install-library "Adafruit ILI9341","Adafruit GFX Library"
+  - if [ ! -d "$HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11" ]; then git clone https://github.com/dcs-bios/dcs-bios-arduino-library.git $HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11; fi
 
 script:
    - python run-clang-format.py -r .
