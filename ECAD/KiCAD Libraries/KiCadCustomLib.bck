@@ -387,6 +387,12 @@ K 4-Digit 5 ✕ 7 Matrix LED Display Driver 36 SSOP
 F http://datasheets.maximintegrated.com/en/ds/MAX6953.pdf
 $ENDCMP
 #
+$CMP MAX6955AAX+
+D 2-Wire Interfaced, 2.7V to 5.5V LED Display Driver with I/O Expander and Key Scan
+K LED Driver i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
@@ -409,6 +415,11 @@ $CMP SBC18-11SURKCGKWA
 D Single digit 7 segment hyper red and green LED display, common cathode
 K 7 segment LED display common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP SW_Rotary6
+D rotary switch with 6 positions
+K rotary switch
 $ENDCMP
 #
 $CMP WC1602A
