@@ -1,7 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:UFC_2.0-cache
-LIBS:UFC-cache
-EELAYER 29 0
+LIBS:UFC_3.0-cache
+EELAYER 30 0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
@@ -2800,16 +2799,14 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A23BB56
-P 17650 6100
-F 0 "#PWR?" H 17650 5850 50  0001 C CNN
-F 1 "GND" H 17650 5950 50  0000 C CNN
-F 2 "" H 17650 6100 50  0001 C CNN
-F 3 "" H 17650 6100 50  0001 C CNN
-	1    17650 6100
+P 14850 6050
+F 0 "#PWR?" H 14850 5800 50  0001 C CNN
+F 1 "GND" H 14850 5900 50  0000 C CNN
+F 2 "" H 14850 6050 50  0001 C CNN
+F 3 "" H 14850 6050 50  0001 C CNN
+	1    14850 6050
 	1    0    0    -1  
 $EndComp
-Text Notes 12200 3450 0    80   ~ 0
-LSDB\nSNAP DOME SWITCHES\n
 $Comp
 L Device:LED D?
 U 1 1 5A240C80
@@ -3372,13 +3369,13 @@ $EndComp
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5A2F938C
-P 17300 6100
-F 0 "SW?" H 17350 6200 50  0000 L CNN
-F 1 "EMCON" H 17300 6040 50  0000 C CNN
-F 2 "KiCAD Libraries:SWITCH_SNAP_DOME_6.3mm_DIA_SINGLE_SIDE_PCB" H 17300 6300 50  0001 C CNN
-F 3 "" H 17300 6300 50  0001 C CNN
-F 4 "GX06400" H 17300 6100 60  0001 C CNN "PN"
-	1    17300 6100
+P 14500 6050
+F 0 "SW?" H 14550 6150 50  0000 L CNN
+F 1 "EMCON" H 14500 5990 50  0000 C CNN
+F 2 "KiCAD Libraries:SWITCH_SNAP_DOME_6.3mm_DIA_SINGLE_SIDE_PCB" H 14500 6250 50  0001 C CNN
+F 3 "" H 14500 6250 50  0001 C CNN
+F 4 "GX06400" H 14500 6050 60  0001 C CNN "PN"
+	1    14500 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3839,7 +3836,7 @@ Wire Notes Line
 Wire Notes Line
 	1050 -7400 1050 -8150
 Wire Wire Line
-	17650 6100 17500 6100
+	14850 6050 14700 6050
 Wire Wire Line
 	14050 6050 13900 6050
 Wire Notes Line
@@ -4711,309 +4708,653 @@ Wire Notes Line
 	30900 7050 33500 7050
 Wire Notes Line
 	30900 7950 33500 7950
-Text Notes 6750 1650 0    80   ~ 0
-LEFT SIDE DAUGHTER BOARD (LSDB) (aka KEYBOARD)\nRIGHT SIDE DAUGHTER BOARD (RSDB) (aka DISPLAY BOARD)\nMAIN BOARD (MB)\n
 $Comp
 L KiCadCustomLib:MAX6955AAX+ U?
 U 1 1 5EE6D503
-P 16150 -6400
-F 0 "U?" H 16175 -5025 50  0000 C CNN
-F 1 "MAX6955AAX+" H 16175 -5116 50  0000 C CNN
-F 2 "" H 14500 -4750 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf" H 14500 -4750 50  0001 C CNN
-	1    16150 -6400
+P 21600 5600
+F 0 "U?" H 21625 6975 50  0000 C CNN
+F 1 "MAX6955AAX+" H 21625 6884 50  0000 C CNN
+F 2 "" H 19950 7250 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf" H 19950 7250 50  0001 C CNN
+	1    21600 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F11F398
-P 18600 -6600
-F 0 "U?" H 17950 -5500 50  0000 L CNN
-F 1 "OPT0-0" H 17950 -5600 50  0000 L CNN
-F 2 "" H 18300 -6600 50  0001 C CNN
-F 3 "" H 18300 -6600 50  0001 C CNN
-	1    18600 -6600
+P 23100 4600
+F 0 "U?" H 22900 5650 50  0000 L CNN
+F 1 "OPT0-0" H 22900 5550 50  0000 L CNN
+F 2 "" H 22800 4600 50  0001 C CNN
+F 3 "" H 22800 4600 50  0001 C CNN
+	1    23100 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F1A39A0
-P 20450 -6600
-F 0 "U?" H 19800 -5500 50  0000 L CNN
-F 1 "OPT0-1" H 19800 -5600 50  0000 L CNN
-F 2 "" H 20150 -6600 50  0001 C CNN
-F 3 "" H 20150 -6600 50  0001 C CNN
-	1    20450 -6600
+P 23850 4600
+F 0 "U?" H 23650 5650 50  0000 L CNN
+F 1 "OPT0-1" H 23650 5550 50  0000 L CNN
+F 2 "" H 23550 4600 50  0001 C CNN
+F 3 "" H 23550 4600 50  0001 C CNN
+	1    23850 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F1A5316
-P 22300 -6600
-F 0 "U?" H 21650 -5500 50  0000 L CNN
-F 1 "OPT0-2" H 21650 -5600 50  0000 L CNN
-F 2 "" H 22000 -6600 50  0001 C CNN
-F 3 "" H 22000 -6600 50  0001 C CNN
-	1    22300 -6600
+P 24650 4600
+F 0 "U?" H 24450 5650 50  0000 L CNN
+F 1 "OPT0-2" H 24450 5550 50  0000 L CNN
+F 2 "" H 24350 4600 50  0001 C CNN
+F 3 "" H 24350 4600 50  0001 C CNN
+	1    24650 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F1A7655
-P 24200 -6600
-F 0 "U?" H 23550 -5500 50  0000 L CNN
-F 1 "OPT0-3" H 23550 -5600 50  0000 L CNN
-F 2 "" H 23900 -6600 50  0001 C CNN
-F 3 "" H 23900 -6600 50  0001 C CNN
-	1    24200 -6600
+P 25400 4600
+F 0 "U?" H 25200 5650 50  0000 L CNN
+F 1 "OPT0-3" H 25200 5550 50  0000 L CNN
+F 2 "" H 25100 4600 50  0001 C CNN
+F 3 "" H 25100 4600 50  0001 C CNN
+	1    25400 4600
 	1    0    0    -1  
 $EndComp
-Text Label 16600 -7550 0    50   ~ 0
+Text Label 22050 4450 0    50   ~ 0
 O0-0
-Text Label 16600 -7450 0    50   ~ 0
+Text Label 22050 4550 0    50   ~ 0
 O1-0
-Text Label 16600 -7350 0    50   ~ 0
+Text Label 22050 4650 0    50   ~ 0
 O2-0
-Text Label 16600 -7250 0    50   ~ 0
+Text Label 22050 4750 0    50   ~ 0
 O3-0
-Text Label 16600 -7150 0    50   ~ 0
+Text Label 22050 4850 0    50   ~ 0
 O4-0
-Text Label 16600 -7050 0    50   ~ 0
+Text Label 22050 4950 0    50   ~ 0
 O5-0
-Text Label 16600 -6950 0    50   ~ 0
+Text Label 22050 5050 0    50   ~ 0
 O6-0
-Text Label 16600 -6850 0    50   ~ 0
+Text Label 22050 5150 0    50   ~ 0
 O7-0
-Text Label 16600 -6750 0    50   ~ 0
+Text Label 22050 5250 0    50   ~ 0
 O8-0
-Text Label 16600 -6650 0    50   ~ 0
+Text Label 22050 5350 0    50   ~ 0
 O9-0
-Text Label 16600 -6550 0    50   ~ 0
+Text Label 22050 5450 0    50   ~ 0
 O10-0
-Text Label 16600 -6450 0    50   ~ 0
+Text Label 22050 5550 0    50   ~ 0
 O11-0
-Text Label 16600 -6350 0    50   ~ 0
+Text Label 22050 5650 0    50   ~ 0
 O12-0
-Text Label 16600 -6250 0    50   ~ 0
+Text Label 22050 5750 0    50   ~ 0
 O13-0
-Text Label 16600 -6150 0    50   ~ 0
+Text Label 22050 5850 0    50   ~ 0
 O14-0
-Text Label 16600 -6050 0    50   ~ 0
+Text Label 22050 5950 0    50   ~ 0
 O15-0
-Text Label 16600 -5950 0    50   ~ 0
+Text Label 22050 6050 0    50   ~ 0
 O16-0
-Text Label 16600 -5850 0    50   ~ 0
+Text Label 22050 6150 0    50   ~ 0
 O17-0
-Text Label 16600 -5750 0    50   ~ 0
+Text Label 22050 6250 0    50   ~ 0
 O18-0
-Text Label 16600 -5650 0    50   ~ 0
-P0-0
-Text Label 16600 -5550 0    50   ~ 0
-P1-0
-Text Label 16600 -5450 0    50   ~ 0
-P2-0
-Text Label 16600 -5350 0    50   ~ 0
-P3-0
-Text Label 16600 -5250 0    50   ~ 0
-P4-0
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F288932
-P 18600 -4450
-F 0 "U?" H 17950 -3350 50  0000 L CNN
-F 1 "OPT1-0" H 17950 -3450 50  0000 L CNN
-F 2 "" H 18300 -4450 50  0001 C CNN
-F 3 "" H 18300 -4450 50  0001 C CNN
-	1    18600 -4450
+P 23100 6650
+F 0 "U?" H 22900 7700 50  0000 L CNN
+F 1 "OPT1-0" H 22900 7600 50  0000 L CNN
+F 2 "" H 22800 6650 50  0001 C CNN
+F 3 "" H 22800 6650 50  0001 C CNN
+	1    23100 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F28893C
-P 20450 -4450
-F 0 "U?" H 19800 -3350 50  0000 L CNN
-F 1 "OPT1-1" H 19800 -3450 50  0000 L CNN
-F 2 "" H 20150 -4450 50  0001 C CNN
-F 3 "" H 20150 -4450 50  0001 C CNN
-	1    20450 -4450
+P 23850 6650
+F 0 "U?" H 23650 7700 50  0000 L CNN
+F 1 "OPT1-1" H 23650 7600 50  0000 L CNN
+F 2 "" H 23550 6650 50  0001 C CNN
+F 3 "" H 23550 6650 50  0001 C CNN
+	1    23850 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F288946
-P 22300 -4450
-F 0 "U?" H 21650 -3350 50  0000 L CNN
-F 1 "OPT1-2" H 21650 -3450 50  0000 L CNN
-F 2 "" H 22000 -4450 50  0001 C CNN
-F 3 "" H 22000 -4450 50  0001 C CNN
-	1    22300 -4450
+P 24650 6650
+F 0 "U?" H 24450 7700 50  0000 L CNN
+F 1 "OPT1-2" H 24450 7600 50  0000 L CNN
+F 2 "" H 24350 6650 50  0001 C CNN
+F 3 "" H 24350 6650 50  0001 C CNN
+	1    24650 6650
 	1    0    0    -1  
 $EndComp
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
 U 1 1 5F288950
-P 24200 -4450
-F 0 "U?" H 23550 -3350 50  0000 L CNN
-F 1 "OPT1-3" H 23550 -3450 50  0000 L CNN
-F 2 "" H 23900 -4450 50  0001 C CNN
-F 3 "" H 23900 -4450 50  0001 C CNN
-	1    24200 -4450
+P 25400 6650
+F 0 "U?" H 25200 7700 50  0000 L CNN
+F 1 "OPT1-3" H 25200 7600 50  0000 L CNN
+F 2 "" H 25100 6650 50  0001 C CNN
+F 3 "" H 25100 6650 50  0001 C CNN
+	1    25400 6650
 	1    0    0    -1  
 $EndComp
-Text Label 17850 -7450 2    50   ~ 0
+Text Label 22800 3750 2    50   ~ 0
 O2-0
-Text Label 17300 -7550 2    50   ~ 0
-O0-0
-Text Label 17300 -7450 2    50   ~ 0
-O1-0
-Text Label 17300 -7350 2    50   ~ 0
-O2-0
-Text Label 17300 -7250 2    50   ~ 0
+Text Label 22800 3850 2    50   ~ 0
 O3-0
-Text Label 17300 -7150 2    50   ~ 0
+Text Label 22800 3950 2    50   ~ 0
 O4-0
-Text Label 17300 -7050 2    50   ~ 0
+Text Label 22800 4050 2    50   ~ 0
 O5-0
-Text Label 17300 -6950 2    50   ~ 0
+Text Label 22800 4150 2    50   ~ 0
 O6-0
-Text Label 17300 -6850 2    50   ~ 0
+Text Label 22800 4250 2    50   ~ 0
 O7-0
-Text Label 17300 -6750 2    50   ~ 0
+Text Label 22800 4350 2    50   ~ 0
 O8-0
-Text Label 17300 -6650 2    50   ~ 0
+Text Label 22800 4450 2    50   ~ 0
 O9-0
-Text Label 17300 -6550 2    50   ~ 0
+Text Label 22800 4550 2    50   ~ 0
 O10-0
-Text Label 17300 -6450 2    50   ~ 0
+Text Label 22800 4650 2    50   ~ 0
 O11-0
-Text Label 17300 -6350 2    50   ~ 0
+Text Label 22800 4750 2    50   ~ 0
 O12-0
-Text Label 17300 -6250 2    50   ~ 0
+Text Label 22800 4850 2    50   ~ 0
 O13-0
-Text Label 17300 -6150 2    50   ~ 0
+Text Label 22800 4950 2    50   ~ 0
 O14-0
-Text Label 17300 -6050 2    50   ~ 0
+Text Label 22800 5050 2    50   ~ 0
 O15-0
-Text Label 17300 -5950 2    50   ~ 0
+Text Label 22800 5150 2    50   ~ 0
 O16-0
-Text Label 17300 -5850 2    50   ~ 0
+Text Label 22800 5250 2    50   ~ 0
 O17-0
-Text Label 17300 -5750 2    50   ~ 0
+Text Label 22800 5350 2    50   ~ 0
 O18-0
-Text Label 17300 -5650 2    50   ~ 0
-P0-0
-Text Label 17300 -5550 2    50   ~ 0
-P1-0
-Text Label 17300 -5450 2    50   ~ 0
-P2-0
-Text Label 17300 -5350 2    50   ~ 0
-P3-0
-Text Label 17300 -5250 2    50   ~ 0
-P4-0
-Text Label 17850 -7350 2    50   ~ 0
-O3-0
-Text Label 17850 -7250 2    50   ~ 0
-O4-0
-Text Label 17850 -7150 2    50   ~ 0
-O5-0
-Text Label 17850 -7050 2    50   ~ 0
-O6-0
-Text Label 17850 -6950 2    50   ~ 0
-O7-0
-Text Label 17850 -6850 2    50   ~ 0
-O8-0
-Text Label 17850 -6750 2    50   ~ 0
-O9-0
-Text Label 17850 -6650 2    50   ~ 0
-O10-0
-Text Label 17850 -6550 2    50   ~ 0
-O11-0
-Text Label 17850 -6450 2    50   ~ 0
-O12-0
-Text Label 17850 -6350 2    50   ~ 0
-O13-0
-Text Label 17850 -6250 2    50   ~ 0
-O14-0
-Text Label 17850 -6150 2    50   ~ 0
-O15-0
-Text Label 17850 -6050 2    50   ~ 0
-O16-0
-Text Label 17850 -5950 2    50   ~ 0
-O17-0
-Text Label 17850 -5850 2    50   ~ 0
-O18-0
-Text Label 17850 -5750 2    50   ~ 0
+Text Label 22800 5450 2    50   ~ 0
 O0-0
-Text Label 19700 -7450 2    50   ~ 0
+Text Label 23550 3750 2    50   ~ 0
 O2-0
-Text Label 19700 -7350 2    50   ~ 0
+Text Label 23550 3850 2    50   ~ 0
 O3-0
-Text Label 19700 -7250 2    50   ~ 0
+Text Label 23550 3950 2    50   ~ 0
 O4-0
-Text Label 19700 -7150 2    50   ~ 0
+Text Label 23550 4050 2    50   ~ 0
 O5-0
-Text Label 19700 -7050 2    50   ~ 0
+Text Label 23550 4150 2    50   ~ 0
 O6-0
-Text Label 19700 -6950 2    50   ~ 0
+Text Label 23550 4250 2    50   ~ 0
 O7-0
-Text Label 19700 -6850 2    50   ~ 0
+Text Label 23550 4350 2    50   ~ 0
 O8-0
-Text Label 19700 -6750 2    50   ~ 0
+Text Label 23550 4450 2    50   ~ 0
 O9-0
-Text Label 19700 -6650 2    50   ~ 0
+Text Label 23550 4550 2    50   ~ 0
 O10-0
-Text Label 19700 -6550 2    50   ~ 0
+Text Label 23550 4650 2    50   ~ 0
 O11-0
-Text Label 19700 -6450 2    50   ~ 0
+Text Label 23550 4750 2    50   ~ 0
 O12-0
-Text Label 19700 -6350 2    50   ~ 0
+Text Label 23550 4850 2    50   ~ 0
 O13-0
-Text Label 19700 -6250 2    50   ~ 0
+Text Label 23550 4950 2    50   ~ 0
 O14-0
-Text Label 19700 -6150 2    50   ~ 0
+Text Label 23550 5050 2    50   ~ 0
 O15-0
-Text Label 19700 -6050 2    50   ~ 0
+Text Label 23550 5150 2    50   ~ 0
 O16-0
-Text Label 19700 -5950 2    50   ~ 0
+Text Label 23550 5250 2    50   ~ 0
 O17-0
-Text Label 19700 -5850 2    50   ~ 0
+Text Label 23550 5350 2    50   ~ 0
 O18-0
-Text Label 19700 -5750 2    50   ~ 0
+Text Label 23550 5450 2    50   ~ 0
 O1-0
-Text Label 21550 -7450 2    50   ~ 0
+Text Label 24350 3750 2    50   ~ 0
 O0-0
-Text Label 21550 -7350 2    50   ~ 0
+Text Label 24350 3850 2    50   ~ 0
 O1-0
-Text Label 21550 -7250 2    50   ~ 0
+Text Label 24350 3950 2    50   ~ 0
 O4-0
-Text Label 21550 -7150 2    50   ~ 0
+Text Label 24350 4050 2    50   ~ 0
 O5-0
-Text Label 21550 -7050 2    50   ~ 0
+Text Label 24350 4150 2    50   ~ 0
 O6-0
-Text Label 21550 -6950 2    50   ~ 0
+Text Label 24350 4250 2    50   ~ 0
 O7-0
-Text Label 21550 -6850 2    50   ~ 0
+Text Label 24350 4350 2    50   ~ 0
 O8-0
-Text Label 21550 -6750 2    50   ~ 0
+Text Label 24350 4450 2    50   ~ 0
 O9-0
-Text Label 21550 -6650 2    50   ~ 0
+Text Label 24350 4550 2    50   ~ 0
 O10-0
-Text Label 21550 -6550 2    50   ~ 0
+Text Label 24350 4650 2    50   ~ 0
 O11-0
-Text Label 21550 -6450 2    50   ~ 0
+Text Label 24350 4750 2    50   ~ 0
 O12-0
-Text Label 21550 -6350 2    50   ~ 0
+Text Label 24350 4850 2    50   ~ 0
 O13-0
-Text Label 21550 -6250 2    50   ~ 0
+Text Label 24350 4950 2    50   ~ 0
 O14-0
-Text Label 21550 -6150 2    50   ~ 0
+Text Label 24350 5050 2    50   ~ 0
 O15-0
-Text Label 21550 -6050 2    50   ~ 0
+Text Label 24350 5150 2    50   ~ 0
 O16-0
-Text Label 21550 -5950 2    50   ~ 0
+Text Label 24350 5250 2    50   ~ 0
 O17-0
-Text Label 21550 -5850 2    50   ~ 0
+Text Label 24350 5350 2    50   ~ 0
 O18-0
-Text Label 21550 -5750 2    50   ~ 0
+Text Label 24350 5450 2    50   ~ 0
 O2-0
+Text Label 25100 3750 2    50   ~ 0
+O0-0
+Text Label 25100 3850 2    50   ~ 0
+O1-0
+Text Label 25100 3950 2    50   ~ 0
+O4-0
+Text Label 25100 4050 2    50   ~ 0
+O5-0
+Text Label 25100 4150 2    50   ~ 0
+O6-0
+Text Label 25100 4250 2    50   ~ 0
+O7-0
+Text Label 25100 4350 2    50   ~ 0
+O8-0
+Text Label 25100 4450 2    50   ~ 0
+O9-0
+Text Label 25100 4550 2    50   ~ 0
+O10-0
+Text Label 25100 4650 2    50   ~ 0
+O11-0
+Text Label 25100 4750 2    50   ~ 0
+O12-0
+Text Label 25100 4850 2    50   ~ 0
+O13-0
+Text Label 25100 4950 2    50   ~ 0
+O14-0
+Text Label 25100 5050 2    50   ~ 0
+O15-0
+Text Label 25100 5150 2    50   ~ 0
+O16-0
+Text Label 25100 5250 2    50   ~ 0
+O17-0
+Text Label 25100 5350 2    50   ~ 0
+O18-0
+Text Label 25100 5450 2    50   ~ 0
+O3-0
+Text Label 22800 5800 2    50   ~ 0
+O0-0
+Text Label 22800 5900 2    50   ~ 0
+O1-0
+Text Label 22800 6000 2    50   ~ 0
+O2-0
+Text Label 22800 6100 2    50   ~ 0
+O3-0
+Text Label 22800 6200 2    50   ~ 0
+O6-0
+Text Label 22800 6300 2    50   ~ 0
+O6-0
+Text Label 22800 6400 2    50   ~ 0
+O8-0
+Text Label 22800 6500 2    50   ~ 0
+O9-0
+Text Label 22800 6600 2    50   ~ 0
+O10-0
+Text Label 22800 6700 2    50   ~ 0
+O11-0
+Text Label 22800 6800 2    50   ~ 0
+O12-0
+Text Label 22800 6900 2    50   ~ 0
+O13-0
+Text Label 22800 7000 2    50   ~ 0
+O14-0
+Text Label 22800 7100 2    50   ~ 0
+O15-0
+Text Label 22800 7200 2    50   ~ 0
+O16-0
+Text Label 22800 7300 2    50   ~ 0
+O17-0
+Text Label 22800 7400 2    50   ~ 0
+O18-0
+Text Label 22800 7500 2    50   ~ 0
+O4-0
+Text Label 23550 5800 2    50   ~ 0
+O0-0
+Text Label 23550 5900 2    50   ~ 0
+O1-0
+Text Label 23550 6000 2    50   ~ 0
+O2-0
+Text Label 23550 6100 2    50   ~ 0
+O3-0
+Text Label 23550 6200 2    50   ~ 0
+O6-0
+Text Label 23550 6300 2    50   ~ 0
+O7-0
+Text Label 23550 6400 2    50   ~ 0
+O8-0
+Text Label 23550 6500 2    50   ~ 0
+O9-0
+Text Label 23550 6600 2    50   ~ 0
+O10-0
+Text Label 23550 6700 2    50   ~ 0
+O11-0
+Text Label 23550 6800 2    50   ~ 0
+O12-0
+Text Label 23550 6900 2    50   ~ 0
+O13-0
+Text Label 23550 7000 2    50   ~ 0
+O14-0
+Text Label 23550 7100 2    50   ~ 0
+O15-0
+Text Label 23550 7200 2    50   ~ 0
+O16-0
+Text Label 23550 7300 2    50   ~ 0
+O17-0
+Text Label 23550 7400 2    50   ~ 0
+O18-0
+Text Label 23550 7500 2    50   ~ 0
+O5-0
+Text Label 24350 5800 2    50   ~ 0
+O0-0
+Text Label 24350 5900 2    50   ~ 0
+O1-0
+Text Label 24350 6000 2    50   ~ 0
+O2-0
+Text Label 24350 6100 2    50   ~ 0
+O3-0
+Text Label 24350 6200 2    50   ~ 0
+O4-0
+Text Label 24350 6300 2    50   ~ 0
+O5-0
+Text Label 24350 6400 2    50   ~ 0
+O8-0
+Text Label 24350 6500 2    50   ~ 0
+O9-0
+Text Label 24350 6600 2    50   ~ 0
+O10-0
+Text Label 24350 6700 2    50   ~ 0
+O11-0
+Text Label 24350 6800 2    50   ~ 0
+O12-0
+Text Label 24350 6900 2    50   ~ 0
+O13-0
+Text Label 24350 7000 2    50   ~ 0
+O14-0
+Text Label 24350 7100 2    50   ~ 0
+O15-0
+Text Label 24350 7200 2    50   ~ 0
+O16-0
+Text Label 24350 7300 2    50   ~ 0
+O17-0
+Text Label 24350 7400 2    50   ~ 0
+O18-0
+Text Label 24350 7500 2    50   ~ 0
+O6-0
+Text Label 25100 5800 2    50   ~ 0
+O0-0
+Text Label 25100 5900 2    50   ~ 0
+O1-0
+Text Label 25100 6000 2    50   ~ 0
+O2-0
+Text Label 25100 6100 2    50   ~ 0
+O3-0
+Text Label 25100 6200 2    50   ~ 0
+O4-0
+Text Label 25100 6300 2    50   ~ 0
+O5-0
+Text Label 25100 6400 2    50   ~ 0
+O8-0
+Text Label 25100 6500 2    50   ~ 0
+O9-0
+Text Label 25100 6600 2    50   ~ 0
+O10-0
+Text Label 25100 6700 2    50   ~ 0
+O11-0
+Text Label 25100 6800 2    50   ~ 0
+O12-0
+Text Label 25100 6900 2    50   ~ 0
+O13-0
+Text Label 25100 7000 2    50   ~ 0
+O14-0
+Text Label 25100 7100 2    50   ~ 0
+O15-0
+Text Label 25100 7200 2    50   ~ 0
+O16-0
+Text Label 25100 7300 2    50   ~ 0
+O17-0
+Text Label 25100 7400 2    50   ~ 0
+O18-0
+Text Label 25100 7500 2    50   ~ 0
+O7-0
+$Comp
+L Device:R R?
+U 1 1 5E396CB3
+P 21050 6850
+F 0 "R?" H 21100 6850 50  0000 L CNN
+F 1 "56k" V 21050 6850 40  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 20980 6850 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 21050 6850 50  0001 C CNN
+F 4 "RMCF1206FT53K6" V 21050 6850 60  0001 C CNN "PN"
+	1    21050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E39EED3
+P 20700 4500
+F 0 "#PWR?" H 20700 4350 50  0001 C CNN
+F 1 "+3.3V" H 20700 4650 50  0000 C CNN
+F 2 "" H 20700 4500 50  0000 C CNN
+F 3 "" H 20700 4500 50  0000 C CNN
+	1    20700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3A0033
+P 21050 7100
+F 0 "#PWR?" H 21050 6850 50  0001 C CNN
+F 1 "GND" H 21050 6950 50  0000 C CNN
+F 2 "" H 21050 7100 50  0000 C CNN
+F 3 "" H 21050 7100 50  0000 C CNN
+	1    21050 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3A01F5
+P 20700 5050
+F 0 "#PWR?" H 20700 4800 50  0001 C CNN
+F 1 "GND" H 20700 4900 50  0000 C CNN
+F 2 "" H 20700 5050 50  0000 C CNN
+F 3 "" H 20700 5050 50  0000 C CNN
+	1    20700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21200 4950 21100 4950
+Wire Wire Line
+	21100 4950 21100 4850
+Wire Wire Line
+	21100 4850 21200 4850
+Wire Wire Line
+	21200 4650 21100 4650
+Wire Wire Line
+	21100 4650 21100 4550
+Wire Wire Line
+	21100 4550 21200 4550
+NoConn ~ 22050 6750
+NoConn ~ 22050 6650
+NoConn ~ 22050 6550
+NoConn ~ 22050 6450
+NoConn ~ 22050 6350
+$Comp
+L power:GND #PWR?
+U 1 1 5E97E3FF
+P 21100 5550
+F 0 "#PWR?" H 21100 5300 50  0001 C CNN
+F 1 "GND" H 21100 5400 50  0000 C CNN
+F 2 "" H 21100 5550 50  0000 C CNN
+F 3 "" H 21100 5550 50  0000 C CNN
+	1    21100 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21200 5450 21100 5450
+Wire Wire Line
+	21200 5350 21100 5350
+Wire Wire Line
+	21100 5350 21100 5450
+$Comp
+L Device:C_Small C?
+U 1 1 5EA0A1B1
+P 20850 4750
+F 0 "C?" H 20942 4796 50  0000 L CNN
+F 1 "100uF" H 20942 4705 50  0000 L CNN
+F 2 "" H 20850 4750 50  0001 C CNN
+F 3 "~" H 20850 4750 50  0001 C CNN
+	1    20850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5EA0BCEC
+P 20700 4750
+F 0 "C?" H 20600 4800 50  0000 R CNN
+F 1 "47uF" H 20600 4700 50  0000 R CNN
+F 2 "" H 20700 4750 50  0001 C CNN
+F 3 "~" H 20700 4750 50  0001 C CNN
+	1    20700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21100 4550 20850 4550
+Wire Wire Line
+	20700 4550 20700 4500
+Connection ~ 21100 4550
+Wire Wire Line
+	21100 4950 20850 4950
+Wire Wire Line
+	20700 4950 20700 5050
+Connection ~ 21100 4950
+Wire Wire Line
+	20700 4650 20700 4550
+Connection ~ 20700 4550
+Wire Wire Line
+	20700 4850 20700 4950
+Connection ~ 20700 4950
+Wire Wire Line
+	20850 4850 20850 4950
+Connection ~ 20850 4950
+Wire Wire Line
+	20850 4950 20700 4950
+Wire Wire Line
+	20850 4650 20850 4550
+Connection ~ 20850 4550
+Wire Wire Line
+	20850 4550 20700 4550
+$Comp
+L Device:C_Small C?
+U 1 1 5EBADE56
+P 20900 6850
+F 0 "C?" H 20800 6900 50  0000 R CNN
+F 1 "22pF" H 20800 6800 50  0000 R CNN
+F 2 "" H 20900 6850 50  0001 C CNN
+F 3 "~" H 20900 6850 50  0001 C CNN
+	1    20900 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21200 6650 21050 6650
+Wire Wire Line
+	21050 6650 21050 6700
+Text Label 20750 6050 2    60   ~ 0
+21(SCL)
+Text Label 20750 6150 2    60   ~ 0
+20(SDA)
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5EDEA294
+P 20850 5650
+F 0 "#PWR?" H 20850 5500 50  0001 C CNN
+F 1 "+3.3V" H 20850 5800 50  0000 C CNN
+F 2 "" H 20850 5650 50  0000 C CNN
+F 3 "" H 20850 5650 50  0000 C CNN
+	1    20850 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 21100 5450
+$Comp
+L Device:R_Small R?
+U 1 1 5EDEAF63
+P 20900 5850
+F 0 "R?" H 20950 5900 50  0000 L CNN
+F 1 "4.7k" H 20950 5800 50  0000 L CNN
+F 2 "" H 20900 5850 50  0001 C CNN
+F 3 "~" H 20900 5850 50  0001 C CNN
+	1    20900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5EEC518B
+P 20800 5850
+F 0 "R?" H 20750 5900 50  0000 R CNN
+F 1 "4.7k" H 20750 5800 50  0000 R CNN
+F 2 "" H 20800 5850 50  0001 C CNN
+F 3 "~" H 20800 5850 50  0001 C CNN
+	1    20800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21200 6050 20900 6050
+Wire Wire Line
+	20900 5950 20900 6050
+NoConn ~ 21200 6450
+NoConn ~ 21200 6350
+Wire Wire Line
+	20800 5950 20800 6150
+Wire Wire Line
+	20800 6150 21200 6150
+Wire Wire Line
+	20900 6050 20750 6050
+Connection ~ 20900 6050
+Wire Wire Line
+	20800 6150 20750 6150
+Connection ~ 20800 6150
+Wire Wire Line
+	20900 5750 20900 5700
+Wire Wire Line
+	20900 5700 20850 5700
+Wire Wire Line
+	20800 5700 20800 5750
+Wire Wire Line
+	20850 5700 20850 5650
+Connection ~ 20850 5700
+Wire Wire Line
+	20850 5700 20800 5700
+Wire Wire Line
+	21200 6550 20900 6550
+Wire Wire Line
+	20900 6550 20900 6750
+Wire Wire Line
+	20900 6950 20900 7050
+Wire Wire Line
+	20900 7050 21050 7050
+Wire Wire Line
+	21050 7050 21050 7000
+Wire Wire Line
+	21050 7050 21050 7100
+Connection ~ 21050 7050
+Text Notes 12200 3350 0    80   ~ 0
+SNAP DOME SWITCHES\n
+Wire Wire Line
+	21100 5550 21100 5450
 $EndSCHEMATC
