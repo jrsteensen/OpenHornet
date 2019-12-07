@@ -781,1752 +781,6 @@ F 3 "" H -650 -8750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1B6A25
-P 4100 -9750
-F 0 "IC?" H 3800 -8550 50  0000 L CNN
-F 1 "MAX6953" H 4050 -8550 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 4050 -8750 50  0001 C CNN
-F 3 "" H 4300 -9450 50  0001 C CNN
-	1    4100 -9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG0-?
-U 1 1 5A1B6B02
-P 5950 -10250
-F 0 "DIG0-?" H 5650 -9350 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -9350 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -9750 60  0001 C CNN
-F 3 "" H 5400 -9750 60  0001 C CNN
-	1    5950 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG0-?
-U 1 1 5A1B6B67
-P 7300 -10250
-F 0 "DIG0-?" H 7000 -9350 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -9350 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -9750 60  0001 C CNN
-F 3 "" H 6750 -9750 60  0001 C CNN
-	1    7300 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG0-?
-U 1 1 5A1B6BCC
-P 5950 -8600
-F 0 "DIG0-?" H 5650 -7700 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -7700 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -8100 60  0001 C CNN
-F 3 "" H 5400 -8100 60  0001 C CNN
-	1    5950 -8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG0-?
-U 1 1 5A1B6C37
-P 7300 -8600
-F 0 "DIG0-?" H 7000 -7700 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -7700 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -8100 60  0001 C CNN
-F 3 "" H 6750 -8100 60  0001 C CNN
-	1    7300 -8600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5450 -9700
-NoConn ~ 6800 -9700
-NoConn ~ 6800 -10500
-NoConn ~ 5450 -10500
-NoConn ~ 5450 -8850
-NoConn ~ 6800 -8850
-NoConn ~ 5450 -8050
-NoConn ~ 6800 -8050
-$Comp
-L Device:CP1 C?
-U 1 1 5A1B7505
-P 2950 -10450
-F 0 "C?" H 2975 -10350 50  0000 L CNN
-F 1 "47uF" H 2975 -10550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 -10450 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 2950 -10450 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 2950 -10450 60  0001 C CNN "PN"
-	1    2950 -10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1B7B1C
-P 2950 -10250
-F 0 "#PWR?" H 2950 -10500 50  0001 C CNN
-F 1 "GND" H 2950 -10400 50  0000 C CNN
-F 2 "" H 2950 -10250 50  0001 C CNN
-F 3 "" H 2950 -10250 50  0001 C CNN
-	1    2950 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1B7BB7
-P 3300 -10450
-F 0 "C?" H 3325 -10350 50  0000 L CNN
-F 1 "100nF" H 3325 -10550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 -10450 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 3300 -10450 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 3300 -10450 60  0001 C CNN "PN"
-	1    3300 -10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1B8B15
-P 2950 -8950
-F 0 "#PWR?" H 2950 -9200 50  0001 C CNN
-F 1 "GND" H 2950 -9100 50  0000 C CNN
-F 2 "" H 2950 -8950 50  0001 C CNN
-F 3 "" H 2950 -8950 50  0001 C CNN
-	1    2950 -8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1B8E3E
-P 3500 -8500
-F 0 "R?" V 3580 -8500 50  0000 C CNN
-F 1 "53.6k" V 3500 -8500 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 -8500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3500 -8500 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 3500 -8500 60  0001 C CNN "PN"
-	1    3500 -8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1B8EAD
-P 3200 -8500
-F 0 "C?" H 3225 -8400 50  0000 L CNN
-F 1 "27pF" H 3225 -8600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 -8500 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 3200 -8500 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 3200 -8500 60  0001 C CNN "PN"
-	1    3200 -8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1B8F08
-P 3500 -8350
-F 0 "#PWR?" H 3500 -8600 50  0001 C CNN
-F 1 "GND" H 3500 -8500 50  0000 C CNN
-F 2 "" H 3500 -8350 50  0001 C CNN
-F 3 "" H 3500 -8350 50  0001 C CNN
-	1    3500 -8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1B8F4E
-P 3200 -8350
-F 0 "#PWR?" H 3200 -8600 50  0001 C CNN
-F 1 "GND" H 3200 -8500 50  0000 C CNN
-F 2 "" H 3200 -8350 50  0001 C CNN
-F 3 "" H 3200 -8350 50  0001 C CNN
-	1    3200 -8350
-	1    0    0    -1  
-$EndComp
-Text Label 4550 -10850 0    60   ~ 0
-IC0-O0
-Text Label 4550 -10750 0    60   ~ 0
-IC0-O1
-Text Label 4550 -10650 0    60   ~ 0
-IC0-O2
-Text Label 4550 -10550 0    60   ~ 0
-IC0-O3
-Text Label 4550 -10450 0    60   ~ 0
-IC0-O4
-Text Label 4550 -10350 0    60   ~ 0
-IC0-O5
-Text Label 4550 -10250 0    60   ~ 0
-IC0-O6
-Text Label 4550 -10150 0    60   ~ 0
-IC0-O7
-Text Label 4550 -10050 0    60   ~ 0
-IC0-O8
-Text Label 4550 -9950 0    60   ~ 0
-IC0-O9
-Text Label 4550 -9850 0    60   ~ 0
-IC0-O10
-Text Label 4550 -9750 0    60   ~ 0
-IC0-O11
-Text Label 4550 -9650 0    60   ~ 0
-IC0-O12
-Text Label 4550 -9550 0    60   ~ 0
-IC0-O13
-Text Label 4550 -9350 0    60   ~ 0
-IC0-O14
-Text Label 4550 -9250 0    60   ~ 0
-IC0-O15
-Text Label 4550 -9150 0    60   ~ 0
-IC0-O16
-Text Label 4550 -9050 0    60   ~ 0
-IC0-O17
-Text Label 4550 -8950 0    60   ~ 0
-IC0-O18
-Text Label 4550 -8850 0    60   ~ 0
-IC0-O19
-Text Label 4550 -8750 0    60   ~ 0
-IC0-O20
-Text Label 4550 -8650 0    60   ~ 0
-IC0-O21
-Text Label 4550 -8550 0    60   ~ 0
-IC0-O22
-Text Label 4550 -8450 0    60   ~ 0
-IC0-O23
-Text Label 5450 -11000 2    60   ~ 0
-IC0-O14
-Text Label 5450 -10900 2    60   ~ 0
-IC0-O15
-Text Label 5450 -10800 2    60   ~ 0
-IC0-O16
-Text Label 5450 -10700 2    60   ~ 0
-IC0-O17
-Text Label 5450 -10600 2    60   ~ 0
-IC0-O18
-Text Label 5450 -10400 2    60   ~ 0
-IC0-O0
-Text Label 5450 -10300 2    60   ~ 0
-IC0-O1
-Text Label 5450 -10200 2    60   ~ 0
-IC0-O2
-Text Label 5450 -10100 2    60   ~ 0
-IC0-O3
-Text Label 5450 -10000 2    60   ~ 0
-IC0-O4
-Text Label 5450 -9900 2    60   ~ 0
-IC0-O5
-Text Label 5450 -9800 2    60   ~ 0
-IC0-O6
-Text Label 6800 -10400 2    60   ~ 0
-IC0-O0
-Text Label 6800 -10300 2    60   ~ 0
-IC0-O1
-Text Label 6800 -10200 2    60   ~ 0
-IC0-O2
-Text Label 6800 -10100 2    60   ~ 0
-IC0-O3
-Text Label 6800 -10000 2    60   ~ 0
-IC0-O4
-Text Label 6800 -9900 2    60   ~ 0
-IC0-O5
-Text Label 6800 -9800 2    60   ~ 0
-IC0-O6
-Text Label 6800 -11000 2    60   ~ 0
-IC0-O19
-Text Label 6800 -10900 2    60   ~ 0
-IC0-O20
-Text Label 6800 -10800 2    60   ~ 0
-IC0-O21
-Text Label 6800 -10700 2    60   ~ 0
-IC0-O22
-Text Label 6800 -10600 2    60   ~ 0
-IC0-O23
-Text Label 5450 -9350 2    60   ~ 0
-IC0-O14
-Text Label 5450 -9250 2    60   ~ 0
-IC0-O15
-Text Label 5450 -9150 2    60   ~ 0
-IC0-O16
-Text Label 5450 -9050 2    60   ~ 0
-IC0-O17
-Text Label 5450 -8950 2    60   ~ 0
-IC0-O18
-Text Label 6800 -9350 2    60   ~ 0
-IC0-O19
-Text Label 6800 -9250 2    60   ~ 0
-IC0-O20
-Text Label 6800 -9150 2    60   ~ 0
-IC0-O21
-Text Label 6800 -9050 2    60   ~ 0
-IC0-O22
-Text Label 6800 -8950 2    60   ~ 0
-IC0-O23
-Text Label 5450 -8750 2    60   ~ 0
-IC0-O7
-Text Label 5450 -8650 2    60   ~ 0
-IC0-O8
-Text Label 5450 -8550 2    60   ~ 0
-IC0-O9
-Text Label 5450 -8450 2    60   ~ 0
-IC0-O10
-Text Label 5450 -8350 2    60   ~ 0
-IC0-O11
-Text Label 5450 -8250 2    60   ~ 0
-IC0-O12
-Text Label 5450 -8150 2    60   ~ 0
-IC0-O13
-Text Label 6800 -8750 2    60   ~ 0
-IC0-O7
-Text Label 6800 -8650 2    60   ~ 0
-IC0-O8
-Text Label 6800 -8550 2    60   ~ 0
-IC0-O9
-Text Label 6800 -8450 2    60   ~ 0
-IC0-O10
-Text Label 6800 -8350 2    60   ~ 0
-IC0-O11
-Text Label 6800 -8250 2    60   ~ 0
-IC0-O12
-Text Label 6800 -8150 2    60   ~ 0
-IC0-O13
-Text Label 2850 -9450 2    60   ~ 0
-SCL
-Text Label 2850 -9350 2    60   ~ 0
-SDA
-Text Notes 4600 -11150 2    80   ~ 0
-OPTION #1 DOT MATRIX DISPLAYS
-$Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1BCEC2
-P 9400 -9750
-F 0 "IC?" H 9100 -8550 50  0000 L CNN
-F 1 "MAX6953" H 9350 -8550 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 9350 -8750 50  0001 C CNN
-F 3 "" H 9600 -9450 50  0001 C CNN
-	1    9400 -9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG1-?
-U 1 1 5A1BCEC8
-P 11250 -10250
-F 0 "DIG1-?" H 10950 -9350 40  0000 C CNN
-F 1 "LTP-305G" H 11450 -9350 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 10700 -9750 60  0001 C CNN
-F 3 "" H 10700 -9750 60  0001 C CNN
-	1    11250 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG1-?
-U 1 1 5A1BCECE
-P 12600 -10250
-F 0 "DIG1-?" H 12300 -9350 40  0000 C CNN
-F 1 "LTP-305G" H 12800 -9350 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 12050 -9750 60  0001 C CNN
-F 3 "" H 12050 -9750 60  0001 C CNN
-	1    12600 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG1-?
-U 1 1 5A1BCED4
-P 11250 -8600
-F 0 "DIG1-?" H 10950 -7700 40  0000 C CNN
-F 1 "LTP-305G" H 11450 -7700 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 10700 -8100 60  0001 C CNN
-F 3 "" H 10700 -8100 60  0001 C CNN
-	1    11250 -8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG1-?
-U 1 1 5A1BCEDA
-P 12600 -8600
-F 0 "DIG1-?" H 12300 -7700 40  0000 C CNN
-F 1 "LTP-305G" H 12800 -7700 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 12050 -8100 60  0001 C CNN
-F 3 "" H 12050 -8100 60  0001 C CNN
-	1    12600 -8600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10750 -9700
-NoConn ~ 12100 -9700
-NoConn ~ 12100 -10500
-NoConn ~ 10750 -10500
-NoConn ~ 10750 -8850
-NoConn ~ 12100 -8850
-NoConn ~ 10750 -8050
-NoConn ~ 12100 -8050
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BCEF1
-P 8250 -10450
-F 0 "C?" H 8275 -10350 50  0000 L CNN
-F 1 "47uF" H 8275 -10550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 -10450 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 8250 -10450 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 8250 -10450 60  0001 C CNN "PN"
-	1    8250 -10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BCEFD
-P 8250 -10250
-F 0 "#PWR?" H 8250 -10500 50  0001 C CNN
-F 1 "GND" H 8250 -10400 50  0000 C CNN
-F 2 "" H 8250 -10250 50  0001 C CNN
-F 3 "" H 8250 -10250 50  0001 C CNN
-	1    8250 -10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BCF04
-P 8600 -10450
-F 0 "C?" H 8625 -10350 50  0000 L CNN
-F 1 "100nF" H 8625 -10550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 -10450 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 8600 -10450 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 8600 -10450 60  0001 C CNN "PN"
-	1    8600 -10450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BCF37
-P 8150 -8950
-F 0 "#PWR?" H 8150 -9200 50  0001 C CNN
-F 1 "GND" H 8150 -9100 50  0000 C CNN
-F 2 "" H 8150 -8950 50  0001 C CNN
-F 3 "" H 8150 -8950 50  0001 C CNN
-	1    8150 -8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1BCF46
-P 8800 -8500
-F 0 "R?" V 8880 -8500 50  0000 C CNN
-F 1 "53.6k" V 8800 -8500 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 -8500 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8800 -8500 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 8800 -8500 60  0001 C CNN "PN"
-	1    8800 -8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BCF4C
-P 8500 -8500
-F 0 "C?" H 8525 -8400 50  0000 L CNN
-F 1 "27pF" H 8525 -8600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 -8500 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 8500 -8500 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 8500 -8500 60  0001 C CNN "PN"
-	1    8500 -8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BCF52
-P 8800 -8350
-F 0 "#PWR?" H 8800 -8600 50  0001 C CNN
-F 1 "GND" H 8800 -8500 50  0000 C CNN
-F 2 "" H 8800 -8350 50  0001 C CNN
-F 3 "" H 8800 -8350 50  0001 C CNN
-	1    8800 -8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BCF58
-P 8500 -8350
-F 0 "#PWR?" H 8500 -8600 50  0001 C CNN
-F 1 "GND" H 8500 -8500 50  0000 C CNN
-F 2 "" H 8500 -8350 50  0001 C CNN
-F 3 "" H 8500 -8350 50  0001 C CNN
-	1    8500 -8350
-	1    0    0    -1  
-$EndComp
-Text Label 8500 -9450 2    60   ~ 0
-SCL
-Text Label 8500 -9350 2    60   ~ 0
-SDA
-Text Notes 9900 -11150 2    80   ~ 0
-OPTION #2 DOT MATRIX DISPLAYS
-Text Label 9850 -10850 0    60   ~ 0
-IC1-O0
-Text Label 9850 -10750 0    60   ~ 0
-IC1-O1
-Text Label 9850 -10650 0    60   ~ 0
-IC1-O2
-Text Label 9850 -10550 0    60   ~ 0
-IC1-O3
-Text Label 9850 -10450 0    60   ~ 0
-IC1-O4
-Text Label 9850 -10350 0    60   ~ 0
-IC1-O5
-Text Label 9850 -10250 0    60   ~ 0
-IC1-O6
-Text Label 9850 -10150 0    60   ~ 0
-IC1-O7
-Text Label 9850 -10050 0    60   ~ 0
-IC1-O8
-Text Label 9850 -9950 0    60   ~ 0
-IC1-O9
-Text Label 9850 -9850 0    60   ~ 0
-IC1-O10
-Text Label 9850 -9750 0    60   ~ 0
-IC1-O11
-Text Label 9850 -9650 0    60   ~ 0
-IC1-O12
-Text Label 9850 -9550 0    60   ~ 0
-IC1-O13
-Text Label 9850 -9350 0    60   ~ 0
-IC1-O14
-Text Label 9850 -9250 0    60   ~ 0
-IC1-O15
-Text Label 9850 -9150 0    60   ~ 0
-IC1-O16
-Text Label 9850 -9050 0    60   ~ 0
-IC1-O17
-Text Label 9850 -8950 0    60   ~ 0
-IC1-O18
-Text Label 9850 -8850 0    60   ~ 0
-IC1-O19
-Text Label 9850 -8750 0    60   ~ 0
-IC1-O20
-Text Label 9850 -8650 0    60   ~ 0
-IC1-O21
-Text Label 9850 -8550 0    60   ~ 0
-IC1-O22
-Text Label 9850 -8450 0    60   ~ 0
-IC1-O23
-Text Label 10750 -10400 2    60   ~ 0
-IC1-O0
-Text Label 10750 -10300 2    60   ~ 0
-IC1-O1
-Text Label 10750 -10200 2    60   ~ 0
-IC1-O2
-Text Label 10750 -10100 2    60   ~ 0
-IC1-O3
-Text Label 10750 -10000 2    60   ~ 0
-IC1-O4
-Text Label 10750 -9900 2    60   ~ 0
-IC1-O5
-Text Label 10750 -9800 2    60   ~ 0
-IC1-O6
-Text Label 10750 -11000 2    60   ~ 0
-IC1-O14
-Text Label 10750 -10900 2    60   ~ 0
-IC1-O15
-Text Label 10750 -10800 2    60   ~ 0
-IC1-O16
-Text Label 10750 -10700 2    60   ~ 0
-IC1-O17
-Text Label 10750 -10600 2    60   ~ 0
-IC1-O18
-Text Label 12100 -11000 2    60   ~ 0
-IC1-O19
-Text Label 12100 -10900 2    60   ~ 0
-IC1-O20
-Text Label 12100 -10800 2    60   ~ 0
-IC1-O21
-Text Label 12100 -10700 2    60   ~ 0
-IC1-O22
-Text Label 12100 -10600 2    60   ~ 0
-IC1-O23
-Text Label 10750 -8750 2    60   ~ 0
-IC1-O7
-Text Label 10750 -8650 2    60   ~ 0
-IC1-O8
-Text Label 10750 -8550 2    60   ~ 0
-IC1-O9
-Text Label 10750 -8450 2    60   ~ 0
-IC1-O10
-Text Label 10750 -8350 2    60   ~ 0
-IC1-O11
-Text Label 10750 -8250 2    60   ~ 0
-IC1-O12
-Text Label 10750 -8150 2    60   ~ 0
-IC1-O13
-Text Label 10750 -9350 2    60   ~ 0
-IC1-O14
-Text Label 10750 -9250 2    60   ~ 0
-IC1-O15
-Text Label 10750 -9150 2    60   ~ 0
-IC1-O16
-Text Label 10750 -9050 2    60   ~ 0
-IC1-O17
-Text Label 10750 -8950 2    60   ~ 0
-IC1-O18
-Text Label 12100 -9350 2    60   ~ 0
-IC1-O19
-Text Label 12100 -9250 2    60   ~ 0
-IC1-O20
-Text Label 12100 -9150 2    60   ~ 0
-IC1-O21
-Text Label 12100 -9050 2    60   ~ 0
-IC1-O22
-Text Label 12100 -8950 2    60   ~ 0
-IC1-O23
-Text Label 12100 -10400 2    60   ~ 0
-IC1-O0
-Text Label 12100 -10300 2    60   ~ 0
-IC1-O1
-Text Label 12100 -10200 2    60   ~ 0
-IC1-O2
-Text Label 12100 -10100 2    60   ~ 0
-IC1-O3
-Text Label 12100 -10000 2    60   ~ 0
-IC1-O4
-Text Label 12100 -9900 2    60   ~ 0
-IC1-O5
-Text Label 12100 -9800 2    60   ~ 0
-IC1-O6
-$Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1BE71F
-P 4100 -6200
-F 0 "IC?" H 3800 -5000 50  0000 L CNN
-F 1 "MAX6953" H 4050 -5000 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 4050 -5200 50  0001 C CNN
-F 3 "" H 4300 -5900 50  0001 C CNN
-	1    4100 -6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG2-?
-U 1 1 5A1BE725
-P 5950 -6700
-F 0 "DIG2-?" H 5650 -5800 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -5800 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -6200 60  0001 C CNN
-F 3 "" H 5400 -6200 60  0001 C CNN
-	1    5950 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG2-?
-U 1 1 5A1BE72B
-P 7300 -6700
-F 0 "DIG2-?" H 7000 -5800 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -5800 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -6200 60  0001 C CNN
-F 3 "" H 6750 -6200 60  0001 C CNN
-	1    7300 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG2-?
-U 1 1 5A1BE731
-P 5950 -5050
-F 0 "DIG2-?" H 5650 -4150 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -4150 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -4550 60  0001 C CNN
-F 3 "" H 5400 -4550 60  0001 C CNN
-	1    5950 -5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG2-?
-U 1 1 5A1BE737
-P 7300 -5050
-F 0 "DIG2-?" H 7000 -4150 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -4150 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -4550 60  0001 C CNN
-F 3 "" H 6750 -4550 60  0001 C CNN
-	1    7300 -5050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5450 -6150
-NoConn ~ 6800 -6150
-NoConn ~ 6800 -6950
-NoConn ~ 5450 -6950
-NoConn ~ 5450 -5300
-NoConn ~ 6800 -5300
-NoConn ~ 5450 -4500
-NoConn ~ 6800 -4500
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE74E
-P 2950 -6900
-F 0 "C?" H 2975 -6800 50  0000 L CNN
-F 1 "47uF" H 2975 -7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 -6900 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 2950 -6900 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 2950 -6900 60  0001 C CNN "PN"
-	1    2950 -6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE75A
-P 2950 -6700
-F 0 "#PWR?" H 2950 -6950 50  0001 C CNN
-F 1 "GND" H 2950 -6850 50  0000 C CNN
-F 2 "" H 2950 -6700 50  0001 C CNN
-F 3 "" H 2950 -6700 50  0001 C CNN
-	1    2950 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE761
-P 3300 -6900
-F 0 "C?" H 3325 -6800 50  0000 L CNN
-F 1 "100nF" H 3325 -7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 -6900 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 3300 -6900 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 3300 -6900 60  0001 C CNN "PN"
-	1    3300 -6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE794
-P 2950 -5400
-F 0 "#PWR?" H 2950 -5650 50  0001 C CNN
-F 1 "GND" H 2950 -5550 50  0000 C CNN
-F 2 "" H 2950 -5400 50  0001 C CNN
-F 3 "" H 2950 -5400 50  0001 C CNN
-	1    2950 -5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1BE7A3
-P 3500 -4950
-F 0 "R?" V 3580 -4950 50  0000 C CNN
-F 1 "53.6k" V 3500 -4950 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 -4950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3500 -4950 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 3500 -4950 60  0001 C CNN "PN"
-	1    3500 -4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE7A9
-P 3200 -4950
-F 0 "C?" H 3225 -4850 50  0000 L CNN
-F 1 "27pF" H 3225 -5050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 -4950 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 3200 -4950 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 3200 -4950 60  0001 C CNN "PN"
-	1    3200 -4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE7AF
-P 3500 -4800
-F 0 "#PWR?" H 3500 -5050 50  0001 C CNN
-F 1 "GND" H 3500 -4950 50  0000 C CNN
-F 2 "" H 3500 -4800 50  0001 C CNN
-F 3 "" H 3500 -4800 50  0001 C CNN
-	1    3500 -4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE7B5
-P 3200 -4800
-F 0 "#PWR?" H 3200 -5050 50  0001 C CNN
-F 1 "GND" H 3200 -4950 50  0000 C CNN
-F 2 "" H 3200 -4800 50  0001 C CNN
-F 3 "" H 3200 -4800 50  0001 C CNN
-	1    3200 -4800
-	1    0    0    -1  
-$EndComp
-Text Label 2850 -5900 2    60   ~ 0
-SCL
-Text Label 2850 -5800 2    60   ~ 0
-SDA
-Text Notes 4600 -7600 2    80   ~ 0
-OPTION #3 DOT MATRIX DISPLAYS
-$Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1BE80D
-P 9400 -6200
-F 0 "IC?" H 9100 -5000 50  0000 L CNN
-F 1 "MAX6953" H 9350 -5000 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 9350 -5200 50  0001 C CNN
-F 3 "" H 9600 -5900 50  0001 C CNN
-	1    9400 -6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG3-?
-U 1 1 5A1BE813
-P 11250 -6700
-F 0 "DIG3-?" H 10950 -5800 40  0000 C CNN
-F 1 "LTP-305G" H 11450 -5800 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 10700 -6200 60  0001 C CNN
-F 3 "" H 10700 -6200 60  0001 C CNN
-	1    11250 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG3-?
-U 1 1 5A1BE819
-P 12600 -6700
-F 0 "DIG3-?" H 12300 -5800 40  0000 C CNN
-F 1 "LTP-305G" H 12800 -5800 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 12050 -6200 60  0001 C CNN
-F 3 "" H 12050 -6200 60  0001 C CNN
-	1    12600 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG3-?
-U 1 1 5A1BE81F
-P 11250 -5050
-F 0 "DIG3-?" H 10950 -4150 40  0000 C CNN
-F 1 "LTP-305G" H 11450 -4150 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 10700 -4550 60  0001 C CNN
-F 3 "" H 10700 -4550 60  0001 C CNN
-	1    11250 -5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG3-?
-U 1 1 5A1BE825
-P 12600 -5050
-F 0 "DIG3-?" H 12300 -4150 40  0000 C CNN
-F 1 "LTP-305G" H 12800 -4150 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 12050 -4550 60  0001 C CNN
-F 3 "" H 12050 -4550 60  0001 C CNN
-	1    12600 -5050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10750 -6150
-NoConn ~ 12100 -6150
-NoConn ~ 12100 -6950
-NoConn ~ 10750 -6950
-NoConn ~ 10750 -5300
-NoConn ~ 12100 -5300
-NoConn ~ 10750 -4500
-NoConn ~ 12100 -4500
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE83C
-P 8250 -6900
-F 0 "C?" H 8275 -6800 50  0000 L CNN
-F 1 "47uF" H 8275 -7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 -6900 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 8250 -6900 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 8250 -6900 60  0001 C CNN "PN"
-	1    8250 -6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE848
-P 8250 -6700
-F 0 "#PWR?" H 8250 -6950 50  0001 C CNN
-F 1 "GND" H 8250 -6850 50  0000 C CNN
-F 2 "" H 8250 -6700 50  0001 C CNN
-F 3 "" H 8250 -6700 50  0001 C CNN
-	1    8250 -6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE84F
-P 8600 -6900
-F 0 "C?" H 8625 -6800 50  0000 L CNN
-F 1 "100nF" H 8625 -7000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 -6900 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 8600 -6900 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 8600 -6900 60  0001 C CNN "PN"
-	1    8600 -6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE882
-P 8250 -5400
-F 0 "#PWR?" H 8250 -5650 50  0001 C CNN
-F 1 "GND" H 8250 -5550 50  0000 C CNN
-F 2 "" H 8250 -5400 50  0001 C CNN
-F 3 "" H 8250 -5400 50  0001 C CNN
-	1    8250 -5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1BE891
-P 8800 -4950
-F 0 "R?" V 8880 -4950 50  0000 C CNN
-F 1 "53.6k" V 8800 -4950 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 -4950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8800 -4950 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 8800 -4950 60  0001 C CNN "PN"
-	1    8800 -4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1BE897
-P 8500 -4950
-F 0 "C?" H 8525 -4850 50  0000 L CNN
-F 1 "27pF" H 8525 -5050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 -4950 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 8500 -4950 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 8500 -4950 60  0001 C CNN "PN"
-	1    8500 -4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE89D
-P 8800 -4800
-F 0 "#PWR?" H 8800 -5050 50  0001 C CNN
-F 1 "GND" H 8800 -4950 50  0000 C CNN
-F 2 "" H 8800 -4800 50  0001 C CNN
-F 3 "" H 8800 -4800 50  0001 C CNN
-	1    8800 -4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1BE8A3
-P 8500 -4800
-F 0 "#PWR?" H 8500 -5050 50  0001 C CNN
-F 1 "GND" H 8500 -4950 50  0000 C CNN
-F 2 "" H 8500 -4800 50  0001 C CNN
-F 3 "" H 8500 -4800 50  0001 C CNN
-	1    8500 -4800
-	1    0    0    -1  
-$EndComp
-Text Label 8500 -5900 2    60   ~ 0
-SCL
-Text Label 8500 -5800 2    60   ~ 0
-SDA
-Text Notes 9900 -7600 2    80   ~ 0
-OPTION #4 DOT MATRIX DISPLAYS
-Text Label 4550 -7300 0    60   ~ 0
-IC2-O0
-Text Label 4550 -7200 0    60   ~ 0
-IC2-O1
-Text Label 4550 -7100 0    60   ~ 0
-IC2-O2
-Text Label 4550 -7000 0    60   ~ 0
-IC2-O3
-Text Label 4550 -6900 0    60   ~ 0
-IC2-O4
-Text Label 4550 -6800 0    60   ~ 0
-IC2-O5
-Text Label 4550 -6700 0    60   ~ 0
-IC2-O6
-Text Label 4550 -6600 0    60   ~ 0
-IC2-O7
-Text Label 4550 -6500 0    60   ~ 0
-IC2-O8
-Text Label 4550 -6400 0    60   ~ 0
-IC2-O9
-Text Label 4550 -6300 0    60   ~ 0
-IC2-O10
-Text Label 4550 -6200 0    60   ~ 0
-IC2-O11
-Text Label 4550 -6100 0    60   ~ 0
-IC2-O12
-Text Label 4550 -6000 0    60   ~ 0
-IC2-O13
-Text Label 4550 -5800 0    60   ~ 0
-IC2-O14
-Text Label 4550 -5700 0    60   ~ 0
-IC2-O15
-Text Label 4550 -5600 0    60   ~ 0
-IC2-O16
-Text Label 4550 -5500 0    60   ~ 0
-IC2-O17
-Text Label 4550 -5400 0    60   ~ 0
-IC2-O18
-Text Label 4550 -5300 0    60   ~ 0
-IC2-O19
-Text Label 4550 -5200 0    60   ~ 0
-IC2-O20
-Text Label 4550 -5100 0    60   ~ 0
-IC2-O21
-Text Label 4550 -5000 0    60   ~ 0
-IC2-O22
-Text Label 4550 -4900 0    60   ~ 0
-IC2-O23
-Text Label 5450 -7450 2    60   ~ 0
-IC2-O14
-Text Label 5450 -7350 2    60   ~ 0
-IC2-O15
-Text Label 5450 -7250 2    60   ~ 0
-IC2-O16
-Text Label 5450 -7150 2    60   ~ 0
-IC2-O17
-Text Label 5450 -7050 2    60   ~ 0
-IC2-O18
-Text Label 5450 -6850 2    60   ~ 0
-IC2-O0
-Text Label 5450 -6750 2    60   ~ 0
-IC2-O1
-Text Label 5450 -6650 2    60   ~ 0
-IC2-O2
-Text Label 5450 -6550 2    60   ~ 0
-IC2-O3
-Text Label 5450 -6450 2    60   ~ 0
-IC2-O4
-Text Label 5450 -6350 2    60   ~ 0
-IC2-O5
-Text Label 5450 -6250 2    60   ~ 0
-IC2-O6
-Text Label 6800 -7450 2    60   ~ 0
-IC2-O19
-Text Label 6800 -7350 2    60   ~ 0
-IC2-O20
-Text Label 6800 -7250 2    60   ~ 0
-IC2-O21
-Text Label 6800 -7150 2    60   ~ 0
-IC2-O22
-Text Label 6800 -7050 2    60   ~ 0
-IC2-O23
-Text Label 6800 -6850 2    60   ~ 0
-IC2-O0
-Text Label 6800 -6750 2    60   ~ 0
-IC2-O1
-Text Label 6800 -6650 2    60   ~ 0
-IC2-O2
-Text Label 6800 -6550 2    60   ~ 0
-IC2-O3
-Text Label 6800 -6450 2    60   ~ 0
-IC2-O4
-Text Label 6800 -6350 2    60   ~ 0
-IC2-O5
-Text Label 6800 -6250 2    60   ~ 0
-IC2-O6
-Text Label 5450 -5200 2    60   ~ 0
-IC2-O7
-Text Label 5450 -5100 2    60   ~ 0
-IC2-O8
-Text Label 5450 -5000 2    60   ~ 0
-IC2-O9
-Text Label 5450 -4900 2    60   ~ 0
-IC2-O10
-Text Label 5450 -4800 2    60   ~ 0
-IC2-O11
-Text Label 5450 -4700 2    60   ~ 0
-IC2-O12
-Text Label 5450 -4600 2    60   ~ 0
-IC2-O13
-Text Label 5450 -5800 2    60   ~ 0
-IC2-O14
-Text Label 5450 -5700 2    60   ~ 0
-IC2-O15
-Text Label 5450 -5600 2    60   ~ 0
-IC2-O16
-Text Label 5450 -5500 2    60   ~ 0
-IC2-O17
-Text Label 5450 -5400 2    60   ~ 0
-IC2-O18
-Text Label 6800 -5800 2    60   ~ 0
-IC2-O19
-Text Label 6800 -5700 2    60   ~ 0
-IC2-O20
-Text Label 6800 -5600 2    60   ~ 0
-IC2-O21
-Text Label 6800 -5500 2    60   ~ 0
-IC2-O22
-Text Label 6800 -5400 2    60   ~ 0
-IC2-O23
-Text Label 6800 -5200 2    60   ~ 0
-IC2-O7
-Text Label 6800 -5100 2    60   ~ 0
-IC2-O8
-Text Label 6800 -5000 2    60   ~ 0
-IC2-O9
-Text Label 6800 -4900 2    60   ~ 0
-IC2-O10
-Text Label 6800 -4800 2    60   ~ 0
-IC2-O11
-Text Label 6800 -4700 2    60   ~ 0
-IC2-O12
-Text Label 6800 -4600 2    60   ~ 0
-IC2-O13
-Text Label 9850 -7300 0    60   ~ 0
-IC3-O0
-Text Label 9850 -7200 0    60   ~ 0
-IC3-O1
-Text Label 9850 -7100 0    60   ~ 0
-IC3-O2
-Text Label 9850 -7000 0    60   ~ 0
-IC3-O3
-Text Label 9850 -6900 0    60   ~ 0
-IC3-O4
-Text Label 9850 -6800 0    60   ~ 0
-IC3-O5
-Text Label 9850 -6700 0    60   ~ 0
-IC3-O6
-Text Label 9850 -6600 0    60   ~ 0
-IC3-O7
-Text Label 9850 -6500 0    60   ~ 0
-IC3-O8
-Text Label 9850 -6400 0    60   ~ 0
-IC3-O9
-Text Label 9850 -6300 0    60   ~ 0
-IC3-O10
-Text Label 9850 -6200 0    60   ~ 0
-IC3-O11
-Text Label 9850 -6100 0    60   ~ 0
-IC3-O12
-Text Label 9850 -6000 0    60   ~ 0
-IC3-O13
-Text Label 9850 -5800 0    60   ~ 0
-IC3-O14
-Text Label 9850 -5700 0    60   ~ 0
-IC3-O15
-Text Label 9850 -5600 0    60   ~ 0
-IC3-O16
-Text Label 9850 -5500 0    60   ~ 0
-IC3-O17
-Text Label 9850 -5400 0    60   ~ 0
-IC3-O18
-Text Label 9850 -5300 0    60   ~ 0
-IC3-O19
-Text Label 9850 -5200 0    60   ~ 0
-IC3-O20
-Text Label 9850 -5100 0    60   ~ 0
-IC3-O21
-Text Label 9850 -5000 0    60   ~ 0
-IC3-O22
-Text Label 9850 -4900 0    60   ~ 0
-IC3-O23
-Text Label 12100 -8750 2    60   ~ 0
-IC1-O7
-Text Label 12100 -8650 2    60   ~ 0
-IC1-O8
-Text Label 12100 -8550 2    60   ~ 0
-IC1-O9
-Text Label 12100 -8450 2    60   ~ 0
-IC1-O10
-Text Label 12100 -8350 2    60   ~ 0
-IC1-O11
-Text Label 12100 -8250 2    60   ~ 0
-IC1-O12
-Text Label 12100 -8150 2    60   ~ 0
-IC1-O13
-Text Label 10750 -7450 2    60   ~ 0
-IC3-O14
-Text Label 10750 -7350 2    60   ~ 0
-IC3-O15
-Text Label 10750 -7250 2    60   ~ 0
-IC3-O16
-Text Label 10750 -7150 2    60   ~ 0
-IC3-O17
-Text Label 10750 -7050 2    60   ~ 0
-IC3-O18
-Text Label 10750 -6850 2    60   ~ 0
-IC3-O0
-Text Label 10750 -6750 2    60   ~ 0
-IC3-O1
-Text Label 10750 -6650 2    60   ~ 0
-IC3-O2
-Text Label 10750 -6550 2    60   ~ 0
-IC3-O3
-Text Label 10750 -6450 2    60   ~ 0
-IC3-O4
-Text Label 10750 -6350 2    60   ~ 0
-IC3-O5
-Text Label 10750 -6250 2    60   ~ 0
-IC3-O6
-Text Label 12100 -7450 2    60   ~ 0
-IC3-O19
-Text Label 12100 -7350 2    60   ~ 0
-IC3-O20
-Text Label 12100 -7250 2    60   ~ 0
-IC3-O21
-Text Label 12100 -7150 2    60   ~ 0
-IC3-O22
-Text Label 12100 -7050 2    60   ~ 0
-IC3-O23
-Text Label 12100 -6850 2    60   ~ 0
-IC3-O0
-Text Label 12100 -6750 2    60   ~ 0
-IC3-O1
-Text Label 12100 -6650 2    60   ~ 0
-IC3-O2
-Text Label 12100 -6550 2    60   ~ 0
-IC3-O3
-Text Label 12100 -6450 2    60   ~ 0
-IC3-O4
-Text Label 12100 -6350 2    60   ~ 0
-IC3-O5
-Text Label 12100 -6250 2    60   ~ 0
-IC3-O6
-Text Label 10750 -5800 2    60   ~ 0
-IC3-O14
-Text Label 10750 -5700 2    60   ~ 0
-IC3-O15
-Text Label 10750 -5600 2    60   ~ 0
-IC3-O16
-Text Label 10750 -5500 2    60   ~ 0
-IC3-O17
-Text Label 10750 -5400 2    60   ~ 0
-IC3-O18
-Text Label 12100 -5800 2    60   ~ 0
-IC3-O19
-Text Label 12100 -5700 2    60   ~ 0
-IC3-O20
-Text Label 12100 -5600 2    60   ~ 0
-IC3-O21
-Text Label 12100 -5500 2    60   ~ 0
-IC3-O22
-Text Label 12100 -5400 2    60   ~ 0
-IC3-O23
-Text Label 10750 -5200 2    60   ~ 0
-IC3-O7
-Text Label 10750 -5100 2    60   ~ 0
-IC3-O8
-Text Label 10750 -5000 2    60   ~ 0
-IC3-O9
-Text Label 10750 -4900 2    60   ~ 0
-IC3-O10
-Text Label 10750 -4800 2    60   ~ 0
-IC3-O11
-Text Label 10750 -4700 2    60   ~ 0
-IC3-O12
-Text Label 10750 -4600 2    60   ~ 0
-IC3-O13
-Text Label 12100 -5200 2    60   ~ 0
-IC3-O7
-Text Label 12100 -5100 2    60   ~ 0
-IC3-O8
-Text Label 12100 -5000 2    60   ~ 0
-IC3-O9
-Text Label 12100 -4900 2    60   ~ 0
-IC3-O10
-Text Label 12100 -4800 2    60   ~ 0
-IC3-O11
-Text Label 12100 -4700 2    60   ~ 0
-IC3-O12
-Text Label 12100 -4600 2    60   ~ 0
-IC3-O13
-$Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1CE9AF
-P 4100 -2650
-F 0 "IC?" H 3800 -1450 50  0000 L CNN
-F 1 "MAX6953" H 4050 -1450 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 4050 -1650 50  0001 C CNN
-F 3 "" H 4300 -2350 50  0001 C CNN
-	1    4100 -2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG4-?
-U 1 1 5A1CE9B5
-P 5950 -3150
-F 0 "DIG4-?" H 5650 -2250 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -2250 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -2650 60  0001 C CNN
-F 3 "" H 5400 -2650 60  0001 C CNN
-	1    5950 -3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG4-?
-U 1 1 5A1CE9BB
-P 7300 -3150
-F 0 "DIG4-?" H 7000 -2250 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -2250 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -2650 60  0001 C CNN
-F 3 "" H 6750 -2650 60  0001 C CNN
-	1    7300 -3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG4-?
-U 1 1 5A1CE9C1
-P 5950 -1500
-F 0 "DIG4-?" H 5650 -600 40  0000 C CNN
-F 1 "LTP-305G" H 6150 -600 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 5400 -1000 60  0001 C CNN
-F 3 "" H 5400 -1000 60  0001 C CNN
-	1    5950 -1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG4-?
-U 1 1 5A1CE9C7
-P 7300 -1500
-F 0 "DIG4-?" H 7000 -600 40  0000 C CNN
-F 1 "LTP-305G" H 7500 -600 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 6750 -1000 60  0001 C CNN
-F 3 "" H 6750 -1000 60  0001 C CNN
-	1    7300 -1500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5450 -2600
-NoConn ~ 6800 -2600
-NoConn ~ 6800 -3400
-NoConn ~ 5450 -3400
-NoConn ~ 5450 -1750
-NoConn ~ 6800 -1750
-NoConn ~ 5450 -950
-NoConn ~ 6800 -950
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CE9DE
-P 2950 -3350
-F 0 "C?" H 2975 -3250 50  0000 L CNN
-F 1 "47uF" H 2975 -3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 -3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 2950 -3350 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 2950 -3350 60  0001 C CNN "PN"
-	1    2950 -3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CE9EA
-P 2950 -3150
-F 0 "#PWR?" H 2950 -3400 50  0001 C CNN
-F 1 "GND" H 2950 -3300 50  0000 C CNN
-F 2 "" H 2950 -3150 50  0001 C CNN
-F 3 "" H 2950 -3150 50  0001 C CNN
-	1    2950 -3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CE9F1
-P 3300 -3350
-F 0 "C?" H 3325 -3250 50  0000 L CNN
-F 1 "100nF" H 3325 -3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3300 -3350 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 3300 -3350 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 3300 -3350 60  0001 C CNN "PN"
-	1    3300 -3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEA24
-P 2950 -1850
-F 0 "#PWR?" H 2950 -2100 50  0001 C CNN
-F 1 "GND" H 2950 -2000 50  0000 C CNN
-F 2 "" H 2950 -1850 50  0001 C CNN
-F 3 "" H 2950 -1850 50  0001 C CNN
-	1    2950 -1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1CEA33
-P 3500 -1400
-F 0 "R?" V 3580 -1400 50  0000 C CNN
-F 1 "53.6k" V 3500 -1400 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 -1400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3500 -1400 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 3500 -1400 60  0001 C CNN "PN"
-	1    3500 -1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CEA39
-P 3200 -1400
-F 0 "C?" H 3225 -1300 50  0000 L CNN
-F 1 "27pF" H 3225 -1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3200 -1400 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 3200 -1400 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 3200 -1400 60  0001 C CNN "PN"
-	1    3200 -1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEA3F
-P 3500 -1250
-F 0 "#PWR?" H 3500 -1500 50  0001 C CNN
-F 1 "GND" H 3500 -1400 50  0000 C CNN
-F 2 "" H 3500 -1250 50  0001 C CNN
-F 3 "" H 3500 -1250 50  0001 C CNN
-	1    3500 -1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEA45
-P 3200 -1250
-F 0 "#PWR?" H 3200 -1500 50  0001 C CNN
-F 1 "GND" H 3200 -1400 50  0000 C CNN
-F 2 "" H 3200 -1250 50  0001 C CNN
-F 3 "" H 3200 -1250 50  0001 C CNN
-	1    3200 -1250
-	1    0    0    -1  
-$EndComp
-Text Notes 4600 -4050 2    80   ~ 0
-OPTION #5 DOT MATRIX DISPLAYS
-$Comp
-L KiCadCustomLib:MAX6953 IC?
-U 1 1 5A1CEA55
-P 9400 -2650
-F 0 "IC?" H 9100 -1450 50  0000 L CNN
-F 1 "MAX6953" H 9350 -1450 50  0000 L CNN
-F 2 "KiCAD Libraries:MAX6953" H 9350 -1650 50  0001 C CNN
-F 3 "" H 9600 -2350 50  0001 C CNN
-	1    9400 -2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG5-?
-U 1 1 5A1CEA5B
-P 11250 -3150
-F 0 "DIG5-?" H 10950 -2250 40  0000 C CNN
-F 1 "LTP-305G" H 11450 -2250 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 10700 -2650 60  0001 C CNN
-F 3 "" H 10700 -2650 60  0001 C CNN
-	1    11250 -3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KiCadCustomLib:LTP-305G DIG5-?
-U 1 1 5A1CEA61
-P 12600 -3150
-F 0 "DIG5-?" H 12300 -2250 40  0000 C CNN
-F 1 "LTP-305G" H 12800 -2250 40  0000 C CNN
-F 2 "KiCAD Libraries:LTP-305G" H 12050 -2650 60  0001 C CNN
-F 3 "" H 12050 -2650 60  0001 C CNN
-	1    12600 -3150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10750 -2600
-NoConn ~ 12100 -2600
-NoConn ~ 12100 -3400
-NoConn ~ 10750 -3400
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CEA84
-P 8250 -3350
-F 0 "C?" H 8275 -3250 50  0000 L CNN
-F 1 "47uF" H 8275 -3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8250 -3350 50  0001 C CNN
-F 3 "http://www.mouser.com/ds/2/281/ZRB18AR60J476ME01-01-1065054.pdf" H 8250 -3350 50  0001 C CNN
-F 4 "ZRB18AR60J476ME01L" H 8250 -3350 60  0001 C CNN "PN"
-	1    8250 -3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEA90
-P 8250 -3150
-F 0 "#PWR?" H 8250 -3400 50  0001 C CNN
-F 1 "GND" H 8250 -3300 50  0000 C CNN
-F 2 "" H 8250 -3150 50  0001 C CNN
-F 3 "" H 8250 -3150 50  0001 C CNN
-	1    8250 -3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CEA97
-P 8600 -3350
-F 0 "C?" H 8625 -3250 50  0000 L CNN
-F 1 "100nF" H 8625 -3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 -3350 50  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R70J104KA01%23.pdf" H 8600 -3350 50  0001 C CNN
-F 4 "GRM188R70J104KA01D" H 8600 -3350 60  0001 C CNN "PN"
-	1    8600 -3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A1CEAD9
-P 8800 -1400
-F 0 "R?" V 8880 -1400 50  0000 C CNN
-F 1 "53.6k" V 8800 -1400 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8730 -1400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8800 -1400 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 8800 -1400 60  0001 C CNN "PN"
-	1    8800 -1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 C?
-U 1 1 5A1CEADF
-P 8500 -1400
-F 0 "C?" H 8525 -1300 50  0000 L CNN
-F 1 "27pF" H 8525 -1500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8500 -1400 50  0001 C CNN
-F 3 "https://search.kemet.com/component-edge/download/datasheet/C0603C270J3GACTU.pdf" H 8500 -1400 50  0001 C CNN
-F 4 "C0603C270J3GACTU" H 8500 -1400 60  0001 C CNN "PN"
-	1    8500 -1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEAE5
-P 8800 -1250
-F 0 "#PWR?" H 8800 -1500 50  0001 C CNN
-F 1 "GND" H 8800 -1400 50  0000 C CNN
-F 2 "" H 8800 -1250 50  0001 C CNN
-F 3 "" H 8800 -1250 50  0001 C CNN
-	1    8800 -1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5A1CEAEB
-P 8500 -1250
-F 0 "#PWR?" H 8500 -1500 50  0001 C CNN
-F 1 "GND" H 8500 -1400 50  0000 C CNN
-F 2 "" H 8500 -1250 50  0001 C CNN
-F 3 "" H 8500 -1250 50  0001 C CNN
-	1    8500 -1250
-	1    0    0    -1  
-$EndComp
-Text Label 8550 -2350 2    60   ~ 0
-SCL
-Text Label 8550 -2250 2    60   ~ 0
-SDA
-Text Notes 10300 -4050 2    80   ~ 0
-COMM 1/COMM 2 DOT MATRIX DISPLAYS
-Text Label 4550 -3750 0    60   ~ 0
-IC4-O0
-Text Label 4550 -3650 0    60   ~ 0
-IC4-O1
-Text Label 4550 -3550 0    60   ~ 0
-IC4-O2
-Text Label 4550 -3450 0    60   ~ 0
-IC4-O3
-Text Label 4550 -3350 0    60   ~ 0
-IC4-O4
-Text Label 4550 -3250 0    60   ~ 0
-IC4-O5
-Text Label 4550 -3150 0    60   ~ 0
-IC4-O6
-Text Label 4550 -3050 0    60   ~ 0
-IC4-O7
-Text Label 4550 -2950 0    60   ~ 0
-IC4-O8
-Text Label 4550 -2850 0    60   ~ 0
-IC4-O9
-Text Label 4550 -2750 0    60   ~ 0
-IC4-O10
-Text Label 4550 -2650 0    60   ~ 0
-IC4-O11
-Text Label 4550 -2550 0    60   ~ 0
-IC4-O12
-Text Label 4550 -2450 0    60   ~ 0
-IC4-O13
-Text Label 4550 -2250 0    60   ~ 0
-IC4-O14
-Text Label 4550 -2150 0    60   ~ 0
-IC4-O15
-Text Label 4550 -2050 0    60   ~ 0
-IC4-O16
-Text Label 4550 -1950 0    60   ~ 0
-IC4-O17
-Text Label 4550 -1850 0    60   ~ 0
-IC4-O18
-Text Label 4550 -1750 0    60   ~ 0
-IC4-O19
-Text Label 4550 -1650 0    60   ~ 0
-IC4-O20
-Text Label 4550 -1550 0    60   ~ 0
-IC4-O21
-Text Label 4550 -1450 0    60   ~ 0
-IC4-O22
-Text Label 4550 -1350 0    60   ~ 0
-IC4-O23
-Text Label 5450 -3900 2    60   ~ 0
-IC4-O14
-Text Label 5450 -3800 2    60   ~ 0
-IC4-O15
-Text Label 5450 -3700 2    60   ~ 0
-IC4-O16
-Text Label 5450 -3600 2    60   ~ 0
-IC4-O17
-Text Label 5450 -3500 2    60   ~ 0
-IC4-O18
-Text Label 5450 -3300 2    60   ~ 0
-IC4-O0
-Text Label 5450 -3200 2    60   ~ 0
-IC4-O1
-Text Label 5450 -3100 2    60   ~ 0
-IC4-O2
-Text Label 5450 -3000 2    60   ~ 0
-IC4-O3
-Text Label 5450 -2900 2    60   ~ 0
-IC4-O4
-Text Label 5450 -2800 2    60   ~ 0
-IC4-O5
-Text Label 5450 -2700 2    60   ~ 0
-IC4-O6
-Text Label 6800 -3900 2    60   ~ 0
-IC4-O19
-Text Label 6800 -3800 2    60   ~ 0
-IC4-O20
-Text Label 6800 -3700 2    60   ~ 0
-IC4-O21
-Text Label 6800 -3600 2    60   ~ 0
-IC4-O22
-Text Label 6800 -3500 2    60   ~ 0
-IC4-O23
-Text Label 6800 -3300 2    60   ~ 0
-IC4-O0
-Text Label 6800 -3200 2    60   ~ 0
-IC4-O1
-Text Label 6800 -3100 2    60   ~ 0
-IC4-O2
-Text Label 6800 -3000 2    60   ~ 0
-IC4-O3
-Text Label 6800 -2900 2    60   ~ 0
-IC4-O4
-Text Label 6800 -2800 2    60   ~ 0
-IC4-O5
-Text Label 6800 -2700 2    60   ~ 0
-IC4-O6
-Text Label 5450 -2250 2    60   ~ 0
-IC4-O14
-Text Label 5450 -2150 2    60   ~ 0
-IC4-O15
-Text Label 5450 -2050 2    60   ~ 0
-IC4-O16
-Text Label 5450 -1950 2    60   ~ 0
-IC4-O17
-Text Label 5450 -1850 2    60   ~ 0
-IC4-O18
-Text Label 5450 -1650 2    60   ~ 0
-IC4-O7
-Text Label 5450 -1550 2    60   ~ 0
-IC4-O8
-Text Label 5450 -1450 2    60   ~ 0
-IC4-O9
-Text Label 5450 -1350 2    60   ~ 0
-IC4-O10
-Text Label 5450 -1250 2    60   ~ 0
-IC4-O11
-Text Label 5450 -1150 2    60   ~ 0
-IC4-O12
-Text Label 5450 -1050 2    60   ~ 0
-IC4-O13
-Text Label 6800 -2250 2    60   ~ 0
-IC4-O19
-Text Label 6800 -2150 2    60   ~ 0
-IC4-O20
-Text Label 6800 -2050 2    60   ~ 0
-IC4-O21
-Text Label 6800 -1950 2    60   ~ 0
-IC4-O22
-Text Label 6800 -1850 2    60   ~ 0
-IC4-O23
-Text Label 6800 -1650 2    60   ~ 0
-IC4-O7
-Text Label 6800 -1550 2    60   ~ 0
-IC4-O8
-Text Label 6800 -1450 2    60   ~ 0
-IC4-O9
-Text Label 6800 -1350 2    60   ~ 0
-IC4-O10
-Text Label 6800 -1250 2    60   ~ 0
-IC4-O11
-Text Label 6800 -1150 2    60   ~ 0
-IC4-O12
-Text Label 6800 -1050 2    60   ~ 0
-IC4-O13
-NoConn ~ 9850 -3050
-NoConn ~ 9850 -2950
-NoConn ~ 9850 -2850
-NoConn ~ 9850 -2750
-NoConn ~ 9850 -2650
-NoConn ~ 9850 -2550
-NoConn ~ 9850 -2450
-Text Label 9850 -3750 0    60   ~ 0
-IC5-O0
-Text Label 9850 -3650 0    60   ~ 0
-IC5-O1
-Text Label 9850 -3550 0    60   ~ 0
-IC5-O2
-Text Label 9850 -3450 0    60   ~ 0
-IC5-O3
-Text Label 9850 -3350 0    60   ~ 0
-IC5-O4
-Text Label 9850 -3250 0    60   ~ 0
-IC5-O5
-Text Label 9850 -3150 0    60   ~ 0
-IC5-O6
-Text Label 9850 -2250 0    60   ~ 0
-IC5-O14
-Text Label 9850 -2150 0    60   ~ 0
-IC5-O15
-Text Label 9850 -2050 0    60   ~ 0
-IC5-O16
-Text Label 9850 -1950 0    60   ~ 0
-IC5-O17
-Text Label 9850 -1850 0    60   ~ 0
-IC5-O18
-Text Label 9850 -1750 0    60   ~ 0
-IC5-O19
-Text Label 9850 -1650 0    60   ~ 0
-IC5-O20
-Text Label 9850 -1550 0    60   ~ 0
-IC5-O21
-Text Label 9850 -1450 0    60   ~ 0
-IC5-O22
-Text Label 9850 -1350 0    60   ~ 0
-IC5-O23
-Text Label 10750 -3300 2    60   ~ 0
-IC5-O0
-Text Label 10750 -3200 2    60   ~ 0
-IC5-O1
-Text Label 10750 -3100 2    60   ~ 0
-IC5-O2
-Text Label 10750 -3000 2    60   ~ 0
-IC5-O3
-Text Label 10750 -2900 2    60   ~ 0
-IC5-O4
-Text Label 10750 -2800 2    60   ~ 0
-IC5-O5
-Text Label 10750 -2700 2    60   ~ 0
-IC5-O6
-Text Label 10750 -3900 2    60   ~ 0
-IC5-O14
-Text Label 10750 -3800 2    60   ~ 0
-IC5-O15
-Text Label 10750 -3700 2    60   ~ 0
-IC5-O16
-Text Label 10750 -3600 2    60   ~ 0
-IC5-O17
-Text Label 10750 -3500 2    60   ~ 0
-IC5-O18
-Text Label 12100 -3900 2    60   ~ 0
-IC5-O19
-Text Label 12100 -3800 2    60   ~ 0
-IC5-O20
-Text Label 12100 -3700 2    60   ~ 0
-IC5-O21
-Text Label 12100 -3600 2    60   ~ 0
-IC5-O22
-Text Label 12100 -3500 2    60   ~ 0
-IC5-O23
-Text Label 12100 -3300 2    60   ~ 0
-IC5-O0
-Text Label 12100 -3200 2    60   ~ 0
-IC5-O1
-Text Label 12100 -3100 2    60   ~ 0
-IC5-O2
-Text Label 12100 -3000 2    60   ~ 0
-IC5-O3
-Text Label 12100 -2900 2    60   ~ 0
-IC5-O4
-Text Label 12100 -2800 2    60   ~ 0
-IC5-O5
-Text Label 12100 -2700 2    60   ~ 0
-IC5-O6
-Text Notes 2600 -11050 0    60   ~ 0
-ADDRESS: 1010000
-Text Notes 7900 -11050 0    60   ~ 0
-ADDRESS: 1010001
-Text Notes 2600 -7500 0    60   ~ 0
-ADDRESS: 1010010
-Text Notes 7900 -7500 0    60   ~ 0
-ADDRESS: 1010011
-Text Notes 2600 -3950 0    60   ~ 0
-ADDRESS: 1010100
-Text Notes 7900 -3950 0    60   ~ 0
-ADDRESS: 1010010
-$Comp
 L power:+5V #PWR?
 U 1 1 5A1DF441
 P 50 -8750
@@ -2810,241 +1064,93 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5A240C80
-P 1600 -2350
-F 0 "D?" H 1600 -2250 50  0000 C CNN
-F 1 "WP914GDT" H 1600 -2450 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 -2350 50  0001 C CNN
-F 3 "" H 1600 -2350 50  0001 C CNN
-	1    1600 -2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A240E3B
-P 1950 -2350
-F 0 "D?" H 1950 -2250 50  0000 C CNN
-F 1 "WP914GDT" H 1950 -2450 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 -2350 50  0001 C CNN
-F 3 "" H 1950 -2350 50  0001 C CNN
-	1    1950 -2350
+P 19000 3700
+F 0 "D?" H 19000 3800 50  0000 C CNN
+F 1 "OPT0-0" H 19000 3600 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19000 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19000 3700 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19000 3700 50  0001 C CNN "PN"
+	1    19000 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5A241038
-P 1250 -2350
-F 0 "R?" V 1330 -2350 50  0000 C CNN
-F 1 "33" V 1250 -2350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 -2350 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 1250 -2350 50  0001 C CNN
-F 4 "RC1206JR-0733RL" V 1250 -2350 60  0001 C CNN "PN"
-	1    1250 -2350
+P 18650 3700
+F 0 "R?" V 18730 3700 50  0000 C CNN
+F 1 "330" V 18650 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 18580 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3300TCE_C25104.pdf" H 18650 3700 50  0001 C CNN
+F 4 "0402WGF3300TCE" V 18650 3700 60  0001 C CNN "PN"
+	1    18650 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A247D32
-P 1050 -2350
-F 0 "#PWR?" H 1050 -2600 50  0001 C CNN
-F 1 "GND" H 1050 -2500 50  0000 C CNN
-F 2 "" H 1050 -2350 50  0001 C CNN
-F 3 "" H 1050 -2350 50  0001 C CNN
-	1    1050 -2350
+P 18450 3700
+F 0 "#PWR?" H 18450 3450 50  0001 C CNN
+F 1 "GND" H 18450 3550 50  0000 C CNN
+F 2 "" H 18450 3700 50  0001 C CNN
+F 3 "" H 18450 3700 50  0001 C CNN
+	1    18450 3700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249B8D
-P 1600 -2050
-F 0 "D?" H 1600 -1950 50  0000 C CNN
-F 1 "WP914GDT" H 1600 -2150 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 -2050 50  0001 C CNN
-F 3 "" H 1600 -2050 50  0001 C CNN
-	1    1600 -2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249B93
-P 1950 -2050
-F 0 "D?" H 1950 -1950 50  0000 C CNN
-F 1 "WP914GDT" H 1950 -2150 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 -2050 50  0001 C CNN
-F 3 "" H 1950 -2050 50  0001 C CNN
-	1    1950 -2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A249B99
-P 1250 -2050
-F 0 "R?" V 1330 -2050 50  0000 C CNN
-F 1 "33" V 1250 -2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 -2050 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 1250 -2050 50  0001 C CNN
-F 4 "RC1206JR-0733RL" V 1250 -2050 60  0001 C CNN "PN"
-	1    1250 -2050
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A249B9F
-P 1050 -2050
-F 0 "#PWR?" H 1050 -2300 50  0001 C CNN
-F 1 "GND" H 1050 -2200 50  0000 C CNN
-F 2 "" H 1050 -2050 50  0001 C CNN
-F 3 "" H 1050 -2050 50  0001 C CNN
-	1    1050 -2050
+P 18450 4000
+F 0 "#PWR?" H 18450 3750 50  0001 C CNN
+F 1 "GND" H 18450 3850 50  0000 C CNN
+F 2 "" H 18450 4000 50  0001 C CNN
+F 3 "" H 18450 4000 50  0001 C CNN
+	1    18450 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249E16
-P 1600 -1750
-F 0 "D?" H 1600 -1650 50  0000 C CNN
-F 1 "WP914GDT" H 1600 -1850 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 -1750 50  0001 C CNN
-F 3 "" H 1600 -1750 50  0001 C CNN
-	1    1600 -1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249E1C
-P 1950 -1750
-F 0 "D?" H 1950 -1650 50  0000 C CNN
-F 1 "WP914GDT" H 1950 -1850 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 -1750 50  0001 C CNN
-F 3 "" H 1950 -1750 50  0001 C CNN
-	1    1950 -1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A249E22
-P 1250 -1750
-F 0 "R?" V 1330 -1750 50  0000 C CNN
-F 1 "33" V 1250 -1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 -1750 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 1250 -1750 50  0001 C CNN
-F 4 "RC1206JR-0733RL" V 1250 -1750 60  0001 C CNN "PN"
-	1    1250 -1750
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A249E28
-P 1050 -1750
-F 0 "#PWR?" H 1050 -2000 50  0001 C CNN
-F 1 "GND" H 1050 -1900 50  0000 C CNN
-F 2 "" H 1050 -1750 50  0001 C CNN
-F 3 "" H 1050 -1750 50  0001 C CNN
-	1    1050 -1750
+P 18450 4300
+F 0 "#PWR?" H 18450 4050 50  0001 C CNN
+F 1 "GND" H 18450 4150 50  0000 C CNN
+F 2 "" H 18450 4300 50  0001 C CNN
+F 3 "" H 18450 4300 50  0001 C CNN
+	1    18450 4300
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249E31
-P 1600 -1450
-F 0 "D?" H 1600 -1350 50  0000 C CNN
-F 1 "WP914GDT" H 1600 -1550 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 -1450 50  0001 C CNN
-F 3 "" H 1600 -1450 50  0001 C CNN
-	1    1600 -1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249E37
-P 1950 -1450
-F 0 "D?" H 1950 -1350 50  0000 C CNN
-F 1 "WP914GDT" H 1950 -1550 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 -1450 50  0001 C CNN
-F 3 "" H 1950 -1450 50  0001 C CNN
-	1    1950 -1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A249E3D
-P 1250 -1450
-F 0 "R?" V 1330 -1450 50  0000 C CNN
-F 1 "33" V 1250 -1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 -1450 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 1250 -1450 50  0001 C CNN
-F 4 "RC1206JR-0733RL" V 1250 -1450 60  0001 C CNN "PN"
-	1    1250 -1450
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A249E43
-P 1050 -1450
-F 0 "#PWR?" H 1050 -1700 50  0001 C CNN
-F 1 "GND" H 1050 -1600 50  0000 C CNN
-F 2 "" H 1050 -1450 50  0001 C CNN
-F 3 "" H 1050 -1450 50  0001 C CNN
-	1    1050 -1450
+P 18450 4600
+F 0 "#PWR?" H 18450 4350 50  0001 C CNN
+F 1 "GND" H 18450 4450 50  0000 C CNN
+F 2 "" H 18450 4600 50  0001 C CNN
+F 3 "" H 18450 4600 50  0001 C CNN
+	1    18450 4600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249F7D
-P 1600 -1150
-F 0 "D?" H 1600 -1050 50  0000 C CNN
-F 1 "WP914GDT" H 1600 -1250 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1600 -1150 50  0001 C CNN
-F 3 "" H 1600 -1150 50  0001 C CNN
-	1    1600 -1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5A249F83
-P 1950 -1150
-F 0 "D?" H 1950 -1050 50  0000 C CNN
-F 1 "WP914GDT" H 1950 -1250 20  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1950 -1150 50  0001 C CNN
-F 3 "" H 1950 -1150 50  0001 C CNN
-	1    1950 -1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5A249F89
-P 1250 -1150
-F 0 "R?" V 1330 -1150 50  0000 C CNN
-F 1 "33" V 1250 -1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 -1150 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf" H 1250 -1150 50  0001 C CNN
-F 4 "RC1206JR-0733RL" V 1250 -1150 60  0001 C CNN "PN"
-	1    1250 -1150
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5A249F8F
-P 1050 -1150
-F 0 "#PWR?" H 1050 -1400 50  0001 C CNN
-F 1 "GND" H 1050 -1300 50  0000 C CNN
-F 2 "" H 1050 -1150 50  0001 C CNN
-F 3 "" H 1050 -1150 50  0001 C CNN
-	1    1050 -1150
+P 18450 4900
+F 0 "#PWR?" H 18450 4650 50  0001 C CNN
+F 1 "GND" H 18450 4750 50  0000 C CNN
+F 2 "" H 18450 4900 50  0001 C CNN
+F 3 "" H 18450 4900 50  0001 C CNN
+	1    18450 4900
 	1    0    0    -1  
 $EndComp
-Text Label 2100 -2350 0    60   ~ 0
+Text Label 19500 3700 0    60   ~ 0
 2(**)
-Text Label 2100 -2050 0    60   ~ 0
+Text Label 19500 4000 0    60   ~ 0
 3(**)
-Text Label 2100 -1750 0    60   ~ 0
+Text Label 19500 4300 0    60   ~ 0
 4(**)
-Text Label 2100 -1450 0    60   ~ 0
+Text Label 19500 4600 0    60   ~ 0
 5(**)
-Text Label 2100 -1150 0    60   ~ 0
+Text Label 19500 4900 0    60   ~ 0
 6(**)
-Text Notes 9250 -11400 2    100  ~ 0
-SPI BUS (5 X 7 DOT MATRIX DISPLAYS)
-Text Notes 900  -2500 0    80   ~ 0
+Text Notes 18300 3550 0    80   ~ 0
 LEDs\nOPTION INDICATORS
 $Comp
 L Connector_Generic:Conn_02x08_Counter_Clockwise J?
@@ -3548,225 +1654,6 @@ Wire Wire Line
 	-650 -8750 -650 -8450
 Wire Wire Line
 	-2750 -8450 -2750 -7950
-Wire Wire Line
-	3650 -10650 3650 -10750
-Wire Wire Line
-	2950 -10650 3300 -10650
-Wire Wire Line
-	2950 -10650 2950 -10600
-Wire Wire Line
-	2950 -10300 2950 -10250
-Wire Wire Line
-	3300 -10850 3300 -10650
-Connection ~ 3300 -10650
-Wire Wire Line
-	3300 -10300 3300 -10250
-Connection ~ 3300 -10250
-Wire Wire Line
-	2850 -9450 3650 -9450
-Wire Wire Line
-	2850 -9350 3650 -9350
-Wire Wire Line
-	3650 -9150 2950 -9150
-Wire Wire Line
-	2950 -9150 2950 -9050
-Wire Wire Line
-	3650 -9050 2950 -9050
-Connection ~ 2950 -9050
-Wire Wire Line
-	3650 -8850 3200 -8850
-Wire Wire Line
-	3200 -8850 3200 -8650
-Wire Notes Line
-	2550 -11300 7750 -11300
-Wire Notes Line
-	2550 -7850 7750 -7850
-Wire Notes Line
-	7750 -7850 7750 -11300
-Wire Wire Line
-	8950 -10650 8950 -10750
-Wire Wire Line
-	8250 -10650 8600 -10650
-Wire Wire Line
-	8250 -10650 8250 -10600
-Wire Wire Line
-	8250 -10300 8250 -10250
-Wire Wire Line
-	8250 -10250 8600 -10250
-Wire Wire Line
-	8600 -10800 8600 -10650
-Connection ~ 8600 -10650
-Wire Wire Line
-	8600 -10300 8600 -10250
-Connection ~ 8600 -10250
-Wire Wire Line
-	8500 -9450 8950 -9450
-Wire Wire Line
-	8500 -9350 8950 -9350
-Wire Wire Line
-	8950 -8650 8800 -8650
-Wire Wire Line
-	8950 -8850 8500 -8850
-Wire Wire Line
-	8500 -8850 8500 -8650
-Wire Notes Line
-	7850 -11300 13050 -11300
-Wire Notes Line
-	7850 -11300 7850 -7850
-Wire Notes Line
-	7850 -7850 13050 -7850
-Wire Notes Line
-	13050 -7850 13050 -11300
-Wire Wire Line
-	3650 -7100 3650 -7200
-Wire Wire Line
-	2950 -7100 3300 -7100
-Wire Wire Line
-	2950 -7100 2950 -7050
-Wire Wire Line
-	2950 -6750 2950 -6700
-Wire Wire Line
-	2950 -6700 3300 -6700
-Wire Wire Line
-	3300 -7250 3300 -7100
-Connection ~ 3300 -7100
-Wire Wire Line
-	3300 -6750 3300 -6700
-Connection ~ 3300 -6700
-Wire Wire Line
-	2850 -5900 3650 -5900
-Wire Wire Line
-	2850 -5800 3550 -5800
-Wire Wire Line
-	3650 -5600 2950 -5600
-Wire Wire Line
-	2950 -5600 2950 -5400
-Wire Wire Line
-	3650 -5100 3500 -5100
-Wire Wire Line
-	3650 -5300 3200 -5300
-Wire Wire Line
-	3200 -5300 3200 -5100
-Wire Notes Line
-	2550 -7750 7750 -7750
-Wire Notes Line
-	2550 -7750 2550 -4300
-Wire Notes Line
-	2550 -4300 7750 -4300
-Wire Notes Line
-	7750 -4300 7750 -7750
-Wire Wire Line
-	8950 -7100 8950 -7200
-Wire Wire Line
-	8250 -7100 8600 -7100
-Wire Wire Line
-	8250 -7100 8250 -7050
-Wire Wire Line
-	8250 -6750 8250 -6700
-Wire Wire Line
-	8250 -6700 8600 -6700
-Wire Wire Line
-	8600 -7250 8600 -7100
-Connection ~ 8600 -7100
-Wire Wire Line
-	8600 -6750 8600 -6700
-Connection ~ 8600 -6700
-Wire Wire Line
-	8500 -5900 8850 -5900
-Wire Wire Line
-	8500 -5800 8950 -5800
-Wire Wire Line
-	8950 -5600 8250 -5600
-Wire Wire Line
-	8250 -5600 8250 -5400
-Wire Wire Line
-	8950 -5100 8800 -5100
-Wire Wire Line
-	8950 -5300 8500 -5300
-Wire Wire Line
-	8500 -5300 8500 -5100
-Wire Notes Line
-	7850 -7750 13050 -7750
-Wire Notes Line
-	7850 -7750 7850 -4300
-Wire Notes Line
-	7850 -4300 13050 -4300
-Wire Notes Line
-	13050 -4300 13050 -7750
-Wire Wire Line
-	2950 -3200 2950 -3150
-Wire Wire Line
-	2950 -3150 3300 -3150
-Wire Wire Line
-	3300 -3700 3300 -3550
-Wire Wire Line
-	3300 -3200 3300 -3150
-Connection ~ 3300 -3150
-Wire Wire Line
-	2950 -1950 2950 -1850
-Wire Wire Line
-	3650 -1950 2950 -1950
-Wire Wire Line
-	3650 -1550 3500 -1550
-Wire Wire Line
-	3650 -1750 3200 -1750
-Wire Wire Line
-	3200 -1750 3200 -1550
-Wire Notes Line
-	2550 -4200 7750 -4200
-Wire Notes Line
-	2550 -4200 2550 -750
-Wire Notes Line
-	2550 -750 7750 -750
-Wire Notes Line
-	7750 -750 7750 -4200
-Wire Wire Line
-	8950 -3550 8950 -3650
-Wire Wire Line
-	8250 -3550 8600 -3550
-Wire Wire Line
-	8250 -3550 8250 -3500
-Wire Wire Line
-	8250 -3200 8250 -3150
-Wire Wire Line
-	8250 -3150 8600 -3150
-Wire Wire Line
-	8600 -3750 8600 -3550
-Connection ~ 8600 -3550
-Wire Wire Line
-	8600 -3200 8600 -3150
-Connection ~ 8600 -3150
-Wire Wire Line
-	8550 -2350 8950 -2350
-Wire Wire Line
-	8550 -2250 8950 -2250
-Wire Wire Line
-	8250 -1950 8950 -1950
-Wire Wire Line
-	8950 -1550 8800 -1550
-Wire Wire Line
-	8950 -1750 8500 -1750
-Wire Wire Line
-	8500 -1750 8500 -1550
-Wire Notes Line
-	7850 -4200 13050 -4200
-Wire Notes Line
-	7850 -4200 7850 -750
-Wire Notes Line
-	7850 -750 13050 -750
-Wire Notes Line
-	13050 -750 13050 -4200
-Wire Wire Line
-	8950 -9150 8150 -9150
-Wire Wire Line
-	8150 -9150 8150 -8950
-Wire Wire Line
-	3550 -5500 3650 -5500
-Wire Wire Line
-	8850 -5900 8850 -5500
-Wire Wire Line
-	8850 -5500 8950 -5500
-Connection ~ 8850 -5900
 Wire Notes Line
 	-2900 -7250 -500 -7250
 Wire Notes Line
@@ -3848,51 +1735,41 @@ Wire Notes Line
 Wire Notes Line
 	12150 6450 12150 3200
 Wire Wire Line
-	1800 -2350 1750 -2350
+	19200 3700 19150 3700
 Wire Wire Line
-	1450 -2350 1400 -2350
+	18850 3700 18800 3700
 Wire Wire Line
-	1100 -2350 1050 -2350
+	18500 3700 18450 3700
 Wire Wire Line
-	1800 -2050 1750 -2050
+	19200 4000 19150 4000
 Wire Wire Line
-	1450 -2050 1400 -2050
+	18850 4000 18800 4000
 Wire Wire Line
-	1100 -2050 1050 -2050
+	18500 4000 18450 4000
 Wire Wire Line
-	1800 -1750 1750 -1750
+	19200 4300 19150 4300
 Wire Wire Line
-	1450 -1750 1400 -1750
+	18850 4300 18800 4300
 Wire Wire Line
-	1100 -1750 1050 -1750
+	18500 4300 18450 4300
 Wire Wire Line
-	1800 -1450 1750 -1450
+	19200 4600 19150 4600
 Wire Wire Line
-	1450 -1450 1400 -1450
+	18850 4600 18800 4600
 Wire Wire Line
-	1100 -1450 1050 -1450
+	18500 4600 18450 4600
 Wire Wire Line
-	1800 -1150 1750 -1150
+	19200 4900 19150 4900
 Wire Wire Line
-	1450 -1150 1400 -1150
+	18850 4900 18800 4900
 Wire Notes Line
-	2550 -11600 13050 -11600
+	18250 5300 18250 3300
 Wire Notes Line
-	13050 -11600 13050 -11350
+	18250 3300 19850 3300
 Wire Notes Line
-	13050 -11350 2550 -11350
+	19850 3300 19850 5300
 Wire Notes Line
-	2550 -11350 2550 -11600
-Wire Notes Line
-	2550 -11300 2550 -7850
-Wire Notes Line
-	850  -750 850  -2750
-Wire Notes Line
-	850  -2750 2450 -2750
-Wire Notes Line
-	2450 -2750 2450 -750
-Wire Notes Line
-	2450 -750 850  -750
+	19850 5300 18250 5300
 Wire Wire Line
 	1500 -7000 1150 -7000
 Wire Wire Line
@@ -3910,11 +1787,7 @@ Wire Notes Line
 Wire Notes Line
 	650  -6200 650  -7300
 Wire Wire Line
-	3650 -8650 3500 -8650
-Wire Wire Line
-	2950 -10250 3300 -10250
-Wire Wire Line
-	1100 -1150 1050 -1150
+	18500 4900 18450 4900
 Wire Wire Line
 	50   -10750 350  -10750
 Wire Wire Line
@@ -3929,13 +1802,6 @@ Wire Notes Line
 	-400 -7050 -400 -8150
 Wire Wire Line
 	250  -7850 -150 -7850
-Wire Wire Line
-	2950 -3550 2950 -3500
-Wire Wire Line
-	2950 -3550 3300 -3550
-Connection ~ 3300 -3550
-Wire Wire Line
-	3650 -3550 3650 -3650
 Wire Wire Line
 	12400 4250 13100 4250
 Wire Wire Line
@@ -4085,28 +1951,6 @@ Wire Wire Line
 	31950 7750 31700 7750
 Wire Wire Line
 	31700 7750 31700 7450
-Text Label 3300 -2350 2    60   ~ 0
-SCL
-Text Label 3300 -2250 2    60   ~ 0
-SDA
-Wire Wire Line
-	3300 -2350 3650 -2350
-Wire Wire Line
-	3300 -2250 3650 -2250
-Connection ~ 3550 -5800
-Wire Wire Line
-	3550 -5800 3550 -5500
-Wire Wire Line
-	8250 -2100 8250 -2050
-Wire Wire Line
-	8950 -2050 8250 -2050
-Connection ~ 8250 -2050
-NoConn ~ 3650 -9250
-NoConn ~ 8950 -9250
-NoConn ~ 8950 -5700
-NoConn ~ 3650 -5700
-NoConn ~ 3650 -2150
-NoConn ~ 8950 -2150
 Text Notes 31750 7200 0    80   ~ 0
 PWR FLAGS
 NoConn ~ -2300 -9450
@@ -4125,32 +1969,6 @@ Wire Notes Line
 	-500 -2850 -2900 -2850
 Wire Notes Line
 	-2900 -2850 -2900 -5200
-Text Label 3200 -10850 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	3200 -10850 3300 -10850
-Text Label 8500 -10800 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	8500 -10800 8600 -10800
-Text Label 3200 -7250 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	3200 -7250 3300 -7250
-Text Label 8500 -7250 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	8500 -7250 8600 -7250
-Text Label 3200 -3700 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	3200 -3700 3300 -3700
-Text Label 8500 -3750 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	8500 -3750 8600 -3750
-Text Notes 2700 -7900 0    59   ~ 0
-place Rset as close as possible to pin 15, ground \nof Rset MUST be ground bounce mitigated \n(cut in copper connecting to pin 17)
 Text Notes -350 -10300 0    39   ~ 0
 3.3v line might require\nmore than 3A!!!
 NoConn ~ -1850 -10950
@@ -4158,18 +1976,6 @@ Wire Wire Line
 	-1350 -10950 -1200 -10950
 Wire Wire Line
 	-1200 -10950 -1200 -11050
-Text Label 8250 -9350 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	8250 -9350 8250 -9050
-Wire Wire Line
-	8250 -9050 8950 -9050
-Text Label 3050 -2050 2    40   ~ 0
-matrixPower
-Wire Wire Line
-	3650 -2050 3050 -2050
-Text Label 8250 -2100 2    40   ~ 0
-matrixPower
 $Comp
 L Transistor_FET:BSS138 Q?
 U 1 1 5A3DF036
@@ -4382,46 +2188,6 @@ Wire Wire Line
 Wire Wire Line
 	-650 -8450 -650 -7950
 Wire Wire Line
-	3300 -10650 3650 -10650
-Wire Wire Line
-	3300 -10650 3300 -10600
-Wire Wire Line
-	3300 -10250 3600 -10250
-Wire Wire Line
-	2950 -9050 2950 -8950
-Wire Wire Line
-	8600 -10650 8950 -10650
-Wire Wire Line
-	8600 -10650 8600 -10600
-Wire Wire Line
-	8600 -10250 8900 -10250
-Wire Wire Line
-	3300 -7100 3650 -7100
-Wire Wire Line
-	3300 -7100 3300 -7050
-Wire Wire Line
-	3300 -6700 3600 -6700
-Wire Wire Line
-	8600 -7100 8950 -7100
-Wire Wire Line
-	8600 -7100 8600 -7050
-Wire Wire Line
-	8600 -6700 8900 -6700
-Wire Wire Line
-	3300 -3150 3600 -3150
-Wire Wire Line
-	8600 -3550 8950 -3550
-Wire Wire Line
-	8600 -3550 8600 -3500
-Wire Wire Line
-	8600 -3150 8900 -3150
-Wire Wire Line
-	8850 -5900 8950 -5900
-Wire Wire Line
-	3300 -3550 3300 -3500
-Wire Wire Line
-	3300 -3550 3650 -3550
-Wire Wire Line
 	13100 4250 13700 4250
 Wire Wire Line
 	13700 4250 14300 4250
@@ -4445,10 +2211,6 @@ Wire Wire Line
 	13700 5450 14300 5450
 Wire Wire Line
 	14300 5450 14900 5450
-Wire Wire Line
-	3550 -5800 3650 -5800
-Wire Wire Line
-	8250 -2050 8250 -1950
 Wire Wire Line
 	-1250 -4150 -1050 -4150
 Wire Wire Line
@@ -4524,78 +2286,6 @@ Connection ~ 14500 4050
 Wire Wire Line
 	14500 5650 14500 5250
 Connection ~ 14500 5250
-Wire Wire Line
-	3650 -3350 3600 -3350
-Wire Wire Line
-	3600 -3350 3600 -3250
-Connection ~ 3600 -3150
-Wire Wire Line
-	3600 -3150 3650 -3150
-Wire Wire Line
-	3650 -3250 3600 -3250
-Connection ~ 3600 -3250
-Wire Wire Line
-	3600 -3250 3600 -3150
-Wire Wire Line
-	8950 -3350 8900 -3350
-Wire Wire Line
-	8900 -3350 8900 -3250
-Connection ~ 8900 -3150
-Wire Wire Line
-	8900 -3150 8950 -3150
-Wire Wire Line
-	8950 -3250 8900 -3250
-Connection ~ 8900 -3250
-Wire Wire Line
-	8900 -3250 8900 -3150
-Wire Wire Line
-	8950 -6900 8900 -6900
-Wire Wire Line
-	8900 -6900 8900 -6800
-Connection ~ 8900 -6700
-Wire Wire Line
-	8900 -6700 8950 -6700
-Wire Wire Line
-	8950 -6800 8900 -6800
-Connection ~ 8900 -6800
-Wire Wire Line
-	8900 -6800 8900 -6700
-Wire Wire Line
-	3650 -6900 3600 -6900
-Wire Wire Line
-	3600 -6900 3600 -6800
-Connection ~ 3600 -6700
-Wire Wire Line
-	3600 -6700 3650 -6700
-Wire Wire Line
-	3650 -6800 3600 -6800
-Connection ~ 3600 -6800
-Wire Wire Line
-	3600 -6800 3600 -6700
-Wire Wire Line
-	3650 -10450 3600 -10450
-Wire Wire Line
-	3600 -10450 3600 -10350
-Connection ~ 3600 -10250
-Wire Wire Line
-	3600 -10250 3650 -10250
-Wire Wire Line
-	3650 -10350 3600 -10350
-Connection ~ 3600 -10350
-Wire Wire Line
-	3600 -10350 3600 -10250
-Wire Wire Line
-	8950 -10450 8900 -10450
-Wire Wire Line
-	8900 -10450 8900 -10350
-Connection ~ 8900 -10250
-Wire Wire Line
-	8900 -10250 8950 -10250
-Wire Wire Line
-	8950 -10350 8900 -10350
-Connection ~ 8900 -10350
-Wire Wire Line
-	8900 -10350 8900 -10250
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DB3F4A6
@@ -4651,18 +2341,6 @@ F 3 "" H -2600 -3800 50  0001 C CNN
 	1    -2600 -3800
 	1    0    0    -1  
 $EndComp
-Connection ~ 2950 -10250
-Connection ~ 2950 -6700
-Connection ~ 2950 -3150
-Connection ~ 3650 -10650
-Connection ~ 3650 -7100
-Connection ~ 3650 -3550
-Connection ~ 8250 -10250
-Connection ~ 8250 -6700
-Connection ~ 8250 -3150
-Connection ~ 8950 -10650
-Connection ~ 8950 -7100
-Connection ~ 8950 -3550
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E039136
@@ -4711,12 +2389,13 @@ Wire Notes Line
 $Comp
 L KiCadCustomLib:MAX6955AAX+ U?
 U 1 1 5EE6D503
-P 21600 5600
-F 0 "U?" H 21625 6975 50  0000 C CNN
-F 1 "MAX6955AAX+" H 21625 6884 50  0000 C CNN
-F 2 "" H 19950 7250 50  0001 C CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf" H 19950 7250 50  0001 C CNN
-	1    21600 5600
+P 21550 5950
+F 0 "U?" H 21575 7325 50  0000 C CNN
+F 1 "MAX6955AAX+" H 21575 7234 50  0000 C CNN
+F 2 "" H 19900 7600 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf" H 19900 7600 50  0001 C CNN
+F 4 "MAX6955AAX+" H 21550 5950 50  0001 C CNN "PN"
+	1    21550 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4763,43 +2442,43 @@ F 3 "" H 25100 4600 50  0001 C CNN
 	1    25400 4600
 	1    0    0    -1  
 $EndComp
-Text Label 22050 4450 0    50   ~ 0
+Text Label 22000 4800 0    50   ~ 0
 O0-0
-Text Label 22050 4550 0    50   ~ 0
+Text Label 22000 4900 0    50   ~ 0
 O1-0
-Text Label 22050 4650 0    50   ~ 0
+Text Label 22000 5000 0    50   ~ 0
 O2-0
-Text Label 22050 4750 0    50   ~ 0
+Text Label 22000 5100 0    50   ~ 0
 O3-0
-Text Label 22050 4850 0    50   ~ 0
+Text Label 22000 5200 0    50   ~ 0
 O4-0
-Text Label 22050 4950 0    50   ~ 0
+Text Label 22000 5300 0    50   ~ 0
 O5-0
-Text Label 22050 5050 0    50   ~ 0
+Text Label 22000 5400 0    50   ~ 0
 O6-0
-Text Label 22050 5150 0    50   ~ 0
+Text Label 22000 5500 0    50   ~ 0
 O7-0
-Text Label 22050 5250 0    50   ~ 0
+Text Label 22000 5600 0    50   ~ 0
 O8-0
-Text Label 22050 5350 0    50   ~ 0
+Text Label 22000 5700 0    50   ~ 0
 O9-0
-Text Label 22050 5450 0    50   ~ 0
+Text Label 22000 5800 0    50   ~ 0
 O10-0
-Text Label 22050 5550 0    50   ~ 0
+Text Label 22000 5900 0    50   ~ 0
 O11-0
-Text Label 22050 5650 0    50   ~ 0
+Text Label 22000 6000 0    50   ~ 0
 O12-0
-Text Label 22050 5750 0    50   ~ 0
+Text Label 22000 6100 0    50   ~ 0
 O13-0
-Text Label 22050 5850 0    50   ~ 0
+Text Label 22000 6200 0    50   ~ 0
 O14-0
-Text Label 22050 5950 0    50   ~ 0
+Text Label 22000 6300 0    50   ~ 0
 O15-0
-Text Label 22050 6050 0    50   ~ 0
+Text Label 22000 6400 0    50   ~ 0
 O16-0
-Text Label 22050 6150 0    50   ~ 0
+Text Label 22000 6500 0    50   ~ 0
 O17-0
-Text Label 22050 6250 0    50   ~ 0
+Text Label 22000 6600 0    50   ~ 0
 O18-0
 $Comp
 L OpenHornet:OH-OPT-DIGIT U?
@@ -5136,225 +2815,398 @@ O7-0
 $Comp
 L Device:R R?
 U 1 1 5E396CB3
-P 21050 6850
-F 0 "R?" H 21100 6850 50  0000 L CNN
-F 1 "56k" V 21050 6850 40  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 20980 6850 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 21050 6850 50  0001 C CNN
-F 4 "RMCF1206FT53K6" V 21050 6850 60  0001 C CNN "PN"
-	1    21050 6850
+P 21000 7200
+F 0 "R?" H 21050 7200 50  0000 L CNN
+F 1 "56k" V 21000 7200 40  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 20930 7200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 21000 7200 50  0001 C CNN
+F 4 "0402WGF5602TCE" V 21000 7200 60  0001 C CNN "PN"
+	1    21000 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E39EED3
-P 20700 4500
-F 0 "#PWR?" H 20700 4350 50  0001 C CNN
-F 1 "+3.3V" H 20700 4650 50  0000 C CNN
-F 2 "" H 20700 4500 50  0000 C CNN
-F 3 "" H 20700 4500 50  0000 C CNN
-	1    20700 4500
+P 20650 4850
+F 0 "#PWR?" H 20650 4700 50  0001 C CNN
+F 1 "+3.3V" H 20650 5000 50  0000 C CNN
+F 2 "" H 20650 4850 50  0000 C CNN
+F 3 "" H 20650 4850 50  0000 C CNN
+	1    20650 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E3A0033
-P 21050 7100
-F 0 "#PWR?" H 21050 6850 50  0001 C CNN
-F 1 "GND" H 21050 6950 50  0000 C CNN
-F 2 "" H 21050 7100 50  0000 C CNN
-F 3 "" H 21050 7100 50  0000 C CNN
-	1    21050 7100
+P 21000 7450
+F 0 "#PWR?" H 21000 7200 50  0001 C CNN
+F 1 "GND" H 21000 7300 50  0000 C CNN
+F 2 "" H 21000 7450 50  0000 C CNN
+F 3 "" H 21000 7450 50  0000 C CNN
+	1    21000 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E3A01F5
-P 20700 5050
-F 0 "#PWR?" H 20700 4800 50  0001 C CNN
-F 1 "GND" H 20700 4900 50  0000 C CNN
-F 2 "" H 20700 5050 50  0000 C CNN
-F 3 "" H 20700 5050 50  0000 C CNN
-	1    20700 5050
+P 20650 5400
+F 0 "#PWR?" H 20650 5150 50  0001 C CNN
+F 1 "GND" H 20650 5250 50  0000 C CNN
+F 2 "" H 20650 5400 50  0000 C CNN
+F 3 "" H 20650 5400 50  0000 C CNN
+	1    20650 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21200 4950 21100 4950
+	21150 5300 21050 5300
 Wire Wire Line
-	21100 4950 21100 4850
+	21050 5300 21050 5200
 Wire Wire Line
-	21100 4850 21200 4850
+	21050 5200 21150 5200
 Wire Wire Line
-	21200 4650 21100 4650
+	21150 5000 21050 5000
 Wire Wire Line
-	21100 4650 21100 4550
+	21050 5000 21050 4900
 Wire Wire Line
-	21100 4550 21200 4550
-NoConn ~ 22050 6750
-NoConn ~ 22050 6650
-NoConn ~ 22050 6550
-NoConn ~ 22050 6450
-NoConn ~ 22050 6350
+	21050 4900 21150 4900
+NoConn ~ 22000 7100
+NoConn ~ 22000 7000
+NoConn ~ 22000 6900
+NoConn ~ 22000 6800
+NoConn ~ 22000 6700
 $Comp
 L power:GND #PWR?
 U 1 1 5E97E3FF
-P 21100 5550
-F 0 "#PWR?" H 21100 5300 50  0001 C CNN
-F 1 "GND" H 21100 5400 50  0000 C CNN
-F 2 "" H 21100 5550 50  0000 C CNN
-F 3 "" H 21100 5550 50  0000 C CNN
-	1    21100 5550
+P 21050 5900
+F 0 "#PWR?" H 21050 5650 50  0001 C CNN
+F 1 "GND" H 21050 5750 50  0000 C CNN
+F 2 "" H 21050 5900 50  0000 C CNN
+F 3 "" H 21050 5900 50  0000 C CNN
+	1    21050 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21200 5450 21100 5450
+	21150 5800 21050 5800
 Wire Wire Line
-	21200 5350 21100 5350
+	21150 5700 21050 5700
 Wire Wire Line
-	21100 5350 21100 5450
+	21050 5700 21050 5800
 $Comp
 L Device:C_Small C?
 U 1 1 5EA0A1B1
-P 20850 4750
-F 0 "C?" H 20942 4796 50  0000 L CNN
-F 1 "100uF" H 20942 4705 50  0000 L CNN
-F 2 "" H 20850 4750 50  0001 C CNN
-F 3 "~" H 20850 4750 50  0001 C CNN
-	1    20850 4750
+P 20800 5100
+F 0 "C?" H 20892 5146 50  0000 L CNN
+F 1 "100uF" H 20892 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 20800 5100 50  0001 C CNN
+F 3 "~" H 20800 5100 50  0001 C CNN
+F 4 "CL31A107MQHNNNE" H 20800 5100 50  0001 C CNN "PN"
+	1    20800 5100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5EA0BCEC
-P 20700 4750
-F 0 "C?" H 20600 4800 50  0000 R CNN
-F 1 "47uF" H 20600 4700 50  0000 R CNN
-F 2 "" H 20700 4750 50  0001 C CNN
-F 3 "~" H 20700 4750 50  0001 C CNN
-	1    20700 4750
+P 20650 5100
+F 0 "C?" H 20550 5150 50  0000 R CNN
+F 1 "47uF" H 20550 5050 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 20650 5100 50  0001 C CNN
+F 3 "~" H 20650 5100 50  0001 C CNN
+F 4 "CL31A476MQHNNNE" H 20650 5100 50  0001 C CNN "PN"
+	1    20650 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21100 4550 20850 4550
+	21050 4900 20800 4900
 Wire Wire Line
-	20700 4550 20700 4500
-Connection ~ 21100 4550
+	20650 4900 20650 4850
+Connection ~ 21050 4900
 Wire Wire Line
-	21100 4950 20850 4950
+	21050 5300 20800 5300
 Wire Wire Line
-	20700 4950 20700 5050
-Connection ~ 21100 4950
+	20650 5300 20650 5400
+Connection ~ 21050 5300
 Wire Wire Line
-	20700 4650 20700 4550
-Connection ~ 20700 4550
+	20650 5000 20650 4900
+Connection ~ 20650 4900
 Wire Wire Line
-	20700 4850 20700 4950
-Connection ~ 20700 4950
+	20650 5200 20650 5300
+Connection ~ 20650 5300
 Wire Wire Line
-	20850 4850 20850 4950
-Connection ~ 20850 4950
+	20800 5200 20800 5300
+Connection ~ 20800 5300
 Wire Wire Line
-	20850 4950 20700 4950
+	20800 5300 20650 5300
 Wire Wire Line
-	20850 4650 20850 4550
-Connection ~ 20850 4550
+	20800 5000 20800 4900
+Connection ~ 20800 4900
 Wire Wire Line
-	20850 4550 20700 4550
+	20800 4900 20650 4900
 $Comp
 L Device:C_Small C?
 U 1 1 5EBADE56
-P 20900 6850
-F 0 "C?" H 20800 6900 50  0000 R CNN
-F 1 "22pF" H 20800 6800 50  0000 R CNN
-F 2 "" H 20900 6850 50  0001 C CNN
-F 3 "~" H 20900 6850 50  0001 C CNN
-	1    20900 6850
+P 20850 7200
+F 0 "C?" H 20750 7250 50  0000 R CNN
+F 1 "22pF" H 20750 7150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 20850 7200 50  0001 C CNN
+F 3 "~" H 20850 7200 50  0001 C CNN
+F 4 "0402CG220J500NT" H 20850 7200 50  0001 C CNN "PN"
+	1    20850 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21200 6650 21050 6650
+	21150 7000 21000 7000
 Wire Wire Line
-	21050 6650 21050 6700
-Text Label 20750 6050 2    60   ~ 0
+	21000 7000 21000 7050
+Text Label 20700 6400 2    60   ~ 0
 21(SCL)
-Text Label 20750 6150 2    60   ~ 0
+Text Label 20700 6500 2    60   ~ 0
 20(SDA)
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5EDEA294
-P 20850 5650
-F 0 "#PWR?" H 20850 5500 50  0001 C CNN
-F 1 "+3.3V" H 20850 5800 50  0000 C CNN
-F 2 "" H 20850 5650 50  0000 C CNN
-F 3 "" H 20850 5650 50  0000 C CNN
-	1    20850 5650
+P 20800 6000
+F 0 "#PWR?" H 20800 5850 50  0001 C CNN
+F 1 "+3.3V" H 20800 6150 50  0000 C CNN
+F 2 "" H 20800 6000 50  0000 C CNN
+F 3 "" H 20800 6000 50  0000 C CNN
+	1    20800 6000
 	1    0    0    -1  
 $EndComp
-Connection ~ 21100 5450
+Connection ~ 21050 5800
 $Comp
 L Device:R_Small R?
 U 1 1 5EDEAF63
-P 20900 5850
-F 0 "R?" H 20950 5900 50  0000 L CNN
-F 1 "4.7k" H 20950 5800 50  0000 L CNN
-F 2 "" H 20900 5850 50  0001 C CNN
-F 3 "~" H 20900 5850 50  0001 C CNN
-	1    20900 5850
+P 20850 6200
+F 0 "R?" H 20900 6250 50  0000 L CNN
+F 1 "4.7k" H 20900 6150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 20850 6200 50  0001 C CNN
+F 3 "~" H 20850 6200 50  0001 C CNN
+F 4 "0402WGF4701TCE" H 20850 6200 50  0001 C CNN "PN"
+	1    20850 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5EEC518B
-P 20800 5850
-F 0 "R?" H 20750 5900 50  0000 R CNN
-F 1 "4.7k" H 20750 5800 50  0000 R CNN
-F 2 "" H 20800 5850 50  0001 C CNN
-F 3 "~" H 20800 5850 50  0001 C CNN
-	1    20800 5850
+P 20750 6200
+F 0 "R?" H 20700 6250 50  0000 R CNN
+F 1 "4.7k" H 20700 6150 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 20750 6200 50  0001 C CNN
+F 3 "~" H 20750 6200 50  0001 C CNN
+F 4 "0402WGF4701TCE" H 20750 6200 50  0001 C CNN "PN"
+	1    20750 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	21200 6050 20900 6050
+	21150 6400 20850 6400
 Wire Wire Line
-	20900 5950 20900 6050
-NoConn ~ 21200 6450
-NoConn ~ 21200 6350
+	20850 6300 20850 6400
+NoConn ~ 21150 6800
+NoConn ~ 21150 6700
 Wire Wire Line
-	20800 5950 20800 6150
+	20750 6300 20750 6500
 Wire Wire Line
-	20800 6150 21200 6150
+	20750 6500 21150 6500
 Wire Wire Line
-	20900 6050 20750 6050
-Connection ~ 20900 6050
+	20850 6400 20700 6400
+Connection ~ 20850 6400
 Wire Wire Line
-	20800 6150 20750 6150
-Connection ~ 20800 6150
+	20750 6500 20700 6500
+Connection ~ 20750 6500
 Wire Wire Line
-	20900 5750 20900 5700
+	20850 6100 20850 6050
 Wire Wire Line
-	20900 5700 20850 5700
+	20850 6050 20800 6050
 Wire Wire Line
-	20800 5700 20800 5750
+	20750 6050 20750 6100
 Wire Wire Line
-	20850 5700 20850 5650
-Connection ~ 20850 5700
+	20800 6050 20800 6000
+Connection ~ 20800 6050
 Wire Wire Line
-	20850 5700 20800 5700
+	20800 6050 20750 6050
 Wire Wire Line
-	21200 6550 20900 6550
+	21150 6900 20850 6900
 Wire Wire Line
-	20900 6550 20900 6750
+	20850 6900 20850 7100
 Wire Wire Line
-	20900 6950 20900 7050
+	20850 7300 20850 7400
 Wire Wire Line
-	20900 7050 21050 7050
+	20850 7400 21000 7400
 Wire Wire Line
-	21050 7050 21050 7000
+	21000 7400 21000 7350
 Wire Wire Line
-	21050 7050 21050 7100
-Connection ~ 21050 7050
+	21000 7400 21000 7450
+Connection ~ 21000 7400
 Text Notes 12200 3350 0    80   ~ 0
 SNAP DOME SWITCHES\n
 Wire Wire Line
-	21100 5550 21100 5450
+	21050 5900 21050 5800
+Wire Notes Line
+	25700 3300 25700 7700
+Wire Notes Line
+	25700 7700 20000 7700
+Wire Notes Line
+	20000 7700 20000 3300
+Wire Notes Line
+	20000 3300 25700 3300
+Text Notes 20050 3600 0    80   ~ 0
+OPTION DISPLAYS LINE 1 & 2\ni2c ADDR: 1100000\n
+Text Notes 20050 3800 0    50   ~ 0
+TODO:\nADD MAX6955 & DIGIT FOOTPRINT
+$Comp
+L Device:LED D?
+U 1 1 5E001332
+P 19350 3700
+F 0 "D?" H 19350 3800 50  0000 C CNN
+F 1 "OPT0-1" H 19350 3600 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19350 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19350 3700 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19350 3700 50  0001 C CNN "PN"
+	1    19350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E0019B7
+P 19000 4000
+F 0 "D?" H 19000 4100 50  0000 C CNN
+F 1 "OPT1-0" H 19000 3900 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19000 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19000 4000 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19000 4000 50  0001 C CNN "PN"
+	1    19000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E001D6C
+P 19350 4000
+F 0 "D?" H 19350 4100 50  0000 C CNN
+F 1 "OPT1-1" H 19350 3900 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19350 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19350 4000 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19350 4000 50  0001 C CNN "PN"
+	1    19350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E002766
+P 19000 4300
+F 0 "D?" H 19000 4400 50  0000 C CNN
+F 1 "OPT2-0" H 19000 4200 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19000 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19000 4300 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19000 4300 50  0001 C CNN "PN"
+	1    19000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E002771
+P 19350 4300
+F 0 "D?" H 19350 4400 50  0000 C CNN
+F 1 "OPT2-1" H 19350 4200 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19350 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19350 4300 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19350 4300 50  0001 C CNN "PN"
+	1    19350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E027E89
+P 19000 4600
+F 0 "D?" H 19000 4700 50  0000 C CNN
+F 1 "OPT3-0" H 19000 4500 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19000 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19000 4600 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19000 4600 50  0001 C CNN "PN"
+	1    19000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E027E94
+P 19350 4600
+F 0 "D?" H 19350 4700 50  0000 C CNN
+F 1 "OPT3-1" H 19350 4500 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19350 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19350 4600 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19350 4600 50  0001 C CNN "PN"
+	1    19350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E04DB1E
+P 19000 4900
+F 0 "D?" H 19000 5000 50  0000 C CNN
+F 1 "OPT4-0" H 19000 4800 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19000 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19000 4900 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19000 4900 50  0001 C CNN "PN"
+	1    19000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5E04DB29
+P 19350 4900
+F 0 "D?" H 19350 5000 50  0000 C CNN
+F 1 "OPT4-1" H 19350 4800 20  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 19350 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-16-219A-T2D-AR2T1QY-3T_C74342.pdf" H 19350 4900 50  0001 C CNN
+F 4 "16-219A/T2D-AR2T1QY/3T" H 19350 4900 50  0001 C CNN "PN"
+	1    19350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E0762C7
+P 18650 4000
+F 0 "R?" V 18730 4000 50  0000 C CNN
+F 1 "330" V 18650 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 18580 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3300TCE_C25104.pdf" H 18650 4000 50  0001 C CNN
+F 4 "0402WGF3300TCE" V 18650 4000 60  0001 C CNN "PN"
+	1    18650 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E09D48C
+P 18650 4300
+F 0 "R?" V 18730 4300 50  0000 C CNN
+F 1 "330" V 18650 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 18580 4300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3300TCE_C25104.pdf" H 18650 4300 50  0001 C CNN
+F 4 "0402WGF3300TCE" V 18650 4300 60  0001 C CNN "PN"
+	1    18650 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E09E729
+P 18650 4600
+F 0 "R?" V 18730 4600 50  0000 C CNN
+F 1 "330" V 18650 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 18580 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3300TCE_C25104.pdf" H 18650 4600 50  0001 C CNN
+F 4 "0402WGF3300TCE" V 18650 4600 60  0001 C CNN "PN"
+	1    18650 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E09E8EC
+P 18650 4900
+F 0 "R?" V 18730 4900 50  0000 C CNN
+F 1 "330" V 18650 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 18580 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF3300TCE_C25104.pdf" H 18650 4900 50  0001 C CNN
+F 4 "0402WGF3300TCE" V 18650 4900 60  0001 C CNN "PN"
+	1    18650 4900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
