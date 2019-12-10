@@ -1999,8 +1999,6 @@ Text Label 18150 5000 1    50   ~ 0
 O18-0
 Text Label 16000 5350 2    50   ~ 0
 O5-0
-Wire Wire Line
-	18150 6800 18150 7050
 Text Notes 18200 6950 0    50   ~ 0
 dp
 Wire Notes Line
@@ -2038,9 +2036,6 @@ Wire Wire Line
 Connection ~ 17650 7050
 Wire Wire Line
 	17650 7000 17650 7050
-Wire Wire Line
-	17900 7050 18150 7050
-Connection ~ 17900 7050
 Wire Wire Line
 	17900 7000 17900 7050
 Connection ~ 16400 7050
@@ -2290,8 +2285,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 6900 50  0001 C CNN "PN"
 	1    14100 6900
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	18150 5900 18150 6150
 Text Notes 18200 6050 0    50   ~ 0
 dp
 Wire Notes Line
@@ -2329,9 +2322,6 @@ Wire Wire Line
 Connection ~ 17650 6150
 Wire Wire Line
 	17650 6100 17650 6150
-Wire Wire Line
-	17900 6150 18150 6150
-Connection ~ 17900 6150
 Wire Wire Line
 	17900 6100 17900 6150
 Connection ~ 16400 6150
@@ -2581,8 +2571,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 6000 50  0001 C CNN "PN"
 	1    14100 6000
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	18150 5000 18150 5250
 Text Notes 18200 5150 0    50   ~ 0
 dp
 Wire Notes Line
@@ -2620,9 +2608,6 @@ Wire Wire Line
 Connection ~ 17650 5250
 Wire Wire Line
 	17650 5200 17650 5250
-Wire Wire Line
-	17900 5250 18150 5250
-Connection ~ 17900 5250
 Wire Wire Line
 	17900 5200 17900 5250
 Connection ~ 16400 5250
@@ -2872,8 +2857,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 5100 50  0001 C CNN "PN"
 	1    14100 5100
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	13700 6800 13700 7050
 Text Notes 13750 6950 0    50   ~ 0
 dp
 Wire Notes Line
@@ -2911,9 +2894,6 @@ Wire Wire Line
 Connection ~ 13200 7050
 Wire Wire Line
 	13200 7000 13200 7050
-Wire Wire Line
-	13450 7050 13700 7050
-Connection ~ 13450 7050
 Wire Wire Line
 	13450 7000 13450 7050
 Connection ~ 11950 7050
@@ -3165,8 +3145,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 6900 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 6250 2    50   ~ 0
 O2-0
-Wire Wire Line
-	13700 5900 13700 6150
 Text Notes 13750 6050 0    50   ~ 0
 dp
 Wire Notes Line
@@ -3204,9 +3182,6 @@ Wire Wire Line
 Connection ~ 13200 6150
 Wire Wire Line
 	13200 6100 13200 6150
-Wire Wire Line
-	13450 6150 13700 6150
-Connection ~ 13450 6150
 Wire Wire Line
 	13450 6100 13450 6150
 Connection ~ 11950 6150
@@ -3458,18 +3433,12 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 6000 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 5350 2    50   ~ 0
 O1-0
-Wire Wire Line
-	18150 4100 18150 4350
 Text Notes 18200 4250 0    50   ~ 0
 dp
-Wire Wire Line
-	13700 5000 13700 5250
 Text Notes 13750 5150 0    50   ~ 0
 dp
 Text Notes 13750 4250 0    50   ~ 0
 dp
-Wire Wire Line
-	13700 4100 13700 4350
 Text Label 13700 5000 1    50   ~ 0
 O18-0
 Text Label 13450 5000 1    50   ~ 0
@@ -3539,9 +3508,6 @@ Wire Wire Line
 Connection ~ 13200 5250
 Wire Wire Line
 	13200 5200 13200 5250
-Wire Wire Line
-	13450 5250 13700 5250
-Connection ~ 13450 5250
 Wire Wire Line
 	13450 5200 13450 5250
 Connection ~ 11950 5250
@@ -3863,9 +3829,6 @@ Connection ~ 13200 4350
 Wire Wire Line
 	13200 4300 13200 4350
 Wire Wire Line
-	13450 4350 13700 4350
-Connection ~ 13450 4350
-Wire Wire Line
 	13450 4300 13450 4350
 Connection ~ 11950 4350
 Wire Wire Line
@@ -4149,9 +4112,6 @@ Wire Wire Line
 Connection ~ 17650 4350
 Wire Wire Line
 	17650 4300 17650 4350
-Wire Wire Line
-	17900 4350 18150 4350
-Connection ~ 17900 4350
 Wire Wire Line
 	17900 4300 17900 4350
 Connection ~ 16400 4350
@@ -4847,8 +4807,6 @@ Text Label 18150 8900 1    50   ~ 0
 O18-1
 Text Label 16000 9250 2    50   ~ 0
 O5-1
-Wire Wire Line
-	18150 10700 18150 10950
 Text Notes 18200 10850 0    50   ~ 0
 dp
 Wire Notes Line
@@ -4886,9 +4844,6 @@ Wire Wire Line
 Connection ~ 17650 10950
 Wire Wire Line
 	17650 10900 17650 10950
-Wire Wire Line
-	17900 10950 18150 10950
-Connection ~ 17900 10950
 Wire Wire Line
 	17900 10900 17900 10950
 Connection ~ 16400 10950
@@ -5138,8 +5093,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 10800 50  0001 C CNN "PN"
 	1    14100 10800
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	18150 9800 18150 10050
 Text Notes 18200 9950 0    50   ~ 0
 dp
 Wire Notes Line
@@ -5177,9 +5130,6 @@ Wire Wire Line
 Connection ~ 17650 10050
 Wire Wire Line
 	17650 10000 17650 10050
-Wire Wire Line
-	17900 10050 18150 10050
-Connection ~ 17900 10050
 Wire Wire Line
 	17900 10000 17900 10050
 Connection ~ 16400 10050
@@ -5429,8 +5379,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 9900 50  0001 C CNN "PN"
 	1    14100 9900
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	18150 8900 18150 9150
 Text Notes 18200 9050 0    50   ~ 0
 dp
 Wire Notes Line
@@ -5468,9 +5416,6 @@ Wire Wire Line
 Connection ~ 17650 9150
 Wire Wire Line
 	17650 9100 17650 9150
-Wire Wire Line
-	17900 9150 18150 9150
-Connection ~ 17900 9150
 Wire Wire Line
 	17900 9100 17900 9150
 Connection ~ 16400 9150
@@ -5720,8 +5665,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 9000 50  0001 C CNN "PN"
 	1    14100 9000
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	13700 10700 13700 10950
 Text Notes 13750 10850 0    50   ~ 0
 dp
 Wire Notes Line
@@ -5759,9 +5702,6 @@ Wire Wire Line
 Connection ~ 13200 10950
 Wire Wire Line
 	13200 10900 13200 10950
-Wire Wire Line
-	13450 10950 13700 10950
-Connection ~ 13450 10950
 Wire Wire Line
 	13450 10900 13450 10950
 Connection ~ 11950 10950
@@ -6013,8 +5953,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 10800 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 10150 2    50   ~ 0
 O2-1
-Wire Wire Line
-	13700 9800 13700 10050
 Text Notes 13750 9950 0    50   ~ 0
 dp
 Wire Notes Line
@@ -6052,9 +5990,6 @@ Wire Wire Line
 Connection ~ 13200 10050
 Wire Wire Line
 	13200 10000 13200 10050
-Wire Wire Line
-	13450 10050 13700 10050
-Connection ~ 13450 10050
 Wire Wire Line
 	13450 10000 13450 10050
 Connection ~ 11950 10050
@@ -6306,18 +6241,12 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 9900 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 9250 2    50   ~ 0
 O1-1
-Wire Wire Line
-	18150 8000 18150 8250
 Text Notes 18200 8150 0    50   ~ 0
 dp
-Wire Wire Line
-	13700 8900 13700 9150
 Text Notes 13750 9050 0    50   ~ 0
 dp
 Text Notes 13750 8150 0    50   ~ 0
 dp
-Wire Wire Line
-	13700 8000 13700 8250
 Text Label 13700 8900 1    50   ~ 0
 O18-1
 Text Label 13450 8900 1    50   ~ 0
@@ -6387,9 +6316,6 @@ Wire Wire Line
 Connection ~ 13200 9150
 Wire Wire Line
 	13200 9100 13200 9150
-Wire Wire Line
-	13450 9150 13700 9150
-Connection ~ 13450 9150
 Wire Wire Line
 	13450 9100 13450 9150
 Connection ~ 11950 9150
@@ -6711,9 +6637,6 @@ Connection ~ 13200 8250
 Wire Wire Line
 	13200 8200 13200 8250
 Wire Wire Line
-	13450 8250 13700 8250
-Connection ~ 13450 8250
-Wire Wire Line
 	13450 8200 13450 8250
 Connection ~ 11950 8250
 Wire Wire Line
@@ -6997,9 +6920,6 @@ Wire Wire Line
 Connection ~ 17650 8250
 Wire Wire Line
 	17650 8200 17650 8250
-Wire Wire Line
-	17900 8250 18150 8250
-Connection ~ 17900 8250
 Wire Wire Line
 	17900 8200 17900 8250
 Connection ~ 16400 8250
@@ -7624,8 +7544,6 @@ Wire Notes Line
 	18500 15050 7050 15050
 Wire Notes Line
 	18500 11300 18500 15050
-Wire Wire Line
-	13700 14550 13700 14800
 Text Notes 13750 14700 0    50   ~ 0
 dp
 Wire Notes Line
@@ -7663,9 +7581,6 @@ Wire Wire Line
 Connection ~ 13200 14800
 Wire Wire Line
 	13200 14750 13200 14800
-Wire Wire Line
-	13450 14800 13700 14800
-Connection ~ 13450 14800
 Wire Wire Line
 	13450 14750 13450 14800
 Connection ~ 11950 14800
@@ -7917,8 +7832,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 14650 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 14000 2    50   ~ 0
 O2-2
-Wire Wire Line
-	13700 13650 13700 13900
 Text Notes 13750 13800 0    50   ~ 0
 dp
 Wire Notes Line
@@ -7956,9 +7869,6 @@ Wire Wire Line
 Connection ~ 13200 13900
 Wire Wire Line
 	13200 13850 13200 13900
-Wire Wire Line
-	13450 13900 13700 13900
-Connection ~ 13450 13900
 Wire Wire Line
 	13450 13850 13450 13900
 Connection ~ 11950 13900
@@ -8210,14 +8120,10 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 9650 13750 50  0001 C CNN "PN"
 $EndComp
 Text Label 11550 13100 2    50   ~ 0
 O1-2
-Wire Wire Line
-	13700 12750 13700 13000
 Text Notes 13750 12900 0    50   ~ 0
 dp
 Text Notes 13750 12000 0    50   ~ 0
 dp
-Wire Wire Line
-	13700 11850 13700 12100
 Text Label 13700 12750 1    50   ~ 0
 O18-2
 Text Label 13450 12750 1    50   ~ 0
@@ -8287,9 +8193,6 @@ Wire Wire Line
 Connection ~ 13200 13000
 Wire Wire Line
 	13200 12950 13200 13000
-Wire Wire Line
-	13450 13000 13700 13000
-Connection ~ 13450 13000
 Wire Wire Line
 	13450 12950 13450 13000
 Connection ~ 11950 13000
@@ -8610,9 +8513,6 @@ Wire Wire Line
 Connection ~ 13200 12100
 Wire Wire Line
 	13200 12050 13200 12100
-Wire Wire Line
-	13450 12100 13700 12100
-Connection ~ 13450 12100
 Wire Wire Line
 	13450 12050 13450 12100
 Connection ~ 11950 12100
@@ -9175,8 +9075,6 @@ Text Label 18150 12750 1    50   ~ 0
 O18-2
 Text Label 16000 13100 2    50   ~ 0
 O5-2
-Wire Wire Line
-	18150 12750 18150 13000
 Text Notes 18200 12900 0    50   ~ 0
 dp
 Wire Notes Line
@@ -9214,9 +9112,6 @@ Wire Wire Line
 Connection ~ 17650 13000
 Wire Wire Line
 	17650 12950 17650 13000
-Wire Wire Line
-	17900 13000 18150 13000
-Connection ~ 17900 13000
 Wire Wire Line
 	17900 12950 17900 13000
 Connection ~ 16400 13000
@@ -9466,8 +9361,6 @@ F 4 "16-219A/T2D-AR2T1QY/3T" V 14100 12850 50  0001 C CNN "PN"
 	1    14100 12850
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	18150 11850 18150 12100
 Text Notes 18200 12000 0    50   ~ 0
 dp
 Wire Notes Line
@@ -9505,9 +9398,6 @@ Wire Wire Line
 Connection ~ 17650 12100
 Wire Wire Line
 	17650 12050 17650 12100
-Wire Wire Line
-	17900 12100 18150 12100
-Connection ~ 17900 12100
 Wire Wire Line
 	17900 12050 17900 12100
 Connection ~ 16400 12100
@@ -9837,9 +9727,9 @@ F 3 "" H 8100 12800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4950 7600 0    60   ~ 0
-SCL
+21(SCL)
 Text Label 4950 7800 0    60   ~ 0
-SDA
+20(SDA)
 Text Label 4050 7600 2    50   ~ 0
 SCL3v
 Text Label 4050 7800 2    50   ~ 0
@@ -10045,4 +9935,43 @@ Wire Wire Line
 	5000 8100 5000 8150
 Wire Wire Line
 	5200 8100 5200 8150
+NoConn ~ 13700 4100
+NoConn ~ 13700 5000
+NoConn ~ 18150 4100
+NoConn ~ 18150 5000
+NoConn ~ 13700 5900
+NoConn ~ 18150 5900
+NoConn ~ 18150 6800
+NoConn ~ 13700 6800
+NoConn ~ 13700 8000
+NoConn ~ 18150 8000
+NoConn ~ 13700 8900
+NoConn ~ 18150 8900
+NoConn ~ 18150 9800
+NoConn ~ 13700 9800
+NoConn ~ 13700 10700
+NoConn ~ 18150 10700
+NoConn ~ 13700 14550
+NoConn ~ 13700 13650
+NoConn ~ 13700 12750
+NoConn ~ 18150 12750
+NoConn ~ 18150 11850
+NoConn ~ 19200 3650
+NoConn ~ 19200 3750
+NoConn ~ 19200 3850
+NoConn ~ 19200 3950
+NoConn ~ 19200 4050
+NoConn ~ 19200 4150
+NoConn ~ 19550 1250
+NoConn ~ 18900 1600
+NoConn ~ 20700 1400
+NoConn ~ 20700 3450
+NoConn ~ 20700 3550
+NoConn ~ 20700 3650
+NoConn ~ 20700 3750
+NoConn ~ 20700 3850
+NoConn ~ 20700 3950
+NoConn ~ 20700 1200
+NoConn ~ 20700 1300
+NoConn ~ 5700 9600
 $EndSCHEMATC
