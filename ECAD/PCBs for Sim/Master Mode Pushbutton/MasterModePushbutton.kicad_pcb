@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
 
   (general
     (thickness 1.6)
     (drawings 13)
-    (tracks 75)
+    (tracks 76)
     (zones 0)
     (modules 15)
     (nets 8)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -34,7 +34,8 @@
   )
 
   (setup
-    (last_trace_width 0.2286)
+    (last_trace_width 0.6096)
+    (user_trace_width 0.6096)
     (trace_clearance 0.1778)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -60,7 +61,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 144.74648 106.74748)
     (grid_origin 144.74648 106.74748)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -604,6 +605,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
+  (segment (start 137.77648 97.36248) (end 137.77648 92.31248) (width 0.6096) (layer B.Cu) (net 0))
   (segment (start 130.59648 90.38748) (end 131.27508 90.38748) (width 0.2286) (layer F.Cu) (net 1))
   (segment (start 131.27508 90.38748) (end 131.64648 90.01608) (width 0.2286) (layer F.Cu) (net 1))
   (segment (start 131.64648 90.01608) (end 131.64648 86.937) (width 0.2286) (layer F.Cu) (net 1))
@@ -683,7 +685,7 @@
   (zone (net 4) (net_name GND) (layer F.Cu) (tstamp 5DBC3B11) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 117.54648 80.84748) (xy 151.54648 80.84748) (xy 151.54648 108.54748) (xy 117.64648 109.24748)
@@ -827,7 +829,7 @@
   (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5DBC3B0E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 117.54648 80.764581) (xy 151.54648 80.764581) (xy 151.54648 108.464581) (xy 117.64648 109.164581)
