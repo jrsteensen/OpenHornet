@@ -29,6 +29,10 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP OH-OPT-DIGIT
+D 16 segment OPT Display Digit for F18 UFC
+$ENDCMP
+#
 $CMP RWR_Control_Panel
 D EWI PCB based on ABSIS Nano
 $ENDCMP

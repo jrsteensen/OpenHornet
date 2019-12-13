@@ -387,6 +387,12 @@ K 4-Digit 5 ✕ 7 Matrix LED Display Driver 36 SSOP
 F http://datasheets.maximintegrated.com/en/ds/MAX6953.pdf
 $ENDCMP
 #
+$CMP MAX6955AAX+
+D 2-Wire Interfaced, 2.7V to 5.5V LED Display Driver with I/O Expander and Key Scan
+K LED Driver i2c
+F https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
