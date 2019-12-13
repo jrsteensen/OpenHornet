@@ -2,6 +2,12 @@
 # CONTRIBUTING
 This is TBD. Please feel free to propose ideas to flesh this out.
 
+## BRANCHES
+The repo has three primary branches. The top level is "master", which both the "hardware" and "software" branches feed into. All feature branches should feed into either the hardware or software branches, and one of the project managers will merge those two branches into master on a periodic basis.
+
+- Hardware: This branch is for all MCAD and ECAD related items.
+- Software: This branch is for all software related items.
+
 ## MCAD:
 - [ ] Model is in SolidWorks 2019 format
 - [ ] Design intent and requirements have been met
