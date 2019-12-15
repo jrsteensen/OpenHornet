@@ -1,0 +1,203 @@
+Nest Results Summary
+=================================================================================================================
+
+Total Number of Sheets Nested		: 7
+Total Number of Part Instances Nested	: 51
+Overall Utilization			: 53.413
+=================================================================================================================
+
+Nested Part Quantity	Desired Quantity	Part Name			Part ID
+--------------------	----------------	------------------------------	------------------------------
+1			1			Vertical Mounting Rail [D]			Vertical Mounting Rail [D]
+1			1			Vertical Mounting Rail [C]			Vertical Mounting Rail [C]
+1			1			Vertical Mounting Rail [B]			Vertical Mounting Rail [B]
+1			1			Vertical Mounting Rail [A]			Vertical Mounting Rail [A]
+1			1			Upper Rail Cap [Default]			Upper Rail Cap [Default]
+1			1			Top Parachute Container Base [Default]			Top Parachute Container Base [Default]
+1			1			Side Parachute Container Support [Default]			Side Parachute Container Support [Default]
+1			1			Seat Pan Top [Default]			Seat Pan Top [Default]
+2			2			Seat Pan Support B [Default]			Seat Pan Support B [Default]
+1			1			Seat Pan Front E [Default]			Seat Pan Front E [Default]
+2			2			Seat Pan Front D [Default]			Seat Pan Front D [Default]
+1			1			Seat Pan Front C [Default]			Seat Pan Front C [Default]
+1			1			Seat Pan Front B [Default]			Seat Pan Front B [Default]
+1			1			Seat Pan Front A [Default]			Seat Pan Front A [Default]
+1			1			Seat Pan Base [Default]			Seat Pan Base [Default]
+1			1			Seat Pan Access Panel Support [Default]			Seat Pan Access Panel Support [Default]
+1			1			Seat Pan Access Panel Plug [Default]			Seat Pan Access Panel Plug [Default]
+2			2			Seat Back Vertical Support [B]			Seat Back Vertical Support [B]
+2			2			Seat Back Vertical Support [A]			Seat Back Vertical Support [A]
+1			1			Seat Back Top [Default]			Seat Back Top [Default]
+1			1			Right Parachute Container Mounting Strip [Default]			Right Parachute Container Mounting Strip [Default]
+1			1			RH Seat Pan Outboard Support [Default]			RH Seat Pan Outboard Support [Default]
+1			1			RH Seat Bucket Exterior [Default]			RH Seat Bucket Exterior [Default]
+1			1			RH Seat Bucket Exterior Detail [Default]			RH Seat Bucket Exterior Detail [Default]
+1			1			RH Outboard Seat Mount [Default]			RH Outboard Seat Mount [Default]
+1			1			RH Inboard Seat Mount [Default]			RH Inboard Seat Mount [Default]
+1			1			Outboard Seat Mount [Default]			Outboard Seat Mount [Default]
+1			1			MirrorSide Parachute Container Support [Default]			MirrorSide Parachute Container Support [Default]
+2			2			Lower Seat Pan Support C [Default]			Lower Seat Pan Support C [Default]
+1			1			Lower Seat Pan Base [Default]			Lower Seat Pan Base [Default]
+1			1			Lower Parachute Container Base [Default]			Lower Parachute Container Base [Default]
+2			2			Lower Horizontal Mounting Rail [Default]			Lower Horizontal Mounting Rail [Default]
+1			1			Left Parachute Container Mounting Strip [Default]			Left Parachute Container Mounting Strip [Default]
+1			1			LH Seat Pan Outboard Support [Default]			LH Seat Pan Outboard Support [Default]
+1			1			LH Seat Bucket Exterior [Default]			LH Seat Bucket Exterior [Default]
+1			1			LH Seat Bucket Exterior Detail [Default]			LH Seat Bucket Exterior Detail [Default]
+1			1			Inboard Seat Mount [Default]			Inboard Seat Mount [Default]
+2			2			Horizontal Seat Pan Support [Default]			Horizontal Seat Pan Support [Default]
+1			1			FWD Parachute Container Support [Default]			FWD Parachute Container Support [Default]
+1			1			Drogue Bridle Container [Default]			Drogue Bridle Container [Default]
+1			1			Center Seat Pan Internal Support [Default]			Center Seat Pan Internal Support [Default]
+1			1			Aft Seat Back Support [Default]			Aft Seat Back Support [Default]
+1			1			Aft Rail Cap [Default]			Aft Rail Cap [Default]
+1			1			Aft Parachute Container Support [Default]			Aft Parachute Container Support [Default]
+--------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+Total no. of Sheets	Parts per Sheet		Sheet Name		Sheet ID
+-------------------	---------------		------------------	------------------
+1			12			StdSheet3-S99(40" X 30")	ShopBot
+1			11			StdSheet3-S99(40" X 30")	ShopBot
+1			7			StdSheet1-S99(40" X 30")	ShopBot
+1			6			StdSheet1-S99(40" X 30")	ShopBot
+1			9			StdSheet1-S99(40" X 30")	ShopBot
+1			4			StdSheet2-S99(40" X 30")	ShopBot
+1			2			StdSheet2-S99(40" X 30")	ShopBot
+-------------------	---------------		------------------	------------------
+=================================================================================================================
+
+Layout Name	: Layout1[MDF_0.5in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet3-S99(40" X 30")			Sheet Thickness(in)	: 0.50
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 83.118
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			Top Parachute Container Base [Default]			Top Parachute Container Base [Default]
+1			1			1			Side Parachute Container Support [Default]			Side Parachute Container Support [Default]
+1			1			1			Seat Pan Top [Default]			Seat Pan Top [Default]
+2			2			2			Seat Pan Support B [Default]			Seat Pan Support B [Default]
+1			1			1			Seat Pan Front E [Default]			Seat Pan Front E [Default]
+1			1			2			Seat Pan Front D [Default]			Seat Pan Front D [Default]
+1			1			1			Seat Pan Access Panel Plug [Default]			Seat Pan Access Panel Plug [Default]
+1			1			1			Lower Parachute Container Base [Default]			Lower Parachute Container Base [Default]
+1			1			1			Drogue Bridle Container [Default]			Drogue Bridle Container [Default]
+1			1			1			Aft Seat Back Support [Default]			Aft Seat Back Support [Default]
+1			1			1			Aft Parachute Container Support [Default]			Aft Parachute Container Support [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout2[MDF_0.5in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet3-S99(40" X 30")			Sheet Thickness(in)	: 0.50
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 43.007
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			2			Seat Pan Front D [Default]			Seat Pan Front D [Default]
+1			1			1			Seat Pan Front C [Default]			Seat Pan Front C [Default]
+1			1			1			Seat Pan Front B [Default]			Seat Pan Front B [Default]
+1			1			1			Seat Pan Front A [Default]			Seat Pan Front A [Default]
+1			1			1			Seat Pan Access Panel Support [Default]			Seat Pan Access Panel Support [Default]
+1			1			1			Seat Back Top [Default]			Seat Back Top [Default]
+1			1			1			MirrorSide Parachute Container Support [Default]			MirrorSide Parachute Container Support [Default]
+2			2			2			Lower Seat Pan Support C [Default]			Lower Seat Pan Support C [Default]
+1			1			1			Lower Seat Pan Base [Default]			Lower Seat Pan Base [Default]
+1			1			1			FWD Parachute Container Support [Default]			FWD Parachute Container Support [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout3[MDF_0.75in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet1-S99(40" X 30")			Sheet Thickness(in)	: 0.75
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 59.054
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			Right Parachute Container Mounting Strip [Default]			Right Parachute Container Mounting Strip [Default]
+1			1			1			RH Outboard Seat Mount [Default]			RH Outboard Seat Mount [Default]
+1			1			1			Outboard Seat Mount [Default]			Outboard Seat Mount [Default]
+1			1			1			Left Parachute Container Mounting Strip [Default]			Left Parachute Container Mounting Strip [Default]
+1			1			1			LH Seat Pan Outboard Support [Default]			LH Seat Pan Outboard Support [Default]
+1			1			1			Inboard Seat Mount [Default]			Inboard Seat Mount [Default]
+1			1			1			Center Seat Pan Internal Support [Default]			Center Seat Pan Internal Support [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout4[MDF_0.75in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet1-S99(40" X 30")			Sheet Thickness(in)	: 0.75
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 61.652
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			Vertical Mounting Rail [D]			Vertical Mounting Rail [D]
+1			1			1			Vertical Mounting Rail [C]			Vertical Mounting Rail [C]
+1			1			1			Vertical Mounting Rail [B]			Vertical Mounting Rail [B]
+1			1			1			Vertical Mounting Rail [A]			Vertical Mounting Rail [A]
+2			2			2			Horizontal Seat Pan Support [Default]			Horizontal Seat Pan Support [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout5[MDF_0.75in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet1-S99(40" X 30")			Sheet Thickness(in)	: 0.75
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 54.021
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			Seat Pan Base [Default]			Seat Pan Base [Default]
+2			2			2			Seat Back Vertical Support [B]			Seat Back Vertical Support [B]
+2			2			2			Seat Back Vertical Support [A]			Seat Back Vertical Support [A]
+1			1			1			RH Seat Pan Outboard Support [Default]			RH Seat Pan Outboard Support [Default]
+1			1			1			RH Inboard Seat Mount [Default]			RH Inboard Seat Mount [Default]
+2			2			2			Lower Horizontal Mounting Rail [Default]			Lower Horizontal Mounting Rail [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout6[MDF_0.25in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet2-S99(40" X 30")			Sheet Thickness(in)	: 0.25
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 42.494
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			Upper Rail Cap [Default]			Upper Rail Cap [Default]
+1			1			1			RH Seat Bucket Exterior [Default]			RH Seat Bucket Exterior [Default]
+1			1			1			RH Seat Bucket Exterior Detail [Default]			RH Seat Bucket Exterior Detail [Default]
+1			1			1			Aft Rail Cap [Default]			Aft Rail Cap [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
+
+Layout Name	: Layout7[MDF_0.25in_Qnty1]
+No. of Sheets	: 1
+Sheet ID	: ShopBot
+Sheet Name	: StdSheet2-S99(40" X 30")			Sheet Thickness(in)	: 0.25
+Sheet Length(in): 1016.00				Material		: MDF
+Sheet Width(in)	: 762.00				Sheet Utilization	: 30.543
+
+
+Nested Qty per Sheet	Nested Qty per layout	Total Nested Qty	Part Name			Part ID
+--------------------	---------------------	----------------	------------------------------	------------------------------
+1			1			1			LH Seat Bucket Exterior [Default]			LH Seat Bucket Exterior [Default]
+1			1			1			LH Seat Bucket Exterior Detail [Default]			LH Seat Bucket Exterior Detail [Default]
+--------------------	---------------------	----------------	------------------------------	------------------------------
+=================================================================================================================
