@@ -75,7 +75,7 @@
 #define DCSBIOS_RS485_MASTER
 
 /**
- * Define where the TX_ENABLE of the RS485 chip is connected. 
+ * Define where the UART1 TX_ENABLE of the RS485 chip is connected. 
  */
 #define UART1_TXENABLE_PIN 2
 
