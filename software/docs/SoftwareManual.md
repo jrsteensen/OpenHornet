@@ -57,35 +57,94 @@ The following is an example of how to document code:
  *
  *   Project OpenHornet
  *
- *   This Project is released under the Creative Commons 
+ *   The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator,
+ *   consisting of a physical structure and electrical/software interfaces to a PC
+ *   to be driven by Digital Combat Simulator (DCS).
+ *
+ *   ---------------------------------------------------------------------------------
+ *
+ *   This Project is released under the Creative Commons
  *   Atribution - Non Comercal - Share Alike License.
- *   
+ *
  *   CC BY-NC-SA 3.0
- *   
+ *
  *   You are free to:
  *   - Share — copy and redistribute the material in any medium or format
  *   - Adapt — remix, transform, and build upon the material
  *   The licensor cannot revoke these freedoms as long as you follow the license terms.
- *   
+ *
  *   Under the following terms:
- *   - Attribution — You must give appropriate credit, provide a link to the license, 
- *     and indicate if changes were made. You may do so in any reasonable manner, 
+ *   - Attribution — You must give appropriate credit, provide a link to the license,
+ *     and indicate if changes were made. You may do so in any reasonable manner,
  *     but not in any way that suggests the licensor endorses you or your use.
  *   - NonCommercial — You may not use the material for commercial purposes.
- *   - ShareAlike — If you remix, transform, or build upon the material, 
+ *   - ShareAlike — If you remix, transform, or build upon the material,
  *     you must distribute your contributions under the same license as the original.
- *     
- *   No additional restrictions — You may not apply legal terms or technological 
+ *
+ *   No additional restrictions — You may not apply legal terms or technological
  *   measures that legally restrict others from doing anything the license permits.
- *   
+ *
  *   More Information about the license can be found under:
  *   https://creativecommons.org/licenses/by-nc-sa/3.0/
- *   
- *   
+ *
+ *   ---------------------------------------------------------------------------------
+ *
+ *   The OpenHornet Software is based on DCS-BIOS
+ *   You can find more information here: http://dcs-bios.a10c.de
+ *
+ *   DCS-BIOS is released under the following terms:
+ *   https://github.com/dcs-bios/dcs-bios/blob/develop/DCS-BIOS-License.txt
+ *
+ *   ---------------------------------------------------------------------------------
+ *
+ *   This Project uses Doxygen as a documentation generator.
+ *   Please use Doxigen capable comments.
+ *
  **************************************************************************************/
 
 ```
 This is the standard file header of OH. It has to be used as is in every sketch written for the OH Software.
+
+
+### Sketch Summary
+
+The Sketch summary comments should be on top of the file, right after the Header and looks like this:
+```
+/**
+ * @file OHSketchTemplate.ino
+ * @author Balz Reber
+ * @date 22.11.2019
+ * @version 0.0.1 (untested)
+ * @warning This sketch is not yet tested on hardware
+ * @brief This is the OpenHornet Sketch Template
+ *
+ * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
+ * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
+ */
+```
+The elements in the summary are the following:
+
+#### File
+The \@file has to have the exact same name as the filename
+
+#### Author
+The author of the Sketch. Replace with your name.
+
+#### Date
+The date the sketch was last modified.
+
+#### Version
+The version of the sketch. To see how the versioning of sketches works, see "Versioning" in this document.
+
+#### Warning
+Every untested sketch has to have a "This sketch is not yet tested on hardware" warning.
+
+#### Brief
+A brief description of the sketch.
+
+#### Detail
+A more detailed description of the sketch
+
 
 ### Functions
 
@@ -94,11 +153,11 @@ Function documentations should look like this:
 ```
 /**
 * A brief description on a single line, ended by a period or blank line.
-* 
+*
 * A longer comment, which may stretch over several lines and may include other things like:
 * - a list like this
 * - special markup like below
-* 
+*
 * @param myParam1 Description of 1st parameter.
 * @param myParam2 Description of 2nd parameter.
 * @returns Description of returned value.
@@ -149,10 +208,19 @@ The return parameter, if there is any, is documented with a `@returns` parameter
 #### Other Comments
 ```
 // Takes the input var and duplicates it. Writes the result in a newly created result var of type int.
-int result = 2 * input 
+int result = 2 * input
 ```
 The insides of a function are a black box to doxygen. It is important that you comment the code inside a function nevertheless. This has to be done for other coders who might have to work with your code. Comments inside a function are done with a simple `//` before the comment.
 
+## Versioning
+The version number consists of three digits.
+eg: 1.4.2
+- The last number has to be changed every time there was a change to the sketch. No matter how miniscule.
+- The middle number has to be changed every time there is a new complete feature inside the sketch.
+- The leading number is only for releases. So only changes if there was a new release of the sketch.
+- If any number changes, all subsequent numbers are reset to 0.
+Sketches who are untested have to have a leading "u" before the version nr.
+eg: u.1.4.2
 
 ## Testing your Software
 
@@ -184,7 +252,7 @@ By default Travis tests the code on the following platforms:
 - Adafruit Metro M4
 
 Since OpenHornet only uses Arduino UNO and Arduino MEGA, all other tests should be skipped.
-This is done by including a *.test.skip file inside the directory the sketch resides. For example: esp8266.test.skip would skip the ESP8266 test. The necessary *.test.skip files are included in the sketch template folder. 
+This is done by including a *.test.skip file inside the directory the sketch resides. For example: esp8266.test.skip would skip the ESP8266 test. The necessary *.test.skip files are included in the sketch template folder.
 
 ### Arduino Libraries
 Arduino Libraries who are included in your sketch need to be installed inside travis in order for the tests to work. You find a list of already included libraries in the "Supported Software" section of this manual. If you need anther library installed, ask Balse (Balse#3320 on Discord). He will install the library for you.
@@ -198,4 +266,3 @@ Arduino Libraries who are included in your sketch need to be installed inside tr
 - http://www.doxygen.org
 - http://www.ravis-ci.org
 - https://github.com/dcs-bios
-
