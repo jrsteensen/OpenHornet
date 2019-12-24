@@ -219,6 +219,7 @@ eg: 1.4.2
 - The middle number has to be changed every time there is a new complete feature inside the sketch.
 - The leading number is only for releases. So only changes if there was a new release of the sketch.
 - If any number changes, all subsequent numbers are reset to 0.
+
 Sketches who are untested have to have a leading "u" before the version nr.
 eg: u.1.4.2
 
