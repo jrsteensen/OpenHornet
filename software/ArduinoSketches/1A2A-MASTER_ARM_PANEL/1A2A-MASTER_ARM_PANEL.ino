@@ -86,26 +86,56 @@
  */
 #include "DcsBios.h"
 
+
+/**
+ * .55 SQ INDICATOR READY Light on Pin 4
+ */
 DcsBios::LED mcReady(0x740c, 0x8000, 4);
 
+/**
+ * .55 SQ INDICATOR DISCH Light on Pin 3
+ */
 DcsBios::LED mcDisch(0x740c, 0x4000, 3);
 
-// READY DISCH BUTTON FUNCTIONALITY NOT IMPLEMENTED YET
 
+/**
+ * .55 SQ INDICATOR Button Functionality not implemented
+ * in the F/A-18 DCS Module yet.
+ */
+
+/**
+ * MASTER ARM Toggle Switch on Pin 10
+ */
 DcsBios::Switch2Pos masterArmSw("MASTER_ARM_SW", 10);
 
 
+/**
+ * MASTER MODE A/A Switch on Pin 7
+ */
 DcsBios::Switch2Pos masterModeAa("MASTER_MODE_AA", 7);
 
+/**
+ * MASTER MODE A/A Light on Pin 6
+ */
 DcsBios::LED masterModeAaLt(0x740c, 0x0200, 6);
 
-
+/**
+ * MASTER MODE A/G Switch on Pin 8
+ */
 DcsBios::Switch2Pos masterModeAg("MASTER_MODE_AG", 8);
 
+/**
+ * MASTER MODE A/G Light on Pin 9
+ */
 DcsBios::LED masterModeAgLt(0x740c, 0x0400, 9);
 
 
+/**
+ * EMERGENCY JETTISON BUTTON on Pin 11
+ */
 DcsBios::Switch2Pos emerJettBtn("EMER_JETT_BTN", 11);
+
+
 
 /**
 * Arduino Setup Function
