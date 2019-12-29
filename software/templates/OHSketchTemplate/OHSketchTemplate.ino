@@ -59,9 +59,9 @@
 /**
  * @file OHSketchTemplate.ino
  * @author Balz Reber
- * @date 22.11.2019
- * @version 0.0.1 (untested)
- * @warning This sketch is not yet tested on hardware
+ * @date 29.12.2019
+ * @version u.0.0.1 (untested)
+ * @warning This sketch is based on a wiring diagram, and was not yet tested on hardware
  * @brief This is the OpenHornet Sketch Template
  *
  * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
