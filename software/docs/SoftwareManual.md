@@ -125,10 +125,11 @@ The Sketch summary comments should be on top of the file, right after the Header
 The elements in the summary are the following:
 
 #### File
-The \@file has to have the exact same name as the filename
+The \@file has to have the exact same name as the filename. Including the file extension.
 
 #### Author
-The author of the Sketch. Replace with your name.
+The author of the Sketch. If more than one person was working on the sketch, the authors shall be listed
+in a comma separated list. With the original author at first place.
 
 #### Date
 The date the sketch was last modified.
@@ -137,7 +138,7 @@ The date the sketch was last modified.
 The version of the sketch. To see how the versioning of sketches works, see "Versioning" in this document.
 
 #### Warning
-Every untested sketch has to have a "This sketch is not yet tested on hardware" warning.
+Every untested sketch has to have a "This sketch is based on a wiring diagram, and was not yet tested on hardware" warning.
 
 #### Brief
 A brief description of the sketch.
@@ -214,13 +215,18 @@ The insides of a function are a black box to doxygen. It is important that you c
 
 ## Versioning
 The version number consists of three digits.
+
 eg: 1.4.2
+
+Those three numbers are release.feature.change
+
 - The last number has to be changed every time there was a change to the sketch. No matter how miniscule.
 - The middle number has to be changed every time there is a new complete feature inside the sketch.
 - The leading number is only for releases. So only changes if there was a new release of the sketch.
 - If any number changes, all subsequent numbers are reset to 0.
 
-Sketches who are untested have to have a leading "u" before the version nr.
+Sketches who are untested have to have a leading "u" before the version number
+
 eg: u.1.4.2
 
 ## Testing your Software
