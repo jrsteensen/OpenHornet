@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Main_Instrument_Panel-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr E 44000 34000
 encoding utf-8
@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 500  650  0    94   ~ 6
+Text Notes 500  650  0    94   ~ 19
 NOTES: (UNLESS OTHERWISE SPECIFIED)
-Text Notes 550  1000 0    98   ~ 6
+Text Notes 550  1000 0    98   ~ 20
 1) XXXXXXXXX\n2) XXXXXXXXX
 $Comp
 L Connector_Generic:Conn_01x04 2A4J1
@@ -1597,33 +1597,33 @@ Connection ~ 40650 9800
 Wire Wire Line
 	40750 9700 40950 9700
 Connection ~ 40750 9700
-Text Label 40950 9700 0    50   ~ 6
+Text Label 40950 9700 0    50   ~ 10
 10A1W9P1_+12V
-Text Label 40950 9800 0    50   ~ 6
+Text Label 40950 9800 0    50   ~ 10
 10A1W9P1_+5V
-Text Label 40950 9900 0    50   ~ 6
+Text Label 40950 9900 0    50   ~ 10
 10A1W9P1_+3.3V
-Text Label 40950 10000 0    50   ~ 6
+Text Label 40950 10000 0    50   ~ 10
 10A1W9P1_GND
-Text Label 31150 17050 2    50   ~ 6
+Text Label 31150 17050 2    50   ~ 10
 10A1W9P1_+12V
-Text Label 31150 17150 2    50   ~ 6
+Text Label 31150 17150 2    50   ~ 10
 10A1W9P1_+5V
-Text Label 31150 17250 2    50   ~ 6
+Text Label 31150 17250 2    50   ~ 10
 10A1W9P1_+3.3V
-Text Label 31150 17350 2    50   ~ 6
+Text Label 31150 17350 2    50   ~ 10
 10A1W9P1_GND
-Text Label 41700 11700 0    49   ~ 6
+Text Label 41700 11700 0    49   ~ 10
 2A1W4P1_BUS_A
-Text Label 41700 11800 0    49   ~ 6
+Text Label 41700 11800 0    49   ~ 10
 2A1W4P1_BUS_GND
-Text Label 41700 11900 0    49   ~ 6
+Text Label 41700 11900 0    49   ~ 10
 2A1W4P1_BUS_B
-Text Label 31100 17900 2    49   ~ 6
+Text Label 31100 17900 2    49   ~ 10
 2A1W4P1_BUS_A
-Text Label 31100 18000 2    49   ~ 6
+Text Label 31100 18000 2    49   ~ 10
 2A1W4P1_BUS_GND
-Text Label 31100 18100 2    49   ~ 6
+Text Label 31100 18100 2    49   ~ 10
 2A1W4P1_BUS_B
 Wire Wire Line
 	32000 18100 31100 18100
@@ -5958,6 +5958,8 @@ Wire Notes Line
 	21400 21650 17900 21650
 Wire Notes Line
 	17900 21650 17900 18500
+Text Notes 20800 18600 0    50   ~ 10
+EJECTION SEAT
 Wire Bus Line
 	23650 10050 23650 11700
 Wire Bus Line
@@ -5966,6 +5968,4 @@ Wire Bus Line
 	19950 12150 19950 13550
 Wire Bus Line
 	17600 10550 17600 12500
-Text Notes 20800 18600 0    50   ~ 10
-EJECTION SEAT
 $EndSCHEMATC
