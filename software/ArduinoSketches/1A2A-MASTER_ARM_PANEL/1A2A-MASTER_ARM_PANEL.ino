@@ -65,6 +65,23 @@
  * @brief UIP Master Arm Panel Sketch
  *
  * @details Sketch for the Upper Instrument Panel, Master Arm Panel
+ * 
+ * **Intended Board:**
+ * ABSIS NANO
+ * 
+ * **Wiring diagram:**
+ * 
+ * PIN | Function
+ * --- | ---
+ * 3   | .55 SQ INDICATOR DISCH Light
+ * 4   | .55 SQ INDICATOR READY Light
+ * 6   | MASTER MODE A/A Light
+ * 7   | MASTER MODE A/A Switch
+ * 8   | MASTER MODE A/G Switch
+ * 9   | MASTER MODE A/G Light
+ * 10  | MASTER ARM Toggle Switch
+ * 11  | EMERGENCY JETT Button 
+ * 
  */
 
 /**
@@ -81,7 +98,7 @@
  * 
  * The Arduino pin that is connected to the
  * /RE and DE pins on the RS-485 transceiver.
- * This is Pin 2 in all ABSIS NANO boards.
+ * This is **Pin 2** in all ABSIS NANO boards.
 */
 #define TXENABLE_PIN 2
 
@@ -92,13 +109,13 @@
 
 
 /**
- * .55 SQ INDICATOR READY Light on Pin 4
+ * .55 SQ INDICATOR READY Light on **Pin 4**
  * @return todo
  */
 DcsBios::LED mcReady(0x740c, 0x8000, 4);
 
 /**
- * .55 SQ INDICATOR DISCH Light on Pin 3
+ * .55 SQ INDICATOR DISCH Light on **Pin 3**
  * @return todo
  */
 DcsBios::LED mcDisch(0x740c, 0x4000, 3);
@@ -110,39 +127,39 @@ DcsBios::LED mcDisch(0x740c, 0x4000, 3);
  */
 
 /**
- * MASTER ARM Toggle Switch on Pin 10
+ * MASTER ARM Toggle Switch on *Pin 10*
  * @return todo
  */
 DcsBios::Switch2Pos masterArmSw("MASTER_ARM_SW", 10);
 
 
 /**
- * MASTER MODE A/A Switch on Pin 7
+ * MASTER MODE A/A Switch on **Pin 7**
  * @return todo
  */
 DcsBios::Switch2Pos masterModeAa("MASTER_MODE_AA", 7);
 
 /**
- * MASTER MODE A/A Light on Pin 6
+ * MASTER MODE A/A Light on **Pin 6**
  * @return todo
  */
 DcsBios::LED masterModeAaLt(0x740c, 0x0200, 6);
 
 /**
- * MASTER MODE A/G Switch on Pin 8
+ * MASTER MODE A/G Switch on **Pin 8**
  * @return todo
  */
 DcsBios::Switch2Pos masterModeAg("MASTER_MODE_AG", 8);
 
 /**
- * MASTER MODE A/G Light on Pin 9
+ * MASTER MODE A/G Light on **Pin 9**
  * @return todo
  */
 DcsBios::LED masterModeAgLt(0x740c, 0x0400, 9);
 
 
 /**
- * EMERGENCY JETTISON BUTTON on Pin 11
+ * EMERGENCY JETTISON BUTTON on **Pin 11**
  * @return todo
  */
 DcsBios::Switch2Pos emerJettBtn("EMER_JETT_BTN", 11);
