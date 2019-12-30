@@ -25,9 +25,25 @@ This manual is about writing software for the OpenHornet project. It shows how t
 - dcs-bios-arduino-library 0.2.11
 
 
-## Writing Software
+## Preparation
 
 The starting point of every new software sketch is the OHSketchTemplate folder. Please copy the whole folder. There are some test.skip files inside there who are needed for the travis-ci testing. Once copied delete the sample function from the OHSketchTemplate.ino. Then change all the \@tags with your own information.
+
+
+## Sketch naming
+
+The Sketches are named according to the System Architecture drawing found in the OH documentation.
+The first part of the name is the OH No. found in the drawing. It is the number beneath the Board type.
+
+e.g: 1A2A for the Master Arm Panel. (Not 1A2A1A).
+
+The No. is followed by a minus sign "-" (without space). Then the name of the component the sketch is for.
+The name is written in uppercase and with underscores "\_" instead of spaces.
+
+e.g: 1A2A-MASTER_ARM_PANEL for the Master Arm Panel.
+
+If the Sketch is for more than one component. Meaning that the board controls more than one component,
+use the name of the first component the sketch is for (the upper most component in the System Architecture drawing).
 
 
 ## Documenting Software with Doxygen
@@ -213,6 +229,15 @@ int result = 2 * input
 ```
 The insides of a function are a black box to doxygen. It is important that you comment the code inside a function nevertheless. This has to be done for other coders who might have to work with your code. Comments inside a function are done with a simple `//` before the comment.
 
+## Slave ID
+All sketches who run as slave on the RS485 bus have to have a slave ID (DCSBIOS_RS485_SLAVE). That slave ID has to be unique on
+the RS485 bus the sketch runs on. But they can be the same for different buses (Every RS485 master has it's own bus).
+The slave ID is given according to the last number in the sketch number.
+
+e.g 1A2A (Master Arm Panel) has to have the slave ID 2
+e.g 1A4A (L Warning Indicator) has to have the slave ID 4
+
+
 ## Versioning
 The version number consists of three digits.
 
@@ -225,9 +250,9 @@ Those three numbers are release.feature.change
 - The leading number is only for releases. So only changes if there was a new release of the sketch.
 - If any number changes, all subsequent numbers are reset to 0.
 
-Sketches who are untested have to have a leading "u" before the version number
+Sketches who are untested have to have a leading "u" before the version number and "(untested)" behind the version no.
 
-eg: u.1.4.2
+eg: u.1.4.2 (untested)
 
 ## Testing your Software
 
@@ -250,16 +275,18 @@ Travis uses a Adafruit script to carry out its tests. You can find the script he
 ### Tested Platforms
 By default Travis tests the code on the following platforms:
 
-- Arduino UNO
-- Arduino MEGA
-- Arduino Zero
-- Arduino Leonardo
-- ESP8266
-- ESP32
-- Adafruit Metro M4
+- Arduino UNO (uno)
+- Arduino MEGA (mega)
+- Arduino Zero (zero)
+- Arduino Leonardo (leonardo)
+- ESP8266 (esp8266)
+- ESP32 (esp32)
+- Adafruit Metro M4 (m4)
 
-Since OpenHornet only uses Arduino UNO and Arduino MEGA, all other tests should be skipped.
-This is done by including a *.test.skip file inside the directory the sketch resides. For example: esp8266.test.skip would skip the ESP8266 test. The necessary *.test.skip files are included in the sketch template folder.
+Since OpenHornet only uses Arduino NANO (same as Arduino UNO for testing) and Arduino MEGA, all other tests should be skipped.
+This is done by including a \*.test.skip file inside the directory the sketch resides. For example: esp8266.test.skip would skip the ESP8266 test. The necessary \*.test.skip files are included in the sketch template folder.
+
+Make sure that you include a uno.test.skip file for sketches who can only run on Arduino MEGA. Like the RS485 bus masters for example.
 
 ### Arduino Libraries
 Arduino Libraries who are included in your sketch need to be installed inside travis in order for the tests to work. You find a list of already included libraries in the "Supported Software" section of this manual. If you need anther library installed, ask Balse (Balse#3320 on Discord). He will install the library for you.
