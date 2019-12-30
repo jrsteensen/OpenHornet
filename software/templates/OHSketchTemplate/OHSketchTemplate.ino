@@ -66,6 +66,18 @@
  *
  * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
  * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
+ * 
+ *  * **Intended Board:**
+ * ABSIS XYZ
+ * 
+ * **Wiring diagram:**
+ * 
+ * PIN | Function
+ * --- | ---
+ * 1   | function 1
+ * 2   | function 2
+ * 3   | function 3
+ * 
  */
 
 /**
@@ -107,11 +119,33 @@ void loop() {
 
 /**
 * A brief description on a single line, ended by a period or blank line.
-*
+* 
 * A longer comment, which may stretch over several lines and may include other things like:
-* - a list like this
-* - special markup like below
-*
+* Lists:
+* - list points
+* + nested list points
+* - more list points
+* 
+* # Headers Level 1
+* ## Headers Level 2
+* ### Headers Level 3
+* 
+* > Block quotes
+* 
+* **Emphasis**
+* _Emphasis_
+* 
+* `code()`
+* 
+* even Tables are supported:
+* First Header  | Second Header
+* ------------- | -------------
+* Content Cell  | Content Cell 
+* Content Cell  | Content Cell 
+* 
+* Links:
+* [More about markdown support](http://www.doxygen.nl/manual/markdown.html)
+* 
 * @param myParam1 Description of 1st parameter.
 * @param myParam2 Description of 2nd parameter.
 * @returns Description of returned value.
