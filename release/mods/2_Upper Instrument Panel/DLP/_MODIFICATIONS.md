@@ -1,6 +1,29 @@
 # Modifications
 
 
+## OH1A2A-10 - Master Arm Legend Plate
+### 02.01.20 by Balse
+- This part is intended to be printed on a DLP printer.
+- Made the legend engraving depth deeper, so it can better hold engraving paint.
+
+## OH1A2A-41 - Emerg Jett Button
+### 02.01.20 by Balse
+- This part is intended to be printed on a DLP printer.
+- Made the legend text a bit wider so it better prints on an Anycubic Photon.
+- Made the legend engraving depth deeper, so it can better hold engraving paint.
+- Added 1mm holes in the feet to insert a thin metal rod for stability and durability.
+
+## OH1A2A-20 - Master Mode Pushbutton Base
+### 02.01.20 by Balse
+- This part is intended to be printed on a DLP printer.
+- Closed the screw holes from the top.
+
+## OH1A2A-25 - Master Mode Pushbutton Actuator
+### 02.01.20 by Balse
+- This part is intended to be printed on a DLP printer.
+- Made the part a bit thicker for tighter tolerances between this and the Base.
+- Made a slot to fit the Bezel onto the Actuator.
+
 ## OH1A8A1A-27-01 - UFC Square Button - 1 to OH1A8A1A-27-20 - UFC Square Button - ONOFF
 ### 04.12.19 by Balse
 - Those parts are intended to be printed on a DLP printer.
