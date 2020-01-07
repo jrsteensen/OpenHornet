@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:DDI_shield-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -611,95 +611,27 @@ Wire Wire Line
 Wire Wire Line
 	3400 2600 3700 2600
 $Comp
-L Connector:Conn_01x03_Male J5
-U 1 1 5A505AD7
-P 2650 3950
-F 0 "J5" H 2650 4150 50  0000 C CNN
-F 1 "POT1" H 2650 3750 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 2650 3950 50  0001 C CNN
-F 3 "" H 2650 3950 50  0001 C CNN
-	1    2650 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Male J7
-U 1 1 5A505C11
-P 3300 3950
-F 0 "J7" H 3300 4150 50  0000 C CNN
-F 1 "POT2" H 3300 3750 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3300 3950 50  0001 C CNN
-F 3 "" H 3300 3950 50  0001 C CNN
-	1    3300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR05
-U 1 1 5A505DAE
-P 2950 3650
-F 0 "#PWR05" H 2950 3500 50  0001 C CNN
-F 1 "+5V" H 2950 3790 50  0000 C CNN
-F 2 "" H 2950 3650 50  0001 C CNN
-F 3 "" H 2950 3650 50  0001 C CNN
-	1    2950 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR09
-U 1 1 5A505DEF
-P 3600 3650
-F 0 "#PWR09" H 3600 3500 50  0001 C CNN
-F 1 "+5V" H 3600 3790 50  0000 C CNN
-F 2 "" H 3600 3650 50  0001 C CNN
-F 3 "" H 3600 3650 50  0001 C CNN
-	1    3600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR06
 U 1 1 5A505EB9
-P 2950 4300
-F 0 "#PWR06" H 2950 4050 50  0001 C CNN
-F 1 "GND" H 2950 4150 50  0000 C CNN
-F 2 "" H 2950 4300 50  0001 C CNN
-F 3 "" H 2950 4300 50  0001 C CNN
-	1    2950 4300
+P 3000 4300
+F 0 "#PWR06" H 3000 4050 50  0001 C CNN
+F 1 "GND" H 3000 4150 50  0000 C CNN
+F 2 "" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    3000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5A505EFA
-P 3600 4300
-F 0 "#PWR010" H 3600 4050 50  0001 C CNN
-F 1 "GND" H 3600 4150 50  0000 C CNN
-F 2 "" H 3600 4300 50  0001 C CNN
-F 3 "" H 3600 4300 50  0001 C CNN
-	1    3600 4300
+P 3650 4300
+F 0 "#PWR010" H 3650 4050 50  0001 C CNN
+F 1 "GND" H 3650 4150 50  0000 C CNN
+F 2 "" H 3650 4300 50  0001 C CNN
+F 3 "" H 3650 4300 50  0001 C CNN
+	1    3650 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2950 3650 2950 3850
-Wire Wire Line
-	2950 3850 2850 3850
-Wire Wire Line
-	2850 4050 2950 4050
-Wire Wire Line
-	2950 4050 2950 4300
-Wire Wire Line
-	3500 3850 3600 3850
-Wire Wire Line
-	3600 3850 3600 3650
-Wire Wire Line
-	3600 4300 3600 4050
-Wire Wire Line
-	3600 4050 3500 4050
-Wire Wire Line
-	3050 3950 2850 3950
-Wire Wire Line
-	3700 3950 3500 3950
-Text Label 3050 3950 0    60   ~ 0
-A0
-Text Label 3700 3950 0    60   ~ 0
-A1
 Text Notes 3250 4750 0    60   ~ 0
 Inputs
 Text Notes 5250 2650 0    60   ~ 0
@@ -862,7 +794,6 @@ Wire Wire Line
 	3400 5600 3400 5650
 Text Label 3400 2500 0    60   ~ 0
 4
-NoConn ~ 9450 1500
 NoConn ~ 9450 2500
 NoConn ~ 8650 2000
 NoConn ~ 8650 1900
@@ -972,16 +903,14 @@ Wire Wire Line
 Wire Wire Line
 	9450 1800 9850 1800
 Text Label 4950 3850 0    60   ~ 0
-A3
-Text Label 4950 4050 0    60   ~ 0
 A4
+Text Label 4950 4050 0    60   ~ 0
+A5
 Wire Wire Line
 	9850 1700 9450 1700
 Wire Wire Line
 	9450 1600 9850 1600
 Text Label 5450 4050 0    60   ~ 0
-A6
-Text Notes 9850 1500 0    60   ~ 0
 A7
 Text Notes 9850 2500 0    60   ~ 0
 13(SCK)
@@ -1025,9 +954,52 @@ Wire Notes Line
 	5750 3400 5750 4850
 Wire Notes Line
 	5750 4850 2500 4850
-NoConn ~ 9450 2000
-Text Notes 9850 2000 0    60   ~ 0
-A2
 Text Label 5450 3850 0    60   ~ 0
-A5
+A6
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 5A505C11
+P 3300 3950
+F 0 "J7" H 3300 4150 50  0000 C CNN
+F 1 "CONT" H 3300 3750 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 3300 3950 50  0001 C CNN
+F 3 "" H 3300 3950 50  0001 C CNN
+	1    3300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5A505AD7
+P 2650 3950
+F 0 "J5" H 2650 4150 50  0000 C CNN
+F 1 "BRT" H 2650 3750 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 2650 3950 50  0001 C CNN
+F 3 "" H 2650 3950 50  0001 C CNN
+	1    2650 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9850 2000 0    60   ~ 0
+A2
+Wire Wire Line
+	9850 2000 9450 2000
+Text Label 9850 1500 0    60   ~ 0
+A7
+Wire Wire Line
+	9850 1500 9450 1500
+Text Label 2850 3850 0    60   ~ 0
+A0
+Text Label 2850 4050 0    60   ~ 0
+A1
+Wire Wire Line
+	3000 3950 3000 4300
+Wire Wire Line
+	3000 3950 2850 3950
+Text Label 3500 3850 0    60   ~ 0
+A2
+Text Label 3500 4050 0    60   ~ 0
+A3
+Wire Wire Line
+	3650 3950 3650 4300
+Wire Wire Line
+	3650 3950 3500 3950
 $EndSCHEMATC
