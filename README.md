@@ -9,11 +9,20 @@ Currently, this repo reflects the project in its current state and is not 100% f
 * [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
 
 ## Status
-This project is currently looking for maintainers and people who can help move it across the finish line. 
+| Assembly                       |                 | Status |                                |
+|--------------------------------|:---------------:|--------|--------------------------------|
+| Upper Instrument Panel (UIP)   |    :bangbang:   | Beta   | Build at own risk              |
+| Lower Instrument Panel (LIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
+| Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
+| Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
+| Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
+| Ejection Seat (SEAT)           |    :bangbang:   | Beta   | Build at own risk              |
+| Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
+| Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
 
 ![Overall Screen Grab](https://github.com/jrsteensen/OpenHornet/blob/master/images/Glareshields.2019.10.21.PNG)
 
-## Software Requirements
+## Design Software Requirements
 
 * Mechanical CAD Software Required: SolidWorks 2019 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
 * Electrical CAD Software Required: KiCAD 5.1.0
