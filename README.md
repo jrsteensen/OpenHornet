@@ -16,7 +16,7 @@ Currently, this repo reflects the project in its current state and is not 100% f
 | Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
 | Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
 | Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Ejection Seat (SEAT)           |    :bangbang:   | Beta   | Build at own risk              |
+| Ejection Seat (SEAT)           | :no_entry_sign: | Redesign | Redesign Required. Do Not Build. See #195 |
 | Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
 | Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
 
