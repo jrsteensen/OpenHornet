@@ -605,7 +605,7 @@ Wire Wire Line
 Text Label 3400 2700 0    60   ~ 0
 3(**)
 Text Label 3400 2600 0    60   ~ 0
-5(**)
+A5
 Wire Wire Line
 	3700 2500 3400 2500
 Wire Wire Line
@@ -793,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 5600 3400 5650
 Text Label 3400 2500 0    60   ~ 0
-4
+A4
 NoConn ~ 9450 2500
 NoConn ~ 8650 2000
 NoConn ~ 8650 1900
@@ -903,9 +903,9 @@ Wire Wire Line
 Wire Wire Line
 	9450 1800 9850 1800
 Text Label 4950 3850 0    60   ~ 0
-A4
+4
 Text Label 4950 4050 0    60   ~ 0
-A5
+5(**)
 Wire Wire Line
 	9850 1700 9450 1700
 Wire Wire Line
