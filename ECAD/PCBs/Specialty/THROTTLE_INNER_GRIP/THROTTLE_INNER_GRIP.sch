@@ -502,17 +502,6 @@ F 3 "" H 4250 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 3200 4150 3200
-$Comp
-L Arduino_Pro_Mini_5v:ProMini U2
-U 1 1 5EDA2C8C
-P 3550 3650
-F 0 "U2" H 3450 3550 50  0000 C CNN
-F 1 "ProMini" H 3550 3450 50  0000 C CNN
-F 2 "KiCAD_Libraries:Arduino_Mini_Pro" H 3550 3800 50  0001 C CNN
-F 3 "" H 3550 3800 50  0001 C CNN
-	1    3550 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 4350 3350 4750
 Text Label 3350 4750 1    50   ~ 0
@@ -549,4 +538,22 @@ F 3 "" H 2800 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2950 3400 2800 3400
+$Comp
+L Arduino_Pro_Mini_5v:ProMini_NoProgrammingHeader U1
+U 1 1 5EDF5937
+P 3550 3650
+F 0 "U1" H 3550 4425 50  0000 C CNN
+F 1 "ProMini_NoProgrammingHeader" H 3550 4334 50  0000 C CNN
+F 2 "KiCAD_Libraries:Arduino_Mini_Pro_No_Programming_Header" H 3550 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 3100
+NoConn ~ 2950 3200
+NoConn ~ 2950 3300
+NoConn ~ 2950 3800
+NoConn ~ 2950 3900
+NoConn ~ 4150 3300
+NoConn ~ 4150 3100
 $EndSCHEMATC

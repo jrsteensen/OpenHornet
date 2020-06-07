@@ -230,17 +230,6 @@ F 3 "~" H 2350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J1
-U 1 1 5ED5CE8A
-P 5100 2500
-F 0 "J1" H 5180 2542 50  0000 L CNN
-F 1 "Conn_01x05" H 5180 2451 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 5100 2500 50  0001 C CNN
-F 3 "~" H 5100 2500 50  0001 C CNN
-	1    5100 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L OpenHornet:ANALOGSTICK_CENTERPUSH JOY1
 U 1 1 5EDA20EE
 P 3400 2100
@@ -249,6 +238,61 @@ F 1 "ANALOGSTICK_CENTERPUSH" H 3400 2200 50  0001 C CNN
 F 2 "KiCAD_Libraries:RKJXV12" H 3200 950 50  0001 C CNN
 F 3 "" H 3200 950 50  0001 C CNN
 	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5EDB9436
+P 5100 2300
+F 0 "J2" H 5180 2342 50  0000 L CNN
+F 1 "Conn_01x01" H 5180 2251 50  0000 L CNN
+F 2 "KiCAD_Libraries:SolderWirePad_1x01_SMD_2x4mm" H 5100 2300 50  0001 C CNN
+F 3 "~" H 5100 2300 50  0001 C CNN
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5EDBA3C5
+P 5100 2400
+F 0 "J3" H 5180 2442 50  0000 L CNN
+F 1 "Conn_01x01" H 5180 2351 50  0000 L CNN
+F 2 "KiCAD_Libraries:SolderWirePad_1x01_SMD_2x4mm" H 5100 2400 50  0001 C CNN
+F 3 "~" H 5100 2400 50  0001 C CNN
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5EDBAAA8
+P 5100 2500
+F 0 "J4" H 5180 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 5180 2451 50  0000 L CNN
+F 2 "KiCAD_Libraries:SolderWirePad_1x01_SMD_2x4mm" H 5100 2500 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    5100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5EDBB222
+P 5100 2600
+F 0 "J5" H 5180 2642 50  0000 L CNN
+F 1 "Conn_01x01" H 5180 2551 50  0000 L CNN
+F 2 "KiCAD_Libraries:SolderWirePad_1x01_SMD_2x4mm" H 5100 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5EDBB5F1
+P 5100 2700
+F 0 "J6" H 5180 2742 50  0000 L CNN
+F 1 "Conn_01x01" H 5180 2651 50  0000 L CNN
+F 2 "KiCAD_Libraries:SolderWirePad_1x01_SMD_2x4mm" H 5100 2700 50  0001 C CNN
+F 3 "~" H 5100 2700 50  0001 C CNN
+	1    5100 2700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
