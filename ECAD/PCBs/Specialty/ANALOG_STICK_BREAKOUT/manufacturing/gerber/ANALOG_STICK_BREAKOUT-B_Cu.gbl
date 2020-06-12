@@ -1,64 +1,64 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*%
-%TF.CreationDate,2020-06-08T02:26:39-04:00*%
-%TF.ProjectId,ANALOG_STICK_BREAKOUT,414e414c-4f47-45f5-9354-49434b5f4252,rev?*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Copper,L2,Bot*%
-%TF.FilePolarity,Positive*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*
+G04 #@! TF.CreationDate,2020-06-09T11:49:25-04:00*
+G04 #@! TF.ProjectId,ANALOG_STICK_BREAKOUT,414e414c-4f47-45f5-9354-49434b5f4252,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Copper,L2,Bot*
+G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-06-08 02:26:39*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-06-09 11:49:25*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,ComponentPad*%
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD10C,2.500000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD11C,1.800000*%
-%TD*%
-%TA.AperFunction,Conductor*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD12C,0.254000*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
-%TO.P,JOY1,MNT1*%
-%TO.N,N/C*%
+G04 #@! TO.P,JOY1,MNT1*
+G04 #@! TO.N,N/C*
 X116325000Y-90000000D03*
 X103675000Y-80000000D03*
 X116325000Y-80000000D03*
 X103675000Y-90000000D03*
 D11*
-%TO.P,JOY1,d*%
-%TO.N,Net-(J5-Pad1)*%
+G04 #@! TO.P,JOY1,d*
+G04 #@! TO.N,Net-(J5-Pad1)*
 X106750000Y-95250000D03*
-%TO.P,JOY1,b*%
+G04 #@! TO.P,JOY1,b*
 X113250000Y-95250000D03*
-%TO.P,JOY1,a*%
-%TO.N,GND*%
+G04 #@! TO.P,JOY1,a*
+G04 #@! TO.N,GND*
 X113250000Y-90750000D03*
-%TO.P,JOY1,c*%
+G04 #@! TO.P,JOY1,c*
 X106750000Y-90750000D03*
-%TO.P,JOY1,5*%
-%TO.N,Net-(J3-Pad1)*%
+G04 #@! TO.P,JOY1,5*
+G04 #@! TO.N,Net-(J3-Pad1)*
 X110000000Y-76270000D03*
-%TO.P,JOY1,4*%
-%TO.N,GND*%
+G04 #@! TO.P,JOY1,4*
+G04 #@! TO.N,GND*
 X107500000Y-76270000D03*
-%TO.P,JOY1,6*%
-%TO.N,VCC*%
+G04 #@! TO.P,JOY1,6*
+G04 #@! TO.N,VCC*
 X112500000Y-76270000D03*
-%TO.P,JOY1,3*%
+G04 #@! TO.P,JOY1,3*
 X101270000Y-82500000D03*
-%TO.P,JOY1,2*%
-%TO.N,Net-(J4-Pad1)*%
+G04 #@! TO.P,JOY1,2*
+G04 #@! TO.N,Net-(J4-Pad1)*
 X101270000Y-85000000D03*
-%TO.P,JOY1,1*%
-%TO.N,GND*%
+G04 #@! TO.P,JOY1,1*
+G04 #@! TO.N,GND*
 X101270000Y-87500000D03*
-%TD*%
+G04 #@! TD*
 D12*
-%TO.N,GND*%
+G04 #@! TO.N,GND*
 G36*
 X120356775Y-73198147D02*
 G01*
@@ -1372,5 +1372,5 @@ X100030113Y-73210894D01*
 X100514344Y-73160000D01*
 X119967721Y-73160000D01*
 X120356775Y-73198147D01*
-%TD*%
+G04 #@! TD*
 M02*
