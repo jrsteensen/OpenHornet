@@ -64,16 +64,17 @@ MCAD
 * Oscar Arias (Amanuense): _Electrical/Software Design Lead_
 
 ### DEVELOPMENT CONTRIBUTOR TEAM
-* Damien Charveriat (Damien022): _Software Design_
-* Hájas Gábor (Gaberun24): _Electrical/Software Design_
 * Balz Reber (Balse): _Electrical/Software Design_
-* Bullant: _Software Design/DCS-BIOS Expert_
+* Tejay Beauparlant (Stang): _Mehcanical Design/Manufacturing Engineering_
+* Magic_Man: _Electrical Design_
+* Luke Walker (L.Walker): _Mechanical Design/Drafting_
 
 ### HONORABLE MENTIONS
 * __Logo Design__: NegativeONE
-* __Beta Builders/Testers__: BuckEye, Splash
-* __Donators__: AJMilner
-* **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108
+* __Beta Builders/Testers__: BuckEye, Splash, DG, Otso, L. Walker
+* __Donators__: AJMilner, bnepethomas, crosshairs2230
+* __Inactive Dev Contributors__: Bullant (Software Design/DCS-BIOS Expert), Gaberun24 (Electrical/Software Design), Damien022 (Software Design), Baago, Caviar4, NegativeONE, Ravell
+* **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108, Luft101, Lex
 
 ## License
 ![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
