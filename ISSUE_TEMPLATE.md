@@ -1,3 +1,5 @@
+*Please fill out the issue as completely as possible. Be very specific and take your time. The more effort you put in to fill the issue out completely, the quicker we can fix this or look at adding your requested feature.*
+
 ### Summary:
 (Please summarize your issue here. Be specific.)
 
@@ -13,7 +15,6 @@
 
 ## More Information
 *Add an "X" in the square brackets to check the applicable checkboxs.*
-
 ### Category:
 *Check one or more items.*
 - [ ] MCAD (SolidWorks)
@@ -21,7 +22,6 @@
 - [ ] Software - Sketch
 - [ ] Software - DCS-BIOS
 - [ ] Software - Library
-
 ### Type:
 *Check one item.*
 - [ ] Bug
@@ -29,7 +29,6 @@
 - [ ] Maintenance
 - [ ] Question
 - [ ] Documentation
-
 ### Applicable End Item:
 *Check one item.*
 - [ ] Top Level Assembly          
@@ -42,6 +41,5 @@
 - [ ] Flight Stick
 - [ ] Throttle
 - [ ] General Software
-
 ### Associated Filename(s):
 *Insert assembly or part file names here, i.e. 123456.sldasm, etc.*
