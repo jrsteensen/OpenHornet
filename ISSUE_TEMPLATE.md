@@ -12,6 +12,7 @@
 <br>**PRO-TIP:** Just paste the images here.*
 
 ## More Information
+*Add an "X" in the square brackets to check the applicable checkboxs.*
 
 ### Category:
 *Check one or more items.*
