@@ -9,7 +9,7 @@ Title "ABSIS RS485 Bus Master"
 Date "2020-11-02"
 Rev "1"
 Comp "OpenHornet"
-Comment1 ""
+Comment1 "License: CC BY-NC-SA"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -767,20 +767,20 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J1
 U 1 1 5FA7E7CD
-P 5950 1100
-F 0 "J1" H 6000 1317 50  0000 C CNN
-F 1 "PWR IN" H 6000 1226 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5950 1100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5950 1100 50  0001 C CNN
-F 4 "0430450412" H 5950 1100 50  0001 C CNN "PN"
-	1    5950 1100
+P 5950 800
+F 0 "J1" H 6000 1017 50  0000 C CNN
+F 1 "PWR IN" H 6000 926 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5950 800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5950 800 50  0001 C CNN
+F 4 "0430450412" H 5950 800 50  0001 C CNN "PN"
+	1    5950 800 
 	1    0    0    -1  
 $EndComp
-Text Label 5750 1100 2    50   ~ 0
+Text Label 5750 800  2    50   ~ 0
 +12V_SUPPLY
-Text Label 5750 1200 2    50   ~ 0
+Text Label 5750 900  2    50   ~ 0
 +5V_SUPPLY
-Text Label 6250 1100 0    50   ~ 0
+Text Label 6250 800  0    50   ~ 0
 +3.3V_SUPPLY
 Text Label 7400 2950 2    50   ~ 0
 +12V_SUPPLY
@@ -791,12 +791,12 @@ Text Label 7400 3150 2    50   ~ 0
 $Comp
 L power:GND #PWR04
 U 1 1 5FA819A2
-P 6250 1200
-F 0 "#PWR04" H 6250 950 50  0001 C CNN
-F 1 "GND" H 6250 1050 50  0000 C CNN
-F 2 "" H 6250 1200 50  0000 C CNN
-F 3 "" H 6250 1200 50  0000 C CNN
-	1    6250 1200
+P 6250 900
+F 0 "#PWR04" H 6250 650 50  0001 C CNN
+F 1 "GND" H 6250 750 50  0000 C CNN
+F 2 "" H 6250 900 50  0000 C CNN
+F 3 "" H 6250 900 50  0000 C CNN
+	1    6250 900 
 	0    -1   -1   0   
 $EndComp
 Text Label 10850 5550 2    31   ~ 0
@@ -806,9 +806,9 @@ Vin(+12V)
 Wire Wire Line
 	10850 5550 10950 5550
 Wire Wire Line
-	6900 2350 7150 2350
+	6900 2350 6950 2350
 Wire Wire Line
-	6900 2650 7150 2650
+	6900 2650 6950 2650
 Wire Notes Line
 	8300 1750 8300 3300
 Text Notes 7700 1850 0    50   ~ 0
@@ -928,9 +928,9 @@ Text Label 7400 4650 2    50   ~ 0
 Text Label 7400 4750 2    50   ~ 0
 +3.3V_SUPPLY
 Wire Wire Line
-	6900 3950 7150 3950
+	6900 3950 6950 3950
 Wire Wire Line
-	6900 4250 7150 4250
+	6900 4250 6950 4250
 Wire Notes Line
 	8300 3350 8300 4900
 Text Notes 7700 3450 0    50   ~ 0
@@ -1088,9 +1088,9 @@ Text Label 7400 6250 2    50   ~ 0
 Text Label 7400 6350 2    50   ~ 0
 +3.3V_SUPPLY
 Wire Wire Line
-	6900 5550 7150 5550
+	6900 5550 6950 5550
 Wire Wire Line
-	6900 5850 7150 5850
+	6900 5850 6950 5850
 Wire Notes Line
 	8300 4950 8300 6500
 Text Notes 7700 5050 0    50   ~ 0
@@ -1259,4 +1259,161 @@ F 3 "" H 7400 850 50  0000 C CNN
 $EndComp
 NoConn ~ 10600 4850
 NoConn ~ 10600 5350
+$Comp
+L Connector:TestPoint_Alt TP6
+U 1 1 5FA1004F
+P 6950 2700
+F 0 "TP6" H 6892 2726 50  0000 R CNN
+F 1 "TP-B1A" H 6892 2817 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 2700 50  0001 C CNN
+F 3 "~" H 7150 2700 50  0001 C CNN
+	1    6950 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2700 6950 2650
+Connection ~ 6950 2650
+Wire Wire Line
+	6950 2650 7150 2650
+$Comp
+L Connector:TestPoint_Alt TP5
+U 1 1 5FA1BB7A
+P 6950 2250
+F 0 "TP5" H 7008 2368 50  0000 L CNN
+F 1 "TP-B1B" H 7008 2277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 2250 50  0001 C CNN
+F 3 "~" H 7150 2250 50  0001 C CNN
+	1    6950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2250 6950 2350
+Connection ~ 6950 2350
+Wire Wire Line
+	6950 2350 7150 2350
+$Comp
+L Connector:TestPoint_Alt TP7
+U 1 1 5FA22A20
+P 6950 3850
+F 0 "TP7" H 7008 3968 50  0000 L CNN
+F 1 "TP-B2B" H 7008 3877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 3850 50  0001 C CNN
+F 3 "~" H 7150 3850 50  0001 C CNN
+	1    6950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3850 6950 3950
+Connection ~ 6950 3950
+Wire Wire Line
+	6950 3950 7150 3950
+$Comp
+L Connector:TestPoint_Alt TP8
+U 1 1 5FA28F3B
+P 6950 4300
+F 0 "TP8" H 6892 4326 50  0000 R CNN
+F 1 "TP-B2A" H 6892 4417 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 4300 50  0001 C CNN
+F 3 "~" H 7150 4300 50  0001 C CNN
+	1    6950 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 4300 6950 4250
+Connection ~ 6950 4250
+Wire Wire Line
+	6950 4250 7150 4250
+$Comp
+L Connector:TestPoint_Alt TP10
+U 1 1 5FA2FC22
+P 6950 5900
+F 0 "TP10" H 6892 5926 50  0000 R CNN
+F 1 "TP-B3A" H 6892 6017 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 5900 50  0001 C CNN
+F 3 "~" H 7150 5900 50  0001 C CNN
+	1    6950 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP9
+U 1 1 5FA302F9
+P 6950 5450
+F 0 "TP9" H 7008 5568 50  0000 L CNN
+F 1 "TP-B3B" H 7008 5477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 7150 5450 50  0001 C CNN
+F 3 "~" H 7150 5450 50  0001 C CNN
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5450 6950 5550
+Connection ~ 6950 5550
+Wire Wire Line
+	6950 5550 7150 5550
+Wire Wire Line
+	6950 5900 6950 5850
+Connection ~ 6950 5850
+Wire Wire Line
+	6950 5850 7150 5850
+$Comp
+L Connector:TestPoint_Alt TP2
+U 1 1 5FA44D09
+P 5950 1250
+F 0 "TP2" V 5904 1438 50  0000 L CNN
+F 1 "TP-5V" V 5995 1438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6150 1250 50  0001 C CNN
+F 3 "~" H 6150 1250 50  0001 C CNN
+	1    5950 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP3
+U 1 1 5FA4C2DF
+P 5950 1400
+F 0 "TP3" V 5904 1588 50  0000 L CNN
+F 1 "TP-3.3V" V 5995 1588 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6150 1400 50  0001 C CNN
+F 3 "~" H 6150 1400 50  0001 C CNN
+	1    5950 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP4
+U 1 1 5FA4C49D
+P 5950 1550
+F 0 "TP4" V 5904 1738 50  0000 L CNN
+F 1 "TP-GND" V 5995 1738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6150 1550 50  0001 C CNN
+F 3 "~" H 6150 1550 50  0001 C CNN
+	1    5950 1550
+	0    1    1    0   
+$EndComp
+Text Label 5950 1100 2    50   ~ 0
++12V_SUPPLY
+Text Label 5950 1250 2    50   ~ 0
++5V_SUPPLY
+Text Label 5950 1400 2    50   ~ 0
++3.3V_SUPPLY
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA67B3C
+P 5950 1550
+F 0 "#PWR0101" H 5950 1300 50  0001 C CNN
+F 1 "GND" H 5950 1400 50  0000 C CNN
+F 2 "" H 5950 1550 50  0000 C CNN
+F 3 "" H 5950 1550 50  0000 C CNN
+	1    5950 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP1
+U 1 1 5FA453F7
+P 5950 1100
+F 0 "TP1" V 5904 1288 50  0000 L CNN
+F 1 "TP-12" V 5995 1288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6150 1100 50  0001 C CNN
+F 3 "~" H 6150 1100 50  0001 C CNN
+	1    5950 1100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
