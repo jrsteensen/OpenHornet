@@ -1,6 +1,6 @@
-update=11/2/2020 4:02:03 PM
+update=11/4/2020 4:28:01 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -11,7 +11,7 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -21,7 +21,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
 LastNetListRead=ABSIS_Bus_Master.net
 CopperLayerCount=2
 BoardThickness=1.6
@@ -35,11 +35,12 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.2
-TrackWidth2=0.2286
+TrackWidth1=0.25
+TrackWidth2=0.2032
 TrackWidth3=0.3048
-TrackWidth4=0.635
-TrackWidth5=0.9144
+TrackWidth4=0.4572
+TrackWidth5=0.635
+TrackWidth6=0.9144
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -65,7 +66,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=0
@@ -238,30 +239,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
-TrackWidth=0.2
-ViaDiameter=0.6
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=PWR
-Clearance=0.3048
-TrackWidth=0.635
-ViaDiameter=0.6
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=Signal
-Clearance=0.1524
-TrackWidth=0.3048
+Clearance=0.2
+TrackWidth=0.25
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
