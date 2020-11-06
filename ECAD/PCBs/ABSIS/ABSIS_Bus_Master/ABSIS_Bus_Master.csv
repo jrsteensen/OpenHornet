@@ -1,0 +1,12 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC, PN
+C1 C2 C3 ,3,0.1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf,C49678,
+J1 ,1,PWR IN,Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical,https://www.molex.com/pdm_docs/sd/430450412_sd.pdf,,430450412
+J2 ,1,BUS #1,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,https://www.molex.com/pdm_docs/sd/430450612_sd.pdf,,430450612
+J3 ,1,BUS #2,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,https://www.molex.com/pdm_docs/sd/430450612_sd.pdf,,430450612
+J4 ,1,BUS #3,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,https://www.molex.com/pdm_docs/sd/430450612_sd.pdf,,430450612
+"JP1, JP2, JP3",1,"Pin Header, 2.54mm, 1x2",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,VARIOUS,VARIOUS,VARIOUS
+"P1, P2, P3, P6, P7",5,"Pin Header, 2.54mm, 1x8",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,VARIOUS,VARIOUS,VARIOUS
+P4 ,1,"Pin Header, 2.54mm, 2x18",Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,VARIOUS,VARIOUS,VARIOUS
+P5 ,1,"Pin Header, 2.54mm, 1x10",Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,VARIOUS,VARIOUS,VARIOUS
+R1 R2 R3 ,3,120ohm,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1200T5E_C17437.pdf,C17437,
+U1 U2 U3 ,3,MAX487EESA+T,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf,C116539,
