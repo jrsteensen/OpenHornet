@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ABSIS_Nano-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
@@ -393,7 +392,7 @@ F 3 "" H 15000 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+L Connector_Generic:Conn_02x03_Top_Bottom J1
 U 1 1 5FA7581B
 P 14550 4200
 F 0 "J1" H 14600 4517 50  0000 C CNN
@@ -408,25 +407,21 @@ Text Label 15450 5200 0    50   ~ 0
 BUS-B
 Text Label 15450 5500 0    50   ~ 0
 BUS-A
-Text Label 14850 4300 0    50   ~ 0
+Text Label 14850 4100 0    50   ~ 0
 BUS-A
 Text Label 14850 4200 0    50   ~ 0
 BUS-B
 $Comp
 L power:GND #PWR0106
 U 1 1 5FA794C6
-P 14900 4050
-F 0 "#PWR0106" H 14900 3800 50  0001 C CNN
-F 1 "GND" H 14900 3900 50  0000 C CNN
-F 2 "" H 14900 4050 50  0000 C CNN
-F 3 "" H 14900 4050 50  0000 C CNN
-	1    14900 4050
+P 14850 4300
+F 0 "#PWR0106" H 14850 4050 50  0001 C CNN
+F 1 "GND" H 14850 4150 50  0000 C CNN
+F 2 "" H 14850 4300 50  0000 C CNN
+F 3 "" H 14850 4300 50  0000 C CNN
+	1    14850 4300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	14850 4100 14900 4100
-Wire Wire Line
-	14900 4100 14900 4050
 Text Label 14350 4100 2    50   ~ 0
 +12V_SUPPLY
 Text Label 14350 4200 2    50   ~ 0
@@ -587,7 +582,7 @@ Text Label 14600 5500 2    60   ~ 0
 Text Label 14500 5400 2    60   ~ 0
 3(**)
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J2
+L Connector_Generic:Conn_02x03_Top_Bottom J2
 U 1 1 5FA822FB
 P 15900 4200
 F 0 "J2" H 15950 4517 50  0000 C CNN
@@ -598,25 +593,21 @@ F 4 "0430450600" H 15900 4200 50  0001 C CNN "PN"
 	1    15900 4200
 	1    0    0    -1  
 $EndComp
-Text Label 16200 4300 0    50   ~ 0
+Text Label 16200 4100 0    50   ~ 0
 BUS-A
 Text Label 16200 4200 0    50   ~ 0
 BUS-B
 $Comp
 L power:GND #PWR0109
 U 1 1 5FA82307
-P 16250 4050
-F 0 "#PWR0109" H 16250 3800 50  0001 C CNN
-F 1 "GND" H 16250 3900 50  0000 C CNN
-F 2 "" H 16250 4050 50  0000 C CNN
-F 3 "" H 16250 4050 50  0000 C CNN
-	1    16250 4050
+P 16200 4300
+F 0 "#PWR0109" H 16200 4050 50  0001 C CNN
+F 1 "GND" H 16200 4150 50  0000 C CNN
+F 2 "" H 16200 4300 50  0000 C CNN
+F 3 "" H 16200 4300 50  0000 C CNN
+	1    16200 4300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	16200 4100 16250 4100
-Wire Wire Line
-	16250 4100 16250 4050
 Text Label 15700 4100 2    50   ~ 0
 +12V_SUPPLY
 Text Label 15700 4200 2    50   ~ 0
