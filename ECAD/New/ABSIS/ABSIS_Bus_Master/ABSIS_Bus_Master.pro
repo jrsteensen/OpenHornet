@@ -1,6 +1,6 @@
-update=11/4/2020 2:43:26 PM
+update=11/4/2020 4:28:01 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -21,8 +21,8 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
-LastNetListRead=Mega_shield_template.net
+PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
+LastNetListRead=ABSIS_Bus_Master.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -69,7 +69,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
