@@ -634,56 +634,6 @@ NOTES: (UNLESS OTHERWISE SPECIFIED)
 Text Notes 550  800  0    50   ~ 0
 1) XXXX
 $Comp
-L Connector:TestPoint_Alt TP3
-U 1 1 5FA4C2DF
-P 8000 6550
-F 0 "TP3" V 7950 6750 31  0000 L CNN
-F 1 "TP-3.3V" V 8000 6750 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6550 50  0001 C CNN
-F 3 "~" H 8200 6550 50  0001 C CNN
-	1    8000 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP4
-U 1 1 5FA4C49D
-P 8000 6650
-F 0 "TP4" V 7950 6850 31  0000 L CNN
-F 1 "TP-GND" V 8000 6850 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6650 50  0001 C CNN
-F 3 "~" H 8200 6650 50  0001 C CNN
-	1    8000 6650
-	0    1    1    0   
-$EndComp
-Text Label 8000 6350 2    31   ~ 0
-+12V_SUPPLY
-Text Label 8000 6450 2    31   ~ 0
-+5V_SUPPLY
-Text Label 8000 6550 2    31   ~ 0
-+3.3V_SUPPLY
-$Comp
-L power:GND #PWR0105
-U 1 1 5FA67B3C
-P 8000 6650
-F 0 "#PWR0105" H 8000 6400 50  0001 C CNN
-F 1 "GND" H 8000 6500 31  0000 C CNN
-F 2 "" H 8000 6650 50  0000 C CNN
-F 3 "" H 8000 6650 50  0000 C CNN
-	1    8000 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP1
-U 1 1 5FA453F7
-P 8000 6350
-F 0 "TP1" V 7950 6550 31  0000 L CNN
-F 1 "TP-12" V 8000 6550 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6350 50  0001 C CNN
-F 3 "~" H 8200 6350 50  0001 C CNN
-	1    8000 6350
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5VD #PWR0106
 U 1 1 5FADF11A
 P 10100 6000
@@ -713,29 +663,12 @@ Text Notes 9950 5550 0    50   ~ 0
 PWR FLAGS
 Wire Notes Line
 	9150 5450 9150 6100
-$Comp
-L Connector:TestPoint_Alt TP2
-U 1 1 5FA44D09
-P 8000 6450
-F 0 "TP2" V 7950 6650 31  0000 L CNN
-F 1 "TP-5V" V 8000 6650 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6450 50  0001 C CNN
-F 3 "~" H 8200 6450 50  0001 C CNN
-	1    8000 6450
-	0    1    1    0   
-$EndComp
-Text Notes 8200 5550 0    50   ~ 0
-POWER IN
-Wire Notes Line
-	7650 5600 10500 5600
 Wire Wire Line
 	9550 2050 9550 1400
 Wire Notes Line
 	7650 600  8650 600 
 Wire Notes Line
 	8650 600  8650 500 
-Wire Notes Line
-	7650 6100 9800 6100
 Text Notes 7800 6200 0    50   ~ 0
 TEST POINTS
 Wire Notes Line
@@ -746,23 +679,8 @@ Wire Notes Line
 	7650 500  7650 6750
 Wire Notes Line
 	9800 5450 9800 6750
-$Comp
-L power:GND #PWR0104
-U 1 1 5FA819A2
-P 8650 6000
-F 0 "#PWR0104" H 8650 5750 50  0001 C CNN
-F 1 "GND" H 8650 5850 50  0000 C CNN
-F 2 "" H 8650 6000 50  0000 C CNN
-F 3 "" H 8650 6000 50  0000 C CNN
-	1    8650 6000
-	0    -1   -1   0   
-$EndComp
-Text Label 8650 5900 0    31   ~ 0
-+3.3V_SUPPLY
-Text Label 8150 6000 2    31   ~ 0
+Text Label 4450 1600 2    31   ~ 0
 +5V_SUPPLY
-Text Label 8150 5900 2    31   ~ 0
-+12V_SUPPLY
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even P1
 U 1 1 5FA4904D
@@ -775,495 +693,403 @@ F 3 "" H 9000 3650 50  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J1
-U 1 1 5FA7E7CD
-P 8350 5900
-F 0 "J1" H 8400 6117 50  0000 C CNN
-F 1 "PWR IN" H 8400 6026 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 8350 5900 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 8350 5900 50  0001 C CNN
-F 4 "0430450412" H 8350 5900 50  0001 C CNN "PN"
-	1    8350 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J2
 U 1 1 5FA6ED41
-P 4150 3850
-F 0 "J2" H 4200 4067 50  0000 C CNN
-F 1 "BL #1" H 4200 3976 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4150 3850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4150 3850 50  0001 C CNN
-F 4 "0430450412" H 4150 3850 50  0001 C CNN "PN"
-	1    4150 3850
+P 4600 2700
+F 0 "J2" H 4650 2917 50  0000 C CNN
+F 1 "BL #1" H 4650 2826 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4600 2700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4600 2700 50  0001 C CNN
+F 4 "0430450412" H 4600 2700 50  0001 C CNN "PN"
+	1    4600 2700
 	1    0    0    -1  
 $EndComp
-Text Label 3950 3950 2    31   ~ 0
+Text Label 4400 2800 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR06
 U 1 1 5FA6F4F0
-P 4450 3950
-F 0 "#PWR06" H 4450 3700 50  0001 C CNN
-F 1 "GND" H 4450 3800 50  0000 C CNN
-F 2 "" H 4450 3950 50  0000 C CNN
-F 3 "" H 4450 3950 50  0000 C CNN
-	1    4450 3950
+P 4900 2800
+F 0 "#PWR06" H 4900 2550 50  0001 C CNN
+F 1 "GND" H 4900 2650 50  0000 C CNN
+F 2 "" H 4900 2800 50  0000 C CNN
+F 3 "" H 4900 2800 50  0000 C CNN
+	1    4900 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 3950 3850 2    60   ~ 0
+Text Label 4400 2700 2    60   ~ 0
 13(**)
-Text Label 3950 4400 2    31   ~ 0
+Text Label 4400 3250 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR010
 U 1 1 5FA73532
-P 4450 4400
-F 0 "#PWR010" H 4450 4150 50  0001 C CNN
-F 1 "GND" H 4450 4250 50  0000 C CNN
-F 2 "" H 4450 4400 50  0000 C CNN
-F 3 "" H 4450 4400 50  0000 C CNN
-	1    4450 4400
+P 4900 3250
+F 0 "#PWR010" H 4900 3000 50  0001 C CNN
+F 1 "GND" H 4900 3100 50  0000 C CNN
+F 2 "" H 4900 3250 50  0000 C CNN
+F 3 "" H 4900 3250 50  0000 C CNN
+	1    4900 3250
 	0    -1   -1   0   
 $EndComp
-Text Label 3950 4850 2    31   ~ 0
+Text Label 4400 3700 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR013
 U 1 1 5FA764A7
-P 4450 4850
-F 0 "#PWR013" H 4450 4600 50  0001 C CNN
-F 1 "GND" H 4450 4700 50  0000 C CNN
-F 2 "" H 4450 4850 50  0000 C CNN
-F 3 "" H 4450 4850 50  0000 C CNN
-	1    4450 4850
+P 4900 3700
+F 0 "#PWR013" H 4900 3450 50  0001 C CNN
+F 1 "GND" H 4900 3550 50  0000 C CNN
+F 2 "" H 4900 3700 50  0000 C CNN
+F 3 "" H 4900 3700 50  0000 C CNN
+	1    4900 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 3950 5300 2    31   ~ 0
-+5V_SUPPLY
 $Comp
 L power:GND #PWR016
 U 1 1 5FA7931C
-P 4450 5300
-F 0 "#PWR016" H 4450 5050 50  0001 C CNN
-F 1 "GND" H 4450 5150 50  0000 C CNN
-F 2 "" H 4450 5300 50  0000 C CNN
-F 3 "" H 4450 5300 50  0000 C CNN
-	1    4450 5300
+P 4900 4150
+F 0 "#PWR016" H 4900 3900 50  0001 C CNN
+F 1 "GND" H 4900 4000 50  0000 C CNN
+F 2 "" H 4900 4150 50  0000 C CNN
+F 3 "" H 4900 4150 50  0000 C CNN
+	1    4900 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 3950 2    31   ~ 0
+Text Label 5450 2800 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR07
 U 1 1 5FA801AF
-P 5500 3950
-F 0 "#PWR07" H 5500 3700 50  0001 C CNN
-F 1 "GND" H 5500 3800 50  0000 C CNN
-F 2 "" H 5500 3950 50  0000 C CNN
-F 3 "" H 5500 3950 50  0000 C CNN
-	1    5500 3950
+P 5950 2800
+F 0 "#PWR07" H 5950 2550 50  0001 C CNN
+F 1 "GND" H 5950 2650 50  0000 C CNN
+F 2 "" H 5950 2800 50  0000 C CNN
+F 3 "" H 5950 2800 50  0000 C CNN
+	1    5950 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 4400 2    31   ~ 0
+Text Label 5450 3250 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR011
 U 1 1 5FA801C7
-P 5500 4400
-F 0 "#PWR011" H 5500 4150 50  0001 C CNN
-F 1 "GND" H 5500 4250 50  0000 C CNN
-F 2 "" H 5500 4400 50  0000 C CNN
-F 3 "" H 5500 4400 50  0000 C CNN
-	1    5500 4400
+P 5950 3250
+F 0 "#PWR011" H 5950 3000 50  0001 C CNN
+F 1 "GND" H 5950 3100 50  0000 C CNN
+F 2 "" H 5950 3250 50  0000 C CNN
+F 3 "" H 5950 3250 50  0000 C CNN
+	1    5950 3250
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 4850 2    31   ~ 0
+Text Label 5450 3700 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR014
 U 1 1 5FA801DF
-P 5500 4850
-F 0 "#PWR014" H 5500 4600 50  0001 C CNN
-F 1 "GND" H 5500 4700 50  0000 C CNN
-F 2 "" H 5500 4850 50  0000 C CNN
-F 3 "" H 5500 4850 50  0000 C CNN
-	1    5500 4850
+P 5950 3700
+F 0 "#PWR014" H 5950 3450 50  0001 C CNN
+F 1 "GND" H 5950 3550 50  0000 C CNN
+F 2 "" H 5950 3700 50  0000 C CNN
+F 3 "" H 5950 3700 50  0000 C CNN
+	1    5950 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 5300 2    31   ~ 0
+Text Label 5450 4150 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR017
 U 1 1 5FA801F7
-P 5500 5300
-F 0 "#PWR017" H 5500 5050 50  0001 C CNN
-F 1 "GND" H 5500 5150 50  0000 C CNN
-F 2 "" H 5500 5300 50  0000 C CNN
-F 3 "" H 5500 5300 50  0000 C CNN
-	1    5500 5300
+P 5950 4150
+F 0 "#PWR017" H 5950 3900 50  0001 C CNN
+F 1 "GND" H 5950 4000 50  0000 C CNN
+F 2 "" H 5950 4150 50  0000 C CNN
+F 3 "" H 5950 4150 50  0000 C CNN
+	1    5950 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 3950 2    31   ~ 0
+Text Label 6500 2800 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR08
 U 1 1 5FA8A599
-P 6550 3950
-F 0 "#PWR08" H 6550 3700 50  0001 C CNN
-F 1 "GND" H 6550 3800 50  0000 C CNN
-F 2 "" H 6550 3950 50  0000 C CNN
-F 3 "" H 6550 3950 50  0000 C CNN
-	1    6550 3950
+P 7000 2800
+F 0 "#PWR08" H 7000 2550 50  0001 C CNN
+F 1 "GND" H 7000 2650 50  0000 C CNN
+F 2 "" H 7000 2800 50  0000 C CNN
+F 3 "" H 7000 2800 50  0000 C CNN
+	1    7000 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 4400 2    31   ~ 0
+Text Label 6500 3250 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR012
 U 1 1 5FA8A5A9
-P 6550 4400
-F 0 "#PWR012" H 6550 4150 50  0001 C CNN
-F 1 "GND" H 6550 4250 50  0000 C CNN
-F 2 "" H 6550 4400 50  0000 C CNN
-F 3 "" H 6550 4400 50  0000 C CNN
-	1    6550 4400
+P 7000 3250
+F 0 "#PWR012" H 7000 3000 50  0001 C CNN
+F 1 "GND" H 7000 3100 50  0000 C CNN
+F 2 "" H 7000 3250 50  0000 C CNN
+F 3 "" H 7000 3250 50  0000 C CNN
+	1    7000 3250
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 4850 2    31   ~ 0
+Text Label 6500 3700 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR015
 U 1 1 5FA8A5B9
-P 6550 4850
-F 0 "#PWR015" H 6550 4600 50  0001 C CNN
-F 1 "GND" H 6550 4700 50  0000 C CNN
-F 2 "" H 6550 4850 50  0000 C CNN
-F 3 "" H 6550 4850 50  0000 C CNN
-	1    6550 4850
+P 7000 3700
+F 0 "#PWR015" H 7000 3450 50  0001 C CNN
+F 1 "GND" H 7000 3550 50  0000 C CNN
+F 2 "" H 7000 3700 50  0000 C CNN
+F 3 "" H 7000 3700 50  0000 C CNN
+	1    7000 3700
 	0    -1   -1   0   
 $EndComp
-Text Label 6050 5300 2    31   ~ 0
+Text Label 6500 4150 2    31   ~ 0
 +5V_SUPPLY
 $Comp
 L power:GND #PWR018
 U 1 1 5FA8A5C9
-P 6550 5300
-F 0 "#PWR018" H 6550 5050 50  0001 C CNN
-F 1 "GND" H 6550 5150 50  0000 C CNN
-F 2 "" H 6550 5300 50  0000 C CNN
-F 3 "" H 6550 5300 50  0000 C CNN
-	1    6550 5300
+P 7000 4150
+F 0 "#PWR018" H 7000 3900 50  0001 C CNN
+F 1 "GND" H 7000 4000 50  0000 C CNN
+F 2 "" H 7000 4150 50  0000 C CNN
+F 3 "" H 7000 4150 50  0000 C CNN
+	1    7000 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 3950 4300 2    60   ~ 0
+Text Label 4400 3150 2    60   ~ 0
 12(**)
-Text Label 3950 4750 2    60   ~ 0
+Text Label 4400 3600 2    60   ~ 0
 11(**)
-Text Label 3950 5200 2    60   ~ 0
+Text Label 4400 4050 2    60   ~ 0
 10(**)
-Text Label 5000 3850 2    60   ~ 0
+Text Label 5450 2700 2    60   ~ 0
 9(**)
-Text Label 5000 4300 2    60   ~ 0
+Text Label 5450 3150 2    60   ~ 0
 8(**)
-Text Label 5000 4750 2    60   ~ 0
+Text Label 5450 3600 2    60   ~ 0
 7(**)
-Text Label 5000 5200 2    60   ~ 0
+Text Label 5450 4050 2    60   ~ 0
 6(**)
-Text Label 6050 4300 2    60   ~ 0
+Text Label 6500 3150 2    60   ~ 0
 4(**)
-Text Label 6050 4750 2    60   ~ 0
+Text Label 6500 3600 2    60   ~ 0
 3(**)
-Text Label 6050 5200 2    60   ~ 0
+Text Label 6500 4050 2    60   ~ 0
 2(**)
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J13
 U 1 1 5FA8A5C2
-P 6250 5200
-F 0 "J13" H 6300 5417 50  0000 C CNN
-F 1 "BL #12" H 6300 5326 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6250 5200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6250 5200 50  0001 C CNN
-F 4 "0430450412" H 6250 5200 50  0001 C CNN "PN"
-	1    6250 5200
+P 6700 4050
+F 0 "J13" H 6750 4267 50  0000 C CNN
+F 1 "BL #12" H 6750 4176 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6700 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6700 4050 50  0001 C CNN
+F 4 "0430450412" H 6700 4050 50  0001 C CNN "PN"
+	1    6700 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J12
 U 1 1 5FA8A5B2
-P 6250 4750
-F 0 "J12" H 6300 4967 50  0000 C CNN
-F 1 "BL #11" H 6300 4876 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6250 4750 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6250 4750 50  0001 C CNN
-F 4 "0430450412" H 6250 4750 50  0001 C CNN "PN"
-	1    6250 4750
+P 6700 3600
+F 0 "J12" H 6750 3817 50  0000 C CNN
+F 1 "BL #11" H 6750 3726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6700 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6700 3600 50  0001 C CNN
+F 4 "0430450412" H 6700 3600 50  0001 C CNN "PN"
+	1    6700 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J11
 U 1 1 5FA8A5A2
-P 6250 4300
-F 0 "J11" H 6300 4517 50  0000 C CNN
-F 1 "BL #10" H 6300 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6250 4300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6250 4300 50  0001 C CNN
-F 4 "0430450412" H 6250 4300 50  0001 C CNN "PN"
-	1    6250 4300
+P 6700 3150
+F 0 "J11" H 6750 3367 50  0000 C CNN
+F 1 "BL #10" H 6750 3276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6700 3150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6700 3150 50  0001 C CNN
+F 4 "0430450412" H 6700 3150 50  0001 C CNN "PN"
+	1    6700 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J10
 U 1 1 5FA8A592
-P 6250 3850
-F 0 "J10" H 6300 4067 50  0000 C CNN
-F 1 "BL #9" H 6300 3976 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6250 3850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6250 3850 50  0001 C CNN
-F 4 "0430450412" H 6250 3850 50  0001 C CNN "PN"
-	1    6250 3850
+P 6700 2700
+F 0 "J10" H 6750 2917 50  0000 C CNN
+F 1 "BL #9" H 6750 2826 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 6700 2700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 6700 2700 50  0001 C CNN
+F 4 "0430450412" H 6700 2700 50  0001 C CNN "PN"
+	1    6700 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J9
 U 1 1 5FA801EC
-P 5200 5200
-F 0 "J9" H 5250 5417 50  0000 C CNN
-F 1 "BL #8" H 5250 5326 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5200 5200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5200 5200 50  0001 C CNN
-F 4 "0430450412" H 5200 5200 50  0001 C CNN "PN"
-	1    5200 5200
+P 5650 4050
+F 0 "J9" H 5700 4267 50  0000 C CNN
+F 1 "BL #8" H 5700 4176 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5650 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5650 4050 50  0001 C CNN
+F 4 "0430450412" H 5650 4050 50  0001 C CNN "PN"
+	1    5650 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J8
 U 1 1 5FA801D4
-P 5200 4750
-F 0 "J8" H 5250 4967 50  0000 C CNN
-F 1 "BL #7" H 5250 4876 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5200 4750 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5200 4750 50  0001 C CNN
-F 4 "0430450412" H 5200 4750 50  0001 C CNN "PN"
-	1    5200 4750
+P 5650 3600
+F 0 "J8" H 5700 3817 50  0000 C CNN
+F 1 "BL #7" H 5700 3726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5650 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5650 3600 50  0001 C CNN
+F 4 "0430450412" H 5650 3600 50  0001 C CNN "PN"
+	1    5650 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J7
 U 1 1 5FA801BC
-P 5200 4300
-F 0 "J7" H 5250 4517 50  0000 C CNN
-F 1 "BL #6" H 5250 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5200 4300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5200 4300 50  0001 C CNN
-F 4 "0430450412" H 5200 4300 50  0001 C CNN "PN"
-	1    5200 4300
+P 5650 3150
+F 0 "J7" H 5700 3367 50  0000 C CNN
+F 1 "BL #6" H 5700 3276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5650 3150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5650 3150 50  0001 C CNN
+F 4 "0430450412" H 5650 3150 50  0001 C CNN "PN"
+	1    5650 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J6
 U 1 1 5FA801A4
-P 5200 3850
-F 0 "J6" H 5250 4067 50  0000 C CNN
-F 1 "BL #5" H 5250 3976 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5200 3850 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5200 3850 50  0001 C CNN
-F 4 "0430450412" H 5200 3850 50  0001 C CNN "PN"
-	1    5200 3850
+P 5650 2700
+F 0 "J6" H 5700 2917 50  0000 C CNN
+F 1 "BL #5" H 5700 2826 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 5650 2700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 5650 2700 50  0001 C CNN
+F 4 "0430450412" H 5650 2700 50  0001 C CNN "PN"
+	1    5650 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J5
 U 1 1 5FA79315
-P 4150 5200
-F 0 "J5" H 4200 5417 50  0000 C CNN
-F 1 "BL #4" H 4200 5326 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4150 5200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4150 5200 50  0001 C CNN
-F 4 "0430450412" H 4150 5200 50  0001 C CNN "PN"
-	1    4150 5200
+P 4600 4050
+F 0 "J5" H 4650 4267 50  0000 C CNN
+F 1 "BL #4" H 4650 4176 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4600 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4600 4050 50  0001 C CNN
+F 4 "0430450412" H 4600 4050 50  0001 C CNN "PN"
+	1    4600 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J4
 U 1 1 5FA764A0
-P 4150 4750
-F 0 "J4" H 4200 4967 50  0000 C CNN
-F 1 "BL #3" H 4200 4876 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4150 4750 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4150 4750 50  0001 C CNN
-F 4 "0430450412" H 4150 4750 50  0001 C CNN "PN"
-	1    4150 4750
+P 4600 3600
+F 0 "J4" H 4650 3817 50  0000 C CNN
+F 1 "BL #3" H 4650 3726 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4600 3600 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4600 3600 50  0001 C CNN
+F 4 "0430450412" H 4600 3600 50  0001 C CNN "PN"
+	1    4600 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J3
 U 1 1 5FA7352B
-P 4150 4300
-F 0 "J3" H 4200 4517 50  0000 C CNN
-F 1 "BL #2" H 4200 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4150 4300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4150 4300 50  0001 C CNN
-F 4 "0430450412" H 4150 4300 50  0001 C CNN "PN"
-	1    4150 4300
+P 4600 3150
+F 0 "J3" H 4650 3367 50  0000 C CNN
+F 1 "BL #2" H 4650 3276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical" H 4600 3150 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450412_sd.pdf" H 4600 3150 50  0001 C CNN
+F 4 "0430450412" H 4600 3150 50  0001 C CNN "PN"
+	1    4600 3150
 	1    0    0    -1  
 $EndComp
-Text Label 6050 3850 2    60   ~ 0
+Text Label 6500 2700 2    60   ~ 0
 5(**)
-Text Label 8600 6200 2    31   ~ 0
-13(**)
-Text Label 8600 6300 2    31   ~ 0
-12(**)
-Text Label 8600 6400 2    31   ~ 0
-11(**)
-Text Label 8600 6500 2    31   ~ 0
-10(**)
-Text Label 8600 6600 2    31   ~ 0
-9(**)
-Text Label 8600 6700 2    31   ~ 0
-8(**)
-Text Label 9200 6200 2    31   ~ 0
+Text Label 9350 6200 2    31   ~ 0
 7(**)
-Text Label 9200 6300 2    31   ~ 0
+Text Label 9350 6300 2    31   ~ 0
 6(**)
-Text Label 9200 6400 2    31   ~ 0
+Text Label 9350 6400 2    31   ~ 0
 5(**)
-Text Label 9200 6500 2    31   ~ 0
+Text Label 9350 6500 2    31   ~ 0
 4(**)
-Text Label 9200 6600 2    31   ~ 0
+Text Label 9350 6600 2    31   ~ 0
 3(**)
-Text Label 9200 6700 2    31   ~ 0
+Text Label 9350 6700 2    31   ~ 0
 2(**)
-$Comp
-L Connector:TestPoint_Alt TP5
-U 1 1 5FAA6796
-P 8600 6200
-F 0 "TP5" V 8550 6400 31  0000 L CNN
-F 1 "TP-BL1" V 8600 6400 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6200 50  0001 C CNN
-F 3 "~" H 8800 6200 50  0001 C CNN
-	1    8600 6200
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP6
-U 1 1 5FAA93D2
-P 8600 6300
-F 0 "TP6" V 8550 6500 31  0000 L CNN
-F 1 "TP-BL2" V 8600 6500 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6300 50  0001 C CNN
-F 3 "~" H 8800 6300 50  0001 C CNN
-	1    8600 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP7
-U 1 1 5FAA95CD
-P 8600 6400
-F 0 "TP7" V 8550 6600 31  0000 L CNN
-F 1 "TP-BL3" V 8600 6600 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6400 50  0001 C CNN
-F 3 "~" H 8800 6400 50  0001 C CNN
-	1    8600 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP8
-U 1 1 5FAA97C1
-P 8600 6500
-F 0 "TP8" V 8550 6700 31  0000 L CNN
-F 1 "TP-BL4" V 8600 6700 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6500 50  0001 C CNN
-F 3 "~" H 8800 6500 50  0001 C CNN
-	1    8600 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP9
-U 1 1 5FAA9920
-P 8600 6600
-F 0 "TP9" V 8550 6800 31  0000 L CNN
-F 1 "TP-BL5" V 8600 6800 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6600 50  0001 C CNN
-F 3 "~" H 8800 6600 50  0001 C CNN
-	1    8600 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint_Alt TP10
-U 1 1 5FAA9AAA
-P 8600 6700
-F 0 "TP10" V 8550 6900 31  0000 L CNN
-F 1 "TP-BL6" V 8600 6900 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8800 6700 50  0001 C CNN
-F 3 "~" H 8800 6700 50  0001 C CNN
-	1    8600 6700
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector:TestPoint_Alt TP11
 U 1 1 5FAA9BBD
-P 9200 6200
-F 0 "TP11" V 9150 6400 31  0000 L CNN
-F 1 "TP-BL7" V 9200 6400 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6200 50  0001 C CNN
-F 3 "~" H 9400 6200 50  0001 C CNN
-	1    9200 6200
+P 9350 6200
+F 0 "TP11" V 9300 6400 31  0000 L CNN
+F 1 "TP-BL7" V 9350 6400 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6200 50  0001 C CNN
+F 3 "~" H 9550 6200 50  0001 C CNN
+	1    9350 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP12
 U 1 1 5FAA9DFD
-P 9200 6300
-F 0 "TP12" V 9150 6500 31  0000 L CNN
-F 1 "TP-BL8" V 9200 6500 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6300 50  0001 C CNN
-F 3 "~" H 9400 6300 50  0001 C CNN
-	1    9200 6300
+P 9350 6300
+F 0 "TP12" V 9300 6500 31  0000 L CNN
+F 1 "TP-BL8" V 9350 6500 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6300 50  0001 C CNN
+F 3 "~" H 9550 6300 50  0001 C CNN
+	1    9350 6300
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP13
 U 1 1 5FAA9F27
-P 9200 6400
-F 0 "TP13" V 9150 6600 31  0000 L CNN
-F 1 "TP-BL9" V 9200 6600 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6400 50  0001 C CNN
-F 3 "~" H 9400 6400 50  0001 C CNN
-	1    9200 6400
+P 9350 6400
+F 0 "TP13" V 9300 6600 31  0000 L CNN
+F 1 "TP-BL9" V 9350 6600 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6400 50  0001 C CNN
+F 3 "~" H 9550 6400 50  0001 C CNN
+	1    9350 6400
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP14
 U 1 1 5FAAA103
-P 9200 6500
-F 0 "TP14" V 9150 6700 31  0000 L CNN
-F 1 "TP-BL10" V 9200 6700 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6500 50  0001 C CNN
-F 3 "~" H 9400 6500 50  0001 C CNN
-	1    9200 6500
+P 9350 6500
+F 0 "TP14" V 9300 6700 31  0000 L CNN
+F 1 "TP-BL10" V 9350 6700 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6500 50  0001 C CNN
+F 3 "~" H 9550 6500 50  0001 C CNN
+	1    9350 6500
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP15
 U 1 1 5FAAA259
-P 9200 6600
-F 0 "TP15" V 9150 6800 31  0000 L CNN
-F 1 "TP-BL11" V 9200 6800 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6600 50  0001 C CNN
-F 3 "~" H 9400 6600 50  0001 C CNN
-	1    9200 6600
+P 9350 6600
+F 0 "TP15" V 9300 6800 31  0000 L CNN
+F 1 "TP-BL11" V 9350 6800 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6600 50  0001 C CNN
+F 3 "~" H 9550 6600 50  0001 C CNN
+	1    9350 6600
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint_Alt TP16
 U 1 1 5FAAA40E
-P 9200 6700
-F 0 "TP16" V 9150 6900 31  0000 L CNN
-F 1 "TP-BL12" V 9200 6900 31  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9400 6700 50  0001 C CNN
-F 3 "~" H 9400 6700 50  0001 C CNN
-	1    9200 6700
+P 9350 6700
+F 0 "TP16" V 9300 6900 31  0000 L CNN
+F 1 "TP-BL12" V 9350 6900 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9550 6700 50  0001 C CNN
+F 3 "~" H 9550 6700 50  0001 C CNN
+	1    9350 6700
 	0    1    1    0   
 $EndComp
 NoConn ~ 9450 1100
@@ -1275,10 +1101,6 @@ NoConn ~ 8650 2250
 NoConn ~ 8650 2350
 NoConn ~ 8650 2450
 NoConn ~ 8650 2550
-NoConn ~ 8650 2650
-NoConn ~ 8650 2750
-NoConn ~ 8650 2850
-NoConn ~ 8650 2950
 NoConn ~ 9450 2950
 NoConn ~ 9450 2850
 NoConn ~ 9450 3150
@@ -1289,29 +1111,11 @@ NoConn ~ 9450 3550
 NoConn ~ 9450 3650
 NoConn ~ 9450 3750
 NoConn ~ 9450 3850
-NoConn ~ 8650 3850
-NoConn ~ 8650 3750
-NoConn ~ 8650 3650
-NoConn ~ 8650 3550
-NoConn ~ 8650 3450
-NoConn ~ 8650 3350
-NoConn ~ 8650 3250
-NoConn ~ 8650 3150
 NoConn ~ 8300 4500
 NoConn ~ 8400 4500
 NoConn ~ 8500 4500
 NoConn ~ 8600 4500
 NoConn ~ 8700 4500
-NoConn ~ 8800 4500
-NoConn ~ 8900 4500
-NoConn ~ 9000 4500
-NoConn ~ 9100 4500
-NoConn ~ 9200 4500
-NoConn ~ 9300 4500
-NoConn ~ 9400 4500
-NoConn ~ 9500 4500
-NoConn ~ 9600 4500
-NoConn ~ 9700 4500
 NoConn ~ 9800 4500
 NoConn ~ 9800 5000
 NoConn ~ 9700 5000
@@ -1329,28 +1133,382 @@ NoConn ~ 8600 5000
 NoConn ~ 8500 5000
 NoConn ~ 8400 5000
 NoConn ~ 8300 5000
-Text Label 4450 3850 0    31   ~ 0
+Text Label 4900 2700 0    31   ~ 0
 +5V_SUPPLY
-Text Label 4450 4300 0    31   ~ 0
+Text Label 4900 3150 0    31   ~ 0
 +5V_SUPPLY
-Text Label 4450 4750 0    31   ~ 0
+Text Label 4900 3600 0    31   ~ 0
 +5V_SUPPLY
-Text Label 4450 5200 0    31   ~ 0
+Text Label 4900 4050 0    31   ~ 0
 +5V_SUPPLY
-Text Label 5500 3850 0    31   ~ 0
+Text Label 5950 2700 0    31   ~ 0
 +5V_SUPPLY
-Text Label 5500 4300 0    31   ~ 0
+Text Label 5950 3150 0    31   ~ 0
 +5V_SUPPLY
-Text Label 5500 4750 0    31   ~ 0
+Text Label 5950 3600 0    31   ~ 0
 +5V_SUPPLY
-Text Label 5500 5200 0    31   ~ 0
+Text Label 5950 4050 0    31   ~ 0
 +5V_SUPPLY
-Text Label 6550 3850 0    31   ~ 0
+Text Label 7000 2700 0    31   ~ 0
 +5V_SUPPLY
-Text Label 6550 4300 0    31   ~ 0
+Text Label 7000 3150 0    31   ~ 0
 +5V_SUPPLY
-Text Label 6550 4750 0    31   ~ 0
+Text Label 7000 3600 0    31   ~ 0
 +5V_SUPPLY
-Text Label 6550 5200 0    31   ~ 0
+Text Label 7000 4050 0    31   ~ 0
 +5V_SUPPLY
+Text Notes 5200 2350 0    50   ~ 0
+BACKLIGHTING CHANNELS
+Wire Notes Line
+	7350 4300 7350 2250
+Wire Notes Line
+	7350 2250 4050 2250
+Wire Notes Line
+	4050 2250 4050 4300
+Wire Notes Line
+	4050 4300 7350 4300
+Wire Notes Line
+	5150 2250 5150 2400
+Wire Notes Line
+	5150 2400 6200 2400
+Wire Notes Line
+	6200 2400 6200 2250
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J14
+U 1 1 5FA87ADA
+P 5850 1500
+F 0 "J14" H 5900 1917 50  0000 C CNN
+F 1 "DIGITAL IN" H 5900 1826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 5850 1500 50  0001 C CNN
+F 3 "~" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J15
+U 1 1 5FA8995A
+P 6850 1600
+F 0 "J15" H 6900 2117 50  0000 C CNN
+F 1 "ANALOG IN" H 6900 2026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6850 1600 50  0001 C CNN
+F 3 "~" H 6850 1600 50  0001 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+Text Label 5650 1300 2    60   ~ 0
+24
+Text Label 6150 1300 0    60   ~ 0
+26
+Text Label 5650 1400 2    60   ~ 0
+28
+Text Label 6150 1400 0    60   ~ 0
+30
+Text Label 5650 1500 2    60   ~ 0
+32
+Text Label 6150 1500 0    60   ~ 0
+34
+Text Label 5650 1600 2    60   ~ 0
+36
+Text Label 6150 1600 0    60   ~ 0
+38
+Text Label 5650 1700 2    60   ~ 0
+40
+Text Label 6150 1700 0    60   ~ 0
+42
+$Comp
+L power:GND #PWR0107
+U 1 1 5FA8E91D
+P 6150 1800
+F 0 "#PWR0107" H 6150 1550 50  0001 C CNN
+F 1 "GND" H 6150 1650 50  0000 C CNN
+F 2 "" H 6150 1800 50  0000 C CNN
+F 3 "" H 6150 1800 50  0000 C CNN
+	1    6150 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FA8EFCA
+P 5650 1800
+F 0 "#PWR0108" H 5650 1550 50  0001 C CNN
+F 1 "GND" H 5650 1650 50  0000 C CNN
+F 2 "" H 5650 1800 50  0000 C CNN
+F 3 "" H 5650 1800 50  0000 C CNN
+	1    5650 1800
+	0    1    1    0   
+$EndComp
+Text Label 6650 1500 2    60   ~ 0
+A4
+Text Label 6650 1600 2    60   ~ 0
+A5
+Text Label 6650 1700 2    60   ~ 0
+A6
+Text Label 6650 1800 2    60   ~ 0
+A7
+Text Label 6650 1900 2    60   ~ 0
+A8
+Text Label 6650 2000 2    60   ~ 0
+A9
+Text Label 7150 2000 0    60   ~ 0
+A10
+Text Label 7150 1900 0    60   ~ 0
+A11
+Text Label 7150 1800 0    60   ~ 0
+A12
+Text Label 7150 1700 0    60   ~ 0
+A13
+Text Label 7150 1600 0    60   ~ 0
+A14
+Text Label 7150 1500 0    60   ~ 0
+A15
+$Comp
+L power:GND #PWR0110
+U 1 1 5FA9FB0C
+P 7200 1350
+F 0 "#PWR0110" H 7200 1100 50  0001 C CNN
+F 1 "GND" H 7200 1200 50  0000 C CNN
+F 2 "" H 7200 1350 50  0000 C CNN
+F 3 "" H 7200 1350 50  0000 C CNN
+	1    7200 1350
+	0    -1   -1   0   
+$EndComp
+Text Label 4400 4150 2    31   ~ 0
++5V_SUPPLY
+Text Label 6650 1300 2    31   ~ 0
++5V_SUPPLY
+Text Label 6650 1400 2    31   ~ 0
++5V_SUPPLY
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J1
+U 1 1 5FB06700
+P 4650 1800
+F 0 "J1" H 4700 2200 50  0000 C CNN
+F 1 "PWR IN" H 4700 2100 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A2_2x05_P4.20mm_Vertical" H 4650 1800 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039299103_sd.pdf" H 4650 1800 50  0001 C CNN
+F 4 "0039299103" H 4650 1800 50  0001 C CNN "PN"
+	1    4650 1800
+	1    0    0    -1  
+$EndComp
+Text Label 4950 1800 0    31   ~ 0
++12V_SUPPLY
+Text Label 4450 1800 2    31   ~ 0
++5V_SUPPLY
+Text Label 4450 1700 2    31   ~ 0
++5V_SUPPLY
+Text Label 4950 1600 0    31   ~ 0
++5V_SUPPLY
+Text Label 4950 1700 0    31   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR0104
+U 1 1 5FB07FD2
+P 5000 1950
+F 0 "#PWR0104" H 5000 1700 50  0001 C CNN
+F 1 "GND" H 5000 1800 50  0000 C CNN
+F 2 "" H 5000 1950 50  0000 C CNN
+F 3 "" H 5000 1950 50  0000 C CNN
+	1    5000 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2000 4950 2000
+Wire Wire Line
+	5000 2000 5000 1950
+Wire Wire Line
+	5000 1900 4950 1900
+Connection ~ 5000 1950
+Wire Wire Line
+	5000 1950 5000 1900
+Wire Wire Line
+	4450 1900 4400 1900
+Wire Wire Line
+	4400 1900 4400 1950
+Wire Wire Line
+	4400 2000 4450 2000
+$Comp
+L power:GND #PWR0109
+U 1 1 5FB13214
+P 4400 1950
+F 0 "#PWR0109" H 4400 1700 50  0001 C CNN
+F 1 "GND" H 4400 1800 50  0000 C CNN
+F 2 "" H 4400 1950 50  0000 C CNN
+F 3 "" H 4400 1950 50  0000 C CNN
+	1    4400 1950
+	0    1    1    0   
+$EndComp
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 1950 4400 2000
+$Comp
+L Connector:TestPoint_Alt TP2
+U 1 1 5FA44D09
+P 8000 6550
+F 0 "TP2" V 7950 6750 31  0000 L CNN
+F 1 "TP-5V" V 8000 6750 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6550 50  0001 C CNN
+F 3 "~" H 8200 6550 50  0001 C CNN
+	1    8000 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP1
+U 1 1 5FA453F7
+P 8000 6450
+F 0 "TP1" V 7950 6650 31  0000 L CNN
+F 1 "TP-12" V 8000 6650 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6450 50  0001 C CNN
+F 3 "~" H 8200 6450 50  0001 C CNN
+	1    8000 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FA67B3C
+P 8000 6650
+F 0 "#PWR0105" H 8000 6400 50  0001 C CNN
+F 1 "GND" H 8000 6500 31  0000 C CNN
+F 2 "" H 8000 6650 50  0000 C CNN
+F 3 "" H 8000 6650 50  0000 C CNN
+	1    8000 6650
+	0    1    1    0   
+$EndComp
+Text Label 8000 6550 2    31   ~ 0
++5V_SUPPLY
+Text Label 8000 6450 2    31   ~ 0
++12V_SUPPLY
+$Comp
+L Connector:TestPoint_Alt TP4
+U 1 1 5FA4C49D
+P 8000 6650
+F 0 "TP4" V 7950 6850 31  0000 L CNN
+F 1 "TP-GND" V 8000 6850 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 8200 6650 50  0001 C CNN
+F 3 "~" H 8200 6650 50  0001 C CNN
+	1    8000 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP10
+U 1 1 5FAA9AAA
+P 8800 6700
+F 0 "TP10" V 8750 6900 31  0000 L CNN
+F 1 "TP-BL6" V 8800 6900 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6700 50  0001 C CNN
+F 3 "~" H 9000 6700 50  0001 C CNN
+	1    8800 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP9
+U 1 1 5FAA9920
+P 8800 6600
+F 0 "TP9" V 8750 6800 31  0000 L CNN
+F 1 "TP-BL5" V 8800 6800 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6600 50  0001 C CNN
+F 3 "~" H 9000 6600 50  0001 C CNN
+	1    8800 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP8
+U 1 1 5FAA97C1
+P 8800 6500
+F 0 "TP8" V 8750 6700 31  0000 L CNN
+F 1 "TP-BL4" V 8800 6700 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6500 50  0001 C CNN
+F 3 "~" H 9000 6500 50  0001 C CNN
+	1    8800 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP7
+U 1 1 5FAA95CD
+P 8800 6400
+F 0 "TP7" V 8750 6600 31  0000 L CNN
+F 1 "TP-BL3" V 8800 6600 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6400 50  0001 C CNN
+F 3 "~" H 9000 6400 50  0001 C CNN
+	1    8800 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP6
+U 1 1 5FAA93D2
+P 8800 6300
+F 0 "TP6" V 8750 6500 31  0000 L CNN
+F 1 "TP-BL2" V 8800 6500 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6300 50  0001 C CNN
+F 3 "~" H 9000 6300 50  0001 C CNN
+	1    8800 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP5
+U 1 1 5FAA6796
+P 8800 6200
+F 0 "TP5" V 8750 6400 31  0000 L CNN
+F 1 "TP-BL1" V 8800 6400 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 9000 6200 50  0001 C CNN
+F 3 "~" H 9000 6200 50  0001 C CNN
+	1    8800 6200
+	0    1    1    0   
+$EndComp
+Text Label 8800 6700 2    31   ~ 0
+8(**)
+Text Label 8800 6600 2    31   ~ 0
+9(**)
+Text Label 8800 6500 2    31   ~ 0
+10(**)
+Text Label 8800 6400 2    31   ~ 0
+11(**)
+Text Label 8800 6300 2    31   ~ 0
+12(**)
+Text Label 8800 6200 2    31   ~ 0
+13(**)
+Wire Notes Line
+	7650 6100 9800 6100
+Wire Wire Line
+	7150 1400 7200 1400
+Wire Wire Line
+	7200 1400 7200 1350
+Wire Wire Line
+	7200 1350 7200 1300
+Wire Wire Line
+	7200 1300 7150 1300
+Connection ~ 7200 1350
+Text Notes 6250 1050 0    50   ~ 0
+INPUTS
+Wire Notes Line
+	5400 950  7450 950 
+Wire Notes Line
+	7450 950  7450 2150
+Wire Notes Line
+	7450 2150 5400 2150
+Wire Notes Line
+	5400 2150 5400 950 
+Wire Notes Line
+	6150 950  6150 1100
+Wire Notes Line
+	6150 1100 6650 1100
+Wire Notes Line
+	6650 1100 6650 950 
+Text Notes 4500 1250 0    50   ~ 0
+POWER IN
+Wire Notes Line
+	4100 1150 5300 1150
+Wire Notes Line
+	5300 1150 5300 2150
+Wire Notes Line
+	5300 2150 4100 2150
+Wire Notes Line
+	4100 2150 4100 1150
+Wire Notes Line
+	4450 1150 4450 1300
+Wire Notes Line
+	4450 1300 4900 1300
+Wire Notes Line
+	4900 1300 4900 1150
+Wire Notes Line
+	9150 5600 10500 5600
 $EndSCHEMATC

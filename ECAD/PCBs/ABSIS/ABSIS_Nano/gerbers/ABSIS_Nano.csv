@@ -1,17 +1,17 @@
-Comment,Designator,Footprint,LCSC
-"0.1uF","C1","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","C49678"
-"BUS IN","J1","Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal",""
-"BUS OUT","J2","Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal",""
-"DIGITAL I/O","J3","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical","MTP125-1240S1"
-"ANALOG","J4","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","MTP125-1240S1"
-"ACC PWR","J5","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","MTP125-1240S1"
-"BUS ENABLE","JP1","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","C358703"
-"Digital","P1","Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",""
-"Analog","P2","Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",""
-"TP-12","TP1","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"TP-5V","TP2","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"TP-3.3V","TP3","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"TP-GND","TP4","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"TP-A","TP5","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"TP-B","TP6","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm",""
-"MAX487EESA+T","U1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C116539"
+Comment,Designator,Footprint,LCSC Part Number
+0.1uF,C1,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C49678
+BUS IN,J1,Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal,
+BUS OUT,J2,Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal,
+DIGITAL I/O,J3,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,MTP125-1240S1
+ANALOG,J4,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,MTP125-1240S1
+ACC PWR,J5,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,MTP125-1240S1
+BUS ENABLE,JP1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C358703
+Digital,P1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+Analog,P2,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+TP-12,TP1,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-5V,TP2,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-3.3V,TP3,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-GND,TP4,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-A,TP5,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-B,TP6,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+MAX487EESA+T,U1,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C116539
