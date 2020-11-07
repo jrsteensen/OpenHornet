@@ -1,13 +1,10 @@
 Comment,Designator,Footprint,LCSC Part Number
 0.1uF,"C1,C2,C3",Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C49678
-PWR IN,J1,Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical,
-BUS #1,J2,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,
-BUS #2,J3,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,
-BUS #3,J4,Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical,
-BUS #1 ENABLE,JP1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C358703
-BUS #2 ENABLE,JP2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C358703
-BUS #3 ENABLE,JP3,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C358703
-MH,"MK1,MK2,MK3,MK4,MK6",Socket_Arduino_Mega:Arduino_1pin,
+PWR IN,J1,Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical,
+BUS #1,J2,Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,
+BUS #2,J3,Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,
+BUS #3,J4,Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,
+MH,"MK1,MK3,MK4,MK6",Socket_Arduino_Mega:Arduino_1pin,
 Power,P1,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
 Analog,"P2,P3",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
 Digital,P4,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,

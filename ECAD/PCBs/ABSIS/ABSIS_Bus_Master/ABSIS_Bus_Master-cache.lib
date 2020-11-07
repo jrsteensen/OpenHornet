@@ -67,29 +67,6 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x02_Counter_Clockwise
-#
-DEF Connector_Generic_Conn_02x02_Counter_Clockwise J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "Connector_Generic_Conn_02x02_Counter_Clockwise" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 150 -150 1 1 10 f
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-X Pin_3 3 300 -100 150 L 50 50 1 1 P
-X Pin_4 4 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_02x03_Top_Bottom
 #
 DEF Connector_Generic_Conn_02x03_Top_Bottom J 0 40 Y N 1 F N
@@ -114,6 +91,37 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 X Pin_4 4 300 100 150 L 50 50 1 1 P
 X Pin_5 5 300 0 150 L 50 50 1 1 P
 X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x04_Top_Bottom
+#
+DEF Connector_Generic_Conn_02x04_Top_Bottom J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x04_Top_Bottom" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+X Pin_5 5 300 100 150 L 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 300 -100 150 L 50 50 1 1 P
+X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -236,24 +244,6 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
-$ENDFPLIST
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
