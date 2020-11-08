@@ -1,10 +1,17 @@
 Reference, Quantity, Value, Footprint, Datasheet, LCSC, PN
-C1 ,1,0.1uF,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf,C49678,
-J1 ,1,BUS IN,Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal,https://www.molex.com/pdm_docs/sd/430450600_sd.pdf,,430450600
-J2 ,1,BUS OUT,Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal,https://www.molex.com/pdm_docs/sd/430450600_sd.pdf,,430450600
-J3 ,1,"Pin Header, 2.54mm, 2x6",Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,VARIOUS,,
-J4 ,1,"Pin Header, 2.54mm, 2x5",Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,VARIOUS,,
-J5 ,1,"Pin Header, 2.54mm, 2x2",Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,VARIOUS,,
-JP1 ,1,"Pin Header, 2.54mm, 1x2",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,VARIOUS,,
-"P1, P2",2,"Pin Header, 2.54mm, 1x15",Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,VARIOUS,,
-U1 ,1,MAX487EESA+T,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf,C116539,
+C1 ,1,"0.1uF","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder","https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"","",","C49678",""
+J1 ,1,"BUS IN","Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal","https://www.molex.com/pdm_docs/sd/039291067_sd.pdf"","",","","039291067"
+J2 ,1,"BUS OUT","Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal","https://www.molex.com/pdm_docs/sd/039291067_sd.pdf"","",","","039291067"
+J3 ,1,"DIGITAL I/O","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical","https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf"","",","MTP125-1240S1",""
+J4 ,1,"ANALOG","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf"","",","MTP125-1240S1",""
+J5 ,1,"ACC PWR","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf"","",","MTP125-1240S1",""
+JP1 ,1,"BUS ENABLE","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf"","",","C358703",""
+P1 ,1,"Digital","Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",""","","
+P2 ,1,"Analog","Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical",""","","
+TP1 ,1,"TP-12","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+TP2 ,1,"TP-5V","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+TP3 ,1,"TP-3.3V","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+TP4 ,1,"TP-GND","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+TP5 ,1,"TP-A","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+TP6 ,1,"TP-B","TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm","~"","","
+U1 ,1,"MAX487EESA+T","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf"","",","C116539",""

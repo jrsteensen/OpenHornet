@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\GitHub\OpenHornet\ECAD\PCBs\ABSIS\ABSIS_Nano\ABSIS_Nano.sch)
-    (date "11/6/2020 8:02:14 AM")
+    (date "11/7/2020 4:25:50 PM")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,10 +35,10 @@
       (tstamp 5FA5FC67))
     (comp (ref J1)
       (value "BUS IN")
-      (footprint Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal)
-      (datasheet https://www.molex.com/pdm_docs/sd/430450600_sd.pdf)
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal)
+      (datasheet https://www.molex.com/pdm_docs/sd/039291067_sd.pdf)
       (fields
-        (field (name PN) 0430450600))
+        (field (name PN) 039291067))
       (libsource (lib Connector_Generic) (part Conn_02x03_Top_Bottom) (description "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FA7581B))
@@ -95,7 +95,7 @@
       (tstamp 5FA1004F))
     (comp (ref J2)
       (value "BUS OUT")
-      (footprint Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal)
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal)
       (datasheet https://www.molex.com/pdm_docs/sd/430450600_sd.pdf)
       (fields
         (field (name PN) 0430450600))

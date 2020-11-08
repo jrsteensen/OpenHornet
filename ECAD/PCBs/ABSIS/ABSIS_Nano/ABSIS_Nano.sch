@@ -318,9 +318,9 @@ U 1 1 5FA7581B
 P 8500 4200
 F 0 "J1" H 8550 4517 50  0000 C CNN
 F 1 "BUS IN" H 8550 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" H 8500 4200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450600_sd.pdf" H 8500 4200 50  0001 C CNN
-F 4 "0430450600" H 8500 4200 50  0001 C CNN "PN"
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal" H 8500 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039291067_sd.pdf" H 8500 4200 50  0001 C CNN
+F 4 "039291067" H 8500 4200 50  0001 C CNN "PN"
 	1    8500 4200
 	1    0    0    -1  
 $EndComp
@@ -508,9 +508,9 @@ U 1 1 5FA822FB
 P 9850 4200
 F 0 "J2" H 9900 4517 50  0000 C CNN
 F 1 "BUS OUT" H 9900 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" H 9850 4200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450600_sd.pdf" H 9850 4200 50  0001 C CNN
-F 4 "0430450600" H 9850 4200 50  0001 C CNN "PN"
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal" H 9850 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039291067_sd.pdf" H 9850 4200 50  0001 C CNN
+F 4 "039291067" H 9850 4200 50  0001 C CNN "PN"
 	1    9850 4200
 	1    0    0    -1  
 $EndComp

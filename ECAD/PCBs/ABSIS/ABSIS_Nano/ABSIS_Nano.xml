@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\GitHub\OpenHornet\ECAD\PCBs\ABSIS\ABSIS_Nano\ABSIS_Nano.sch</source>
-    <date>11/7/2020 11:07:19 AM</date>
+    <date>11/7/2020 6:38:52 PM</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -43,10 +43,10 @@
     </comp>
     <comp ref="J1">
       <value>BUS IN</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal</footprint>
-      <datasheet>https://www.molex.com/pdm_docs/sd/430450600_sd.pdf</datasheet>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039291067_sd.pdf</datasheet>
       <fields>
-        <field name="PN">0430450600</field>
+        <field name="PN">039291067</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -113,10 +113,10 @@
     </comp>
     <comp ref="J2">
       <value>BUS OUT</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal</footprint>
-      <datasheet>https://www.molex.com/pdm_docs/sd/430450600_sd.pdf</datasheet>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/039291067_sd.pdf</datasheet>
       <fields>
-        <field name="PN">0430450600</field>
+        <field name="PN">039291067</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x03_Top_Bottom" description="Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
