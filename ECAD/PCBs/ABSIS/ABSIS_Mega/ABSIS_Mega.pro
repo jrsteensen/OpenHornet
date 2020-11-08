@@ -1,4 +1,4 @@
-update=11/4/2020 2:43:26 PM
+update=11/8/2020 6:17:09 AM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Mega_shield_template.net
+LastNetListRead=ABSIS Mega.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -41,6 +41,7 @@ TrackWidth3=0.3048
 TrackWidth4=0.4572
 TrackWidth5=0.635
 TrackWidth6=0.9144
+TrackWidth7=1.6256
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2

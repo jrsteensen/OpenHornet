@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.9144)
+    (last_trace_width 0.25)
     (user_trace_width 0.2032)
     (user_trace_width 0.3048)
     (user_trace_width 0.4572)
@@ -4022,6 +4022,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/39299083.stp
+      (offset (xyz 6.25 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical (layer F.Cu) (tedit 5B781992) (tstamp 5FA71A11)
@@ -4127,6 +4132,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/39299067.stp
+      (offset (xyz 4.25 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -4234,6 +4244,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/39299067.stp
+      (offset (xyz 4.25 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical (layer F.Cu) (tedit 5B781992) (tstamp 5FA72078)
@@ -4339,6 +4354,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/39299067.stp
+      (offset (xyz 4.25 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
     )
   )
 

@@ -407,6 +407,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/39299103.stp
+      (offset (xyz 8.4 -2.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module KiCAD_Libraries:CC-BY-NC-SA-Small (layer B.Cu) (tedit 0) (tstamp 5FA65042)
@@ -3461,6 +3466,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA607D6)
@@ -3518,6 +3528,11 @@
     (pad "" np_thru_hole circle (at -3 3.94) (size 1 1) (drill 1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3581,6 +3596,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA61515)
@@ -3638,6 +3658,11 @@
     (pad "" np_thru_hole circle (at -3 3.94) (size 1 1) (drill 1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3701,6 +3726,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA60876)
@@ -3758,6 +3788,11 @@
     (pad "" np_thru_hole circle (at -3 3.94) (size 1 1) (drill 1) (layers *.Cu *.Mask))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3821,6 +3856,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA6158A)
@@ -3878,6 +3918,11 @@
       (net 6 /+5V_SUPPLY))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -3941,6 +3986,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA60916)
@@ -3998,6 +4048,11 @@
       (net 6 /+5V_SUPPLY))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4061,6 +4116,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_Molex:Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical (layer F.Cu) (tedit 5B78138F) (tstamp 5FA614A0)
@@ -4118,6 +4178,11 @@
       (net 6 /+5V_SUPPLY))
     (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0412_2x02_P3.00mm_Vertical.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ../../../lib/3D/430450412.stp
+      (offset (xyz 1.5 -1.5 4.95))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

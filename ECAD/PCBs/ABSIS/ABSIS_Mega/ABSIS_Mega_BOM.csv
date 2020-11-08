@@ -1,0 +1,11 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC, PN
+C1 ,1,"Cap, Ceramic, 0805, 0.1uF",Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf,C49678,
+J1 J2,1,"Molex Mini-Fit Jr, 2x3, Right-Angle",Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,https://www.molex.com/pdm_docs/sd/039291067_sd.pdf,,39291067
+J3 ,1,"Pin Header, 2.54mm, 2x11",Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical,~,,
+J4 J5 J6,3,"Pin Header, 2.54mm, 2x10",Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,~,,
+J7 ,1,"Pin Header, 2.54mm, 2x2",Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,~,,
+JP1 ,1,"Pin Header, 2.54mm, 1x2",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,
+P1 ,1,"Pin Header, 2.54mm, 2x18",Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,~,,
+P2 P3 P4 P6 P7,5,"Pin Header, 2.54mm, 1x8",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,
+P5 ,1,"Pin Header, 2.54mm, 1x10",Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,~,,
+U1 ,1,MAX487EESA+T,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf,C116539,
