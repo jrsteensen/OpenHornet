@@ -5,6 +5,14 @@ D The ABSIS Backlighting Controller is an Arduino Mega based PCB that controls u
 K ABSIS Backlighting Controller Backlight BL PWM
 $ENDCMP
 #
+$CMP ABSIS_Generic_BackLightPCB
+D This is a generic backlight PCB for ABSIS based backlighting panels. (Single pin PWM controlled RGB LEDs)
+$ENDCMP
+#
+$CMP ABSIS_Mega_2.0
+D This is an arduino mega based IO PCB connecting to the ABSIS RS485 BUS as a slave device.
+$ENDCMP
+#
 $CMP ABSIS_Nano_2.0
 D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
 K ABSIS Nano RS485 Slave

@@ -1,0 +1,72 @@
+EESchema Schematic File Version 4
+LIBS:OH_Interconnect-cache
+EELAYER 30 0
+EELAYER END
+$Descr E 44000 34000
+encoding utf-8
+Sheet 1 1
+Title "OpenHornet System Architecture"
+Date "2020-11-09"
+Rev "DRAFT 1"
+Comp "OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ABSIS_2.0:ABSIS_Generic_BackLightPCB A?
+U 1 1 5FA9AA2C
+P 13050 3600
+F 0 "A?" H 13228 3654 50  0000 L CNN
+F 1 "ABSIS_Generic_BackLightPCB" H 13228 3563 50  0000 L CNN
+F 2 "" H 13050 3600 50  0001 C CNN
+F 3 "" H 13050 3600 50  0001 C CNN
+	1    13050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABSIS_2.0:ABSIS_Nano_2.0 A?
+U 1 1 5FA9C9E4
+P 11400 3600
+F 0 "A?" H 11475 4481 50  0000 C CNN
+F 1 "ABSIS_Nano_2.0" H 11475 4390 50  0000 C CNN
+F 2 "" H 11400 3600 50  0001 C CNN
+F 3 "" H 11400 3600 50  0001 C CNN
+	1    11400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABSIS_2.0:ABSIS_Mega_2.0 A?
+U 1 1 5FA9B202
+P 9550 3700
+F 0 "A?" H 9600 6281 50  0000 C CNN
+F 1 "ABSIS_Mega_2.0" H 9600 6190 50  0000 C CNN
+F 2 "" H 8350 6000 50  0001 C CNN
+F 3 "" H 8350 6000 50  0001 C CNN
+	1    9550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABSIS_2.0:ABSIS_BackLightControl A?
+U 1 1 5FA9A9F2
+P 7300 3000
+F 0 "A?" H 7850 4150 50  0000 C CNN
+F 1 "ABSIS_BackLightControl" H 8000 4050 50  0000 C CNN
+F 2 "" H 7300 3000 50  0001 C CNN
+F 3 "" H 7300 3000 50  0001 C CNN
+	1    7300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABSIS_2.0:ABSIS_RS485BusMaster 1A1A
+U 1 1 5FA9A61A
+P 5000 3050
+F 0 "1A1A" H 5300 3150 50  0000 L CNN
+F 1 "ABSIS BUS MASTER" H 5300 3050 50  0000 L CNN
+F 2 "" H 5000 2950 50  0001 C CNN
+F 3 "" H 5000 2950 50  0001 C CNN
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
