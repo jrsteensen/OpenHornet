@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ABSIS ATX Power Board"
 Date "2020-11-08"
 Rev "1"
-Comp "OPENHORNET.COM"
+Comp "WWW.OPENHORNET.COM"
 Comment1 "CC BY-NC-SA"
 Comment2 ""
 Comment3 ""
@@ -16,157 +16,157 @@ $EndDescr
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FA83FED
-P 10400 6100
-F 0 "#FLG0102" H 10400 6175 50  0001 C CNN
-F 1 "PWR_FLAG" V 10400 6227 50  0000 L CNN
-F 2 "" H 10400 6100 50  0001 C CNN
-F 3 "~" H 10400 6100 50  0001 C CNN
-	1    10400 6100
+P 9650 6200
+F 0 "#FLG0102" H 9650 6275 50  0001 C CNN
+F 1 "PWR_FLAG" V 9650 6327 50  0000 L CNN
+F 2 "" H 9650 6200 50  0001 C CNN
+F 3 "~" H 9650 6200 50  0001 C CNN
+	1    9650 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FA84170
-P 10400 6200
-F 0 "#FLG0103" H 10400 6275 50  0001 C CNN
-F 1 "PWR_FLAG" V 10400 6327 50  0000 L CNN
-F 2 "" H 10400 6200 50  0001 C CNN
-F 3 "~" H 10400 6200 50  0001 C CNN
-	1    10400 6200
+P 9650 6350
+F 0 "#FLG0103" H 9650 6425 50  0001 C CNN
+F 1 "PWR_FLAG" V 9650 6477 50  0000 L CNN
+F 2 "" H 9650 6350 50  0001 C CNN
+F 3 "~" H 9650 6350 50  0001 C CNN
+	1    9650 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5FA8424B
-P 10400 6300
-F 0 "#FLG0104" H 10400 6375 50  0001 C CNN
-F 1 "PWR_FLAG" V 10400 6427 50  0000 L CNN
-F 2 "" H 10400 6300 50  0001 C CNN
-F 3 "~" H 10400 6300 50  0001 C CNN
-	1    10400 6300
+P 9650 6500
+F 0 "#FLG0104" H 9650 6575 50  0001 C CNN
+F 1 "PWR_FLAG" V 9650 6627 50  0000 L CNN
+F 2 "" H 9650 6500 50  0001 C CNN
+F 3 "~" H 9650 6500 50  0001 C CNN
+	1    9650 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0105
 U 1 1 5FA843B5
-P 10400 6400
-F 0 "#FLG0105" H 10400 6475 50  0001 C CNN
-F 1 "PWR_FLAG" V 10400 6527 50  0000 L CNN
-F 2 "" H 10400 6400 50  0001 C CNN
-F 3 "~" H 10400 6400 50  0001 C CNN
-	1    10400 6400
+P 9650 6650
+F 0 "#FLG0105" H 9650 6725 50  0001 C CNN
+F 1 "PWR_FLAG" V 9650 6777 50  0000 L CNN
+F 2 "" H 9650 6650 50  0001 C CNN
+F 3 "~" H 9650 6650 50  0001 C CNN
+	1    9650 6650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12V #PWR0102
 U 1 1 5FA8505D
-P 10650 5900
-F 0 "#PWR0102" H 10650 5750 50  0001 C CNN
-F 1 "+12V" V 10665 6028 50  0000 L CNN
-F 2 "" H 10650 5900 50  0001 C CNN
-F 3 "" H 10650 5900 50  0001 C CNN
-	1    10650 5900
+P 9900 6050
+F 0 "#PWR0102" H 9900 5900 50  0001 C CNN
+F 1 "+12V" V 9915 6178 50  0000 L CNN
+F 2 "" H 9900 6050 50  0001 C CNN
+F 3 "" H 9900 6050 50  0001 C CNN
+	1    9900 6050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR0103
 U 1 1 5FA8559F
-P 10650 6100
-F 0 "#PWR0103" H 10650 5950 50  0001 C CNN
-F 1 "+5V" V 10665 6228 50  0000 L CNN
-F 2 "" H 10650 6100 50  0001 C CNN
-F 3 "" H 10650 6100 50  0001 C CNN
-	1    10650 6100
+P 9900 6200
+F 0 "#PWR0103" H 9900 6050 50  0001 C CNN
+F 1 "+5V" V 9915 6328 50  0000 L CNN
+F 2 "" H 9900 6200 50  0001 C CNN
+F 3 "" H 9900 6200 50  0001 C CNN
+	1    9900 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+5VP #PWR0104
 U 1 1 5FA85C15
-P 10650 6200
-F 0 "#PWR0104" H 10650 6050 50  0001 C CNN
-F 1 "+5VP" V 10665 6328 50  0000 L CNN
-F 2 "" H 10650 6200 50  0001 C CNN
-F 3 "" H 10650 6200 50  0001 C CNN
-	1    10650 6200
+P 9900 6350
+F 0 "#PWR0104" H 9900 6200 50  0001 C CNN
+F 1 "+5VP" V 9915 6478 50  0000 L CNN
+F 2 "" H 9900 6350 50  0001 C CNN
+F 3 "" H 9900 6350 50  0001 C CNN
+	1    9900 6350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0106
 U 1 1 5FA8614B
-P 10400 5900
-F 0 "#FLG0106" H 10400 5975 50  0001 C CNN
-F 1 "PWR_FLAG" V 10400 6027 50  0000 L CNN
-F 2 "" H 10400 5900 50  0001 C CNN
-F 3 "~" H 10400 5900 50  0001 C CNN
-	1    10400 5900
+P 9650 6050
+F 0 "#FLG0106" H 9650 6125 50  0001 C CNN
+F 1 "PWR_FLAG" V 9650 6177 50  0000 L CNN
+F 2 "" H 9650 6050 50  0001 C CNN
+F 3 "~" H 9650 6050 50  0001 C CNN
+	1    9650 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 5FA86B8F
-P 10650 6300
-F 0 "#PWR0105" H 10650 6150 50  0001 C CNN
-F 1 "+3.3V" V 10665 6428 50  0000 L CNN
-F 2 "" H 10650 6300 50  0001 C CNN
-F 3 "" H 10650 6300 50  0001 C CNN
-	1    10650 6300
+P 9900 6500
+F 0 "#PWR0105" H 9900 6350 50  0001 C CNN
+F 1 "+3.3V" V 9915 6628 50  0000 L CNN
+F 2 "" H 9900 6500 50  0001 C CNN
+F 3 "" H 9900 6500 50  0001 C CNN
+	1    9900 6500
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5FA86CD5
-P 10650 6400
-F 0 "#PWR0106" H 10650 6150 50  0001 C CNN
-F 1 "GND" V 10655 6272 50  0000 R CNN
-F 2 "" H 10650 6400 50  0001 C CNN
-F 3 "" H 10650 6400 50  0001 C CNN
-	1    10650 6400
+P 9900 6650
+F 0 "#PWR0106" H 9900 6400 50  0001 C CNN
+F 1 "GND" V 9905 6522 50  0000 R CNN
+F 2 "" H 9900 6650 50  0001 C CNN
+F 3 "" H 9900 6650 50  0001 C CNN
+	1    9900 6650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10650 6400 10400 6400
+	9900 6650 9650 6650
 Wire Wire Line
-	10400 6300 10650 6300
+	9650 6500 9900 6500
 Wire Wire Line
-	10650 6200 10400 6200
+	9900 6350 9650 6350
 Wire Wire Line
-	10400 6100 10650 6100
+	9650 6200 9900 6200
 Wire Wire Line
-	10400 5900 10650 5900
-Text Label 1050 1450 0    50   ~ 0
+	9650 6050 9900 6050
+Text Label 1650 1400 0    50   ~ 0
 PS_ON
 Wire Wire Line
-	1050 1450 1400 1450
+	1650 1400 2000 1400
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5FA8D26E
-P 1850 3550
-F 0 "J1" H 1930 3542 50  0000 L CNN
-F 1 "Power Swtich" H 1930 3451 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 1850 3550 50  0001 C CNN
-F 3 "~" H 1850 3550 50  0001 C CNN
-	1    1850 3550
+P 8800 5250
+F 0 "J1" H 8880 5242 50  0000 L CNN
+F 1 "Power Swtich" H 8880 5151 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 8800 5250 50  0001 C CNN
+F 3 "~" H 8800 5250 50  0001 C CNN
+	1    8800 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5FA8E38A
-P 1550 3750
-F 0 "#PWR0107" H 1550 3500 50  0001 C CNN
-F 1 "GND" H 1555 3577 50  0000 C CNN
-F 2 "" H 1550 3750 50  0001 C CNN
-F 3 "" H 1550 3750 50  0001 C CNN
-	1    1550 3750
+P 8500 5450
+F 0 "#PWR0107" H 8500 5200 50  0001 C CNN
+F 1 "GND" H 8505 5277 50  0000 C CNN
+F 2 "" H 8500 5450 50  0001 C CNN
+F 3 "" H 8500 5450 50  0001 C CNN
+	1    8500 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 3750 1550 3650
+	8500 5450 8500 5350
 Wire Wire Line
-	1550 3650 1650 3650
-Text Label 1300 3550 0    50   ~ 0
+	8500 5350 8600 5350
+Text Label 8250 5250 0    50   ~ 0
 PS_ON
 Wire Wire Line
-	1650 3550 1300 3550
+	8600 5250 8250 5250
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J4
 U 1 1 5FA933DD
@@ -273,15 +273,15 @@ Text Label 3950 2400 2    31   ~ 0
 +12V_SUPPLY
 Text Label 4450 2200 0    31   ~ 0
 +3.3V_SUPPLY
-Text Label 2400 1750 0    31   ~ 0
+Text Label 3000 1700 0    31   ~ 0
 +5V_SUPPLY
-Text Label 2400 1950 0    31   ~ 0
+Text Label 3000 1900 0    31   ~ 0
 +3.3V_SUPPLY
-Text Label 2400 1650 0    31   ~ 0
+Text Label 3000 1600 0    31   ~ 0
 +12V_SUPPLY
-Text Label 2400 1850 0    31   ~ 0
+Text Label 3000 1800 0    31   ~ 0
 +5VSB_SUPPLY
-Text Label 2400 1450 0    31   ~ 0
+Text Label 3000 1400 0    31   ~ 0
 PWR_OK
 $Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J7
@@ -498,217 +498,217 @@ Text Label 5350 3750 2    31   ~ 0
 +12V_SUPPLY
 Text Label 5850 3550 0    31   ~ 0
 +3.3V_SUPPLY
-Text Label 9700 700  2    31   ~ 0
+Text Label 8900 1200 2    31   ~ 0
 +5VSB_SUPPLY
-Text Label 9700 1000 2    31   ~ 0
+Text Label 8900 1500 2    31   ~ 0
 +5V_SUPPLY
-Text Label 9700 1300 2    31   ~ 0
+Text Label 8900 1800 2    31   ~ 0
 +3.3V_SUPPLY
-Text Label 9700 1600 2    31   ~ 0
+Text Label 8900 2100 2    31   ~ 0
 +12V_SUPPLY
 $Comp
 L Device:R R1
 U 1 1 5FA8D2DC
-P 10000 700
-F 0 "R1" V 9900 700 50  0000 C CNN
-F 1 "150" V 10000 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9930 700 50  0001 C CNN
-F 3 "~" H 10000 700 50  0001 C CNN
-	1    10000 700 
+P 9200 1200
+F 0 "R1" V 9100 1200 50  0000 C CNN
+F 1 "150" V 9200 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1200 50  0001 C CNN
+F 3 "~" H 9200 1200 50  0001 C CNN
+	1    9200 1200
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:LG_R971-KN-1 D1
+L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D1
 U 1 1 5FA9079C
-P 10500 700
-F 0 "D1" H 10350 750 39  0000 C CNN
-F 1 "Green LED" H 10450 600 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 900 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1000 60  0001 L CNN
-F 4 "475-1410-1-ND" H 10700 1100 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 10700 1200 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 10700 1300 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 10700 1400 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 10700 1600 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 10700 1700 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 10700 1800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10700 1900 60  0001 L CNN "Status"
-	1    10500 700 
+P 9700 1200
+F 0 "D1" H 9550 1250 39  0000 C CNN
+F 1 "Green LED" H 9650 1100 39  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 1400 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 1500 60  0001 L CNN
+F 4 "475-1410-1-ND" H 9900 1600 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 9900 1700 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 9900 1800 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 9900 1900 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2100 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2200 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 9900 2300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9900 2400 60  0001 L CNN "Status"
+	1    9700 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 5FA90F9E
-P 10750 700
-F 0 "#PWR0121" H 10750 450 50  0001 C CNN
-F 1 "GND" V 10750 500 50  0000 C CNN
-F 2 "" H 10750 700 50  0001 C CNN
-F 3 "" H 10750 700 50  0001 C CNN
-	1    10750 700 
+P 9950 1200
+F 0 "#PWR0121" H 9950 950 50  0001 C CNN
+F 1 "GND" V 9950 1000 50  0000 C CNN
+F 2 "" H 9950 1200 50  0001 C CNN
+F 3 "" H 9950 1200 50  0001 C CNN
+	1    9950 1200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 700  9850 700 
+	8900 1200 9050 1200
 Wire Wire Line
-	10150 700  10300 700 
+	9350 1200 9500 1200
 Wire Wire Line
-	10600 700  10750 700 
+	9800 1200 9950 1200
 $Comp
 L Device:R R2
 U 1 1 5FA960E1
-P 10000 1000
-F 0 "R2" V 9900 1000 50  0000 C CNN
-F 1 "150" V 10000 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9930 1000 50  0001 C CNN
-F 3 "~" H 10000 1000 50  0001 C CNN
-	1    10000 1000
+P 9200 1500
+F 0 "R2" V 9100 1500 50  0000 C CNN
+F 1 "150" V 9200 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1500 50  0001 C CNN
+F 3 "~" H 9200 1500 50  0001 C CNN
+	1    9200 1500
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:LG_R971-KN-1 D2
+L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D2
 U 1 1 5FA960F0
-P 10500 1000
-F 0 "D2" H 10350 1050 39  0000 C CNN
-F 1 "Green LED" H 10450 900 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 1200 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1300 60  0001 L CNN
-F 4 "475-1410-1-ND" H 10700 1400 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 10700 1500 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 10700 1600 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 10700 1700 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1800 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 10700 1900 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 10700 2000 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 10700 2100 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10700 2200 60  0001 L CNN "Status"
-	1    10500 1000
+P 9700 1500
+F 0 "D2" H 9550 1550 39  0000 C CNN
+F 1 "Green LED" H 9650 1400 39  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 1700 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 1800 60  0001 L CNN
+F 4 "475-1410-1-ND" H 9900 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 9900 2000 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 9900 2100 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 9900 2200 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2500 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 9900 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9900 2700 60  0001 L CNN "Status"
+	1    9700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0122
 U 1 1 5FA960F6
-P 10750 1000
-F 0 "#PWR0122" H 10750 750 50  0001 C CNN
-F 1 "GND" V 10750 800 50  0000 C CNN
-F 2 "" H 10750 1000 50  0001 C CNN
-F 3 "" H 10750 1000 50  0001 C CNN
-	1    10750 1000
+P 9950 1500
+F 0 "#PWR0122" H 9950 1250 50  0001 C CNN
+F 1 "GND" V 9950 1300 50  0000 C CNN
+F 2 "" H 9950 1500 50  0001 C CNN
+F 3 "" H 9950 1500 50  0001 C CNN
+	1    9950 1500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 1000 9850 1000
+	8900 1500 9050 1500
 Wire Wire Line
-	10150 1000 10300 1000
+	9350 1500 9500 1500
 Wire Wire Line
-	10600 1000 10750 1000
+	9800 1500 9950 1500
 $Comp
 L Device:R R3
 U 1 1 5FA9EB04
-P 10000 1300
-F 0 "R3" V 9900 1300 50  0000 C CNN
-F 1 "56" V 10000 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9930 1300 50  0001 C CNN
-F 3 "~" H 10000 1300 50  0001 C CNN
-	1    10000 1300
+P 9200 1800
+F 0 "R3" V 9100 1800 50  0000 C CNN
+F 1 "56" V 9200 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1800 50  0001 C CNN
+F 3 "~" H 9200 1800 50  0001 C CNN
+	1    9200 1800
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:LG_R971-KN-1 D3
+L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D3
 U 1 1 5FA9EB13
-P 10500 1300
-F 0 "D3" H 10350 1350 39  0000 C CNN
-F 1 "Green LED" H 10450 1200 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 1500 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1600 60  0001 L CNN
-F 4 "475-1410-1-ND" H 10700 1700 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 10700 1800 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 10700 1900 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 10700 2000 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 2100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 10700 2200 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 10700 2300 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 10700 2400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10700 2500 60  0001 L CNN "Status"
-	1    10500 1300
+P 9700 1800
+F 0 "D3" H 9550 1850 39  0000 C CNN
+F 1 "Green LED" H 9650 1700 39  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 2000 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2100 60  0001 L CNN
+F 4 "475-1410-1-ND" H 9900 2200 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 9900 2300 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 9900 2400 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 9900 2500 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2700 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2800 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 9900 2900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9900 3000 60  0001 L CNN "Status"
+	1    9700 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
 U 1 1 5FA9EB19
-P 10750 1300
-F 0 "#PWR0123" H 10750 1050 50  0001 C CNN
-F 1 "GND" V 10750 1100 50  0000 C CNN
-F 2 "" H 10750 1300 50  0001 C CNN
-F 3 "" H 10750 1300 50  0001 C CNN
-	1    10750 1300
+P 9950 1800
+F 0 "#PWR0123" H 9950 1550 50  0001 C CNN
+F 1 "GND" V 9950 1600 50  0000 C CNN
+F 2 "" H 9950 1800 50  0001 C CNN
+F 3 "" H 9950 1800 50  0001 C CNN
+	1    9950 1800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 1300 9850 1300
+	8900 1800 9050 1800
 Wire Wire Line
-	10150 1300 10300 1300
+	9350 1800 9500 1800
 Wire Wire Line
-	10600 1300 10750 1300
+	9800 1800 9950 1800
 $Comp
 L Device:R R4
 U 1 1 5FA9FEAC
-P 10000 1600
-F 0 "R4" V 9900 1600 50  0000 C CNN
-F 1 "560" V 10000 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9930 1600 50  0001 C CNN
-F 3 "~" H 10000 1600 50  0001 C CNN
-	1    10000 1600
+P 9200 2100
+F 0 "R4" V 9100 2100 50  0000 C CNN
+F 1 "560" V 9200 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 2100 50  0001 C CNN
+F 3 "~" H 9200 2100 50  0001 C CNN
+	1    9200 2100
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:LG_R971-KN-1 D4
+L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D4
 U 1 1 5FA9FEBB
-P 10500 1600
-F 0 "D4" H 10350 1650 39  0000 C CNN
-F 1 "Green LED" H 10450 1500 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10700 1800 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 1900 60  0001 L CNN
-F 4 "475-1410-1-ND" H 10700 2000 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 10700 2100 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 10700 2200 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 10700 2300 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 10700 2400 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 10700 2500 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 10700 2600 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 10700 2700 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10700 2800 60  0001 L CNN "Status"
-	1    10500 1600
+P 9700 2100
+F 0 "D4" H 9550 2150 39  0000 C CNN
+F 1 "Green LED" H 9650 2000 39  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 2300 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2400 60  0001 L CNN
+F 4 "475-1410-1-ND" H 9900 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 9900 2600 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 9900 2700 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 9900 2800 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 3000 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 3100 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 9900 3200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9900 3300 60  0001 L CNN "Status"
+	1    9700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5FA9FEC1
-P 10750 1600
-F 0 "#PWR0124" H 10750 1350 50  0001 C CNN
-F 1 "GND" V 10750 1400 50  0000 C CNN
-F 2 "" H 10750 1600 50  0001 C CNN
-F 3 "" H 10750 1600 50  0001 C CNN
-	1    10750 1600
+P 9950 2100
+F 0 "#PWR0124" H 9950 1850 50  0001 C CNN
+F 1 "GND" V 9950 1900 50  0000 C CNN
+F 2 "" H 9950 2100 50  0001 C CNN
+F 3 "" H 9950 2100 50  0001 C CNN
+	1    9950 2100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9700 1600 9850 1600
+	8900 2100 9050 2100
 Wire Wire Line
-	10150 1600 10300 1600
+	9350 2100 9500 2100
 Wire Wire Line
-	10600 1600 10750 1600
-NoConn ~ 2400 1450
-NoConn ~ 2400 2250
+	9800 2100 9950 2100
+NoConn ~ 3000 1400
+NoConn ~ 3000 2200
 $Comp
 L Connector:ATX-24 J2
 U 1 1 5FA8791F
-P 1900 1850
-F 0 "J2" H 1900 2517 50  0000 C CNN
-F 1 "ATX-24" H 1900 2426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A2_2x12_P4.20mm_Vertical" H 1900 1750 50  0001 C CNN
-F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33" H 4300 1300 50  0001 C CNN
-	1    1900 1850
+P 2500 1800
+F 0 "J2" H 2500 2467 50  0000 C CNN
+F 1 "ATX-24" H 2500 2376 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A2_2x12_P4.20mm_Vertical" H 2500 1700 50  0001 C CNN
+F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33" H 4900 1250 50  0001 C CNN
+	1    2500 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -757,56 +757,104 @@ Text Label 4450 4250 0    31   ~ 0
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5FB064ED
-P 9450 2350
-F 0 "H2" H 9550 2396 50  0000 L CNN
-F 1 "MountingHole" H 9550 2305 50  0000 L CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 9450 2350 50  0001 C CNN
-F 3 "~" H 9450 2350 50  0001 C CNN
-	1    9450 2350
+P 8300 6200
+F 0 "H2" H 8400 6246 50  0000 L CNN
+F 1 "MountingHole" H 8400 6155 50  0000 L CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 8300 6200 50  0001 C CNN
+F 3 "~" H 8300 6200 50  0001 C CNN
+	1    8300 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5FB06D5A
-P 9450 2550
-F 0 "H3" H 9550 2596 50  0000 L CNN
-F 1 "MountingHole" H 9550 2505 50  0000 L CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 9450 2550 50  0001 C CNN
-F 3 "~" H 9450 2550 50  0001 C CNN
-	1    9450 2550
+P 8300 6400
+F 0 "H3" H 8400 6446 50  0000 L CNN
+F 1 "MountingHole" H 8400 6355 50  0000 L CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 8300 6400 50  0001 C CNN
+F 3 "~" H 8300 6400 50  0001 C CNN
+	1    8300 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5FB06FDC
-P 9450 2750
-F 0 "H4" H 9550 2796 50  0000 L CNN
-F 1 "MountingHole" H 9550 2705 50  0000 L CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 9450 2750 50  0001 C CNN
-F 3 "~" H 9450 2750 50  0001 C CNN
-	1    9450 2750
+P 8300 6600
+F 0 "H4" H 8400 6646 50  0000 L CNN
+F 1 "MountingHole" H 8400 6555 50  0000 L CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 8300 6600 50  0001 C CNN
+F 3 "~" H 8300 6600 50  0001 C CNN
+	1    8300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FB05B70
-P 9450 2150
-F 0 "H1" H 9550 2196 50  0000 L CNN
-F 1 "MountingHole" H 9550 2105 50  0000 L CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 9450 2150 50  0001 C CNN
-F 3 "~" H 9450 2150 50  0001 C CNN
-	1    9450 2150
+P 8300 6000
+F 0 "H1" H 8400 6046 50  0000 L CNN
+F 1 "MountingHole" H 8400 5955 50  0000 L CNN
+F 2 "Socket_Arduino_Mega:Arduino_1pin" H 8300 6000 50  0001 C CNN
+F 3 "~" H 8300 6000 50  0001 C CNN
+	1    8300 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FB4B641
-P 1900 2450
-F 0 "#PWR?" H 1900 2200 50  0001 C CNN
-F 1 "GND" H 1905 2277 50  0000 C CNN
-F 2 "" H 1900 2450 50  0001 C CNN
-F 3 "" H 1900 2450 50  0001 C CNN
-	1    1900 2450
+P 2500 2400
+F 0 "#PWR?" H 2500 2150 50  0001 C CNN
+F 1 "GND" H 2505 2227 50  0000 C CNN
+F 2 "" H 2500 2400 50  0001 C CNN
+F 3 "" H 2500 2400 50  0001 C CNN
+	1    2500 2400
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	9100 6700 9100 5750
+Text Notes 9100 5850 0    50   ~ 0
+Power Flags
+Wire Notes Line
+	9100 5900 9650 5900
+Wire Notes Line
+	9650 5900 9650 5750
+Wire Notes Line
+	8200 6700 10500 6700
+Text Notes 8200 5850 0    50   ~ 0
+Mounting Holes
+Wire Notes Line
+	8200 5900 8850 5900
+Wire Notes Line
+	8850 5900 8850 5750
+Wire Notes Line
+	8300 650  10400 650 
+Wire Notes Line
+	10400 650  10400 2300
+Wire Notes Line
+	10400 2300 8300 2300
+Wire Notes Line
+	8300 2300 8300 650 
+Text Notes 8350 800  0    50   ~ 0
+LED FEEDBACK
+Text Notes 8350 900  0    39   ~ 0
+NOTE: LED Feedback is optional and not required
+Text Notes 8250 5000 0    39   ~ 0
+CONNECTION TO POWER SWITCH PANEL
+Wire Notes Line
+	8200 4850 9450 4850
+Wire Notes Line
+	9450 4850 9450 5750
+Wire Notes Line
+	8200 4850 8200 6700
+Wire Notes Line
+	8200 5750 10500 5750
+Wire Notes Line
+	1500 850  6500 850 
+Wire Notes Line
+	6500 850  6500 4900
+Wire Notes Line
+	6500 4900 1500 4900
+Wire Notes Line
+	1500 4900 1500 850 
+Text Notes 1550 1000 0    50   ~ 0
+Power Connectors
 $EndSCHEMATC

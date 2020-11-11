@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# ATX_PSU_Board-rescue_LG_R971-KN-1-dk_LED-Indication-Discrete
+#
+DEF ATX_PSU_Board-rescue_LG_R971-KN-1-dk_LED-Indication-Discrete D 0 0 Y Y 1 F N
+F0 "D" -200 150 60 H V C CNN
+F1 "ATX_PSU_Board-rescue_LG_R971-KN-1-dk_LED-Indication-Discrete" -50 -150 60 H V C CNN
+F2 "digikey-footprints:0805" 200 200 60 H I L CNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 300 60 H I L CNN
+F4 "475-1410-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LG R971-KN-1" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED GREEN DIFFUSED 0805 SMD" 200 1000 60 H I L CNN "Description"
+F11 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_ATX-24
 #
 DEF Connector_ATX-24 J 0 20 Y Y 1 F N
@@ -155,34 +183,6 @@ $FPLIST
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
-# dk_LED-Indication-Discrete_LG_R971-KN-1
-#
-DEF dk_LED-Indication-Discrete_LG_R971-KN-1 D 0 0 Y Y 1 F N
-F0 "D" -200 150 60 H V C CNN
-F1 "dk_LED-Indication-Discrete_LG_R971-KN-1" -50 -150 60 H V C CNN
-F2 "digikey-footprints:0805" 200 200 60 H I L CNN
-F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 300 60 H I L CNN
-F4 "475-1410-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "LG R971-KN-1" 200 500 60 H I L CNN "MPN"
-F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
-F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
-F8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "LED GREEN DIFFUSED 0805 SMD" 200 1000 60 H I L CNN "Description"
-F11 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-P 2 0 1 0 -25 150 -75 100 N
-P 2 0 1 0 0 50 0 -50 N
-P 2 0 1 0 25 125 -25 75 N
-P 3 0 1 0 -50 150 -25 150 -25 125 N
-P 3 0 1 0 0 125 25 125 25 100 N
-P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
