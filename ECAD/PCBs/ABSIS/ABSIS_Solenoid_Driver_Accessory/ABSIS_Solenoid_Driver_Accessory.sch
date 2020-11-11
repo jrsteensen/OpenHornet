@@ -1,0 +1,887 @@
+EESchema Schematic File Version 4
+LIBS:ABSIS_Nano-cache
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "ABSIS Solenoid Driver Accessory"
+Date "2020-11-11"
+Rev "1"
+Comp "WWW.OPENHORNET.COM"
+Comment1 "CC BY-SA-NC"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 500  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 550  800  0    50   ~ 0
+1)
+Wire Notes Line
+	3950 1550 5500 1550
+Wire Notes Line
+	3950 2100 3950 1400
+Wire Notes Line
+	5500 2100 3950 2100
+Wire Notes Line
+	5500 1400 5500 2100
+Wire Notes Line
+	3950 1400 5500 1400
+Text Notes 4500 1500 0    50   ~ 0
+CONNECTORS
+Wire Notes Line
+	6200 1650 6200 2100
+Wire Notes Line
+	5550 1650 5550 2100
+Wire Notes Line
+	6200 2100 5550 2100
+Wire Notes Line
+	5550 1800 6200 1800
+Wire Notes Line
+	6200 1650 5550 1650
+Wire Notes Line
+	6700 4000 6700 3850
+Wire Notes Line
+	6150 4000 6700 4000
+Text Notes 6200 3950 0    50   ~ 0
+CHANNEL #6
+Wire Notes Line
+	6150 5500 6150 3850
+Wire Notes Line
+	7200 5500 6150 5500
+Wire Notes Line
+	7200 3850 7200 5500
+Wire Notes Line
+	6150 3850 7200 3850
+$Comp
+L power:VCC #PWR015
+U 1 1 5FAF3BD1
+P 6400 4700
+F 0 "#PWR015" H 6400 4550 50  0001 C CNN
+F 1 "VCC" H 6400 4850 50  0000 C CNN
+F 2 "" H 6400 4700 50  0001 C CNN
+F 3 "" H 6400 4700 50  0001 C CNN
+	1    6400 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 4900
+Wire Wire Line
+	6600 5050 6600 4900
+Connection ~ 6400 4900
+Wire Wire Line
+	6400 4700 6400 4900
+Connection ~ 7100 4600
+Wire Wire Line
+	7100 4700 7100 4600
+Wire Wire Line
+	6600 4600 6600 4900
+$Comp
+L power:GND #PWR016
+U 1 1 5FAF3BBA
+P 7100 4700
+F 0 "#PWR016" H 7100 4450 50  0001 C CNN
+F 1 "GND" H 7105 4527 50  0000 C CNN
+F 2 "" H 7100 4700 50  0001 C CNN
+F 3 "" H 7100 4700 50  0001 C CNN
+	1    7100 4700
+	1    0    0    -1  
+$EndComp
+Text Label 6800 4100 1    50   ~ 0
+DIN6
+Text Label 7100 4100 1    50   ~ 0
+DIN-
+Wire Wire Line
+	6400 5000 6400 4900
+Wire Wire Line
+	6500 5000 6400 5000
+Wire Wire Line
+	6500 5050 6500 5000
+Wire Wire Line
+	7100 4600 7000 4600
+Text Notes 6500 5450 1    50   ~ 0
+OUT+
+Text Notes 6600 5450 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D6
+U 1 1 5FAF3B9E
+P 6500 4900
+F 0 "D6" H 6500 5000 50  0000 C CNN
+F 1 "1N4001W" V 6650 4700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 6500 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 6500 4900 50  0001 C CNN
+F 4 "C162732" H 6500 4900 50  0001 C CNN "LCSC"
+	1    6500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J8
+U 1 1 5FAF3B93
+P 6500 5250
+F 0 "J8" V 6600 5450 50  0000 R CNN
+F 1 "OUT6" V 6500 5550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 5250 50  0001 C CNN
+F 3 "VARIOUS" H 6500 5250 50  0001 C CNN
+F 4 "VARIOUS" V 6500 5250 50  0001 C CNN "PN"
+	1    6500 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q6
+U 1 1 5FAF3B88
+P 6800 4500
+F 0 "Q6" V 6600 4650 50  0000 C CNN
+F 1 "IRFB3206PBF" V 6700 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 6800 4500 50  0001 C CNN
+F 4 "IRFB3206PBF" V 6800 4500 50  0001 C CNN "PN"
+F 5 "C2642" V 6800 4500 50  0001 C CNN "LCSC"
+	1    6800 4500
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	5600 4000 5600 3850
+Wire Notes Line
+	5050 4000 5600 4000
+Text Notes 5100 3950 0    50   ~ 0
+CHANNEL #5
+Wire Notes Line
+	5050 5500 5050 3850
+Wire Notes Line
+	6100 5500 5050 5500
+Wire Notes Line
+	6100 3850 6100 5500
+Wire Notes Line
+	5050 3850 6100 3850
+$Comp
+L power:VCC #PWR013
+U 1 1 5FAF3B75
+P 5300 4700
+F 0 "#PWR013" H 5300 4550 50  0001 C CNN
+F 1 "VCC" H 5300 4850 50  0000 C CNN
+F 2 "" H 5300 4700 50  0001 C CNN
+F 3 "" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 4900
+Wire Wire Line
+	5500 5050 5500 4900
+Connection ~ 5300 4900
+Wire Wire Line
+	5300 4700 5300 4900
+Connection ~ 6000 4600
+Wire Wire Line
+	6000 4700 6000 4600
+Wire Wire Line
+	5500 4600 5500 4900
+$Comp
+L power:GND #PWR014
+U 1 1 5FAF3B5E
+P 6000 4700
+F 0 "#PWR014" H 6000 4450 50  0001 C CNN
+F 1 "GND" H 6005 4527 50  0000 C CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	1    0    0    -1  
+$EndComp
+Text Label 5700 4100 1    50   ~ 0
+DIN5
+Text Label 6000 4100 1    50   ~ 0
+DIN-
+Wire Wire Line
+	5300 5000 5300 4900
+Wire Wire Line
+	5400 5000 5300 5000
+Wire Wire Line
+	5400 5050 5400 5000
+Wire Wire Line
+	6000 4600 5900 4600
+Text Notes 5400 5450 1    50   ~ 0
+OUT+
+Text Notes 5500 5450 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D5
+U 1 1 5FAF3B42
+P 5400 4900
+F 0 "D5" H 5400 5000 50  0000 C CNN
+F 1 "1N4001W" V 5550 4700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5400 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 5400 4900 50  0001 C CNN
+F 4 "C162732" H 5400 4900 50  0001 C CNN "LCSC"
+	1    5400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5FAF3B37
+P 5400 5250
+F 0 "J7" V 5500 5450 50  0000 R CNN
+F 1 "OUT5" V 5400 5550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 5250 50  0001 C CNN
+F 3 "VARIOUS" H 5400 5250 50  0001 C CNN
+F 4 "VARIOUS" V 5400 5250 50  0001 C CNN "PN"
+	1    5400 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q5
+U 1 1 5FAF3B2C
+P 5700 4500
+F 0 "Q5" V 5500 4650 50  0000 C CNN
+F 1 "IRFB3206PBF" V 5600 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5900 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 5700 4500 50  0001 C CNN
+F 4 "IRFB3206PBF" V 5700 4500 50  0001 C CNN "PN"
+F 5 "C2642" V 5700 4500 50  0001 C CNN "LCSC"
+	1    5700 4500
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	4500 4000 4500 3850
+Wire Notes Line
+	3950 4000 4500 4000
+Text Notes 4000 3950 0    50   ~ 0
+CHANNEL #4
+Wire Notes Line
+	3950 5500 3950 3850
+Wire Notes Line
+	5000 5500 3950 5500
+Wire Notes Line
+	5000 3850 5000 5500
+Wire Notes Line
+	3950 3850 5000 3850
+$Comp
+L power:VCC #PWR011
+U 1 1 5FAF3B19
+P 4200 4700
+F 0 "#PWR011" H 4200 4550 50  0001 C CNN
+F 1 "VCC" H 4200 4850 50  0000 C CNN
+F 2 "" H 4200 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 4900
+Wire Wire Line
+	4400 5050 4400 4900
+Connection ~ 4200 4900
+Wire Wire Line
+	4200 4700 4200 4900
+Connection ~ 4900 4600
+Wire Wire Line
+	4900 4700 4900 4600
+Wire Wire Line
+	4400 4600 4400 4900
+$Comp
+L power:GND #PWR012
+U 1 1 5FAF3B02
+P 4900 4700
+F 0 "#PWR012" H 4900 4450 50  0001 C CNN
+F 1 "GND" H 4905 4527 50  0000 C CNN
+F 2 "" H 4900 4700 50  0001 C CNN
+F 3 "" H 4900 4700 50  0001 C CNN
+	1    4900 4700
+	1    0    0    -1  
+$EndComp
+Text Label 4600 4100 1    50   ~ 0
+DIN4
+Text Label 4900 4100 1    50   ~ 0
+DIN-
+Wire Wire Line
+	4200 5000 4200 4900
+Wire Wire Line
+	4300 5000 4200 5000
+Wire Wire Line
+	4300 5050 4300 5000
+Wire Wire Line
+	4900 4600 4800 4600
+Text Notes 4300 5450 1    50   ~ 0
+OUT+
+Text Notes 4400 5450 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D4
+U 1 1 5FAF3AE6
+P 4300 4900
+F 0 "D4" H 4300 5000 50  0000 C CNN
+F 1 "1N4001W" V 4450 4700 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 4300 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 4300 4900 50  0001 C CNN
+F 4 "C162732" H 4300 4900 50  0001 C CNN "LCSC"
+	1    4300 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5FAF3ADB
+P 4300 5250
+F 0 "J6" V 4400 5450 50  0000 R CNN
+F 1 "OUT4" V 4300 5550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 5250 50  0001 C CNN
+F 3 "VARIOUS" H 4300 5250 50  0001 C CNN
+F 4 "VARIOUS" V 4300 5250 50  0001 C CNN "PN"
+	1    4300 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 5FAF3AD0
+P 4600 4500
+F 0 "Q4" V 4400 4650 50  0000 C CNN
+F 1 "IRFB3206PBF" V 4500 4850 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 4600 4500 50  0001 C CNN
+F 4 "IRFB3206PBF" V 4600 4500 50  0001 C CNN "PN"
+F 5 "C2642" V 4600 4500 50  0001 C CNN "LCSC"
+	1    4600 4500
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	6700 2300 6700 2150
+Wire Notes Line
+	6150 2300 6700 2300
+Text Notes 6200 2250 0    50   ~ 0
+CHANNEL #3
+Wire Notes Line
+	6150 3800 6150 2150
+Wire Notes Line
+	7200 3800 6150 3800
+Wire Notes Line
+	7200 2150 7200 3800
+Wire Notes Line
+	6150 2150 7200 2150
+$Comp
+L power:VCC #PWR09
+U 1 1 5FAF0CDD
+P 6400 3000
+F 0 "#PWR09" H 6400 2850 50  0001 C CNN
+F 1 "VCC" H 6400 3150 50  0000 C CNN
+F 2 "" H 6400 3000 50  0001 C CNN
+F 3 "" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 3350 6600 3200
+Connection ~ 6400 3200
+Wire Wire Line
+	6400 3000 6400 3200
+Connection ~ 7100 2900
+Wire Wire Line
+	7100 3000 7100 2900
+Wire Wire Line
+	6600 2900 6600 3200
+$Comp
+L power:GND #PWR010
+U 1 1 5FAF0CC6
+P 7100 3000
+F 0 "#PWR010" H 7100 2750 50  0001 C CNN
+F 1 "GND" H 7105 2827 50  0000 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+Text Label 6800 2400 1    50   ~ 0
+DIN3
+Text Label 7100 2400 1    50   ~ 0
+DIN-
+Wire Wire Line
+	6400 3300 6400 3200
+Wire Wire Line
+	6500 3300 6400 3300
+Wire Wire Line
+	6500 3350 6500 3300
+Wire Wire Line
+	7100 2900 7000 2900
+Text Notes 6500 3750 1    50   ~ 0
+OUT+
+Text Notes 6600 3750 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D3
+U 1 1 5FAF0CAA
+P 6500 3200
+F 0 "D3" H 6500 3300 50  0000 C CNN
+F 1 "1N4001W" V 6650 3000 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 6500 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 6500 3200 50  0001 C CNN
+F 4 "C162732" H 6500 3200 50  0001 C CNN "LCSC"
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5FAF0C9F
+P 6500 3550
+F 0 "J5" V 6600 3750 50  0000 R CNN
+F 1 "OUT3" V 6500 3850 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 3550 50  0001 C CNN
+F 3 "VARIOUS" H 6500 3550 50  0001 C CNN
+F 4 "VARIOUS" V 6500 3550 50  0001 C CNN "PN"
+	1    6500 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 5FAF0C94
+P 6800 2800
+F 0 "Q3" V 6600 2950 50  0000 C CNN
+F 1 "IRFB3206PBF" V 6700 3150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 7000 2900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 6800 2800 50  0001 C CNN
+F 4 "IRFB3206PBF" V 6800 2800 50  0001 C CNN "PN"
+F 5 "C2642" V 6800 2800 50  0001 C CNN "LCSC"
+	1    6800 2800
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	5600 2300 5600 2150
+Wire Notes Line
+	5050 2300 5600 2300
+Text Notes 5100 2250 0    50   ~ 0
+CHANNEL #2
+Wire Notes Line
+	5050 3800 5050 2150
+Wire Notes Line
+	6100 3800 5050 3800
+Wire Notes Line
+	6100 2150 6100 3800
+Wire Notes Line
+	5050 2150 6100 2150
+$Comp
+L power:VCC #PWR07
+U 1 1 5FAED639
+P 5300 3000
+F 0 "#PWR07" H 5300 2850 50  0001 C CNN
+F 1 "VCC" H 5300 3150 50  0000 C CNN
+F 2 "" H 5300 3000 50  0001 C CNN
+F 3 "" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3200
+Wire Wire Line
+	5500 3350 5500 3200
+Connection ~ 5300 3200
+Wire Wire Line
+	5300 3000 5300 3200
+Connection ~ 6000 2900
+Wire Wire Line
+	6000 3000 6000 2900
+Wire Wire Line
+	5500 2900 5500 3200
+$Comp
+L power:GND #PWR08
+U 1 1 5FAED622
+P 6000 3000
+F 0 "#PWR08" H 6000 2750 50  0001 C CNN
+F 1 "GND" H 6005 2827 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Text Label 5700 2400 1    50   ~ 0
+DIN2
+Text Label 6000 2400 1    50   ~ 0
+DIN-
+Wire Wire Line
+	5300 3300 5300 3200
+Wire Wire Line
+	5400 3300 5300 3300
+Wire Wire Line
+	5400 3350 5400 3300
+Wire Wire Line
+	6000 2900 5900 2900
+Text Notes 5400 3750 1    50   ~ 0
+OUT+
+Text Notes 5500 3750 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D2
+U 1 1 5FAED606
+P 5400 3200
+F 0 "D2" H 5400 3300 50  0000 C CNN
+F 1 "1N4001W" V 5550 3000 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 5400 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 5400 3200 50  0001 C CNN
+F 4 "C162732" H 5400 3200 50  0001 C CNN "LCSC"
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5FAED5FB
+P 5400 3550
+F 0 "J4" V 5500 3750 50  0000 R CNN
+F 1 "OUT2" V 5400 3850 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 3550 50  0001 C CNN
+F 3 "VARIOUS" H 5400 3550 50  0001 C CNN
+F 4 "VARIOUS" V 5400 3550 50  0001 C CNN "PN"
+	1    5400 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5FAED5F0
+P 5700 2800
+F 0 "Q2" V 5500 2950 50  0000 C CNN
+F 1 "IRFB3206PBF" V 5600 3150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5900 2900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 5700 2800 50  0001 C CNN
+F 4 "IRFB3206PBF" V 5700 2800 50  0001 C CNN "PN"
+F 5 "C2642" V 5700 2800 50  0001 C CNN "LCSC"
+	1    5700 2800
+	0    -1   1    0   
+$EndComp
+Wire Notes Line
+	4500 2300 4500 2150
+Wire Notes Line
+	3950 2300 4500 2300
+Text Notes 4000 2250 0    50   ~ 0
+CHANNEL #1
+Wire Notes Line
+	3950 3800 3950 2150
+Wire Notes Line
+	5000 3800 3950 3800
+Wire Notes Line
+	5000 2150 5000 3800
+Wire Notes Line
+	3950 2150 5000 2150
+$Comp
+L power:VCC #PWR05
+U 1 1 5FADB25A
+P 4200 3000
+F 0 "#PWR05" H 4200 2850 50  0001 C CNN
+F 1 "VCC" H 4200 3150 50  0000 C CNN
+F 2 "" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5FAD6946
+P 4050 1600
+F 0 "J1" V 4112 1412 50  0000 R CNN
+F 1 "PWR" V 4203 1412 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4050 1600 50  0001 C CNN
+F 3 "VARIOUS" H 4050 1600 50  0001 C CNN
+F 4 "VARIOUS" V 4050 1600 50  0001 C CNN "PN"
+	1    4050 1600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4900 2400 4900 2550
+Connection ~ 4900 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2400 4600 2550
+Wire Wire Line
+	4600 2550 4600 2600
+Wire Wire Line
+	4900 2550 4900 2900
+Connection ~ 4400 3200
+Wire Wire Line
+	4400 3350 4400 3200
+Connection ~ 4200 3200
+Wire Wire Line
+	4200 3000 4200 3200
+Connection ~ 4900 2900
+Wire Wire Line
+	4900 3000 4900 2900
+Wire Wire Line
+	4400 2900 4400 3200
+$Comp
+L power:VCC #PWR03
+U 1 1 5FADCBBF
+P 5800 1900
+F 0 "#PWR03" H 5800 1750 50  0001 C CNN
+F 1 "VCC" V 5800 2000 31  0000 L CNN
+F 2 "" H 5800 1900 50  0001 C CNN
+F 3 "" H 5800 1900 50  0001 C CNN
+	1    5800 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5FADBD66
+P 4050 1800
+F 0 "#PWR01" H 4050 1650 50  0001 C CNN
+F 1 "VCC" V 4050 2000 50  0000 C CNN
+F 2 "" H 4050 1800 50  0001 C CNN
+F 3 "" H 4050 1800 50  0001 C CNN
+	1    4050 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5FADB782
+P 4150 1800
+F 0 "#PWR02" H 4150 1550 50  0001 C CNN
+F 1 "GND" V 4150 1600 50  0000 C CNN
+F 2 "" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FADB54D
+P 4900 3000
+F 0 "#PWR06" H 4900 2750 50  0001 C CNN
+F 1 "GND" H 4905 2827 50  0000 C CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Text Label 4600 2400 1    50   ~ 0
+DIN1
+Text Label 4900 2400 1    50   ~ 0
+DIN-
+Text Label 5200 1800 3    50   ~ 0
+DIN-
+Text Label 5100 1800 3    50   ~ 0
+DIN6
+Text Label 5000 1800 3    50   ~ 0
+DIN5
+Text Label 4900 1800 3    50   ~ 0
+DIN4
+Text Label 4800 1800 3    50   ~ 0
+DIN3
+Text Label 4700 1800 3    50   ~ 0
+DIN2
+Text Label 4600 1800 3    50   ~ 0
+DIN1
+$Comp
+L Connector:Conn_01x07_Male J2
+U 1 1 5FAD74C2
+P 4900 1600
+F 0 "J2" V 4950 1200 50  0000 C CNN
+F 1 "INPUT" V 5050 1150 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4900 1600 50  0001 C CNN
+F 3 "VARIOUS" H 4900 1600 50  0001 C CNN
+F 4 "VARIOUS" V 4900 1600 50  0001 C CNN "PN"
+	1    4900 1600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4200 3300 4200 3200
+Wire Wire Line
+	4300 3300 4200 3300
+Wire Wire Line
+	4300 3350 4300 3300
+Wire Wire Line
+	4900 2900 4800 2900
+$Comp
+L Device:R R1
+U 1 1 5FAC8352
+P 4750 2550
+F 0 "R1" V 4650 2550 50  0000 C CNN
+F 1 "10K" V 4750 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4680 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 4750 2550 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 4750 2550 50  0001 C CNN "PN"
+F 5 " C17902" V 4750 2550 50  0001 C CNN "LCSC"
+	1    4750 2550
+	0    1    -1   0   
+$EndComp
+Text Notes 4300 3750 1    50   ~ 0
+OUT+
+Text Notes 4400 3750 1    50   ~ 0
+OUT-
+$Comp
+L Device:D_Small D1
+U 1 1 5FACA148
+P 4300 3200
+F 0 "D1" H 4300 3300 50  0000 C CNN
+F 1 "1N4001W" V 4450 3000 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 4300 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Shandong-Jingdao-Microelectronics-1N4001W_C162732.pdf" V 4300 3200 50  0001 C CNN
+F 4 "C162732" H 4300 3200 50  0001 C CNN "LCSC"
+	1    4300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5FAC6E0C
+P 4300 3550
+F 0 "J3" V 4400 3750 50  0000 R CNN
+F 1 "OUT1" V 4300 3850 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 3550 50  0001 C CNN
+F 3 "VARIOUS" H 4300 3550 50  0001 C CNN
+F 4 "VARIOUS" V 4300 3550 50  0001 C CNN "PN"
+	1    4300 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5FAC4BF6
+P 4600 2800
+F 0 "Q1" V 4400 2950 50  0000 C CNN
+F 1 "IRFB3206PBF" V 4500 3150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4800 2900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf" H 4600 2800 50  0001 C CNN
+F 4 "IRFB3206PBF" V 4600 2800 50  0001 C CNN "PN"
+F 5 "C2642" V 4600 2800 50  0001 C CNN "LCSC"
+	1    4600 2800
+	0    -1   1    0   
+$EndComp
+Text Notes 5650 1750 0    50   ~ 0
+PWR FLAGS
+$Comp
+L power:GND #PWR04
+U 1 1 5FA1115F
+P 5800 2000
+F 0 "#PWR04" H 5800 1750 50  0001 C CNN
+F 1 "GND" V 5800 1850 31  0000 C CNN
+F 2 "" H 5800 2000 50  0000 C CNN
+F 3 "" H 5800 2000 50  0000 C CNN
+	1    5800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FA0B598
+P 5800 2000
+F 0 "#FLG02" H 5800 2075 50  0001 C CNN
+F 1 "PWR_FLAG" V 5800 2250 31  0000 C CNN
+F 2 "" H 5800 2000 50  0001 C CNN
+F 3 "~" H 5800 2000 50  0001 C CNN
+	1    5800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FA0AC95
+P 5800 1900
+F 0 "#FLG01" H 5800 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 5800 2028 31  0000 L CNN
+F 2 "" H 5800 1900 50  0001 C CNN
+F 3 "~" H 5800 1900 50  0001 C CNN
+	1    5800 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 2400 6000 2550
+Wire Wire Line
+	5700 2400 5700 2550
+$Comp
+L Device:R R2
+U 1 1 5FB3A08D
+P 5850 2550
+F 0 "R2" V 5750 2550 50  0000 C CNN
+F 1 "10K" V 5850 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 5850 2550 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 5850 2550 50  0001 C CNN "PN"
+F 5 " C17902" V 5850 2550 50  0001 C CNN "LCSC"
+	1    5850 2550
+	0    1    -1   0   
+$EndComp
+Connection ~ 6000 2550
+Wire Wire Line
+	6000 2550 6000 2900
+Connection ~ 5700 2550
+Wire Wire Line
+	5700 2550 5700 2600
+Wire Wire Line
+	7100 2400 7100 2550
+Wire Wire Line
+	6800 2400 6800 2550
+$Comp
+L Device:R R3
+U 1 1 5FB3F5D2
+P 6950 2550
+F 0 "R3" V 6850 2550 50  0000 C CNN
+F 1 "10K" V 6950 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6880 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 6950 2550 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 6950 2550 50  0001 C CNN "PN"
+F 5 " C17902" V 6950 2550 50  0001 C CNN "LCSC"
+	1    6950 2550
+	0    1    -1   0   
+$EndComp
+Connection ~ 7100 2550
+Wire Wire Line
+	7100 2550 7100 2900
+Connection ~ 6800 2550
+Wire Wire Line
+	6800 2550 6800 2600
+Wire Wire Line
+	4900 4100 4900 4250
+Wire Wire Line
+	4600 4100 4600 4250
+Wire Wire Line
+	6000 4100 6000 4250
+Wire Wire Line
+	5700 4100 5700 4250
+Wire Wire Line
+	7100 4100 7100 4250
+Wire Wire Line
+	6800 4100 6800 4250
+$Comp
+L Device:R R6
+U 1 1 5FB490B2
+P 6950 4250
+F 0 "R6" V 6850 4250 50  0000 C CNN
+F 1 "10K" V 6950 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6880 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 6950 4250 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 6950 4250 50  0001 C CNN "PN"
+F 5 " C17902" V 6950 4250 50  0001 C CNN "LCSC"
+	1    6950 4250
+	0    1    -1   0   
+$EndComp
+Connection ~ 7100 4250
+Wire Wire Line
+	7100 4250 7100 4600
+Connection ~ 6800 4250
+Wire Wire Line
+	6800 4250 6800 4300
+$Comp
+L Device:R R5
+U 1 1 5FB4A360
+P 5850 4250
+F 0 "R5" V 5750 4250 50  0000 C CNN
+F 1 "10K" V 5850 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 5850 4250 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 5850 4250 50  0001 C CNN "PN"
+F 5 " C17902" V 5850 4250 50  0001 C CNN "LCSC"
+	1    5850 4250
+	0    1    -1   0   
+$EndComp
+Connection ~ 6000 4250
+Wire Wire Line
+	6000 4250 6000 4600
+Connection ~ 5700 4250
+Wire Wire Line
+	5700 4250 5700 4300
+$Comp
+L Device:R R4
+U 1 1 5FB4A8A8
+P 4750 4250
+F 0 "R4" V 4650 4250 50  0000 C CNN
+F 1 "10K" V 4750 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4680 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" H 4750 4250 50  0001 C CNN
+F 4 "1206W4F1002T5E" V 4750 4250 50  0001 C CNN "PN"
+F 5 " C17902" V 4750 4250 50  0001 C CNN "LCSC"
+	1    4750 4250
+	0    1    -1   0   
+$EndComp
+Connection ~ 4900 4250
+Wire Wire Line
+	4900 4250 4900 4600
+Connection ~ 4600 4250
+Wire Wire Line
+	4600 4250 4600 4300
+$EndSCHEMATC
