@@ -512,30 +512,28 @@ U 1 1 5FA8D2DC
 P 9200 1200
 F 0 "R1" V 9100 1200 50  0000 C CNN
 F 1 "150" V 9200 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1200 50  0001 C CNN
-F 3 "~" H 9200 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9130 1200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf" H 9200 1200 50  0001 C CNN
+F 4 "C22808" V 9200 1200 50  0001 C CNN "LCSC"
 	1    9200 1200
 	0    1    1    0   
 $EndComp
 $Comp
-L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D1
+L Device:LED D1
 U 1 1 5FA9079C
-P 9700 1200
-F 0 "D1" H 9550 1250 39  0000 C CNN
-F 1 "Green LED" H 9650 1100 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 1400 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 1500 60  0001 L CNN
-F 4 "475-1410-1-ND" H 9900 1600 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 9900 1700 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 9900 1800 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 9900 1900 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2100 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2200 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 9900 2300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9900 2400 60  0001 L CNN "Status"
-	1    9700 1200
-	1    0    0    -1  
+P 9650 1200
+F 0 "D1" H 9500 1250 39  0000 C CNN
+F 1 "Green LED" H 9750 1100 39  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 1400 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 1500 60  0001 L CNN
+F 4 "Optoelectronics" H 9850 1800 60  0001 L CNN "Category"
+F 5 "LED Indication - Discrete" H 9850 1900 60  0001 L CNN "Family"
+F 6 "LED GREEN DIFFUSED" H 9850 2200 60  0001 L CNN "Description"
+F 7 "Active" H 9850 2400 60  0001 L CNN "Status"
+F 8 "C84267" H 9650 1200 50  0001 C CNN "LCSC"
+F 9 "FC-DA1608UGK-520D10" H 9650 1200 50  0001 C CNN "Manufacture PN"
+	1    9650 1200
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0121
@@ -553,37 +551,18 @@ Wire Wire Line
 Wire Wire Line
 	9350 1200 9500 1200
 Wire Wire Line
-	9800 1200 9950 1200
+	9800 1200 9850 1200
 $Comp
 L Device:R R2
 U 1 1 5FA960E1
 P 9200 1500
 F 0 "R2" V 9100 1500 50  0000 C CNN
 F 1 "150" V 9200 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1500 50  0001 C CNN
-F 3 "~" H 9200 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9130 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf" H 9200 1500 50  0001 C CNN
+F 4 "C22808" V 9200 1500 50  0001 C CNN "LCSC"
 	1    9200 1500
 	0    1    1    0   
-$EndComp
-$Comp
-L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D2
-U 1 1 5FA960F0
-P 9700 1500
-F 0 "D2" H 9550 1550 39  0000 C CNN
-F 1 "Green LED" H 9650 1400 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 1700 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 1800 60  0001 L CNN
-F 4 "475-1410-1-ND" H 9900 1900 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 9900 2000 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 9900 2100 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 9900 2200 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2400 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2500 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 9900 2600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9900 2700 60  0001 L CNN "Status"
-	1    9700 1500
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0122
@@ -608,30 +587,11 @@ U 1 1 5FA9EB04
 P 9200 1800
 F 0 "R3" V 9100 1800 50  0000 C CNN
 F 1 "56" V 9200 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 1800 50  0001 C CNN
-F 3 "~" H 9200 1800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9130 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF560JT5E_C25196.pdf" H 9200 1800 50  0001 C CNN
+F 4 "C25196" V 9200 1800 50  0001 C CNN "LCSC"
 	1    9200 1800
 	0    1    1    0   
-$EndComp
-$Comp
-L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D3
-U 1 1 5FA9EB13
-P 9700 1800
-F 0 "D3" H 9550 1850 39  0000 C CNN
-F 1 "Green LED" H 9650 1700 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 2000 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2100 60  0001 L CNN
-F 4 "475-1410-1-ND" H 9900 2200 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 9900 2300 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 9900 2400 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 9900 2500 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 2700 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 2800 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 9900 2900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9900 3000 60  0001 L CNN "Status"
-	1    9700 1800
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
@@ -656,30 +616,11 @@ U 1 1 5FA9FEAC
 P 9200 2100
 F 0 "R4" V 9100 2100 50  0000 C CNN
 F 1 "560" V 9200 2100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9130 2100 50  0001 C CNN
-F 3 "~" H 9200 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9130 2100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811021213_UNI-ROYAL-Uniroyal-Elec-0603WAF5600T5E_C23204.pdf" H 9200 2100 50  0001 C CNN
+F 4 "C23204" V 9200 2100 50  0001 C CNN "LCSC"
 	1    9200 2100
 	0    1    1    0   
-$EndComp
-$Comp
-L ATX_PSU_Board-rescue:LG_R971-KN-1-dk_LED-Indication-Discrete D4
-U 1 1 5FA9FEBB
-P 9700 2100
-F 0 "D4" H 9550 2150 39  0000 C CNN
-F 1 "Green LED" H 9650 2000 39  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9900 2300 60  0001 L CNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2400 60  0001 L CNN
-F 4 "475-1410-1-ND" H 9900 2500 60  0001 L CNN "Digi-Key_PN"
-F 5 "LG R971-KN-1" H 9900 2600 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 9900 2700 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 9900 2800 60  0001 L CNN "Family"
-F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 9900 2900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 9900 3000 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED GREEN DIFFUSED 0805 SMD" H 9900 3100 60  0001 L CNN "Description"
-F 11 "OSRAM Opto Semiconductors Inc." H 9900 3200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9900 3300 60  0001 L CNN "Status"
-	1    9700 2100
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0124
@@ -857,4 +798,58 @@ Wire Notes Line
 	1500 4900 1500 850 
 Text Notes 1550 1000 0    50   ~ 0
 Power Connectors
+Connection ~ 9850 1200
+Wire Wire Line
+	9850 1200 9950 1200
+$Comp
+L Device:LED D2
+U 1 1 5FAD0C26
+P 9650 1500
+F 0 "D2" H 9500 1550 39  0000 C CNN
+F 1 "Green LED" H 9750 1400 39  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 1700 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 1800 60  0001 L CNN
+F 4 "Optoelectronics" H 9850 2100 60  0001 L CNN "Category"
+F 5 "LED Indication - Discrete" H 9850 2200 60  0001 L CNN "Family"
+F 6 "LED GREEN DIFFUSED" H 9850 2500 60  0001 L CNN "Description"
+F 7 "Active" H 9850 2700 60  0001 L CNN "Status"
+F 8 "C84267" H 9650 1500 50  0001 C CNN "LCSC"
+F 9 "FC-DA1608UGK-520D10" H 9650 1500 50  0001 C CNN "Manufacture PN"
+	1    9650 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5FAD136C
+P 9650 1800
+F 0 "D3" H 9500 1850 39  0000 C CNN
+F 1 "Green LED" H 9750 1700 39  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 2000 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 2100 60  0001 L CNN
+F 4 "Optoelectronics" H 9850 2400 60  0001 L CNN "Category"
+F 5 "LED Indication - Discrete" H 9850 2500 60  0001 L CNN "Family"
+F 6 "LED GREEN DIFFUSED" H 9850 2800 60  0001 L CNN "Description"
+F 7 "Active" H 9850 3000 60  0001 L CNN "Status"
+F 8 "C84267" H 9650 1800 50  0001 C CNN "LCSC"
+F 9 "FC-DA1608UGK-520D10" H 9650 1800 50  0001 C CNN "Manufacture PN"
+	1    9650 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5FAD1A79
+P 9650 2100
+F 0 "D4" H 9500 2150 39  0000 C CNN
+F 1 "Green LED" H 9750 2000 39  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 2300 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 2400 60  0001 L CNN
+F 4 "Optoelectronics" H 9850 2700 60  0001 L CNN "Category"
+F 5 "LED Indication - Discrete" H 9850 2800 60  0001 L CNN "Family"
+F 6 "LED GREEN DIFFUSED" H 9850 3100 60  0001 L CNN "Description"
+F 7 "Active" H 9850 3300 60  0001 L CNN "Status"
+F 8 "C84267" H 9650 2100 50  0001 C CNN "LCSC"
+F 9 "FC-DA1608UGK-520D10" H 9650 2100 50  0001 C CNN "Manufacture PN"
+	1    9650 2100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
