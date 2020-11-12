@@ -1,4 +1,4 @@
-update=2020-11-11 10:53:32 AM
+update=2020-11-11 5:54:54 PM
 version=1
 last_client=kicad
 [general]
@@ -247,7 +247,7 @@ PageLayoutDescrFile=../../../../lib/templates/Open_hornet_frame.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=39
 ERC_TestSimilarLabels=1

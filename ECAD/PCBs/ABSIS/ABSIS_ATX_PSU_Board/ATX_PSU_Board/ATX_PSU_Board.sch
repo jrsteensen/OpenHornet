@@ -550,8 +550,6 @@ Wire Wire Line
 	8900 1200 9050 1200
 Wire Wire Line
 	9350 1200 9500 1200
-Wire Wire Line
-	9800 1200 9850 1200
 $Comp
 L Device:R R2
 U 1 1 5FA960E1
@@ -798,9 +796,6 @@ Wire Notes Line
 	1500 4900 1500 850 
 Text Notes 1550 1000 0    50   ~ 0
 Power Connectors
-Connection ~ 9850 1200
-Wire Wire Line
-	9850 1200 9950 1200
 $Comp
 L Device:LED D2
 U 1 1 5FAD0C26
@@ -843,13 +838,12 @@ F 0 "D4" H 9500 2150 39  0000 C CNN
 F 1 "Green LED" H 9750 2000 39  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 2300 60  0001 L CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 2400 60  0001 L CNN
-F 4 "Optoelectronics" H 9850 2700 60  0001 L CNN "Category"
-F 5 "LED Indication - Discrete" H 9850 2800 60  0001 L CNN "Family"
-F 6 "LED GREEN DIFFUSED" H 9850 3100 60  0001 L CNN "Description"
-F 7 "Active" H 9850 3300 60  0001 L CNN "Status"
-F 8 "C84267" H 9650 2100 50  0001 C CNN "LCSC"
-F 9 "FC-DA1608UGK-520D10" H 9650 2100 50  0001 C CNN "Manufacture PN"
+F 4 "LED GREEN DIFFUSED" H 9850 3100 60  0001 L CNN "Description"
+F 5 "Active" H 9850 3300 60  0001 L CNN "Status"
+F 6 "C84267" H 9650 2100 50  0001 C CNN "LCSC"
 	1    9650 2100
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	9800 1200 9950 1200
 $EndSCHEMATC
