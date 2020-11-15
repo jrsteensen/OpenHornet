@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ATX_PSU_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -640,7 +641,7 @@ Wire Wire Line
 NoConn ~ 3000 1400
 NoConn ~ 3000 2200
 $Comp
-L Connector:ATX-24 J2
+L ATX_PSU_Board-rescue:ATX-24-Connector J2
 U 1 1 5FA8791F
 P 2500 1800
 F 0 "J2" H 2500 2467 50  0000 C CNN
