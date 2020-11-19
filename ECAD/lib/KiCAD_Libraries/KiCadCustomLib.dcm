@@ -16,6 +16,10 @@ K LCD STN Graphics 128x64
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
+$CMP AW9656QNR
+F https://pdf1.alldatasheet.net/datasheet-pdf/marking/1148544/AWINIC/AW9656QNR.html
+$ENDCMP
+#
 $CMP CA56-12CGKWA
 D 4 digit 7 segment Green LED, common anode
 K 4 digit 7 segment Green LED, common anode
@@ -393,6 +397,10 @@ K LED Driver i2c
 F https://datasheets.maximintegrated.com/en/ds/MAX6955.pdf
 $ENDCMP
 #
+$CMP MAX7219EWG+T
+F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
@@ -420,6 +428,12 @@ $ENDCMP
 $CMP SW_Rotary6
 D rotary switch with 6 positions
 K rotary switch
+$ENDCMP
+#
+$CMP SW_TACT_LED
+D Push button switch with LED, generic
+K switch normally-open pushbutton push-button LED
+F ~
 $ENDCMP
 #
 $CMP WC1602A

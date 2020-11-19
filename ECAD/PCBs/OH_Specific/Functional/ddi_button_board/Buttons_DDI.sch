@@ -14,67 +14,44 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3400 2900 0    50   Input ~ 0
+Text GLabel -6700 2300 0    50   Input ~ 0
 SDA
-Text GLabel 3400 2800 0    50   Input ~ 0
+Text GLabel -6700 2200 0    50   Input ~ 0
 SCL
-Text GLabel 3400 3000 0    50   Input ~ 0
+Text GLabel -6700 2400 0    50   Input ~ 0
 IRQ
-$Comp
-L Switch:SW_MEC_5G SW1
-U 1 1 5BC6FAB4
-P 4400 2800
-F 0 "SW1" H 4400 3085 50  0000 C CNN
-F 1 "TSW" H 4400 2994 50  0000 C CNN
-F 2 "KiCAD Libraries:SMD-SW-4_5.1x5.1" H 4400 3000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-G-A_C318886.pdf" H 4400 3000 50  0001 C CNN
-F 4 "C318886" H 4400 2800 50  0001 C CNN "LCSC"
-	1    4400 2800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4200 3500
-$Comp
-L power:GND #PWR04
-U 1 1 5BC6FEDA
-P 6650 3300
-F 0 "#PWR04" H 6650 3050 50  0001 C CNN
-F 1 "GND" H 6655 3127 50  0000 C CNN
-F 2 "" H 6650 3300 50  0001 C CNN
-F 3 "" H 6650 3300 50  0001 C CNN
-	1    6650 3300
-	1    0    0    -1  
-$EndComp
+NoConn ~ -5900 2900
 $Comp
 L power:GND #PWR06
 U 1 1 5BC784F5
-P 3800 3700
-F 0 "#PWR06" H 3800 3450 50  0001 C CNN
-F 1 "GND" H 3805 3527 50  0000 C CNN
-F 2 "" H 3800 3700 50  0001 C CNN
-F 3 "" H 3800 3700 50  0001 C CNN
-	1    3800 3700
+P -6300 3100
+F 0 "#PWR06" H -6300 2850 50  0001 C CNN
+F 1 "GND" H -6295 2927 50  0000 C CNN
+F 2 "" H -6300 3100 50  0001 C CNN
+F 3 "" H -6300 3100 50  0001 C CNN
+	1    -6300 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR03
 U 1 1 5BC7855D
-P 3800 2600
-F 0 "#PWR03" H 3800 2450 50  0001 C CNN
-F 1 "+5V" H 3815 2773 50  0000 C CNN
-F 2 "" H 3800 2600 50  0001 C CNN
-F 3 "" H 3800 2600 50  0001 C CNN
-	1    3800 2600
+P -6300 2000
+F 0 "#PWR03" H -6300 1850 50  0001 C CNN
+F 1 "+5V" H -6285 2173 50  0000 C CNN
+F 2 "" H -6300 2000 50  0001 C CNN
+F 3 "" H -6300 2000 50  0001 C CNN
+	1    -6300 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5BC7FC79
-P 3100 3650
-F 0 "#PWR05" H 3100 3400 50  0001 C CNN
-F 1 "GND" H 3105 3477 50  0000 C CNN
-F 2 "" H 3100 3650 50  0001 C CNN
-F 3 "" H 3100 3650 50  0001 C CNN
-	1    3100 3650
+P -7000 3050
+F 0 "#PWR05" H -7000 2800 50  0001 C CNN
+F 1 "GND" H -6995 2877 50  0000 C CNN
+F 2 "" H -7000 3050 50  0001 C CNN
+F 3 "" H -7000 3050 50  0001 C CNN
+	1    -7000 3050
 	1    0    0    -1  
 $EndComp
 Text GLabel 3400 4600 0    50   Input ~ 0
@@ -231,19 +208,19 @@ F 3 "" H 6950 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 3300 3100 3300
+	-6700 2700 -7000 2700
 Wire Wire Line
-	3100 3300 3100 3400
+	-7000 2700 -7000 2800
 Wire Wire Line
-	3400 3400 3100 3400
-Connection ~ 3100 3400
+	-6700 2800 -7000 2800
+Connection ~ -7000 2800
 Wire Wire Line
-	3100 3400 3100 3500
+	-7000 2800 -7000 2900
 Wire Wire Line
-	3400 3500 3100 3500
-Connection ~ 3100 3500
+	-6700 2900 -7000 2900
+Connection ~ -7000 2900
 Wire Wire Line
-	3100 3500 3100 3650
+	-7000 2900 -7000 3050
 Wire Wire Line
 	7250 3300 6950 3300
 Wire Wire Line
@@ -372,8 +349,8 @@ F 3 "~" H 15950 8900 50  0001 C CNN
 	1    15950 8900
 	0    1    1    0   
 $EndComp
-NoConn ~ 4200 3400
-NoConn ~ 4200 3300
+NoConn ~ -5900 2800
+NoConn ~ -5900 2700
 NoConn ~ 4200 5100
 NoConn ~ 4200 5000
 NoConn ~ 8050 5000
@@ -392,86 +369,6 @@ F 4 "C25804" H 3800 1350 50  0001 C CNN "LCSC"
 	1    3800 1350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5FB3B86A
-P 4850 2900
-F 0 "SW2" H 4850 3185 50  0000 C CNN
-F 1 "TSW" H 4850 3094 50  0000 C CNN
-F 2 "KiCAD Libraries:SMD-SW-4_5.1x5.1" H 4850 3100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-G-A_C318886.pdf" H 4850 3100 50  0001 C CNN
-F 4 "C318886" H 4850 2900 50  0001 C CNN "LCSC"
-	1    4850 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW3
-U 1 1 5FB3BB81
-P 5350 3000
-F 0 "SW3" H 5350 3285 50  0000 C CNN
-F 1 "TSW" H 5350 3194 50  0000 C CNN
-F 2 "KiCAD Libraries:SMD-SW-4_5.1x5.1" H 5350 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-G-A_C318886.pdf" H 5350 3200 50  0001 C CNN
-F 4 "C318886" H 5350 3000 50  0001 C CNN "LCSC"
-	1    5350 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW4
-U 1 1 5FB3BEC0
-P 5850 3100
-F 0 "SW4" H 5850 3385 50  0000 C CNN
-F 1 "TSW" H 5850 3294 50  0000 C CNN
-F 2 "KiCAD Libraries:SMD-SW-4_5.1x5.1" H 5850 3300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-G-A_C318886.pdf" H 5850 3300 50  0001 C CNN
-F 4 "C318886" H 5850 3100 50  0001 C CNN "LCSC"
-	1    5850 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW5
-U 1 1 5FB3C3CB
-P 6350 3200
-F 0 "SW5" H 6350 3485 50  0000 C CNN
-F 1 "TSW" H 6350 3394 50  0000 C CNN
-F 2 "KiCAD Libraries:SMD-SW-4_5.1x5.1" H 6350 3400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/XKB-TS-1187A-C-G-A_C318886.pdf" H 6350 3400 50  0001 C CNN
-F 4 "C318886" H 6350 3200 50  0001 C CNN "LCSC"
-	1    6350 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 3300 5050 3300
-Wire Wire Line
-	6550 3200 6550 3300
-Connection ~ 6550 3300
-Wire Wire Line
-	6550 3300 6650 3300
-Wire Wire Line
-	6050 3100 6050 3300
-Connection ~ 6050 3300
-Wire Wire Line
-	6050 3300 6550 3300
-Wire Wire Line
-	5550 3000 5550 3300
-Connection ~ 5550 3300
-Wire Wire Line
-	5550 3300 6050 3300
-Wire Wire Line
-	5050 2900 5050 3300
-Connection ~ 5050 3300
-Wire Wire Line
-	5050 3300 5550 3300
-Wire Wire Line
-	4600 2800 4600 3300
-Wire Wire Line
-	4650 2900 4200 2900
-Wire Wire Line
-	5150 3000 4200 3000
-Wire Wire Line
-	4200 3100 5650 3100
-Wire Wire Line
-	4200 3200 6150 3200
 $Comp
 L Interface_Expansion:TCA9554PW U2
 U 1 1 5FB7E676
@@ -978,13 +875,13 @@ Wire Wire Line
 $Comp
 L Interface_Expansion:TCA9554PW U1
 U 1 1 5BC68220
-P 3800 3100
-F 0 "U1" H 3450 3750 50  0000 C CNN
-F 1 "TCA9554PWR" H 3450 3650 50  0000 C CNN
-F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4750 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H 3900 3000 50  0001 C CNN
-F 4 "C477924" H 3800 3100 50  0001 C CNN "LCSC"
-	1    3800 3100
+P -6300 2500
+F 0 "U1" H -6650 3150 50  0000 C CNN
+F 1 "TCA9554PWR" H -6650 3050 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H -5350 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H -6200 2400 50  0001 C CNN
+F 4 "C477924" H -6300 2500 50  0001 C CNN "LCSC"
+	1    -6300 2500
 	1    0    0    -1  
 $EndComp
 Text Notes 5000 1550 0    50   ~ 0
@@ -3544,4 +3441,151 @@ Connection ~ 9000 10750
 Connection ~ 9750 10750
 Text Label 15950 8700 2    50   ~ 0
 +5V_SUPPLY
+$Comp
+L Switch:SW_Push_LED SW1
+U 1 1 5FC2C4BB
+P -5000 1300
+F 0 "SW1" H -5000 1685 50  0000 C CNN
+F 1 "TL1240GQ" H -5000 1594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H -5160 1520 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H -5160 1520 50  0001 C CNN
+F 4 "TL1240GQ" H -5000 1300 50  0001 C CNN "PN"
+F 5 "LS601-CG" H -5000 1300 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H -5000 1300 50  0001 C CNN "ALT Datasheet"
+	1    -5000 1300
+	1    0    0    -1  
+$EndComp
+Text Label -5900 2200 0    50   ~ 0
+U1P0
+Text Label -5900 2300 0    50   ~ 0
+U1P1
+Text Label -5900 2400 0    50   ~ 0
+U1P2
+Text Label -5900 2500 0    50   ~ 0
+U1P3
+Text Label -5900 2600 0    50   ~ 0
+U1P4
+$Comp
+L Switch:SW_Push_LED SW2
+U 1 1 5FD6DCCE
+P -5000 1850
+F 0 "SW2" H -5000 2235 50  0000 C CNN
+F 1 "TL1240GQ" H -5000 2144 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H -5160 2070 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H -5160 2070 50  0001 C CNN
+F 4 "TL1240GQ" H -5000 1850 50  0001 C CNN "PN"
+F 5 "LS601-CG" H -5000 1850 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H -5000 1850 50  0001 C CNN "ALT Datasheet"
+	1    -5000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW3
+U 1 1 5FD6EBC7
+P -4150 1300
+F 0 "SW3" H -4150 1685 50  0000 C CNN
+F 1 "TL1240GQ" H -4150 1594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H -4310 1520 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H -4310 1520 50  0001 C CNN
+F 4 "TL1240GQ" H -4150 1300 50  0001 C CNN "PN"
+F 5 "LS601-CG" H -4150 1300 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H -4150 1300 50  0001 C CNN "ALT Datasheet"
+	1    -4150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW4
+U 1 1 5FD6F758
+P -4150 1850
+F 0 "SW4" H -4150 2235 50  0000 C CNN
+F 1 "TL1240GQ" H -4150 2144 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H -4310 2070 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H -4310 2070 50  0001 C CNN
+F 4 "TL1240GQ" H -4150 1850 50  0001 C CNN "PN"
+F 5 "LS601-CG" H -4150 1850 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H -4150 1850 50  0001 C CNN "ALT Datasheet"
+	1    -4150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDC00DE
+P -4800 1200
+F 0 "#PWR?" H -4800 950 50  0001 C CNN
+F 1 "GND" V -4800 1000 50  0000 C CNN
+F 2 "" H -4800 1200 50  0001 C CNN
+F 3 "" H -4800 1200 50  0001 C CNN
+	1    -4800 1200
+	0    -1   -1   0   
+$EndComp
+Text Label -5200 1200 2    50   ~ 0
+U1P0
+$Comp
+L power:GND #PWR?
+U 1 1 5FEA8B4F
+P -5200 1300
+F 0 "#PWR?" H -5200 1050 50  0001 C CNN
+F 1 "GND" V -5200 1100 50  0000 C CNN
+F 2 "" H -5200 1300 50  0001 C CNN
+F 3 "" H -5200 1300 50  0001 C CNN
+	1    -5200 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5FEA9315
+P -3250 1450
+F 0 "D?" H -3257 1666 50  0000 C CNN
+F 1 "NCD0402G1" H -3257 1575 50  0000 C CNN
+F 2 "" H -3250 1450 50  0001 C CNN
+F 3 "~" H -3250 1450 50  0001 C CNN
+	1    -3250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:AW9656QNR U5
+U 1 1 5FBD60CB
+P -2950 -800
+F 0 "U5" H -2950 121 50  0000 C CNN
+F 1 "AW9656QNR" H -2950 30  50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H -2950 300 50  0001 C CNN
+F 3 "https://pdf1.alldatasheet.net/datasheet-pdf/marking/1148544/AWINIC/AW9656QNR.html" H -2950 -800 50  0001 C CNN
+F 4 "C9098" H -2950 -61 50  0000 C CNN "LCSC"
+	1    -2950 -800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FBDA0EC
+P -3400 -1400
+F 0 "C?" H -3300 -1350 50  0000 L CNN
+F 1 "47uF" H -3300 -1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H -3362 -1550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf" H -3400 -1400 50  0001 C CNN
+F 4 "CL21A476MQYNNNE" H -3400 -1400 50  0001 C CNN "PN"
+F 5 "C16780" H -3400 -1400 50  0001 C CNN "LCSC"
+	1    -3400 -1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-3200 -1500 -3150 -1500
+Wire Wire Line
+	-3150 -1500 -3150 -1450
+$Comp
+L Device:C_Small C?
+U 1 1 5FC2BE8E
+P -3400 -550
+F 0 "C?" H -3300 -500 50  0000 L CNN
+F 1 "47uF" H -3300 -600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H -3362 -700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A476MQYNNNE_C16780.pdf" H -3400 -550 50  0001 C CNN
+F 4 "CL21A476MQYNNNE" H -3400 -550 50  0001 C CNN "PN"
+F 5 "C16780" H -3400 -550 50  0001 C CNN "LCSC"
+	1    -3400 -550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-3350 -650 -3400 -650
+Wire Wire Line
+	-3400 -450 -3350 -450
 $EndSCHEMATC
