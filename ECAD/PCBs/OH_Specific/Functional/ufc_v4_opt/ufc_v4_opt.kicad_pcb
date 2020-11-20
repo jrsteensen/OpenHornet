@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 647)
+    (drawings 649)
     (tracks 0)
     (zones 0)
     (modules 137)
@@ -4523,6 +4523,12 @@
     )
   )
 
+  (gr_text "THIS SIDE DOWN" (at 103.469 59.871 90) (layer B.SilkS) (tstamp 5FB8AB25)
+    (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
+  )
+  (gr_text "THIS SIDE DOWN" (at 103.5325 73.7775 90) (layer B.SilkS) (tstamp 5FB8AB23)
+    (effects (font (size 0.6 0.6) (thickness 0.15)) (justify mirror))
+  )
   (gr_arc (start 101.945 74.9205) (end 102.326 74.9205) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5FB8A2E0))
   (gr_arc (start 101.945 75.8095) (end 101.564 75.8095) (angle -180) (layer Edge.Cuts) (width 0.05) (tstamp 5FB8A2DF))
   (gr_line (start 101.564 74.9205) (end 101.564 75.8095) (layer Edge.Cuts) (width 0.05) (tstamp 5FB8A2DE))
