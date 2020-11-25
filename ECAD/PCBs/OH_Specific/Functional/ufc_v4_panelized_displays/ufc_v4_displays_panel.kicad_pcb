@@ -5,7 +5,7 @@
     (drawings 312)
     (tracks 4325)
     (zones 0)
-    (modules 515)
+    (modules 545)
     (nets 1)
   )
 
@@ -200,10 +200,10 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 101.0285 48.4505)
-    (grid_origin 133.6375 36.042)
+    (grid_origin 147.8275 33.592)
     (visible_elements 7FFFFFDF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x3d6fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -240,6 +240,336 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04957)
+    (at 147.8275 31.342)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0494F)
+    (at 147.8275 32.092)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04947)
+    (at 147.8275 32.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04932)
+    (at 153.1775 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0492A)
+    (at 152.4275 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04922)
+    (at 151.6775 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0491A)
+    (at 150.9275 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04912)
+    (at 58.4275 31.342)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0490A)
+    (at 58.4275 32.092)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04902)
+    (at 58.4275 32.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048FA)
+    (at 53.1775 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048F2)
+    (at 53.9275 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048EA)
+    (at 54.6775 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048E2)
+    (at 55.4275 35.842)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048CD)
+    (at 53.1875 97.252)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048C5)
+    (at 53.9375 97.252)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048BD)
+    (at 54.6875 97.252)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC048B5)
+    (at 55.4375 97.252)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0486E)
+    (at 58.4375 102.502)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04866)
+    (at 58.4375 101.752)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0485E)
+    (at 58.4375 101.002)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04856)
+    (at 58.4375 100.252)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04841)
+    (at 147.8375 102.492)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04839)
+    (at 147.8375 101.742)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04831)
+    (at 147.8375 100.992)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04829)
+    (at 147.8375 100.242)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04821)
+    (at 153.0875 97.242)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04819)
+    (at 152.3375 97.242)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC04811)
+    (at 151.5875 97.242)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Panelization:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FC0480B)
+    (at 150.8375 97.242)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
   )
 
   (module KiCAD_Libraries:OH_LOGO_ONLY_22mm_12mm (layer F.Cu) (tedit 5FBEA9A9) (tstamp 5FC029CC)
