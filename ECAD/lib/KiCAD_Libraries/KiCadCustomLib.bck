@@ -436,6 +436,12 @@ K switch normally-open pushbutton push-button LED
 F ~
 $ENDCMP
 #
+$CMP TL1240GQ
+D Push button switch with green LED
+K switch normally-open pushbutton push-button LED
+F http://spec_sheets.e-switch.com/specs/P010362.pdf
+$ENDCMP
+#
 $CMP WC1602A
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K LCD 16x2 Alphanumeric Green Backlight
