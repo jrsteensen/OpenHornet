@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Autopilot Button PCB"
+Date "2020-12-03"
+Rev "1"
+Comp "WWW.OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE4A076
+P 3950 3150
+F 0 "SW?" H 3950 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 3950 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 3950 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3950 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 3950 3450 98  0001 C CNN "PN"
+	1    3950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE4D524
+P 4700 3150
+F 0 "SW?" H 4700 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 4700 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 4700 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4700 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 4700 3450 98  0001 C CNN "PN"
+	1    4700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE4E420
+P 5400 3150
+F 0 "SW?" H 5400 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 5400 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 5400 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 5400 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 5400 3450 98  0001 C CNN "PN"
+	1    5400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE4EE85
+P 6100 3150
+F 0 "SW?" H 6100 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 6100 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 6100 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 6100 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 6100 3450 98  0001 C CNN "PN"
+	1    6100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE4FBDC
+P 6800 3150
+F 0 "SW?" H 6800 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 6800 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 6800 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 6800 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 6800 3450 98  0001 C CNN "PN"
+	1    6800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE50B77
+P 7550 3150
+F 0 "SW?" H 7550 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 7550 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 7550 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7550 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 7550 3450 98  0001 C CNN "PN"
+	1    7550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW?
+U 1 1 5FE5114C
+P 8250 3150
+F 0 "SW?" H 8250 3535 50  0000 C CNN
+F 1 "TL1240GQ" H 8250 3444 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 8250 3450 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8250 3450 50  0001 C CNN
+F 4 "TL1240GQ" H 8250 3450 98  0001 C CNN "PN"
+	1    8250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:WS2811 U?
+U 1 1 5FE52D0F
+P 5900 1650
+F 0 "U?" H 5900 2131 50  0000 C CNN
+F 1 "WS2811" H 5900 2040 50  0000 C CNN
+F 2 "" H 5600 1800 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 5700 1900 50  0001 C CNN
+	1    5900 1650
+	1    0    0    -1  
+$EndComp
+Text Label 6300 1550 0    50   ~ 0
+OUTR1
+Text Label 6300 1650 0    50   ~ 0
+OUTG1
+Text Label 6300 1750 0    50   ~ 0
+OUTB1
+$Comp
+L power:GND #PWR?
+U 1 1 5FE540B2
+P 5900 1950
+F 0 "#PWR?" H 5900 1700 50  0001 C CNN
+F 1 "GND" H 5905 1777 50  0000 C CNN
+F 2 "" H 5900 1950 50  0001 C CNN
+F 3 "" H 5900 1950 50  0001 C CNN
+	1    5900 1950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

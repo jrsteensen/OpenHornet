@@ -1,12 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:ufc_v4_main-cache
-LIBS:ufc_v4_opt_daughterboard-cache
-LIBS:ufc_v4_opt-cache
-LIBS:ufc_v4_comm-cache
-LIBS:ufc_v4_scratchpad-cache
-LIBS:UFC_3.0-cache
-LIBS:ATX_PSU_Board-cache
-LIBS:ABSIS_Bus_Master-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -3585,7 +3578,7 @@ Text Label 17000 7250 0    60   ~ 0
 12(**)
 Text Label 17000 7350 0    60   ~ 0
 13(**)
-Text Notes 15650 7400 0    80   ~ 0
+Text Notes 15700 7900 0    80   ~ 0
 HUD PANEL
 $Comp
 L power:GND #PWR0120
@@ -4672,4 +4665,32 @@ NoConn ~ 19600 2350
 NoConn ~ 19600 2450
 NoConn ~ 21050 1650
 NoConn ~ 21050 1750
+Text Notes 16100 7250 0    50   ~ 0
+BRT
+Text Notes 15950 7350 0    50   ~ 0
+NORM 1
+Text Notes 17300 7150 0    50   ~ 0
+BAL
+Text Notes 17300 7450 0    50   ~ 0
+AOA
+Text Notes 17300 7050 0    50   ~ 0
+BLK LVL
+Text Notes 15950 7450 0    50   ~ 0
+NORM 2
+Text Notes 15850 7550 0    50   ~ 0
+DAY/NGT 1
+Text Notes 15850 7650 0    50   ~ 0
+DAY/NGT 2
+Text Notes 15850 7750 0    50   ~ 0
+WT BAL 1
+Text Notes 17300 7250 0    50   ~ 0
+WT BAL 2
+Text Notes 17300 7350 0    50   ~ 0
+ATT 1
+Text Notes 17300 7550 0    50   ~ 0
+ATT 2
+Text Notes 17300 7650 0    50   ~ 0
+ALT 1
+Text Notes 17300 7750 0    50   ~ 0
+ALT 2
 $EndSCHEMATC
