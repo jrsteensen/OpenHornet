@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ABSIS Backlight Controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -717,7 +716,7 @@ F 3 "" H 4900 2800 50  0000 C CNN
 	1    4900 2800
 	0    -1   -1   0   
 $EndComp
-Text Label 4400 2700 2    60   ~ 0
+Text Label 4900 2700 0    60   ~ 0
 13(**)
 Text Label 4400 3250 2    31   ~ 0
 +5V_SUPPLY
@@ -860,38 +859,26 @@ F 3 "" H 7000 4150 50  0000 C CNN
 	1    7000 4150
 	0    -1   -1   0   
 $EndComp
-Text Label 4400 3150 2    60   ~ 0
+Text Label 4900 3150 0    60   ~ 0
 12(**)
-Text Label 4400 3600 2    60   ~ 0
+Text Label 4900 3600 0    60   ~ 0
 11(**)
-Text Label 4400 4050 2    60   ~ 0
+Text Label 4900 4050 0    60   ~ 0
 10(**)
-Text Label 5450 2700 2    60   ~ 0
+Text Label 5950 2700 0    60   ~ 0
 9(**)
-Text Label 5450 3150 2    60   ~ 0
+Text Label 5950 3150 0    60   ~ 0
 8(**)
-Text Label 5450 3600 2    60   ~ 0
+Text Label 5950 3600 0    60   ~ 0
 7(**)
-Text Label 5450 4050 2    60   ~ 0
+Text Label 5950 4050 0    60   ~ 0
 6(**)
-Text Label 6500 3150 2    60   ~ 0
+Text Label 7000 3150 0    60   ~ 0
 4(**)
-Text Label 6500 3600 2    60   ~ 0
+Text Label 7000 3600 0    60   ~ 0
 3(**)
-Text Label 6500 4050 2    60   ~ 0
+Text Label 7000 4050 0    60   ~ 0
 2(**)
-$Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J13
-U 1 1 5FA8A5C2
-P 6700 4050
-F 0 "J13" H 6750 4267 50  0000 C CNN
-F 1 "BL #12" H 6750 4176 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6700 4050 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 6700 4050 50  0001 C CNN
-F 4 "039281043" H 6700 4050 50  0001 C CNN "PN"
-	1    6700 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x02_Counter_Clockwise J12
 U 1 1 5FA8A5B2
@@ -1012,7 +999,7 @@ F 4 "039281043" H 4600 3150 50  0001 C CNN "PN"
 	1    4600 3150
 	1    0    0    -1  
 $EndComp
-Text Label 6500 2700 2    60   ~ 0
+Text Label 7000 2700 0    60   ~ 0
 5(**)
 Text Label 9350 6200 2    31   ~ 0
 7(**)
@@ -1133,29 +1120,29 @@ NoConn ~ 8600 5000
 NoConn ~ 8500 5000
 NoConn ~ 8400 5000
 NoConn ~ 8300 5000
-Text Label 4900 2700 0    31   ~ 0
+Text Label 4400 2700 2    31   ~ 0
 +5V_SUPPLY
-Text Label 4900 3150 0    31   ~ 0
+Text Label 4400 3150 2    31   ~ 0
 +5V_SUPPLY
-Text Label 4900 3600 0    31   ~ 0
+Text Label 4400 3600 2    31   ~ 0
 +5V_SUPPLY
-Text Label 4900 4050 0    31   ~ 0
+Text Label 4400 4050 2    31   ~ 0
 +5V_SUPPLY
-Text Label 5950 2700 0    31   ~ 0
+Text Label 5450 2700 2    31   ~ 0
 +5V_SUPPLY
-Text Label 5950 3150 0    31   ~ 0
+Text Label 5450 3150 2    31   ~ 0
 +5V_SUPPLY
-Text Label 5950 3600 0    31   ~ 0
+Text Label 5450 3600 2    31   ~ 0
 +5V_SUPPLY
-Text Label 5950 4050 0    31   ~ 0
+Text Label 5450 4050 2    31   ~ 0
 +5V_SUPPLY
-Text Label 7000 2700 0    31   ~ 0
+Text Label 6500 2700 2    31   ~ 0
 +5V_SUPPLY
-Text Label 7000 3150 0    31   ~ 0
+Text Label 6500 3150 2    31   ~ 0
 +5V_SUPPLY
-Text Label 7000 3600 0    31   ~ 0
+Text Label 6500 3600 2    31   ~ 0
 +5V_SUPPLY
-Text Label 7000 4050 0    31   ~ 0
+Text Label 6500 4050 2    31   ~ 0
 +5V_SUPPLY
 Text Notes 5200 2350 0    50   ~ 0
 BACKLIGHTING CHANNELS
@@ -1169,8 +1156,6 @@ Wire Notes Line
 	4050 4300 7350 4300
 Wire Notes Line
 	5150 2250 5150 2400
-Wire Notes Line
-	5150 2400 6200 2400
 Wire Notes Line
 	6200 2400 6200 2250
 $Comp
@@ -1511,4 +1496,18 @@ Wire Notes Line
 	4900 1300 4900 1150
 Wire Notes Line
 	9150 5600 10500 5600
+Wire Notes Line
+	5150 2400 6200 2400
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J13
+U 1 1 5FA8A5C2
+P 6700 4050
+F 0 "J13" H 6750 4267 50  0000 C CNN
+F 1 "BL #12" H 6750 4176 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6700 4050 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 6700 4050 50  0001 C CNN
+F 4 "039281043" H 6700 4050 50  0001 C CNN "PN"
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
