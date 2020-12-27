@@ -1,15 +1,18 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.4)-1*
-G04 #@! TF.CreationDate,2020-11-11T14:11:27-07:00*
-G04 #@! TF.ProjectId,ABSIS Backlight Controller,41425349-5320-4426-9163-6b6c69676874,rev?*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*
+G04 #@! TF.CreationDate,2020-12-22T16:43:39+11:00*
+G04 #@! TF.ProjectId,ABSIS_Backlight_Controller,41425349-535f-4426-9163-6b6c69676874,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.4)-1) date 2020-11-11 14:11:27*
+G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-12-22 16:43:39*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
 %ADD10C,0.150000*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X202438000Y-121666000D02*
