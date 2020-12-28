@@ -1,4 +1,4 @@
-update=11/4/2020 2:43:26 PM
+update=12/27/2020 5:04:58 PM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Mega_shield_template.net
+LastNetListRead=ufc_v4_controller.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -41,8 +41,13 @@ TrackWidth3=0.3048
 TrackWidth4=0.4572
 TrackWidth5=0.635
 TrackWidth6=0.9144
+TrackWidth7=1.8288
 ViaDiameter1=0.6
 ViaDrill1=0.4
+ViaDiameter2=1.2
+ViaDrill2=0.6
+ViaDiameter3=2.4
+ViaDrill3=1.2
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25

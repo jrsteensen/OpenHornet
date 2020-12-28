@@ -1,0 +1,4160 @@
+EESchema Schematic File Version 4
+LIBS:ufc_v4_main-cache
+LIBS:ufc_v4_controller-cache
+EELAYER 30 0
+EELAYER END
+$Descr C 22000 17000
+encoding utf-8
+Sheet 1 1
+Title "UFC v4 MAIN"
+Date "2020-11-27"
+Rev "1"
+Comp "OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 18725 575  0    60   ~ 0
+CONNECTORS
+Text Notes 20150 2550 0    50   ~ 0
+MOUNT HOLES
+Wire Notes Line
+	19700 600  19700 500 
+$Comp
+L power:+5V #PWR018
+U 1 1 5FC341E8
+P 21050 3000
+F 0 "#PWR018" H 21050 2850 50  0001 C CNN
+F 1 "+5V" V 21050 3150 31  0000 C CNN
+F 2 "" H 21050 3000 50  0000 C CNN
+F 3 "" H 21050 3000 50  0000 C CNN
+	1    21050 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FC341EB
+P 21050 3000
+F 0 "#FLG02" H 21050 3075 50  0001 C CNN
+F 1 "PWR_FLAG" V 21050 3128 31  0000 L CNN
+F 2 "" H 21050 3000 50  0001 C CNN
+F 3 "~" H 21050 3000 50  0001 C CNN
+	1    21050 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5FC341ED
+P 21050 3100
+F 0 "#FLG04" H 21050 3175 50  0001 C CNN
+F 1 "PWR_FLAG" V 21050 3350 31  0000 C CNN
+F 2 "" H 21050 3100 50  0001 C CNN
+F 3 "~" H 21050 3100 50  0001 C CNN
+	1    21050 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5FC341EF
+P 21050 3100
+F 0 "#PWR020" H 21050 2850 50  0001 C CNN
+F 1 "GND" V 21050 2950 31  0000 C CNN
+F 2 "" H 21050 3100 50  0000 C CNN
+F 3 "" H 21050 3100 50  0000 C CNN
+	1    21050 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP1
+U 1 1 5FC341F6
+P 19200 2800
+F 0 "TP1" V 19150 3000 31  0000 L CNN
+F 1 "TP-5V" V 19200 3000 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 19400 2800 50  0001 C CNN
+F 3 "~" H 19400 2800 50  0001 C CNN
+	1    19200 2800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP2
+U 1 1 5FC341F3
+P 19200 2950
+F 0 "TP2" V 19150 3150 31  0000 L CNN
+F 1 "TP-GND" V 19200 3150 31  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 19400 2950 50  0001 C CNN
+F 3 "~" H 19400 2950 50  0001 C CNN
+	1    19200 2950
+	0    -1   1    0   
+$EndComp
+Text Label 19200 2800 0    31   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR013
+U 1 1 5FC341F4
+P 19200 2950
+F 0 "#PWR013" H 19200 2700 50  0001 C CNN
+F 1 "GND" V 19200 2750 31  0000 C CNN
+F 2 "" H 19200 2950 50  0000 C CNN
+F 3 "" H 19200 2950 50  0000 C CNN
+	1    19200 2950
+	0    -1   -1   0   
+$EndComp
+Text Notes 20900 2550 0    50   ~ 0
+PWR FLAGS
+Text Notes 19250 2550 0    50   ~ 0
+TEST POINTS
+Wire Notes Line
+	18700 600  19700 600 
+Wire Notes Line
+	20100 2450 20100 3250
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U1
+U 1 1 5FF206CF
+P 6750 2350
+F 0 "U1" H 6750 3728 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 6750 3623 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 8450 5400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 8450 5400 80  0001 C CNN
+F 4 "C52476" H 6750 3540 50  0000 C CNN "LCSC"
+	1    6750 2350
+	1    0    0    -1  
+$EndComp
+Text Label 7350 2250 0    50   ~ 0
+SEGG
+Text Label 7350 2150 0    50   ~ 0
+SEGF
+Text Label 7350 2050 0    50   ~ 0
+SEGE
+Text Label 7350 1950 0    50   ~ 0
+SEGD
+Text Label 7350 1850 0    50   ~ 0
+SEGC
+Text Label 7350 1750 0    50   ~ 0
+SEGB
+Text Label 7350 1650 0    50   ~ 0
+SEGA
+Text Label 7350 1550 0    50   ~ 0
+SEGDP
+Text Label 7350 3150 0    50   ~ 0
+DIG7
+Text Label 7350 3050 0    50   ~ 0
+DIG6
+Text Label 7350 2950 0    50   ~ 0
+DIG5
+Text Label 7350 2850 0    50   ~ 0
+DIG4
+Text Label 7350 2750 0    50   ~ 0
+DIG3
+Text Label 7350 2650 0    50   ~ 0
+DIG2
+Text Label 7350 2550 0    50   ~ 0
+DIG1
+Text Label 7350 2450 0    50   ~ 0
+DIG0
+$Comp
+L Device:R R1
+U 1 1 5FF206D0
+P 6150 1400
+F 0 "R1" H 6220 1446 50  0000 L CNN
+F 1 "25.5K" V 6150 1400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 1400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 6150 1400 50  0001 C CNN
+F 4 "C22920" H 6150 1400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 6150 1400 50  0001 C CNN "PN"
+	1    6150 1400
+	1    0    0    -1  
+$EndComp
+Text Label 6150 2250 2    50   ~ 0
+DIN2
+Text Label 5500 2850 2    50   ~ 0
+LOAD(~CS)
+Wire Wire Line
+	6700 3400 6750 3400
+$Comp
+L power:GND #PWR0101
+U 1 1 5FF206D4
+P 6750 3400
+F 0 "#PWR0101" H 6750 3150 50  0001 C CNN
+F 1 "GND" V 6750 3200 50  0000 C CNN
+F 2 "" H 6750 3400 50  0000 C CNN
+F 3 "" H 6750 3400 50  0000 C CNN
+	1    6750 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3400
+Wire Wire Line
+	6750 3400 6800 3400
+Wire Wire Line
+	6150 1250 6550 1250
+Wire Wire Line
+	6150 1550 6150 1750
+Connection ~ 6150 1250
+Connection ~ 5750 1250
+Wire Wire Line
+	5750 1250 6150 1250
+Wire Wire Line
+	5650 1450 5750 1450
+Connection ~ 5650 1450
+$Comp
+L power:GND #PWR0102
+U 1 1 5FF206D3
+P 5650 1450
+F 0 "#PWR0102" H 5650 1200 50  0001 C CNN
+F 1 "GND" V 5650 1250 50  0000 C CNN
+F 2 "" H 5650 1450 50  0000 C CNN
+F 3 "" H 5650 1450 50  0000 C CNN
+	1    5650 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1450 5650 1450
+Wire Wire Line
+	5550 1250 5750 1250
+$Comp
+L Device:CP_Small C1
+U 1 1 5FC79F24
+P 5550 1350
+F 0 "C1" H 5450 1400 50  0000 R CNN
+F 1 "10uF" H 5450 1300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 5550 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 5550 1350 50  0001 C CNN
+F 4 "C134721" H 5550 1350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 5550 1350 50  0001 C CNN "PN"
+	1    5550 1350
+	1    0    0    -1  
+$EndComp
+Text Label 5550 1250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U2
+U 1 1 5FD4E303
+P 11200 2350
+F 0 "U2" H 11200 3728 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 11200 3623 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 12900 5400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 12900 5400 80  0001 C CNN
+F 4 "C52476" H 11200 3540 50  0000 C CNN "LCSC"
+	1    11200 2350
+	1    0    0    -1  
+$EndComp
+Text Label 11800 2250 0    50   ~ 0
+SEGG_2
+Text Label 11800 2150 0    50   ~ 0
+SEGF_2
+Text Label 11800 2050 0    50   ~ 0
+SEGE_2
+Text Label 11800 1950 0    50   ~ 0
+SEGD_2
+Text Label 11800 1850 0    50   ~ 0
+SEGC_2
+Text Label 11800 1750 0    50   ~ 0
+SEGB_2
+Text Label 11800 1650 0    50   ~ 0
+SEGA_2
+Text Label 11800 1550 0    50   ~ 0
+SEGDP_2
+Text Label 11800 3150 0    50   ~ 0
+DIG7_2
+Text Label 11800 3050 0    50   ~ 0
+DIG6_2
+Text Label 11800 2950 0    50   ~ 0
+DIG5_2
+Text Label 11800 2850 0    50   ~ 0
+DIG4_2
+Text Label 11800 2750 0    50   ~ 0
+DIG3_2
+Text Label 11800 2650 0    50   ~ 0
+DIG2_2
+Text Label 11800 2550 0    50   ~ 0
+DIG1_2
+Text Label 11800 2450 0    50   ~ 0
+DIG0_2
+$Comp
+L Device:R R2
+U 1 1 5FD4E31F
+P 10600 1400
+F 0 "R2" H 10670 1446 50  0000 L CNN
+F 1 "25.5K" V 10600 1400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10530 1400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 10600 1400 50  0001 C CNN
+F 4 "C22920" H 10600 1400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 10600 1400 50  0001 C CNN "PN"
+	1    10600 1400
+	1    0    0    -1  
+$EndComp
+Text Label 10600 2150 2    50   ~ 0
+DIN2
+Text Label 10600 2250 2    50   ~ 0
+DIN3
+Text Label 10600 2350 2    50   ~ 0
+CLK
+Wire Wire Line
+	11150 3400 11200 3400
+$Comp
+L power:GND #PWR0103
+U 1 1 5FD4E32E
+P 11200 3400
+F 0 "#PWR0103" H 11200 3150 50  0001 C CNN
+F 1 "GND" V 11200 3200 50  0000 C CNN
+F 2 "" H 11200 3400 50  0000 C CNN
+F 3 "" H 11200 3400 50  0000 C CNN
+	1    11200 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 11200 3400
+Wire Wire Line
+	11200 3400 11250 3400
+Wire Wire Line
+	10600 1250 11000 1250
+Wire Wire Line
+	10600 1550 10600 1750
+Connection ~ 10600 1250
+Connection ~ 10200 1250
+Wire Wire Line
+	10200 1250 10600 1250
+Wire Wire Line
+	10100 1450 10200 1450
+Connection ~ 10100 1450
+$Comp
+L power:GND #PWR0104
+U 1 1 5FD4E341
+P 10100 1450
+F 0 "#PWR0104" H 10100 1200 50  0001 C CNN
+F 1 "GND" V 10100 1250 50  0000 C CNN
+F 2 "" H 10100 1450 50  0000 C CNN
+F 3 "" H 10100 1450 50  0000 C CNN
+	1    10100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1450 10100 1450
+Wire Wire Line
+	10000 1250 10200 1250
+$Comp
+L Device:CP_Small C3
+U 1 1 5FD4E34F
+P 10000 1350
+F 0 "C3" H 9900 1400 50  0000 R CNN
+F 1 "10uF" H 9900 1300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10000 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 10000 1350 50  0001 C CNN
+F 4 "C134721" H 10000 1350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 10000 1350 50  0001 C CNN "PN"
+	1    10000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5FD4E35B
+P 10200 1350
+F 0 "C4" H 10292 1396 50  0000 L CNN
+F 1 "100nF" H 10292 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10200 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 10200 1350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 10200 1350 50  0001 C CNN "PN"
+F 5 "C1525" H 10200 1350 50  0001 C CNN "LCSC"
+	1    10200 1350
+	1    0    0    -1  
+$EndComp
+Text Label 10000 1250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C2
+U 1 1 5FC77C2A
+P 5750 1350
+F 0 "C2" H 5842 1396 50  0000 L CNN
+F 1 "100nF" H 5842 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 5750 1350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 5750 1350 50  0001 C CNN "PN"
+F 5 "C1525" H 5750 1350 50  0001 C CNN "LCSC"
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+Text Label 8200 2000 3    50   ~ 0
+DIG0
+Text Label 8300 2000 3    50   ~ 0
+DIG1
+Text Label 8400 2000 3    50   ~ 0
+DIG2
+Text Label 8800 2000 3    50   ~ 0
+DIG3
+Text Label 8900 2000 3    50   ~ 0
+DIG4
+Text Label 9000 2000 3    50   ~ 0
+DIG5
+Text Label 9100 2000 3    50   ~ 0
+DIG6
+Text Label 9200 2000 3    50   ~ 0
+DIG7
+$Comp
+L Connector:Conn_01x05_Female J2
+U 1 1 6080B9BD
+P 8200 1800
+F 0 "J2" V 8350 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 8250 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 8200 1800 50  0001 C CNN
+F 3 "~" H 8200 1800 50  0001 C CNN
+	1    8200 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 9200 2700 3    50   ~ 0
+SEGG
+Text Label 9100 2700 3    50   ~ 0
+SEGF
+Text Label 9000 2700 3    50   ~ 0
+SEGE
+Text Label 8900 2700 3    50   ~ 0
+SEGD
+Text Label 8800 2700 3    50   ~ 0
+SEGC
+Text Label 8400 2700 3    50   ~ 0
+SEGB
+Text Label 8300 2700 3    50   ~ 0
+SEGA
+Text Label 8200 2700 3    50   ~ 0
+SEGDP
+$Comp
+L Connector:Conn_01x05_Female J3
+U 1 1 60467204
+P 9000 1800
+F 0 "J3" V 9150 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 9050 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 9000 1800 50  0001 C CNN
+F 3 "~" H 9000 1800 50  0001 C CNN
+	1    9000 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 8000 2000 3    50   ~ 0
+DOT1-
+Text Label 8000 2700 3    50   ~ 0
+DOT1+
+Text Label 8100 2700 3    50   ~ 0
+DOT2+
+Text Label 8100 2000 3    50   ~ 0
+DOT2-
+$Comp
+L Connector:Conn_01x05_Female J8
+U 1 1 633A1B33
+P 8200 2500
+F 0 "J8" V 8350 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 8250 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 8200 2500 50  0001 C CNN
+F 3 "~" H 8200 2500 50  0001 C CNN
+	1    8200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J9
+U 1 1 5FFE0F70
+P 9000 2500
+F 0 "J9" V 9150 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 9050 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J29
+U 1 1 60D0CB44
+P 8950 7250
+F 0 "J29" V 9100 7250 50  0000 C CNN
+F 1 "Conn_01x04_Female" V 9000 7250 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 8950 7250 50  0001 C CNN
+F 3 "~" H 8950 7250 50  0001 C CNN
+	1    8950 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Female J30
+U 1 1 60D0D3F0
+P 12600 7250
+F 0 "J30" V 12750 7250 50  0000 C CNN
+F 1 "Conn_01x07_Female" V 12650 7250 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x07_P1.00mm_Vertical" H 12600 7250 50  0001 C CNN
+F 3 "~" H 12600 7250 50  0001 C CNN
+	1    12600 7250
+	0    -1   -1   0   
+$EndComp
+Text Notes 17050 5450 0    50   ~ 0
+SCRTPAD 16-SEG
+$Comp
+L Connector:Conn_01x05_Female J31
+U 1 1 6233048C
+P 13400 7250
+F 0 "J31" V 13550 7250 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 13450 7250 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 13400 7250 50  0001 C CNN
+F 3 "~" H 13400 7250 50  0001 C CNN
+	1    13400 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Female J28
+U 1 1 62583501
+P 8150 7250
+F 0 "J28" V 8300 7250 50  0000 C CNN
+F 1 "Conn_01x07_Female" V 8200 7250 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x07_P1.00mm_Vertical" H 8150 7250 50  0001 C CNN
+F 3 "~" H 8150 7250 50  0001 C CNN
+	1    8150 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J26
+U 1 1 62869105
+P 16950 5600
+F 0 "J26" V 17100 5600 50  0000 C CNN
+F 1 "Conn_01x04_Female" V 17000 5600 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 16950 5600 50  0001 C CNN
+F 3 "~" H 16950 5600 50  0001 C CNN
+	1    16950 5600
+	0    -1   -1   0   
+$EndComp
+Text Notes 5100 1000 0    98   ~ 0
+OPT DISP LINE 1
+Wire Notes Line
+	5050 850  9400 850 
+Wire Notes Line
+	9400 850  9400 3750
+Wire Notes Line
+	9400 3750 5050 3750
+Wire Notes Line
+	5050 3750 5050 850 
+Wire Notes Line
+	5050 1000 6350 1000
+Wire Notes Line
+	6350 1000 6350 850 
+Wire Notes Line
+	9500 850  13850 850 
+Wire Notes Line
+	13850 850  13850 3750
+Wire Notes Line
+	13850 3750 9500 3750
+Wire Notes Line
+	9500 3750 9500 850 
+Text Notes 8250 1550 0    50   ~ 0
+OPT_DISP_1 CONN
+Text Label 12650 2000 3    50   ~ 0
+DIG0_2
+Text Label 12750 2000 3    50   ~ 0
+DIG1_2
+Text Label 12850 2000 3    50   ~ 0
+DIG2_2
+Text Label 13250 2000 3    50   ~ 0
+DIG3_2
+Text Label 13350 2000 3    50   ~ 0
+DIG4_2
+Text Label 13450 2000 3    50   ~ 0
+DIG5_2
+Text Label 13550 2000 3    50   ~ 0
+DIG6_2
+Text Label 13650 2000 3    50   ~ 0
+DIG7_2
+$Comp
+L Connector:Conn_01x05_Female J4
+U 1 1 62D32927
+P 12650 1800
+F 0 "J4" V 12800 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 12700 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 12650 1800 50  0001 C CNN
+F 3 "~" H 12650 1800 50  0001 C CNN
+	1    12650 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 13650 2700 3    50   ~ 0
+SEGG_2
+Text Label 13550 2700 3    50   ~ 0
+SEGF_2
+Text Label 13450 2700 3    50   ~ 0
+SEGE_2
+Text Label 13350 2700 3    50   ~ 0
+SEGD_2
+Text Label 13250 2700 3    50   ~ 0
+SEGC_2
+Text Label 12850 2700 3    50   ~ 0
+SEGB_2
+Text Label 12750 2700 3    50   ~ 0
+SEGA_2
+Text Label 12650 2700 3    50   ~ 0
+SEGDP_2
+$Comp
+L Connector:Conn_01x05_Female J5
+U 1 1 62D32939
+P 13450 1800
+F 0 "J5" V 13600 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 13500 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 13450 1800 50  0001 C CNN
+F 3 "~" H 13450 1800 50  0001 C CNN
+	1    13450 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 12450 2000 3    50   ~ 0
+DOT1-_2
+Text Label 12450 2700 3    50   ~ 0
+DOT1+_2
+Text Label 12550 2700 3    50   ~ 0
+DOT2+_2
+Text Label 12550 2000 3    50   ~ 0
+DOT2-_2
+$Comp
+L Connector:Conn_01x05_Female J10
+U 1 1 62D32947
+P 12650 2500
+F 0 "J10" V 12800 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 12700 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 12650 2500 50  0001 C CNN
+F 3 "~" H 12650 2500 50  0001 C CNN
+	1    12650 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J11
+U 1 1 62D32951
+P 13450 2500
+F 0 "J11" V 13600 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 13500 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 13450 2500 50  0001 C CNN
+F 3 "~" H 13450 2500 50  0001 C CNN
+	1    13450 2500
+	0    -1   -1   0   
+$EndComp
+Text Notes 12700 1550 0    50   ~ 0
+OPT_DISP_2 CONN
+Text Notes 9550 1000 0    98   ~ 0
+OPT DISP LINE 2
+Wire Notes Line
+	9500 1000 10800 1000
+Wire Notes Line
+	10800 1000 10800 850 
+Wire Notes Line
+	15300 1050 13950 1050
+Wire Notes Line
+	15300 850  15300 1050
+Text Notes 14000 1000 0    98   ~ 0
+OPT DISP LINE 3
+Text Notes 17150 1550 0    50   ~ 0
+OPT_DISP_3 CONN
+$Comp
+L Connector:Conn_01x05_Female J13
+U 1 1 62E6875B
+P 17900 2500
+F 0 "J13" V 18050 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17950 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17900 2500 50  0001 C CNN
+F 3 "~" H 17900 2500 50  0001 C CNN
+	1    17900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J12
+U 1 1 62E68751
+P 17100 2500
+F 0 "J12" V 17250 2500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17150 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17100 2500 50  0001 C CNN
+F 3 "~" H 17100 2500 50  0001 C CNN
+	1    17100 2500
+	0    -1   -1   0   
+$EndComp
+Text Label 17000 2000 3    50   ~ 0
+DOT2-_3
+Text Label 17000 2700 3    50   ~ 0
+DOT2+_3
+Text Label 16900 2700 3    50   ~ 0
+DOT1+_3
+Text Label 16900 2000 3    50   ~ 0
+DOT1-_3
+$Comp
+L Connector:Conn_01x05_Female J7
+U 1 1 62E68743
+P 17900 1800
+F 0 "J7" V 18050 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17950 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17900 1800 50  0001 C CNN
+F 3 "~" H 17900 1800 50  0001 C CNN
+	1    17900 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 17100 2700 3    50   ~ 0
+SEGDP_3
+Text Label 17200 2700 3    50   ~ 0
+SEGA_3
+Text Label 17300 2700 3    50   ~ 0
+SEGB_3
+Text Label 17700 2700 3    50   ~ 0
+SEGC_3
+Text Label 17800 2700 3    50   ~ 0
+SEGD_3
+Text Label 17900 2700 3    50   ~ 0
+SEGE_3
+Text Label 18000 2700 3    50   ~ 0
+SEGF_3
+Text Label 18100 2700 3    50   ~ 0
+SEGG_3
+$Comp
+L Connector:Conn_01x05_Female J6
+U 1 1 62E68731
+P 17100 1800
+F 0 "J6" V 17250 1800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17150 1800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17100 1800 50  0001 C CNN
+F 3 "~" H 17100 1800 50  0001 C CNN
+	1    17100 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 18100 2000 3    50   ~ 0
+DIG7_3
+Text Label 18000 2000 3    50   ~ 0
+DIG6_3
+Text Label 17900 2000 3    50   ~ 0
+DIG5_3
+Text Label 17800 2000 3    50   ~ 0
+DIG4_3
+Text Label 17700 2000 3    50   ~ 0
+DIG3_3
+Text Label 17300 2000 3    50   ~ 0
+DIG2_3
+Text Label 17200 2000 3    50   ~ 0
+DIG1_3
+Text Label 17100 2000 3    50   ~ 0
+DIG0_3
+Wire Notes Line
+	13950 3750 13950 850 
+Wire Notes Line
+	18300 3750 13950 3750
+Wire Notes Line
+	18300 850  18300 3750
+Wire Notes Line
+	13950 850  18300 850 
+Text Label 14450 1250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C6
+U 1 1 62E6871A
+P 14650 1350
+F 0 "C6" H 14742 1396 50  0000 L CNN
+F 1 "100nF" H 14742 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14650 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 14650 1350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 14650 1350 50  0001 C CNN "PN"
+F 5 "C1525" H 14650 1350 50  0001 C CNN "LCSC"
+	1    14650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C5
+U 1 1 62E6870E
+P 14450 1350
+F 0 "C5" H 14350 1400 50  0000 R CNN
+F 1 "10uF" H 14350 1300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 14450 1350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 14450 1350 50  0001 C CNN
+F 4 "C134721" H 14450 1350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 14450 1350 50  0001 C CNN "PN"
+	1    14450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 1250 14650 1250
+Wire Wire Line
+	14450 1450 14550 1450
+$Comp
+L power:GND #PWR0105
+U 1 1 62E68700
+P 14550 1450
+F 0 "#PWR0105" H 14550 1200 50  0001 C CNN
+F 1 "GND" V 14550 1250 50  0000 C CNN
+F 2 "" H 14550 1450 50  0000 C CNN
+F 3 "" H 14550 1450 50  0000 C CNN
+	1    14550 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 14550 1450
+Wire Wire Line
+	14550 1450 14650 1450
+Wire Wire Line
+	14650 1250 15050 1250
+Connection ~ 14650 1250
+Connection ~ 15050 1250
+Wire Wire Line
+	15050 1550 15050 1750
+Wire Wire Line
+	15050 1250 15450 1250
+Wire Wire Line
+	15650 3400 15700 3400
+Connection ~ 15650 3400
+$Comp
+L power:GND #PWR0106
+U 1 1 62E686ED
+P 15650 3400
+F 0 "#PWR0106" H 15650 3150 50  0001 C CNN
+F 1 "GND" V 15650 3200 50  0000 C CNN
+F 2 "" H 15650 3400 50  0000 C CNN
+F 3 "" H 15650 3400 50  0000 C CNN
+	1    15650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 3400 15650 3400
+Text Label 15050 2350 2    50   ~ 0
+CLK
+Text Label 15050 2250 2    50   ~ 0
+DIN4
+Text Label 15050 2150 2    50   ~ 0
+DIN3
+$Comp
+L Device:R R3
+U 1 1 62E686DE
+P 15050 1400
+F 0 "R3" H 15120 1446 50  0000 L CNN
+F 1 "25.5K" V 15050 1400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14980 1400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 15050 1400 50  0001 C CNN
+F 4 "C22920" H 15050 1400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 15050 1400 50  0001 C CNN "PN"
+	1    15050 1400
+	1    0    0    -1  
+$EndComp
+Text Label 16250 2450 0    50   ~ 0
+DIG0_3
+Text Label 16250 2550 0    50   ~ 0
+DIG1_3
+Text Label 16250 2650 0    50   ~ 0
+DIG2_3
+Text Label 16250 2750 0    50   ~ 0
+DIG3_3
+Text Label 16250 2850 0    50   ~ 0
+DIG4_3
+Text Label 16250 2950 0    50   ~ 0
+DIG5_3
+Text Label 16250 3050 0    50   ~ 0
+DIG6_3
+Text Label 16250 3150 0    50   ~ 0
+DIG7_3
+Text Label 16250 1550 0    50   ~ 0
+SEGDP_3
+Text Label 16250 1650 0    50   ~ 0
+SEGA_3
+Text Label 16250 1750 0    50   ~ 0
+SEGB_3
+Text Label 16250 1850 0    50   ~ 0
+SEGC_3
+Text Label 16250 1950 0    50   ~ 0
+SEGD_3
+Text Label 16250 2050 0    50   ~ 0
+SEGE_3
+Text Label 16250 2150 0    50   ~ 0
+SEGF_3
+Text Label 16250 2250 0    50   ~ 0
+SEGG_3
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U3
+U 1 1 62E686C2
+P 15650 2350
+F 0 "U3" H 15650 3728 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 15650 3623 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 17350 5400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 17350 5400 80  0001 C CNN
+F 4 "C52476" H 15650 3540 50  0000 C CNN "LCSC"
+	1    15650 2350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6400 4050 5050 4050
+Wire Notes Line
+	6400 3850 6400 4050
+Text Notes 5100 4000 0    98   ~ 0
+OPT DISP LINE 4
+Text Notes 8250 4550 0    50   ~ 0
+OPT_DISP_4 CONN
+$Comp
+L Connector:Conn_01x05_Female J23
+U 1 1 63129507
+P 9000 5500
+F 0 "J23" V 9150 5500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 9050 5500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 9000 5500 50  0001 C CNN
+F 3 "~" H 9000 5500 50  0001 C CNN
+	1    9000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J22
+U 1 1 63129511
+P 8200 5500
+F 0 "J22" V 8350 5500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 8250 5500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 8200 5500 50  0001 C CNN
+F 3 "~" H 8200 5500 50  0001 C CNN
+	1    8200 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 8100 5000 3    50   ~ 0
+DOT2-_4
+Text Label 8100 5700 3    50   ~ 0
+DOT2+_4
+Text Label 8000 5700 3    50   ~ 0
+DOT1+_4
+Text Label 8000 5000 3    50   ~ 0
+DOT1-_4
+$Comp
+L Connector:Conn_01x05_Female J17
+U 1 1 6312951F
+P 9000 4800
+F 0 "J17" V 9150 4800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 9050 4800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 9000 4800 50  0001 C CNN
+F 3 "~" H 9000 4800 50  0001 C CNN
+	1    9000 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 8200 5700 3    50   ~ 0
+SEGDP_4
+Text Label 8300 5700 3    50   ~ 0
+SEGA_4
+Text Label 8400 5700 3    50   ~ 0
+SEGB_4
+Text Label 8800 5700 3    50   ~ 0
+SEGC_4
+Text Label 8900 5700 3    50   ~ 0
+SEGD_4
+Text Label 9000 5700 3    50   ~ 0
+SEGE_4
+Text Label 9100 5700 3    50   ~ 0
+SEGF_4
+Text Label 9200 5700 3    50   ~ 0
+SEGG_4
+$Comp
+L Connector:Conn_01x05_Female J16
+U 1 1 63129531
+P 8200 4800
+F 0 "J16" V 8350 4800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 8250 4800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 8200 4800 50  0001 C CNN
+F 3 "~" H 8200 4800 50  0001 C CNN
+	1    8200 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 9200 5000 3    50   ~ 0
+DIG7_4
+Text Label 9100 5000 3    50   ~ 0
+DIG6_4
+Text Label 9000 5000 3    50   ~ 0
+DIG5_4
+Text Label 8900 5000 3    50   ~ 0
+DIG4_4
+Text Label 8800 5000 3    50   ~ 0
+DIG3_4
+Text Label 8400 5000 3    50   ~ 0
+DIG2_4
+Text Label 8300 5000 3    50   ~ 0
+DIG1_4
+Text Label 8200 5000 3    50   ~ 0
+DIG0_4
+Wire Notes Line
+	5050 6750 5050 3850
+Wire Notes Line
+	9400 6750 5050 6750
+Wire Notes Line
+	9400 3850 9400 6750
+Wire Notes Line
+	5050 3850 9400 3850
+Text Label 5550 4250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C8
+U 1 1 6312954A
+P 5750 4350
+F 0 "C8" H 5842 4396 50  0000 L CNN
+F 1 "100nF" H 5842 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 5750 4350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 5750 4350 50  0001 C CNN "PN"
+F 5 "C1525" H 5750 4350 50  0001 C CNN "LCSC"
+	1    5750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C7
+U 1 1 63129556
+P 5550 4350
+F 0 "C7" H 5450 4400 50  0000 R CNN
+F 1 "10uF" H 5450 4300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 5550 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 5550 4350 50  0001 C CNN
+F 4 "C134721" H 5550 4350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 5550 4350 50  0001 C CNN "PN"
+	1    5550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4250 5750 4250
+Wire Wire Line
+	5550 4450 5650 4450
+$Comp
+L power:GND #PWR0107
+U 1 1 63129562
+P 5650 4450
+F 0 "#PWR0107" H 5650 4200 50  0001 C CNN
+F 1 "GND" V 5650 4250 50  0000 C CNN
+F 2 "" H 5650 4450 50  0000 C CNN
+F 3 "" H 5650 4450 50  0000 C CNN
+	1    5650 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 4450
+Wire Wire Line
+	5650 4450 5750 4450
+Wire Wire Line
+	5750 4250 6150 4250
+Connection ~ 5750 4250
+Connection ~ 6150 4250
+Wire Wire Line
+	6150 4550 6150 4750
+Wire Wire Line
+	6150 4250 6550 4250
+Wire Wire Line
+	6750 6400 6800 6400
+Connection ~ 6750 6400
+$Comp
+L power:GND #PWR0108
+U 1 1 63129575
+P 6750 6400
+F 0 "#PWR0108" H 6750 6150 50  0001 C CNN
+F 1 "GND" V 6750 6200 50  0000 C CNN
+F 2 "" H 6750 6400 50  0000 C CNN
+F 3 "" H 6750 6400 50  0000 C CNN
+	1    6750 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 6400 6750 6400
+Text Label 6150 5350 2    50   ~ 0
+CLK
+Text Label 6150 5250 2    50   ~ 0
+DIN5
+Text Label 6150 5150 2    50   ~ 0
+DIN4
+$Comp
+L Device:R R7
+U 1 1 63129586
+P 6150 4400
+F 0 "R7" H 6220 4446 50  0000 L CNN
+F 1 "25.5K" V 6150 4400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 6150 4400 50  0001 C CNN
+F 4 "C22920" H 6150 4400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 6150 4400 50  0001 C CNN "PN"
+	1    6150 4400
+	1    0    0    -1  
+$EndComp
+Text Label 7350 5450 0    50   ~ 0
+DIG0_4
+Text Label 7350 5550 0    50   ~ 0
+DIG1_4
+Text Label 7350 5650 0    50   ~ 0
+DIG2_4
+Text Label 7350 5750 0    50   ~ 0
+DIG3_4
+Text Label 7350 5850 0    50   ~ 0
+DIG4_4
+Text Label 7350 5950 0    50   ~ 0
+DIG5_4
+Text Label 7350 6050 0    50   ~ 0
+DIG6_4
+Text Label 7350 6150 0    50   ~ 0
+DIG7_4
+Text Label 7350 4550 0    50   ~ 0
+SEGDP_4
+Text Label 7350 4650 0    50   ~ 0
+SEGA_4
+Text Label 7350 4750 0    50   ~ 0
+SEGB_4
+Text Label 7350 4850 0    50   ~ 0
+SEGC_4
+Text Label 7350 4950 0    50   ~ 0
+SEGD_4
+Text Label 7350 5050 0    50   ~ 0
+SEGE_4
+Text Label 7350 5150 0    50   ~ 0
+SEGF_4
+Text Label 7350 5250 0    50   ~ 0
+SEGG_4
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U4
+U 1 1 631295A1
+P 6750 5350
+F 0 "U4" H 6750 6728 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 6750 6623 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 8450 8400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 8450 8400 80  0001 C CNN
+F 4 "C52476" H 6750 6540 50  0000 C CNN "LCSC"
+	1    6750 5350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10850 4050 9500 4050
+Wire Notes Line
+	10850 3850 10850 4050
+Text Notes 9550 4000 0    98   ~ 0
+OPT DISP LINE 5
+Text Notes 12700 4550 0    50   ~ 0
+OPT_DISP_5 CONN
+$Comp
+L Connector:Conn_01x05_Female J25
+U 1 1 6313417B
+P 13450 5500
+F 0 "J25" V 13600 5500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 13500 5500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 13450 5500 50  0001 C CNN
+F 3 "~" H 13450 5500 50  0001 C CNN
+	1    13450 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J24
+U 1 1 63134185
+P 12650 5500
+F 0 "J24" V 12800 5500 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 12700 5500 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 12650 5500 50  0001 C CNN
+F 3 "~" H 12650 5500 50  0001 C CNN
+	1    12650 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 12550 5000 3    50   ~ 0
+DOT2-_5
+Text Label 12550 5700 3    50   ~ 0
+DOT2+_5
+Text Label 12450 5700 3    50   ~ 0
+DOT1+_5
+Text Label 12450 5000 3    50   ~ 0
+DOT1-_5
+$Comp
+L Connector:Conn_01x05_Female J19
+U 1 1 63134193
+P 13450 4800
+F 0 "J19" V 13600 4800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 13500 4800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 13450 4800 50  0001 C CNN
+F 3 "~" H 13450 4800 50  0001 C CNN
+	1    13450 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 12650 5700 3    50   ~ 0
+SEGDP_5
+Text Label 12750 5700 3    50   ~ 0
+SEGA_5
+Text Label 12850 5700 3    50   ~ 0
+SEGB_5
+Text Label 13250 5700 3    50   ~ 0
+SEGC_5
+Text Label 13350 5700 3    50   ~ 0
+SEGD_5
+Text Label 13450 5700 3    50   ~ 0
+SEGE_5
+Text Label 13550 5700 3    50   ~ 0
+SEGF_5
+Text Label 13650 5700 3    50   ~ 0
+SEGG_5
+$Comp
+L Connector:Conn_01x05_Female J18
+U 1 1 631341A5
+P 12650 4800
+F 0 "J18" V 12800 4800 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 12700 4800 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 12650 4800 50  0001 C CNN
+F 3 "~" H 12650 4800 50  0001 C CNN
+	1    12650 4800
+	0    -1   -1   0   
+$EndComp
+Text Label 13650 5000 3    50   ~ 0
+DIG7_5
+Text Label 13550 5000 3    50   ~ 0
+DIG6_5
+Text Label 13450 5000 3    50   ~ 0
+DIG5_5
+Text Label 13350 5000 3    50   ~ 0
+DIG4_5
+Text Label 13250 5000 3    50   ~ 0
+DIG3_5
+Text Label 12850 5000 3    50   ~ 0
+DIG2_5
+Text Label 12750 5000 3    50   ~ 0
+DIG1_5
+Text Label 12650 5000 3    50   ~ 0
+DIG0_5
+Wire Notes Line
+	9500 6750 9500 3850
+Wire Notes Line
+	13850 6750 9500 6750
+Wire Notes Line
+	13850 3850 13850 6750
+Wire Notes Line
+	9500 3850 13850 3850
+Text Label 10000 4250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C10
+U 1 1 631341BE
+P 10200 4350
+F 0 "C10" H 10292 4396 50  0000 L CNN
+F 1 "100nF" H 10292 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10200 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 10200 4350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 10200 4350 50  0001 C CNN "PN"
+F 5 "C1525" H 10200 4350 50  0001 C CNN "LCSC"
+	1    10200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C9
+U 1 1 631341CA
+P 10000 4350
+F 0 "C9" H 9900 4400 50  0000 R CNN
+F 1 "10uF" H 9900 4300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10000 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 10000 4350 50  0001 C CNN
+F 4 "C134721" H 10000 4350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 10000 4350 50  0001 C CNN "PN"
+	1    10000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4250 10200 4250
+Wire Wire Line
+	10000 4450 10100 4450
+$Comp
+L power:GND #PWR0109
+U 1 1 631341D6
+P 10100 4450
+F 0 "#PWR0109" H 10100 4200 50  0001 C CNN
+F 1 "GND" V 10100 4250 50  0000 C CNN
+F 2 "" H 10100 4450 50  0000 C CNN
+F 3 "" H 10100 4450 50  0000 C CNN
+	1    10100 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 4450
+Wire Wire Line
+	10100 4450 10200 4450
+Wire Wire Line
+	10200 4250 10600 4250
+Connection ~ 10200 4250
+Connection ~ 10600 4250
+Wire Wire Line
+	10600 4550 10600 4750
+Wire Wire Line
+	10600 4250 11000 4250
+Wire Wire Line
+	11200 6400 11250 6400
+Connection ~ 11200 6400
+$Comp
+L power:GND #PWR0110
+U 1 1 631341E9
+P 11200 6400
+F 0 "#PWR0110" H 11200 6150 50  0001 C CNN
+F 1 "GND" V 11200 6200 50  0000 C CNN
+F 2 "" H 11200 6400 50  0000 C CNN
+F 3 "" H 11200 6400 50  0000 C CNN
+	1    11200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 6400 11200 6400
+Text Label 10600 5350 2    50   ~ 0
+CLK
+Text Label 10600 5250 2    50   ~ 0
+DIN6
+Text Label 10600 5150 2    50   ~ 0
+DIN5
+$Comp
+L Device:R R8
+U 1 1 631341FA
+P 10600 4400
+F 0 "R8" H 10670 4446 50  0000 L CNN
+F 1 "25.5K" V 10600 4400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10530 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 10600 4400 50  0001 C CNN
+F 4 "C22920" H 10600 4400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 10600 4400 50  0001 C CNN "PN"
+	1    10600 4400
+	1    0    0    -1  
+$EndComp
+Text Label 11800 5450 0    50   ~ 0
+DIG0_5
+Text Label 11800 5550 0    50   ~ 0
+DIG1_5
+Text Label 11800 5650 0    50   ~ 0
+DIG2_5
+Text Label 11800 5750 0    50   ~ 0
+DIG3_5
+Text Label 11800 5850 0    50   ~ 0
+DIG4_5
+Text Label 11800 5950 0    50   ~ 0
+DIG5_5
+Text Label 11800 6050 0    50   ~ 0
+DIG6_5
+Text Label 11800 6150 0    50   ~ 0
+DIG7_5
+Text Label 11800 4550 0    50   ~ 0
+SEGDP_5
+Text Label 11800 4650 0    50   ~ 0
+SEGA_5
+Text Label 11800 4750 0    50   ~ 0
+SEGB_5
+Text Label 11800 4850 0    50   ~ 0
+SEGC_5
+Text Label 11800 4950 0    50   ~ 0
+SEGD_5
+Text Label 11800 5050 0    50   ~ 0
+SEGE_5
+Text Label 11800 5150 0    50   ~ 0
+SEGF_5
+Text Label 11800 5250 0    50   ~ 0
+SEGG_5
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U5
+U 1 1 63134215
+P 11200 5350
+F 0 "U5" H 11200 6728 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 11200 6623 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 12900 8400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 12900 8400 80  0001 C CNN
+F 4 "C52476" H 11200 6540 50  0000 C CNN "LCSC"
+	1    11200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J14
+U 1 1 63634AC2
+P 17050 4150
+F 0 "J14" V 17200 4150 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17100 4150 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 4150 50  0001 C CNN
+F 3 "~" H 17050 4150 50  0001 C CNN
+	1    17050 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J15
+U 1 1 63634ACC
+P 17850 4150
+F 0 "J15" V 18000 4150 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17900 4150 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17850 4150 50  0001 C CNN
+F 3 "~" H 17850 4150 50  0001 C CNN
+	1    17850 4150
+	0    -1   -1   0   
+$EndComp
+Text Notes 14000 4000 0    98   ~ 0
+OPT DOTS & COMM 1/2
+Text Notes 17300 4000 0    50   ~ 0
+COMM_1
+Wire Notes Line
+	13950 6750 13950 3850
+Wire Notes Line
+	18300 6750 13950 6750
+Wire Notes Line
+	18300 3850 18300 6750
+Wire Notes Line
+	13950 3850 18300 3850
+Text Label 14450 4250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C12
+U 1 1 63634ADF
+P 14650 4350
+F 0 "C12" H 14742 4396 50  0000 L CNN
+F 1 "100nF" H 14742 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14650 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 14650 4350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 14650 4350 50  0001 C CNN "PN"
+F 5 "C1525" H 14650 4350 50  0001 C CNN "LCSC"
+	1    14650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C11
+U 1 1 63634AEB
+P 14450 4350
+F 0 "C11" H 14350 4400 50  0000 R CNN
+F 1 "10uF" H 14350 4300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 14450 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 14450 4350 50  0001 C CNN
+F 4 "C134721" H 14450 4350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 14450 4350 50  0001 C CNN "PN"
+	1    14450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 4250 14650 4250
+Wire Wire Line
+	14450 4450 14550 4450
+$Comp
+L power:GND #PWR0111
+U 1 1 63634AF7
+P 14550 4450
+F 0 "#PWR0111" H 14550 4200 50  0001 C CNN
+F 1 "GND" V 14550 4250 50  0000 C CNN
+F 2 "" H 14550 4450 50  0000 C CNN
+F 3 "" H 14550 4450 50  0000 C CNN
+	1    14550 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 14550 4450
+Wire Wire Line
+	14550 4450 14650 4450
+Wire Wire Line
+	14650 4250 15050 4250
+Connection ~ 14650 4250
+Connection ~ 15050 4250
+Wire Wire Line
+	15050 4550 15050 4750
+Wire Wire Line
+	15050 4250 15450 4250
+Wire Wire Line
+	15650 6400 15700 6400
+Connection ~ 15650 6400
+$Comp
+L power:GND #PWR0112
+U 1 1 63634B0A
+P 15650 6400
+F 0 "#PWR0112" H 15650 6150 50  0001 C CNN
+F 1 "GND" V 15650 6200 50  0000 C CNN
+F 2 "" H 15650 6400 50  0000 C CNN
+F 3 "" H 15650 6400 50  0000 C CNN
+	1    15650 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 6400 15650 6400
+Text Label 15050 5350 2    50   ~ 0
+CLK
+Text Label 15050 5250 2    50   ~ 0
+DIN7
+Text Label 15050 5150 2    50   ~ 0
+DIN6
+$Comp
+L Device:R R9
+U 1 1 63634B1B
+P 15050 4400
+F 0 "R9" H 15120 4446 50  0000 L CNN
+F 1 "25.5K" V 15050 4400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14980 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 15050 4400 50  0001 C CNN
+F 4 "C22920" H 15050 4400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 15050 4400 50  0001 C CNN "PN"
+	1    15050 4400
+	1    0    0    -1  
+$EndComp
+Text Label 16250 4550 0    50   ~ 0
+SEGDP_6
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U6
+U 1 1 63634B27
+P 15650 5350
+F 0 "U6" H 15750 6550 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 15750 6450 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 17350 8400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 17350 8400 80  0001 C CNN
+F 4 "C52476" H 15750 6350 50  0000 C CNN "LCSC"
+	1    15650 5350
+	1    0    0    -1  
+$EndComp
+Text Label 18050 4350 3    50   ~ 0
+DIG7_6
+Text Label 17950 4350 3    50   ~ 0
+DIG6_6
+Text Label 17850 4350 3    50   ~ 0
+DIG5_6
+Text Label 17750 4350 3    50   ~ 0
+DIG4_6
+Text Label 17650 4350 3    50   ~ 0
+DIG3_6
+Text Label 17250 4350 3    50   ~ 0
+DIG2_6
+Text Label 17150 4350 3    50   ~ 0
+DIG1_6
+Text Label 17050 4350 3    50   ~ 0
+DIG0_6
+Text Label 16850 5050 3    50   ~ 0
+SEGB_6
+Text Label 16950 4350 3    50   ~ 0
+SEGA_6
+Text Label 16250 5250 0    50   ~ 0
+SEGG_6
+Text Label 16250 5150 0    50   ~ 0
+SEGF_6
+Text Label 16250 5050 0    50   ~ 0
+SEGE_6
+Text Label 16250 4950 0    50   ~ 0
+SEGD_6
+Text Label 16250 4850 0    50   ~ 0
+SEGC_6
+Text Label 16250 4750 0    50   ~ 0
+SEGB_6
+Text Label 16250 4650 0    50   ~ 0
+SEGA_6
+Text Label 16250 6150 0    50   ~ 0
+DIG7_6
+Text Label 16250 6050 0    50   ~ 0
+DIG6_6
+Text Label 16250 5950 0    50   ~ 0
+DIG5_6
+Text Label 16250 5850 0    50   ~ 0
+DIG4_6
+Text Label 16250 5750 0    50   ~ 0
+DIG3_6
+Text Label 16250 5650 0    50   ~ 0
+DIG2_6
+Text Label 16250 5550 0    50   ~ 0
+DIG1_6
+Text Label 16250 5450 0    50   ~ 0
+DIG0_6
+$Comp
+L Connector:Conn_01x05_Female J20
+U 1 1 63634B4A
+P 17050 4850
+F 0 "J20" V 17200 4850 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17100 4850 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 4850 50  0001 C CNN
+F 3 "~" H 17050 4850 50  0001 C CNN
+	1    17050 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x05_Female J21
+U 1 1 63634B54
+P 17850 4850
+F 0 "J21" V 18000 4850 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17900 4850 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17850 4850 50  0001 C CNN
+F 3 "~" H 17850 4850 50  0001 C CNN
+	1    17850 4850
+	0    -1   -1   0   
+$EndComp
+Text Notes 17300 4700 0    50   ~ 0
+COMM_2
+Text Label 18050 5050 3    50   ~ 0
+DIG7_6
+Text Label 17950 5050 3    50   ~ 0
+DIG6_6
+Text Label 17850 5050 3    50   ~ 0
+DIG5_6
+Text Label 17750 5050 3    50   ~ 0
+DIG4_6
+Text Label 17650 5050 3    50   ~ 0
+DIG3_6
+Text Label 17250 5050 3    50   ~ 0
+DIG2_6
+Text Label 17150 5050 3    50   ~ 0
+DIG1_6
+Text Label 17050 5050 3    50   ~ 0
+DIG0_6
+Text Label 16850 5800 3    50   ~ 0
+SEGD_6
+Text Label 16950 5050 3    50   ~ 0
+SEGC_6
+Text Label 8050 8050 2    50   ~ 0
+DOT1-
+Text Label 8050 8250 2    50   ~ 0
+DOT2-
+Text Label 8050 7950 2    50   ~ 0
+DOT1+
+Text Label 8050 8150 2    50   ~ 0
+DOT2+
+Text Label 8050 8450 2    50   ~ 0
+DOT1-_2
+Text Label 8050 8650 2    50   ~ 0
+DOT2-_2
+Text Label 8050 8350 2    50   ~ 0
+DOT1+_2
+Text Label 8050 8550 2    50   ~ 0
+DOT2+_2
+Text Label 8050 9050 2    50   ~ 0
+DOT2-_3
+Text Label 8050 8850 2    50   ~ 0
+DOT1-_3
+Text Label 8050 8950 2    50   ~ 0
+DOT2+_3
+Text Label 8050 8750 2    50   ~ 0
+DOT1+_3
+Text Label 8900 8250 2    50   ~ 0
+DOT2-_4
+Text Label 8900 8050 2    50   ~ 0
+DOT1-_4
+Text Label 8900 8150 2    50   ~ 0
+DOT2+_4
+Text Label 8900 7950 2    50   ~ 0
+DOT1+_4
+Text Label 8900 8550 2    50   ~ 0
+DOT2+_5
+Text Label 8900 8350 2    50   ~ 0
+DOT1+_5
+Text Label 8900 8650 2    50   ~ 0
+DOT2-_5
+Text Label 8900 8450 2    50   ~ 0
+DOT1-_5
+Wire Notes Line
+	15850 4050 15850 3850
+Wire Notes Line
+	13950 4050 15850 4050
+Wire Wire Line
+	8050 7950 8150 7950
+Wire Wire Line
+	8050 8050 8150 8050
+Wire Wire Line
+	8050 8150 8150 8150
+Wire Wire Line
+	8050 8250 8150 8250
+Wire Wire Line
+	8050 8350 8150 8350
+Wire Wire Line
+	8050 8450 8150 8450
+Wire Wire Line
+	8050 8550 8150 8550
+Wire Wire Line
+	8050 8650 8150 8650
+Wire Wire Line
+	8050 8750 8150 8750
+Wire Wire Line
+	8150 8850 8050 8850
+Wire Wire Line
+	8050 8950 8150 8950
+Wire Wire Line
+	8900 7950 9000 7950
+Wire Wire Line
+	9000 8050 8900 8050
+Wire Wire Line
+	8900 8150 9000 8150
+Wire Wire Line
+	9000 8250 8900 8250
+Wire Wire Line
+	8900 8350 9000 8350
+Wire Wire Line
+	9000 8450 8900 8450
+Wire Wire Line
+	8900 8550 9000 8550
+Wire Wire Line
+	9000 8650 8900 8650
+Wire Wire Line
+	8150 9050 8050 9050
+Text Label 16850 4350 3    50   ~ 0
+SEGDP_6
+Text Label 17150 5800 3    50   ~ 0
+SEGG_6
+Text Label 17050 5800 3    50   ~ 0
+SEGF_6
+Text Label 16950 5800 3    50   ~ 0
+SEGE_6
+Text Label 18150 5800 3    50   ~ 0
+DIG7_6
+Text Label 18050 5800 3    50   ~ 0
+DIG6_6
+Text Label 17950 5800 3    50   ~ 0
+DIG5_6
+Text Label 17850 5800 3    50   ~ 0
+DIG4_6
+Text Label 17750 5800 3    50   ~ 0
+DIG3_6
+Text Label 17650 5800 3    50   ~ 0
+DIG2_6
+Text Label 17550 5800 3    50   ~ 0
+DIG1_6
+Text Label 17450 5800 3    50   ~ 0
+DIG0_6
+Text Notes 5100 7000 0    98   ~ 0
+SCRATCHPAD DIG1-4 & OPT DOTS
+Wire Notes Line
+	5050 9750 5050 6850
+Wire Notes Line
+	9400 9750 5050 9750
+Wire Notes Line
+	9400 6850 9400 9750
+Wire Notes Line
+	5050 6850 9400 6850
+Text Label 5550 7250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C14
+U 1 1 63CA0C86
+P 5750 7350
+F 0 "C14" H 5842 7396 50  0000 L CNN
+F 1 "100nF" H 5842 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 7350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 5750 7350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 5750 7350 50  0001 C CNN "PN"
+F 5 "C1525" H 5750 7350 50  0001 C CNN "LCSC"
+	1    5750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C13
+U 1 1 63CA0C92
+P 5550 7350
+F 0 "C13" H 5450 7400 50  0000 R CNN
+F 1 "10uF" H 5450 7300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 5550 7350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 5550 7350 50  0001 C CNN
+F 4 "C134721" H 5550 7350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 5550 7350 50  0001 C CNN "PN"
+	1    5550 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7250 5750 7250
+Wire Wire Line
+	5550 7450 5650 7450
+$Comp
+L power:GND #PWR0113
+U 1 1 63CA0C9E
+P 5650 7450
+F 0 "#PWR0113" H 5650 7200 50  0001 C CNN
+F 1 "GND" V 5650 7250 50  0000 C CNN
+F 2 "" H 5650 7450 50  0000 C CNN
+F 3 "" H 5650 7450 50  0000 C CNN
+	1    5650 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 7450
+Wire Wire Line
+	5650 7450 5750 7450
+Wire Wire Line
+	5750 7250 6150 7250
+Connection ~ 5750 7250
+Connection ~ 6150 7250
+Wire Wire Line
+	6150 7550 6150 7750
+Wire Wire Line
+	6150 7250 6550 7250
+Wire Wire Line
+	6750 9400 6800 9400
+Connection ~ 6750 9400
+$Comp
+L power:GND #PWR0114
+U 1 1 63CA0CB1
+P 6750 9400
+F 0 "#PWR0114" H 6750 9150 50  0001 C CNN
+F 1 "GND" V 6750 9200 50  0000 C CNN
+F 2 "" H 6750 9400 50  0000 C CNN
+F 3 "" H 6750 9400 50  0000 C CNN
+	1    6750 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 9400 6750 9400
+Text Label 6150 8350 2    50   ~ 0
+CLK
+Text Label 6150 8250 2    50   ~ 0
+DIN8
+Text Label 6150 8150 2    50   ~ 0
+DIN7
+$Comp
+L Device:R R13
+U 1 1 63CA0CC2
+P 6150 7400
+F 0 "R13" H 6220 7446 50  0000 L CNN
+F 1 "25.5K" V 6150 7400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 7400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 6150 7400 50  0001 C CNN
+F 4 "C22920" H 6150 7400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 6150 7400 50  0001 C CNN "PN"
+	1    6150 7400
+	1    0    0    -1  
+$EndComp
+Text Label 7350 7550 0    50   ~ 0
+SEGDP_7
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U7
+U 1 1 63CA0CCE
+P 6750 8350
+F 0 "U7" H 6850 9550 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 6850 9450 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 8450 11400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 8450 11400 80  0001 C CNN
+F 4 "C52476" H 6850 9350 50  0000 C CNN "LCSC"
+	1    6750 8350
+	1    0    0    -1  
+$EndComp
+Text Label 7350 8250 0    50   ~ 0
+SEGG_7
+Text Label 7350 8150 0    50   ~ 0
+SEGF_7
+Text Label 7350 8050 0    50   ~ 0
+SEGE_7
+Text Label 7350 7950 0    50   ~ 0
+SEGD_7
+Text Label 7350 7850 0    50   ~ 0
+SEGC_7
+Text Label 7350 7750 0    50   ~ 0
+SEGB_7
+Text Label 7350 7650 0    50   ~ 0
+SEGA_7
+Text Label 7350 9150 0    50   ~ 0
+DIG7_7
+Text Label 7350 9050 0    50   ~ 0
+DIG6_7
+Text Label 7350 8950 0    50   ~ 0
+DIG5_7
+Text Label 7350 8850 0    50   ~ 0
+DIG4_7
+Text Label 7350 8750 0    50   ~ 0
+DIG3_7
+Text Label 7350 8650 0    50   ~ 0
+DIG2_7
+Text Label 7350 8550 0    50   ~ 0
+DIG1_7
+Text Label 7350 8450 0    50   ~ 0
+DIG0_7
+Wire Notes Line
+	7700 7050 7700 6850
+Wire Notes Line
+	5050 7050 7700 7050
+Text Notes 8300 7100 0    50   ~ 0
+SCRTPAD\nDIG #1 - #4
+Text Label 8450 7450 3    50   ~ 0
+SEGG_7
+Text Label 8350 7450 3    50   ~ 0
+SEGF_7
+Text Label 8250 7450 3    50   ~ 0
+SEGE_7
+Text Label 8150 7450 3    50   ~ 0
+SEGD_7
+Text Label 8050 7450 3    50   ~ 0
+SEGC_7
+Text Label 7950 7450 3    50   ~ 0
+SEGB_7
+Text Label 7850 7450 3    50   ~ 0
+SEGA_7
+Text Label 9150 7450 3    50   ~ 0
+DIG3_7
+Text Label 9050 7450 3    50   ~ 0
+DIG2_7
+Text Label 8950 7450 3    50   ~ 0
+DIG1_7
+Text Label 8850 7450 3    50   ~ 0
+DIG0_7
+Text Label 8150 7950 0    50   ~ 0
+DIG4_7
+Text Label 8150 8150 0    50   ~ 0
+DIG4_7
+Text Label 8150 8350 0    50   ~ 0
+DIG4_7
+Text Label 8150 8550 0    50   ~ 0
+DIG4_7
+Text Label 8150 8750 0    50   ~ 0
+DIG4_7
+Text Label 8150 8950 0    50   ~ 0
+DIG4_7
+Text Label 9000 7950 0    50   ~ 0
+DIG4_7
+Text Label 9000 8350 0    50   ~ 0
+DIG5_7
+Text Label 9000 8550 0    50   ~ 0
+DIG5_7
+Text Label 9000 8150 0    50   ~ 0
+DIG4_7
+Text Label 8150 8050 0    50   ~ 0
+SEGDP_7
+Text Label 8150 8250 0    50   ~ 0
+SEGA_7
+Text Label 8150 8450 0    50   ~ 0
+SEGB_7
+Text Label 8150 8650 0    50   ~ 0
+SEGC_7
+Text Label 8150 8850 0    50   ~ 0
+SEGD_7
+Text Label 8150 9050 0    50   ~ 0
+SEGE_7
+Text Label 9000 8050 0    50   ~ 0
+SEGF_7
+Text Label 9000 8250 0    50   ~ 0
+SEGG_7
+Text Label 9000 8450 0    50   ~ 0
+SEGDP_7
+Text Label 9000 8650 0    50   ~ 0
+SEGA_7
+Text Notes 8300 7850 0    59   ~ 0
+OPT DOTS
+Text Notes 9550 7000 0    98   ~ 0
+SCRATCHPAD DIG 5-9
+Wire Notes Line
+	9500 9750 9500 6850
+Wire Notes Line
+	13850 9750 9500 9750
+Wire Notes Line
+	13850 6850 13850 9750
+Wire Notes Line
+	9500 6850 13850 6850
+Text Label 10000 7250 2    50   ~ 0
++5V_SUPPLY
+$Comp
+L Device:C_Small C16
+U 1 1 643781AE
+P 10200 7350
+F 0 "C16" H 10292 7396 50  0000 L CNN
+F 1 "100nF" H 10292 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10200 7350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 10200 7350 50  0001 C CNN
+F 4 "CL05B104KO5NNNC" H 10200 7350 50  0001 C CNN "PN"
+F 5 "C1525" H 10200 7350 50  0001 C CNN "LCSC"
+	1    10200 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C15
+U 1 1 643781BA
+P 10000 7350
+F 0 "C15" H 9900 7400 50  0000 R CNN
+F 1 "10uF" H 9900 7300 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10000 7350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 10000 7350 50  0001 C CNN
+F 4 "C134721" H 10000 7350 50  0001 C CNN "LCSC"
+F 5 "VE-100M1ETR-0405" H 10000 7350 50  0001 C CNN "PN"
+	1    10000 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 7250 10200 7250
+Wire Wire Line
+	10000 7450 10100 7450
+$Comp
+L power:GND #PWR0115
+U 1 1 643781C6
+P 10100 7450
+F 0 "#PWR0115" H 10100 7200 50  0001 C CNN
+F 1 "GND" V 10100 7250 50  0000 C CNN
+F 2 "" H 10100 7450 50  0000 C CNN
+F 3 "" H 10100 7450 50  0000 C CNN
+	1    10100 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 7450
+Wire Wire Line
+	10100 7450 10200 7450
+Wire Wire Line
+	10200 7250 10600 7250
+Connection ~ 10200 7250
+Connection ~ 10600 7250
+Wire Wire Line
+	10600 7550 10600 7750
+Wire Wire Line
+	10600 7250 11000 7250
+Wire Wire Line
+	11200 9400 11250 9400
+Connection ~ 11200 9400
+$Comp
+L power:GND #PWR0116
+U 1 1 643781D9
+P 11200 9400
+F 0 "#PWR0116" H 11200 9150 50  0001 C CNN
+F 1 "GND" V 11200 9200 50  0000 C CNN
+F 2 "" H 11200 9400 50  0000 C CNN
+F 3 "" H 11200 9400 50  0000 C CNN
+	1    11200 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11150 9400 11200 9400
+Text Label 10600 8350 2    50   ~ 0
+CLK
+Text Label 10600 8150 2    50   ~ 0
+DIN8
+$Comp
+L Device:R R14
+U 1 1 643781EA
+P 10600 7400
+F 0 "R14" H 10670 7446 50  0000 L CNN
+F 1 "25.5K" V 10600 7400 31  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10530 7400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF2552T5E_C22920.pdf" H 10600 7400 50  0001 C CNN
+F 4 "C22920" H 10600 7400 50  0001 C CNN "LCSC"
+F 5 "0603WAF2552T5E" H 10600 7400 50  0001 C CNN "PN"
+	1    10600 7400
+	1    0    0    -1  
+$EndComp
+Text Label 11800 7550 0    50   ~ 0
+SEGDP_8
+$Comp
+L KiCadCustomLib:MAX7219EWG+T U8
+U 1 1 643781F6
+P 11200 8350
+F 0 "U8" H 11300 9550 80  0000 C CNN
+F 1 "MAX7219EWG+T" H 11300 9450 39  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 12900 11400 80  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf" H 12900 11400 80  0001 C CNN
+F 4 "C52476" H 11300 9350 50  0000 C CNN "LCSC"
+	1    11200 8350
+	1    0    0    -1  
+$EndComp
+Text Label 11800 8250 0    50   ~ 0
+SEGG_8
+Text Label 11800 8150 0    50   ~ 0
+SEGF_8
+Text Label 11800 8050 0    50   ~ 0
+SEGE_8
+Text Label 11800 7950 0    50   ~ 0
+SEGD_8
+Text Label 11800 7850 0    50   ~ 0
+SEGC_8
+Text Label 11800 7750 0    50   ~ 0
+SEGB_8
+Text Label 11800 7650 0    50   ~ 0
+SEGA_8
+Text Label 11800 9150 0    50   ~ 0
+DIG7_8
+Text Label 11800 9050 0    50   ~ 0
+DIG6_8
+Text Label 11800 8950 0    50   ~ 0
+DIG5_8
+Text Label 11800 8850 0    50   ~ 0
+DIG4_8
+Text Label 11800 8750 0    50   ~ 0
+DIG3_8
+Text Label 11800 8650 0    50   ~ 0
+DIG2_8
+Text Label 11800 8550 0    50   ~ 0
+DIG1_8
+Text Label 11800 8450 0    50   ~ 0
+DIG0_8
+Wire Notes Line
+	11400 7050 11400 6850
+Wire Notes Line
+	9500 7050 11400 7050
+Text Label 12900 7450 3    50   ~ 0
+SEGG_8
+Text Label 12800 7450 3    50   ~ 0
+SEGF_8
+Text Label 12700 7450 3    50   ~ 0
+SEGE_8
+Text Label 12600 7450 3    50   ~ 0
+SEGD_8
+Text Label 12500 7450 3    50   ~ 0
+SEGC_8
+Text Label 12400 7450 3    50   ~ 0
+SEGB_8
+Text Label 12300 7450 3    50   ~ 0
+SEGA_8
+Text Label 13600 7450 3    50   ~ 0
+DIG4_8
+Text Label 13500 7450 3    50   ~ 0
+DIG3_8
+Text Label 13400 7450 3    50   ~ 0
+DIG2_8
+Text Label 13300 7450 3    50   ~ 0
+DIG1_8
+Text Label 13200 7450 3    50   ~ 0
+DIG0_8
+Text Notes 12750 7100 0    50   ~ 0
+SCRTPAD\nDIG #5 - #9
+$Comp
+L KiCadCustomLib:TL1240GQ SW18
+U 1 1 64B2CAF4
+P 14150 13950
+F 0 "SW18" H 14150 14335 50  0000 C CNN
+F 1 "TL1240GQ" H 14150 14244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 14150 14250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 14150 14250 50  0001 C CNN
+F 4 "TL1240GQ" H 14150 14250 98  0001 C CNN "PN"
+	1    14150 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 64D891A1
+P 5650 10650
+F 0 "D1" V 5597 10728 50  0000 L CNN
+F 1 "LED" V 5688 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5650 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5650 10650 50  0001 C CNN
+F 4 "C130723" V 5650 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5650 10650 50  0001 C CNN "PN"
+	1    5650 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 64D891AD
+P 6050 10650
+F 0 "D2" V 5997 10728 50  0000 L CNN
+F 1 "LED" V 6088 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6050 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6050 10650 50  0001 C CNN
+F 4 "C130723" V 6050 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 6050 10650 50  0001 C CNN "PN"
+	1    6050 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 64D891B9
+P 6450 10650
+F 0 "D3" V 6397 10728 50  0000 L CNN
+F 1 "LED" V 6488 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6450 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6450 10650 50  0001 C CNN
+F 4 "C130723" V 6450 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 6450 10650 50  0001 C CNN "PN"
+	1    6450 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 64D891C5
+P 6850 10650
+F 0 "D4" V 6797 10728 50  0000 L CNN
+F 1 "LED" V 6888 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6850 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6850 10650 50  0001 C CNN
+F 4 "C130723" V 6850 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 6850 10650 50  0001 C CNN "PN"
+	1    6850 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 64D891E9
+P 8050 10650
+F 0 "D5" V 7997 10728 50  0000 L CNN
+F 1 "LED" V 8088 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8050 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8050 10650 50  0001 C CNN
+F 4 "C130723" V 8050 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8050 10650 50  0001 C CNN "PN"
+	1    8050 10650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 64D891F5
+P 8450 10650
+F 0 "D6" V 8397 10728 50  0000 L CNN
+F 1 "LED" V 8488 10728 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8450 10650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8450 10650 50  0001 C CNN
+F 4 "C130723" V 8450 10650 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8450 10650 50  0001 C CNN "PN"
+	1    8450 10650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 10800 5650 10800
+Connection ~ 5650 10800
+Wire Wire Line
+	5650 10800 6050 10800
+Connection ~ 6050 10800
+Wire Wire Line
+	6050 10800 6450 10800
+Connection ~ 6450 10800
+Wire Wire Line
+	6450 10800 6850 10800
+Connection ~ 6850 10800
+Connection ~ 8050 10800
+Wire Wire Line
+	8050 10800 8450 10800
+$Comp
+L Device:LED D7
+U 1 1 64D89258
+P 8050 11100
+F 0 "D7" V 7997 11178 50  0000 L CNN
+F 1 "LED" V 8088 11178 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8050 11100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8050 11100 50  0001 C CNN
+F 4 "C130723" V 8050 11100 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8050 11100 50  0001 C CNN "PN"
+	1    8050 11100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 64D89264
+P 8450 11100
+F 0 "D8" V 8397 11178 50  0000 L CNN
+F 1 "LED" V 8488 11178 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8450 11100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8450 11100 50  0001 C CNN
+F 4 "C130723" V 8450 11100 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8450 11100 50  0001 C CNN "PN"
+	1    8450 11100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 11250 8450 11250
+$Comp
+L Device:LED D10
+U 1 1 64D892BB
+P 7650 11550
+F 0 "D10" V 7597 11628 50  0000 L CNN
+F 1 "LED" V 7688 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 7650 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7650 11550 50  0001 C CNN
+F 4 "C130723" V 7650 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 7650 11550 50  0001 C CNN "PN"
+	1    7650 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 64D892C7
+P 8050 11550
+F 0 "D11" V 7997 11628 50  0000 L CNN
+F 1 "LED" V 8088 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8050 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8050 11550 50  0001 C CNN
+F 4 "C130723" V 8050 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8050 11550 50  0001 C CNN "PN"
+	1    8050 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 64D892D3
+P 8450 11550
+F 0 "D12" V 8397 11628 50  0000 L CNN
+F 1 "LED" V 8488 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8450 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8450 11550 50  0001 C CNN
+F 4 "C130723" V 8450 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8450 11550 50  0001 C CNN "PN"
+	1    8450 11550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 11700 8050 11700
+Connection ~ 8050 11700
+Wire Wire Line
+	8050 11700 8450 11700
+$Comp
+L Device:LED D16
+U 1 1 64D8932A
+P 7650 12000
+F 0 "D16" V 7597 12078 50  0000 L CNN
+F 1 "LED" V 7688 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 7650 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7650 12000 50  0001 C CNN
+F 4 "C130723" V 7650 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 7650 12000 50  0001 C CNN "PN"
+	1    7650 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 64D89336
+P 8050 12000
+F 0 "D17" V 7997 12078 50  0000 L CNN
+F 1 "LED" V 8088 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8050 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8050 12000 50  0001 C CNN
+F 4 "C130723" V 8050 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8050 12000 50  0001 C CNN "PN"
+	1    8050 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 64D89342
+P 8450 12000
+F 0 "D18" V 8397 12078 50  0000 L CNN
+F 1 "LED" V 8488 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8450 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8450 12000 50  0001 C CNN
+F 4 "C130723" V 8450 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8450 12000 50  0001 C CNN "PN"
+	1    8450 12000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 12150 8050 12150
+Connection ~ 8050 12150
+Wire Wire Line
+	8050 12150 8450 12150
+$Comp
+L Device:LED D22
+U 1 1 64D89399
+P 7650 12450
+F 0 "D22" V 7597 12528 50  0000 L CNN
+F 1 "LED" V 7688 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 7650 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7650 12450 50  0001 C CNN
+F 4 "C130723" V 7650 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 7650 12450 50  0001 C CNN "PN"
+	1    7650 12450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 64D893A5
+P 8050 12450
+F 0 "D23" V 7997 12528 50  0000 L CNN
+F 1 "LED" V 8088 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8050 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8050 12450 50  0001 C CNN
+F 4 "C130723" V 8050 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8050 12450 50  0001 C CNN "PN"
+	1    8050 12450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 64D893B1
+P 8450 12450
+F 0 "D24" V 8397 12528 50  0000 L CNN
+F 1 "LED" V 8488 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 8450 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 8450 12450 50  0001 C CNN
+F 4 "C130723" V 8450 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 8450 12450 50  0001 C CNN "PN"
+	1    8450 12450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 12600 8050 12600
+Connection ~ 8050 12600
+Wire Wire Line
+	8050 12600 8450 12600
+Wire Wire Line
+	8700 10400 8700 10500
+Wire Wire Line
+	8700 13650 8450 13650
+Wire Wire Line
+	8300 10400 8300 10500
+Wire Wire Line
+	7900 13650 7650 13650
+Wire Wire Line
+	7100 10400 7100 10500
+Wire Wire Line
+	6700 10400 6700 10500
+Wire Wire Line
+	6300 10400 6300 10500
+Wire Wire Line
+	5900 10400 5900 10500
+Wire Wire Line
+	8450 13200 8700 13200
+Connection ~ 8700 13200
+Wire Wire Line
+	8450 12750 8700 12750
+Connection ~ 8700 12750
+Wire Wire Line
+	8450 12300 8700 12300
+Connection ~ 8700 12300
+Wire Wire Line
+	8450 11850 8700 11850
+Connection ~ 8700 11850
+Wire Wire Line
+	8450 11400 8700 11400
+Connection ~ 8700 11400
+Wire Wire Line
+	8450 10950 8700 10950
+Connection ~ 8700 10950
+Wire Wire Line
+	8450 10500 8700 10500
+Connection ~ 8700 10500
+Wire Wire Line
+	8050 10500 8300 10500
+Connection ~ 8300 10500
+Wire Wire Line
+	8300 10500 8300 10950
+Wire Wire Line
+	8050 10950 8300 10950
+Connection ~ 8300 10950
+Wire Wire Line
+	8300 10950 8300 11400
+Wire Wire Line
+	7100 10500 6850 10500
+Wire Wire Line
+	6700 10500 6450 10500
+Wire Wire Line
+	7650 11400 7900 11400
+Connection ~ 7900 11400
+Wire Wire Line
+	7900 11400 7900 11850
+Wire Wire Line
+	8050 11400 8300 11400
+Connection ~ 8300 11400
+Wire Wire Line
+	8300 11400 8300 11850
+Wire Wire Line
+	8300 11850 8050 11850
+Connection ~ 8300 11850
+Wire Wire Line
+	8300 11850 8300 12300
+Wire Wire Line
+	7900 11850 7650 11850
+Connection ~ 7900 11850
+Wire Wire Line
+	7900 11850 7900 12300
+Wire Wire Line
+	6300 10500 6050 10500
+Wire Wire Line
+	5900 10500 5650 10500
+Wire Wire Line
+	7650 12300 7900 12300
+Connection ~ 7900 12300
+Wire Wire Line
+	7900 12300 7900 12750
+Wire Wire Line
+	8050 12300 8300 12300
+Connection ~ 8300 12300
+Wire Wire Line
+	8300 12300 8300 12750
+Wire Wire Line
+	8300 12750 8050 12750
+Connection ~ 8300 12750
+Wire Wire Line
+	8300 12750 8300 13200
+Wire Wire Line
+	7900 12750 7650 12750
+Connection ~ 7900 12750
+Wire Wire Line
+	7900 12750 7900 13200
+Wire Wire Line
+	7650 13200 7900 13200
+Connection ~ 7900 13200
+Wire Wire Line
+	7900 13200 7900 13650
+Wire Wire Line
+	8050 13200 8300 13200
+Connection ~ 8300 13200
+Wire Wire Line
+	8300 13200 8300 13650
+Text Label 8700 10400 1    50   ~ 0
+DIG7_7
+Text Label 8300 10400 1    50   ~ 0
+DIG6_7
+Text Label 7900 10400 1    50   ~ 0
+DIG5_7
+Text Label 7100 10400 1    50   ~ 0
+DIG3_7
+Text Label 6700 10400 1    50   ~ 0
+DIG2_7
+Text Label 6300 10400 1    50   ~ 0
+DIG1_7
+Text Label 5900 10400 1    50   ~ 0
+DIG0_7
+Text Label 5500 13950 2    50   ~ 0
+SEGG_7
+Text Label 5500 13500 2    50   ~ 0
+SEGF_7
+Text Label 5500 13050 2    50   ~ 0
+SEGE_7
+Text Label 5500 12600 2    50   ~ 0
+SEGD_7
+Text Label 5500 12150 2    50   ~ 0
+SEGC_7
+Text Label 5500 11700 2    50   ~ 0
+SEGB_7
+Text Label 5500 11250 2    50   ~ 0
+SEGA_7
+Text Label 5500 10800 2    50   ~ 0
+SEGDP_7
+Wire Wire Line
+	8700 10500 8700 10950
+Wire Wire Line
+	8700 10950 8700 11400
+Wire Wire Line
+	8700 11400 8700 11850
+Wire Wire Line
+	8700 11850 8700 12300
+Wire Wire Line
+	8700 12300 8700 12750
+Wire Wire Line
+	8700 12750 8700 13200
+Wire Wire Line
+	8700 13200 8700 13650
+Wire Wire Line
+	6850 10800 8050 10800
+Wire Wire Line
+	7900 10400 7900 11400
+Wire Wire Line
+	5500 11250 8050 11250
+Connection ~ 8050 11250
+Wire Wire Line
+	7650 11700 5500 11700
+Connection ~ 7650 11700
+Wire Wire Line
+	5500 12150 7650 12150
+Connection ~ 7650 12150
+Wire Wire Line
+	7650 12600 5500 12600
+Connection ~ 7650 12600
+Text Label 13950 13950 2    50   ~ 0
+IP+
+Text Label 14350 13950 0    50   ~ 0
+IP-
+$Comp
+L KiCadCustomLib:TL1240GQ SW1
+U 1 1 654246D3
+P 13400 10650
+F 0 "SW1" H 13400 11035 50  0000 C CNN
+F 1 "TL1240GQ" H 13400 10944 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 13400 10950 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 13400 10950 50  0001 C CNN
+F 4 "TL1240GQ" H 13400 10950 98  0001 C CNN "PN"
+	1    13400 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW2
+U 1 1 654252E8
+P 14400 10650
+F 0 "SW2" H 14400 11035 50  0000 C CNN
+F 1 "TL1240GQ" H 14400 10944 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 14400 10950 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 14400 10950 50  0001 C CNN
+F 4 "TL1240GQ" H 14400 10950 98  0001 C CNN "PN"
+	1    14400 10650
+	1    0    0    -1  
+$EndComp
+Text Label 13200 10650 2    50   ~ 0
+1+
+Text Label 13600 10650 0    50   ~ 0
+1-
+Text Label 14200 10650 2    50   ~ 0
+2+
+Text Label 14600 10650 0    50   ~ 0
+2-
+$Comp
+L KiCadCustomLib:TL1240GQ SW3
+U 1 1 6542F0F1
+P 15400 10650
+F 0 "SW3" H 15400 11035 50  0000 C CNN
+F 1 "TL1240GQ" H 15400 10944 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 15400 10950 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 15400 10950 50  0001 C CNN
+F 4 "TL1240GQ" H 15400 10950 98  0001 C CNN "PN"
+	1    15400 10650
+	1    0    0    -1  
+$EndComp
+Text Label 15200 10650 2    50   ~ 0
+3+
+Text Label 15600 10650 0    50   ~ 0
+3-
+$Comp
+L KiCadCustomLib:TL1240GQ SW5
+U 1 1 655356AB
+P 13400 11300
+F 0 "SW5" H 13400 11685 50  0000 C CNN
+F 1 "TL1240GQ" H 13400 11594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 13400 11600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 13400 11600 50  0001 C CNN
+F 4 "TL1240GQ" H 13400 11600 98  0001 C CNN "PN"
+	1    13400 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW6
+U 1 1 65536128
+P 14400 11300
+F 0 "SW6" H 14400 11685 50  0000 C CNN
+F 1 "TL1240GQ" H 14400 11594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 14400 11600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 14400 11600 50  0001 C CNN
+F 4 "TL1240GQ" H 14400 11600 98  0001 C CNN "PN"
+	1    14400 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW7
+U 1 1 65536C7D
+P 15400 11300
+F 0 "SW7" H 15400 11685 50  0000 C CNN
+F 1 "TL1240GQ" H 15400 11594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 15400 11600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 15400 11600 50  0001 C CNN
+F 4 "TL1240GQ" H 15400 11600 98  0001 C CNN "PN"
+	1    15400 11300
+	1    0    0    -1  
+$EndComp
+Text Label 13200 11300 2    50   ~ 0
+4+
+Text Label 14200 11300 2    50   ~ 0
+5+
+Text Label 15200 11300 2    50   ~ 0
+6+
+$Comp
+L KiCadCustomLib:TL1240GQ SW9
+U 1 1 65746140
+P 13400 11950
+F 0 "SW9" H 13400 12335 50  0000 C CNN
+F 1 "TL1240GQ" H 13400 12244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 13400 12250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 13400 12250 50  0001 C CNN
+F 4 "TL1240GQ" H 13400 12250 98  0001 C CNN "PN"
+	1    13400 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW10
+U 1 1 65746DC3
+P 14400 11950
+F 0 "SW10" H 14400 12335 50  0000 C CNN
+F 1 "TL1240GQ" H 14400 12244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 14400 12250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 14400 12250 50  0001 C CNN
+F 4 "TL1240GQ" H 14400 12250 98  0001 C CNN "PN"
+	1    14400 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW11
+U 1 1 6574787A
+P 15400 11950
+F 0 "SW11" H 15400 12335 50  0000 C CNN
+F 1 "TL1240GQ" H 15400 12244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 15400 12250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 15400 12250 50  0001 C CNN
+F 4 "TL1240GQ" H 15400 12250 98  0001 C CNN "PN"
+	1    15400 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW13
+U 1 1 657C9667
+P 13400 12600
+F 0 "SW13" H 13400 12985 50  0000 C CNN
+F 1 "TL1240GQ" H 13400 12894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 13400 12900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 13400 12900 50  0001 C CNN
+F 4 "TL1240GQ" H 13400 12900 98  0001 C CNN "PN"
+	1    13400 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW14
+U 1 1 657C9672
+P 14400 12600
+F 0 "SW14" H 14400 12985 50  0000 C CNN
+F 1 "TL1240GQ" H 14400 12894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 14400 12900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 14400 12900 50  0001 C CNN
+F 4 "TL1240GQ" H 14400 12900 98  0001 C CNN "PN"
+	1    14400 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW15
+U 1 1 657C967D
+P 15400 12600
+F 0 "SW15" H 15400 12985 50  0000 C CNN
+F 1 "TL1240GQ" H 15400 12894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 15400 12900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 15400 12900 50  0001 C CNN
+F 4 "TL1240GQ" H 15400 12900 98  0001 C CNN "PN"
+	1    15400 12600
+	1    0    0    -1  
+$EndComp
+Text Label 13200 11950 2    50   ~ 0
+7+
+Text Label 14200 11950 2    50   ~ 0
+8+
+Text Label 15200 11950 2    50   ~ 0
+9+
+Text Label 13200 12600 2    50   ~ 0
+ENT+
+Text Label 14200 12600 2    50   ~ 0
+0+
+Text Label 15200 12600 2    50   ~ 0
+CLR+
+Text Label 13600 11300 0    50   ~ 0
+4-
+Text Label 14600 11300 0    50   ~ 0
+5-
+Text Label 15600 11300 0    50   ~ 0
+6-
+Text Label 13600 11950 0    50   ~ 0
+7-
+Text Label 14600 11950 0    50   ~ 0
+8-
+Text Label 15600 11950 0    50   ~ 0
+9-
+Text Label 13600 12600 0    50   ~ 0
+ENT-
+Text Label 14600 12600 0    50   ~ 0
+0-
+Text Label 15600 12600 0    50   ~ 0
+CLR-
+$Comp
+L KiCadCustomLib:TL1240GQ SW4
+U 1 1 6586D100
+P 16500 10650
+F 0 "SW4" H 16500 11035 50  0000 C CNN
+F 1 "TL1240GQ" H 16500 10944 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 16500 10950 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 16500 10950 50  0001 C CNN
+F 4 "TL1240GQ" H 16500 10950 98  0001 C CNN "PN"
+	1    16500 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW17
+U 1 1 65871413
+P 16500 13250
+F 0 "SW17" H 16500 13635 50  0000 C CNN
+F 1 "TL1240GQ" H 16500 13544 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 16500 13550 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 16500 13550 50  0001 C CNN
+F 4 "TL1240GQ" H 16500 13550 98  0001 C CNN "PN"
+	1    16500 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW8
+U 1 1 658727A8
+P 16500 11300
+F 0 "SW8" H 16500 11685 50  0000 C CNN
+F 1 "TL1240GQ" H 16500 11594 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 16500 11600 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 16500 11600 50  0001 C CNN
+F 4 "TL1240GQ" H 16500 11600 98  0001 C CNN "PN"
+	1    16500 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW12
+U 1 1 65873829
+P 16500 11950
+F 0 "SW12" H 16500 12335 50  0000 C CNN
+F 1 "TL1240GQ" H 16500 12244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 16500 12250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 16500 12250 50  0001 C CNN
+F 4 "TL1240GQ" H 16500 12250 98  0001 C CNN "PN"
+	1    16500 11950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW16
+U 1 1 658747C2
+P 16500 12600
+F 0 "SW16" H 16500 12985 50  0000 C CNN
+F 1 "TL1240GQ" H 16500 12894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 16500 12900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 16500 12900 50  0001 C CNN
+F 4 "TL1240GQ" H 16500 12900 98  0001 C CNN "PN"
+	1    16500 12600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW19
+U 1 1 65875591
+P 15100 13950
+F 0 "SW19" H 15100 14335 50  0000 C CNN
+F 1 "TL1240GQ" H 15100 14244 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 15100 14250 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 15100 14250 50  0001 C CNN
+F 4 "TL1240GQ" H 15100 14250 98  0001 C CNN "PN"
+	1    15100 13950
+	1    0    0    -1  
+$EndComp
+Text Label 16300 13250 2    50   ~ 0
+OP1+
+Text Label 16300 10650 2    50   ~ 0
+OP2+
+Text Label 16300 11300 2    50   ~ 0
+OP3+
+Text Label 16300 11950 2    50   ~ 0
+OP4+
+Text Label 16300 12600 2    50   ~ 0
+OP5+
+Text Label 14900 13950 2    50   ~ 0
+EM+
+Text Label 16700 10650 0    50   ~ 0
+OP2-
+Text Label 16700 13250 0    50   ~ 0
+OP1-
+Text Label 16700 11300 0    50   ~ 0
+OP3-
+Text Label 16700 11950 0    50   ~ 0
+OP4-
+Text Label 16700 12600 0    50   ~ 0
+OP5-
+Wire Wire Line
+	5500 13050 7650 13050
+Text Label 7650 12900 2    50   ~ 0
+IP+
+Text Label 7650 12750 2    50   ~ 0
+IP-
+Wire Wire Line
+	7650 12900 7650 13050
+Connection ~ 7650 13050
+Wire Wire Line
+	7650 13050 8050 13050
+Text Label 8050 12900 2    50   ~ 0
+1+
+Text Label 8050 12750 2    50   ~ 0
+1-
+Text Label 8450 12900 2    50   ~ 0
+2+
+Text Label 8450 12750 2    50   ~ 0
+2-
+Wire Wire Line
+	5500 13500 7650 13500
+Wire Wire Line
+	8050 12900 8050 13050
+Connection ~ 8050 13050
+Wire Wire Line
+	8050 13050 8450 13050
+Wire Wire Line
+	8450 12900 8450 13050
+Wire Wire Line
+	7650 13350 7650 13500
+Connection ~ 7650 13500
+Wire Wire Line
+	7650 13500 8050 13500
+Wire Wire Line
+	8050 13350 8050 13500
+Connection ~ 8050 13500
+Wire Wire Line
+	8050 13500 8450 13500
+Wire Wire Line
+	8450 13350 8450 13500
+Wire Wire Line
+	8450 13800 8450 13950
+Wire Wire Line
+	7650 13800 7650 13950
+Wire Wire Line
+	5500 13950 7650 13950
+Connection ~ 7650 13950
+Text Label 7650 13350 2    50   ~ 0
+4+
+Text Label 8050 13350 2    50   ~ 0
+5+
+Text Label 8450 13350 2    50   ~ 0
+7+
+Text Label 7650 13800 2    50   ~ 0
+8+
+Text Label 8150 13800 2    50   ~ 0
+ENT+
+Text Label 8450 13800 2    50   ~ 0
+0+
+Text Label 7650 13200 2    50   ~ 0
+4-
+Text Label 8050 13200 2    50   ~ 0
+5-
+Text Label 8450 13200 2    50   ~ 0
+7-
+Text Label 7650 13650 2    50   ~ 0
+8-
+Text Label 8150 13650 2    50   ~ 0
+ENT-
+Text Label 8450 13650 2    50   ~ 0
+0-
+Wire Wire Line
+	8150 13650 8300 13650
+Wire Wire Line
+	7650 13950 8150 13950
+Wire Wire Line
+	8150 13800 8150 13950
+Connection ~ 8150 13950
+Wire Wire Line
+	8150 13950 8450 13950
+Text Notes 5150 10000 0    98   ~ 0
+U7 BACKLIGHT LEDS
+$Comp
+L Device:LED D9
+U 1 1 65F3BA03
+P 12300 11100
+F 0 "D9" V 12247 11178 50  0000 L CNN
+F 1 "LED" V 12338 11178 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 11100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 11100 50  0001 C CNN
+F 4 "C130723" V 12300 11100 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 11100 50  0001 C CNN "PN"
+	1    12300 11100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 65F3BA5A
+P 11500 11550
+F 0 "D13" V 11447 11628 50  0000 L CNN
+F 1 "LED" V 11538 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 11550 50  0001 C CNN
+F 4 "C130723" V 11500 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 11550 50  0001 C CNN "PN"
+	1    11500 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 65F3BA66
+P 11900 11550
+F 0 "D14" V 11847 11628 50  0000 L CNN
+F 1 "LED" V 11938 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 11550 50  0001 C CNN
+F 4 "C130723" V 11900 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 11550 50  0001 C CNN "PN"
+	1    11900 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 65F3BA72
+P 12300 11550
+F 0 "D15" V 12247 11628 50  0000 L CNN
+F 1 "LED" V 12338 11628 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 11550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 11550 50  0001 C CNN
+F 4 "C130723" V 12300 11550 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 11550 50  0001 C CNN "PN"
+	1    12300 11550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 11700 11900 11700
+Connection ~ 11900 11700
+Wire Wire Line
+	11900 11700 12300 11700
+$Comp
+L Device:LED D19
+U 1 1 65F3BAC9
+P 11500 12000
+F 0 "D19" V 11447 12078 50  0000 L CNN
+F 1 "LED" V 11538 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 12000 50  0001 C CNN
+F 4 "C130723" V 11500 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 12000 50  0001 C CNN "PN"
+	1    11500 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 65F3BAD5
+P 11900 12000
+F 0 "D20" V 11847 12078 50  0000 L CNN
+F 1 "LED" V 11938 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 12000 50  0001 C CNN
+F 4 "C130723" V 11900 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 12000 50  0001 C CNN "PN"
+	1    11900 12000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 65F3BAE1
+P 12300 12000
+F 0 "D21" V 12247 12078 50  0000 L CNN
+F 1 "LED" V 12338 12078 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 12000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 12000 50  0001 C CNN
+F 4 "C130723" V 12300 12000 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 12000 50  0001 C CNN "PN"
+	1    12300 12000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 12150 11900 12150
+Connection ~ 11900 12150
+Wire Wire Line
+	11900 12150 12300 12150
+$Comp
+L Device:LED D25
+U 1 1 65F3BB38
+P 11500 12450
+F 0 "D25" V 11447 12528 50  0000 L CNN
+F 1 "LED" V 11538 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 12450 50  0001 C CNN
+F 4 "C130723" V 11500 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 12450 50  0001 C CNN "PN"
+	1    11500 12450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 65F3BB44
+P 11900 12450
+F 0 "D26" V 11847 12528 50  0000 L CNN
+F 1 "LED" V 11938 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 12450 50  0001 C CNN
+F 4 "C130723" V 11900 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 12450 50  0001 C CNN "PN"
+	1    11900 12450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 65F3BB50
+P 12300 12450
+F 0 "D27" V 12247 12528 50  0000 L CNN
+F 1 "LED" V 12338 12528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 12450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 12450 50  0001 C CNN
+F 4 "C130723" V 12300 12450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 12450 50  0001 C CNN "PN"
+	1    12300 12450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 12600 11900 12600
+Connection ~ 11900 12600
+Wire Wire Line
+	11900 12600 12300 12600
+$Comp
+L Device:LED D28
+U 1 1 65F3BBA7
+P 11500 12900
+F 0 "D28" V 11447 12978 50  0000 L CNN
+F 1 "LED" V 11538 12978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 12900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 12900 50  0001 C CNN
+F 4 "C130723" V 11500 12900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 12900 50  0001 C CNN "PN"
+	1    11500 12900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D29
+U 1 1 65F3BBB3
+P 11900 12900
+F 0 "D29" V 11847 12978 50  0000 L CNN
+F 1 "LED" V 11938 12978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 12900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 12900 50  0001 C CNN
+F 4 "C130723" V 11900 12900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 12900 50  0001 C CNN "PN"
+	1    11900 12900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D30
+U 1 1 65F3BBBF
+P 12300 12900
+F 0 "D30" V 12247 12978 50  0000 L CNN
+F 1 "LED" V 12338 12978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 12900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 12900 50  0001 C CNN
+F 4 "C130723" V 12300 12900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 12900 50  0001 C CNN "PN"
+	1    12300 12900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 13050 11900 13050
+Connection ~ 11900 13050
+Wire Wire Line
+	11900 13050 12300 13050
+$Comp
+L Device:LED D31
+U 1 1 65F3BC16
+P 11500 13350
+F 0 "D31" V 11447 13428 50  0000 L CNN
+F 1 "LED" V 11538 13428 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 13350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 13350 50  0001 C CNN
+F 4 "C130723" V 11500 13350 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 13350 50  0001 C CNN "PN"
+	1    11500 13350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D32
+U 1 1 65F3BC22
+P 11900 13350
+F 0 "D32" V 11847 13428 50  0000 L CNN
+F 1 "LED" V 11938 13428 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 13350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 13350 50  0001 C CNN
+F 4 "C130723" V 11900 13350 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 13350 50  0001 C CNN "PN"
+	1    11900 13350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D33
+U 1 1 65F3BC2E
+P 12300 13350
+F 0 "D33" V 12247 13428 50  0000 L CNN
+F 1 "LED" V 12338 13428 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 13350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 13350 50  0001 C CNN
+F 4 "C130723" V 12300 13350 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 13350 50  0001 C CNN "PN"
+	1    12300 13350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 13500 11900 13500
+Connection ~ 11900 13500
+Wire Wire Line
+	11900 13500 12300 13500
+$Comp
+L Device:LED D34
+U 1 1 65F3BC85
+P 11500 13800
+F 0 "D34" V 11447 13878 50  0000 L CNN
+F 1 "LED" V 11538 13878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11500 13800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11500 13800 50  0001 C CNN
+F 4 "C130723" V 11500 13800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11500 13800 50  0001 C CNN "PN"
+	1    11500 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D35
+U 1 1 65F3BC91
+P 11900 13800
+F 0 "D35" V 11847 13878 50  0000 L CNN
+F 1 "LED" V 11938 13878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 11900 13800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 11900 13800 50  0001 C CNN
+F 4 "C130723" V 11900 13800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 11900 13800 50  0001 C CNN "PN"
+	1    11900 13800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D36
+U 1 1 65F3BC9D
+P 12300 13800
+F 0 "D36" V 12247 13878 50  0000 L CNN
+F 1 "LED" V 12338 13878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 12300 13800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 12300 13800 50  0001 C CNN
+F 4 "C130723" V 12300 13800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 12300 13800 50  0001 C CNN "PN"
+	1    12300 13800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11500 13950 11900 13950
+Connection ~ 11900 13950
+Wire Wire Line
+	11900 13950 12300 13950
+Wire Wire Line
+	12550 13650 12300 13650
+Wire Wire Line
+	12150 13650 11900 13650
+Wire Wire Line
+	11750 13650 11500 13650
+Wire Wire Line
+	11350 10400 11350 10500
+Wire Wire Line
+	10950 10400 10950 10500
+Wire Wire Line
+	10550 10400 10550 10500
+Wire Wire Line
+	10150 10400 10150 10500
+Wire Wire Line
+	9750 10400 9750 10500
+Wire Wire Line
+	12300 13200 12550 13200
+Connection ~ 12550 13200
+Wire Wire Line
+	12300 12750 12550 12750
+Connection ~ 12550 12750
+Wire Wire Line
+	12300 12300 12550 12300
+Connection ~ 12550 12300
+Wire Wire Line
+	12300 11850 12550 11850
+Connection ~ 12550 11850
+Wire Wire Line
+	12300 11400 12550 11400
+Connection ~ 12550 11400
+Wire Wire Line
+	12300 10950 12550 10950
+Connection ~ 12550 10950
+Wire Wire Line
+	10550 10500 10300 10500
+Wire Wire Line
+	11500 11400 11750 11400
+Connection ~ 11750 11400
+Wire Wire Line
+	11750 11400 11750 11850
+Wire Wire Line
+	11900 11400 12150 11400
+Connection ~ 12150 11400
+Wire Wire Line
+	12150 11400 12150 11850
+Wire Wire Line
+	12150 11850 11900 11850
+Connection ~ 12150 11850
+Wire Wire Line
+	12150 11850 12150 12300
+Wire Wire Line
+	11750 11850 11500 11850
+Connection ~ 11750 11850
+Wire Wire Line
+	11750 11850 11750 12300
+Wire Wire Line
+	10150 10500 9900 10500
+Wire Wire Line
+	9750 10500 9500 10500
+Wire Wire Line
+	11500 12300 11750 12300
+Connection ~ 11750 12300
+Wire Wire Line
+	11750 12300 11750 12750
+Wire Wire Line
+	11900 12300 12150 12300
+Connection ~ 12150 12300
+Wire Wire Line
+	12150 12300 12150 12750
+Wire Wire Line
+	12150 12750 11900 12750
+Connection ~ 12150 12750
+Wire Wire Line
+	12150 12750 12150 13200
+Wire Wire Line
+	11750 12750 11500 12750
+Connection ~ 11750 12750
+Wire Wire Line
+	11750 12750 11750 13200
+Wire Wire Line
+	11500 13200 11750 13200
+Connection ~ 11750 13200
+Wire Wire Line
+	11750 13200 11750 13650
+Wire Wire Line
+	11900 13200 12150 13200
+Connection ~ 12150 13200
+Wire Wire Line
+	12150 13200 12150 13650
+Text Label 12550 10400 1    50   ~ 0
+DIG7_8
+Text Label 12150 10400 1    50   ~ 0
+DIG6_8
+Text Label 11750 10400 1    50   ~ 0
+DIG5_8
+Text Label 11350 10400 1    50   ~ 0
+DIG4_8
+Text Label 10950 10400 1    50   ~ 0
+DIG3_8
+Text Label 10550 10400 1    50   ~ 0
+DIG2_8
+Text Label 10150 10400 1    50   ~ 0
+DIG1_8
+Text Label 9750 10400 1    50   ~ 0
+DIG0_8
+Text Label 9350 13950 2    50   ~ 0
+SEGG_8
+Text Label 9350 13500 2    50   ~ 0
+SEGF_8
+Text Label 9350 13050 2    50   ~ 0
+SEGE_8
+Text Label 9350 12600 2    50   ~ 0
+SEGD_8
+Text Label 9350 12150 2    50   ~ 0
+SEGC_8
+Text Label 9350 11700 2    50   ~ 0
+SEGB_8
+Text Label 9350 11250 2    50   ~ 0
+SEGA_8
+Text Label 9350 10800 2    50   ~ 0
+SEGDP_8
+Wire Wire Line
+	12550 10950 12550 11400
+Wire Wire Line
+	12550 11400 12550 11850
+Wire Wire Line
+	12550 11850 12550 12300
+Wire Wire Line
+	12550 12300 12550 12750
+Wire Wire Line
+	12550 12750 12550 13200
+Wire Wire Line
+	12550 13200 12550 13650
+Wire Wire Line
+	11500 13950 9350 13950
+Connection ~ 11500 13950
+Wire Wire Line
+	11500 11700 9350 11700
+Connection ~ 11500 11700
+Wire Wire Line
+	11500 12150 9350 12150
+Connection ~ 11500 12150
+Wire Wire Line
+	11500 12600 9350 12600
+Connection ~ 11500 12600
+Wire Wire Line
+	11500 13050 9350 13050
+Connection ~ 11500 13050
+Wire Wire Line
+	11500 13500 9350 13500
+Connection ~ 11500 13500
+Text Label 15300 13950 0    50   ~ 0
+EM-
+Wire Wire Line
+	9350 10800 9500 10800
+Text Label 9500 10700 2    50   ~ 0
+3+
+Text Label 9900 10700 2    50   ~ 0
+6+
+Text Label 10300 10700 2    50   ~ 0
+9+
+Text Label 10800 10700 2    50   ~ 0
+CLR+
+Text Label 10800 10500 2    50   ~ 0
+CLR-
+Text Label 10300 10500 2    50   ~ 0
+9-
+Text Label 9900 10500 2    50   ~ 0
+6-
+Text Label 9500 10500 2    50   ~ 0
+3-
+Wire Wire Line
+	10800 10700 10800 10800
+Connection ~ 10800 10800
+Wire Wire Line
+	10800 10500 10950 10500
+Wire Wire Line
+	10300 10700 10300 10800
+Connection ~ 10300 10800
+Wire Wire Line
+	10300 10800 10800 10800
+Wire Wire Line
+	9900 10700 9900 10800
+Connection ~ 9900 10800
+Wire Wire Line
+	9900 10800 10300 10800
+Wire Wire Line
+	9500 10700 9500 10800
+Connection ~ 9500 10800
+Wire Wire Line
+	9500 10800 9900 10800
+Wire Wire Line
+	10800 10800 11250 10800
+Text Label 11250 10700 2    50   ~ 0
+OP1+
+Text Label 11650 10700 2    50   ~ 0
+OP2+
+Text Label 12050 10700 2    50   ~ 0
+OP3+
+Text Label 12400 10700 2    50   ~ 0
+OP4+
+Wire Wire Line
+	11250 10700 11250 10800
+Connection ~ 11250 10800
+Wire Wire Line
+	11250 10800 11650 10800
+Wire Wire Line
+	11650 10700 11650 10800
+Connection ~ 11650 10800
+Wire Wire Line
+	11650 10800 12050 10800
+Wire Wire Line
+	12050 10700 12050 10800
+Connection ~ 12050 10800
+Wire Wire Line
+	12400 10700 12400 10800
+Wire Wire Line
+	12050 10800 12400 10800
+Text Label 11250 10500 2    50   ~ 0
+OP1-
+Text Label 11650 10500 2    50   ~ 0
+OP2-
+Text Label 12050 10500 2    50   ~ 0
+OP3-
+Text Label 12400 10500 2    50   ~ 0
+OP4-
+Wire Wire Line
+	11750 10400 11750 10500
+Wire Wire Line
+	12150 10400 12150 10500
+Wire Wire Line
+	12550 10400 12550 10500
+Wire Wire Line
+	12400 10500 12550 10500
+Connection ~ 12550 10500
+Wire Wire Line
+	12550 10500 12550 10950
+Wire Wire Line
+	12150 10500 12050 10500
+Connection ~ 12150 10500
+Wire Wire Line
+	11750 10500 11650 10500
+Connection ~ 11750 10500
+Wire Wire Line
+	11350 10500 11250 10500
+Text Label 11650 11150 2    50   ~ 0
+OP5+
+Wire Wire Line
+	9350 11250 11650 11250
+Text Label 11950 11150 2    50   ~ 0
+EM+
+Wire Wire Line
+	11950 11150 11950 11250
+Connection ~ 11950 11250
+Wire Wire Line
+	11950 11250 12300 11250
+Wire Wire Line
+	11650 11150 11650 11250
+Connection ~ 11650 11250
+Wire Wire Line
+	11650 11250 11950 11250
+Text Label 11650 10950 2    50   ~ 0
+OP5-
+Text Label 11950 10950 2    50   ~ 0
+EM-
+Wire Wire Line
+	11750 10500 11750 10950
+Wire Wire Line
+	12150 10500 12150 10950
+Wire Wire Line
+	11950 10950 12150 10950
+Connection ~ 12150 10950
+Wire Wire Line
+	12150 10950 12150 11400
+Wire Wire Line
+	11650 10950 11750 10950
+Connection ~ 11750 10950
+Wire Wire Line
+	11750 10950 11750 11400
+Text Notes 9000 10050 0    98   ~ 0
+U8 BACKLIGHT LEDS
+Wire Notes Line
+	12650 14050 12650 9850
+Wire Notes Line
+	12650 9850 8900 9850
+Wire Notes Line
+	8900 9850 8900 14050
+Wire Notes Line
+	8900 14050 12650 14050
+Wire Notes Line
+	8800 9850 5050 9850
+Wire Notes Line
+	5050 9850 5050 14100
+Wire Notes Line
+	5050 14100 8800 14100
+Wire Notes Line
+	8800 14100 8800 9850
+$Comp
+L Mechanical:MountingHole MK1
+U 1 1 5A3EB27C
+P 20200 2850
+F 0 "MK1" H 20200 3050 50  0000 C CNN
+F 1 "MH" H 20200 2975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 20200 2850 50  0001 C CNN
+F 3 "" H 20200 2850 50  0001 C CNN
+	1    20200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK2
+U 1 1 5A3ECA9A
+P 20500 2850
+F 0 "MK2" H 20500 3050 50  0000 C CNN
+F 1 "MH" H 20500 2975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 20500 2850 50  0001 C CNN
+F 3 "" H 20500 2850 50  0001 C CNN
+	1    20500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK3
+U 1 1 5A3ECC02
+P 20350 3150
+F 0 "MK3" H 20350 3350 50  0000 C CNN
+F 1 "MH" H 20350 3275 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 20350 3150 50  0001 C CNN
+F 3 "" H 20350 3150 50  0001 C CNN
+	1    20350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK4
+U 1 1 5A3ECD67
+P 20650 3150
+F 0 "MK4" H 20650 3350 50  0000 C CNN
+F 1 "MH" H 20650 3275 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 20650 3150 50  0001 C CNN
+F 3 "" H 20650 3150 50  0001 C CNN
+	1    20650 3150
+	1    0    0    -1  
+$EndComp
+Text Notes 12800 10000 0    80   ~ 0
+ILLUMINATED TACT SWITCHES
+$Comp
+L Device:R R4
+U 1 1 67CCE251
+P 6100 2650
+F 0 "R4" H 6170 2696 50  0000 L CNN
+F 1 "10K" V 6100 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 2650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6100 2650 50  0001 C CNN
+F 4 "C25804" H 6100 2650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 6100 2650 50  0001 C CNN "PN"
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2450 6100 2450
+Wire Wire Line
+	6100 2450 6100 2500
+$Comp
+L power:GND #PWR0123
+U 1 1 5FF206D6
+P 6100 2800
+F 0 "#PWR0123" H 6100 2550 50  0001 C CNN
+F 1 "GND" V 6100 2600 50  0000 C CNN
+F 2 "" H 6100 2800 50  0000 C CNN
+F 3 "" H 6100 2800 50  0000 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2450 6100 2450
+Connection ~ 6100 2450
+Text Label 10500 2450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R5
+U 1 1 67D59DA3
+P 10550 2650
+F 0 "R5" H 10620 2696 50  0000 L CNN
+F 1 "10K" V 10550 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 2650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 10550 2650 50  0001 C CNN
+F 4 "C25804" H 10550 2650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 10550 2650 50  0001 C CNN "PN"
+	1    10550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 2450 10550 2450
+Wire Wire Line
+	10550 2450 10550 2500
+$Comp
+L power:GND #PWR0124
+U 1 1 67D59DAB
+P 10550 2800
+F 0 "#PWR0124" H 10550 2550 50  0001 C CNN
+F 1 "GND" V 10550 2600 50  0000 C CNN
+F 2 "" H 10550 2800 50  0000 C CNN
+F 3 "" H 10550 2800 50  0000 C CNN
+	1    10550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2450 10550 2450
+Connection ~ 10550 2450
+Text Label 14950 2450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R6
+U 1 1 67D9B6CB
+P 15000 2650
+F 0 "R6" H 15070 2696 50  0000 L CNN
+F 1 "10K" V 15000 2650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14930 2650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 15000 2650 50  0001 C CNN
+F 4 "C25804" H 15000 2650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 15000 2650 50  0001 C CNN "PN"
+	1    15000 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 2450 15000 2450
+Wire Wire Line
+	15000 2450 15000 2500
+$Comp
+L power:GND #PWR0125
+U 1 1 67D9B6D3
+P 15000 2800
+F 0 "#PWR0125" H 15000 2550 50  0001 C CNN
+F 1 "GND" V 15000 2600 50  0000 C CNN
+F 2 "" H 15000 2800 50  0000 C CNN
+F 3 "" H 15000 2800 50  0000 C CNN
+	1    15000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 2450 15000 2450
+Connection ~ 15000 2450
+Text Label 14950 5450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R12
+U 1 1 67DDDADE
+P 15000 5650
+F 0 "R12" H 15070 5696 50  0000 L CNN
+F 1 "10K" V 15000 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14930 5650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 15000 5650 50  0001 C CNN
+F 4 "C25804" H 15000 5650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 15000 5650 50  0001 C CNN "PN"
+	1    15000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 5450 15000 5450
+Wire Wire Line
+	15000 5450 15000 5500
+$Comp
+L power:GND #PWR0126
+U 1 1 67DDDAE6
+P 15000 5800
+F 0 "#PWR0126" H 15000 5550 50  0001 C CNN
+F 1 "GND" V 15000 5600 50  0000 C CNN
+F 2 "" H 15000 5800 50  0000 C CNN
+F 3 "" H 15000 5800 50  0000 C CNN
+	1    15000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14950 5450 15000 5450
+Connection ~ 15000 5450
+Text Label 10500 5450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R11
+U 1 1 67E20EFF
+P 10550 5650
+F 0 "R11" H 10620 5696 50  0000 L CNN
+F 1 "10K" V 10550 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 5650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 10550 5650 50  0001 C CNN
+F 4 "C25804" H 10550 5650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 10550 5650 50  0001 C CNN "PN"
+	1    10550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5450 10550 5450
+Wire Wire Line
+	10550 5450 10550 5500
+$Comp
+L power:GND #PWR0127
+U 1 1 67E20F07
+P 10550 5800
+F 0 "#PWR0127" H 10550 5550 50  0001 C CNN
+F 1 "GND" V 10550 5600 50  0000 C CNN
+F 2 "" H 10550 5800 50  0000 C CNN
+F 3 "" H 10550 5800 50  0000 C CNN
+	1    10550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 5450 10550 5450
+Connection ~ 10550 5450
+Text Label 6050 5450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R10
+U 1 1 67E65175
+P 6100 5650
+F 0 "R10" H 6170 5696 50  0000 L CNN
+F 1 "10K" V 6100 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 5650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6100 5650 50  0001 C CNN
+F 4 "C25804" H 6100 5650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 6100 5650 50  0001 C CNN "PN"
+	1    6100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5450 6100 5450
+Wire Wire Line
+	6100 5450 6100 5500
+$Comp
+L power:GND #PWR0128
+U 1 1 67E6517D
+P 6100 5800
+F 0 "#PWR0128" H 6100 5550 50  0001 C CNN
+F 1 "GND" V 6100 5600 50  0000 C CNN
+F 2 "" H 6100 5800 50  0000 C CNN
+F 3 "" H 6100 5800 50  0000 C CNN
+	1    6100 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 5450 6100 5450
+Connection ~ 6100 5450
+Text Label 6050 8450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R15
+U 1 1 67EAA1E3
+P 6100 8650
+F 0 "R15" H 6170 8696 50  0000 L CNN
+F 1 "10K" V 6100 8650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 8650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 6100 8650 50  0001 C CNN
+F 4 "C25804" H 6100 8650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 6100 8650 50  0001 C CNN "PN"
+	1    6100 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 8450 6100 8450
+Wire Wire Line
+	6100 8450 6100 8500
+$Comp
+L power:GND #PWR0129
+U 1 1 67EAA1EB
+P 6100 8800
+F 0 "#PWR0129" H 6100 8550 50  0001 C CNN
+F 1 "GND" V 6100 8600 50  0000 C CNN
+F 2 "" H 6100 8800 50  0000 C CNN
+F 3 "" H 6100 8800 50  0000 C CNN
+	1    6100 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8450 6100 8450
+Connection ~ 6100 8450
+Text Label 10500 8450 2    50   ~ 0
+LOAD(~CS)
+$Comp
+L Device:R R16
+U 1 1 67EF05D4
+P 10550 8650
+F 0 "R16" H 10620 8696 50  0000 L CNN
+F 1 "10K" V 10550 8650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10480 8650 50  0001 C CNN
+F 3 "Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 10550 8650 50  0001 C CNN
+F 4 "C25804" H 10550 8650 50  0001 C CNN "LCSC"
+F 5 "0603WAF1002T5E" H 10550 8650 50  0001 C CNN "PN"
+	1    10550 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 8450 10550 8450
+Wire Wire Line
+	10550 8450 10550 8500
+$Comp
+L power:GND #PWR0130
+U 1 1 67EF05DC
+P 10550 8800
+F 0 "#PWR0130" H 10550 8550 50  0001 C CNN
+F 1 "GND" V 10550 8600 50  0000 C CNN
+F 2 "" H 10550 8800 50  0000 C CNN
+F 3 "" H 10550 8800 50  0000 C CNN
+	1    10550 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 8450 10550 8450
+Connection ~ 10550 8450
+Wire Wire Line
+	13200 12500 12950 12500
+Wire Wire Line
+	12950 11850 13200 11850
+Wire Wire Line
+	12950 11200 13200 11200
+Wire Wire Line
+	12950 10550 13200 10550
+Connection ~ 12950 10550
+Wire Wire Line
+	12950 10550 12950 10150
+Wire Wire Line
+	14200 12500 13950 12500
+Wire Wire Line
+	14200 10550 13950 10550
+Connection ~ 13950 10550
+Wire Wire Line
+	13950 10550 13950 10150
+Wire Wire Line
+	14200 11200 13950 11200
+Wire Wire Line
+	14200 11850 13950 11850
+Wire Wire Line
+	15200 12500 14950 12500
+Wire Wire Line
+	16300 12500 16050 12500
+Wire Wire Line
+	15200 10550 14950 10550
+Connection ~ 14950 10550
+Wire Wire Line
+	14950 10550 14950 10150
+Wire Wire Line
+	15200 11200 14950 11200
+Wire Wire Line
+	15200 11850 14950 11850
+Wire Wire Line
+	16300 10550 16050 10550
+Connection ~ 16050 10550
+Wire Wire Line
+	16050 10550 16050 10150
+Wire Wire Line
+	16300 11200 16050 11200
+Wire Wire Line
+	16300 11850 16050 11850
+Wire Wire Line
+	16050 10550 16050 11200
+Connection ~ 16050 11200
+Wire Wire Line
+	16050 11200 16050 11850
+Wire Wire Line
+	16050 11850 16050 12500
+Connection ~ 16050 11850
+Wire Wire Line
+	14950 11850 14950 12500
+Connection ~ 14950 11850
+Wire Wire Line
+	14950 10550 14950 11200
+Connection ~ 14950 11200
+Wire Wire Line
+	14950 11200 14950 11850
+Wire Wire Line
+	13950 10550 13950 11200
+Connection ~ 13950 11200
+Wire Wire Line
+	13950 11200 13950 11850
+Wire Wire Line
+	13950 11850 13950 12500
+Connection ~ 13950 11850
+Wire Wire Line
+	12950 11850 12950 12500
+Connection ~ 12950 11850
+Wire Wire Line
+	12950 10550 12950 11200
+Connection ~ 12950 11200
+Wire Wire Line
+	12950 11200 12950 11850
+Wire Wire Line
+	16050 12500 16050 13150
+Wire Wire Line
+	16050 13150 16300 13150
+Connection ~ 16050 12500
+Wire Wire Line
+	15600 10550 15950 10550
+Wire Wire Line
+	15950 10550 15950 10800
+Wire Wire Line
+	16700 10550 16950 10550
+Wire Wire Line
+	16950 10550 16950 10800
+Wire Wire Line
+	16700 11200 16950 11200
+Wire Wire Line
+	16950 11200 16950 11450
+Wire Wire Line
+	16700 11850 16950 11850
+Wire Wire Line
+	16950 11850 16950 12100
+Wire Wire Line
+	16700 12500 16950 12500
+Wire Wire Line
+	16950 12500 16950 12750
+Wire Wire Line
+	16700 13150 16950 13150
+Wire Wire Line
+	16950 13150 16950 13400
+Wire Wire Line
+	16950 10800 15950 10800
+Connection ~ 15950 10800
+Wire Wire Line
+	14600 10550 14800 10550
+Wire Wire Line
+	14800 10550 14800 10800
+Connection ~ 14800 10800
+Wire Wire Line
+	14800 10800 15950 10800
+Wire Wire Line
+	12800 10800 13850 10800
+Wire Wire Line
+	13600 10550 13850 10550
+Wire Wire Line
+	13850 10550 13850 10800
+Connection ~ 13850 10800
+Wire Wire Line
+	13850 10800 14800 10800
+Wire Wire Line
+	15600 11200 15950 11200
+Wire Wire Line
+	15950 11200 15950 11450
+Wire Wire Line
+	14600 11200 14800 11200
+Wire Wire Line
+	14800 11200 14800 11450
+Wire Wire Line
+	13600 11200 13850 11200
+Wire Wire Line
+	13850 11200 13850 11450
+Wire Wire Line
+	13600 11850 13850 11850
+Wire Wire Line
+	13850 11850 13850 12100
+Wire Wire Line
+	14600 11850 14800 11850
+Wire Wire Line
+	14800 11850 14800 12100
+Wire Wire Line
+	15600 11850 15950 11850
+Wire Wire Line
+	15950 11850 15950 12100
+Wire Wire Line
+	15600 12500 15950 12500
+Wire Wire Line
+	15950 12500 15950 12750
+Wire Wire Line
+	14600 12500 14800 12500
+Wire Wire Line
+	14800 12500 14800 12750
+Wire Wire Line
+	13600 12500 13850 12500
+Wire Wire Line
+	13850 12500 13850 12750
+Wire Wire Line
+	16950 11450 15950 11450
+Connection ~ 13850 11450
+Wire Wire Line
+	13850 11450 12800 11450
+Connection ~ 14800 11450
+Wire Wire Line
+	14800 11450 13850 11450
+Connection ~ 15950 11450
+Wire Wire Line
+	15950 11450 14800 11450
+Wire Wire Line
+	12800 12100 13850 12100
+Connection ~ 13850 12100
+Wire Wire Line
+	13850 12100 14800 12100
+Connection ~ 14800 12100
+Wire Wire Line
+	14800 12100 15950 12100
+Connection ~ 15950 12100
+Wire Wire Line
+	15950 12100 16950 12100
+Wire Wire Line
+	16950 12750 15950 12750
+Connection ~ 13850 12750
+Wire Wire Line
+	13850 12750 12800 12750
+Connection ~ 14800 12750
+Wire Wire Line
+	14800 12750 13850 12750
+Connection ~ 15950 12750
+Wire Wire Line
+	15950 12750 14800 12750
+Wire Wire Line
+	16950 13400 12800 13400
+$Comp
+L power:GND #PWR0131
+U 1 1 69635B8A
+P 14600 14050
+F 0 "#PWR0131" H 14600 13800 50  0001 C CNN
+F 1 "GND" H 14600 13900 50  0000 C CNN
+F 2 "" H 14600 14050 50  0001 C CNN
+F 3 "" H 14600 14050 50  0001 C CNN
+	1    14600 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 14050 14600 13850
+Wire Wire Line
+	14600 13850 14350 13850
+Wire Wire Line
+	15300 13850 15550 13850
+$Comp
+L power:GND #PWR0132
+U 1 1 696E7FEA
+P 15550 14050
+F 0 "#PWR0132" H 15550 13800 50  0001 C CNN
+F 1 "GND" H 15550 13900 50  0000 C CNN
+F 2 "" H 15550 14050 50  0001 C CNN
+F 3 "" H 15550 14050 50  0001 C CNN
+	1    15550 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15550 14050 15550 13850
+Wire Notes Line
+	12750 9850 12750 14300
+Wire Notes Line
+	12750 14300 17000 14300
+Wire Notes Line
+	17000 14300 17000 9850
+Wire Notes Line
+	17000 9850 12750 9850
+NoConn ~ 10600 8250
+Text Label 6150 2150 2    60   ~ 0
+DIN
+Text Label 6150 2350 2    60   ~ 0
+52(SCK)
+Text Label 5500 2750 2    50   ~ 0
+CLK
+Text Label 6050 2450 2    60   ~ 0
+53(SS)
+Text Label 5600 2750 0    60   ~ 0
+52(SCK)
+Text Label 5600 2850 0    60   ~ 0
+53(SS)
+Wire Wire Line
+	5600 2750 5500 2750
+Wire Wire Line
+	5500 2850 5600 2850
+Text Notes 5350 3250 0    50   ~ 0
+CLK & SCK\nMUST BE\nCONNECTED\nIN PARALLEL
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6ABFDC51
+P 21050 2900
+F 0 "#FLG0101" H 21050 2975 50  0001 C CNN
+F 1 "PWR_FLAG" V 21050 3028 31  0000 L CNN
+F 2 "" H 21050 2900 50  0001 C CNN
+F 3 "~" H 21050 2900 50  0001 C CNN
+	1    21050 2900
+	0    1    1    0   
+$EndComp
+Text Label 21050 2900 2    31   ~ 0
++5V_SUPPLY
+Wire Notes Line
+	21500 3350 20750 3350
+Wire Notes Line
+	20750 2450 20750 3350
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J0
+U 1 1 5FD5C842
+P 20100 2000
+F 0 "J0" H 20150 2217 50  0000 C CNN
+F 1 "PWR IN" H 20150 2126 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 20100 2000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 20100 2000 50  0001 C CNN
+F 4 "0039281043" H 20100 2000 50  0001 C CNN "PN"
+	1    20100 2000
+	1    0    0    -1  
+$EndComp
+Text Label 20400 2000 0    31   ~ 0
++5V_SUPPLY
+Text Label 19900 2000 2    31   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR0117
+U 1 1 5FD5D841
+P 20500 2200
+F 0 "#PWR0117" H 20500 1950 50  0001 C CNN
+F 1 "GND" H 20500 2050 50  0000 C CNN
+F 2 "" H 20500 2200 50  0000 C CNN
+F 3 "" H 20500 2200 50  0000 C CNN
+	1    20500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5FD5DD99
+P 19800 2200
+F 0 "#PWR0118" H 19800 1950 50  0001 C CNN
+F 1 "GND" H 19800 2050 50  0000 C CNN
+F 2 "" H 19800 2200 50  0000 C CNN
+F 3 "" H 19800 2200 50  0000 C CNN
+	1    19800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19800 2200 19800 2100
+Wire Wire Line
+	19800 2100 19900 2100
+Wire Wire Line
+	20400 2100 20500 2100
+Wire Wire Line
+	20500 2100 20500 2200
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J1
+U 1 1 5FD81B41
+P 20100 1300
+F 0 "J1" H 20150 1817 50  0000 C CNN
+F 1 "MAIN UFC I/O" H 20150 1726 50  0000 C CNN
+F 2 "" H 20100 1300 50  0001 C CNN
+F 3 "~" H 20100 1300 50  0001 C CNN
+	1    20100 1300
+	1    0    0    -1  
+$EndComp
+Text Label 20400 1000 0    60   ~ 0
+52(SCK)
+Text Label 19900 1000 2    60   ~ 0
+53(SS)
+Text Label 19900 1500 2    60   ~ 0
+43
+Text Label 19900 1400 2    60   ~ 0
+45
+Text Label 19900 1300 2    60   ~ 0
+47
+Text Label 19900 1200 2    60   ~ 0
+49
+Text Notes 19750 1200 2    50   ~ 0
+KEY MTX ROW 1
+Text Notes 19750 1300 2    50   ~ 0
+KEY MTX ROW 2
+Text Notes 19750 1400 2    50   ~ 0
+KEY MTX ROW 3
+Text Notes 19750 1500 2    50   ~ 0
+KEY MTX ROW 4
+Text Label 20400 1400 0    60   ~ 0
+42
+Text Label 20400 1300 0    60   ~ 0
+44
+Text Label 20400 1200 0    60   ~ 0
+46
+Text Label 20400 1100 0    60   ~ 0
+48
+Text Notes 20550 1100 0    50   ~ 0
+KEY MTX COL 1
+Text Notes 20550 1200 0    50   ~ 0
+KEY MTX COL 2
+Text Notes 20550 1300 0    50   ~ 0
+KEY MTX COL 3
+Text Notes 20550 1400 0    50   ~ 0
+KEY MTX COL 4
+Text Notes 20550 1600 0    50   ~ 0
+EMCON SW
+Text Notes 20550 1500 0    50   ~ 0
+I/P SW
+Text Label 19900 1600 2    60   ~ 0
+41
+Text Notes 19750 1600 2    50   ~ 0
+KEY MTX ROW 5
+Text Label 20400 1500 0    60   ~ 0
+40
+Text Label 20400 1600 0    60   ~ 0
+38
+Text Label 19900 1100 2    50   ~ 0
+DIN
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
+$Comp
+L Connector:Conn_01x08_Female J27
+U 1 1 5FDAD3C0
+P 17750 5600
+F 0 "J27" V 17900 5500 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 17800 5600 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical" H 17750 5600 50  0001 C CNN
+F 3 "~" H 17750 5600 50  0001 C CNN
+	1    17750 5600
+	0    -1   -1   0   
+$EndComp
+Text Label 12800 12750 0    60   ~ 0
+43
+Text Label 12800 12100 0    60   ~ 0
+45
+Text Label 12800 11450 0    60   ~ 0
+47
+Text Label 12800 10800 0    60   ~ 0
+49
+Text Label 12800 13400 0    60   ~ 0
+41
+Text Label 16050 10150 0    60   ~ 0
+42
+Text Label 14950 10150 0    60   ~ 0
+44
+Text Label 13950 10150 0    60   ~ 0
+46
+Text Label 12950 10150 0    60   ~ 0
+48
+Text Label 13950 13850 2    60   ~ 0
+40
+Text Label 14900 13850 2    60   ~ 0
+38
+Wire Notes Line
+	18700 500  18700 3250
+Wire Notes Line
+	18700 3250 20750 3250
+Wire Notes Line
+	18700 2600 21500 2600
+Wire Notes Line
+	18700 2450 21500 2450
+$EndSCHEMATC

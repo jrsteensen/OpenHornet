@@ -1,4 +1,6 @@
 EESchema Schematic File Version 4
+LIBS:ufc_v4_ap-cache
+LIBS:ufc_v4_controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -14,115 +16,326 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW1
 U 1 1 5FE4A076
-P 3950 3150
-F 0 "SW?" H 3950 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 3950 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 3950 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3950 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 3950 3450 98  0001 C CNN "PN"
-	1    3950 3150
+P 4600 3750
+F 0 "SW1" H 4600 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 4600 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 4600 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4600 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 4600 4050 98  0001 C CNN "PN"
+	1    4600 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW2
 U 1 1 5FE4D524
-P 4700 3150
-F 0 "SW?" H 4700 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 4700 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 4700 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4700 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 4700 3450 98  0001 C CNN "PN"
-	1    4700 3150
+P 5400 3750
+F 0 "SW2" H 5400 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 5400 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 5400 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 5400 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 5400 4050 98  0001 C CNN "PN"
+	1    5400 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW3
 U 1 1 5FE4E420
-P 5400 3150
-F 0 "SW?" H 5400 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 5400 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 5400 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 5400 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 5400 3450 98  0001 C CNN "PN"
-	1    5400 3150
+P 6200 3750
+F 0 "SW3" H 6200 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 6200 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 6200 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 6200 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 6200 4050 98  0001 C CNN "PN"
+	1    6200 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW4
 U 1 1 5FE4EE85
-P 6100 3150
-F 0 "SW?" H 6100 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 6100 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 6100 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 6100 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 6100 3450 98  0001 C CNN "PN"
-	1    6100 3150
+P 7000 3750
+F 0 "SW4" H 7000 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 7000 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 7000 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7000 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 7000 4050 98  0001 C CNN "PN"
+	1    7000 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW5
 U 1 1 5FE4FBDC
-P 6800 3150
-F 0 "SW?" H 6800 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 6800 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 6800 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 6800 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 6800 3450 98  0001 C CNN "PN"
-	1    6800 3150
+P 7800 3750
+F 0 "SW5" H 7800 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 7800 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 7800 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7800 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 7800 4050 98  0001 C CNN "PN"
+	1    7800 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW6
 U 1 1 5FE50B77
-P 7550 3150
-F 0 "SW?" H 7550 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 7550 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 7550 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7550 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 7550 3450 98  0001 C CNN "PN"
-	1    7550 3150
+P 8600 3750
+F 0 "SW6" H 8600 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 8600 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 8600 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8600 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 8600 4050 98  0001 C CNN "PN"
+	1    8600 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW?
+L KiCadCustomLib:TL1240GQ SW7
 U 1 1 5FE5114C
-P 8250 3150
-F 0 "SW?" H 8250 3535 50  0000 C CNN
-F 1 "TL1240GQ" H 8250 3444 50  0000 C CNN
-F 2 "KiCAD_Libraries:TL1240GQ" H 8250 3450 50  0001 C CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8250 3450 50  0001 C CNN
-F 4 "TL1240GQ" H 8250 3450 98  0001 C CNN "PN"
-	1    8250 3150
+P 9400 3750
+F 0 "SW7" H 9400 4135 50  0000 C CNN
+F 1 "TL1240GQ" H 9400 4044 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 9400 4050 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 9400 4050 50  0001 C CNN
+F 4 "TL1240GQ" H 9400 4050 98  0001 C CNN "PN"
+	1    9400 3750
 	1    0    0    -1  
 $EndComp
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
 $Comp
-L Driver_LED:WS2811 U?
-U 1 1 5FE52D0F
-P 5900 1650
-F 0 "U?" H 5900 2131 50  0000 C CNN
-F 1 "WS2811" H 5900 2040 50  0000 C CNN
-F 2 "" H 5600 1800 50  0001 C CNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 5700 1900 50  0001 C CNN
-	1    5900 1650
+L Connector_Generic:Conn_02x08_Odd_Even J1
+U 1 1 5FF3F50C
+P 6950 2350
+F 0 "J1" H 7000 2867 50  0000 C CNN
+F 1 "AP PANEL I/O" H 7000 2776 50  0000 C CNN
+F 2 "" H 6950 2350 50  0001 C CNN
+F 3 "~" H 6950 2350 50  0001 C CNN
+	1    6950 2350
 	1    0    0    -1  
 $EndComp
-Text Label 6300 1550 0    50   ~ 0
-OUTR1
-Text Label 6300 1650 0    50   ~ 0
-OUTG1
-Text Label 6300 1750 0    50   ~ 0
-OUTB1
+Text Label 6750 2050 2    60   ~ 0
+31
+Text Label 6750 2150 2    60   ~ 0
+29
+Text Label 6750 2250 2    60   ~ 0
+27
+Text Label 6750 2350 2    60   ~ 0
+25
+Text Label 6750 2450 2    60   ~ 0
+23
+Text Label 6750 2550 2    60   ~ 0
+24
+Text Label 6750 2650 2    60   ~ 0
+22
+Text Label 7250 2050 0    50   ~ 0
+DIG0
+Text Label 7250 2150 0    50   ~ 0
+SEGDP
+Text Label 7250 2250 0    50   ~ 0
+SEGA
+Text Label 7250 2350 0    50   ~ 0
+SEGB
+Text Label 7250 2450 0    50   ~ 0
+SEGC
+Text Label 7250 2550 0    50   ~ 0
+SEGD
+Text Label 7250 2650 0    50   ~ 0
+SEGE
+Text Label 7250 2750 0    50   ~ 0
+SEGF
 $Comp
-L power:GND #PWR?
-U 1 1 5FE540B2
-P 5900 1950
-F 0 "#PWR?" H 5900 1700 50  0001 C CNN
-F 1 "GND" H 5905 1777 50  0000 C CNN
-F 2 "" H 5900 1950 50  0001 C CNN
-F 3 "" H 5900 1950 50  0001 C CNN
-	1    5900 1950
+L power:GND #PWR01
+U 1 1 5FF415BC
+P 6650 2850
+F 0 "#PWR01" H 6650 2600 50  0001 C CNN
+F 1 "GND" H 6650 2700 50  0000 C CNN
+F 2 "" H 6650 2850 50  0000 C CNN
+F 3 "" H 6650 2850 50  0000 C CNN
+	1    6650 2850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 2850 6650 2750
+Wire Wire Line
+	6650 2750 6750 2750
+Text Notes 6600 2050 2    50   ~ 0
+A/P SW
+Text Notes 6600 2150 2    50   ~ 0
+IFF SW
+Text Notes 6600 2250 2    50   ~ 0
+TCN SW
+Text Notes 6600 2350 2    50   ~ 0
+ILS SW
+Text Notes 6600 2450 2    50   ~ 0
+D/L SW
+Text Notes 6600 2550 2    50   ~ 0
+BCN SW
+Text Notes 6600 2650 2    50   ~ 0
+ON/OFF SW
+Text Notes 7550 2050 0    50   ~ 0
+BL COM
+Text Notes 7550 2150 0    50   ~ 0
+A/P BL
+Text Notes 7550 2250 0    50   ~ 0
+IFF BL
+Text Notes 7550 2350 0    50   ~ 0
+TCN BL
+Text Notes 7550 2450 0    50   ~ 0
+ILS BL
+Text Notes 7550 2550 0    50   ~ 0
+D/L BL
+Text Notes 7550 2650 0    50   ~ 0
+BCN BL
+Text Notes 7550 2750 0    50   ~ 0
+ON/OFF BL
+Text Notes 6600 2750 2    50   ~ 0
+SW COM
+Text Label 4400 3650 2    60   ~ 0
+31
+Text Label 5200 3650 2    60   ~ 0
+29
+Text Label 6000 3650 2    60   ~ 0
+27
+Text Label 6800 3650 2    60   ~ 0
+25
+Text Label 7600 3650 2    60   ~ 0
+23
+Text Label 8400 3650 2    60   ~ 0
+24
+Text Label 9200 3650 2    60   ~ 0
+22
+Text Notes 4700 3950 2    50   ~ 0
+A/P SW
+Text Notes 5500 3950 2    50   ~ 0
+IFF SW
+Text Notes 6300 3950 2    50   ~ 0
+TCN SW
+Text Notes 7100 3950 2    50   ~ 0
+ILS SW
+Text Notes 7900 3950 2    50   ~ 0
+D/L SW
+Text Notes 8700 3950 2    50   ~ 0
+BCN SW
+Text Notes 9600 3950 2    50   ~ 0
+ON/OFF SW
+Text Label 4800 3750 0    50   ~ 0
+DIG0
+$Comp
+L power:GND #PWR02
+U 1 1 5FEA0F58
+P 4900 3650
+F 0 "#PWR02" H 4900 3400 50  0001 C CNN
+F 1 "GND" H 4900 3500 50  0000 C CNN
+F 2 "" H 4900 3650 50  0000 C CNN
+F 3 "" H 4900 3650 50  0000 C CNN
+	1    4900 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3650 4800 3650
+$Comp
+L power:GND #PWR03
+U 1 1 5FEA6FA9
+P 5700 3650
+F 0 "#PWR03" H 5700 3400 50  0001 C CNN
+F 1 "GND" H 5700 3500 50  0000 C CNN
+F 2 "" H 5700 3650 50  0000 C CNN
+F 3 "" H 5700 3650 50  0000 C CNN
+	1    5700 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5700 3650 5600 3650
+$Comp
+L power:GND #PWR04
+U 1 1 5FEA72A9
+P 6500 3650
+F 0 "#PWR04" H 6500 3400 50  0001 C CNN
+F 1 "GND" H 6500 3500 50  0000 C CNN
+F 2 "" H 6500 3650 50  0000 C CNN
+F 3 "" H 6500 3650 50  0000 C CNN
+	1    6500 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 3650 6400 3650
+$Comp
+L power:GND #PWR05
+U 1 1 5FEA77C7
+P 7300 3650
+F 0 "#PWR05" H 7300 3400 50  0001 C CNN
+F 1 "GND" H 7300 3500 50  0000 C CNN
+F 2 "" H 7300 3650 50  0000 C CNN
+F 3 "" H 7300 3650 50  0000 C CNN
+	1    7300 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 3650 7200 3650
+$Comp
+L power:GND #PWR06
+U 1 1 5FEA7951
+P 8100 3650
+F 0 "#PWR06" H 8100 3400 50  0001 C CNN
+F 1 "GND" H 8100 3500 50  0000 C CNN
+F 2 "" H 8100 3650 50  0000 C CNN
+F 3 "" H 8100 3650 50  0000 C CNN
+	1    8100 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8100 3650 8000 3650
+$Comp
+L power:GND #PWR07
+U 1 1 5FEA7C96
+P 8900 3650
+F 0 "#PWR07" H 8900 3400 50  0001 C CNN
+F 1 "GND" H 8900 3500 50  0000 C CNN
+F 2 "" H 8900 3650 50  0000 C CNN
+F 3 "" H 8900 3650 50  0000 C CNN
+	1    8900 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 3650 8800 3650
+$Comp
+L power:GND #PWR08
+U 1 1 5FEA8047
+P 9700 3650
+F 0 "#PWR08" H 9700 3400 50  0001 C CNN
+F 1 "GND" H 9700 3500 50  0000 C CNN
+F 2 "" H 9700 3650 50  0000 C CNN
+F 3 "" H 9700 3650 50  0000 C CNN
+	1    9700 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 3650 9600 3650
+Text Label 5600 3750 0    50   ~ 0
+DIG0
+Text Label 6400 3750 0    50   ~ 0
+DIG0
+Text Label 7200 3750 0    50   ~ 0
+DIG0
+Text Label 8000 3750 0    50   ~ 0
+DIG0
+Text Label 8800 3750 0    50   ~ 0
+DIG0
+Text Label 9600 3750 0    50   ~ 0
+DIG0
+Text Label 4400 3750 2    50   ~ 0
+SEGDP
+Text Label 5200 3750 2    50   ~ 0
+SEGA
+Text Label 6000 3750 2    50   ~ 0
+SEGB
+Text Label 6800 3750 2    50   ~ 0
+SEGC
+Text Label 7600 3750 2    50   ~ 0
+SEGD
+Text Label 8400 3750 2    50   ~ 0
+SEGE
+Text Label 9200 3750 2    50   ~ 0
+SEGF
 $EndSCHEMATC
