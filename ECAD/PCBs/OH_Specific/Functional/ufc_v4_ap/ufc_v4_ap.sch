@@ -103,93 +103,82 @@ Text Notes 450  650  0    100  ~ 0
 NOTES: (UNLESS OTHERWISE SPECIFIED)
 Text Notes 500  800  0    50   ~ 0
 1) XXXX
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J1
-U 1 1 5FF3F50C
-P 6950 2350
-F 0 "J1" H 7000 2867 50  0000 C CNN
-F 1 "AP PANEL I/O" H 7000 2776 50  0000 C CNN
-F 2 "" H 6950 2350 50  0001 C CNN
-F 3 "~" H 6950 2350 50  0001 C CNN
-	1    6950 2350
-	1    0    0    -1  
-$EndComp
-Text Label 6750 2050 2    60   ~ 0
+Text Label 6650 1250 2    60   ~ 0
 31
-Text Label 6750 2150 2    60   ~ 0
+Text Label 6650 1350 2    60   ~ 0
 29
-Text Label 6750 2250 2    60   ~ 0
+Text Label 6650 1450 2    60   ~ 0
 27
-Text Label 6750 2350 2    60   ~ 0
+Text Label 6650 1550 2    60   ~ 0
 25
-Text Label 6750 2450 2    60   ~ 0
+Text Label 7150 1250 0    60   ~ 0
 23
-Text Label 6750 2550 2    60   ~ 0
+Text Label 7150 1350 0    60   ~ 0
 24
-Text Label 6750 2650 2    60   ~ 0
+Text Label 7150 1450 0    60   ~ 0
 22
-Text Label 7250 2050 0    50   ~ 0
+Text Label 8650 1450 2    50   ~ 0
 DIG0
-Text Label 7250 2150 0    50   ~ 0
+Text Label 8650 1550 2    50   ~ 0
 SEGDP
-Text Label 7250 2250 0    50   ~ 0
+Text Label 8650 1650 2    50   ~ 0
 SEGA
-Text Label 7250 2350 0    50   ~ 0
+Text Label 8650 1750 2    50   ~ 0
 SEGB
-Text Label 7250 2450 0    50   ~ 0
+Text Label 9150 1450 0    50   ~ 0
 SEGC
-Text Label 7250 2550 0    50   ~ 0
+Text Label 9150 1550 0    50   ~ 0
 SEGD
-Text Label 7250 2650 0    50   ~ 0
+Text Label 9150 1650 0    50   ~ 0
 SEGE
-Text Label 7250 2750 0    50   ~ 0
+Text Label 9150 1750 0    50   ~ 0
 SEGF
 $Comp
 L power:GND #PWR01
 U 1 1 5FF415BC
-P 6650 2850
-F 0 "#PWR01" H 6650 2600 50  0001 C CNN
-F 1 "GND" H 6650 2700 50  0000 C CNN
-F 2 "" H 6650 2850 50  0000 C CNN
-F 3 "" H 6650 2850 50  0000 C CNN
-	1    6650 2850
-	1    0    0    -1  
+P 7250 1650
+F 0 "#PWR01" H 7250 1400 50  0001 C CNN
+F 1 "GND" H 7250 1500 50  0000 C CNN
+F 2 "" H 7250 1650 50  0000 C CNN
+F 3 "" H 7250 1650 50  0000 C CNN
+	1    7250 1650
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 2850 6650 2750
+	7250 1650 7250 1550
 Wire Wire Line
-	6650 2750 6750 2750
-Text Notes 6600 2050 2    50   ~ 0
+	7250 1550 7150 1550
+Text Notes 6500 1250 2    50   ~ 0
 A/P SW
-Text Notes 6600 2150 2    50   ~ 0
+Text Notes 6500 1350 2    50   ~ 0
 IFF SW
-Text Notes 6600 2250 2    50   ~ 0
+Text Notes 6500 1450 2    50   ~ 0
 TCN SW
-Text Notes 6600 2350 2    50   ~ 0
+Text Notes 6500 1550 2    50   ~ 0
 ILS SW
-Text Notes 6600 2450 2    50   ~ 0
+Text Notes 7300 1250 0    50   ~ 0
 D/L SW
-Text Notes 6600 2550 2    50   ~ 0
+Text Notes 7300 1350 0    50   ~ 0
 BCN SW
-Text Notes 6600 2650 2    50   ~ 0
+Text Notes 7300 1450 0    50   ~ 0
 ON/OFF SW
-Text Notes 7550 2050 0    50   ~ 0
+Text Notes 8350 1450 2    50   ~ 0
 BL COM
-Text Notes 7550 2150 0    50   ~ 0
+Text Notes 8350 1550 2    50   ~ 0
 A/P BL
-Text Notes 7550 2250 0    50   ~ 0
+Text Notes 8350 1650 2    50   ~ 0
 IFF BL
-Text Notes 7550 2350 0    50   ~ 0
+Text Notes 8350 1750 2    50   ~ 0
 TCN BL
-Text Notes 7550 2450 0    50   ~ 0
+Text Notes 9450 1450 0    50   ~ 0
 ILS BL
-Text Notes 7550 2550 0    50   ~ 0
+Text Notes 9450 1550 0    50   ~ 0
 D/L BL
-Text Notes 7550 2650 0    50   ~ 0
+Text Notes 9450 1650 0    50   ~ 0
 BCN BL
-Text Notes 7550 2750 0    50   ~ 0
+Text Notes 9450 1750 0    50   ~ 0
 ON/OFF BL
-Text Notes 6600 2750 2    50   ~ 0
+Text Notes 7300 1550 0    50   ~ 0
 SW COM
 Text Label 4400 3650 2    60   ~ 0
 31
@@ -338,4 +327,48 @@ Text Label 8400 3750 2    50   ~ 0
 SEGE
 Text Label 9200 3750 2    50   ~ 0
 SEGF
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FEA9178
+P 9100 2300
+F 0 "#FLG0101" H 9100 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9100 2473 50  0000 C CNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "~" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FEA92D3
+P 9100 2300
+F 0 "#PWR0101" H 9100 2050 50  0001 C CNN
+F 1 "GND" H 9100 2150 50  0000 C CNN
+F 2 "" H 9100 2300 50  0000 C CNN
+F 3 "" H 9100 2300 50  0000 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5FEA9DBF
+P 6850 1350
+F 0 "J1" H 6900 1667 50  0000 C CNN
+F 1 "AP SW I/O" H 6900 1576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 6850 1350 50  0001 C CNN
+F 3 "~" H 6850 1350 50  0001 C CNN
+	1    6850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 5FEAA189
+P 8850 1550
+F 0 "J2" H 8900 1867 50  0000 C CNN
+F 1 "AP BL I/O" H 8900 1776 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8850 1550 50  0001 C CNN
+F 3 "~" H 8850 1550 50  0001 C CNN
+	1    8850 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
