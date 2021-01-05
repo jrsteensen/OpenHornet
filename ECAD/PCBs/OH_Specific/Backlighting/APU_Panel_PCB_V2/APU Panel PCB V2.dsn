@@ -1,0 +1,247 @@
+(pcb "C:\Users\lukew\OneDrive\Desktop\APU Panel PCB V1\APU Panel PCB V1.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.6)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  118210 -184885  58598.2 -184885  58598.2 -19585  118210 -19585
+            118210 -184885)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Connector_USB:USB_Micro-B_Molex-105017-0001"
+      (place J1 71170.8 -65887.6 front 0 (PN USB_B_Micro))
+    )
+    (component LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+      (place D19 90678 -165405 front 0 (PN WS2812B))
+      (place D18 79592 -159182 front 0 (PN WS2812B))
+      (place D17 101498 -154330 front 0 (PN WS2812B))
+      (place D16 79896.8 -150241 front 0 (PN WS2812B))
+      (place D15 103378 -138328 front 0 (PN WS2812B))
+      (place D14 96266 -138328 front 0 (PN WS2812B))
+      (place D13 87630 -138328 front 0 (PN WS2812B))
+      (place D12 78130.4 -138328 front 0 (PN WS2812B))
+      (place D11 111404 -132791 front 0 (PN WS2812B))
+      (place D10 101905 -132791 front 0 (PN WS2812B))
+      (place D9 92506.8 -132842 front 0 (PN WS2812B))
+      (place D8 82600.8 -132791 front 0 (PN WS2812B))
+      (place D7 73355.2 -132740 front 0 (PN WS2812B))
+      (place D6 110134 -85394.8 front 0 (PN WS2812B))
+      (place D5 103276 -85445.6 front 0 (PN WS2812B))
+      (place D4 84734.4 -84734.4 front 0 (PN WS2812B))
+      (place D3 75336.4 -84836 front 0 (PN WS2812B))
+      (place D2 97739.2 -74879.2 front 0 (PN WS2812B))
+      (place D1 89142.4 -74752.4 front 0 (PN WS2812B))
+    )
+  )
+  (library
+    (image "Connector_USB:USB_Micro-B_Molex-105017-0001"
+      (outline (path signal 50  -4400 -3640  4400 -3640))
+      (outline (path signal 50  4400 2460  4400 -3640))
+      (outline (path signal 50  -4400 2460  4400 2460))
+      (outline (path signal 50  -4400 -3640  -4400 2460))
+      (outline (path signal 120  -3900 1762.5  -3450 1762.5))
+      (outline (path signal 120  -3900 -87.5  -3900 1762.5))
+      (outline (path signal 120  3900 -2637.5  3900 -2387.5))
+      (outline (path signal 100  3750 -3387.5  3750 1612.5))
+      (outline (path signal 100  -3000 -2689.2  3000 -2689.2))
+      (outline (path signal 100  -3750 -3389.2  3750 -3389.2))
+      (outline (path signal 100  -3750 1612.5  3750 1612.5))
+      (outline (path signal 100  -3750 -3387.5  -3750 1612.5))
+      (outline (path signal 120  -3900 -2637.5  -3900 -2387.5))
+      (outline (path signal 120  3900 -87.5  3900 1762.5))
+      (outline (path signal 120  3900 1762.5  3450 1762.5))
+      (outline (path signal 120  -1700 2312.5  -1250 2312.5))
+      (outline (path signal 120  -1700 2312.5  -1700 1862.5))
+      (outline (path signal 100  -1300 1712.5  -1500 1912.5))
+      (outline (path signal 100  -1100 1912.5  -1300 1712.5))
+      (outline (path signal 100  -1500 2122.5  -1100 2122.5))
+      (outline (path signal 100  -1500 2122.5  -1500 1912.5))
+      (outline (path signal 100  -1100 2122.5  -1100 1912.5))
+      (pin Rect[T]Pad_1200x1900_um 6 -2900 -1237.5)
+      (pin Rect[T]Pad_1200x1900_um 6@1 2900 -1237.5)
+      (pin Oval[A]Pad_1200x1900_um 6@2 3500 -1237.5)
+      (pin Oval[A]Pad_1200x1900_um (rotate 180) 6@3 -3500 -1237.5)
+      (pin Rect[T]Pad_1500x1900_um 6@4 -1000 -1237.5)
+      (pin Round[A]Pad_1450_um 6@5 2500 1462.5)
+      (pin Rect[T]Pad_400x1350_um 3 0 1462.5)
+      (pin Rect[T]Pad_400x1350_um 4 650 1462.5)
+      (pin Rect[T]Pad_400x1350_um 5 1300 1462.5)
+      (pin Rect[T]Pad_400x1350_um 1 -1300 1462.5)
+      (pin Rect[T]Pad_400x1350_um 2 -650 1462.5)
+      (pin Round[A]Pad_1450_um 6@6 -2500 1462.5)
+      (pin Rect[T]Pad_1500x1900_um 6@7 1000 -1237.5)
+    )
+    (image LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+      (outline (path signal 50  3450 2750  -3450 2750))
+      (outline (path signal 50  3450 -2750  3450 2750))
+      (outline (path signal 50  -3450 -2750  3450 -2750))
+      (outline (path signal 50  -3450 2750  -3450 -2750))
+      (outline (path signal 100  2500 -1500  1500 -2500))
+      (outline (path signal 100  -2500 2500  -2500 -2500))
+      (outline (path signal 100  -2500 -2500  2500 -2500))
+      (outline (path signal 100  2500 -2500  2500 2500))
+      (outline (path signal 100  2500 2500  -2500 2500))
+      (outline (path signal 120  -3650 2750  3650 2750))
+      (outline (path signal 120  -3650 -2750  3650 -2750))
+      (outline (path signal 120  3650 -2750  3650 -1600))
+      (outline (path signal 100  2000 0  1918.99 -563.465  1682.51 -1081.28  1309.72 -1511.5
+            830.83 -1819.26  284.63 -1979.64  -284.63 -1979.64  -830.83 -1819.26
+            -1309.72 -1511.5  -1682.51 -1081.28  -1918.99 -563.465  -2000 0
+            -1918.99 563.465  -1682.51 1081.28  -1309.72 1511.5  -830.83 1819.26
+            -284.63 1979.64  284.63 1979.64  830.83 1819.26  1309.72 1511.5
+            1682.51 1081.28  1918.99 563.465  2000 0))
+      (pin Rect[T]Pad_1500x1000_um 1 -2450 1600)
+      (pin Rect[T]Pad_1500x1000_um 2 -2450 -1600)
+      (pin Rect[T]Pad_1500x1000_um 4 2450 1600)
+      (pin Rect[T]Pad_1500x1000_um 3 2450 -1600)
+    )
+    (padstack Round[A]Pad_1450_um
+      (shape (circle F.Cu 1450))
+      (shape (circle B.Cu 1450))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1200x1900_um
+      (shape (path F.Cu 1200  0 -350  0 350))
+      (shape (path B.Cu 1200  0 -350  0 350))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_400x1350_um
+      (shape (rect F.Cu -200 -675 200 675))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x1900_um
+      (shape (rect F.Cu -600 -950 600 950))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1000_um
+      (shape (rect F.Cu -750 -500 750 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1900_um
+      (shape (rect F.Cu -750 -950 750 950))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(D1-Pad1)"
+      (pins J1-1 D19-1 D18-1 D17-1 D16-1 D15-1 D14-1 D13-1 D12-1 D11-1 D10-1 D9-1
+        D8-1 D7-1 D6-1 D5-1 D4-1 D3-1 D2-1 D1-1)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D2-4 D1-2)
+    )
+    (net "Net-(D1-Pad4)"
+      (pins J1-3 D1-4)
+    )
+    (net "Net-(D1-Pad3)"
+      (pins J1-5 D19-3 D18-3 D17-3 D16-3 D15-3 D14-3 D13-3 D12-3 D11-3 D10-3 D9-3
+        D8-3 D7-3 D6-3 D5-3 D4-3 D3-3 D2-3 D1-3)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins D3-4 D2-2)
+    )
+    (net "Net-(D3-Pad2)"
+      (pins D4-4 D3-2)
+    )
+    (net "Net-(D4-Pad2)"
+      (pins D5-4 D4-2)
+    )
+    (net "Net-(D5-Pad2)"
+      (pins D6-4 D5-2)
+    )
+    (net "Net-(D6-Pad2)"
+      (pins D7-4 D6-2)
+    )
+    (net "Net-(D7-Pad2)"
+      (pins D8-4 D7-2)
+    )
+    (net "Net-(D8-Pad2)"
+      (pins D9-4 D8-2)
+    )
+    (net "Net-(D10-Pad4)"
+      (pins D10-4 D9-2)
+    )
+    (net "Net-(D10-Pad2)"
+      (pins D11-4 D10-2)
+    )
+    (net "Net-(D11-Pad2)"
+      (pins D12-4 D11-2)
+    )
+    (net "Net-(D12-Pad2)"
+      (pins D13-4 D12-2)
+    )
+    (net "Net-(D13-Pad2)"
+      (pins D14-4 D13-2)
+    )
+    (net "Net-(D14-Pad2)"
+      (pins D15-4 D14-2)
+    )
+    (net "Net-(D15-Pad2)"
+      (pins D16-4 D15-2)
+    )
+    (net "Net-(D16-Pad2)"
+      (pins D17-4 D16-2)
+    )
+    (net "Net-(D17-Pad2)"
+      (pins D18-4 D17-2)
+    )
+    (net "Net-(D18-Pad2)"
+      (pins D19-4 D18-2)
+    )
+    (net "Net-(D19-Pad2)"
+      (pins J1-2 D19-2)
+    )
+    (net "Net-(J1-Pad6)"
+      (pins J1-6 J1-6@1 J1-6@2 J1-6@3 J1-6@4 J1-6@5 J1-6@6 J1-6@7)
+    )
+    (net "Net-(J1-Pad4)"
+      (pins J1-4)
+    )
+    (class kicad_default "" "Net-(D1-Pad1)" "Net-(D1-Pad2)" "Net-(D1-Pad3)"
+      "Net-(D1-Pad4)" "Net-(D10-Pad2)" "Net-(D10-Pad4)" "Net-(D11-Pad2)" "Net-(D12-Pad2)"
+      "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)"
+      "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
+      "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)"
+      "Net-(J1-Pad4)" "Net-(J1-Pad6)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
