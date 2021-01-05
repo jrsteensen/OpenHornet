@@ -129,7 +129,7 @@ U 1 1 5F7889C9
 P 1500 5800
 F 0 "J2" H 1528 5776 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 1528 5685 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1500 5800 50  0001 C CNN
+F 2 "OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1500 5800 50  0001 C CNN
 F 3 "~" H 1500 5800 50  0001 C CNN
 	1    1500 5800
 	1    0    0    -1  
@@ -282,21 +282,10 @@ U 1 1 5F78526A
 P 1500 6900
 F 0 "J1" H 1528 6876 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 1528 6785 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1500 6900 50  0001 C CNN
+F 2 "OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1500 6900 50  0001 C CNN
 F 3 "~" H 1500 6900 50  0001 C CNN
 	1    1500 6900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Polarized C1
-U 1 1 5FD5BCF2
-P 4550 300
-F 0 "C1" V 4805 300 50  0000 C CNN
-F 1 "C_Polarized" V 4714 300 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 4588 150 50  0001 C CNN
-F 3 "~" H 4550 300 50  0001 C CNN
-	1    4550 300 
-	0    1    1    0   
 $EndComp
 Text Label 800  4650 2    50   ~ 0
 LED+5V
@@ -361,19 +350,6 @@ F 3 "~" H 4550 700 50  0001 C CNN
 	1    4550 700 
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C2
-U 1 1 61FB667B
-P 4550 450
-F 0 "C2" V 4298 450 50  0000 C CNN
-F 1 "C" V 4389 450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 300 50  0001 C CNN
-F 3 "~" H 4550 450 50  0001 C CNN
-	1    4550 450 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4400 450  4400 700 
 Connection ~ 4400 700 
 Wire Wire Line
 	4400 700  4400 950 
@@ -423,14 +399,51 @@ Text Label 1400 6200 2    50   ~ 0
 LEDGND
 Text Label 1800 6600 2    50   ~ 0
 LED+5V
-Wire Wire Line
-	4700 300  4700 450 
-Connection ~ 4700 450 
-Wire Wire Line
-	4700 450  4700 700 
-Wire Wire Line
-	4400 300  4400 450 
-Connection ~ 4400 450 
 Text Label 1100 5400 2    50   ~ 0
 DATAIN
+$Comp
+L Device:C C2
+U 1 1 61FB667B
+P 4550 500
+F 0 "C2" V 4298 500 50  0000 C CNN
+F 1 "C" V 4389 500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4588 350 50  0001 C CNN
+F 3 "~" H 4550 500 50  0001 C CNN
+	1    4550 500 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Polarized C1
+U 1 1 5FD5BCF2
+P 4550 300
+F 0 "C1" V 4805 300 50  0000 C CNN
+F 1 "C_Polarized" V 4714 300 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4588 150 50  0001 C CNN
+F 3 "~" H 4550 300 50  0001 C CNN
+	1    4550 300 
+	0    1    1    0   
+$EndComp
+Connection ~ 4400 500 
+Wire Wire Line
+	4400 500  4400 700 
+Connection ~ 4700 500 
+Wire Wire Line
+	4700 500  4700 700 
+Wire Wire Line
+	4700 300  4700 500 
+Wire Wire Line
+	4400 300  4400 500 
+$Comp
+L Device:C_Polarized C6
+U 1 1 5FC120CE
+P 4550 300
+F 0 "C6" V 4805 300 50  0000 C CNN
+F 1 "C_Polarized" V 4714 300 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4588 150 50  0001 C CNN
+F 3 "~" H 4550 300 50  0001 C CNN
+	1    4550 300 
+	0    1    1    0   
+$EndComp
+Connection ~ 4700 300 
+Connection ~ 4400 300 
 $EndSCHEMATC
