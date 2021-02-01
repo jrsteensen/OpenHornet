@@ -1,0 +1,12 @@
+(module SxAL_Toggle_13x13mm (layer F.Cu) (tedit 5FBF1AB6)
+  (fp_text reference REF** (at 0.025 -9.05) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SxAL_Toggle_13x13mm (at 0 -7.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers *.Mask F.Cu)
+    (clearance 1))
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers *.Mask B.Cu)
+    (clearance 2.65))
+)
