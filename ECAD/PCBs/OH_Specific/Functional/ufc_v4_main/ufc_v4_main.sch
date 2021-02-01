@@ -1,6 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ufc_v4_main-cache
-LIBS:ufc_v4_controller-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -109,7 +107,7 @@ Wire Notes Line
 Wire Notes Line
 	20100 2450 20100 3250
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U1
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U1
 U 1 1 5FF206CF
 P 6750 2350
 F 0 "U1" H 6750 3728 80  0000 C CNN
@@ -227,7 +225,7 @@ $EndComp
 Text Label 5550 1250 2    50   ~ 0
 +5V_SUPPLY
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U2
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U2
 U 1 1 5FD4E303
 P 11200 2350
 F 0 "U2" H 11200 3728 80  0000 C CNN
@@ -478,7 +476,7 @@ F 3 "~" H 12600 7250 50  0001 C CNN
 	1    12600 7250
 	0    -1   -1   0   
 $EndComp
-Text Notes 17050 5450 0    50   ~ 0
+Text Notes 17050 5750 0    50   ~ 0
 SCRTPAD 16-SEG
 $Comp
 L Connector:Conn_01x05_Female J31
@@ -505,12 +503,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x04_Female J26
 U 1 1 62869105
-P 16950 5600
-F 0 "J26" V 17100 5600 50  0000 C CNN
-F 1 "Conn_01x04_Female" V 17000 5600 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 16950 5600 50  0001 C CNN
-F 3 "~" H 16950 5600 50  0001 C CNN
-	1    16950 5600
+P 16950 5900
+F 0 "J26" V 17100 5900 50  0000 C CNN
+F 1 "Conn_01x04_Female" V 17000 5900 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 16950 5900 50  0001 C CNN
+F 3 "~" H 16950 5900 50  0001 C CNN
+	1    16950 5900
 	0    -1   -1   0   
 $EndComp
 Text Notes 5100 1000 0    98   ~ 0
@@ -851,7 +849,7 @@ SEGF_3
 Text Label 16250 2250 0    50   ~ 0
 SEGG_3
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U3
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U3
 U 1 1 62E686C2
 P 15650 2350
 F 0 "U3" H 15650 3728 80  0000 C CNN
@@ -1084,7 +1082,7 @@ SEGF_4
 Text Label 7350 5250 0    50   ~ 0
 SEGG_4
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U4
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U4
 U 1 1 631295A1
 P 6750 5350
 F 0 "U4" H 6750 6728 80  0000 C CNN
@@ -1317,7 +1315,7 @@ SEGF_5
 Text Label 11800 5250 0    50   ~ 0
 SEGG_5
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U5
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U5
 U 1 1 63134215
 P 11200 5350
 F 0 "U5" H 11200 6728 80  0000 C CNN
@@ -1327,17 +1325,6 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf"
 F 4 "C52476" H 11200 6540 50  0000 C CNN "LCSC"
 	1    11200 5350
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x05_Female J14
-U 1 1 63634AC2
-P 17050 4150
-F 0 "J14" V 17200 4150 50  0000 C CNN
-F 1 "Conn_01x05_Female" V 17100 4150 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 4150 50  0001 C CNN
-F 3 "~" H 17050 4150 50  0001 C CNN
-	1    17050 4150
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x05_Female J15
@@ -1351,7 +1338,7 @@ F 3 "~" H 17850 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 14000 4000 0    98   ~ 0
-OPT DOTS & COMM 1/2
+COMM 1/2 & scratch 16seg
 Text Notes 17300 4000 0    50   ~ 0
 COMM_1
 Wire Notes Line
@@ -1454,7 +1441,7 @@ $EndComp
 Text Label 16250 4550 0    50   ~ 0
 SEGDP_6
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U6
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U6
 U 1 1 63634B27
 P 15650 5350
 F 0 "U6" H 15750 6550 80  0000 C CNN
@@ -1465,26 +1452,6 @@ F 4 "C52476" H 15750 6350 50  0000 C CNN "LCSC"
 	1    15650 5350
 	1    0    0    -1  
 $EndComp
-Text Label 18050 4350 3    50   ~ 0
-DIG7_6
-Text Label 17950 4350 3    50   ~ 0
-DIG6_6
-Text Label 17850 4350 3    50   ~ 0
-DIG5_6
-Text Label 17750 4350 3    50   ~ 0
-DIG4_6
-Text Label 17650 4350 3    50   ~ 0
-DIG3_6
-Text Label 17250 4350 3    50   ~ 0
-DIG2_6
-Text Label 17150 4350 3    50   ~ 0
-DIG1_6
-Text Label 17050 4350 3    50   ~ 0
-DIG0_6
-Text Label 16850 5050 3    50   ~ 0
-SEGB_6
-Text Label 16950 4350 3    50   ~ 0
-SEGA_6
 Text Label 16250 5250 0    50   ~ 0
 SEGG_6
 Text Label 16250 5150 0    50   ~ 0
@@ -1518,155 +1485,111 @@ DIG0_6
 $Comp
 L Connector:Conn_01x05_Female J20
 U 1 1 63634B4A
-P 17050 4850
-F 0 "J20" V 17200 4850 50  0000 C CNN
-F 1 "Conn_01x05_Female" V 17100 4850 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 4850 50  0001 C CNN
-F 3 "~" H 17050 4850 50  0001 C CNN
-	1    17050 4850
+P 17050 5000
+F 0 "J20" V 17200 5000 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17100 5000 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 5000 50  0001 C CNN
+F 3 "~" H 17050 5000 50  0001 C CNN
+	1    17050 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x05_Female J21
 U 1 1 63634B54
-P 17850 4850
-F 0 "J21" V 18000 4850 50  0000 C CNN
-F 1 "Conn_01x05_Female" V 17900 4850 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17850 4850 50  0001 C CNN
-F 3 "~" H 17850 4850 50  0001 C CNN
-	1    17850 4850
+P 17850 5000
+F 0 "J21" V 18000 5000 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17900 5000 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17850 5000 50  0001 C CNN
+F 3 "~" H 17850 5000 50  0001 C CNN
+	1    17850 5000
 	0    -1   -1   0   
 $EndComp
-Text Notes 17300 4700 0    50   ~ 0
+Text Notes 17300 4850 0    50   ~ 0
 COMM_2
-Text Label 18050 5050 3    50   ~ 0
-DIG7_6
-Text Label 17950 5050 3    50   ~ 0
-DIG6_6
-Text Label 17850 5050 3    50   ~ 0
-DIG5_6
-Text Label 17750 5050 3    50   ~ 0
-DIG4_6
-Text Label 17650 5050 3    50   ~ 0
-DIG3_6
-Text Label 17250 5050 3    50   ~ 0
-DIG2_6
-Text Label 17150 5050 3    50   ~ 0
-DIG1_6
-Text Label 17050 5050 3    50   ~ 0
-DIG0_6
-Text Label 16850 5800 3    50   ~ 0
-SEGD_6
-Text Label 16950 5050 3    50   ~ 0
-SEGC_6
-Text Label 8050 8050 2    50   ~ 0
+Text Label 8050 8200 2    50   ~ 0
 DOT1-
-Text Label 8050 8250 2    50   ~ 0
+Text Label 8050 8400 2    50   ~ 0
 DOT2-
-Text Label 8050 7950 2    50   ~ 0
+Text Label 8050 8100 2    50   ~ 0
 DOT1+
-Text Label 8050 8150 2    50   ~ 0
+Text Label 8050 8300 2    50   ~ 0
 DOT2+
-Text Label 8050 8450 2    50   ~ 0
+Text Label 8050 8600 2    50   ~ 0
 DOT1-_2
-Text Label 8050 8650 2    50   ~ 0
+Text Label 8050 8800 2    50   ~ 0
 DOT2-_2
-Text Label 8050 8350 2    50   ~ 0
+Text Label 8050 8500 2    50   ~ 0
 DOT1+_2
-Text Label 8050 8550 2    50   ~ 0
+Text Label 8050 8700 2    50   ~ 0
 DOT2+_2
-Text Label 8050 9050 2    50   ~ 0
+Text Label 8050 9200 2    50   ~ 0
 DOT2-_3
-Text Label 8050 8850 2    50   ~ 0
+Text Label 8050 9000 2    50   ~ 0
 DOT1-_3
-Text Label 8050 8950 2    50   ~ 0
+Text Label 8050 9100 2    50   ~ 0
 DOT2+_3
-Text Label 8050 8750 2    50   ~ 0
+Text Label 8050 8900 2    50   ~ 0
 DOT1+_3
-Text Label 8900 8250 2    50   ~ 0
+Text Label 8900 8400 2    50   ~ 0
 DOT2-_4
-Text Label 8900 8050 2    50   ~ 0
+Text Label 8900 8200 2    50   ~ 0
 DOT1-_4
-Text Label 8900 8150 2    50   ~ 0
+Text Label 8900 8300 2    50   ~ 0
 DOT2+_4
-Text Label 8900 7950 2    50   ~ 0
+Text Label 8900 8100 2    50   ~ 0
 DOT1+_4
-Text Label 8900 8550 2    50   ~ 0
+Text Label 8900 8700 2    50   ~ 0
 DOT2+_5
-Text Label 8900 8350 2    50   ~ 0
+Text Label 8900 8500 2    50   ~ 0
 DOT1+_5
-Text Label 8900 8650 2    50   ~ 0
+Text Label 8900 8800 2    50   ~ 0
 DOT2-_5
-Text Label 8900 8450 2    50   ~ 0
+Text Label 8900 8600 2    50   ~ 0
 DOT1-_5
 Wire Notes Line
 	15850 4050 15850 3850
 Wire Notes Line
 	13950 4050 15850 4050
 Wire Wire Line
-	8050 7950 8150 7950
+	8050 8100 8150 8100
 Wire Wire Line
-	8050 8050 8150 8050
+	8050 8200 8150 8200
 Wire Wire Line
-	8050 8150 8150 8150
+	8050 8300 8150 8300
 Wire Wire Line
-	8050 8250 8150 8250
+	8050 8400 8150 8400
 Wire Wire Line
-	8050 8350 8150 8350
+	8050 8500 8150 8500
 Wire Wire Line
-	8050 8450 8150 8450
+	8050 8600 8150 8600
 Wire Wire Line
-	8050 8550 8150 8550
+	8050 8700 8150 8700
 Wire Wire Line
-	8050 8650 8150 8650
+	8050 8800 8150 8800
 Wire Wire Line
-	8050 8750 8150 8750
+	8050 8900 8150 8900
 Wire Wire Line
-	8150 8850 8050 8850
+	8150 9000 8050 9000
 Wire Wire Line
-	8050 8950 8150 8950
+	8050 9100 8150 9100
 Wire Wire Line
-	8900 7950 9000 7950
+	8900 8100 9000 8100
 Wire Wire Line
-	9000 8050 8900 8050
+	9000 8200 8900 8200
 Wire Wire Line
-	8900 8150 9000 8150
+	8900 8300 9000 8300
 Wire Wire Line
-	9000 8250 8900 8250
+	9000 8400 8900 8400
 Wire Wire Line
-	8900 8350 9000 8350
+	8900 8500 9000 8500
 Wire Wire Line
-	9000 8450 8900 8450
+	9000 8600 8900 8600
 Wire Wire Line
-	8900 8550 9000 8550
+	8900 8700 9000 8700
 Wire Wire Line
-	9000 8650 8900 8650
+	9000 8800 8900 8800
 Wire Wire Line
-	8150 9050 8050 9050
-Text Label 16850 4350 3    50   ~ 0
-SEGDP_6
-Text Label 17150 5800 3    50   ~ 0
-SEGG_6
-Text Label 17050 5800 3    50   ~ 0
-SEGF_6
-Text Label 16950 5800 3    50   ~ 0
-SEGE_6
-Text Label 18150 5800 3    50   ~ 0
-DIG7_6
-Text Label 18050 5800 3    50   ~ 0
-DIG6_6
-Text Label 17950 5800 3    50   ~ 0
-DIG5_6
-Text Label 17850 5800 3    50   ~ 0
-DIG4_6
-Text Label 17750 5800 3    50   ~ 0
-DIG3_6
-Text Label 17650 5800 3    50   ~ 0
-DIG2_6
-Text Label 17550 5800 3    50   ~ 0
-DIG1_6
-Text Label 17450 5800 3    50   ~ 0
-DIG0_6
+	8150 9200 8050 9200
 Text Notes 5100 7000 0    98   ~ 0
 SCRATCHPAD DIG1-4 & OPT DOTS
 Wire Notes Line
@@ -1769,7 +1692,7 @@ $EndComp
 Text Label 7350 7550 0    50   ~ 0
 SEGDP_7
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U7
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U7
 U 1 1 63CA0CCE
 P 6750 8350
 F 0 "U7" H 6850 9550 80  0000 C CNN
@@ -1838,47 +1761,47 @@ Text Label 8950 7450 3    50   ~ 0
 DIG1_7
 Text Label 8850 7450 3    50   ~ 0
 DIG0_7
-Text Label 8150 7950 0    50   ~ 0
+Text Label 8150 8100 0    50   ~ 0
 DIG4_7
-Text Label 8150 8150 0    50   ~ 0
+Text Label 8150 8300 0    50   ~ 0
 DIG4_7
-Text Label 8150 8350 0    50   ~ 0
+Text Label 8150 8500 0    50   ~ 0
 DIG4_7
-Text Label 8150 8550 0    50   ~ 0
+Text Label 8150 8700 0    50   ~ 0
 DIG4_7
-Text Label 8150 8750 0    50   ~ 0
+Text Label 8150 8900 0    50   ~ 0
 DIG4_7
-Text Label 8150 8950 0    50   ~ 0
+Text Label 8150 9100 0    50   ~ 0
 DIG4_7
-Text Label 9000 7950 0    50   ~ 0
+Text Label 9000 8100 0    50   ~ 0
 DIG4_7
-Text Label 9000 8350 0    50   ~ 0
+Text Label 9000 8500 0    50   ~ 0
 DIG5_7
-Text Label 9000 8550 0    50   ~ 0
+Text Label 9000 8700 0    50   ~ 0
 DIG5_7
-Text Label 9000 8150 0    50   ~ 0
+Text Label 9000 8300 0    50   ~ 0
 DIG4_7
-Text Label 8150 8050 0    50   ~ 0
+Text Label 8150 8200 0    50   ~ 0
 SEGDP_7
-Text Label 8150 8250 0    50   ~ 0
+Text Label 8150 8400 0    50   ~ 0
 SEGA_7
-Text Label 8150 8450 0    50   ~ 0
+Text Label 8150 8600 0    50   ~ 0
 SEGB_7
-Text Label 8150 8650 0    50   ~ 0
+Text Label 8150 8800 0    50   ~ 0
 SEGC_7
-Text Label 8150 8850 0    50   ~ 0
+Text Label 8150 9000 0    50   ~ 0
 SEGD_7
-Text Label 8150 9050 0    50   ~ 0
+Text Label 8150 9200 0    50   ~ 0
 SEGE_7
-Text Label 9000 8050 0    50   ~ 0
+Text Label 9000 8200 0    50   ~ 0
 SEGF_7
-Text Label 9000 8250 0    50   ~ 0
+Text Label 9000 8400 0    50   ~ 0
 SEGG_7
-Text Label 9000 8450 0    50   ~ 0
+Text Label 9000 8600 0    50   ~ 0
 SEGDP_7
-Text Label 9000 8650 0    50   ~ 0
+Text Label 9000 8800 0    50   ~ 0
 SEGA_7
-Text Notes 8300 7850 0    59   ~ 0
+Text Notes 8300 8000 0    59   ~ 0
 OPT DOTS
 Text Notes 9550 7000 0    98   ~ 0
 SCRATCHPAD DIG 5-9
@@ -1980,7 +1903,7 @@ $EndComp
 Text Label 11800 7550 0    50   ~ 0
 SEGDP_8
 $Comp
-L KiCadCustomLib:MAX7219EWG+T U8
+L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U8
 U 1 1 643781F6
 P 11200 8350
 F 0 "U8" H 11300 9550 80  0000 C CNN
@@ -2052,7 +1975,7 @@ DIG0_8
 Text Notes 12750 7100 0    50   ~ 0
 SCRTPAD\nDIG #5 - #9
 $Comp
-L KiCadCustomLib:TL1240GQ SW18
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW18
 U 1 1 64B2CAF4
 P 14150 13950
 F 0 "SW18" H 14150 14335 50  0000 C CNN
@@ -2486,7 +2409,7 @@ IP+
 Text Label 14350 13950 0    50   ~ 0
 IP-
 $Comp
-L KiCadCustomLib:TL1240GQ SW1
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW1
 U 1 1 654246D3
 P 13400 10650
 F 0 "SW1" H 13400 11035 50  0000 C CNN
@@ -2498,7 +2421,7 @@ F 4 "TL1240GQ" H 13400 10950 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW2
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW2
 U 1 1 654252E8
 P 14400 10650
 F 0 "SW2" H 14400 11035 50  0000 C CNN
@@ -2518,7 +2441,7 @@ Text Label 14200 10650 2    50   ~ 0
 Text Label 14600 10650 0    50   ~ 0
 2-
 $Comp
-L KiCadCustomLib:TL1240GQ SW3
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW3
 U 1 1 6542F0F1
 P 15400 10650
 F 0 "SW3" H 15400 11035 50  0000 C CNN
@@ -2534,7 +2457,7 @@ Text Label 15200 10650 2    50   ~ 0
 Text Label 15600 10650 0    50   ~ 0
 3-
 $Comp
-L KiCadCustomLib:TL1240GQ SW5
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW5
 U 1 1 655356AB
 P 13400 11300
 F 0 "SW5" H 13400 11685 50  0000 C CNN
@@ -2546,7 +2469,7 @@ F 4 "TL1240GQ" H 13400 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW6
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW6
 U 1 1 65536128
 P 14400 11300
 F 0 "SW6" H 14400 11685 50  0000 C CNN
@@ -2558,7 +2481,7 @@ F 4 "TL1240GQ" H 14400 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW7
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW7
 U 1 1 65536C7D
 P 15400 11300
 F 0 "SW7" H 15400 11685 50  0000 C CNN
@@ -2576,7 +2499,7 @@ Text Label 14200 11300 2    50   ~ 0
 Text Label 15200 11300 2    50   ~ 0
 6+
 $Comp
-L KiCadCustomLib:TL1240GQ SW9
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW9
 U 1 1 65746140
 P 13400 11950
 F 0 "SW9" H 13400 12335 50  0000 C CNN
@@ -2588,7 +2511,7 @@ F 4 "TL1240GQ" H 13400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW10
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW10
 U 1 1 65746DC3
 P 14400 11950
 F 0 "SW10" H 14400 12335 50  0000 C CNN
@@ -2600,7 +2523,7 @@ F 4 "TL1240GQ" H 14400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW11
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW11
 U 1 1 6574787A
 P 15400 11950
 F 0 "SW11" H 15400 12335 50  0000 C CNN
@@ -2612,7 +2535,7 @@ F 4 "TL1240GQ" H 15400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW13
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW13
 U 1 1 657C9667
 P 13400 12600
 F 0 "SW13" H 13400 12985 50  0000 C CNN
@@ -2624,7 +2547,7 @@ F 4 "TL1240GQ" H 13400 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW14
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW14
 U 1 1 657C9672
 P 14400 12600
 F 0 "SW14" H 14400 12985 50  0000 C CNN
@@ -2636,7 +2559,7 @@ F 4 "TL1240GQ" H 14400 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW15
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW15
 U 1 1 657C967D
 P 15400 12600
 F 0 "SW15" H 15400 12985 50  0000 C CNN
@@ -2678,7 +2601,7 @@ Text Label 14600 12600 0    50   ~ 0
 Text Label 15600 12600 0    50   ~ 0
 CLR-
 $Comp
-L KiCadCustomLib:TL1240GQ SW4
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW4
 U 1 1 6586D100
 P 16500 10650
 F 0 "SW4" H 16500 11035 50  0000 C CNN
@@ -2690,7 +2613,7 @@ F 4 "TL1240GQ" H 16500 10950 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW17
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW17
 U 1 1 65871413
 P 16500 13250
 F 0 "SW17" H 16500 13635 50  0000 C CNN
@@ -2702,7 +2625,7 @@ F 4 "TL1240GQ" H 16500 13550 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW8
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW8
 U 1 1 658727A8
 P 16500 11300
 F 0 "SW8" H 16500 11685 50  0000 C CNN
@@ -2714,7 +2637,7 @@ F 4 "TL1240GQ" H 16500 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW12
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW12
 U 1 1 65873829
 P 16500 11950
 F 0 "SW12" H 16500 12335 50  0000 C CNN
@@ -2726,7 +2649,7 @@ F 4 "TL1240GQ" H 16500 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW16
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW16
 U 1 1 658747C2
 P 16500 12600
 F 0 "SW16" H 16500 12985 50  0000 C CNN
@@ -2738,7 +2661,7 @@ F 4 "TL1240GQ" H 16500 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L KiCadCustomLib:TL1240GQ SW19
+L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW19
 U 1 1 65875591
 P 15100 13950
 F 0 "SW19" H 15100 14335 50  0000 C CNN
@@ -4119,12 +4042,12 @@ Text Notes 500  800  0    50   ~ 0
 $Comp
 L Connector:Conn_01x08_Female J27
 U 1 1 5FDAD3C0
-P 17750 5600
-F 0 "J27" V 17900 5500 50  0000 C CNN
-F 1 "Conn_01x08_Female" V 17800 5600 50  0000 C CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical" H 17750 5600 50  0001 C CNN
-F 3 "~" H 17750 5600 50  0001 C CNN
-	1    17750 5600
+P 17750 5900
+F 0 "J27" V 17900 5800 50  0000 C CNN
+F 1 "Conn_01x08_Female" V 17800 5900 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x08_P1.00mm_Vertical" H 17750 5900 50  0001 C CNN
+F 3 "~" H 17750 5900 50  0001 C CNN
+	1    17750 5900
 	0    -1   -1   0   
 $EndComp
 Text Label 12800 12750 0    60   ~ 0
@@ -4150,11 +4073,134 @@ Text Label 13950 13850 2    60   ~ 0
 Text Label 14900 13850 2    60   ~ 0
 38
 Wire Notes Line
-	18700 500  18700 3250
-Wire Notes Line
 	18700 3250 20750 3250
 Wire Notes Line
 	18700 2600 21500 2600
 Wire Notes Line
 	18700 2450 21500 2450
+Text Label 16850 4350 3    50   ~ 0
+DIG0_6
+$Comp
+L Connector:Conn_01x05_Female J14
+U 1 1 63634AC2
+P 17050 4150
+F 0 "J14" V 17200 4150 50  0000 C CNN
+F 1 "Conn_01x05_Female" V 17100 4150 50  0000 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x05_P1.00mm_Vertical" H 17050 4150 50  0001 C CNN
+F 3 "~" H 17050 4150 50  0001 C CNN
+	1    17050 4150
+	0    -1   -1   0   
+$EndComp
+Text Label 16950 4350 3    50   ~ 0
+DIG1_6
+Text Label 17050 4350 3    50   ~ 0
+SEGDP_6
+Text Label 17150 4350 3    50   ~ 0
+SEGA_6
+Text Label 17250 4350 3    50   ~ 0
+SEGB_6
+Text Label 17650 4350 3    50   ~ 0
+SEGC_6
+Text Label 17750 4350 3    50   ~ 0
+SEGD_6
+Text Label 17850 4350 3    50   ~ 0
+SEGE_6
+Text Label 17950 4350 3    50   ~ 0
+SEGF_6
+Text Label 18050 4350 3    50   ~ 0
+SEGG_6
+Text Label 16850 5200 3    50   ~ 0
+DIG2_6
+Text Label 16950 5200 3    50   ~ 0
+DIG3_6
+Text Label 16850 6100 3    50   ~ 0
+DIG4_6
+Text Label 16950 6100 3    50   ~ 0
+DIG5_6
+Text Label 17050 6100 3    50   ~ 0
+DIG6_6
+Text Label 17150 6100 3    50   ~ 0
+DIG7_6
+Text Label 17450 6100 3    50   ~ 0
+SEGDP_6
+Text Label 17550 6100 3    50   ~ 0
+SEGA_6
+Text Label 17650 6100 3    50   ~ 0
+SEGB_6
+Text Label 17750 6100 3    50   ~ 0
+SEGC_6
+Text Label 17850 6100 3    50   ~ 0
+SEGD_6
+Text Label 17950 6100 3    50   ~ 0
+SEGE_6
+Text Label 18050 6100 3    50   ~ 0
+SEGF_6
+Text Label 18150 6100 3    50   ~ 0
+SEGG_6
+Text Label 17050 5200 3    50   ~ 0
+SEGDP_6
+Text Label 17150 5200 3    50   ~ 0
+SEGA_6
+Text Label 17250 5200 3    50   ~ 0
+SEGB_6
+Text Label 17650 5200 3    50   ~ 0
+SEGC_6
+Text Label 17750 5200 3    50   ~ 0
+SEGD_6
+Text Label 17850 5200 3    50   ~ 0
+SEGE_6
+Text Label 17950 5200 3    50   ~ 0
+SEGF_6
+Text Label 18050 5200 3    50   ~ 0
+SEGG_6
+$Comp
+L Mechanical:MountingHole POT1
+U 1 1 601B80BA
+P 19050 3800
+F 0 "POT1" H 19150 3846 50  0000 L CNN
+F 1 "VOL1" H 19150 3755 50  0000 L CNN
+F 2 "OHSwitches:BR10K_Pot_11mm_x_11mm" H 19050 3800 50  0001 C CNN
+F 3 "~" H 19050 3800 50  0001 C CNN
+	1    19050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole POT2
+U 1 1 601E5950
+P 19500 3800
+F 0 "POT2" H 19600 3846 50  0000 L CNN
+F 1 "VOL2" H 19600 3755 50  0000 L CNN
+F 2 "OHSwitches:BR10K_Pot_11mm_x_11mm" H 19500 3800 50  0001 C CNN
+F 3 "~" H 19500 3800 50  0001 C CNN
+	1    19500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole POT3
+U 1 1 601E5B1B
+P 19950 3800
+F 0 "POT3" H 20050 3846 50  0000 L CNN
+F 1 "BRT" H 20050 3755 50  0000 L CNN
+F 2 "OHSwitches:BR10K_Pot_11mm_x_11mm" H 19950 3800 50  0001 C CNN
+F 3 "~" H 19950 3800 50  0001 C CNN
+	1    19950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK5
+U 1 1 601E607B
+P 20350 3800
+F 0 "MK5" H 20450 3846 50  0000 L CNN
+F 1 "SW_ADF" H 20450 3755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6" H 20350 3800 50  0001 C CNN
+F 3 "~" H 20350 3800 50  0001 C CNN
+	1    20350 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 19100 3550 0    50   ~ 0
+Potentiometer and ADF switch mounting holes
+Wire Notes Line
+	18700 4300 21550 4300
+Wire Notes Line
+	18700 500  18700 4300
 $EndSCHEMATC
