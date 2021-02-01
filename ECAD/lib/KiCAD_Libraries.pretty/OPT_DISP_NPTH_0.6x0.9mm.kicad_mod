@@ -1,0 +1,10 @@
+(module OPT_DISP_NPTH_0.6x0.9mm (layer F.Cu) (tedit 5FB832ED)
+  (fp_text reference Ref** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value OPT_DISP_NPTH_0.6x0.9mm (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -0.45 0) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.45 0) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
+)

@@ -1,0 +1,23 @@
+Comment,Designator,Footprint,LCSC Part Number
+10uF,C1,Capacitor_SMD:CP_Elec_4x5.3,C134721
+100nF,C2,Capacitor_SMD:C_0402_1005Metric,C1525
+PWR IN,J1,Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal,
+MAIN PWR OUT,J2,Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,
+MAIN UFC I/O,J3,Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,
+UFC PANEL SW,J4,Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical,
+HUD BIT TEST,J5,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal,
+AP PANEL I/O,J6,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,
+HUD PANEL I/O,J7,Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,
+MH,"MK1,MK2,MK3,MK4,MK5,MK6",Socket_Arduino_Mega:Arduino_1pin,
+Digital,P1,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,
+Power,P2,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+Analog,"P3,P4",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+PWM,P5,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,
+PWM,P6,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+Communication,P7,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+25.5K,R1,Resistor_SMD:R_0603_1608Metric,C22920
+10K,R2,Resistor_SMD:R_0603_1608Metric,C25804
+TP-12,TP1,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-5V,TP2,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-GND,TP4,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+MAX7219EWG+T,U1,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,C52476

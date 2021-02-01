@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, Datasheet, PN
+J1 ,1,"Molex Mini-Fit Jr, Header, 2x5",Connector_Molex:Molex_Mini-Fit_Jr_5566-10A2_2x05_P4.20mm_Vertical,https://www.molex.com/pdm_docs/sd/039299103_sd.pdf,39299103
+J2 J3 J4 J5 J6 J7 J8 J9 J10 J11 J12 J13,12,"Molex Mini-Fit Jr, Header, 2x2",Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,https://www.molex.com/pdm_docs/sd/039281043_sd.pdf,39281043
+J14 ,1,"Pin Header, 2.54mm, 2x6",Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,~,
+J15 ,1,"Pin Header, 2.54mm, 2x8",Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical,~,
+P1 ,1,Digital,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,~,
+P2 P3 P4 P6 P7,5,"Pin Header, 2.54mm, 1x8",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,
+P5 ,1,PWM,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,~,

@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ABSIS_BackLightControl
+D The ABSIS Backlighting Controller is an Arduino Mega based PCB that controls up to 12 channels of RGB LED chains that can be controlled by a single PWM pin.
+K ABSIS Backlighting Controller Backlight BL PWM
+$ENDCMP
+#
+$CMP ABSIS_Generic_BackLightPCB
+D This is a generic backlight PCB for ABSIS based backlighting panels. (Single pin PWM controlled RGB LEDs)
+$ENDCMP
+#
+$CMP ABSIS_Mega_2.0
+D This is an arduino mega based IO PCB connecting to the ABSIS RS485 BUS as a slave device.
+$ENDCMP
+#
+$CMP ABSIS_Nano_2.0
+D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
+K ABSIS Nano RS485 Slave
+$ENDCMP
+#
+$CMP ABSIS_RS485BusMaster
+D The ABSIS RS485 Bus Master provide power and data to three ABSIS RS485 slave buses utilizing the MAX487 chip.
+K ABSIS RS485 MAX487 Master Bus
+$ENDCMP
+#
+#End Doc Library
