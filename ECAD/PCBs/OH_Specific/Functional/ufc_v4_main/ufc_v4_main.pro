@@ -1,6 +1,6 @@
-update=2/1/2021 5:28:52 PM
+update=12/28/2020 11:57:08 AM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
