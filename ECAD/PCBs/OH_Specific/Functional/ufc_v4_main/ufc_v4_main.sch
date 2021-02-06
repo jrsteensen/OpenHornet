@@ -107,7 +107,7 @@ Wire Notes Line
 Wire Notes Line
 	20100 2450 20100 3250
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U1
+L KiCadCustomLib:MAX7219EWG+T U1
 U 1 1 5FF206CF
 P 6750 2350
 F 0 "U1" H 6750 3728 80  0000 C CNN
@@ -225,7 +225,7 @@ $EndComp
 Text Label 5550 1250 2    50   ~ 0
 +5V_SUPPLY
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U2
+L KiCadCustomLib:MAX7219EWG+T U2
 U 1 1 5FD4E303
 P 11200 2350
 F 0 "U2" H 11200 3728 80  0000 C CNN
@@ -849,7 +849,7 @@ SEGF_3
 Text Label 16250 2250 0    50   ~ 0
 SEGG_3
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U3
+L KiCadCustomLib:MAX7219EWG+T U3
 U 1 1 62E686C2
 P 15650 2350
 F 0 "U3" H 15650 3728 80  0000 C CNN
@@ -1082,7 +1082,7 @@ SEGF_4
 Text Label 7350 5250 0    50   ~ 0
 SEGG_4
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U4
+L KiCadCustomLib:MAX7219EWG+T U4
 U 1 1 631295A1
 P 6750 5350
 F 0 "U4" H 6750 6728 80  0000 C CNN
@@ -1315,7 +1315,7 @@ SEGF_5
 Text Label 11800 5250 0    50   ~ 0
 SEGG_5
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U5
+L KiCadCustomLib:MAX7219EWG+T U5
 U 1 1 63134215
 P 11200 5350
 F 0 "U5" H 11200 6728 80  0000 C CNN
@@ -1441,7 +1441,7 @@ $EndComp
 Text Label 16250 4550 0    50   ~ 0
 SEGDP_6
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U6
+L KiCadCustomLib:MAX7219EWG+T U6
 U 1 1 63634B27
 P 15650 5350
 F 0 "U6" H 15750 6550 80  0000 C CNN
@@ -1692,7 +1692,7 @@ $EndComp
 Text Label 7350 7550 0    50   ~ 0
 SEGDP_7
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U7
+L KiCadCustomLib:MAX7219EWG+T U7
 U 1 1 63CA0CCE
 P 6750 8350
 F 0 "U7" H 6850 9550 80  0000 C CNN
@@ -1903,7 +1903,7 @@ $EndComp
 Text Label 11800 7550 0    50   ~ 0
 SEGDP_8
 $Comp
-L ufc_v4_main-rescue:MAX7219EWG+T-KiCadCustomLib U8
+L KiCadCustomLib:MAX7219EWG+T U8
 U 1 1 643781F6
 P 11200 8350
 F 0 "U8" H 11300 9550 80  0000 C CNN
@@ -1975,7 +1975,7 @@ DIG0_8
 Text Notes 12750 7100 0    50   ~ 0
 SCRTPAD\nDIG #5 - #9
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW18
+L KiCadCustomLib:TL1240GQ SW18
 U 1 1 64B2CAF4
 P 14150 13950
 F 0 "SW18" H 14150 14335 50  0000 C CNN
@@ -2409,7 +2409,7 @@ IP+
 Text Label 14350 13950 0    50   ~ 0
 IP-
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW1
+L KiCadCustomLib:TL1240GQ SW1
 U 1 1 654246D3
 P 13400 10650
 F 0 "SW1" H 13400 11035 50  0000 C CNN
@@ -2421,7 +2421,7 @@ F 4 "TL1240GQ" H 13400 10950 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW2
+L KiCadCustomLib:TL1240GQ SW2
 U 1 1 654252E8
 P 14400 10650
 F 0 "SW2" H 14400 11035 50  0000 C CNN
@@ -2441,7 +2441,7 @@ Text Label 14200 10650 2    50   ~ 0
 Text Label 14600 10650 0    50   ~ 0
 2-
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW3
+L KiCadCustomLib:TL1240GQ SW3
 U 1 1 6542F0F1
 P 15400 10650
 F 0 "SW3" H 15400 11035 50  0000 C CNN
@@ -2457,7 +2457,7 @@ Text Label 15200 10650 2    50   ~ 0
 Text Label 15600 10650 0    50   ~ 0
 3-
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW5
+L KiCadCustomLib:TL1240GQ SW5
 U 1 1 655356AB
 P 13400 11300
 F 0 "SW5" H 13400 11685 50  0000 C CNN
@@ -2469,7 +2469,7 @@ F 4 "TL1240GQ" H 13400 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW6
+L KiCadCustomLib:TL1240GQ SW6
 U 1 1 65536128
 P 14400 11300
 F 0 "SW6" H 14400 11685 50  0000 C CNN
@@ -2481,7 +2481,7 @@ F 4 "TL1240GQ" H 14400 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW7
+L KiCadCustomLib:TL1240GQ SW7
 U 1 1 65536C7D
 P 15400 11300
 F 0 "SW7" H 15400 11685 50  0000 C CNN
@@ -2499,7 +2499,7 @@ Text Label 14200 11300 2    50   ~ 0
 Text Label 15200 11300 2    50   ~ 0
 6+
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW9
+L KiCadCustomLib:TL1240GQ SW9
 U 1 1 65746140
 P 13400 11950
 F 0 "SW9" H 13400 12335 50  0000 C CNN
@@ -2511,7 +2511,7 @@ F 4 "TL1240GQ" H 13400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW10
+L KiCadCustomLib:TL1240GQ SW10
 U 1 1 65746DC3
 P 14400 11950
 F 0 "SW10" H 14400 12335 50  0000 C CNN
@@ -2523,7 +2523,7 @@ F 4 "TL1240GQ" H 14400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW11
+L KiCadCustomLib:TL1240GQ SW11
 U 1 1 6574787A
 P 15400 11950
 F 0 "SW11" H 15400 12335 50  0000 C CNN
@@ -2535,7 +2535,7 @@ F 4 "TL1240GQ" H 15400 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW13
+L KiCadCustomLib:TL1240GQ SW13
 U 1 1 657C9667
 P 13400 12600
 F 0 "SW13" H 13400 12985 50  0000 C CNN
@@ -2547,7 +2547,7 @@ F 4 "TL1240GQ" H 13400 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW14
+L KiCadCustomLib:TL1240GQ SW14
 U 1 1 657C9672
 P 14400 12600
 F 0 "SW14" H 14400 12985 50  0000 C CNN
@@ -2559,7 +2559,7 @@ F 4 "TL1240GQ" H 14400 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW15
+L KiCadCustomLib:TL1240GQ SW15
 U 1 1 657C967D
 P 15400 12600
 F 0 "SW15" H 15400 12985 50  0000 C CNN
@@ -2601,7 +2601,7 @@ Text Label 14600 12600 0    50   ~ 0
 Text Label 15600 12600 0    50   ~ 0
 CLR-
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW4
+L KiCadCustomLib:TL1240GQ SW4
 U 1 1 6586D100
 P 16500 10650
 F 0 "SW4" H 16500 11035 50  0000 C CNN
@@ -2613,7 +2613,7 @@ F 4 "TL1240GQ" H 16500 10950 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW17
+L KiCadCustomLib:TL1240GQ SW17
 U 1 1 65871413
 P 16500 13250
 F 0 "SW17" H 16500 13635 50  0000 C CNN
@@ -2625,7 +2625,7 @@ F 4 "TL1240GQ" H 16500 13550 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW8
+L KiCadCustomLib:TL1240GQ SW8
 U 1 1 658727A8
 P 16500 11300
 F 0 "SW8" H 16500 11685 50  0000 C CNN
@@ -2637,7 +2637,7 @@ F 4 "TL1240GQ" H 16500 11600 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW12
+L KiCadCustomLib:TL1240GQ SW12
 U 1 1 65873829
 P 16500 11950
 F 0 "SW12" H 16500 12335 50  0000 C CNN
@@ -2649,7 +2649,7 @@ F 4 "TL1240GQ" H 16500 12250 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW16
+L KiCadCustomLib:TL1240GQ SW16
 U 1 1 658747C2
 P 16500 12600
 F 0 "SW16" H 16500 12985 50  0000 C CNN
@@ -2661,7 +2661,7 @@ F 4 "TL1240GQ" H 16500 12900 98  0001 C CNN "PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ufc_v4_main-rescue:TL1240GQ-KiCadCustomLib SW19
+L KiCadCustomLib:TL1240GQ SW19
 U 1 1 65875591
 P 15100 13950
 F 0 "SW19" H 15100 14335 50  0000 C CNN
