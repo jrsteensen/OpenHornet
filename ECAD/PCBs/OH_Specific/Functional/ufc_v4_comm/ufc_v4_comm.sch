@@ -24,7 +24,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 4700 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 4700 2500 50  0001 C CNN "PN"
 	1    4700 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D2
@@ -37,7 +37,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 5100 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 5100 2500 50  0001 C CNN "PN"
 	1    5100 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D3
@@ -50,7 +50,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 5500 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 5500 2500 50  0001 C CNN "PN"
 	1    5500 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D4
@@ -63,7 +63,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 5900 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 5900 2500 50  0001 C CNN "PN"
 	1    5900 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D5
@@ -76,7 +76,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 6300 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 6300 2500 50  0001 C CNN "PN"
 	1    6300 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D6
@@ -89,7 +89,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 6700 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 6700 2500 50  0001 C CNN "PN"
 	1    6700 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D7
@@ -102,7 +102,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 7100 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 7100 2500 50  0001 C CNN "PN"
 	1    7100 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D8
@@ -115,158 +115,112 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F100
 F 4 "C130723" V 7500 2500 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 7500 2500 50  0001 C CNN "PN"
 	1    7500 2500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4550 2650 4700 2650
-Connection ~ 4700 2650
-Wire Wire Line
-	4700 2650 5100 2650
-Connection ~ 5100 2650
-Wire Wire Line
-	5100 2650 5500 2650
-Connection ~ 5500 2650
-Wire Wire Line
-	5500 2650 5900 2650
-Connection ~ 5900 2650
-Wire Wire Line
-	5900 2650 6300 2650
-Connection ~ 6300 2650
-Wire Wire Line
-	6300 2650 6700 2650
-Connection ~ 6700 2650
-Wire Wire Line
-	6700 2650 7100 2650
-Connection ~ 7100 2650
-Wire Wire Line
-	7100 2650 7500 2650
 $Comp
 L Device:LED D9
 U 1 1 5FB5EA0C
-P 4700 2950
-F 0 "D9" V 4647 3028 50  0000 L CNN
-F 1 "LED" V 4738 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 4700 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 4700 2950 50  0001 C CNN
-F 4 "C130723" V 4700 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 4700 2950 50  0001 C CNN "PN"
-	1    4700 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D10
-U 1 1 5FB5EA18
-P 5100 2950
-F 0 "D10" V 5047 3028 50  0000 L CNN
-F 1 "LED" V 5138 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5100 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5100 2950 50  0001 C CNN
-F 4 "C130723" V 5100 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 5100 2950 50  0001 C CNN "PN"
-	1    5100 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D11
-U 1 1 5FB5EA24
-P 5500 2950
-F 0 "D11" V 5447 3028 50  0000 L CNN
-F 1 "LED" V 5538 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5500 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5500 2950 50  0001 C CNN
-F 4 "C130723" V 5500 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 5500 2950 50  0001 C CNN "PN"
-	1    5500 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D12
-U 1 1 5FB5EA30
-P 5900 2950
-F 0 "D12" V 5847 3028 50  0000 L CNN
-F 1 "LED" V 5938 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 5900 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5900 2950 50  0001 C CNN
-F 4 "C130723" V 5900 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 5900 2950 50  0001 C CNN "PN"
-	1    5900 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D13
-U 1 1 5FB5EA3C
-P 6300 2950
-F 0 "D13" V 6247 3028 50  0000 L CNN
-F 1 "LED" V 6338 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 6300 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6300 2950 50  0001 C CNN
-F 4 "C130723" V 6300 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 6300 2950 50  0001 C CNN "PN"
-	1    6300 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D14
-U 1 1 5FB5EA48
-P 6700 2950
-F 0 "D14" V 6647 3028 50  0000 L CNN
-F 1 "LED" V 6738 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 6700 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6700 2950 50  0001 C CNN
-F 4 "C130723" V 6700 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 6700 2950 50  0001 C CNN "PN"
-	1    6700 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D15
-U 1 1 5FB5EA54
-P 7100 2950
-F 0 "D15" V 7047 3028 50  0000 L CNN
-F 1 "LED" V 7138 3028 50  0000 L CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 7100 2950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7100 2950 50  0001 C CNN
-F 4 "C130723" V 7100 2950 50  0001 C CNN "LCSC"
-F 5 "FC-F1005UGK-520M5" V 7100 2950 50  0001 C CNN "PN"
-	1    7100 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D16
-U 1 1 5FB5EA60
 P 7500 2950
-F 0 "D16" V 7447 3028 50  0000 L CNN
+F 0 "D9" V 7447 3028 50  0000 L CNN
 F 1 "LED" V 7538 3028 50  0000 L CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 7500 2950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7500 2950 50  0001 C CNN
 F 4 "C130723" V 7500 2950 50  0001 C CNN "LCSC"
 F 5 "FC-F1005UGK-520M5" V 7500 2950 50  0001 C CNN "PN"
 	1    7500 2950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4550 3100 4700 3100
-Connection ~ 4700 3100
-Wire Wire Line
-	4700 3100 5100 3100
-Connection ~ 5100 3100
-Wire Wire Line
-	5100 3100 5500 3100
-Connection ~ 5500 3100
-Wire Wire Line
-	5500 3100 5900 3100
-Connection ~ 5900 3100
-Wire Wire Line
-	5900 3100 6300 3100
-Connection ~ 6300 3100
-Wire Wire Line
-	6300 3100 6700 3100
-Connection ~ 6700 3100
-Wire Wire Line
-	6700 3100 7100 3100
-Connection ~ 7100 3100
-Wire Wire Line
-	7100 3100 7500 3100
+$Comp
+L Device:LED D10
+U 1 1 5FB5EA18
+P 5500 2950
+F 0 "D10" V 5447 3028 50  0000 L CNN
+F 1 "LED" V 5538 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5500 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5500 2950 50  0001 C CNN
+F 4 "C130723" V 5500 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5500 2950 50  0001 C CNN "PN"
+	1    5500 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5FB5EA24
+P 5900 2950
+F 0 "D11" V 5847 3028 50  0000 L CNN
+F 1 "LED" V 5938 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5900 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5900 2950 50  0001 C CNN
+F 4 "C130723" V 5900 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5900 2950 50  0001 C CNN "PN"
+	1    5900 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 5FB5EA30
+P 6300 2950
+F 0 "D12" V 6247 3028 50  0000 L CNN
+F 1 "LED" V 6338 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6300 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6300 2950 50  0001 C CNN
+F 4 "C130723" V 6300 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 6300 2950 50  0001 C CNN "PN"
+	1    6300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 5FB5EA3C
+P 6700 2950
+F 0 "D13" V 6647 3028 50  0000 L CNN
+F 1 "LED" V 6738 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6700 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 6700 2950 50  0001 C CNN
+F 4 "C130723" V 6700 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 6700 2950 50  0001 C CNN "PN"
+	1    6700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 5FB5EA48
+P 7100 2950
+F 0 "D14" V 7047 3028 50  0000 L CNN
+F 1 "LED" V 7138 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 7100 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 7100 2950 50  0001 C CNN
+F 4 "C130723" V 7100 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 7100 2950 50  0001 C CNN "PN"
+	1    7100 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D15
+U 1 1 5FB5EA54
+P 4700 2950
+F 0 "D15" V 4647 3028 50  0000 L CNN
+F 1 "LED" V 4738 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 4700 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 4700 2950 50  0001 C CNN
+F 4 "C130723" V 4700 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 4700 2950 50  0001 C CNN "PN"
+	1    4700 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D16
+U 1 1 5FB5EA60
+P 5100 2950
+F 0 "D16" V 5047 3028 50  0000 L CNN
+F 1 "LED" V 5138 3028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5100 2950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5100 2950 50  0001 C CNN
+F 4 "C130723" V 5100 2950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5100 2950 50  0001 C CNN "PN"
+	1    5100 2950
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	7750 2250 7750 2350
 Wire Wire Line
@@ -292,8 +246,6 @@ Wire Wire Line
 	7100 2350 7350 2350
 Connection ~ 7350 2350
 Wire Wire Line
-	7350 2350 7350 2800
-Wire Wire Line
 	7100 2800 7350 2800
 Wire Wire Line
 	6950 2800 6700 2800
@@ -307,98 +259,148 @@ Wire Wire Line
 	6950 2350 6700 2350
 Connection ~ 6950 2350
 Wire Wire Line
-	6950 2350 6950 2800
-Wire Wire Line
 	6550 2350 6300 2350
 Connection ~ 6550 2350
-Wire Wire Line
-	6550 2350 6550 2800
 Wire Wire Line
 	6150 2350 5900 2350
 Connection ~ 6150 2350
 Wire Wire Line
-	6150 2350 6150 2800
-Wire Wire Line
 	5750 2350 5500 2350
 Connection ~ 5750 2350
-Wire Wire Line
-	5750 2350 5750 2800
 Wire Wire Line
 	5350 2350 5100 2350
 Connection ~ 5350 2350
 Wire Wire Line
-	5350 2350 5350 2800
-Wire Wire Line
 	4950 2350 4700 2350
 Connection ~ 4950 2350
-Wire Wire Line
-	4950 2350 4950 2800
 Wire Wire Line
 	4700 2800 4950 2800
 Wire Wire Line
 	5100 2800 5350 2800
-Text Label 7750 2250 1    50   ~ 0
-DIG7
-Text Label 7350 2250 1    50   ~ 0
-DIG6
-Text Label 6950 2250 1    50   ~ 0
-DIG5
-Text Label 6550 2250 1    50   ~ 0
-DIG4
-Text Label 6150 2250 1    50   ~ 0
-DIG3
-Text Label 5750 2250 1    50   ~ 0
-DIG2
-Text Label 5350 2250 1    50   ~ 0
-DIG1
-Text Label 4950 2250 1    50   ~ 0
+Text Label 4950 3850 1    50   ~ 0
 DIG0
-Text Label 8450 3400 1    50   ~ 0
-DIG0
-Text Label 8550 3400 1    50   ~ 0
+Text Label 5050 3850 1    50   ~ 0
 DIG1
-Text Label 8650 3400 1    50   ~ 0
-DIG2
-Text Label 9600 3400 1    50   ~ 0
-DIG3
-Text Label 9700 3400 1    50   ~ 0
-DIG4
-Text Label 9800 3400 1    50   ~ 0
-DIG5
-Text Label 9900 3400 1    50   ~ 0
-DIG6
-Text Label 10000 3400 1    50   ~ 0
-DIG7
 $Comp
 L Connector:Conn_01x05_Male J1
 U 1 1 5FDAD3C0
-P 8450 3600
-F 0 "J1" V 8604 3312 50  0000 R CNN
-F 1 "Conn_01x05_Male" V 8513 3312 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 8450 3600 50  0001 C CNN
-F 3 "~" H 8450 3600 50  0001 C CNN
-	1    8450 3600
+P 5150 4050
+F 0 "J1" V 5304 3762 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 5213 3762 50  0000 R CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 5150 4050 50  0001 C CNN
+F 3 "~" H 5150 4050 50  0001 C CNN
+	1    5150 4050
 	0    -1   -1   0   
 $EndComp
-Text Label 4550 3100 2    50   ~ 0
-SEG2
-Text Label 4550 2650 2    50   ~ 0
-SEG1
 $Comp
 L Connector:Conn_01x05_Male J2
 U 1 1 5FDF7297
-P 9800 3600
-F 0 "J2" V 9954 3312 50  0000 R CNN
-F 1 "Conn_01x05_Male" V 9863 3312 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 9800 3600 50  0001 C CNN
-F 3 "~" H 9800 3600 50  0001 C CNN
-	1    9800 3600
+P 6550 4050
+F 0 "J2" V 6704 3762 50  0000 R CNN
+F 1 "Conn_01x05_Male" V 6613 3762 50  0000 R CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 6550 4050 50  0001 C CNN
+F 3 "~" H 6550 4050 50  0001 C CNN
+	1    6550 4050
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7750 2350 7750 2800
-Text Label 8350 3400 1    50   ~ 0
-SEG2
-Text Label 8250 3400 1    50   ~ 0
-SEG1
+Text Label 5150 3850 1    50   ~ 0
+SEGDP
+Text Label 5250 3850 1    50   ~ 0
+SEGA
+Text Label 5350 3850 1    50   ~ 0
+SEGB
+Text Label 6350 3850 1    50   ~ 0
+SEGC
+Text Label 6450 3850 1    50   ~ 0
+SEGD
+Text Label 6550 3850 1    50   ~ 0
+SEGE
+Text Label 6650 3850 1    50   ~ 0
+SEGF
+Text Label 6750 3850 1    50   ~ 0
+SEGG
+Text Label 4550 2650 2    50   ~ 0
+DIG0
+Text Label 4550 3100 2    50   ~ 0
+DIG1
+Text Label 4950 2250 1    50   ~ 0
+SEGC
+Text Label 5350 2250 1    50   ~ 0
+SEGDP
+Text Label 5750 2250 1    50   ~ 0
+SEGD
+Text Label 6150 2250 1    50   ~ 0
+SEGG
+Text Label 6550 2250 1    50   ~ 0
+SEGF
+Text Label 6950 2250 1    50   ~ 0
+SEGE
+Text Label 7350 2250 1    50   ~ 0
+SEGA
+Text Label 7750 2250 1    50   ~ 0
+SEGB
+Text Notes 7750 3350 2    50   ~ 0
+The order of the LEDs on this board follow the pattern defined on UFCConnections.xlsx
+Wire Wire Line
+	4550 2650 4700 2650
+Connection ~ 4700 2650
+Wire Wire Line
+	4550 3100 4700 3100
+Connection ~ 4700 3100
+Wire Wire Line
+	4700 2650 5100 2650
+Connection ~ 5100 2650
+Wire Wire Line
+	4950 2350 4950 2800
+Wire Wire Line
+	4700 3100 5100 3100
+Connection ~ 5100 3100
+Wire Wire Line
+	5100 2650 5500 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	5350 2350 5350 2800
+Wire Wire Line
+	5100 3100 5500 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 2650 5900 2650
+Connection ~ 5900 2650
+Wire Wire Line
+	5750 2350 5750 2800
+Wire Wire Line
+	5500 3100 5900 3100
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 2650 6300 2650
+Connection ~ 6300 2650
+Wire Wire Line
+	6150 2350 6150 2800
+Wire Wire Line
+	5900 3100 6300 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6300 2650 6700 2650
+Connection ~ 6700 2650
+Wire Wire Line
+	6550 2350 6550 2800
+Wire Wire Line
+	6300 3100 6700 3100
+Connection ~ 6700 3100
+Wire Wire Line
+	6700 3100 7100 3100
+Connection ~ 7100 3100
+Wire Wire Line
+	7100 3100 7500 3100
+Wire Wire Line
+	6700 2650 7100 2650
+Connection ~ 7100 2650
+Wire Wire Line
+	7100 2650 7500 2650
+Wire Wire Line
+	6950 2350 6950 2800
+Wire Wire Line
+	7350 2350 7350 2800
 $EndSCHEMATC
