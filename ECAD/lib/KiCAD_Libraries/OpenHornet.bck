@@ -43,4 +43,15 @@ K rotary switch
 F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
 $ENDCMP
 #
+$CMP SW_Rotary20
+D rotary switch with 12 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP USB_3.0_4_Port_Hub
+D USB-4PminiH, 4-Port USB 3.0 HUB
+F https://www.coolgear.com/wp-content/uploads/2020/07/USBG-4PminiH-Technical-Data-Sheet-v01.200713.pdf
+$ENDCMP
+#
 #End Doc Library

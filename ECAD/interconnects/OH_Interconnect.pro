@@ -1,4 +1,4 @@
-update=11/9/2020 1:23:14 PM
+update=2/14/2021 17:01:27
 version=1
 last_client=eeschema
 [general]
@@ -34,10 +34,10 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
 SpiceAjustPassiveValues=0
-LabSize=50
+LabSize=394
 ERC_TestSimilarLabels=1

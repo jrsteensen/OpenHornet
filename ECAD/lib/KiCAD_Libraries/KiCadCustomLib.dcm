@@ -425,6 +425,11 @@ K 7 segment LED display common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP SW_Rotary5
+D rotary switch with 5 positions
+K rotary switch
+$ENDCMP
+#
 $CMP SW_Rotary6
 D rotary switch with 6 positions
 K rotary switch
