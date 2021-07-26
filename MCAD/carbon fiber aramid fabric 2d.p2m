@@ -1,0 +1,25 @@
+color texture "color_texname" "Images\textures\plastic\composite\carbon fiber aramid fabric.jpg" 
+color texture "bump_file_texture" "Images\textures\plastic\composite\carbon fiber aramid fabric.jpg" 
+
+	 "swP2M"  on ,
+	 "num_cols"  0 ,
+	 "col1"  1 1 1 ,
+	 "diffuse_factor"  1 ,
+	 "specular_factor"  1 ,
+	 "specular_color"  1 1 1 ,
+	 "roughness"  0.5 ,
+	 "reflectivity"  0 ,
+	 "mtl_ior"  1 ,
+	 "transparency"  0 ,
+	 "blurryReflections"  off ,
+	 "doubleSided"  on ,
+	 "refractionRoughness"  0 ,
+	 "luminousIntensity"  0 ,
+	 "bumpTexture"  "" ,
+	 "bumpStrength"  0.001 ,
+	 "displacementDistance"  0.001 ,
+	 "SurfaceFinishShaderType"  0 ,
+	 "bumpIsNormalMap"  on ,
+	 "initTextureWidth"  0.03175 ,
+	 "initTextureHeight"  0.03175 ,
+	 "sw_shader"  carbonfiberaramidfabric 
