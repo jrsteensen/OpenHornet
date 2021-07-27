@@ -62,16 +62,16 @@ The Master branch is the current stable release. The only time things will be co
 ### Version branch
 A version branch contains all the sub-branches that will feed into the release of that version of OpenHornet. This branch is merged to master immediately prior to release.
 
-### Feature sub-branch
+#### Feature sub-branch
 Feature sub-branches are descriptively named branches which are stand-alone new features and will not/can not affect dependencies. They shall feed into the version branch it is associated with.
 
-### Bugfix sub-branch
+#### Bugfix sub-branch
 Bugfix sub-branches resolve identified issues with an OH component. They may affect dependencies. Any bugfix shall feed into the version branch it is associated with.
 
-### Docs sub-branch
+#### Docs sub-branch
 Documentation sub-branches create or update project documentation, and should not affect any hardware component. Doc updates should be included directly with a feature or bugfix update, and a docs branch should only be created if that situation does not apply. They shall feed into the version branch it is associated with.
 
-### Maint sub-branch
+#### Maint sub-branch
 Maintainence sub-branches are for cleanup, quality-of-life updates, and other issues not rising to the level of a bug. They shall feed into the version branch it is associated with.
 
 ## Commits
