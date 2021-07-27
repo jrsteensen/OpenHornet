@@ -87,11 +87,11 @@ Commits shall be pushed to remote (the OH GitHub Repo) at least daily on any day
 * A properly formed Git commit subject line should always be able to complete the following sentence:
   * If applied, this commit will **your subject line here**
   * For example:
-    ** If applied, this commit will *Refactor subsystem X for readability*
-    ** If applied, this commit will *Update getting started documentation*
-    ** If applied, this commit will *Remove deprecated methods*
-    ** If applied, this commit will *Release version 1.0.0*
-    ** If applied, this commit will *Merge pull request #123 from user/branch*
+    * If applied, this commit will *Refactor subsystem X for readability*
+    * If applied, this commit will *Update getting started documentation*
+    * If applied, this commit will *Remove deprecated methods*
+    * If applied, this commit will *Release version 1.0.0*
+    * If applied, this commit will *Merge pull request #123 from user/branch*
 * The commit message body should use proper capitalization and punctuation.
 * The commit message body should be detailed enough that the reader can understand the changes made.
 * The commit message body should reference other issues and pull requests at the end.
