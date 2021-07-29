@@ -1,0 +1,23 @@
+ALTIUM DESIGNER - NEW ROUTER INTERFACE
+Design File : Buttons_DDI
+Date        : 7/28/2021
+Start Time  : 10:53:59
+End   Time  : 10:53:59
+
+
+Total errors encountered: 8
+Total warnings encountered: 4
+
+
+WARNING: Skipped block between lines: 13-15, from keyword: PROPERTY
+WARNING: Skipped block between lines: 19-21, from keyword: PROPERTY
+ERROR: Unexpected token <DEFAULT_SMD> in line 31
+WARNING: Skipped block between lines: 31-31, from keyword: DEFAULT_SMD
+ERROR: Unexpected token <CLEARANCE> in line 32
+ERROR: Unexpected token <50> in line 32
+ERROR: Unexpected token <TYPE> in line 32
+ERROR: Unexpected token <SMD_SMD> in line 32
+ERROR: Invalid library reference returned, while tryng to create board level routing via styles.
+WARNING: Board Shape Not Found, Design Bounding Rectangle Not Found!
+ERROR: Netlist not loaded, can't export to PCB.
+ERROR: Library not loaded, can't export to PCB.

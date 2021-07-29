@@ -1,0 +1,1075 @@
+ (routes 
+  (resolution um 10)
+  (parser
+  )
+  (structure_out
+   (layer F.Cu (type signal)
+   )
+   (layer B.Cu (type signal)
+   )
+  )
+  (library_out
+   (padstack "Via[0-1]_800:400_um"
+    (shape (circ F.Cu 8000 0 0))
+    (shape (circ B.Cu 8000 0 0))
+   )
+  )
+  (network_out
+   (net GND 
+   (wire (path F.Cu 2500  2243920 775601 2243920 796683)
+    (connect (terminal wire) (terminal smd R9-1))
+   )
+   (wire (path F.Cu 2500  2248030 775601 2243920 775601)
+    (connect (terminal pin SW14-2@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1971300 2081195 1971300 2094575)
+    (connect (terminal via) (terminal smd U1-3))
+   )
+   (wire (path F.Cu 2500  1958300 2081195 1958300 2094575)
+    (connect (terminal via) (terminal smd U1-1))
+   )
+   (wire (path F.Cu 2500  2728154 740390 2728154 737640 2740085 737640
+     2740085 735068 2750670 735068)
+    (connect (terminal via) (terminal smd R19-2))
+   )
+   (wire (path F.Cu 2500  1350490 1227440 1314191 1227440 1314191 1104250
+     1342825 1104250)
+    (connect (terminal pin SW19-2) (terminal smd U2-3))
+   )
+   (wire (path F.Cu 2500  2393371 795127 2392620 795127 2392620 781747)
+    (connect (terminal via) (terminal smd U4-3))
+   )
+   (wire (path F.Cu 2500  2803750 959650 2828123 959650 2828123 1081950
+     2809775 1081950)
+    (connect (terminal pin SW10-2) (terminal smd U3-3))
+   )
+   (wire (path F.Cu 2500  2795900 1075450 2809775 1075450)
+    (connect (terminal wire) (terminal smd U3-2))
+   )
+   (wire (path F.Cu 2500  2803750 1024650 2803750 1037901 2795900 1037901
+     2795900 1051950)
+    (connect (terminal pin SW10-2@1) (terminal smd C4-2))
+   )
+   (wire (path F.Cu 2500  2451230 775601 2435271 775601 2435271 768888
+     2423010 768888)
+    (connect (terminal pin SW15-2@1) (terminal smd C3-2))
+   )
+   (wire (path F.Cu 2500  1350490 1162440 1354991 1162440 1354991 1135140
+     1356700 1135140)
+    (connect (terminal pin SW19-2@1) (terminal smd C2-2))
+   )
+   (wire (path F.Cu 2500  1350650 1772040 1335996 1772040 1335996 1766940
+     1329540 1766940)
+    (connect (terminal pin SW16-2@1) (terminal smd R10-1))
+   )
+   (wire (path F.Cu 2500  2247910 2148980 2247484 2148980 2247484 2169550
+     2253440 2169550)
+    (connect (terminal pin SW4-2@1) (terminal smd R5-1))
+   )
+   (wire (path F.Cu 2500  1638310 2148980 1637884 2148980 1637884 2169550
+     1643840 2169550)
+    (connect (terminal pin SW1-2@1) (terminal smd R4-1))
+   )
+   (wire (path F.Cu 2500  1350490 1162440 1350490 1157939 1329540 1157939
+     1329540 1157340)
+    (connect (terminal pin SW19-2@1) (terminal smd R11-1))
+   )
+   (wire (path F.Cu 2500  2803530 1837320 2803530 1838346 2824330 1838346
+     2824330 1832390)
+    (connect (terminal pin SW6-2@1) (terminal smd R6-1))
+   )
+   (wire (path F.Cu 2500  2803750 1227820 2803750 1224060 2824960 1224060)
+    (connect (terminal pin SW9-2@1) (terminal smd R7-1))
+   )
+   (wire (path F.Cu 2500  1638180 775601 1636860 775601 1636860 796683)
+    (connect (terminal pin SW11-2@1) (terminal smd R8-1))
+   )
+   (wire (path F.Cu 2500  2160140 2302586 2160140 2293380)
+    (connect (terminal via) (terminal smd R15-2))
+   )
+   (wire (path F.Cu 2500  1543216 794798 1534010 794798)
+    (connect (terminal via) (terminal smd R18-2))
+   )
+   (wire (path F.Cu 2500  1333034 735068 1342240 735068)
+    (connect (terminal via) (terminal smd R16-2))
+   )
+   (wire (path F.Cu 2500  2613194 793528 2622400 793528)
+    (connect (terminal via) (terminal smd R21-2))
+   )
+   (wire (path F.Cu 2500  1395264 843058 1404470 843058)
+    (connect (terminal via) (terminal smd R17-2))
+   )
+   (wire (path F.Cu 2500  2015320 2272744 2015320 2281950)
+    (connect (terminal via) (terminal smd R13-2))
+   )
+   (wire (path F.Cu 2500  2822106 845598 2812900 845598)
+    (connect (terminal via) (terminal smd R20-2))
+   )
+   (wire (path F.Cu 2500  1979964 2314970 1988670 2314970)
+    (connect (terminal via) (terminal smd R12-2))
+   )
+   (wire (path F.Cu 2500  2179006 2316240 2170300 2316240)
+    (connect (terminal via) (terminal smd R14-2))
+   )
+   (wire (path F.Cu 2500  1356700 1117250 1342825 1117250)
+    (connect (terminal wire) (terminal smd U2-1))
+   )
+   (wire (path F.Cu 2500  1964800 2108450 1964800 2094575)
+    (connect (terminal wire) (terminal smd U1-2))
+   )
+   (via "Via[0-1]_800:400_um" 1971300 2081195 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1958300 2081195 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2728154 740390 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2393371 795127 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2160140 2302586 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1543216 794798 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1333034 735068 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2613194 793528 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1395264 843058 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2015320 2272744 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2822106 845598 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1979964 2314970 (contact Signal))
+   (via "Via[0-1]_800:400_um" 2179006 2316240 (contact Signal))
+   (via "Via[0-1]_800:400_um" 1956830 2108450 (contact Signal))
+   )
+   (net +5V 
+   (wire (path F.Cu 2500  1400075 1117250 1442212 1117250)
+    (connect (terminal smd U2-16) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2500352 807185 2407616 807185)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2407616 807185 2407616 802684)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1442212 1117250 1442212 894036 1474210 894036
+     1474210 843931 1497037 843931 1497037 812141 2407616 812141
+     2407616 807185)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2423010 739388 2435271 739388 2435271 743852
+     2500352 743852 2500352 807185)
+    (connect (terminal smd C3-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2500352 807185 2677299 807185 2677299 870165
+     2734148 870165 2734148 1051950 2766400 1051950)
+    (connect (terminal wire) (terminal smd C4-1))
+   )
+   (wire (path F.Cu 2500  1386200 1135140 1374713 1135140 1374713 1210312
+     1372903 1210312)
+    (connect (terminal smd C2-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2809775 1068950 2809775 1057200 2819121 1057200
+     2819121 981279 2779912 981279 2779912 1037901 2766400 1037901
+     2766400 1051950)
+    (connect (terminal smd U3-1) (terminal smd C4-1))
+   )
+   (wire (path F.Cu 2500  1372903 1210312 1318692 1210312 1318692 1111837
+     1342825 1111837 1342825 1110750)
+    (connect (terminal wire) (terminal smd U2-2))
+   )
+   (wire (path F.Cu 2500  1372903 1210312 1372903 1240691)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1958300 2151825 1958300 2209954 2245900 2209954
+     2245900 2224390)
+    (connect (terminal smd U1-16) (terminal smd R1-1))
+   )
+   (wire (path F.Cu 2500  1372903 1240691 1372903 1383652 1335279 1383652)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1335279 1383652 1335279 1417649 1368402 1417649
+     1368402 1595480 1381905 1595480 1381905 1754288 1446540 1754288
+     1446540 2022090 1484699 2022090 1484699 2078734 1613071 2078734
+     1613071 2126233 1824923 2126233 1824923 2173353 1936600 2173353
+     1936600 2137950)
+    (connect (terminal wire) (terminal smd C1-1))
+   )
+   (wire (path F.Cu 2500  2285850 2301000 2246540 2301000 2246540 2275190)
+    (connect (terminal pin J1-2) (terminal smd R3-1))
+   )
+   (wire (path F.Cu 2500  2407616 802684 2407616 781747 2405620 781747)
+    (connect (terminal wire) (terminal smd U4-1))
+   )
+   (wire (path F.Cu 2500  2405620 781747 2399120 781747)
+    (connect (terminal smd U4-1) (terminal smd U4-2))
+   )
+   (wire (path F.Cu 2500  2246540 2249790 2245900 2249790 2245900 2224390)
+    (connect (terminal smd R2-1) (terminal smd R1-1))
+   )
+   (wire (path F.Cu 2500  2246540 2275190 2246540 2249790)
+    (connect (terminal smd R3-1) (terminal smd R2-1))
+   )
+   )
+   (net SDA 
+   (wire (path F.Cu 2500  2725146 1075450 2752525 1075450)
+    (connect (terminal wire) (terminal smd U3-15))
+   )
+   (wire (path F.Cu 2500  2725146 901478 2725146 1075450)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2399120 709366 2399120 724497)
+    (connect (terminal wire) (terminal smd U4-15))
+   )
+   (wire (path F.Cu 2500  2399120 709366 2399120 699764 2514173 699764
+     2514173 700364 2569639 700364 2569639 719636 2623534 719636
+     2623534 737640 2713307 737640 2713307 874666 2725146 874666
+     2725146 901478)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1964800 2151825 1964800 2200952 2253799 2200952
+     2253799 2275190 2263040 2275190)
+    (connect (terminal smd U1-15) (terminal smd R3-2))
+   )
+   (wire (path F.Cu 2500  1400075 1110750 1374713 1110750 1374713 1051251
+     1334769 1051251 1334769 1002868 1356511 1002868 1356511 972748
+     1293902 972748 1293902 706133 1414887 706133 1414887 724137
+     1534851 724137 1534851 695263 2068333 695263 2068333 713867
+     2136584 713867 2136584 709366 2399120 709366)
+    (connect (terminal smd U2-15) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2285850 2275600 2285850 2287551 2309053 2287551
+     2309053 2173353 2533862 2173353 2533862 2070442 2617375 2070442
+     2617375 2044635 2632927 2044635 2632927 2034952 2672410 2034952
+     2672410 2008779 2682802 2008779 2682802 1980617 2702641 1980617
+     2702641 1064293 2711643 1064293 2711643 901478 2725146 901478)
+    (connect (terminal pin J1-3) (terminal wire))
+   )
+   )
+   (net SCL 
+   (wire (path F.Cu 2500  2392620 752900 2488231 752900 2488231 752900
+     2509354 752900 2509354 751143 2695303 751143 2695303 887229
+     2720645 887229 2720645 1081950)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1400075 1104250 1412892 1104250 1412892 992469
+     1415427 992469 1415427 849066 1441223 849066 1441223 764793
+     1477220 764793 1477220 752854 2275148 752854 2275148 748353
+     2392620 748353)
+    (connect (terminal smd U2-14) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2392620 748353 2392620 724497)
+    (connect (terminal wire) (terminal smd U4-14))
+   )
+   (wire (path F.Cu 2500  1971300 2151825 1971300 2173353 2229387 2173353
+     2229387 2176006 2269659 2176006)
+    (connect (terminal smd U1-14) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2720645 1081950 2752525 1081950)
+    (connect (terminal wire) (terminal smd U3-14))
+   )
+   (wire (path F.Cu 2500  2392620 752900 2392620 748353)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2285850 2250200 2300051 2250200 2300051 2211351
+     2269659 2211351 2269659 2176006)
+    (connect (terminal pin J1-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2269659 2176006 2295782 2176006)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2720645 1081950 2720645 1081950 2711643 1081950
+     2711643 1995623 2687303 1995623 2687303 2054949 2656960 2054949
+     2656960 2087736 2529361 2087736 2529361 2168852 2295782 2168852
+     2295782 2176006)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+   (net IRQ 
+   (wire (path F.Cu 2500  2386120 724497 2386120 743852)
+    (connect (terminal smd U4-13) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1977800 2151825 1977800 2191950)
+    (connect (terminal smd U1-13) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2132083 743852 2132083 748353 1993032 748353
+     1993032 699764 1544390 699764 1544390 728638 1387101 728638
+     1387101 720221 1302904 720221 1302904 941745 1316765 941745)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1316765 941745 1316765 1060253 1365711 1060253
+     1365711 1146559 1364814 1146559 1364814 1348148 1330778 1348148
+     1330778 1582601 1363651 1582601 1363651 1606351 1372903 1606351
+     1372903 1865981 1438908 1865981 1438908 2011400 1490392 2011400
+     1490392 2018351 1501033 2018351 1501033 2065231 1622073 2065231
+     1622073 2121732 1854761 2121732 1854761 2164351 1884881 2164351
+     1884881 2128940 1976713 2128940 1976713 2151825 1977800 2151825)
+    (connect (terminal wire) (terminal smd U1-13))
+   )
+   (wire (path F.Cu 2500  2132083 743852 2132083 695263)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1321266 937244 1316765 937244 1316765 941745)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1977800 2191950 2262400 2191950 2262400 2224390)
+    (connect (terminal wire) (terminal smd R1-2))
+   )
+   (wire (path F.Cu 2500  2386120 743852 2132083 743852)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1400075 1097750 1384200 1097750 1384200 1046750
+     1363391 1046750 1363391 937244 1321266 937244)
+    (connect (terminal smd U2-13) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2132083 695263 2390118 695263)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2752525 1088450 2775411 1088450 2775411 1011399
+     2739899 1011399 2739899 864574 2699804 864574 2699804 746642
+     2605885 746642 2605885 704865 2584942 704865 2584942 695263
+     2390118 695263 2390118 695263)
+    (connect (terminal smd U3-13) (terminal wire))
+   )
+   )
+   (net "Net-(D1-Pad1)" 
+   (wire (path F.Cu 2500  1940180 2328940 1963500 2328940)
+    (connect (terminal smd D1-1) (terminal smd D2-2))
+   )
+   )
+   (net "Net-(D10-Pad2)" 
+   (wire (path F.Cu 2500  2217500 2330210 2196720 2330210)
+    (connect (terminal smd D9-1) (terminal smd D10-2))
+   )
+   )
+   (net VCC 
+   (wire (path F.Cu 2500  2754250 992150 2773251 992150)
+    (connect (terminal pin SW10-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2668120 793278 2652662 793278)
+    (connect (terminal smd D31-2) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2077330 726101 2077330 699764)
+    (connect (terminal pin SW13-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1472719 794548 1494640 794548)
+    (connect (terminal wire) (terminal smd D23-2))
+   )
+   (wire (path F.Cu 2500  2483610 2088609 2483610 2081727 2652459 2081727
+     2652459 2044677 2700039 2044677 2700039 2019055 2720645 2019055
+     2720645 2010053 2742699 2010053 2742699 1926714 2837125 1926714
+     2837125 1387679)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2773251 992150 2773251 941898 2838627 941898
+     2838627 1180572 2856631 1180572 2856631 1387679 2837125 1387679)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1400150 1398400 1417393 1398400 1417393 1061994
+     1403890 1061994 1403890 1037748)
+    (connect (terminal pin SW18-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1403890 1037748 1408391 1037748)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2299659 2126233 2091958 2126233 2091958 2099480
+     2077210 2099480)
+    (connect (terminal wire) (terminal pin SW3-4))
+   )
+   (wire (path F.Cu 2500  2285850 2326400 2321019 2326400 2321019 2177854
+     2326161 2177854 2326161 2126233)
+    (connect (terminal pin J1-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2326161 2126233 2299659 2126233)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2718368 733139 2718368 846499 2750000 846499
+     2750000 851698)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2750000 851698 2781150 851698)
+    (connect (terminal wire) (terminal smd D25-2))
+   )
+   (wire (path F.Cu 2500  2652662 793278 2652662 772276 2596883 772276
+     2596883 728638)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2596883 728638 2601384 728638)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2718368 733139 2628035 733139 2628035 728638
+     2601384 728638)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2483730 715230 2558118 715230 2558118 728638
+     2596883 728638)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2483730 715230 2483730 726101)
+    (connect (terminal wire) (terminal pin SW15-4))
+   )
+   (wire (path F.Cu 2500  2754250 1398550 2754250 1387679 2837125 1387679)
+    (connect (terminal pin SW8-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2718368 733139 2733081 733139 2733081 726428
+     2781150 726428)
+    (connect (terminal wire) (terminal smd D28-2))
+   )
+   (wire (path F.Cu 2500  1408391 1037748 1408391 1004118 1399640 1004118
+     1399640 991997)
+    (connect (terminal wire) (terminal pin SW20-4))
+   )
+   (wire (path F.Cu 2500  1372720 851698 1372720 1037748 1403890 1037748)
+    (connect (terminal smd D17-2) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2483610 2088609 2367495 2088609 2367495 2126233
+     2326161 2126233)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1472719 733139 1432221 733139 1432221 742335
+     1363033 742335 1363033 726428)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1363033 726428 1367533 726428)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2077330 699764 2220258 699764 2220258 704265
+     2483730 704265 2483730 715230)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1472719 733139 1472719 794548)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1472719 733139 1598019 733139 1598019 704978
+     2058081 704978 2058081 726101 2077330 726101)
+    (connect (terminal wire) (terminal pin SW13-4))
+   )
+   (wire (path F.Cu 2500  2754250 992150 2754250 981279 2744400 981279
+     2744400 897862 2745499 897862 2745499 851698)
+    (connect (terminal pin SW10-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2745499 851698 2750000 851698)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1363032 726428 1363033 726428)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1367533 726428 1373990 726428)
+    (connect (terminal wire) (terminal smd D20-2))
+   )
+   (wire (path F.Cu 2500  2483610 2088609 2483610 2099480)
+    (connect (terminal wire) (terminal pin SW5-4))
+   )
+   (wire (path F.Cu 2500  2227200 2330210 2227200 2329735 2285850 2329735
+     2285850 2326400)
+    (connect (terminal smd D9-2) (terminal pin J1-1))
+   )
+   (wire (path F.Cu 2500  1372720 851698 1307405 851698 1307405 726428
+     1363032 726428)
+    (connect (terminal smd D17-2) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2227200 2323753 2227200 2278140 2139570 2278140)
+    (connect (terminal wire) (terminal smd D13-2))
+   )
+   (wire (path F.Cu 2500  1930480 2301000 1930480 2227391 2139345 2227391
+     2139345 2278140 2139570 2278140)
+    (connect (terminal smd D5-2) (terminal smd D13-2))
+   )
+   (wire (path F.Cu 2500  1930480 2328940 1930480 2301000)
+    (connect (terminal smd D1-2) (terminal smd D5-2))
+   )
+   (wire (path F.Cu 2500  2227200 2330210 2227200 2323753)
+    (connect (terminal smd D9-2) (terminal wire))
+   )
+   )
+   (net "Net-(D2-Pad1)" 
+   (wire (path F.Cu 2500  1973200 2328940 2014530 2328940)
+    (connect (terminal smd D2-1) (terminal smd D3-2))
+   )
+   )
+   (net "Net-(D3-Pad1)" 
+   (wire (path F.Cu 2500  2024230 2328940 2052400 2328940)
+    (connect (terminal smd D3-1) (terminal smd D4-2))
+   )
+   )
+   (net "Net-(D4-Pad1)" 
+   (wire (path F.Cu 2500  2062100 2328940 2062100 2314970 1998870 2314970)
+    (connect (terminal smd D4-1) (terminal smd R12-1))
+   )
+   )
+   (net "Net-(D5-Pad1)" 
+   (wire (path F.Cu 2500  1940180 2301000 1963500 2301000)
+    (connect (terminal smd D5-1) (terminal smd D6-2))
+   )
+   )
+   (net "Net-(D6-Pad1)" 
+   (wire (path F.Cu 2500  1973200 2301000 1994210 2301000)
+    (connect (terminal smd D6-1) (terminal smd D7-2))
+   )
+   )
+   (net "Net-(D7-Pad1)" 
+   (wire (path F.Cu 2500  2003910 2301000 2020880 2301000)
+    (connect (terminal smd D7-1) (terminal smd D8-2))
+   )
+   )
+   (net "Net-(D8-Pad1)" 
+   (wire (path F.Cu 2500  2030580 2301000 2030580 2281950 2025520 2281950)
+    (connect (terminal smd D8-1) (terminal smd R13-1))
+   )
+   )
+   (net "Net-(D10-Pad1)" 
+   (wire (path F.Cu 2500  2187020 2330210 2187020 2328940 2145920 2328940)
+    (connect (terminal smd D10-1) (terminal smd D11-2))
+   )
+   )
+   (net "Net-(D11-Pad1)" 
+   (wire (path F.Cu 2500  2136220 2328940 2101470 2328940)
+    (connect (terminal smd D11-1) (terminal smd D12-2))
+   )
+   )
+   (net "Net-(D12-Pad1)" 
+   (wire (path F.Cu 2500  2091770 2328940 2091770 2316240 2160100 2316240)
+    (connect (terminal smd D12-1) (terminal smd R14-1))
+   )
+   )
+   (net "Net-(D13-Pad1)" 
+   (wire (path F.Cu 2500  2129870 2278140 2123520 2278140 2123520 2299730)
+    (connect (terminal smd D13-1) (terminal smd D14-2))
+   )
+   )
+   (net "Net-(D14-Pad1)" 
+   (wire (path F.Cu 2500  2133220 2299730 2149940 2299730 2149940 2293380)
+    (connect (terminal smd D14-1) (terminal smd R15-1))
+   )
+   )
+   (net "Net-(D17-Pad1)" 
+   (wire (path F.Cu 2500  1372720 841998 1318453 841998 1318453 820063
+     1318990 820063)
+    (connect (terminal smd D17-1) (terminal smd D18-2))
+   )
+   )
+   (net "Net-(D18-Pad1)" 
+   (wire (path F.Cu 2500  1317720 759333 1317720 808493 1324265 808493
+     1324265 815213 1327390 815213)
+    (connect (terminal smd D19-2) (terminal smd D18-1))
+   )
+   )
+   (net "Net-(D19-Pad1)" 
+   (wire (path F.Cu 2500  1342240 745268 1339045 745268 1339045 742319
+     1325705 742319 1325705 764183 1326120 764183)
+    (connect (terminal smd R16-1) (terminal smd D19-1))
+   )
+   )
+   (net "Net-(D20-Pad1)" 
+   (wire (path F.Cu 2500  1427720 760603 1427720 736128)
+    (connect (terminal smd D21-2) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1427720 736128 1373990 736128)
+    (connect (terminal wire) (terminal smd D20-1))
+   )
+   )
+   (net "Net-(D21-Pad1)" 
+   (wire (path F.Cu 2500  1426450 822603 1426450 780478 1418783 780478
+     1418783 765453 1419320 765453)
+    (connect (terminal smd D22-2) (terminal smd D21-1))
+   )
+   )
+   (net "Net-(D22-Pad1)" 
+   (wire (path F.Cu 2500  1418050 817753 1418465 817753 1418465 835563
+     1404470 835563 1404470 832858)
+    (connect (terminal smd D22-1) (terminal smd R17-1))
+   )
+   )
+   (net "Net-(D23-Pad1)" 
+   (wire (path F.Cu 2500  1523850 794548 1508832 794548 1508832 784848
+     1494640 784848)
+    (connect (terminal smd D24-2) (terminal smd D23-1))
+   )
+   )
+   (net "Net-(D24-Pad1)" 
+   (wire (path F.Cu 2500  1523850 784848 1523850 784598 1534010 784598)
+    (connect (terminal smd D24-1) (terminal smd R18-1))
+   )
+   )
+   (net "Net-(D25-Pad1)" 
+   (wire (path F.Cu 2500  2781150 841998 2726883 841998 2726883 821333
+     2727420 821333)
+    (connect (terminal smd D25-1) (terminal smd D26-2))
+   )
+   )
+   (net "Net-(D26-Pad1)" 
+   (wire (path F.Cu 2500  2727420 758063 2727420 774412 2732695 774412
+     2732695 816483 2735820 816483)
+    (connect (terminal smd D27-2) (terminal smd D26-1))
+   )
+   )
+   (net "Net-(D27-Pad1)" 
+   (wire (path F.Cu 2500  2735820 762913 2735820 742141 2750670 742141
+     2750670 745268)
+    (connect (terminal smd D27-1) (terminal smd R19-1))
+   )
+   )
+   (net "Net-(D28-Pad1)" 
+   (wire (path F.Cu 2500  2836150 760603 2836150 736128 2781150 736128)
+    (connect (terminal smd D29-2) (terminal smd D28-1))
+   )
+   )
+   (net "Net-(D29-Pad1)" 
+   (wire (path F.Cu 2500  2827750 765453 2827335 765453 2827335 801263
+     2835373 801263 2835373 820063 2836150 820063)
+    (connect (terminal smd D29-1) (terminal smd D30-2))
+   )
+   )
+   (net "Net-(D30-Pad1)" 
+   (wire (path F.Cu 2500  2827750 815213 2828165 815213 2828165 835398
+     2812900 835398)
+    (connect (terminal smd D30-1) (terminal smd R20-1))
+   )
+   )
+   (net "Net-(D31-Pad1)" 
+   (wire (path F.Cu 2500  2657162 783578 2668120 783578)
+    (connect (terminal wire) (terminal smd D31-1))
+   )
+   (wire (path F.Cu 2500  2632560 793278 2657162 793278)
+    (connect (terminal smd D32-2) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2657162 793278 2657162 783578)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+   (net "Net-(D32-Pad1)" 
+   (wire (path F.Cu 2500  2622400 783328 2622400 783428 2632560 783428
+     2632560 783578)
+    (connect (terminal smd R21-1) (terminal smd D32-1))
+   )
+   )
+   (net "Net-(R4-Pad2)" 
+   (wire (path F.Cu 2500  1670810 2153480 1654040 2153480 1654040 2169550)
+    (connect (terminal pin SW1-3) (terminal smd R4-2))
+   )
+   )
+   (net "Net-(R5-Pad2)" 
+   (wire (path F.Cu 2500  2280410 2153480 2263640 2153480 2263640 2169550)
+    (connect (terminal pin SW4-3) (terminal smd R5-2))
+   )
+   )
+   (net "Net-(R6-Pad2)" 
+   (wire (path F.Cu 2500  2808030 1804820 2808030 1822190 2824330 1822190)
+    (connect (terminal pin SW6-3) (terminal smd R6-2))
+   )
+   )
+   (net "Net-(R7-Pad2)" 
+   (wire (path F.Cu 2500  2808250 1195320 2808250 1213860 2824960 1213860)
+    (connect (terminal pin SW9-3) (terminal smd R7-2))
+   )
+   )
+   (net "Net-(R8-Pad2)" 
+   (wire (path F.Cu 2500  1670680 780101 1670680 796683 1647060 796683)
+    (connect (terminal pin SW11-3) (terminal smd R8-2))
+   )
+   )
+   (net "Net-(R9-Pad2)" 
+   (wire (path F.Cu 2500  2280530 780101 2280530 796683 2254120 796683)
+    (connect (terminal pin SW14-3) (terminal smd R9-2))
+   )
+   )
+   (net "Net-(R10-Pad2)" 
+   (wire (path F.Cu 2500  1346150 1804540 1329540 1804540 1329540 1777140)
+    (connect (terminal pin SW16-3) (terminal smd R10-2))
+   )
+   )
+   (net "Net-(R11-Pad2)" 
+   (wire (path F.Cu 2500  1345990 1194940 1329540 1194940 1329540 1167540)
+    (connect (terminal pin SW19-3) (terminal smd R11-2))
+   )
+   )
+   (net "Net-(SW1-Pad4)" 
+   (wire (path F.Cu 2500  1670810 2099480 1670810 2117231 1874010 2117231
+     1874010 2153480)
+    (connect (terminal pin SW1-4) (terminal pin SW2-3))
+   )
+   )
+   (net /U1P0 
+   (wire (path F.Cu 2500  1703310 2088609 1703310 2065231 1978887 2065231
+     1978887 2094575 1977800 2094575)
+    (connect (terminal wire) (terminal smd U1-4))
+   )
+   (wire (path F.Cu 2500  1638310 2103980 1638310 2088609 1703310 2088609)
+    (connect (terminal pin SW1-1@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1703310 2088609 1703310 2088609 1703310 2103980)
+    (connect (terminal wire) (terminal pin SW1-1))
+   )
+   )
+   (net /U1P1 
+   (wire (path F.Cu 2500  1984300 2069732 1984300 2094575)
+    (connect (terminal wire) (terminal smd U1-5))
+   )
+   (wire (path F.Cu 2500  1906510 2085358 1906510 2069732 1984300 2069732)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1841510 2103980 1841510 2085358 1906510 2085358)
+    (connect (terminal pin SW2-1@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1906510 2085358 1906510 2103980)
+    (connect (terminal wire) (terminal pin SW2-1))
+   )
+   )
+   (net "Net-(SW2-Pad4)" 
+   (wire (path F.Cu 2500  1874010 2099480 1884881 2099480 1884881 2117461
+     2077210 2117461 2077210 2153480)
+    (connect (terminal pin SW2-4) (terminal pin SW3-3))
+   )
+   )
+   (net /U1P2 
+   (wire (path F.Cu 2500  2044710 2088609 2044710 2081727 1990800 2081727
+     1990800 2094575)
+    (connect (terminal wire) (terminal smd U1-6))
+   )
+   (wire (path F.Cu 2500  2044710 2103980 2044710 2103980 2044710 2088609)
+    (connect (terminal pin SW3-1@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2044710 2088609 2109710 2088609 2109710 2103980)
+    (connect (terminal wire) (terminal pin SW3-1))
+   )
+   )
+   (net /U1P3 
+   (wire (path F.Cu 2500  1997300 2077226 1997300 2094575)
+    (connect (terminal wire) (terminal smd U1-7))
+   )
+   (wire (path F.Cu 2500  2247910 2086228 2247910 2077226 1997300 2077226)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2312910 2103980 2312910 2086228 2247910 2086228)
+    (connect (terminal pin SW4-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2247910 2086228 2247910 2086228 2247910 2103980)
+    (connect (terminal wire) (terminal pin SW4-1@1))
+   )
+   )
+   (net "Net-(SW4-Pad4)" 
+   (wire (path F.Cu 2500  2483610 2153480 2483610 2121732 2280410 2121732
+     2280410 2099480)
+    (connect (terminal pin SW5-3) (terminal pin SW4-4))
+   )
+   )
+   (net /U1P4 
+   (wire (path F.Cu 2500  2003800 2151825 2003800 2164351 2096459 2164351
+     2096459 2135729 2332913 2135729 2332913 2164351 2494481 2164351
+     2494481 2117231)
+    (connect (terminal smd U1-9) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2494481 2117231 2516110 2117231 2516110 2103980)
+    (connect (terminal wire) (terminal pin SW5-1))
+   )
+   (wire (path F.Cu 2500  2451110 2103980 2451110 2117231 2494481 2117231)
+    (connect (terminal pin SW5-1@1) (terminal wire))
+   )
+   )
+   (net /U2P0 
+   (wire (path F.Cu 2500  1289401 1097750 1342825 1097750)
+    (connect (terminal wire) (terminal smd U2-4))
+   )
+   (wire (path F.Cu 2500  2758530 1772320 2772001 1772320 2772001 1612361
+     2738878 1612361 2738878 1582241 2772001 1582241 2772001 1417799
+     2743379 1417799 2743379 1379301 2785998 1379301 2785998 1258788
+     2847628 1258788 2847628 1103952 2852129 1103952 2852129 710634
+     2724079 710634 2724079 724137 2632536 724137 2632536 681760
+     1490651 681760 1490651 715135 1441149 715135 1441149 692630
+     1289401 692630 1289401 1097750)
+    (connect (terminal pin SW6-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2758530 1837320 2738658 1837320 2738658 1772320
+     2758530 1772320)
+    (connect (terminal pin SW6-1@1) (terminal pin SW6-1))
+   )
+   )
+   (net "Net-(SW6-Pad4)" 
+   (wire (path F.Cu 2500  2754030 1804820 2781003 1804820 2781003 1601490
+     2808250 1601490)
+    (connect (terminal pin SW6-4) (terminal pin SW7-3))
+   )
+   )
+   (net "Net-(SW7-Pad4)" 
+   (wire (path F.Cu 2500  2754250 1601490 2776502 1601490 2776502 1398550
+     2808250 1398550)
+    (connect (terminal pin SW7-4) (terminal pin SW8-3))
+   )
+   )
+   (net /U2P1 
+   (wire (path F.Cu 2500  1342825 1091250 1307405 1091250 1307405 1247920
+     1347811 1247920 1347811 1326517 1326277 1326517 1326277 1612721
+     1368402 1612721 1368402 1876317 1434407 1876317 1434407 2032405
+     1489200 2032405 1489200 2069732 1617572 2069732 1617572 2176006
+     1811420 2176006 1811420 2338361 2369465 2338361 2369465 2188259
+     2542864 2188259 2542864 2112170 2635853 2112170 2635853 2098766
+     2647958 2098766 2647958 2050448 2704540 2050448 2704540 2023556
+     2729647 2023556 2729647 1759069 2734377 1759069 2734377 1633990)
+    (connect (terminal smd U2-5) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2734377 1633990 2734377 1568990 2758750 1568990)
+    (connect (terminal wire) (terminal pin SW7-1))
+   )
+   (wire (path F.Cu 2500  2734377 1633990 2758750 1633990)
+    (connect (terminal wire) (terminal pin SW7-1@1))
+   )
+   )
+   (net /U2P2 
+   (wire (path F.Cu 2500  1342825 1084750 1293902 1084750)
+    (connect (terminal smd U2-6) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2758750 1366050 2738878 1366050 2738878 1431050)
+    (connect (terminal pin SW8-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2738878 1431050 2738878 1431050 2758750 1431050)
+    (connect (terminal wire) (terminal pin SW8-1@1))
+   )
+   (wire (path F.Cu 2500  1293902 1084750 1293902 1906858 1426775 1906858
+     1426775 2027904 1495462 2027904 1495462 2087736 1608570 2087736
+     1608570 2135465 1820422 2135465 1820422 2222890 2231701 2222890
+     2231701 2312951 2325520 2312951 2325520 2183758 2538363 2183758
+     2538363 2097611 2622324 2097611 2622324 2054949 2643457 2054949
+     2643457 2040176 2678301 2040176 2678301 2014554 2716144 2014554
+     2716144 1431050 2738878 1431050)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2738878 1431050 2738878 1432300 2738878 1432300
+     2738878 1431050 2738878 1431050)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+   (net "Net-(SW10-Pad3)" 
+   (wire (path F.Cu 2500  2754250 1195320 2785504 1195320 2785504 992150
+     2808250 992150)
+    (connect (terminal pin SW9-4) (terminal pin SW10-3))
+   )
+   )
+   (net /U2P3 
+   (wire (path F.Cu 2500  2758750 1162820 2734377 1162820 2734377 1227820
+     2758750 1227820)
+    (connect (terminal pin SW9-1) (terminal pin SW9-1@1))
+   )
+   (wire (path F.Cu 2500  2758750 1227820 2758750 1330400 2832624 1330400
+     2832624 1875544 2725146 1875544 2725146 1986621 2678301 1986621
+     2678301 2004278 2667909 2004278 2667909 2030451 2638956 2030451
+     2638956 2050448 2611695 2050448 2611695 2065231 1988801 2065231
+     1988801 2074233 1657206 2074233 1657206 2074233 1480198 2074233
+     1480198 2045322 1442039 2045322 1442039 2022090 1419143 2022090
+     1419143 1911359 1289401 1911359 1289401 1180150 1298403 1180150
+     1298403 1078250 1342825 1078250)
+    (connect (terminal pin SW9-1@1) (terminal smd U2-7))
+   )
+   )
+   (net /U2P4 
+   (wire (path F.Cu 2500  2758750 1024650 2758750 1003021)
+    (connect (terminal pin SW10-1@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2758750 1003021 2768750 1003021 2768750 959650
+     2758750 959650)
+    (connect (terminal wire) (terminal pin SW10-1))
+   )
+   (wire (path F.Cu 2500  1400075 1071750 1388701 1071750 1388701 1042249
+     1367892 1042249 1367892 865472 1298403 865472 1298403 715720
+     1430199 715720 1430199 719636 1516015 719636 1516015 672758
+     2637037 672758 2637037 728638 2728580 728638 2728580 719636
+     2843127 719636 2843127 913393 2758750 913393 2758750 959650)
+    (connect (terminal smd U2-9) (terminal pin SW10-1))
+   )
+   )
+   (net "Net-(SW11-Pad4)" 
+   (wire (path F.Cu 2500  1670680 726101 1670680 715230 1776528 715230
+     1776528 757355 1859132 757355 1859132 780101 1873880 780101)
+    (connect (terminal pin SW11-4) (terminal pin SW12-3))
+   )
+   )
+   (net /U3P0 
+   (wire (path F.Cu 2500  1652681 730601 1652681 736972 1703180 736972
+     1703180 730601)
+    (connect (terminal wire) (terminal pin SW11-1))
+   )
+   (wire (path F.Cu 2500  1652681 730601 1638180 730601)
+    (connect (terminal wire) (terminal pin SW11-1@1))
+   )
+   (wire (path F.Cu 2500  1638180 713867 1652681 713867 1652681 730601)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1638180 713867 1638180 713867)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1638180 713867 1607021 713867)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1607021 713867 1548891 713867 1548891 677259
+     2646039 677259 2646039 719636 2719578 719636 2719578 706133
+     2861131 706133 2861131 1108453 2833908 1108453 2833908 1089537
+     2809775 1089537 2809775 1088450)
+    (connect (terminal wire) (terminal smd U3-4))
+   )
+   )
+   (net /U3P1 
+   (wire (path F.Cu 2500  2847628 1094950 2809775 1094950)
+    (connect (terminal wire) (terminal smd U3-5))
+   )
+   (wire (path F.Cu 2500  1906380 715230 1906380 715230 1841380 715230
+     1841380 730601)
+    (connect (terminal wire) (terminal pin SW12-1@1))
+   )
+   (wire (path F.Cu 2500  1906380 715230 2063832 715230 2063832 686261
+     2605435 686261 2605435 695263 2658325 695263 2658325 715135
+     2847628 715135 2847628 1094950)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1906380 730601 1906380 715230)
+    (connect (terminal pin SW12-1) (terminal wire))
+   )
+   )
+   (net "Net-(SW12-Pad4)" 
+   (wire (path F.Cu 2500  1873880 726101 1873880 757355)
+    (connect (terminal pin SW12-4) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1873880 757355 2077330 757355 2077330 780101)
+    (connect (terminal wire) (terminal pin SW13-3))
+   )
+   )
+   (net /U3P2 
+   (wire (path F.Cu 2500  2109830 690762 2109830 730601)
+    (connect (terminal wire) (terminal pin SW13-1))
+   )
+   (wire (path F.Cu 2500  2109830 730601 2096579 730601 2096579 736972
+     2044830 736972 2044830 730601)
+    (connect (terminal pin SW13-1) (terminal pin SW13-1@1))
+   )
+   (wire (path F.Cu 2500  2809775 1101450 2809775 1102537 2824906 1102537
+     2824906 1124206 2716144 1124206 2716144 908250 2686301 908250
+     2686301 837778 2623152 837778 2623152 812936 2534367 812936
+     2534367 757401 2520731 757401 2520731 743852 2533982 743852
+     2533982 709366 2534367 709366 2534367 690762 2109830 690762)
+    (connect (terminal smd U3-6) (terminal wire))
+   )
+   )
+   (net /U3P3 
+   (wire (path F.Cu 2500  2829407 1107950 2809775 1107950)
+    (connect (terminal wire) (terminal smd U3-7))
+   )
+   (wire (path F.Cu 2500  2248030 730601 2248030 736972 2303030 736972
+     2303030 730601 2313030 730601)
+    (connect (terminal pin SW14-1@1) (terminal pin SW14-1))
+   )
+   (wire (path F.Cu 2500  2313030 730601 2313030 735127 2397121 735127
+     2397121 748399 2494601 748399 2494601 788852 2545755 788852
+     2545755 800779 2690802 800779 2690802 896977 2707142 896977
+     2707142 1128707 2781003 1128707 2781003 1176071 2743379 1176071
+     2743379 1206191 2790499 1206191 2790499 1176071 2829407 1176071
+     2829407 1107950)
+    (connect (terminal pin SW14-1) (terminal wire))
+   )
+   )
+   (net "Net-(SW14-Pad4)" 
+   (wire (path F.Cu 2500  2280530 726101 2269659 726101 2269659 757355
+     2374971 757355 2374971 757401 2483730 757401 2483730 780101)
+    (connect (terminal pin SW14-4) (terminal pin SW15-3))
+   )
+   )
+   (net /U3P4 
+   (wire (path F.Cu 2500  2516230 730601 2499102 730601 2499102 736972
+     2451230 736972 2451230 730601)
+    (connect (terminal pin SW15-1) (terminal pin SW15-1@1))
+   )
+   (wire (path F.Cu 2500  2516230 730601 2516230 737640 2610386 737640
+     2610386 742141 2708806 742141 2708806 882728 2729647 882728
+     2729647 1114450 2752525 1114450)
+    (connect (terminal pin SW15-1) (terminal smd U3-9))
+   )
+   )
+   (net "Net-(SW16-Pad4)" 
+   (wire (path F.Cu 2500  1345900 1601850 1377404 1601850)
+    (connect (terminal pin SW17-3) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1377404 1601850 1377404 1804540 1400150 1804540)
+    (connect (terminal wire) (terminal pin SW16-4))
+   )
+   )
+   (net /U4P0 
+   (wire (path F.Cu 2500  1411021 1772040 1428775 1772040 1428775 1586427
+     1437711 1586427 1437711 889535 1461704 889535 1461704 814122
+     1491486 814122 1491486 807640 2386120 807640 2386120 781747)
+    (connect (terminal wire) (terminal smd U4-4))
+   )
+   (wire (path F.Cu 2500  1411021 1772040 1411021 1837040 1395650 1837040)
+    (connect (terminal wire) (terminal pin SW16-1))
+   )
+   (wire (path F.Cu 2500  1395650 1772040 1395650 1772040 1411021 1772040)
+    (connect (terminal pin SW16-1@1) (terminal wire))
+   )
+   )
+   (net /U4P1 
+   (wire (path F.Cu 2500  1395400 1634350 1410771 1634350 1410771 1569350)
+    (connect (terminal pin SW17-1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1410771 1569350 1415272 1569350)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1395400 1569350 1410771 1569350)
+    (connect (terminal pin SW17-1@1) (terminal wire))
+   )
+   (wire (path F.Cu 2500  2379620 781747 2379620 803139 1586991 803139
+     1586991 802049 1457203 802049 1457203 879828 1431246 879828
+     1431246 1552028 1415272 1552028 1415272 1569350)
+    (connect (terminal smd U4-5) (terminal wire))
+   )
+   )
+   (net "Net-(SW17-Pad4)" 
+   (wire (path F.Cu 2500  1399900 1601850 1399900 1590979 1372903 1590979
+     1372903 1398400 1346150 1398400)
+    (connect (terminal pin SW17-4) (terminal pin SW18-3))
+   )
+   )
+   (net /U4P2 
+   (wire (path F.Cu 2500  1395650 1410521 1424429 1410521 1424429 861171
+     1452702 861171 1452702 772621 1486222 772621 1486222 761856
+     1681551 761856 1681551 788852 1697167 788852 1697167 790972
+     2088201 790972 2088201 761856 2295902 761856 2295902 792377
+     2373120 792377 2373120 781747)
+    (connect (terminal wire) (terminal smd U4-6))
+   )
+   (wire (path F.Cu 2500  1389279 1410521 1389279 1365900 1395650 1365900)
+    (connect (terminal wire) (terminal pin SW18-1@1))
+   )
+   (wire (path F.Cu 2500  1389279 1410521 1395650 1410521)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1395650 1430900 1395650 1410521)
+    (connect (terminal pin SW18-1) (terminal wire))
+   )
+   )
+   (net /U4P3 
+   (wire (path F.Cu 2500  2366620 796878 2366620 781747)
+    (connect (terminal wire) (terminal smd U4-7))
+   )
+   (wire (path F.Cu 2500  1395490 1227440 1389119 1227440 1389119 1162440
+     1395490 1162440)
+    (connect (terminal pin SW19-1) (terminal pin SW19-1@1))
+   )
+   (wire (path F.Cu 2500  1395490 1245192 1395490 1348148 1381905 1348148
+     1381905 1506543 1419773 1506543 1419773 1598741 1451041 1598741
+     1451041 901719 1468526 901719 1468526 818623 1481721 818623
+     1481721 757355 1686052 757355 1686052 795473 2144567 795473
+     2144567 788852 2261281 788852 2261281 766851 2291401 766851
+     2291401 796878 2366620 796878)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path F.Cu 2500  1395490 1245192 1395490 1227440)
+    (connect (terminal wire) (terminal pin SW19-1))
+   )
+   )
+   (net "Net-(SW19-Pad4)" 
+   (wire (path F.Cu 2500  1345640 991997 1330268 991997 1330268 1055752
+     1370212 1055752 1370212 1147401 1408741 1147401 1408741 1194940
+     1399990 1194940)
+    (connect (terminal pin SW20-3) (terminal pin SW19-4))
+   )
+   )
+   (net /U4P4 
+   (wire (path F.Cu 2500  1395140 959497 1410926 959497 1410926 840064
+     1436722 840064 1436722 743852 1863633 743852 1863633 743852
+     1884751 743852 1884751 743852 2127582 743852 2127582 734850
+     2158849 734850 2158849 713867 2360120 713867 2360120 724497)
+    (connect (terminal pin SW20-1@1) (terminal smd U4-9))
+   )
+   (wire (path F.Cu 2500  1395140 1024497 1379479 1024497 1379479 959497
+     1395140 959497)
+    (connect (terminal pin SW20-1) (terminal pin SW20-1@1))
+   )
+   )
+  )
+ )
