@@ -1,0 +1,635 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 2850 900  3    50   ~ 0
+LEDGND
+Text Label 2350 1250 3    50   ~ 0
+LED+5V
+Wire Wire Line
+	2350 900  2350 950 
+Wire Wire Line
+	2550 900  2350 900 
+Text Label 4550 900  1    50   ~ 0
+LED+5V
+Text Label 4550 1200 3    50   ~ 0
+LEDGND
+Text Label 1200 1200 3    50   ~ 0
+DATAIN
+Text Label 1850 1200 3    50   ~ 0
+DATAOUT
+Text Label 1750 1200 3    50   ~ 0
+LEDGND
+Text Label 1100 1200 3    50   ~ 0
+LEDGND
+Text Label 1650 1200 3    50   ~ 0
+LED+5V
+Text Label 1550 1200 3    50   ~ 0
+LED+5V
+Text Label 1000 1200 3    50   ~ 0
+LED+5V
+Text Label 900  1200 3    50   ~ 0
+LED+5V
+$Comp
+L Device:R R1
+U 1 1 601A2A6B
+P 2350 1100
+F 0 "R1" H 2420 1146 50  0000 L CNN
+F 1 "R" H 2420 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1100 50  0001 C CNN
+F 3 "~" H 2350 1100 50  0001 C CNN
+	1    2350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1200 4950 1200
+Connection ~ 5250 1200
+Wire Wire Line
+	4950 1200 4650 1200
+Connection ~ 4950 1200
+Wire Wire Line
+	4650 1200 4350 1200
+Connection ~ 4650 1200
+Wire Wire Line
+	4350 1200 4050 1200
+Connection ~ 4350 1200
+Wire Wire Line
+	4050 1200 3750 1200
+Connection ~ 4050 1200
+Wire Wire Line
+	3750 1200 3450 1200
+Connection ~ 3750 1200
+Wire Wire Line
+	3450 1200 3150 1200
+Connection ~ 3450 1200
+Wire Wire Line
+	5550 1200 5250 1200
+Wire Wire Line
+	5250 900  5550 900 
+Connection ~ 5250 900 
+Wire Wire Line
+	4950 900  5250 900 
+Connection ~ 4950 900 
+Wire Wire Line
+	4650 900  4950 900 
+Connection ~ 4650 900 
+Wire Wire Line
+	4350 900  4650 900 
+Connection ~ 4350 900 
+Wire Wire Line
+	4050 900  4350 900 
+Connection ~ 4050 900 
+Wire Wire Line
+	3750 900  4050 900 
+Connection ~ 3750 900 
+Wire Wire Line
+	3450 900  3750 900 
+Connection ~ 3450 900 
+Wire Wire Line
+	3150 900  3450 900 
+$Comp
+L Device:C C9
+U 1 1 601A22C4
+P 5550 1050
+F 0 "C9" H 5665 1096 50  0000 L CNN
+F 1 "C" H 5665 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5588 900 50  0001 C CNN
+F 3 "~" H 5550 1050 50  0001 C CNN
+	1    5550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 601A20E7
+P 5250 1050
+F 0 "C8" H 5365 1096 50  0000 L CNN
+F 1 "C" H 5365 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 900 50  0001 C CNN
+F 3 "~" H 5250 1050 50  0001 C CNN
+	1    5250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 601A1E8D
+P 4950 1050
+F 0 "C7" H 5065 1096 50  0000 L CNN
+F 1 "C" H 5065 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 900 50  0001 C CNN
+F 3 "~" H 4950 1050 50  0001 C CNN
+	1    4950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 601A1AF7
+P 4650 1050
+F 0 "C6" H 4765 1096 50  0000 L CNN
+F 1 "C" H 4765 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 900 50  0001 C CNN
+F 3 "~" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 601A188D
+P 4350 1050
+F 0 "C5" H 4465 1096 50  0000 L CNN
+F 1 "C" H 4465 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4388 900 50  0001 C CNN
+F 3 "~" H 4350 1050 50  0001 C CNN
+	1    4350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 601A15BC
+P 4050 1050
+F 0 "C4" H 4165 1096 50  0000 L CNN
+F 1 "C" H 4165 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 900 50  0001 C CNN
+F 3 "~" H 4050 1050 50  0001 C CNN
+	1    4050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 601A133D
+P 3750 1050
+F 0 "C3" H 3865 1096 50  0000 L CNN
+F 1 "C" H 3865 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 900 50  0001 C CNN
+F 3 "~" H 3750 1050 50  0001 C CNN
+	1    3750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 601A08A3
+P 3450 1050
+F 0 "C2" H 3565 1096 50  0000 L CNN
+F 1 "C" H 3565 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 900 50  0001 C CNN
+F 3 "~" H 3450 1050 50  0001 C CNN
+	1    3450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized C1
+U 1 1 601A01D8
+P 3150 1050
+F 0 "C1" H 3268 1096 50  0000 L CNN
+F 1 "C_Polarized" H 3268 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 3188 900 50  0001 C CNN
+F 3 "~" H 3150 1050 50  0001 C CNN
+	1    3150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6019FD7A
+P 2700 900
+F 0 "D1" H 2693 1117 50  0000 C CNN
+F 1 "LED" H 2693 1026 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 2700 900 50  0001 C CNN
+F 3 "~" H 2700 900 50  0001 C CNN
+	1    2700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 6019FA55
+P 1650 1000
+F 0 "J2" H 1678 976 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1678 885 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1650 1000 50  0001 C CNN
+F 3 "~" H 1650 1000 50  0001 C CNN
+	1    1650 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 6019E7E9
+P 1000 1000
+F 0 "J1" H 1028 976 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1028 885 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 1000 1000 50  0001 C CNN
+F 3 "~" H 1000 1000 50  0001 C CNN
+	1    1000 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2813 D2
+U 1 1 606BC1F7
+P 900 2150
+F 0 "D2" H 1244 2196 50  0000 L CNN
+F 1 "WS2813" H 1244 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 950 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 1000 1775 50  0001 L TNN
+	1    900  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D3
+U 1 1 606C652C
+P 1700 2150
+F 0 "D3" H 2044 2196 50  0000 L CNN
+F 1 "WS2813" H 2044 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 1750 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 1800 1775 50  0001 L TNN
+	1    1700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D4
+U 1 1 606C6D6F
+P 2500 2150
+F 0 "D4" H 2844 2196 50  0000 L CNN
+F 1 "WS2813" H 2844 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 2550 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 2600 1775 50  0001 L TNN
+	1    2500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D5
+U 1 1 606C77F1
+P 3350 2150
+F 0 "D5" H 3694 2196 50  0000 L CNN
+F 1 "WS2813" H 3694 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3400 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 3450 1775 50  0001 L TNN
+	1    3350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D6
+U 1 1 606C8024
+P 4150 2150
+F 0 "D6" H 4494 2196 50  0000 L CNN
+F 1 "WS2813" H 4494 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4200 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 4250 1775 50  0001 L TNN
+	1    4150 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D7
+U 1 1 606C8A60
+P 5000 2150
+F 0 "D7" H 5344 2196 50  0000 L CNN
+F 1 "WS2813" H 5344 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5050 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5100 1775 50  0001 L TNN
+	1    5000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D8
+U 1 1 606CA006
+P 5850 2150
+F 0 "D8" H 6194 2196 50  0000 L CNN
+F 1 "WS2813" H 6194 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5900 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5950 1775 50  0001 L TNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D9
+U 1 1 606CD642
+P 6750 2150
+F 0 "D9" H 7094 2196 50  0000 L CNN
+F 1 "WS2813" H 7094 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6800 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 6850 1775 50  0001 L TNN
+	1    6750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D10
+U 1 1 606CD648
+P 7550 2150
+F 0 "D10" H 7894 2196 50  0000 L CNN
+F 1 "WS2813" H 7894 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7600 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 7650 1775 50  0001 L TNN
+	1    7550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D11
+U 1 1 606CD64E
+P 8400 2150
+F 0 "D11" H 8744 2196 50  0000 L CNN
+F 1 "WS2813" H 8744 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8450 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 8500 1775 50  0001 L TNN
+	1    8400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D12
+U 1 1 606CD654
+P 9250 2150
+F 0 "D12" H 9594 2196 50  0000 L CNN
+F 1 "WS2813" H 9594 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9300 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 9350 1775 50  0001 L TNN
+	1    9250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2150 2100 2150
+Wire Wire Line
+	2800 2150 2950 2150
+Wire Wire Line
+	3650 2150 3750 2150
+Wire Wire Line
+	6150 2150 6300 2150
+Wire Wire Line
+	7050 2150 7150 2150
+Wire Wire Line
+	7850 2150 8000 2150
+Wire Wire Line
+	8700 2150 8800 2150
+Wire Wire Line
+	550  2500 550  2150
+Wire Wire Line
+	550  2150 600  2150
+Wire Wire Line
+	1200 2150 1300 2150
+Wire Wire Line
+	550  2500 1200 2500
+Wire Wire Line
+	1200 2500 1200 2250
+Wire Wire Line
+	1200 2250 1400 2250
+Wire Wire Line
+	1300 2150 1300 2500
+Wire Wire Line
+	1300 2500 2000 2500
+Wire Wire Line
+	2000 2500 2000 2250
+Wire Wire Line
+	2000 2250 2200 2250
+Connection ~ 1300 2150
+Wire Wire Line
+	1300 2150 1400 2150
+Wire Wire Line
+	2100 2150 2100 2500
+Wire Wire Line
+	2100 2500 2800 2500
+Wire Wire Line
+	2800 2500 2800 2250
+Wire Wire Line
+	2800 2250 3050 2250
+Connection ~ 2100 2150
+Wire Wire Line
+	2100 2150 2200 2150
+Wire Wire Line
+	2950 2150 2950 2500
+Wire Wire Line
+	2950 2500 3650 2500
+Wire Wire Line
+	3650 2500 3650 2250
+Wire Wire Line
+	3650 2250 3850 2250
+Connection ~ 2950 2150
+Wire Wire Line
+	2950 2150 3050 2150
+Wire Wire Line
+	3750 2150 3750 2500
+Wire Wire Line
+	3750 2500 4450 2500
+Wire Wire Line
+	4450 2500 4450 2250
+Wire Wire Line
+	4450 2250 4700 2250
+Connection ~ 3750 2150
+Wire Wire Line
+	3750 2150 3850 2150
+Wire Wire Line
+	4450 2150 4600 2150
+Wire Wire Line
+	4600 2150 4600 2500
+Wire Wire Line
+	4600 2500 5300 2500
+Wire Wire Line
+	5300 2500 5300 2250
+Wire Wire Line
+	5300 2250 5550 2250
+Connection ~ 4600 2150
+Wire Wire Line
+	4600 2150 4700 2150
+Wire Wire Line
+	5300 2150 5450 2150
+Wire Wire Line
+	5450 2150 5450 2500
+Wire Wire Line
+	5450 2500 6150 2500
+Wire Wire Line
+	6150 2500 6150 2250
+Wire Wire Line
+	6150 2250 6450 2250
+Connection ~ 5450 2150
+Wire Wire Line
+	5450 2150 5550 2150
+Wire Wire Line
+	6300 2150 6300 2500
+Wire Wire Line
+	6300 2500 7050 2500
+Wire Wire Line
+	7050 2500 7050 2250
+Wire Wire Line
+	7050 2250 7250 2250
+Connection ~ 6300 2150
+Wire Wire Line
+	6300 2150 6450 2150
+Wire Wire Line
+	7150 2150 7150 2500
+Wire Wire Line
+	7150 2500 7850 2500
+Wire Wire Line
+	7850 2500 7850 2250
+Wire Wire Line
+	7850 2250 8100 2250
+Connection ~ 7150 2150
+Wire Wire Line
+	7150 2150 7250 2150
+Wire Wire Line
+	8000 2150 8000 2500
+Wire Wire Line
+	8000 2500 8700 2500
+Wire Wire Line
+	8700 2500 8700 2250
+Wire Wire Line
+	8700 2250 8950 2250
+Connection ~ 8000 2150
+Wire Wire Line
+	8000 2150 8100 2150
+Wire Wire Line
+	9250 2450 8400 2450
+Connection ~ 1700 2450
+Wire Wire Line
+	1700 2450 900  2450
+Connection ~ 2500 2450
+Wire Wire Line
+	2500 2450 1700 2450
+Connection ~ 3350 2450
+Wire Wire Line
+	3350 2450 2500 2450
+Connection ~ 4150 2450
+Wire Wire Line
+	4150 2450 3350 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 2450 4150 2450
+Connection ~ 5850 2450
+Wire Wire Line
+	5850 2450 5000 2450
+Connection ~ 6750 2450
+Wire Wire Line
+	6750 2450 5850 2450
+Connection ~ 7550 2450
+Wire Wire Line
+	7550 2450 6750 2450
+Connection ~ 8400 2450
+Wire Wire Line
+	8400 2450 7550 2450
+Wire Wire Line
+	800  1850 800  1750
+Wire Wire Line
+	800  1750 1600 1750
+Wire Wire Line
+	9150 1750 9150 1850
+Wire Wire Line
+	1600 1850 1600 1750
+Connection ~ 1600 1750
+Wire Wire Line
+	1600 1750 2400 1750
+Wire Wire Line
+	2400 1850 2400 1750
+Connection ~ 2400 1750
+Wire Wire Line
+	2400 1750 3250 1750
+Wire Wire Line
+	3250 1850 3250 1750
+Connection ~ 3250 1750
+Wire Wire Line
+	3250 1750 4050 1750
+Wire Wire Line
+	4050 1850 4050 1750
+Connection ~ 4050 1750
+Wire Wire Line
+	4050 1750 4900 1750
+Wire Wire Line
+	4900 1850 4900 1750
+Connection ~ 4900 1750
+Wire Wire Line
+	4900 1750 5750 1750
+Wire Wire Line
+	5750 1850 5750 1750
+Connection ~ 5750 1750
+Wire Wire Line
+	5750 1750 6650 1750
+Wire Wire Line
+	6650 1850 6650 1750
+Connection ~ 6650 1750
+Wire Wire Line
+	6650 1750 7450 1750
+Wire Wire Line
+	7450 1850 7450 1750
+Connection ~ 7450 1750
+Wire Wire Line
+	7450 1750 8300 1750
+Wire Wire Line
+	8300 1850 8300 1750
+Connection ~ 8300 1750
+Wire Wire Line
+	8300 1750 9150 1750
+Text Label 550  2150 2    50   ~ 0
+DATAIN
+Text Label 800  1750 2    50   ~ 0
+LED+5V
+$Comp
+L LED:WS2813 D13
+U 1 1 6071FF06
+P 10050 2150
+F 0 "D13" H 10394 2196 50  0000 L CNN
+F 1 "WS2813" H 10394 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10100 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 10150 1775 50  0001 L TNN
+	1    10050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2813 D14
+U 1 1 6071FF0C
+P 10900 2150
+F 0 "D14" H 11244 2196 50  0000 L CNN
+F 1 "WS2813" H 11244 2105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10950 1850 50  0001 L TNN
+F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 11000 1775 50  0001 L TNN
+	1    10900 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2150 9650 2150
+Wire Wire Line
+	9550 2250 9750 2250
+Wire Wire Line
+	9650 2150 9650 2500
+Wire Wire Line
+	9650 2500 10350 2500
+Wire Wire Line
+	10350 2500 10350 2250
+Wire Wire Line
+	10350 2250 10600 2250
+Connection ~ 9650 2150
+Wire Wire Line
+	9650 2150 9750 2150
+Connection ~ 10050 2450
+Wire Wire Line
+	10050 2450 9250 2450
+Wire Wire Line
+	10900 2450 10050 2450
+Wire Wire Line
+	9150 1750 9950 1750
+Wire Wire Line
+	9950 1850 9950 1750
+Connection ~ 9950 1750
+Wire Wire Line
+	9950 1750 10800 1750
+Wire Wire Line
+	10800 1850 10800 1750
+Text Label 11200 2150 0    50   ~ 0
+DATAOUT
+Wire Wire Line
+	9550 2250 9550 2500
+Wire Wire Line
+	9550 2500 8800 2500
+Wire Wire Line
+	8800 2500 8800 2150
+Connection ~ 8800 2150
+Wire Wire Line
+	8800 2150 8950 2150
+Wire Wire Line
+	10350 2150 10600 2150
+Text Label 1250 2450 3    50   ~ 0
+LEDGND
+Connection ~ 9150 1750
+Connection ~ 9250 2450
+$EndSCHEMATC

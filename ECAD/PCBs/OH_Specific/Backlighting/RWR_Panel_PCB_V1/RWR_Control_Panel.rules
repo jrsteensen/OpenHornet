@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 35)
+    (start_pass_no 1106)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -96,12 +96,10 @@
     )
   )
   (class "kicad_default"
-    "Net-(D4-Pad1)" "Net-(D1-Pad1)" "Net-(D2-Pad1)" "Net-(D5-Pad1)" /Col1 "Net-(D3-Pad1)" /Col2 "Net-(D26-Pad1)"
-    /Row5 /Row4 /Row3 /Row2 /Row1 /BckltGND /Bcklt+12V /AnalogGND
-    /AnalogAudio /Analog5V /AnalogDimmer "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(SW1-Pad6)" "Net-(SW2-Pad6)" "Net-(SW4-Pad6)"
-    "Net-(D6-Pad2)" "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D10-Pad4)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)"
-    "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
-    "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" /LEDDataOut "Net-(J2-Pad6)" "Net-(J8-Pad2)"
+    "Net-(D4-Pad1)" /Col1 /Col2 /Row5 /Row4 /Row3 /Row2 /Row1
+    /AnalogGND /AnalogAudio /Analog5V /AnalogDimmer /ledcol2 /ledrow1 /ledrow2 /ledrow3
+    "Net-(D6-Pad1)" /ledrow4 "Net-(D8-Pad1)" /ledrow5 "Net-(D10-Pad1)" "Net-(D11-Pad1)" "Net-(J1-Pad8)" /ledcol1
+    "Net-(J6-Pad8)" "Net-(BIT1-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -112,7 +110,6 @@
     )
   )
   (class LED+5
-    /LED+5V /LEDDataIn
     (clearance_class LED+5)
     (via_rule LED+5)
     (rule
@@ -123,7 +120,6 @@
     )
   )
   (class LEDGND
-    /LEDGND
     (clearance_class LEDGND)
     (via_rule LEDGND)
     (rule

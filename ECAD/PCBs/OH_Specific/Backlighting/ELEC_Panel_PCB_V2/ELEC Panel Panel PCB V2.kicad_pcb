@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 134)
+    (drawings 135)
     (tracks 280)
     (zones 0)
     (modules 63)
@@ -65,7 +65,7 @@
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
-      (usegerberattributes true)
+      (usegerberattributes false)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
       (excludeedgelayer true)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Manufacturing/"))
   )
 
   (net 0 "")
@@ -1842,10 +1842,10 @@
       (net 2 /LED+5V))
     (pad 1 thru_hole roundrect (at 0 0) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.09259299999999999)
       (net 2 /LED+5V))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical.STEP
+      (offset (xyz 2 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -1916,10 +1916,10 @@
       (net 2 /LED+5V))
     (pad 1 thru_hole roundrect (at 0 0) (size 2.7 3.3) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.09259299999999999)
       (net 2 /LED+5V))
-    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical.STEP
+      (offset (xyz 2 -2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -4597,6 +4597,9 @@
     )
   )
 
+  (gr_text JLCJLCJLCJLC (at 54.875 150.35) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 132.9 119.6) (end 132.9 117.95) (layer F.SilkS) (width 0.12))
   (gr_line (start 121.925 118) (end 121.925 119.55) (layer F.SilkS) (width 0.12))
   (gr_text "DATA OUT" (at 132.925 116.75) (layer F.SilkS) (tstamp 6010C9FC)
@@ -5051,46 +5054,7 @@
   (segment (start 137.555 126.365) (end 132.87 121.68) (width 0.25) (layer F.Cu) (net 28))
   (segment (start 140.667 126.365) (end 137.555 126.365) (width 0.25) (layer F.Cu) (net 28))
 
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 151.0876 126.484) (xy 154.1356 129.6844) (xy 155.3802 133.3928) (xy 154.8722 137.3298) (xy 151.7988 140.9112)
-        (xy 147.4808 143.0194) (xy 143.6962 142.3844) (xy 140.3434 140.6318) (xy 138.2352 137.6854) (xy 137.3208 133.6214)
-        (xy 139.8354 128.516) (xy 142.6548 126.3062) (xy 146.4902 125.087)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 106.553 125.73) (xy 110.0328 129.9718) (xy 111.6076 134.493) (xy 110.9726 138.6586) (xy 107.2896 142.9004)
-        (xy 102.4636 144.3228) (xy 97.536 143.2306) (xy 93.3704 139.3698) (xy 92.5322 132.7404) (xy 95.8088 128.1684)
-        (xy 97.0534 126.9238) (xy 102.5652 125.5776)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 62.5348 126.746) (xy 65.9892 130.5814) (xy 67.1322 135.5344) (xy 66.1162 140.462) (xy 61.7474 143.3322)
-        (xy 55.9308 144.78) (xy 50.0888 141.224) (xy 47.6758 135.255) (xy 49.1998 129.1336) (xy 53.2638 125.603)
-        (xy 58.1914 125.5522)
-      )
-    )
-  )
-  (zone (net 2) (net_name /LED+5V) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 2) (net_name /LED+5V) (layer F.Cu) (tstamp 6023AA2F) (hatch edge 0.508)
     (connect_pads yes (clearance 0.25))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5849,7 +5813,7 @@
       )
     )
   )
-  (zone (net 1) (net_name /LEDGND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name /LEDGND) (layer B.Cu) (tstamp 6023AA2C) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

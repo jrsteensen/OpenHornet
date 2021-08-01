@@ -103,7 +103,7 @@ U 1 1 5F8C9D65
 P 4250 1900
 F 0 "J1" H 4278 1876 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 4278 1785 50  0000 L CNN
-F 2 "footprints:Molex_MicroFit_2X2" H 4250 1900 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4250 1900 50  0001 C CNN
 F 3 "~" H 4250 1900 50  0001 C CNN
 	1    4250 1900
 	1    0    0    -1  
@@ -114,54 +114,11 @@ U 1 1 5F8CCE56
 P 4250 2750
 F 0 "J2" H 4278 2726 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 4278 2635 50  0000 L CNN
-F 2 "footprints:Molex_MicroFit_2X2" H 4250 2750 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4250 2750 50  0001 C CNN
 F 3 "~" H 4250 2750 50  0001 C CNN
 	1    4250 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Polarized C1
-U 1 1 5F8CD63D
-P 3750 2400
-F 0 "C1" V 4005 2400 50  0000 C CNN
-F 1 "C_Polarized" V 3914 2400 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 3788 2250 50  0001 C CNN
-F 3 "~" H 3750 2400 50  0001 C CNN
-	1    3750 2400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4050 1800 3600 1800
-Wire Wire Line
-	3600 1800 3600 2400
-Wire Wire Line
-	4050 2000 3900 2000
-Wire Wire Line
-	3900 2000 3900 2400
-Wire Wire Line
-	3900 2400 3900 2600
-Wire Wire Line
-	3900 2950 4050 2950
-Connection ~ 3900 2400
-Wire Wire Line
-	4050 2750 3600 2750
-Wire Wire Line
-	3600 2750 3600 2400
-Connection ~ 3600 2400
-Wire Wire Line
-	4050 1900 4000 1900
-Wire Wire Line
-	4000 1900 4000 2650
-Wire Wire Line
-	4000 2650 4050 2650
-Wire Wire Line
-	4050 2850 2000 2850
-Wire Wire Line
-	2000 2850 2000 6850
-Wire Wire Line
-	3100 2100 3100 3950
-Wire Wire Line
-	3100 2100 4050 2100
 Wire Wire Line
 	3700 3950 4300 3950
 Wire Wire Line
@@ -184,19 +141,11 @@ Wire Wire Line
 	3800 6100 4100 6100
 Wire Wire Line
 	4400 6400 3500 6400
-Wire Wire Line
-	2350 2600 3900 2600
 Connection ~ 3500 6400
 Wire Wire Line
 	3500 6400 2350 6400
-Connection ~ 3900 2600
-Wire Wire Line
-	3900 2600 3900 2950
 Wire Wire Line
 	4600 4250 3400 4250
-Wire Wire Line
-	2350 2600 2350 4250
-Connection ~ 2350 4250
 Wire Wire Line
 	2350 4250 2350 5350
 Connection ~ 3400 4250
@@ -217,17 +166,9 @@ Wire Wire Line
 	3500 5800 4400 5800
 Wire Wire Line
 	5550 5800 5550 4750
-Wire Wire Line
-	5550 3050 3600 3050
-Wire Wire Line
-	3600 3050 3600 2750
 Connection ~ 4400 5800
-Connection ~ 3600 2750
 Wire Wire Line
 	3400 3650 4600 3650
-Connection ~ 5550 3650
-Wire Wire Line
-	5550 3650 5550 3050
 Connection ~ 4600 3650
 Wire Wire Line
 	4600 3650 5550 3650
@@ -264,8 +205,28 @@ Wire Wire Line
 	5250 5800 5550 5800
 Wire Wire Line
 	4700 6100 4950 6100
-Wire Wire Line
-	5550 6850 5550 6100
-Wire Wire Line
-	2000 6850 5550 6850
+Text Label 5550 6100 0    50   ~ 0
+DATAOUT
+Text Label 4050 2100 2    50   ~ 0
+DATAOUT
+Text Label 4050 2950 2    50   ~ 0
+DATAIN
+Text Label 3100 3950 2    50   ~ 0
+DATAIN
+Text Label 4050 1800 2    50   ~ 0
+LED+5V
+Text Label 4050 1900 2    50   ~ 0
+LED+5V
+Text Label 4050 2650 2    50   ~ 0
+LED+5V
+Text Label 4050 2750 2    50   ~ 0
+LED+5V
+Text Label 4050 2850 2    50   ~ 0
+LEDGND
+Text Label 4050 2000 2    50   ~ 0
+LEDGND
+Text Label 5550 3650 0    50   ~ 0
+LED+5V
+Text Label 2350 6400 2    50   ~ 0
+LEDGND
 $EndSCHEMATC

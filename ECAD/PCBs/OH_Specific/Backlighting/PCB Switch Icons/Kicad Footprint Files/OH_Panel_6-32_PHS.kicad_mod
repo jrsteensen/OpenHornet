@@ -1,0 +1,16 @@
+(module OH_Panel_6-32_PHS (layer F.Cu) (tedit 5FBF1A90)
+  (fp_text reference REF** (at -0.025 -7.025) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value OH_Panel_Fastner_Keepout (at -0.025 -5.65) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user Hx (at 0 3.81) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (fp_text user "⌀6-32 / 4MM" (at 0 -3.81) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 4.3 4.3) (drill 4.3) (layers *.Cu *.Mask)
+    (clearance 3))
+)
