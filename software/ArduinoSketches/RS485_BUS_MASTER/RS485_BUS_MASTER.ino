@@ -57,33 +57,27 @@
  **************************************************************************************/
 
 /**
- * @file OHSketchTemplate.ino
+ * @file RS485_BUS_MASTER.ino
  * @author Balz Reber
- * @date 29.12.2019
- * @version u.0.0.1 (untested)
- * @warning This sketch is based on a wiring diagram, and was not yet tested on hardware
- * @brief This is the OpenHornet Sketch Template
+ * @date 17.12.2019
+ * @brief Sketch for the RS485 Bus Master which controlls a chain of RS485 Slaves
  *
- * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
- * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
- * 
- *  * **Intended Board:**
- * ABSIS XYZ
- * 
- * **Wiring diagram:**
- * 
- * PIN | Function
- * --- | ---
- * 1   | function 1
- * 2   | function 2
- * 3   | function 3
- * 
+ * @details This is the Sketch for the RS485 Bus Master. The RS485 bus Master has to be
+ * an Arduino Mega. This Arduino Mega is connected to the PC running DCS-bios via USB. 
+ * There can't be anything connected to that Arduino except the RS485 Bus.
+ * Preferably this runs on an ABSIS MEGA with a Bus termination resistor installed on the RS485 Bus.
+ * You can find more information about the RS485 Bus System Architecture in the OH documentation.
  */
 
 /**
- * Set DCS Bios to use irq serial
+ * Tells DCS Bios that this is the RS485 Master
  */
-#define DCSBIOS_IRQ_SERIAL
+#define DCSBIOS_RS485_MASTER
+
+/**
+ * Define where the UART1 TX_ENABLE of the RS485 chip is connected. 
+ */
+#define UART1_TXENABLE_PIN 2
 
 /**
  * DCS Bios library include
@@ -94,8 +88,7 @@
 /**
 * Arduino Setup Function
 *
-* Arduino standard Setup Function. Code who should be executed
-* only once at the programm start, belongs in this function.
+* Arduino standard Setup Function with DcsBios setup finction included.
 */
 void setup() {
 
@@ -107,50 +100,11 @@ void setup() {
 /**
 * Arduino Loop Function
 *
-* Arduino standard Loop Function. Code who should be executed
-* over and over in a loop, belongs in this function.
+* Arduino standard Loop Function with DcsBios loop function included
 */
 void loop() {
 
   //Run DCS Bios loop function
   DcsBios::loop();
 
-}
-
-/**
-* A brief description on a single line, ended by a period or blank line.
-* 
-* A longer comment, which may stretch over several lines and may include other things like:
-* Lists:
-* - list points
-* + nested list points
-* - more list points
-* 
-* # Headers Level 1
-* ## Headers Level 2
-* ### Headers Level 3
-* 
-* > Block quotes
-* 
-* **Emphasis**
-* _Emphasis_
-* 
-* `code()`
-* 
-* even Tables are supported:
-* First Header  | Second Header
-* ------------- | -------------
-* Content Cell  | Content Cell 
-* Content Cell  | Content Cell 
-* 
-* Links:
-* [More about markdown support](http://www.doxygen.nl/manual/markdown.html)
-* 
-* @param myParam1 Description of 1st parameter.
-* @param myParam2 Description of 2nd parameter.
-* @returns Description of returned value.
-*/
-int sampleFunction(int myParam1, int myParam2) {
-  int myReturn;
-  return myReturn;
 }

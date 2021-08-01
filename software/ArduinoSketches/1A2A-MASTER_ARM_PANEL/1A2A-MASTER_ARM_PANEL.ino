@@ -57,38 +57,113 @@
  **************************************************************************************/
 
 /**
- * @file OHSketchTemplate.ino
+ * @file 1A2A-MASTER_ARM_PANEL.ino
  * @author Balz Reber
  * @date 29.12.2019
  * @version u.0.0.1 (untested)
  * @warning This sketch is based on a wiring diagram, and was not yet tested on hardware
- * @brief This is the OpenHornet Sketch Template
+ * @brief UIP Master Arm Panel Sketch
  *
- * @details This is the Open Hornet Sketch Template. It should be used as a starting point for every new sketch.
- * Please copy the whole OHSketchTemplate folder to start. As it also contains some test skip files needed for travis.
+ * @details Sketch for the Upper Instrument Panel, Master Arm Panel
  * 
- *  * **Intended Board:**
- * ABSIS XYZ
+ * **Intended Board:**
+ * ABSIS NANO
  * 
  * **Wiring diagram:**
  * 
  * PIN | Function
  * --- | ---
- * 1   | function 1
- * 2   | function 2
- * 3   | function 3
+ * 3   | .55 SQ INDICATOR DISCH Light
+ * 4   | .55 SQ INDICATOR READY Light
+ * 6   | MASTER MODE A/A Light
+ * 7   | MASTER MODE A/A Switch
+ * 8   | MASTER MODE A/G Switch
+ * 9   | MASTER MODE A/G Light
+ * 10  | MASTER ARM Toggle Switch
+ * 11  | EMERGENCY JETT Button 
  * 
  */
 
 /**
- * Set DCS Bios to use irq serial
+ * DCS BIOS Slave ID
+ * 
+ * The following \#define tells DCS-BIOS that this is a RS-485 slave device.
+ * It also sets the address of this slave device. Since this is for the 1A2A Master Arm Panel
+ * the slave address is 2, according to 1A2A.
  */
-#define DCSBIOS_IRQ_SERIAL
+#define DCSBIOS_RS485_SLAVE 2
+
+/**
+ * TX Enable Pin
+ * 
+ * The Arduino pin that is connected to the
+ * /RE and DE pins on the RS-485 transceiver.
+ * This is **Pin 2** in all ABSIS NANO boards.
+*/
+#define TXENABLE_PIN 2
 
 /**
  * DCS Bios library include
  */
 #include "DcsBios.h"
+
+
+/**
+ * .55 SQ INDICATOR READY Light on **Pin 4**
+ * @return todo
+ */
+DcsBios::LED mcReady(0x740c, 0x8000, 4);
+
+/**
+ * .55 SQ INDICATOR DISCH Light on **Pin 3**
+ * @return todo
+ */
+DcsBios::LED mcDisch(0x740c, 0x4000, 3);
+
+
+/**
+ * .55 SQ INDICATOR Button Functionality not implemented
+ * in the F/A-18 DCS Module yet.
+ */
+
+/**
+ * MASTER ARM Toggle Switch on *Pin 10*
+ * @return todo
+ */
+DcsBios::Switch2Pos masterArmSw("MASTER_ARM_SW", 10);
+
+
+/**
+ * MASTER MODE A/A Switch on **Pin 7**
+ * @return todo
+ */
+DcsBios::Switch2Pos masterModeAa("MASTER_MODE_AA", 7);
+
+/**
+ * MASTER MODE A/A Light on **Pin 6**
+ * @return todo
+ */
+DcsBios::LED masterModeAaLt(0x740c, 0x0200, 6);
+
+/**
+ * MASTER MODE A/G Switch on **Pin 8**
+ * @return todo
+ */
+DcsBios::Switch2Pos masterModeAg("MASTER_MODE_AG", 8);
+
+/**
+ * MASTER MODE A/G Light on **Pin 9**
+ * @return todo
+ */
+DcsBios::LED masterModeAgLt(0x740c, 0x0400, 9);
+
+
+/**
+ * EMERGENCY JETTISON BUTTON on **Pin 11**
+ * @return todo
+ */
+DcsBios::Switch2Pos emerJettBtn("EMER_JETT_BTN", 11);
+
 
 
 /**
@@ -115,42 +190,4 @@ void loop() {
   //Run DCS Bios loop function
   DcsBios::loop();
 
-}
-
-/**
-* A brief description on a single line, ended by a period or blank line.
-* 
-* A longer comment, which may stretch over several lines and may include other things like:
-* Lists:
-* - list points
-* + nested list points
-* - more list points
-* 
-* # Headers Level 1
-* ## Headers Level 2
-* ### Headers Level 3
-* 
-* > Block quotes
-* 
-* **Emphasis**
-* _Emphasis_
-* 
-* `code()`
-* 
-* even Tables are supported:
-* First Header  | Second Header
-* ------------- | -------------
-* Content Cell  | Content Cell 
-* Content Cell  | Content Cell 
-* 
-* Links:
-* [More about markdown support](http://www.doxygen.nl/manual/markdown.html)
-* 
-* @param myParam1 Description of 1st parameter.
-* @param myParam2 Description of 2nd parameter.
-* @returns Description of returned value.
-*/
-int sampleFunction(int myParam1, int myParam2) {
-  int myReturn;
-  return myReturn;
 }
