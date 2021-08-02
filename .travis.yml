@@ -1,0 +1,43 @@
+language: c
+sudo: false
+cache:
+  directories:
+    - ~/arduino_ide
+    - ~/.arduino15/packages/
+git:
+  depth: false
+  quiet: true
+
+branches:
+  only:
+  - software
+
+addons:
+  apt:
+    sources:
+      - llvm-toolchain-trusty-5.0
+      - key_url: 'http://apt.llvm.org/llvm-snapshot.gpg.key'
+    packages:
+      - clang-format-5.0
+env:
+  global:
+    - ARDUINO_IDE_VERSION="1.8.10"
+    - PRETTYNAME="OpenHornet"
+    - DOXYFILE=$TRAVIS_BUILD_DIR/software/Doxyfile
+
+before_install:
+   - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
+   - curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/run-clang-format.py > run-clang-format.py
+
+install:
+#   - arduino --install-library "Adafruit ILI9341","Adafruit GFX Library"
+  - if [ ! -d "$HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11" ]; then git clone https://github.com/dcs-bios/dcs-bios-arduino-library.git $HOME/arduino_ide/libraries/dcs-bios-arduino-library-0.2.11; fi
+
+script:
+   - python run-clang-format.py -r .
+   - build_main_platforms
+
+# Generate and deploy documentation
+after_success:
+  - source <(curl -SLs  https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/library_check.sh)
+  - source <(curl -SLs  https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/doxy_gen_and_deploy.sh)
