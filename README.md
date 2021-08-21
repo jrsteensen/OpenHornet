@@ -24,7 +24,7 @@ Currently, this repo reflects the project in its current state and is not 100% f
 
 ## Design Software Requirements
 
-* Mechanical CAD Software Required: SolidWorks 2019 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
+* Mechanical CAD Software Required: SolidWorks 2021 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
 * Electrical CAD Software Required: KiCAD 5.1.0
 * Microsoft Office (or compatible)
 
