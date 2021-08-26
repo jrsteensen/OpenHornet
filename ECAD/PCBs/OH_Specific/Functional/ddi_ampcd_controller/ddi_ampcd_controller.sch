@@ -855,17 +855,10 @@ Connection ~ 6900 5200
 Wire Wire Line
 	6200 5200 6200 5500
 Wire Wire Line
-	5800 5300 5800 5500
-Wire Wire Line
-	5900 5500 5800 5500
-Connection ~ 5800 5500
-Wire Wire Line
 	6100 5500 6200 5500
 Connection ~ 6200 5500
 Wire Wire Line
 	6200 5500 6200 5650
-Wire Wire Line
-	5800 5500 5800 5650
 Wire Wire Line
 	6500 4850 6400 4850
 Text Label 5200 2350 2    50   ~ 0
@@ -1052,4 +1045,11 @@ F 3 "~" H 9000 6500 50  0001 C CNN
 $EndComp
 Text Label 5200 2750 2    60   ~ 0
 9(**)
+Wire Wire Line
+	5800 5500 5800 5650
+Wire Wire Line
+	5800 5300 5800 5500
+Connection ~ 5800 5500
+Wire Wire Line
+	5900 5500 5800 5500
 $EndSCHEMATC
