@@ -475,7 +475,7 @@ U 1 1 5A6A7727
 P 6900 5700
 F 0 "MK1" H 6900 5900 50  0000 C CNN
 F 1 "MH" H 6900 5825 50  0000 C CNN
-F 2 "Socket_Arduino_Mega:Arduino_1pin" H 6900 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 5700 50  0001 C CNN
 F 3 "" H 6900 5700 50  0001 C CNN
 	1    6900 5700
 	0    -1   -1   0   
@@ -672,8 +672,6 @@ Wire Notes Line
 	5150 6250 5900 6250
 Wire Notes Line
 	5900 6250 5900 6100
-Wire Notes Line
-	5150 500  5150 6750
 Wire Notes Line
 	7300 5450 7300 6750
 Text Label 3600 3500 2    31   ~ 0
@@ -982,8 +980,6 @@ F 3 "~" H 7050 6500 50  0001 C CNN
 	1    6850 6500
 	0    1    1    0   
 $EndComp
-NoConn ~ 6950 1100
-NoConn ~ 6950 1200
 NoConn ~ 6950 1300
 NoConn ~ 6150 1400
 NoConn ~ 6150 1500
@@ -1288,8 +1284,6 @@ F 3 "" H 4750 6600 50  0000 C CNN
 $EndComp
 Text Label 4250 6600 2    31   ~ 0
 +5V_SUPPLY
-NoConn ~ 6950 2750
-NoConn ~ 6950 2650
 NoConn ~ 7200 4500
 NoConn ~ 7100 4500
 NoConn ~ 7000 4500
@@ -1307,13 +1301,9 @@ BOTTOM ROW
 Wire Notes Line
 	2650 4100 5050 4100
 Wire Notes Line
-	5050 4100 5050 6750
-Wire Notes Line
 	5050 6750 2650 6750
 Wire Notes Line
 	2650 6750 2650 4100
-Wire Notes Line
-	5150 6750 8000 6750
 Text Notes 7750 4850 1    31   ~ 0
 NOTE: +5VD NET IS SAME \nAS +5V NET. IT IS BROKEN \nOUT TO SIMPLIFY ROUTING.
 Wire Notes Line
@@ -1332,4 +1322,211 @@ Wire Notes Line
 	3250 4000 4450 4000
 Wire Notes Line
 	4450 4000 4450 3050
+$Comp
+L Device:LED D2
+U 1 1 6124C6AA
+P 7300 7650
+F 0 "D2" H 7293 7867 50  0000 C CNN
+F 1 "12V" H 7293 7776 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 7650 50  0001 C CNN
+F 3 "~" H 7300 7650 50  0001 C CNN
+	1    7300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6124E64A
+P 7300 7300
+F 0 "D1" H 7293 7517 50  0000 C CNN
+F 1 "5V" H 7293 7426 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 7300 50  0001 C CNN
+F 3 "~" H 7300 7300 50  0001 C CNN
+	1    7300 7300
+	1    0    0    -1  
+$EndComp
+Text Label 7150 7300 2    31   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR015
+U 1 1 61285A6D
+P 7750 7300
+F 0 "#PWR015" H 7750 7050 50  0001 C CNN
+F 1 "GND" H 7750 7150 50  0000 C CNN
+F 2 "" H 7750 7300 50  0000 C CNN
+F 3 "" H 7750 7300 50  0000 C CNN
+	1    7750 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6128E5F2
+P 7750 7650
+F 0 "#PWR018" H 7750 7400 50  0001 C CNN
+F 1 "GND" H 7750 7500 50  0000 C CNN
+F 2 "" H 7750 7650 50  0000 C CNN
+F 3 "" H 7750 7650 50  0000 C CNN
+	1    7750 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 612A55C6
+P 7600 7300
+F 0 "R1" V 7393 7300 50  0000 C CNN
+F 1 "470" V 7484 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 7300 50  0001 C CNN
+F 3 "~" H 7600 7300 50  0001 C CNN
+	1    7600 7300
+	0    1    1    0   
+$EndComp
+Text Label 7150 7650 2    31   ~ 0
++12V_SUPPLY
+$Comp
+L Device:R R2
+U 1 1 612FDCA0
+P 7600 7650
+F 0 "R2" V 7393 7650 50  0000 C CNN
+F 1 "1K" V 7484 7650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 7650 50  0001 C CNN
+F 3 "~" H 7600 7650 50  0001 C CNN
+	1    7600 7650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J16
+U 1 1 61408D9A
+P 5850 7400
+F 0 "J16" H 5878 7426 50  0000 L CNN
+F 1 "Fan voltage selector" H 5878 7335 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5850 7400 50  0001 C CNN
+F 3 "~" H 5850 7400 50  0001 C CNN
+	1    5850 7400
+	1    0    0    -1  
+$EndComp
+Text Label 5650 7300 2    31   ~ 0
++5V_SUPPLY
+Text Label 5650 7500 2    31   ~ 0
++12V_SUPPLY
+Text Label 5650 7400 2    31   ~ 0
+FAN_SUPPLY
+$Comp
+L Connector:Conn_01x04_Female J13
+U 1 1 6145EDC2
+P 3900 8200
+F 0 "J13" H 3928 8176 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 3928 8085 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3900 8200 50  0001 C CNN
+F 3 "~" H 3900 8200 50  0001 C CNN
+	1    3900 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 6145EDC8
+P 3700 8100
+F 0 "#PWR020" H 3700 7850 50  0001 C CNN
+F 1 "GND" V 3705 7972 50  0000 R CNN
+F 2 "" H 3700 8100 50  0001 C CNN
+F 3 "" H 3700 8100 50  0001 C CNN
+	1    3700 8100
+	0    1    1    0   
+$EndComp
+Text Label 3700 8200 2    31   ~ 0
+FAN_SUPPLY
+Text Label 3700 8400 2    50   ~ 0
+2(**)
+NoConn ~ 3700 8300
+$Comp
+L Connector:Conn_01x04_Female J12
+U 1 1 61463372
+P 3900 7750
+F 0 "J12" H 3928 7726 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 3928 7635 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical" H 3900 7750 50  0001 C CNN
+F 3 "~" H 3900 7750 50  0001 C CNN
+	1    3900 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 61463378
+P 3700 7650
+F 0 "#PWR019" H 3700 7400 50  0001 C CNN
+F 1 "GND" V 3705 7522 50  0000 R CNN
+F 2 "" H 3700 7650 50  0001 C CNN
+F 3 "" H 3700 7650 50  0001 C CNN
+	1    3700 7650
+	0    1    1    0   
+$EndComp
+Text Label 3700 7750 2    31   ~ 0
+FAN_SUPPLY
+Text Label 3700 7950 2    50   ~ 0
+2(**)
+NoConn ~ 3700 7850
+Wire Notes Line
+	5150 6750 8000 6750
+Wire Notes Line
+	8000 7800 5150 7800
+Wire Notes Line
+	7450 6950 7450 6750
+Text Notes 6850 6900 0    50   ~ 0
+READY LEDS
+Wire Notes Line
+	5150 6950 7450 6950
+Text Notes 5500 6900 0    50   ~ 0
+FAN VOLTAGE SELECTOR
+Wire Notes Line
+	2950 6900 2950 8850
+Wire Notes Line
+	5050 4100 5050 6750
+Wire Notes Line
+	5050 8850 5050 6900
+Text Notes 3750 7050 0    50   ~ 0
+COOLING FANS
+Text Label 2250 7450 0    50   ~ 0
++5V_SUPPLY
+NoConn ~ 2650 8050
+NoConn ~ 2650 7950
+NoConn ~ 2650 7850
+NoConn ~ 1850 8050
+$Comp
+L Sensor_Temperature:LM75C U1
+U 1 1 61368CE3
+P 2250 7950
+F 0 "U1" H 2250 8631 50  0000 C CNN
+F 1 "LM75C" H 2250 8540 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 2250 7950 50  0001 C CNN
+	1    2250 7950
+	1    0    0    -1  
+$EndComp
+Text Label 1850 7950 2    50   ~ 0
+SCL
+Text Label 1850 7850 2    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR0107
+U 1 1 6137DA2C
+P 2250 8450
+F 0 "#PWR0107" H 2250 8200 50  0001 C CNN
+F 1 "GND" H 2255 8277 50  0000 C CNN
+F 2 "" H 2250 8450 50  0001 C CNN
+F 3 "" H 2250 8450 50  0001 C CNN
+	1    2250 8450
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6700 6750 6700 7800
+Wire Notes Line
+	5150 500  5150 7800
+Wire Notes Line
+	1450 6900 5050 6900
+Wire Notes Line
+	1450 8850 5050 8850
+Wire Notes Line
+	1450 7150 5050 7150
+Wire Notes Line
+	1450 6900 1450 8850
+Text Notes 1950 7050 0    50   ~ 0
+TEMP SENSOR
 $EndSCHEMATC
