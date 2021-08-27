@@ -11,12 +11,12 @@ Currently, this repo reflects the project in its current state and is not 100% f
 ## Status
 | Assembly                       |                 | Status |                                |
 |--------------------------------|:---------------:|--------|--------------------------------|
-| Upper Instrument Panel (UIP)   |    :bangbang:   | Beta   | Build at own risk              |
+| Upper Instrument Panel (UIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
 | Lower Instrument Panel (LIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
 | Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
 | Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
 | Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Ejection Seat (SEAT)           | :no_entry_sign: | Redesign | Redesign Required. Do Not Build. See #195 |
+| Ejection Seat (SEAT)           | :no_entry_sign: | Beta RC | Build at own risk - Use Seat v1.5 only |
 | Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
 | Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
 
@@ -24,9 +24,13 @@ Currently, this repo reflects the project in its current state and is not 100% f
 
 ## Design Software Requirements
 
-* Mechanical CAD Software Required: SolidWorks 2019 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
+* Mechanical CAD Software Required: SolidWorks 2021 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
 * Electrical CAD Software Required: KiCAD 5.1.0
 * Microsoft Office (or compatible)
+
+## Sim Software Requirements
+* [DCS w/ F/A-18C module](https://www.digitalcombatsimulator.com/en/shop/modules/hornet/)
+* [DCSFlightPanels DCS-BIOS](https://github.com/DCSFlightpanels/dcs-bios)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -41,7 +45,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## OpenHornet MCAD Model
 
-All models are in SolidWorks 2019. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required.
+The MCAD is converting from SW2019 to 2021. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required. No commits from the educational package will be accepted.
 
 ### Top Level Assembly Structure
 
@@ -67,11 +71,11 @@ MCAD
 * Balz Reber (Balse): _Electrical/Software Design_
 * Tejay Beauparlant (Stang): _Mehcanical Design/Manufacturing Engineering_
 * Magic_Man: _Electrical Design_
-* Luke Walker (L.Walker): _Mechanical Design/Drafting_
+* Luke Walker (L.Walker): _Mechanical Design/Drafting/Backlighting System_
 
 ### HONORABLE MENTIONS
 * __Logo Design__: NegativeONE
-* __Beta Builders/Testers__: BuckEye, Splash, DG, Otso, L. Walker
+* __Development Builders/Testers__: BuckEye, Splash, DG, Otso, L. Walker
 * __Donators__: AJMilner, bnepethomas, crosshairs2230
 * __Inactive Dev Contributors__: Bullant (Software Design/DCS-BIOS Expert), Gaberun24 (Electrical/Software Design), Damien022 (Software Design), Baago, Caviar4, NegativeONE, Ravell
 * **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108, Luft101, Lex
