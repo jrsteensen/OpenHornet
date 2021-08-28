@@ -360,30 +360,6 @@ F 4 "C114586" H 8794 2809 50  0000 L CNN "LCSC Part Number"
 	1    8450 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED:WS2812B D23
-U 1 1 5FDB4525
-P 9200 2900
-F 0 "D23" H 9544 2991 50  0000 L CNN
-F 1 "WS2812B" H 9544 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9250 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9300 2525 50  0001 L TNN
-F 4 "C114586" H 9544 2809 50  0000 L CNN "LCSC Part Number"
-	1    9200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B D24
-U 1 1 5FDB452C
-P 10000 2900
-F 0 "D24" H 10344 2991 50  0000 L CNN
-F 1 "WS2812B" H 10344 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10050 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10100 2525 50  0001 L TNN
-F 4 "C114586" H 10344 2809 50  0000 L CNN "LCSC Part Number"
-	1    10000 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 2000 1950 2000
 Wire Wire Line
@@ -407,8 +383,6 @@ Wire Wire Line
 Wire Wire Line
 	9500 2000 9700 2000
 Wire Wire Line
-	9700 2900 9500 2900
-Wire Wire Line
 	1950 2900 1800 2900
 Wire Wire Line
 	2750 2900 2550 2900
@@ -426,8 +400,6 @@ Wire Wire Line
 	7400 2900 7200 2900
 Wire Wire Line
 	8150 2900 8000 2900
-Wire Wire Line
-	8900 2900 8750 2900
 Wire Wire Line
 	10000 1700 9200 1700
 Connection ~ 2250 1700
@@ -492,8 +464,6 @@ Wire Wire Line
 Connection ~ 9200 2300
 Wire Wire Line
 	9200 2300 10000 2300
-Wire Wire Line
-	10000 2600 9200 2600
 Connection ~ 2250 2600
 Wire Wire Line
 	2250 2600 1500 2600
@@ -518,12 +488,8 @@ Wire Wire Line
 Connection ~ 7700 2600
 Wire Wire Line
 	7700 2600 6900 2600
-Connection ~ 8450 2600
 Wire Wire Line
 	8450 2600 7700 2600
-Connection ~ 9200 2600
-Wire Wire Line
-	9200 2600 8450 2600
 Wire Wire Line
 	1500 3200 2250 3200
 Connection ~ 2250 3200
@@ -550,12 +516,6 @@ Wire Wire Line
 Connection ~ 7700 3200
 Wire Wire Line
 	7700 3200 8450 3200
-Connection ~ 8450 3200
-Wire Wire Line
-	8450 3200 9200 3200
-Connection ~ 9200 3200
-Wire Wire Line
-	9200 3200 10000 3200
 Text Label 5750 1700 1    50   ~ 0
 LED+5V
 Text Label 5700 2600 1    50   ~ 0
@@ -570,104 +530,6 @@ Text Label 1200 2900 3    50   ~ 0
 DATAOUT1
 Text Label 7300 3200 0    50   ~ 0
 LEDGND
-$Comp
-L LED:WS2812B D28
-U 1 1 60283170
-P 13050 2900
-F 0 "D28" H 13394 2991 50  0000 L CNN
-F 1 "WS2812B" H 13394 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13100 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13150 2525 50  0001 L TNN
-F 4 "C114586" H 13394 2809 50  0000 L CNN "LCSC Part Number"
-	1    13050 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B D29
-U 1 1 60283177
-P 13850 2900
-F 0 "D29" H 14194 2991 50  0000 L CNN
-F 1 "WS2812B" H 14194 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13900 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13950 2525 50  0001 L TNN
-F 4 "C114586" H 14194 2809 50  0000 L CNN "LCSC Part Number"
-	1    13850 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13550 2900 13350 2900
-Wire Wire Line
-	13850 2600 13050 2600
-Connection ~ 13050 2600
-Wire Wire Line
-	13050 2600 12300 2600
-Wire Wire Line
-	12300 3200 13050 3200
-Connection ~ 13050 3200
-Wire Wire Line
-	13050 3200 13850 3200
-Text Label 14150 2900 3    50   ~ 0
+Text Label 8750 2900 0    50   ~ 0
 DATAOUT
-Wire Wire Line
-	10300 2900 10450 2900
-$Comp
-L LED:WS2812B D25
-U 1 1 602D0DC3
-P 10750 2900
-F 0 "D25" H 11094 2991 50  0000 L CNN
-F 1 "WS2812B" H 11094 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10800 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10850 2525 50  0001 L TNN
-F 4 "C114586" H 11094 2809 50  0000 L CNN "LCSC Part Number"
-	1    10750 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B D26
-U 1 1 602D0DCA
-P 11500 2900
-F 0 "D26" H 11844 2991 50  0000 L CNN
-F 1 "WS2812B" H 11844 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11550 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11600 2525 50  0001 L TNN
-F 4 "C114586" H 11844 2809 50  0000 L CNN "LCSC Part Number"
-	1    11500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B D27
-U 1 1 602D0DD1
-P 12300 2900
-F 0 "D27" H 12644 2991 50  0000 L CNN
-F 1 "WS2812B" H 12644 2900 50  0000 L CNN
-F 2 "OH_Backlighting:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12350 2600 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12400 2525 50  0001 L TNN
-F 4 "C114586" H 12644 2809 50  0000 L CNN "LCSC Part Number"
-	1    12300 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12000 2900 11800 2900
-Wire Wire Line
-	11200 2900 11050 2900
-Wire Wire Line
-	12300 2600 11500 2600
-Connection ~ 10750 2600
-Wire Wire Line
-	10750 2600 10000 2600
-Connection ~ 11500 2600
-Wire Wire Line
-	11500 2600 10750 2600
-Wire Wire Line
-	10000 3200 10750 3200
-Connection ~ 10750 3200
-Wire Wire Line
-	10750 3200 11500 3200
-Connection ~ 11500 3200
-Wire Wire Line
-	11500 3200 12300 3200
-Wire Wire Line
-	12600 2900 12750 2900
-Connection ~ 12300 2600
-Connection ~ 12300 3200
 $EndSCHEMATC

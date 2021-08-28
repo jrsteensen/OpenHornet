@@ -108,17 +108,6 @@ F 3 "~" H 4250 1900 50  0001 C CNN
 	1    4250 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x04_Female J2
-U 1 1 5F8CCE56
-P 4250 2750
-F 0 "J2" H 4278 2726 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 4278 2635 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4250 2750 50  0001 C CNN
-F 3 "~" H 4250 2750 50  0001 C CNN
-	1    4250 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3700 3950 4300 3950
 Wire Wire Line
@@ -207,26 +196,18 @@ Wire Wire Line
 	4700 6100 4950 6100
 Text Label 5550 6100 0    50   ~ 0
 DATAOUT
-Text Label 4050 2100 2    50   ~ 0
-DATAOUT
-Text Label 4050 2950 2    50   ~ 0
-DATAIN
 Text Label 3100 3950 2    50   ~ 0
 DATAIN
 Text Label 4050 1800 2    50   ~ 0
 LED+5V
 Text Label 4050 1900 2    50   ~ 0
 LED+5V
-Text Label 4050 2650 2    50   ~ 0
-LED+5V
-Text Label 4050 2750 2    50   ~ 0
-LED+5V
-Text Label 4050 2850 2    50   ~ 0
-LEDGND
 Text Label 4050 2000 2    50   ~ 0
 LEDGND
 Text Label 5550 3650 0    50   ~ 0
 LED+5V
 Text Label 2350 6400 2    50   ~ 0
 LEDGND
+Text Label 4050 2100 2    50   ~ 0
+DATAIN
 $EndSCHEMATC

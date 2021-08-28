@@ -1,5 +1,5 @@
 
-(rules PCB MasterModePushbutton
+(rules PCB MasterModePushbuttonV2
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2494)
+    (start_pass_no 52)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -19,10 +19,10 @@
       (against_preferred_direction_trace_costs 3.7)
     )
     (layer_rule B.Cu
-      (active on)
-      (preferred_direction horizontal)
+      (active off)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.4)
+      (against_preferred_direction_trace_costs 3.7)
     )
   )
   (rule
@@ -92,7 +92,7 @@
       (width 250.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer F.Cu)
     )
   )
   (class "kicad_default"
@@ -108,7 +108,7 @@
       (width 250.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer F.Cu)
     )
   )
   (class LED+5
@@ -119,7 +119,7 @@
       (width 1000.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer F.Cu)
     )
   )
   (class LEDGND
@@ -130,7 +130,7 @@
       (width 1000.0)
     )
     (circuit 
-      (use_layer F.Cu B.Cu)
+      (use_layer F.Cu)
     )
   )
 )
