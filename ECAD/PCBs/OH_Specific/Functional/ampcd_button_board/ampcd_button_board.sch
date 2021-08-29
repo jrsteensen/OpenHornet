@@ -837,9 +837,9 @@ U 1 1 60478F6B
 P 5900 1350
 F 0 "J1" H 5900 1800 50  0000 C CNN
 F 1 "Conn_01x06" H 5900 1700 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 5900 1350 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022292061_sd.pdf" H 5900 1350 50  0001 C CNN
-F 4 "22292061" H 5900 1350 50  0001 C CNN "PN"
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5900 1350 50  0001 C CNN
+F 3 "" H 5900 1350 50  0001 C CNN
+F 4 "" H 5900 1350 50  0001 C CNN "PN"
 	1    5900 1350
 	1    0    0    -1  
 $EndComp
