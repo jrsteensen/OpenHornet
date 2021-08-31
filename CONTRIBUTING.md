@@ -47,11 +47,53 @@ Write a title and in the comments section summarize the work you did.
 
 Click ```Create pull request``` and leave the box checked that says ```Allow edits from maintainers```.
 
-## What branch should I merge to?
+## Repository Structure
+    master
+    - 1.0.0-beta1
+    -- 1.0.0-beta1/feature-Ejection-Seat-2.0
+    -- 1.0.0-beta1/bugfix-obsolete-potentiometer
+	-- 1.0.0-beta1/docs-system-interconnect
+	-- 1.0.0-beta1/maint-hardware-optimization
 
-The repo has three primary branches. The top level is "master", which both the "hardware" and "software" branches feed into. All feature branches should feed into either the hardware or software branches, and one of the project managers will merge those two branches into master on a periodic basis.
+## Branches
+### Master branch 
+The Master branch is the current stable release. The only time things will be committed to this branch is upon release by project administrators. (As a contributor, do not commit to Master. Ever.)
 
-* Hardware: This branch is for all MCAD and ECAD related items.
-* Software: This branch is for all software related items.
+### Version branch
+A version branch contains all the sub-branches that will feed into the release of that version of OpenHornet. This branch is merged to master immediately prior to release.
 
-NOTE: As we move into a beta release, this structure will change, significantly and will be documented here.
+#### Feature sub-branch
+Feature sub-branches are descriptively named branches which are stand-alone new features and will not/can not affect dependencies. They shall feed into the version branch it is associated with.
+
+#### Bugfix sub-branch
+Bugfix sub-branches resolve identified issues with an OH component. They may affect dependencies. Any bugfix shall feed into the version branch it is associated with.
+
+#### Docs sub-branch
+Documentation sub-branches create or update project documentation, and should not affect any hardware component. Doc updates should be included directly with a feature or bugfix update, and a docs branch should only be created if that situation does not apply. They shall feed into the version branch it is associated with.
+
+#### Maint sub-branch
+Maintainence sub-branches are for cleanup, quality-of-life updates, and other issues not rising to the level of a bug. They shall feed into the version branch it is associated with.
+
+## Commits
+
+### Commit Frequencies
+Commits shall be pushed to remote (the OH GitHub Repo) at least daily on any day work has taken place, but preferably pushed as each commit is made, real-time. This policy will help eliminate overlap and conflicting dependencies.
+
+### Commit Messages
+* The commit subject should be capitalized.
+* The commit subject should be no more than 50 characters in length (with wiggle room up to 72 characters in length as a hard max.) 
+* The commit subject should not contain punctuation at the end of it.
+* The commit subject should use the imperative mood (i.e. "Clean your room", "Close the door", etc.)
+* A properly formed Git commit subject line should always be able to complete the following sentence:
+  * If applied, this commit will **your subject line here**
+  * For example:
+    * If applied, this commit will *Refactor subsystem X for readability*
+    * If applied, this commit will *Update getting started documentation*
+    * If applied, this commit will *Remove deprecated methods*
+    * If applied, this commit will *Release version 1.0.0*
+    * If applied, this commit will *Merge pull request #123 from user/branch*
+* The commit message body should use proper capitalization and punctuation.
+* The commit message body should be detailed enough that the reader can understand the changes made.
+* The commit message body should reference other issues and pull requests at the end.
+    Resolves: #123
+    See also: #456, #789
