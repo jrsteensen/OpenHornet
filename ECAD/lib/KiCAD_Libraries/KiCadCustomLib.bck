@@ -425,6 +425,11 @@ K 7 segment LED display common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP SW_Rotary5
+D rotary switch with 5 positions
+K rotary switch
+$ENDCMP
+#
 $CMP SW_Rotary6
 D rotary switch with 6 positions
 K rotary switch
@@ -440,6 +445,12 @@ $CMP TL1240GQ
 D Push button switch with green LED
 K switch normally-open pushbutton push-button LED
 F http://spec_sheets.e-switch.com/specs/P010362.pdf
+$ENDCMP
+#
+$CMP VID60-02
+D 4-wire bipolar stepper motor with zero detection
+K bipolar stepper motor
+F http://www.vidmotion.com.cn/UploadFile/pdf/product/20091120013606VID60-02.pdf
 $ENDCMP
 #
 $CMP WC1602A

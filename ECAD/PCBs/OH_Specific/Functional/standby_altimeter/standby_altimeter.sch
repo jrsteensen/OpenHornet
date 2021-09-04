@@ -1,0 +1,247 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Rotary_Encoder SW1
+U 1 1 61338129
+P 6050 1400
+F 0 "SW1" H 6280 1446 50  0000 L CNN
+F 1 "PRESS_ADJ" H 6280 1355 50  0000 L CNN
+F 2 "KiCAD Libraries:PEC11R-4xxxF-Nxxxx" H 5900 1560 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PEC11R.pdf" H 6050 1660 50  0001 C CNN
+F 4 "PEC11R-4230F-N0024" H 6050 1400 50  0001 C CNN "PN"
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female DS1
+U 1 1 61339D3F
+P 7450 1800
+F 0 "DS1" H 7350 2350 50  0000 C CNN
+F 1 "10K_ALT_DISP" H 7350 2250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 7450 1800 50  0001 C CNN
+F 3 "~" H 7450 1800 50  0001 C CNN
+	1    7450 1800
+	1    0    0    -1  
+$EndComp
+Text Label 7250 1900 2    50   ~ 0
+DS1_RESET
+Text Label 7250 1800 2    50   ~ 0
+DS1_CHIPSEL
+Text Label 7250 1600 2    50   ~ 0
+SPI_CLK
+Text Label 7250 1500 2    50   ~ 0
+SPI_DIN
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6133C76A
+P 7150 2200
+F 0 "#PWR?" H 7150 2050 50  0001 C CNN
+F 1 "+3.3V" V 7165 2328 50  0000 L CNN
+F 2 "" H 7150 2200 50  0001 C CNN
+F 3 "" H 7150 2200 50  0001 C CNN
+	1    7150 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 2200 7250 2200
+$Comp
+L power:GND #PWR?
+U 1 1 6133DE6E
+P 7100 2050
+F 0 "#PWR?" H 7100 1800 50  0001 C CNN
+F 1 "GND" V 7105 1922 50  0000 R CNN
+F 2 "" H 7100 2050 50  0001 C CNN
+F 3 "" H 7100 2050 50  0001 C CNN
+	1    7100 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 2050 7150 2000
+Wire Wire Line
+	7150 2000 7250 2000
+Wire Wire Line
+	7150 2050 7150 2100
+Wire Wire Line
+	7150 2100 7250 2100
+Connection ~ 7150 2050
+Wire Wire Line
+	7100 2050 7150 2050
+Text Label 7250 1700 2    50   ~ 0
+DS1_RESET
+$Comp
+L Connector:Conn_01x08_Female DS2
+U 1 1 6133F714
+P 8400 1800
+F 0 "DS2" H 8300 2350 50  0000 C CNN
+F 1 "PRESS_DISP" H 8300 2250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 8400 1800 50  0001 C CNN
+F 3 "~" H 8400 1800 50  0001 C CNN
+	1    8400 1800
+	1    0    0    -1  
+$EndComp
+Text Label 8200 1900 2    50   ~ 0
+DS2_RESET
+Text Label 8200 1800 2    50   ~ 0
+DS2_CHIPSEL
+Text Label 8200 1600 2    50   ~ 0
+SPI_CLK
+Text Label 8200 1500 2    50   ~ 0
+SPI_DIN
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6133F7F2
+P 8100 2200
+F 0 "#PWR?" H 8100 2050 50  0001 C CNN
+F 1 "+3.3V" V 8115 2328 50  0000 L CNN
+F 2 "" H 8100 2200 50  0001 C CNN
+F 3 "" H 8100 2200 50  0001 C CNN
+	1    8100 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2200 8200 2200
+$Comp
+L power:GND #PWR?
+U 1 1 6133F7FF
+P 8050 2050
+F 0 "#PWR?" H 8050 1800 50  0001 C CNN
+F 1 "GND" V 8055 1922 50  0000 R CNN
+F 2 "" H 8050 2050 50  0001 C CNN
+F 3 "" H 8050 2050 50  0001 C CNN
+	1    8050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 2050 8100 2000
+Wire Wire Line
+	8100 2000 8200 2000
+Wire Wire Line
+	8100 2050 8100 2100
+Wire Wire Line
+	8100 2100 8200 2100
+Connection ~ 8100 2050
+Wire Wire Line
+	8050 2050 8100 2050
+Text Label 8200 1700 2    50   ~ 0
+DS2_RESET
+$Comp
+L power:GND #PWR?
+U 1 1 61343440
+P 5500 1650
+F 0 "#PWR?" H 5500 1400 50  0001 C CNN
+F 1 "GND" H 5505 1477 50  0000 C CNN
+F 2 "" H 5500 1650 50  0001 C CNN
+F 3 "" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+Text Label 5750 1300 2    50   ~ 0
+CH_A
+Text Label 5750 1500 2    50   ~ 0
+CH_B
+Wire Wire Line
+	5500 1650 5500 1400
+Wire Wire Line
+	5500 1400 5750 1400
+$Comp
+L KiCadCustomLib:VID60-02 M1
+U 1 1 61350A92
+P 6100 2400
+F 0 "M1" H 6300 2450 50  0000 L CNN
+F 1 "VID60-02" H 6300 2350 50  0000 L CNN
+F 2 "KiCAD Libraries:VID60-02" H 6110 2390 50  0001 C CNN
+F 3 "http://www.vidmotion.com.cn/UploadFile/pdf/product/20091120013606VID60-02.pdf" H 6110 2390 50  0001 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+Text Label 6000 2100 1    50   ~ 0
+COIL1
+Text Label 6200 2100 1    50   ~ 0
+COIL2
+Text Label 5800 2300 2    50   ~ 0
+COIL3
+Text Label 5800 2500 2    50   ~ 0
+COIL4
+Text Label 5900 2700 2    50   ~ 0
+ZERO_DETECT
+$Comp
+L power:GND #PWR?
+U 1 1 613521F6
+P 6400 2800
+F 0 "#PWR?" H 6400 2550 50  0001 C CNN
+F 1 "GND" H 6405 2627 50  0000 C CNN
+F 2 "" H 6400 2800 50  0001 C CNN
+F 3 "" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2800 6400 2700
+Wire Wire Line
+	6400 2700 6300 2700
+Text Label 4500 1900 2    50   ~ 0
+COIL1
+Text Label 4500 2000 2    50   ~ 0
+COIL2
+Text Label 4500 2100 2    50   ~ 0
+COIL3
+Text Label 4500 2200 2    50   ~ 0
+COIL4
+Text Label 4500 2300 2    50   ~ 0
+ZERO_DETECT
+Text Label 4500 2400 2    50   ~ 0
+CH_A
+Text Label 4500 2500 2    50   ~ 0
+CH_B
+Text Label 4500 2600 2    50   ~ 0
+SPI_DIN
+Text Label 4500 2700 2    50   ~ 0
+SPI_CLK
+Text Label 4500 2800 2    50   ~ 0
+DS1_RESET
+Text Label 4500 2900 2    50   ~ 0
+DS1_CHIPSEL
+Text Label 4500 3000 2    50   ~ 0
+DS1_RESET
+Text Label 4500 3100 2    50   ~ 0
+DS2_RESET
+Text Label 4500 3200 2    50   ~ 0
+DS2_CHIPSEL
+Text Label 4500 3300 2    50   ~ 0
+DS2_RESET
+$Comp
+L power:+3.3V #PWR?
+U 1 1 613533CF
+P 4400 3400
+F 0 "#PWR?" H 4400 3250 50  0001 C CNN
+F 1 "+3.3V" V 4415 3528 50  0000 L CNN
+F 2 "" H 4400 3400 50  0001 C CNN
+F 3 "" H 4400 3400 50  0001 C CNN
+	1    4400 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61353AF4
+P 4400 3500
+F 0 "#PWR?" H 4400 3250 50  0001 C CNN
+F 1 "GND" V 4405 3372 50  0000 R CNN
+F 2 "" H 4400 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0001 C CNN
+	1    4400 3500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
