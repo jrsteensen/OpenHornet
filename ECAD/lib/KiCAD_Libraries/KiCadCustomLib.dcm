@@ -401,6 +401,12 @@ $CMP MAX7219EWG+T
 F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf
 $ENDCMP
 #
+$CMP OPB615
+D Photointerrupter infrared LED with photo IC, OPB615, switch
+K Photointerrupter infrared LED with photo IC, OPB615, switch
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
