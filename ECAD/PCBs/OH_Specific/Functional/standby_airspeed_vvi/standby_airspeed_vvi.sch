@@ -1,0 +1,289 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5900 2050 1    50   ~ 0
+COIL1
+Text Label 6100 2050 1    50   ~ 0
+COIL2
+Text Label 5700 2250 2    50   ~ 0
+COIL3
+Text Label 5700 2450 2    50   ~ 0
+COIL4
+Text Label 6250 1150 0    50   ~ 0
+COIL1
+Text Label 5750 1150 2    50   ~ 0
+COIL2
+Text Label 5750 1550 2    50   ~ 0
+COIL3
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 6133AB04
+P 5950 1350
+F 0 "J1" H 6000 1767 50  0000 C CNN
+F 1 "ALT_CONN" H 6000 1676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5950 1350 50  0001 C CNN
+F 3 "~" H 5950 1350 50  0001 C CNN
+	1    5950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 6134005A
+P 6950 2700
+F 0 "#PWR09" H 6950 2450 50  0001 C CNN
+F 1 "GND" V 6955 2572 50  0000 R CNN
+F 2 "" H 6950 2700 50  0001 C CNN
+F 3 "" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 6133FBE7
+P 6950 2700
+F 0 "#FLG02" H 6950 2775 50  0001 C CNN
+F 1 "PWR_FLAG" V 6950 2828 50  0000 L CNN
+F 2 "" H 6950 2700 50  0001 C CNN
+F 3 "~" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    1    1    0   
+$EndComp
+Text Label 6250 1550 0    50   ~ 0
+COIL4
+Text Label 5750 1250 2    50   ~ 0
+ZERO_DETECT
+$Comp
+L power:GND #PWR017
+U 1 1 61366637
+P 5750 1350
+F 0 "#PWR017" H 5750 1100 50  0001 C CNN
+F 1 "GND" V 5750 1200 50  0000 R CNN
+F 2 "" H 5750 1350 50  0001 C CNN
+F 3 "" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Motor:Stepper_Motor_bipolar M1
+U 1 1 61379EDE
+P 6000 2350
+F 0 "M1" H 6188 2474 50  0000 L CNN
+F 1 "VID29-02" H 6188 2383 50  0000 L CNN
+F 2 "KiCAD Libraries:VID29-02" H 6010 2340 50  0001 C CNN
+F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 6010 2340 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6137A947
+P 6900 1350
+F 0 "J3" H 6800 1400 50  0000 C CNN
+F 1 "ZERO" H 6750 1300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 1350 50  0001 C CNN
+F 3 "~" H 6900 1350 50  0001 C CNN
+	1    6900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 6137B25C
+P 7200 1150
+F 0 "#PWR011" H 7200 1000 50  0001 C CNN
+F 1 "+5V" H 7215 1323 50  0000 C CNN
+F 2 "" H 7200 1150 50  0001 C CNN
+F 3 "" H 7200 1150 50  0001 C CNN
+	1    7200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6137C2EC
+P 7200 1550
+F 0 "#PWR013" H 7200 1300 50  0001 C CNN
+F 1 "GND" H 7205 1377 50  0000 C CNN
+F 2 "" H 7200 1550 50  0001 C CNN
+F 3 "" H 7200 1550 50  0001 C CNN
+	1    7200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 7200 1450
+Wire Wire Line
+	7200 1450 7100 1450
+Text Label 7100 1350 0    50   ~ 0
+ZERO_DETECT
+Wire Wire Line
+	7100 1250 7200 1250
+Wire Wire Line
+	7200 1250 7200 1150
+$Comp
+L power:+5V #PWR012
+U 1 1 6137E4CF
+P 6950 2600
+F 0 "#PWR012" H 6950 2450 50  0001 C CNN
+F 1 "+5V" V 6965 2728 50  0000 L CNN
+F 2 "" H 6950 2600 50  0001 C CNN
+F 3 "" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 6137EE9D
+P 6950 2600
+F 0 "#FLG03" H 6950 2675 50  0001 C CNN
+F 1 "PWR_FLAG" V 6950 2728 50  0000 L CNN
+F 2 "" H 6950 2600 50  0001 C CNN
+F 3 "~" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	0    1    1    0   
+$EndComp
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
+$Comp
+L power:+5V #PWR015
+U 1 1 613C5161
+P 5750 1450
+F 0 "#PWR015" H 5750 1300 50  0001 C CNN
+F 1 "+5V" V 5765 1578 50  0000 L CNN
+F 2 "" H 5750 1450 50  0001 C CNN
+F 3 "" H 5750 1450 50  0001 C CNN
+	1    5750 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 613EF815
+P 6850 2000
+F 0 "H1" H 6950 2046 50  0000 L CNN
+F 1 "MountingHole" H 6950 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2000 50  0001 C CNN
+F 3 "~" H 6850 2000 50  0001 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 613F0076
+P 6850 2200
+F 0 "H2" H 6950 2246 50  0000 L CNN
+F 1 "MountingHole" H 6950 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2200 50  0001 C CNN
+F 3 "~" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 613F01D2
+P 6850 2400
+F 0 "H3" H 6950 2446 50  0000 L CNN
+F 1 "MountingHole" H 6950 2355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2400 50  0001 C CNN
+F 3 "~" H 6850 2400 50  0001 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:1938 D1
+U 1 1 61398E20
+P 6150 3600
+F 0 "D1" H 6250 3950 50  0000 L CNN
+F 1 "1938" H 6250 3850 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 6200 3300 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H 6250 3225 50  0001 L TNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:1938 D2
+U 1 1 613992CB
+P 7000 3600
+F 0 "D2" H 7100 3950 50  0000 L CNN
+F 1 "1938" H 7100 3850 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 7050 3300 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H 7100 3225 50  0001 L TNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3600 6700 3600
+Wire Wire Line
+	6150 3300 6150 3200
+Wire Wire Line
+	6150 3200 6600 3200
+Wire Wire Line
+	7000 3200 7000 3300
+$Comp
+L power:+5V #PWR01
+U 1 1 6139A74B
+P 6600 3100
+F 0 "#PWR01" H 6600 2950 50  0001 C CNN
+F 1 "+5V" H 6615 3273 50  0000 C CNN
+F 2 "" H 6600 3100 50  0001 C CNN
+F 3 "" H 6600 3100 50  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3100 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 3200 7000 3200
+Wire Wire Line
+	6150 3900 6150 4000
+Wire Wire Line
+	6150 4000 6600 4000
+Wire Wire Line
+	7000 4000 7000 3900
+Wire Wire Line
+	6600 4000 6600 4100
+Connection ~ 6600 4000
+Wire Wire Line
+	6600 4000 7000 4000
+$Comp
+L power:GND #PWR02
+U 1 1 6139C604
+P 6600 4100
+F 0 "#PWR02" H 6600 3850 50  0001 C CNN
+F 1 "GND" V 6605 3972 50  0000 R CNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+Text Label 5850 3600 2    50   ~ 0
+LED_DIN
+Text Label 7300 3600 0    50   ~ 0
+LED_DOUT
+Text Label 6250 1250 0    50   ~ 0
+LED_DIN
+Text Label 6250 1450 0    50   ~ 0
+LED_DOUT
+$Comp
+L power:GND #PWR0101
+U 1 1 61395B95
+P 6250 1350
+F 0 "#PWR0101" H 6250 1100 50  0001 C CNN
+F 1 "GND" V 6250 1200 50  0000 R CNN
+F 2 "" H 6250 1350 50  0001 C CNN
+F 3 "" H 6250 1350 50  0001 C CNN
+	1    6250 1350
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
