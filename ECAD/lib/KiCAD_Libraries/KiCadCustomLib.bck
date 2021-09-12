@@ -471,4 +471,10 @@ K LCD 16x2 Alphanumeric Green Backlight
 F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 $ENDCMP
 #
+$CMP WS2812B-2020
+D RGB LED with integrated controller, 2 x 2mm
+K RGB LED NeoPixel addressable, 2 x 2mm
+F https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf
+$ENDCMP
+#
 #End Doc Library
