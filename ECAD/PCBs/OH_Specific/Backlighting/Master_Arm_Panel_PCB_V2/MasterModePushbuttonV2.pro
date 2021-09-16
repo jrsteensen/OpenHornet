@@ -1,6 +1,6 @@
-update=21/12/2020 5:38:19 PM
+update=9/16/2021 2:01:31 PM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -45,6 +45,8 @@ TrackWidth7=4
 TrackWidth8=5
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.8
+ViaDrill2=0.4
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
