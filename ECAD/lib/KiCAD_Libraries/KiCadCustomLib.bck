@@ -421,6 +421,12 @@ K Photointerrupter infrared LED with photo IC, OPB615, switch
 F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf
 $ENDCMP
 #
+$CMP Omron_B3F-1026
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 $CMP OpenHornetLogoSmall
 D 37.7mm x 5.9mm OpenHorner Logo
 $ENDCMP
