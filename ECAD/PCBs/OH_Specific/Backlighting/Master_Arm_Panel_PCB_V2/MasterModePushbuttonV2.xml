@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Backlighting\Master_Arm_Panel_PCB_V2\MasterModePushbuttonV2.sch</source>
+    <date>9/16/2021 18:06:36</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MasterModePushbuttonV2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>READY</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8EE7B0</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>MASTER MODE</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8EF652</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92D3D1</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92D3D8</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F92D3DF</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F936794</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93679B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9367A2</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9367A9</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9367B0</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9367B7</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C2D</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C34</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C3B</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C42</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C49</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F938C50</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93F4F6</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93F4FD</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B43F0</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B43F7</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B43FE</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part Number">C114586</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B4405</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>BL IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BF02A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>BL OUT</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C206C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_Polarized</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="MasterModePushbuttonV2-rescue" part="C_Polarized-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C65C6</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>READY</value>
+      <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PN">B3F-1026</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61493237</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>A/A</value>
+      <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PN">B3F-1026</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614C47E2</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>A/G</value>
+      <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PN">B3F-1026</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614C4B2D</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F0C42</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F2ED2</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F33DF</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F3CD2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F5E63</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F6959</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F7064</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCAD_Libraries" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614F748E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCAD_Libraries" part="WS2812B-2020">
+      <description>RGB LED with integrated controller, 2 x 2mm</description>
+      <docs>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B-2020</field>
+        <field name="Footprint">STARFIGHTR_FOOTPRINTS:WS2812-2020</field>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MasterModePushbuttonV2-rescue" part="C_Polarized-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="KiCAD_Libraries">
+      <uri>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Backlighting\Master_Arm_Panel_PCB_V2/../../../../lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\share\kicad\library/LED.lib</uri>
+    </library>
+    <library logical="MasterModePushbuttonV2-rescue">
+      <uri>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Backlighting\Master_Arm_Panel_PCB_V2/MasterModePushbuttonV2-rescue.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="2" name="Net-(D28-Pad3)">
+      <node ref="D6" pin="1"/>
+      <node ref="D28" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D5-Pad1)">
+      <node ref="D6" pin="3"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="J3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="6" name="/READY_SW">
+      <node ref="SW1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="7" name="/DATAIN">
+      <node ref="D29" pin="3"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2"/>
+      <node ref="D25" pin="4"/>
+    </net>
+    <net code="9" name="Net-(D23-Pad2)">
+      <node ref="D24" pin="4"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="D26" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="D27" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D29-Pad1)">
+      <node ref="D30" pin="3"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="13" name="/LEDGND">
+      <node ref="D17" pin="3"/>
+      <node ref="D16" pin="3"/>
+      <node ref="D20" pin="3"/>
+      <node ref="D23" pin="3"/>
+      <node ref="D18" pin="3"/>
+      <node ref="D15" pin="3"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D19" pin="3"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D21" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="D9" pin="3"/>
+      <node ref="D8" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D14" pin="3"/>
+      <node ref="D13" pin="3"/>
+      <node ref="D12" pin="3"/>
+      <node ref="D11" pin="3"/>
+      <node ref="D22" pin="3"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D24" pin="3"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D27" pin="3"/>
+      <node ref="D26" pin="3"/>
+      <node ref="D25" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="14" name="/LED+5V">
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D5" pin="4"/>
+      <node ref="D30" pin="4"/>
+      <node ref="D4" pin="4"/>
+      <node ref="D6" pin="4"/>
+      <node ref="D32" pin="4"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D31" pin="4"/>
+      <node ref="D29" pin="4"/>
+      <node ref="D28" pin="4"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="15" name="/DATAOUT">
+      <node ref="J2" pin="4"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="16" name="/AA_SW">
+      <node ref="J4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="D7" pin="4"/>
+    </net>
+    <net code="18" name="Net-(D31-Pad1)">
+      <node ref="D32" pin="3"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D30-Pad1)">
+      <node ref="D31" pin="3"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="D19" pin="4"/>
+    </net>
+    <net code="21" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="D18" pin="4"/>
+    </net>
+    <net code="22" name="Net-(D15-Pad2)">
+      <node ref="D16" pin="4"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="D17" pin="4"/>
+    </net>
+    <net code="24" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="4"/>
+    </net>
+    <net code="25" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="4"/>
+    </net>
+    <net code="26" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="D23" pin="4"/>
+    </net>
+    <net code="27" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="D21" pin="4"/>
+    </net>
+    <net code="28" name="Net-(D21-Pad2)">
+      <node ref="D22" pin="4"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="D20" pin="4"/>
+    </net>
+    <net code="30" name="Net-(D10-Pad4)">
+      <node ref="D9" pin="2"/>
+      <node ref="D10" pin="4"/>
+    </net>
+    <net code="31" name="/AG_SW">
+      <node ref="J4" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D14-Pad2)">
+      <node ref="D15" pin="4"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D13-Pad2)">
+      <node ref="D14" pin="4"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D12-Pad2)">
+      <node ref="D13" pin="4"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="D11" pin="4"/>
+    </net>
+    <net code="36" name="Net-(D11-Pad2)">
+      <node ref="D12" pin="4"/>
+      <node ref="D11" pin="2"/>
+    </net>
+  </nets>
+</export>
