@@ -781,4 +781,70 @@ Wire Wire Line
 Connection ~ 14900 7900
 Wire Wire Line
 	14900 7900 15700 7900
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO2
+U 1 1 61449DE5
+P 2850 6300
+F 0 "LOGO2" H 2850 6300 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 2850 6300 50  0001 C CNN
+F 2 "OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm" H 2875 6300 50  0001 L CNN
+F 3 "" H 2850 6300 50  0001 C CNN
+	1    2850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:CC-BY-NC-SA_Icon LOGO1
+U 1 1 6145DC34
+P 4000 6100
+F 0 "LOGO1" H 4000 6100 50  0001 C CNN
+F 1 "CC-BY-NC-SA_Icon" H 4000 6100 50  0001 C CNN
+F 2 "OH_KiCAD_Libraries:CC-BY-NC-SA-Small" H 4000 6100 50  0001 C CNN
+F 3 "" H 4000 6100 50  0001 C CNN
+	1    4000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OH_S2AL_Silkscreen LOGO3
+U 1 1 61462C35
+P 1550 6200
+F 0 "LOGO3" H 1550 5950 50  0001 C CNN
+F 1 "OH_S2AL_Silkscreen" H 1728 6325 50  0000 L CNN
+F 2 "OH_Backlighting:S2AL_Toggle_Silkscreen" H 1600 5850 50  0001 C CNN
+F 3 "" H 1600 5950 50  0001 C CNN
+	1    1550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OHPanelScrew H2
+U 1 1 61482BE7
+P 2750 4400
+F 0 "H2" H 2750 4650 50  0001 C CNN
+F 1 "OHPanelScrew" H 2750 4050 50  0001 C CNN
+F 2 "OH_Backlighting:OH_Panel_6-32_PHS" H 2800 4150 50  0001 C CNN
+F 3 "" H 2750 4400 50  0001 C CNN
+	1    2750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OHPanelScrew H1
+U 1 1 614831A4
+P 2150 4400
+F 0 "H1" H 2150 4650 50  0001 C CNN
+F 1 "OHPanelScrew" H 2150 4050 50  0001 C CNN
+F 2 "OH_Backlighting:OH_Panel_6-32_PHS" H 2200 4150 50  0001 C CNN
+F 3 "" H 2150 4400 50  0001 C CNN
+	1    2150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OHPanelScrew H3
+U 1 1 61487BAF
+P 3400 4400
+F 0 "H3" H 3400 4650 50  0001 C CNN
+F 1 "OHPanelScrew" H 3400 4050 50  0001 C CNN
+F 2 "OH_Backlighting:OH_Panel_6-32_PHS" H 3450 4150 50  0001 C CNN
+F 3 "" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

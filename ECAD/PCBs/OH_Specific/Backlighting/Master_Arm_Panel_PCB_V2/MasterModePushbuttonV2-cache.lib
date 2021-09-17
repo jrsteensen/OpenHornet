@@ -98,6 +98,60 @@ X VDD 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# KiCadCustomLib_CC-BY-NC-SA_Icon
+#
+DEF KiCadCustomLib_CC-BY-NC-SA_Icon LOGO 0 0 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "KiCadCustomLib_CC-BY-NC-SA_Icon" 0 0 50 H I C CNN
+F2 "OH_KiCAD_Libraries:CC-BY-NC-SA-Small" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 50 100 50 0 0 0 "CC-BY-NC-SA SMALL" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# KiCadCustomLib_OHPanelScrew
+#
+DEF KiCadCustomLib_OHPanelScrew H 0 0 N N 1 F N
+F0 "H" 0 250 50 H I C CNN
+F1 "KiCadCustomLib_OHPanelScrew" 0 -350 50 H I C CNN
+F2 "OH_Backlighting:OH_Panel_6-32_PHS" 50 -250 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 0 0 F
+C 0 0 180 0 0 0 N
+ENDDRAW
+ENDDEF
+#
+# KiCadCustomLib_OH_S2AL_Silkscreen
+#
+DEF KiCadCustomLib_OH_S2AL_Silkscreen LOGO 0 0 N N 1 F N
+F0 "LOGO" 0 -250 50 H I C CNN
+F1 "KiCadCustomLib_OH_S2AL_Silkscreen" 0 -150 50 H V C CNN
+F2 "OH_Backlighting:S2AL_Toggle_Silkscreen" 50 -350 50 H I C CNN
+F3 "" 50 -250 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 S2AL Normal 0 C C
+S -150 -50 -100 -100 0 0 0 N
+S -150 100 150 -50 0 0 0 N
+S 50 100 -50 350 0 0 0 N
+S 150 -50 100 -100 0 0 0 N
+ENDDRAW
+ENDDEF
+#
+# KiCadCustomLib_OpenHornetLogoSmall
+#
+DEF KiCadCustomLib_OpenHornetLogoSmall LOGO 0 0 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "KiCadCustomLib_OpenHornetLogoSmall" 0 0 50 H I C CNN
+F2 "OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 50 0 0 0 "OH LOGO SMALL" Normal 0 C C
+S 150 200 -150 450 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # LED_WS2812B
 #
 DEF LED_WS2812B D 0 10 Y Y 1 F N

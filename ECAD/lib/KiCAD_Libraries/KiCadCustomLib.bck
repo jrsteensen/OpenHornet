@@ -62,6 +62,10 @@ K 4 digit 7 segment super bright yellow LED, common anode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SYKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP CC-BY-NC-SA_Icon
+D CC-BY-NC-SA_Icon Small
+$ENDCMP
+#
 $CMP CC56-12CGKWA
 D 4 digit 7 segment green LED, common cathode
 K 4 digit 7 segment green LED, common cathode
@@ -407,10 +411,18 @@ $CMP MAX7219EWG+T
 F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf
 $ENDCMP
 #
+$CMP OHPanelScrew
+D 6-32 PHS Hole with back fill keepout area
+$ENDCMP
+#
 $CMP OPB615
 D Photointerrupter infrared LED with photo IC, OPB615, switch
 K Photointerrupter infrared LED with photo IC, OPB615, switch
 F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf
+$ENDCMP
+#
+$CMP OpenHornetLogoSmall
+D 37.7mm x 5.9mm OpenHorner Logo
 $ENDCMP
 #
 $CMP RC1602A
