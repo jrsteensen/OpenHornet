@@ -1216,4 +1216,15 @@ Wire Wire Line
 	3850 7150 4550 7150
 Wire Wire Line
 	7050 800  7050 1050
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO1
+U 1 1 615E2B83
+P 3550 2000
+F 0 "LOGO1" H 3550 2000 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 3550 2000 50  0001 C CNN
+F 2 "KiCAD Libraries:OH_LOGO_ONLY_11x6mm" H 3550 2000 50  0001 C CNN
+F 3 "" H 3550 2000 50  0001 C CNN
+	1    3550 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
