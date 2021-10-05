@@ -11,12 +11,12 @@ Currently, this repo reflects the project in its current state and is not 100% f
 ## Status
 | Assembly                       |                 | Status |                                |
 |--------------------------------|:---------------:|--------|--------------------------------|
-| Upper Instrument Panel (UIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
-| Lower Instrument Panel (LIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
+| Upper Instrument Panel (UIP)   | :no_entry_sign: | B1DF RC | Do not build / Errors expected |
+| Lower Instrument Panel (LIP)   | :no_entry_sign: | B1DF RC | Do not build / Errors expected |
 | Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
 | Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
 | Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Ejection Seat (SEAT)           | :no_entry_sign: | Beta RC | Build at own risk - Use Seat v1.5 only |
+| Ejection Seat (SEAT)           | :no_entry_sign: | Design | Do not build / Errors expected |
 | Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
 | Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
 
@@ -37,15 +37,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 * [Contributing HOW-TO](CONTRIBUTING.md)
 
-    1. Fork this repo
-    1. Create your feature branch (`git checkout -b my-new-feature`)
-    1. Commit your changes (`git commit -am 'Add some feature'`)
-    1. Push to the branch (`git push origin my-new-feature`)
-    1. Create a new pull request
-
 ## OpenHornet MCAD Model
 
-The MCAD is converting from SW2019 to 2021. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required. No commits from the educational package will be accepted.
+The MCAD is converting from SW2019 to 2021. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required. No commits from the educational or makers versions will be accepted.
 
 ### Top Level Assembly Structure
 
