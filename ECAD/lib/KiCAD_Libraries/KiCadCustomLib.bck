@@ -411,6 +411,12 @@ $CMP MAX7219EWG+T
 F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf
 $ENDCMP
 #
+$CMP MT6825GT
+D Magnetic Position Sensor, 18-bit, ABZ/UVW/PWM/SPI Interface, TSSOP-16
+K Magnetic Hall Encoder
+F https://datasheet.lcsc.com/lcsc/2010271836_Magn-Tek-MT6825GT-M4D_C879563.pdf
+$ENDCMP
+#
 $CMP OHPanelScrew
 D 6-32 PHS Hole with back fill keepout area
 $ENDCMP
