@@ -1,0 +1,391 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "OH Flight Stick Controller"
+Date "2021-10-15"
+Rev "1"
+Comp "www.OpenHornet.com"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KiCadCustomLib:ProMicro U1
+U 1 1 616A89EF
+P 5450 5400
+F 0 "U1" H 5450 6543 60  0000 C CNN
+F 1 "ProMicro" H 5450 6437 60  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket" H 5450 6331 60  0000 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810271810_CONNFLY-Elec-DS1009-24AT1WX-0A2_C72120.pdf" H 5550 4350 60  0001 C CNN
+F 4 "C72120" H 5450 5400 50  0001 C CNN "LCSC"
+	1    5450 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 6168F8D8
+P 9600 5700
+F 0 "#PWR0101" H 9600 5450 50  0001 C CNN
+F 1 "GND" H 9605 5527 50  0000 C CNN
+F 2 "" H 9600 5700 50  0001 C CNN
+F 3 "" H 9600 5700 50  0001 C CNN
+	1    9600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 6168FE36
+P 9900 5700
+F 0 "#PWR0102" H 9900 5550 50  0001 C CNN
+F 1 "+5V" H 9915 5873 50  0000 C CNN
+F 2 "" H 9900 5700 50  0001 C CNN
+F 3 "" H 9900 5700 50  0001 C CNN
+	1    9900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 616905E3
+P 9900 5700
+F 0 "#FLG0101" H 9900 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 5873 50  0000 C CNN
+F 2 "" H 9900 5700 50  0001 C CNN
+F 3 "~" H 9900 5700 50  0001 C CNN
+	1    9900 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61691630
+P 9600 5700
+F 0 "#FLG0102" H 9600 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 9600 5873 50  0000 C CNN
+F 2 "" H 9600 5700 50  0001 C CNN
+F 3 "~" H 9600 5700 50  0001 C CNN
+	1    9600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 616B19CC
+P 9450 4700
+F 0 "H1" H 9550 4746 50  0000 L CNN
+F 1 "MountingHole" H 9550 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9450 4700 50  0001 C CNN
+F 3 "~" H 9450 4700 50  0001 C CNN
+	1    9450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 616B24ED
+P 9450 4900
+F 0 "H2" H 9550 4946 50  0000 L CNN
+F 1 "MountingHole" H 9550 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 9450 4900 50  0001 C CNN
+F 3 "~" H 9450 4900 50  0001 C CNN
+	1    9450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 617F5ED8
+P 6800 5200
+F 0 "J1" H 6900 5650 50  0000 C CNN
+F 1 "X/ROLL" H 6900 5550 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 6800 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf" H 6800 5200 50  0001 C CNN
+F 4 "C265105" H 6800 5200 50  0001 C CNN "LCSC"
+	1    6800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 617F6DEE
+P 7100 4900
+F 0 "#PWR04" H 7100 4750 50  0001 C CNN
+F 1 "+5V" H 7115 5073 50  0000 C CNN
+F 2 "" H 7100 4900 50  0001 C CNN
+F 3 "" H 7100 4900 50  0001 C CNN
+	1    7100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 5000 7100 5000
+Wire Wire Line
+	7100 5000 7100 4900
+Wire Wire Line
+	7000 5500 7100 5500
+Wire Wire Line
+	7100 5500 7100 5600
+$Comp
+L power:GND #PWR06
+U 1 1 617FA043
+P 7100 5600
+F 0 "#PWR06" H 7100 5350 50  0001 C CNN
+F 1 "GND" H 7105 5427 50  0000 C CNN
+F 2 "" H 7100 5600 50  0001 C CNN
+F 3 "" H 7100 5600 50  0001 C CNN
+	1    7100 5600
+	1    0    0    -1  
+$EndComp
+Text Label 7000 5100 0    50   ~ 0
+MISO
+Text Label 7000 5200 0    50   ~ 0
+MOSI
+Text Label 7000 5300 0    50   ~ 0
+SCK
+Text Label 7000 5400 0    50   ~ 0
+CSx
+$Comp
+L Connector:Conn_01x06_Male J2
+U 1 1 616B16D8
+P 7250 5200
+F 0 "J2" H 7350 5650 50  0000 C CNN
+F 1 "Y/PITCH" H 7350 5550 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 7250 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf" H 7250 5200 50  0001 C CNN
+F 4 "C265105" H 7250 5200 50  0001 C CNN "LCSC"
+	1    7250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 616B18B0
+P 7550 4900
+F 0 "#PWR03" H 7550 4750 50  0001 C CNN
+F 1 "+5V" H 7565 5073 50  0000 C CNN
+F 2 "" H 7550 4900 50  0001 C CNN
+F 3 "" H 7550 4900 50  0001 C CNN
+	1    7550 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 5000 7550 5000
+Wire Wire Line
+	7550 5000 7550 4900
+Wire Wire Line
+	7450 5500 7550 5500
+Wire Wire Line
+	7550 5500 7550 5600
+$Comp
+L power:GND #PWR010
+U 1 1 616B18BE
+P 7550 5600
+F 0 "#PWR010" H 7550 5350 50  0001 C CNN
+F 1 "GND" H 7555 5427 50  0000 C CNN
+F 2 "" H 7550 5600 50  0001 C CNN
+F 3 "" H 7550 5600 50  0001 C CNN
+	1    7550 5600
+	1    0    0    -1  
+$EndComp
+Text Label 7450 5100 0    50   ~ 0
+MISO
+Text Label 7450 5200 0    50   ~ 0
+MOSI
+Text Label 7450 5300 0    50   ~ 0
+SCK
+Text Label 7450 5400 0    50   ~ 0
+CSy
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 616BA391
+P 7700 5200
+F 0 "J3" H 7800 5650 50  0000 C CNN
+F 1 "Z/AUX" H 7800 5550 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 7700 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf" H 7700 5200 50  0001 C CNN
+F 4 "C265105" H 7700 5200 50  0001 C CNN "LCSC"
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 616BA5B3
+P 8000 4900
+F 0 "#PWR05" H 8000 4750 50  0001 C CNN
+F 1 "+5V" H 8015 5073 50  0000 C CNN
+F 2 "" H 8000 4900 50  0001 C CNN
+F 3 "" H 8000 4900 50  0001 C CNN
+	1    8000 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5000 8000 5000
+Wire Wire Line
+	8000 5000 8000 4900
+Wire Wire Line
+	7900 5500 8000 5500
+Wire Wire Line
+	8000 5500 8000 5600
+$Comp
+L power:GND #PWR011
+U 1 1 616BA5C1
+P 8000 5600
+F 0 "#PWR011" H 8000 5350 50  0001 C CNN
+F 1 "GND" H 8005 5427 50  0000 C CNN
+F 2 "" H 8000 5600 50  0001 C CNN
+F 3 "" H 8000 5600 50  0001 C CNN
+	1    8000 5600
+	1    0    0    -1  
+$EndComp
+Text Label 7900 5100 0    50   ~ 0
+MISO
+Text Label 7900 5200 0    50   ~ 0
+MOSI
+Text Label 7900 5300 0    50   ~ 0
+SCK
+Text Label 7900 5400 0    50   ~ 0
+CSz
+Text Label 6150 5550 0    50   ~ 0
+MISO
+Text Label 6150 5650 0    50   ~ 0
+MOSI
+Text Label 6150 5450 0    50   ~ 0
+SCK
+Text Label 4750 5750 2    50   ~ 0
+CSx
+Text Label 4750 5650 2    50   ~ 0
+CSy
+Text Label 4750 5550 2    50   ~ 0
+CSz
+$Comp
+L power:+5V #PWR07
+U 1 1 616C86C9
+P 6550 4950
+F 0 "#PWR07" H 6550 4800 50  0001 C CNN
+F 1 "+5V" H 6550 5100 50  0000 C CNN
+F 2 "" H 6550 4950 50  0001 C CNN
+F 3 "" H 6550 4950 50  0001 C CNN
+	1    6550 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6150 4850
+$Comp
+L power:GND #PWR01
+U 1 1 616CA3AA
+P 6400 4750
+F 0 "#PWR01" H 6400 4500 50  0001 C CNN
+F 1 "GND" H 6400 4600 50  0000 C CNN
+F 2 "" H 6400 4750 50  0001 C CNN
+F 3 "" H 6400 4750 50  0001 C CNN
+	1    6400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4750 6150 4750
+Wire Wire Line
+	6150 4950 6550 4950
+$Comp
+L power:GND #PWR02
+U 1 1 616CE2AC
+P 4450 4850
+F 0 "#PWR02" H 4450 4600 50  0001 C CNN
+F 1 "GND" H 4450 4700 50  0000 C CNN
+F 2 "" H 4450 4850 50  0001 C CNN
+F 3 "" H 4450 4850 50  0001 C CNN
+	1    4450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4950 4650 4950
+Wire Wire Line
+	4650 4950 4650 4850
+Wire Wire Line
+	4750 4850 4650 4850
+Connection ~ 4650 4850
+Wire Wire Line
+	4650 4850 4450 4850
+NoConn ~ 6150 4650
+$Comp
+L Connector:Mini-DIN-5 J4
+U 1 1 616D67B3
+P 8850 5250
+F 0 "J4" H 8850 5617 50  0000 C CNN
+F 1 "TM GRIP" H 8850 5526 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 8850 5250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S5B-PH-K-S-LF-SN_C157923.pdf" H 8850 5250 50  0001 C CNN
+F 4 "C157923" H 8850 5250 50  0001 C CNN "LCSC"
+	1    8850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 616D7306
+P 8450 5050
+F 0 "#PWR08" H 8450 4800 50  0001 C CNN
+F 1 "GND" H 8455 4877 50  0000 C CNN
+F 2 "" H 8450 5050 50  0001 C CNN
+F 3 "" H 8450 5050 50  0001 C CNN
+	1    8450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR09
+U 1 1 616D8C12
+P 9150 5350
+F 0 "#PWR09" H 9150 5200 50  0001 C CNN
+F 1 "+5V" H 9165 5523 50  0000 C CNN
+F 2 "" H 9150 5350 50  0001 C CNN
+F 3 "" H 9150 5350 50  0001 C CNN
+	1    9150 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 5050 8550 5150
+Wire Wire Line
+	8450 5050 8550 5050
+Wire Wire Line
+	8550 5250 8550 5350
+Wire Wire Line
+	8550 5350 8450 5350
+NoConn ~ 4750 4650
+NoConn ~ 4750 4750
+Text Label 8450 5350 2    50   ~ 0
+SCK
+Text Label 9150 5150 0    50   ~ 0
+MISO
+Text Label 9150 5250 0    50   ~ 0
+CSg
+Text Notes 8600 4800 0    50   ~ 0
+CSg = Latch?\nCLK = SCK\nMISO = DATA
+Text Notes 5200 6050 0    50   ~ 0
+CONNECT TO \nPC VIA USB
+Text Label 4750 5450 2    50   ~ 0
+CSg
+NoConn ~ 6150 5750
+NoConn ~ 6150 5350
+NoConn ~ 6150 5250
+NoConn ~ 6150 5150
+NoConn ~ 6150 5050
+NoConn ~ 4750 5050
+NoConn ~ 4750 5150
+NoConn ~ 4750 5250
+NoConn ~ 4750 5350
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO1
+U 1 1 616B2F0E
+P 8000 3350
+F 0 "LOGO1" H 8000 3350 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 8000 3350 50  0001 C CNN
+F 2 "KiCAD Libraries:OH_LOGO_37.7mm_5.9mm" H 8000 3350 50  0001 C CNN
+F 3 "" H 8000 3350 50  0001 C CNN
+	1    8000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO2
+U 1 1 616B3E2C
+P 8700 3350
+F 0 "LOGO2" H 8700 3350 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 8700 3350 50  0001 C CNN
+F 2 "KiCAD Libraries:CC-BY-NC-SA-Small" H 8700 3350 50  0001 C CNN
+F 3 "" H 8700 3350 50  0001 C CNN
+	1    8700 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
