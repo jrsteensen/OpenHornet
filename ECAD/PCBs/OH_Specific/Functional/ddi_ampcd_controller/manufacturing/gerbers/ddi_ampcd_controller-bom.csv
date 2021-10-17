@@ -1,0 +1,22 @@
+Comment,Designator,Footprint,LCSC
+0.1uF,C1,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C49678
+MountingHole,"H1,H2,H3,H4",MountingHole:MountingHole_3.2mm_M3,
+BUS IN,J1,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,
+BUS OUT,J2,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,
+Conn_01x06,J3,Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical,
+BRT/CRS,J4,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,
+CONT/HDG,J5,Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical,
+DDI ROT,J6,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+AMPCD ROT,J7,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+Digital,P1,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+Analog,P2,Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical,
+IRFB3206PBF,Q1,Package_TO_SOT_THT:TO-220-3_Vertical,C2642
+IRLML6402TRPBF,Q2,Package_TO_SOT_SMD:SOT-23,C2593
+10K,"R1,R2,R3,R4,R5,R6,R7",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804
+TP-12,TP1,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-5V,TP2,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-3.3V,TP3,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-GND,TP4,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-A,TP5,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-B,TP6,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+MAX487EESA+T,U1,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C116539
