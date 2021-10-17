@@ -539,7 +539,7 @@ $EndComp
 Wire Wire Line
 	2950 3400 2800 3400
 $Comp
-L Arduino_Pro_Mini_5v:ProMini_NoProgrammingHeader U1
+L THROTTLE_INNER_GRIP-rescue:ProMini_NoProgrammingHeader-Arduino_Pro_Mini_5v U1
 U 1 1 5EDF5937
 P 3550 3650
 F 0 "U1" H 3550 4425 50  0000 C CNN
