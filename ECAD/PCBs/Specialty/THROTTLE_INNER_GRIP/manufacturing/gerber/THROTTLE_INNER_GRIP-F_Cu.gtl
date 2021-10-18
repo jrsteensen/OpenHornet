@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6)-1*
-G04 #@! TF.CreationDate,2020-06-09T11:52:32-04:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*
+G04 #@! TF.CreationDate,2021-10-18T12:13:21-06:00*
 G04 #@! TF.ProjectId,THROTTLE_INNER_GRIP,5448524f-5454-44c4-955f-494e4e45525f,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L1,Top*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.6)-1) date 2020-06-09 11:52:32*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-10-18 12:13:21*
 %MOMM*%
 %LPD*%
 G01*
@@ -258,7 +258,7 @@ G04 #@! TO.N,/A*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
 G01*
-X77397407Y-96380031D02*
+X77397407Y-96380030D02*
 X76195828Y-96035483D01*
 G75*
 G02*
@@ -282,7 +282,7 @@ G01*
 G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
-G04 #@! TO.P,SP1,3*
+G04 #@! TO.P,SPDBRK1,3*
 G04 #@! TO.N,/SPEEDBREAK_RETRACT*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -310,7 +310,7 @@ X113726983Y-107661627I344146J491491D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,SP1,2*
+G04 #@! TO.P,SPDBRK1,2*
 G04 #@! TO.N,GND*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -338,7 +338,7 @@ X112088679Y-106514474I344146J491491D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,SP1,1*
+G04 #@! TO.P,SPDBRK1,1*
 G04 #@! TO.N,/SPEEDBREAK_EXTEND*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -428,7 +428,7 @@ G04 #@! TO.N,/COUNTERMEASURES_FWD*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
 G01*
-X84848969Y-88065407D02*
+X84848970Y-88065407D02*
 X85193517Y-86863828D01*
 G75*
 G02*
@@ -452,7 +452,7 @@ G01*
 G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
-G04 #@! TO.P,JOY1,5*
+G04 #@! TO.P,TDC/JOY1,5*
 G04 #@! TO.N,GND*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -480,7 +480,7 @@ X72662064Y-100277463I-576757J165382D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,JOY1,4*
+G04 #@! TO.P,TDC/JOY1,4*
 G04 #@! TO.N,/JOY_SW*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -508,7 +508,7 @@ X72110789Y-102199987I-576757J165382D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,JOY1,3*
+G04 #@! TO.P,TDC/JOY1,3*
 G04 #@! TO.N,/JOY_Y*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -536,7 +536,7 @@ X71559514Y-104122510I-576757J165382D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,JOY1,2*
+G04 #@! TO.P,TDC/JOY1,2*
 G04 #@! TO.N,/JOY_X*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
@@ -564,12 +564,12 @@ X71008240Y-106045034I-576757J165382D01*
 G01*
 G37*
 G04 #@! TD.AperFunction*
-G04 #@! TO.P,JOY1,1*
+G04 #@! TO.P,TDC/JOY1,1*
 G04 #@! TO.N,VCC*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*
 G01*
-X70793407Y-108064031D02*
+X70793407Y-108064030D02*
 X69591828Y-107719483D01*
 G75*
 G02*
@@ -594,19 +594,19 @@ G37*
 G04 #@! TD.AperFunction*
 G04 #@! TD*
 D11*
-G04 #@! TO.P,J2,5*
+G04 #@! TO.P,J2/OUTPUT,5*
 G04 #@! TO.N,GND*
 X102615000Y-132334000D03*
-G04 #@! TO.P,J2,4*
+G04 #@! TO.P,J2/OUTPUT,4*
 G04 #@! TO.N,/SPARE*
 X100615000Y-132334000D03*
-G04 #@! TO.P,J2,3*
+G04 #@! TO.P,J2/OUTPUT,3*
 G04 #@! TO.N,/I2C_SCK*
 X98615000Y-132334000D03*
-G04 #@! TO.P,J2,2*
+G04 #@! TO.P,J2/OUTPUT,2*
 G04 #@! TO.N,/I2C_DATA*
 X96615000Y-132334000D03*
-G04 #@! TO.P,J2,1*
+G04 #@! TO.P,J2/OUTPUT,1*
 G04 #@! TO.N,VCC*
 G04 #@! TA.AperFunction,ComponentPad*
 G36*

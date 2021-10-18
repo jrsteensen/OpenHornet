@@ -203,7 +203,8 @@ P 2350 2600
 F 0 "C1" H 2465 2646 50  0000 L CNN
 F 1 "4.7uF" H 2465 2555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 2388 2450 50  0001 C CNN
-F 3 "~" H 2350 2600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811091112_FH-Guangdong-Fenghua-Advanced-Tech-1206B475K500NT_C29823.pdf" H 2350 2600 50  0001 C CNN
+F 4 "C29823" H 2350 2600 50  0001 C CNN "LCSC"
 	1    2350 2600
 	1    0    0    -1  
 $EndComp
