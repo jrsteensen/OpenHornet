@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-10-16T13:54:30-06:00"
+    "CreationDate":  "2021-10-18T19:29:22-06:00"
   },
   "GeneralSpecs":
   {
@@ -20,9 +20,9 @@
     "Size":
     {
       "X": 39.050,
-      "Y": 32.050
+      "Y": 45.050
     },
-    "LayerNumber": 2,
+    "LayerNumber": 4,
     "BoardThickness":  1.600
   },
   "DesignRules":
@@ -35,6 +35,13 @@
       "MinLineWidth":  0.610,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.305
     }
   ],
   "FilesAttributes":
@@ -45,8 +52,18 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "stick_controller-In1_Cu.gbr",
+      "FileFunction":  "Copper,L2,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "stick_controller-In2_Cu.gbr",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "stick_controller-B_Cu.gbr",
-      "FileFunction":  "Copper,L2,Bot",
+      "FileFunction":  "Copper,L4,Bot",
       "FilePolarity":  "Positive"
     },
     {
@@ -107,6 +124,24 @@
       "Type":  "Dielectric",
       "Material":  "FR4",
       "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In1.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L2/L3"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In2.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L3/L4"
     },
     {
       "Type":  "Copper",

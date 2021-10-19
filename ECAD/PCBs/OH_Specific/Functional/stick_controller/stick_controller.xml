@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\stick_controller\stick_controller.sch</source>
-    <date>10/16/2021 11:05:20</date>
+    <date>10/18/2021 19:27:08</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -104,6 +104,87 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>616B3E2C</tstamp>
     </comp>
+    <comp ref="Q1">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616BC76B</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810151612_Changjiang-Electronics-Tech--CJ-2N7002_C8545.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C8545</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C16D2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C8487</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616CA6C4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616E2354</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>KiCAD Libraries:SMD-SW-4_5.1x5.1</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="Omron_B3F-1026" description="Push button switch, generic, symbol, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616F4C7B</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>AUX I/O</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616FE793</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>OpenHornetLogoSmall</value>
+      <footprint>KiCAD Libraries:OH_LOGO_ONLY_11x6mm</footprint>
+      <libsource lib="KiCadCustomLib" part="OpenHornetLogoSmall" description="37.7mm x 5.9mm OpenHorner Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6172519B</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Connector" part="Conn_01x06_Male">
@@ -141,6 +222,88 @@
         <pin num="3" name="~" type="passive"/>
         <pin num="4" name="~" type="passive"/>
         <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GSD">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="Omron_B3F-1026">
+      <description>Push button switch, generic, symbol, four pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Omron_B3F-1026</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KiCadCustomLib" part="OpenHornetLogoSmall">
@@ -202,6 +365,12 @@
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
     </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
     <library logical="KiCadCustomLib">
       <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
     </library>
@@ -210,96 +379,139 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U1-Pad22)">
-      <node ref="U1" pin="22"/>
+    <net code="1" name="GND">
+      <node ref="U1" pin="23"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J5" pin="14"/>
+      <node ref="J5" pin="13"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J4" pin="5"/>
     </net>
-    <net code="2" name="+5V">
+    <net code="2" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Q3-Pad3)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="4" name="/MISOg">
+      <node ref="Q2" pin="3"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="5" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(SW1-Pad4)">
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(Q1-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="J1" pin="1"/>
       <node ref="J3" pin="1"/>
       <node ref="J2" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J1" pin="1"/>
       <node ref="U1" pin="21"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="2"/>
     </net>
-    <net code="3" name="GND">
-      <node ref="J4" pin="5"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="23"/>
-      <node ref="J1" pin="6"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J3" pin="6"/>
+    <net code="9" name="/SCK">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
     </net>
-    <net code="4" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="5" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="6" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="7" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="8" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="9" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
-    </net>
-    <net code="10" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="11" name="Net-(U1-Pad5)">
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="12" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="13" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
-    </net>
-    <net code="14" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="15" name="/CSg">
+    <net code="10" name="/CSg">
       <node ref="U1" pin="9"/>
+      <node ref="Q3" pin="1"/>
       <node ref="J4" pin="2"/>
     </net>
-    <net code="16" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
-    </net>
-    <net code="17" name="/SCK">
-      <node ref="J2" pin="4"/>
-      <node ref="J3" pin="4"/>
-      <node ref="U1" pin="16"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="18" name="/MISO">
-      <node ref="J2" pin="2"/>
+    <net code="11" name="/MISO">
       <node ref="J3" pin="2"/>
       <node ref="U1" pin="15"/>
-      <node ref="J4" pin="4"/>
       <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="3"/>
     </net>
-    <net code="19" name="/MOSI">
-      <node ref="J2" pin="3"/>
-      <node ref="J3" pin="3"/>
-      <node ref="J1" pin="3"/>
+    <net code="12" name="/A3">
+      <node ref="U1" pin="20"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="13" name="/A2">
+      <node ref="U1" pin="19"/>
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="14" name="/A1">
+      <node ref="J5" pin="8"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="15" name="/D4A6">
+      <node ref="U1" pin="7"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="16" name="/~D10A10">
+      <node ref="J5" pin="12"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="17" name="/A0">
+      <node ref="U1" pin="17"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="18" name="/MOSI">
       <node ref="U1" pin="14"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="20" name="/CSx">
-      <node ref="U1" pin="12"/>
+    <net code="19" name="/CSx">
       <node ref="J1" pin="5"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="20" name="/RST">
+      <node ref="U1" pin="22"/>
+      <node ref="SW1" pin="1"/>
     </net>
     <net code="21" name="/CSy">
-      <node ref="U1" pin="11"/>
       <node ref="J2" pin="5"/>
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="22" name="/CSz">
-      <node ref="J3" pin="5"/>
+    <net code="22" name="/D0">
+      <node ref="U1" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="24" name="/D2">
+      <node ref="J5" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="25" name="/~D3">
+      <node ref="J5" pin="7"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="26" name="/~D5">
+      <node ref="J5" pin="11"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="27" name="/D1">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="28" name="/CSz">
       <node ref="U1" pin="10"/>
+      <node ref="J3" pin="5"/>
     </net>
   </nets>
 </export>
