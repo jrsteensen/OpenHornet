@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\throttle_controller\throttle_controller.sch</source>
+    <date>10/29/2021 07:16:20</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OH Flight Stick Controller</title>
+        <company>www.OpenHornet.com</company>
+        <rev>1</rev>
+        <date>2021-10-15</date>
+        <source>throttle_controller.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ProMicro</value>
+      <footprint>Package_DIP:DIP-24_W15.24mm_Socket</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810271810_CONNFLY-Elec-DS1009-24AT1WX-0A2_C72120.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C72120</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="ProMicro" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616A89EF</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B19CC</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B24ED</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>OpenHornetLogoSmall</value>
+      <footprint>KiCAD Libraries:OH_LOGO_37.7mm_5.9mm</footprint>
+      <libsource lib="KiCadCustomLib" part="OpenHornetLogoSmall" description="37.7mm x 5.9mm OpenHorner Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B2F0E</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>OpenHornetLogoSmall</value>
+      <footprint>KiCAD Libraries:CC-BY-NC-SA-Small</footprint>
+      <libsource lib="KiCadCustomLib" part="OpenHornetLogoSmall" description="37.7mm x 5.9mm OpenHorner Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B3E2C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>KiCAD Libraries:SMD-SW-4_5.1x5.1</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C318884</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="Omron_B3F-1026" description="Push button switch, generic, symbol, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616F4C7B</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>OpenHornetLogoSmall</value>
+      <footprint>KiCAD Libraries:OH_LOGO_ONLY_11x6mm</footprint>
+      <libsource lib="KiCadCustomLib" part="OpenHornetLogoSmall" description="37.7mm x 5.9mm OpenHorner Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6172519B</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61760C50</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61760E14</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE39A0D</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>IDLE DETENT</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617AECA0</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>OUTB LIMIT</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6179C168</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>INB LIMIT</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61799D13</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>OUTB GRIP</value>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617935DD</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>INB GRIP</value>
+      <footprint>Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDFD5D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Z/AUX</value>
+      <footprint>Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C265105</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616BA391</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Y/INB</value>
+      <footprint>Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C265105</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B16D8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>X/OUTB</value>
+      <footprint>Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261108_JST-Sales-America-S6B-PH-K-S-GW-LF-SN_C265105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C265105</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617F5ED8</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>IN SERVO</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D7F89</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612BEEA9</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612C30E0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612C8967</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612B4B00</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612B5E57</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221112_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C13585</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61813BE5</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>EXT +5V</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6183A953</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>MAX DETENT</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186EF51</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F4D8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F4E4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F4F3</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F50A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6186F518</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618882E6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618882F2</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61888301</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61888318</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61888326</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61888363</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188836F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188837E</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61888395</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618883A3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TCA9554PWR</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf</datasheet>
+      <fields>
+        <field name="ADDR">ADDR: 010032</field>
+        <field name="LCSC">C477924</field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="TCA9554PW" description="8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BC68220</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C96123</field>
+        <field name="PN">CL31A476MPHNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A38C62</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE31AD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE31B9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE31C8</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE31DF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AE31ED</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>IRLML6402TRPBF</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c</datasheet>
+      <fields>
+        <field name="LCSC">C2593</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="IRLML6402" description="-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B38D61</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B38DB1</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B38DC0</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>IRFB3206PBF</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1806111728_Infineon-Technologies-IRFB3206PBF_C2642.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2642</field>
+        <field name="PN">IRFB3206PBF</field>
+      </fields>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B38DD6</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B38DE4</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>OUT SERVO</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>617D7F7F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="TCA9554PW">
+      <description>8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tca9554.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA9554PW</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="P0" type="BiDi"/>
+        <pin num="5" name="P1" type="BiDi"/>
+        <pin num="6" name="P2" type="BiDi"/>
+        <pin num="7" name="P3" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="P4" type="BiDi"/>
+        <pin num="10" name="P5" type="BiDi"/>
+        <pin num="11" name="P6" type="BiDi"/>
+        <pin num="12" name="P7" type="BiDi"/>
+        <pin num="13" name="~INT~" type="openCol"/>
+        <pin num="14" name="SCL" type="input"/>
+        <pin num="15" name="SDA" type="BiDi"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="Omron_B3F-1026">
+      <description>Push button switch, generic, symbol, four pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Omron_B3F-1026</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="OpenHornetLogoSmall">
+      <description>37.7mm x 5.9mm OpenHorner Logo</description>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">OpenHornetLogoSmall</field>
+        <field name="Footprint">OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="ProMicro">
+      <footprints>
+        <fp>promicro*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ProMicro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX0/D1" type="BiDi"/>
+        <pin num="2" name="RX1/D0" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA/D2" type="BiDi"/>
+        <pin num="6" name="~SCL/D3" type="BiDi"/>
+        <pin num="7" name="D4/A6" type="BiDi"/>
+        <pin num="8" name="~D5" type="BiDi"/>
+        <pin num="9" name="~D6/A7" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8/A8" type="BiDi"/>
+        <pin num="12" name="~D9/A9" type="BiDi"/>
+        <pin num="13" name="~D10/A10" type="BiDi"/>
+        <pin num="14" name="D16/MOSI" type="BiDi"/>
+        <pin num="15" name="D14/MISO" type="BiDi"/>
+        <pin num="16" name="D15/SCK" type="BiDi"/>
+        <pin num="17" name="A0" type="BiDi"/>
+        <pin num="18" name="A1" type="BiDi"/>
+        <pin num="19" name="A2" type="BiDi"/>
+        <pin num="20" name="A3" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6401</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+        <alias>FDN340P</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="2" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="3" name="/~OUTB_SERVO_CTRL">
+      <node ref="U1" pin="8"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="4" name="GNDA">
+      <node ref="Q1" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J11" pin="3"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Q9-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="Q9" pin="2"/>
+    </net>
+    <net code="6" name="+5VA">
+      <node ref="Q12" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="U1" pin="21"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="9" name="/SDA">
+      <node ref="U2" pin="15"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="10" name="/~SCL">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="11" name="/IRQ">
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="23"/>
+      <node ref="J7" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="15" name="Net-(Q3-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="16" name="/MAX_SOL_CTRL">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="18" name="/~INB_SERVO_CTRL">
+      <node ref="U1" pin="9"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(Q10-Pad2)">
+      <node ref="Q10" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q12-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="Q12" pin="1"/>
+    </net>
+    <net code="21" name="/OUTB_SERVO_+5VA">
+      <node ref="Q12" pin="3"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="22" name="Net-(SW1-Pad4)">
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="25" name="/~OUTB_SERVO_OUT">
+      <node ref="J12" pin="2"/>
+      <node ref="Q11" pin="3"/>
+    </net>
+    <net code="26" name="Net-(Q6-Pad1)">
+      <node ref="R12" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="29" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="30" name="/INB_SERVO_PWR_CTRL">
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="31" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="33" name="/U1P4">
+      <node ref="J6" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="34" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="35" name="/U1P2">
+      <node ref="U2" pin="4"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="36" name="/U1P1">
+      <node ref="J5" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="37" name="/U1P0">
+      <node ref="J5" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="38" name="/U1P3">
+      <node ref="U2" pin="7"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="39" name="/U1P5">
+      <node ref="U2" pin="10"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="40" name="/U1P6">
+      <node ref="U2" pin="11"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="41" name="/MISO">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="42" name="/SCK">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="43" name="/MOSI">
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="44" name="/IDLE_SOL_CTRL">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="46" name="/CSz">
+      <node ref="U1" pin="19"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="47" name="/CSy">
+      <node ref="U1" pin="18"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="48" name="/CSx">
+      <node ref="U1" pin="17"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="49" name="/OUTB_SERVO_PWR_CTRL">
+      <node ref="R18" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="50" name="/RST">
+      <node ref="U1" pin="22"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="51" name="/IDLE_SOL_OUT">
+      <node ref="Q2" pin="3"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="52" name="Net-(Q3-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(Q4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="54" name="/MAX_SOL_OUT">
+      <node ref="Q4" pin="3"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="55" name="/~INB_SERVO_OUT">
+      <node ref="Q7" pin="3"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="56" name="/INB_SERVO_+5VA">
+      <node ref="Q8" pin="3"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="57" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="58" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="59" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+  </nets>
+</export>
