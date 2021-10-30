@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ATX_PSU_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -143,7 +142,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 5FA8D26E
 P 8800 5250
 F 0 "J1" H 8880 5242 50  0000 L CNN
-F 1 "Power Swtich" H 8880 5151 50  0000 L CNN
+F 1 "POWER SWITCH" H 8880 5151 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 5250 50  0001 C CNN
 F 3 "~" H 8800 5250 50  0001 C CNN
 	1    8800 5250
@@ -173,7 +172,7 @@ L Connector_Generic:Conn_02x04_Top_Bottom J4
 U 1 1 5FA933DD
 P 4150 2300
 F 0 "J4" H 4200 2617 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 4200 2526 50  0000 C CNN
+F 1 "MEGA BUS 1" H 4200 2526 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4150 2300 50  0001 C CNN
 F 3 "~" H 4150 2300 50  0001 C CNN
 	1    4150 2300
@@ -184,7 +183,7 @@ L Connector_Generic:Conn_02x05_Top_Bottom J3
 U 1 1 5FA94733
 P 4150 1600
 F 0 "J3" H 4200 2017 50  0000 C CNN
-F 1 "ABSIS BACKLIGHT PWR" H 4200 1926 50  0000 C CNN
+F 1 "ABSIS BACKLIGHT" H 4200 1926 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A2_2x05_P4.20mm_Vertical" H 4150 1600 50  0001 C CNN
 F 3 "~" H 4150 1600 50  0001 C CNN
 	1    4150 1600
@@ -285,11 +284,11 @@ Text Label 3000 1800 0    31   ~ 0
 Text Label 3000 1400 0    31   ~ 0
 PWR_OK
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J7
+L Connector_Generic:Conn_02x04_Top_Bottom J8
 U 1 1 5FA85865
 P 5550 2300
-F 0 "J7" H 5600 2617 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 5600 2526 50  0000 C CNN
+F 0 "J8" H 5600 2617 50  0000 C CNN
+F 1 "MEGA BUS 5" H 5600 2526 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 5550 2300 50  0001 C CNN
 F 3 "~" H 5550 2300 50  0001 C CNN
 	1    5550 2300
@@ -332,7 +331,7 @@ L Connector_Generic:Conn_02x04_Top_Bottom J5
 U 1 1 5FA8663F
 P 4150 3000
 F 0 "J5" H 4200 3317 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 4200 3226 50  0000 C CNN
+F 1 "MEGA BUS 2" H 4200 3226 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4150 3000 50  0001 C CNN
 F 3 "~" H 4150 3000 50  0001 C CNN
 	1    4150 3000
@@ -371,11 +370,11 @@ Text Label 3950 3100 2    31   ~ 0
 Text Label 4450 2900 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J8
+L Connector_Generic:Conn_02x04_Top_Bottom J9
 U 1 1 5FA87644
 P 5550 3000
-F 0 "J8" H 5600 3317 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 5600 3226 50  0000 C CNN
+F 0 "J9" H 5600 3317 50  0000 C CNN
+F 1 "MEGA BUS 6" H 5600 3226 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 5550 3000 50  0001 C CNN
 F 3 "~" H 5550 3000 50  0001 C CNN
 	1    5550 3000
@@ -418,7 +417,7 @@ L Connector_Generic:Conn_02x04_Top_Bottom J6
 U 1 1 5FA88967
 P 4150 3650
 F 0 "J6" H 4200 3967 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 4200 3876 50  0000 C CNN
+F 1 "MEGA BUS 3" H 4200 3876 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4150 3650 50  0001 C CNN
 F 3 "~" H 4150 3650 50  0001 C CNN
 	1    4150 3650
@@ -457,11 +456,11 @@ Text Label 3950 3750 2    31   ~ 0
 Text Label 4450 3550 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J9
+L Connector_Generic:Conn_02x04_Top_Bottom J10
 U 1 1 5FA897DA
 P 5550 3650
-F 0 "J9" H 5600 3967 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 5600 3876 50  0000 C CNN
+F 0 "J10" H 5600 3967 50  0000 C CNN
+F 1 "MEGA BUS 7" H 5600 3876 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 5550 3650 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
 	1    5550 3650
@@ -524,7 +523,7 @@ L Device:LED D1
 U 1 1 5FA9079C
 P 9650 1200
 F 0 "D1" H 9500 1250 39  0000 C CNN
-F 1 "Green LED" H 9750 1100 39  0000 C CNN
+F 1 "Blue LED" H 9750 1100 39  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 1400 60  0001 L CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 1500 60  0001 L CNN
 F 4 "Optoelectronics" H 9850 1800 60  0001 L CNN "Category"
@@ -638,7 +637,6 @@ Wire Wire Line
 	9350 2100 9500 2100
 Wire Wire Line
 	9800 2100 9950 2100
-NoConn ~ 3000 1400
 NoConn ~ 3000 2200
 $Comp
 L ATX_PSU_Board-rescue:ATX-24-Connector J2
@@ -652,11 +650,11 @@ F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-s
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J10
+L Connector_Generic:Conn_02x04_Top_Bottom J7
 U 1 1 5FAE8093
 P 4150 4350
-F 0 "J10" H 4200 4667 50  0000 C CNN
-F 1 "MEGA BUS POWER" H 4200 4576 50  0000 C CNN
+F 0 "J7" H 4200 4667 50  0000 C CNN
+F 1 "MEGA BUS 4" H 4200 4576 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4150 4350 50  0001 C CNN
 F 3 "~" H 4150 4350 50  0001 C CNN
 	1    4150 4350
@@ -768,11 +766,7 @@ Wire Notes Line
 Wire Notes Line
 	8300 650  10400 650 
 Wire Notes Line
-	10400 650  10400 2300
-Wire Notes Line
-	10400 2300 8300 2300
-Wire Notes Line
-	8300 2300 8300 650 
+	10400 2650 8300 2650
 Text Notes 8350 800  0    50   ~ 0
 LED FEEDBACK
 Text Notes 8350 900  0    39   ~ 0
@@ -791,8 +785,6 @@ Wire Notes Line
 	1500 850  6500 850 
 Wire Notes Line
 	6500 850  6500 4900
-Wire Notes Line
-	6500 4900 1500 4900
 Wire Notes Line
 	1500 4900 1500 850 
 Text Notes 1550 1000 0    50   ~ 0
@@ -847,4 +839,496 @@ F 6 "C84267" H 9650 2100 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	9800 1200 9950 1200
+$Comp
+L power:GND #PWR03
+U 1 1 617D71FB
+P 2400 3200
+F 0 "#PWR03" H 2400 2950 50  0001 C CNN
+F 1 "GND" V 2405 3072 50  0000 R CNN
+F 2 "" H 2400 3200 50  0001 C CNN
+F 3 "" H 2400 3200 50  0001 C CNN
+	1    2400 3200
+	0    1    1    0   
+$EndComp
+Text Label 2400 3300 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L Connector:Conn_01x02_Female J28
+U 1 1 617D1149
+P 2600 3200
+F 0 "J28" H 2628 3176 50  0000 L CNN
+F 1 "EXTERNAL 5V IN" H 2628 3085 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 2600 3200 50  0001 C CNN
+F 3 "~" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+Text Label 8900 2400 2    31   ~ 0
+PWR_OK
+$Comp
+L Device:R R5
+U 1 1 617F03A4
+P 9200 2400
+F 0 "R5" V 9100 2400 50  0000 C CNN
+F 1 "150" V 9200 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9130 2400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811021213_UNI-ROYAL-Uniroyal-Elec-0603WAF5600T5E_C23204.pdf" H 9200 2400 50  0001 C CNN
+F 4 "C23204" V 9200 2400 50  0001 C CNN "LCSC"
+	1    9200 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 617F03AA
+P 9950 2400
+F 0 "#PWR05" H 9950 2150 50  0001 C CNN
+F 1 "GND" V 9950 2200 50  0000 C CNN
+F 2 "" H 9950 2400 50  0001 C CNN
+F 3 "" H 9950 2400 50  0001 C CNN
+	1    9950 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8900 2400 9050 2400
+Wire Wire Line
+	9350 2400 9500 2400
+Wire Wire Line
+	9800 2400 9950 2400
+$Comp
+L Device:LED D5
+U 1 1 617F03B6
+P 9650 2400
+F 0 "D5" H 9500 2450 39  0000 C CNN
+F 1 "Green LED" H 9750 2300 39  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9850 2600 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf" H 9850 2700 60  0001 L CNN
+F 4 "LED GREEN DIFFUSED" H 9850 3400 60  0001 L CNN "Description"
+F 5 "Active" H 9850 3600 60  0001 L CNN "Status"
+F 6 "C84267" H 9650 2400 50  0001 C CNN "LCSC"
+	1    9650 2400
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	8300 650  8300 2650
+Wire Notes Line
+	10400 650  10400 2650
+Wire Notes Line
+	6500 4900 1500 4900
+$Comp
+L Connector:Conn_01x02_Female J12
+U 1 1 617F4B3D
+P 2550 5450
+F 0 "J12" H 2578 5426 50  0000 L CNN
+F 1 "5V Accessory 1" H 2578 5335 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 5450 50  0001 C CNN
+F 3 "~" H 2550 5450 50  0001 C CNN
+	1    2550 5450
+	1    0    0    -1  
+$EndComp
+Text Label 2350 5450 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR02
+U 1 1 617F6CDA
+P 2350 5550
+F 0 "#PWR02" H 2350 5300 50  0001 C CNN
+F 1 "GND" V 2355 5422 50  0000 R CNN
+F 2 "" H 2350 5550 50  0001 C CNN
+F 3 "" H 2350 5550 50  0001 C CNN
+	1    2350 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J13
+U 1 1 617F8A99
+P 2550 5800
+F 0 "J13" H 2578 5776 50  0000 L CNN
+F 1 "5V Accessory 2" H 2578 5685 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 5800 50  0001 C CNN
+F 3 "~" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+Text Label 2350 5800 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR06
+U 1 1 617F8AA0
+P 2350 5900
+F 0 "#PWR06" H 2350 5650 50  0001 C CNN
+F 1 "GND" V 2355 5772 50  0000 R CNN
+F 2 "" H 2350 5900 50  0001 C CNN
+F 3 "" H 2350 5900 50  0001 C CNN
+	1    2350 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J14
+U 1 1 617FB7A7
+P 2550 6100
+F 0 "J14" H 2578 6076 50  0000 L CNN
+F 1 "5V Accessory 3" H 2578 5985 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 6100 50  0001 C CNN
+F 3 "~" H 2550 6100 50  0001 C CNN
+	1    2550 6100
+	1    0    0    -1  
+$EndComp
+Text Label 2350 6100 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR08
+U 1 1 617FB7AE
+P 2350 6200
+F 0 "#PWR08" H 2350 5950 50  0001 C CNN
+F 1 "GND" V 2355 6072 50  0000 R CNN
+F 2 "" H 2350 6200 50  0001 C CNN
+F 3 "" H 2350 6200 50  0001 C CNN
+	1    2350 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J15
+U 1 1 617FDD86
+P 2550 6400
+F 0 "J15" H 2578 6376 50  0000 L CNN
+F 1 "5V Accessory 4" H 2578 6285 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 6400 50  0001 C CNN
+F 3 "~" H 2550 6400 50  0001 C CNN
+	1    2550 6400
+	1    0    0    -1  
+$EndComp
+Text Label 2350 6400 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR010
+U 1 1 617FDD8D
+P 2350 6500
+F 0 "#PWR010" H 2350 6250 50  0001 C CNN
+F 1 "GND" V 2355 6372 50  0000 R CNN
+F 2 "" H 2350 6500 50  0001 C CNN
+F 3 "" H 2350 6500 50  0001 C CNN
+	1    2350 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J16
+U 1 1 6183593B
+P 2550 6750
+F 0 "J16" H 2578 6726 50  0000 L CNN
+F 1 "5V Accessory 5" H 2578 6635 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 6750 50  0001 C CNN
+F 3 "~" H 2550 6750 50  0001 C CNN
+	1    2550 6750
+	1    0    0    -1  
+$EndComp
+Text Label 2350 6750 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR012
+U 1 1 61835942
+P 2350 6850
+F 0 "#PWR012" H 2350 6600 50  0001 C CNN
+F 1 "GND" V 2355 6722 50  0000 R CNN
+F 2 "" H 2350 6850 50  0001 C CNN
+F 3 "" H 2350 6850 50  0001 C CNN
+	1    2350 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J17
+U 1 1 61835948
+P 2550 7100
+F 0 "J17" H 2578 7076 50  0000 L CNN
+F 1 "5V Accessory 6" H 2578 6985 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 7100 50  0001 C CNN
+F 3 "~" H 2550 7100 50  0001 C CNN
+	1    2550 7100
+	1    0    0    -1  
+$EndComp
+Text Label 2350 7100 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR014
+U 1 1 6183594F
+P 2350 7200
+F 0 "#PWR014" H 2350 6950 50  0001 C CNN
+F 1 "GND" V 2355 7072 50  0000 R CNN
+F 2 "" H 2350 7200 50  0001 C CNN
+F 3 "" H 2350 7200 50  0001 C CNN
+	1    2350 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J18
+U 1 1 61835955
+P 2550 7400
+F 0 "J18" H 2578 7376 50  0000 L CNN
+F 1 "5V Accessory 7" H 2578 7285 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 7400 50  0001 C CNN
+F 3 "~" H 2550 7400 50  0001 C CNN
+	1    2550 7400
+	1    0    0    -1  
+$EndComp
+Text Label 2350 7400 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR016
+U 1 1 6183595C
+P 2350 7500
+F 0 "#PWR016" H 2350 7250 50  0001 C CNN
+F 1 "GND" V 2355 7372 50  0000 R CNN
+F 2 "" H 2350 7500 50  0001 C CNN
+F 3 "" H 2350 7500 50  0001 C CNN
+	1    2350 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J19
+U 1 1 61835962
+P 2550 7700
+F 0 "J19" H 2578 7676 50  0000 L CNN
+F 1 "5V Accessory 8" H 2578 7585 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 2550 7700 50  0001 C CNN
+F 3 "~" H 2550 7700 50  0001 C CNN
+	1    2550 7700
+	1    0    0    -1  
+$EndComp
+Text Label 2350 7700 2    39   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR018
+U 1 1 61835969
+P 2350 7800
+F 0 "#PWR018" H 2350 7550 50  0001 C CNN
+F 1 "GND" V 2355 7672 50  0000 R CNN
+F 2 "" H 2350 7800 50  0001 C CNN
+F 3 "" H 2350 7800 50  0001 C CNN
+	1    2350 7800
+	0    1    1    0   
+$EndComp
+Text Label 3950 5450 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR04
+U 1 1 6183F493
+P 3950 5550
+F 0 "#PWR04" H 3950 5300 50  0001 C CNN
+F 1 "GND" V 3955 5422 50  0000 R CNN
+F 2 "" H 3950 5550 50  0001 C CNN
+F 3 "" H 3950 5550 50  0001 C CNN
+	1    3950 5550
+	0    1    1    0   
+$EndComp
+Text Label 3950 5800 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR07
+U 1 1 618418E3
+P 3950 5900
+F 0 "#PWR07" H 3950 5650 50  0001 C CNN
+F 1 "GND" V 3955 5772 50  0000 R CNN
+F 2 "" H 3950 5900 50  0001 C CNN
+F 3 "" H 3950 5900 50  0001 C CNN
+	1    3950 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J21
+U 1 1 618418DC
+P 4150 5800
+F 0 "J21" H 4178 5776 50  0000 L CNN
+F 1 "12V Accessory 2" H 4178 5685 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4150 5800 50  0001 C CNN
+F 3 "~" H 4150 5800 50  0001 C CNN
+	1    4150 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J20
+U 1 1 6183F48C
+P 4150 5450
+F 0 "J20" H 4178 5426 50  0000 L CNN
+F 1 "12V Accessory 1" H 4178 5335 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4150 5450 50  0001 C CNN
+F 3 "~" H 4150 5450 50  0001 C CNN
+	1    4150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J22
+U 1 1 61846100
+P 4150 6100
+F 0 "J22" H 4178 6076 50  0000 L CNN
+F 1 "12V Accessory 3" H 4178 5985 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4150 6100 50  0001 C CNN
+F 3 "~" H 4150 6100 50  0001 C CNN
+	1    4150 6100
+	1    0    0    -1  
+$EndComp
+Text Label 3950 6100 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR09
+U 1 1 61846107
+P 3950 6200
+F 0 "#PWR09" H 3950 5950 50  0001 C CNN
+F 1 "GND" V 3955 6072 50  0000 R CNN
+F 2 "" H 3950 6200 50  0001 C CNN
+F 3 "" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J23
+U 1 1 6184610D
+P 4150 6450
+F 0 "J23" H 4178 6426 50  0000 L CNN
+F 1 "12V Accessory 4" H 4178 6335 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4150 6450 50  0001 C CNN
+F 3 "~" H 4150 6450 50  0001 C CNN
+	1    4150 6450
+	1    0    0    -1  
+$EndComp
+Text Label 3950 6450 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR011
+U 1 1 61846114
+P 3950 6550
+F 0 "#PWR011" H 3950 6300 50  0001 C CNN
+F 1 "GND" V 3955 6422 50  0000 R CNN
+F 2 "" H 3950 6550 50  0001 C CNN
+F 3 "" H 3950 6550 50  0001 C CNN
+	1    3950 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J24
+U 1 1 61848870
+P 4150 6750
+F 0 "J24" H 4178 6726 50  0000 L CNN
+F 1 "12V Accessory 5" H 4178 6635 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical" H 4150 6750 50  0001 C CNN
+F 3 "~" H 4150 6750 50  0001 C CNN
+	1    4150 6750
+	1    0    0    -1  
+$EndComp
+Text Label 3950 6750 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR013
+U 1 1 61848877
+P 3950 6850
+F 0 "#PWR013" H 3950 6600 50  0001 C CNN
+F 1 "GND" V 3955 6722 50  0000 R CNN
+F 2 "" H 3950 6850 50  0001 C CNN
+F 3 "" H 3950 6850 50  0001 C CNN
+	1    3950 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J11
+U 1 1 6190A3CE
+P 5550 4300
+F 0 "J11" H 5600 4617 50  0000 C CNN
+F 1 "MEGA BUS 8" H 5600 4526 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 5550 4300 50  0001 C CNN
+F 3 "~" H 5550 4300 50  0001 C CNN
+	1    5550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 6190A3D4
+P 5300 4250
+F 0 "#PWR021" H 5300 4000 50  0001 C CNN
+F 1 "GND" H 5300 4100 50  0000 C CNN
+F 2 "" H 5300 4250 50  0001 C CNN
+F 3 "" H 5300 4250 50  0001 C CNN
+	1    5300 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4300 5300 4300
+Wire Wire Line
+	5300 4300 5300 4250
+Wire Wire Line
+	5300 4250 5300 4200
+Wire Wire Line
+	5300 4200 5350 4200
+Connection ~ 5300 4250
+Text Label 5850 4300 0    31   ~ 0
++5V_SUPPLY
+Text Label 5850 4400 0    31   ~ 0
++5V_SUPPLY
+Text Label 5850 4500 0    31   ~ 0
++12V_SUPPLY
+Text Label 5350 4500 2    31   ~ 0
++12V_SUPPLY
+Text Label 5350 4400 2    31   ~ 0
++12V_SUPPLY
+Text Label 5850 4200 0    31   ~ 0
++3.3V_SUPPLY
+$Comp
+L power:GND #PWR020
+U 1 1 6190C75D
+P 2400 3550
+F 0 "#PWR020" H 2400 3300 50  0001 C CNN
+F 1 "GND" V 2405 3422 50  0000 R CNN
+F 2 "" H 2400 3550 50  0001 C CNN
+F 3 "" H 2400 3550 50  0001 C CNN
+	1    2400 3550
+	0    1    1    0   
+$EndComp
+Text Label 2400 3650 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L Connector:Conn_01x02_Female J29
+U 1 1 6190C764
+P 2600 3550
+F 0 "J29" H 2628 3526 50  0000 L CNN
+F 1 "BUTTKICKER AMP" H 2628 3435 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 2600 3550 50  0001 C CNN
+F 3 "~" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 6193514B
+P 2450 2850
+F 0 "#PWR022" H 2450 2600 50  0001 C CNN
+F 1 "GND" V 2455 2722 50  0000 R CNN
+F 2 "" H 2450 2850 50  0001 C CNN
+F 3 "" H 2450 2850 50  0001 C CNN
+	1    2450 2850
+	0    1    1    0   
+$EndComp
+Text Label 2450 2950 2    39   ~ 0
++12V_SUPPLY
+$Comp
+L Connector:Conn_01x02_Female J30
+U 1 1 61935152
+P 2650 2850
+F 0 "J30" H 2678 2826 50  0000 L CNN
+F 1 "EXTERNAL 12V IN" H 2678 2735 50  0000 L CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 2650 2850 50  0001 C CNN
+F 3 "~" H 2650 2850 50  0001 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1650 5200 5000 5200
+Wire Notes Line
+	5000 7950 1650 7950
+Text Notes 1700 5300 0    39   ~ 0
+Accessory Connectors
+Wire Notes Line
+	2400 5200 2400 5350
+Wire Notes Line
+	2400 5350 1650 5350
+Wire Notes Line
+	1650 5200 1650 7950
+Wire Notes Line
+	5000 7950 5000 5200
 $EndSCHEMATC
