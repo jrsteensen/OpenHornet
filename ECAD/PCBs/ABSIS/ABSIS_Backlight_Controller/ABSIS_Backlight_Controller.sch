@@ -1002,8 +1002,6 @@ NoConn ~ 5900 4500
 NoConn ~ 6000 4500
 NoConn ~ 6100 4500
 NoConn ~ 6200 4500
-NoConn ~ 7300 4500
-NoConn ~ 7300 5000
 NoConn ~ 7200 5000
 NoConn ~ 7100 5000
 NoConn ~ 7000 5000
@@ -1284,7 +1282,6 @@ F 3 "" H 4750 6600 50  0000 C CNN
 $EndComp
 Text Label 4250 6600 2    31   ~ 0
 +5V_SUPPLY
-NoConn ~ 7200 4500
 NoConn ~ 7100 4500
 NoConn ~ 7000 4500
 NoConn ~ 6900 4500
@@ -1373,8 +1370,8 @@ L Device:R R1
 U 1 1 612A55C6
 P 7600 7150
 F 0 "R1" V 7393 7150 50  0000 C CNN
-F 1 "470" V 7484 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 7150 50  0001 C CNN
+F 1 "2.2K" V 7484 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7530 7150 50  0001 C CNN
 F 3 "~" H 7600 7150 50  0001 C CNN
 	1    7600 7150
 	0    1    1    0   
@@ -1386,8 +1383,8 @@ L Device:R R2
 U 1 1 612FDCA0
 P 7600 7500
 F 0 "R2" V 7393 7500 50  0000 C CNN
-F 1 "1K" V 7484 7500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 7500 50  0001 C CNN
+F 1 "4.7K" V 7484 7500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7530 7500 50  0001 C CNN
 F 3 "~" H 7600 7500 50  0001 C CNN
 	1    7600 7500
 	0    1    1    0   
@@ -1483,23 +1480,10 @@ Wire Notes Line
 	5050 8850 5050 6900
 Text Notes 3750 7050 0    50   ~ 0
 COOLING FANS
-Text Label 2250 7450 0    50   ~ 0
-+5V_SUPPLY
 NoConn ~ 2650 8050
 NoConn ~ 2650 7950
 NoConn ~ 2650 7850
 NoConn ~ 1850 8050
-$Comp
-L Sensor_Temperature:LM75C U1
-U 1 1 61368CE3
-P 2250 7950
-F 0 "U1" H 2250 8631 50  0000 C CNN
-F 1 "LM75C" H 2250 8540 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 2250 7950 50  0001 C CNN
-	1    2250 7950
-	1    0    0    -1  
-$EndComp
 Text Label 1850 7950 2    50   ~ 0
 SCL
 Text Label 1850 7850 2    50   ~ 0
@@ -1529,4 +1513,96 @@ Wire Notes Line
 	1450 6900 1450 8850
 Text Notes 1950 7050 0    50   ~ 0
 TEMP SENSOR
+$Comp
+L Connector:Conn_01x05_Female J14
+U 1 1 617CCE64
+P 5600 8650
+F 0 "J14" V 5446 8898 50  0000 L CNN
+F 1 "Conn_01x05_Female" V 5537 8898 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical" H 5600 8650 50  0001 C CNN
+F 3 "~" H 5600 8650 50  0001 C CNN
+	1    5600 8650
+	0    1    1    0   
+$EndComp
+Text Label 5700 8450 1    50   ~ 0
++5V_SUPPLY
+$Comp
+L power:GND #PWR021
+U 1 1 617D1234
+P 5800 8450
+F 0 "#PWR021" H 5800 8200 50  0001 C CNN
+F 1 "GND" H 5805 8277 50  0000 C CNN
+F 2 "" H 5800 8450 50  0001 C CNN
+F 3 "" H 5800 8450 50  0001 C CNN
+	1    5800 8450
+	-1   0    0    1   
+$EndComp
+Text Label 5600 8450 1    50   ~ 0
+22
+Text Label 5500 8450 1    50   ~ 0
+23
+Text Label 5400 8450 1    50   ~ 0
+24
+Wire Notes Line
+	5150 7850 5150 8850
+Wire Notes Line
+	5150 8850 6700 8850
+Wire Notes Line
+	6700 8850 6700 7850
+Wire Notes Line
+	6700 7850 5150 7850
+Wire Notes Line
+	5850 7850 5850 8050
+Wire Notes Line
+	5850 8050 6700 8050
+Text Notes 5950 8000 0    50   ~ 0
+Rotary Encoder
+$Comp
+L Device:LED D3
+U 1 1 6182DB5D
+P 7300 8100
+F 0 "D3" H 7293 8317 50  0000 C CNN
+F 1 "Overtemp" H 7293 8226 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 8100 50  0001 C CNN
+F 3 "~" H 7300 8100 50  0001 C CNN
+	1    7300 8100
+	-1   0    0    1   
+$EndComp
+Text Label 7150 8100 2    31   ~ 0
+3(**)
+$Comp
+L power:GND #PWR022
+U 1 1 6182DB64
+P 7750 8100
+F 0 "#PWR022" H 7750 7850 50  0001 C CNN
+F 1 "GND" H 7750 7950 50  0000 C CNN
+F 2 "" H 7750 8100 50  0000 C CNN
+F 3 "" H 7750 8100 50  0000 C CNN
+	1    7750 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6182DB6A
+P 7600 8100
+F 0 "R3" V 7393 8100 50  0000 C CNN
+F 1 "2.2K" V 7484 8100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7530 8100 50  0001 C CNN
+F 3 "~" H 7600 8100 50  0001 C CNN
+	1    7600 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Sensor_Temperature:LM75C U1
+U 1 1 61368CE3
+P 2250 7950
+F 0 "U1" H 2250 8631 50  0000 C CNN
+F 1 "LM75C" H 2250 8540 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2250 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 2250 7950 50  0001 C CNN
+	1    2250 7950
+	1    0    0    -1  
+$EndComp
+Text Label 2250 7450 0    50   ~ 0
++5V_SUPPLY
 $EndSCHEMATC
