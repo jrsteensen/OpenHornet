@@ -1,14 +1,13 @@
 EESchema Schematic File Version 4
-LIBS:ABSIS_Nano-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ABSIS Nano 2.0"
-Date "2020-11-04"
-Rev "1"
-Comp "OpenHornet"
+Date "2021-11-06"
+Rev "2.5"
+Comp "WWW.OPENHORNET.COM"
 Comment1 "CC BY-NC-SA"
 Comment2 ""
 Comment3 ""
@@ -284,7 +283,7 @@ U 1 1 5FA5FC67
 P 8300 4900
 F 0 "C1" H 8392 4946 50  0000 L CNN
 F 1 "0.1uF" H 8392 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8300 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8300 4900 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 8300 4900 50  0001 C CNN
 F 4 "C49678" H 8300 4900 50  0001 C CNN "LCSC"
 	1    8300 4900
@@ -318,9 +317,9 @@ U 1 1 5FA7581B
 P 8500 4200
 F 0 "J1" H 8550 4517 50  0000 C CNN
 F 1 "BUS IN" H 8550 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal" H 8500 4200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039291067_sd.pdf" H 8500 4200 50  0001 C CNN
-F 4 "039291067" H 8500 4200 50  0001 C CNN "PN"
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 8500 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039299067_sd.pdf" H 8500 4200 50  0001 C CNN
+F 4 "039299067" H 8500 4200 50  0001 C CNN "PN"
 	1    8500 4200
 	1    0    0    -1  
 $EndComp
@@ -357,38 +356,22 @@ Wire Wire Line
 	10050 3100 10150 3100
 Wire Wire Line
 	8300 4800 8950 4800
-Text Label 8250 4800 2    50   ~ 0
-BUS-ENABLE
-Text Label 9950 4900 0    50   ~ 0
-BUS-ENABLE
 Wire Wire Line
 	8250 4800 8300 4800
 Connection ~ 8300 4800
 Text Notes 500  650  0    100  ~ 0
 NOTES: (UNLESS OTHERWISE SPECIFIED)
-Text Notes 550  1400 0    50   ~ 0
-1) INSTALL JUMPER (PN: JM-2BK-61 OR SIMILAR) ACROSS JP1 TO ENABLE RS485.\n     REMOVE JUMPER TO PROGRAM NANO VIA USB.\n\n    CAUTION: POWER SUPPLY PINS ON BUS OUT CONNECTOR WILL BE ACTIVE \n    REGARDLESS IF DATA IS ENABLED ON THAT CONNECTOR.\n\n2) RS485 BUS TERMINATION: DO NOT INSTALL J2 (BUS OUT) CONNECTOR \n    AND ADD A 120OHM THRU-HOLE RESISTOR ACROSS PINS 4&5 OF J2 \n    (BUS OUT) ON LAST ABSIS NANO OF RS485 BUS.
-$Comp
-L Device:Jumper_NO_Small JP1
-U 1 1 5FCCD351
-P 9850 4900
-F 0 "JP1" H 9850 5150 50  0000 C CNN
-F 1 "BUS ENABLE" H 9850 5050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9850 4900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 9850 4900 50  0001 C CNN
-F 4 "C358703" H 9850 4900 50  0001 C CNN "LCSC"
-	1    9850 4900
-	1    0    0    -1  
-$EndComp
+Text Notes 500  1100 0    50   ~ 0
+1) RS485 BUS TERMINATION: DO NOT INSTALL J2 (BUS OUT) CONNECTOR \n    AND ADD A 120OHM THRU-HOLE RESISTOR ACROSS PINS 4&5 OF J2 \n    (BUS OUT) ON LAST ABSIS NANO OF RS485 BUS.\n2) FOR ARDUINO NANO PROGRAMMING VIA USB: REMOVE NANO FROM PCB FIRST. \n3) THIS IS A 4-LAYER PCB FOR SOLID POWER TRANSMISSION PLANES
 $Comp
 L power:+5V #PWR0107
 U 1 1 5FCCF50E
-P 9750 4900
-F 0 "#PWR0107" H 9750 4750 50  0001 C CNN
-F 1 "+5V" V 9750 5100 50  0000 C CNN
-F 2 "" H 9750 4900 50  0000 C CNN
-F 3 "" H 9750 4900 50  0000 C CNN
-	1    9750 4900
+P 8250 4800
+F 0 "#PWR0107" H 8250 4650 50  0001 C CNN
+F 1 "+5V" V 8250 5000 50  0000 C CNN
+F 2 "" H 8250 4800 50  0000 C CNN
+F 3 "" H 8250 4800 50  0000 C CNN
+	1    8250 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -508,9 +491,9 @@ U 1 1 5FA822FB
 P 9850 4200
 F 0 "J2" H 9900 4517 50  0000 C CNN
 F 1 "BUS OUT" H 9900 4426 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal" H 9850 4200 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/039291067_sd.pdf" H 9850 4200 50  0001 C CNN
-F 4 "039291067" H 9850 4200 50  0001 C CNN "PN"
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 9850 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039299067_sd.pdf" H 9850 4200 50  0001 C CNN
+F 4 "039299067" H 9850 4200 50  0001 C CNN "PN"
 	1    9850 4200
 	1    0    0    -1  
 $EndComp
@@ -570,128 +553,104 @@ Wire Notes Line
 	8850 2700 8850 2450
 Text Notes 8900 2700 0    50   ~ 0
 USB
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
-U 1 1 5FAA8ADF
-P 3850 2700
-F 0 "J4" H 3900 3117 50  0000 C CNN
-F 1 "ANALOG" H 3900 3026 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3850 2700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 3850 2700 50  0001 C CNN
-F 4 "MTP125-1240S1" H 3850 2700 50  0001 C CNN "LCSC"
-	1    3850 2700
-	1    0    0    -1  
-$EndComp
-Text Label 3650 2500 2    60   ~ 0
+Text Label 4350 3850 2    60   ~ 0
 A0
-Text Label 3650 2600 2    60   ~ 0
+Text Label 4350 3750 2    60   ~ 0
 A1
-Text Label 3650 2700 2    60   ~ 0
+Text Label 4350 3650 2    60   ~ 0
 A2
-Text Label 3650 2800 2    60   ~ 0
+Text Label 4350 3550 2    60   ~ 0
 A3
-Text Label 4150 2500 0    60   ~ 0
+Text Label 4650 2850 2    60   ~ 0
 A4
-Text Label 4150 2600 0    60   ~ 0
+Text Label 4650 2750 2    60   ~ 0
 A5
-Text Label 4150 2700 0    60   ~ 0
+Text Label 4650 2650 2    60   ~ 0
 A6
-Text Label 4150 2800 0    60   ~ 0
+Text Label 4650 2550 2    60   ~ 0
 A7
 $Comp
 L power:+5V #PWR05
 U 1 1 5FA2DF49
-P 3650 2900
-F 0 "#PWR05" H 3650 2750 50  0001 C CNN
-F 1 "+5V" V 3650 3100 28  0000 C CNN
-F 2 "" H 3650 2900 50  0000 C CNN
-F 3 "" H 3650 2900 50  0000 C CNN
-	1    3650 2900
+P 4350 3950
+F 0 "#PWR05" H 4350 3800 50  0001 C CNN
+F 1 "+5V" V 4350 4150 28  0000 C CNN
+F 2 "" H 4350 3950 50  0000 C CNN
+F 3 "" H 4350 3950 50  0000 C CNN
+	1    4350 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5FA2E8F7
-P 4150 2900
-F 0 "#PWR06" H 4150 2650 50  0001 C CNN
-F 1 "GND" H 4150 2750 50  0000 C CNN
-F 2 "" H 4150 2900 50  0000 C CNN
-F 3 "" H 4150 2900 50  0000 C CNN
-	1    4150 2900
+P 4850 4050
+F 0 "#PWR06" H 4850 3800 50  0001 C CNN
+F 1 "GND" H 4850 3900 50  0000 C CNN
+F 2 "" H 4850 4050 50  0000 C CNN
+F 3 "" H 4850 4050 50  0000 C CNN
+	1    4850 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x06_Odd_Even J3
-U 1 1 5FA2F2D7
-P 4700 2650
-F 0 "J3" H 4750 3067 50  0000 C CNN
-F 1 "DIGITAL I/O" H 4750 2976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4700 2650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 4700 2650 50  0001 C CNN
-F 4 "MTP125-1240S1" H 4700 2650 50  0001 C CNN "LCSC"
-	1    4700 2650
-	1    0    0    -1  
-$EndComp
-Text Label 4500 2450 2    60   ~ 0
+Text Label 5150 2550 0    60   ~ 0
 2
-Text Label 4500 2550 2    60   ~ 0
+Text Label 5150 2650 0    60   ~ 0
 4
-Text Label 4500 2650 2    60   ~ 0
+Text Label 5150 2750 0    60   ~ 0
 5(**)
-Text Label 4500 2750 2    60   ~ 0
+Text Label 5150 2850 0    60   ~ 0
 6(**)
-Text Label 4500 2850 2    60   ~ 0
+Text Label 5150 2950 0    60   ~ 0
 7
-Text Label 4500 2950 2    60   ~ 0
+Text Label 5150 3050 0    60   ~ 0
 8
-Text Label 5000 2450 0    60   ~ 0
+Text Label 4850 3550 0    60   ~ 0
 9(**)
-Text Label 5000 2550 0    60   ~ 0
+Text Label 4850 3650 0    60   ~ 0
 10(**/SS)
-Text Label 5000 2650 0    60   ~ 0
+Text Label 4850 3750 0    60   ~ 0
 11(**/MOSI)
-Text Label 5000 2750 0    60   ~ 0
+Text Label 4850 3850 0    60   ~ 0
 12(MISO)
-Text Label 5000 2850 0    60   ~ 0
+Text Label 4850 3950 0    60   ~ 0
 13(SCK)
 $Comp
 L power:GND #PWR07
 U 1 1 5FA343B3
-P 5000 2950
-F 0 "#PWR07" H 5000 2700 50  0001 C CNN
-F 1 "GND" H 5000 2800 50  0000 C CNN
-F 2 "" H 5000 2950 50  0000 C CNN
-F 3 "" H 5000 2950 50  0000 C CNN
-	1    5000 2950
+P 4350 4050
+F 0 "#PWR07" H 4350 3800 50  0001 C CNN
+F 1 "GND" H 4350 3900 50  0000 C CNN
+F 2 "" H 4350 4050 50  0000 C CNN
+F 3 "" H 4350 4050 50  0000 C CNN
+	1    4350 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J5
+L Connector_Generic:Conn_02x02_Odd_Even J6
 U 1 1 5FA34C9E
-P 6400 2550
-F 0 "J5" H 6450 2767 50  0000 C CNN
-F 1 "ACC PWR" H 6450 2676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6400 2550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 6400 2550 50  0001 C CNN
-F 4 "MTP125-1240S1" H 6400 2550 50  0001 C CNN "LCSC"
-	1    6400 2550
+P 6150 3600
+F 0 "J6" H 6200 3817 50  0000 C CNN
+F 1 "ACC PWR" H 6200 3726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6150 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 6150 3600 50  0001 C CNN
+F 4 "MTP125-1240S1" H 6150 3600 50  0001 C CNN "LCSC"
+	1    6150 3600
 	1    0    0    -1  
 $EndComp
-Text Label 6200 2550 2    50   ~ 0
+Text Label 5950 3600 2    50   ~ 0
 +12V_SUPPLY
-Text Label 6200 2650 2    50   ~ 0
+Text Label 5950 3700 2    50   ~ 0
 +5V_SUPPLY
-Text Label 6700 2550 0    50   ~ 0
+Text Label 6450 3600 0    50   ~ 0
 +3.3V_SUPPLY
 $Comp
 L power:GND #PWR08
 U 1 1 5FA36AFE
-P 6700 2650
-F 0 "#PWR08" H 6700 2400 50  0001 C CNN
-F 1 "GND" H 6700 2500 50  0000 C CNN
-F 2 "" H 6700 2650 50  0000 C CNN
-F 3 "" H 6700 2650 50  0000 C CNN
-	1    6700 2650
+P 6450 3700
+F 0 "#PWR08" H 6450 3450 50  0001 C CNN
+F 1 "GND" H 6450 3550 50  0000 C CNN
+F 2 "" H 6450 3700 50  0000 C CNN
+F 3 "" H 6450 3700 50  0000 C CNN
+	1    6450 3700
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9400 2300
@@ -712,4 +671,156 @@ Text Notes 9800 1300 0    60   ~ 0
 Reset
 Text Notes 7950 1300 0    60   ~ 0
 Reset
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J3
+U 1 1 6186B149
+P 4850 2750
+F 0 "J3" H 4900 3167 50  0000 C CNN
+F 1 "I/O #1" H 4900 3076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4850 2750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 4850 2750 50  0001 C CNN
+F 4 "MTP125-1240S1" H 4850 2750 50  0001 C CNN "LCSC"
+	1    4850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J4
+U 1 1 6186C958
+P 4550 3750
+F 0 "J4" H 4600 4167 50  0000 C CNN
+F 1 "I/O #2" H 4600 4076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4550 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1240S1_C358703.pdf" H 4550 3750 50  0001 C CNN
+F 4 "MTP125-1240S1" H 4550 3750 50  0001 C CNN "LCSC"
+	1    4550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 61872528
+P 4650 2950
+F 0 "#PWR0110" H 4650 2800 50  0001 C CNN
+F 1 "+5V" V 4650 3150 28  0000 C CNN
+F 2 "" H 4650 2950 50  0000 C CNN
+F 3 "" H 4650 2950 50  0000 C CNN
+	1    4650 2950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 61872FCB
+P 4650 3050
+F 0 "#PWR0111" H 4650 2800 50  0001 C CNN
+F 1 "GND" H 4650 2900 50  0000 C CNN
+F 2 "" H 4650 3050 50  0000 C CNN
+F 3 "" H 4650 3050 50  0000 C CNN
+	1    4650 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J5
+U 1 1 61875D22
+P 6100 2700
+F 0 "J5" H 6200 3100 50  0000 C CNN
+F 1 "GND" H 6200 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6100 2700 50  0001 C CNN
+F 3 "~" H 6100 2700 50  0001 C CNN
+	1    6100 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 2600
+$Comp
+L power:GND #PWR0112
+U 1 1 61877C67
+P 6400 3100
+F 0 "#PWR0112" H 6400 2850 50  0001 C CNN
+F 1 "GND" H 6400 2950 50  0000 C CNN
+F 2 "" H 6400 3100 50  0000 C CNN
+F 3 "" H 6400 3100 50  0000 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3000 6400 3000
+Connection ~ 6400 3000
+Wire Wire Line
+	6400 3000 6400 3100
+Wire Wire Line
+	6300 2900 6400 2900
+Connection ~ 6400 2900
+Wire Wire Line
+	6400 2900 6400 3000
+Wire Wire Line
+	6300 2800 6400 2800
+Connection ~ 6400 2800
+Wire Wire Line
+	6400 2800 6400 2900
+Wire Wire Line
+	6300 2700 6400 2700
+Connection ~ 6400 2700
+Wire Wire Line
+	6400 2700 6400 2800
+Wire Wire Line
+	6300 2600 6400 2600
+Connection ~ 6400 2600
+Wire Wire Line
+	6400 2600 6400 2700
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6188D019
+P 8600 3200
+F 0 "H1" H 8700 3246 50  0000 L CNN
+F 1 "MH" H 8700 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8600 3200 50  0001 C CNN
+F 3 "~" H 8600 3200 50  0001 C CNN
+	1    8600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61896424
+P 8600 3400
+F 0 "H2" H 8700 3446 50  0000 L CNN
+F 1 "MH" H 8700 3355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8600 3400 50  0001 C CNN
+F 3 "~" H 8600 3400 50  0001 C CNN
+	1    8600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6189665B
+P 8950 3200
+F 0 "H3" H 9050 3246 50  0000 L CNN
+F 1 "MH" H 9050 3155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8950 3200 50  0001 C CNN
+F 3 "~" H 8950 3200 50  0001 C CNN
+	1    8950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61896A3F
+P 8950 3400
+F 0 "H4" H 9050 3446 50  0000 L CNN
+F 1 "MH" H 9050 3355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8950 3400 50  0001 C CNN
+F 3 "~" H 8950 3400 50  0001 C CNN
+	1    8950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO1
+U 1 1 61908444
+P 9350 3700
+F 0 "LOGO1" H 9350 3700 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 9350 3700 50  0001 C CNN
+F 2 "KiCAD Libraries:OH_LOGO_ONLY_11x6mm" H 9350 3700 50  0001 C CNN
+F 3 "" H 9350 3700 50  0001 C CNN
+	1    9350 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

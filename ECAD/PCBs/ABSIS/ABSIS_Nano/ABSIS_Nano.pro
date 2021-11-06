@@ -1,4 +1,4 @@
-update=11/7/2020 4:34:32 PM
+update=11/6/2021 08:07:20
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,7 +11,7 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
+PageLayoutDescrFile=C:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -23,7 +23,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
 LastNetListRead=ABSIS_Nano.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -38,9 +38,10 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.2032
 TrackWidth3=0.3048
-TrackWidth4=0.635
-TrackWidth5=0.9144
-TrackWidth6=1.6256
+TrackWidth4=0.4572
+TrackWidth5=0.635
+TrackWidth6=0.9144
+TrackWidth7=1.6256
 ViaDiameter1=0.6
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -72,16 +73,16 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
-Enabled=0
+Type=2
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=2
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -196,7 +197,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=0
+Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
