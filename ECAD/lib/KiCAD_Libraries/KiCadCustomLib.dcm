@@ -501,4 +501,10 @@ K RGB LED NeoPixel addressable, 2 x 2mm
 F https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf
 $ENDCMP
 #
+$CMP X40_8798
+D dual microstepper motor
+K dual microstepper motor
+F https://www.jukenswisstech.com/JSTFiles/downloads/2011/03/X40_Flyer_v1.1.pdf
+$ENDCMP
+#
 #End Doc Library
