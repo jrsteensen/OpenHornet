@@ -29,7 +29,7 @@ L Connector_Generic:Conn_02x02_Counter_Clockwise J2
 U 1 1 618C299E
 P 4750 3700
 F 0 "J2" H 4800 3917 50  0000 C CNN
-F 1 "BL IN" H 4800 3826 50  0000 C CNN
+F 1 "BL1 IN" H 4800 3826 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4750 3700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 4750 3700 50  0001 C CNN
 F 4 "039281043" H 4750 3700 50  0001 C CNN "PN"
@@ -43,7 +43,7 @@ BL_+5V
 Text Label 5050 3800 0    50   ~ 0
 BL_GND
 Text Label 5050 3700 0    50   ~ 0
-BL_DATA
+BL_DATA1
 Text Label 4550 3000 2    50   ~ 0
 ABSIS_GND
 Text Label 4550 3100 2    50   ~ 0
@@ -76,7 +76,7 @@ L Connector_Generic:Conn_02x02_Counter_Clockwise J4
 U 1 1 618C7D4F
 P 6250 3700
 F 0 "J4" H 6300 3917 50  0000 C CNN
-F 1 "BL THRU" H 6300 3826 50  0000 C CNN
+F 1 "BL1 THRU" H 6300 3826 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6250 3700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 6250 3700 50  0001 C CNN
 F 4 "039281043" H 6250 3700 50  0001 C CNN "PN"
@@ -90,7 +90,7 @@ BL_+5V
 Text Label 6550 3800 0    50   ~ 0
 BL_GND
 Text Label 6550 3700 0    50   ~ 0
-BL_DATA
+BL_DATA1
 Text Label 6050 3000 2    50   ~ 0
 ABSIS_GND
 Text Label 6050 3100 2    50   ~ 0
@@ -164,4 +164,44 @@ F 3 "" H 8150 3600 50  0001 C CNN
 	1    8150 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J5
+U 1 1 61905573
+P 4750 4200
+F 0 "J5" H 4800 4417 50  0000 C CNN
+F 1 "BL2 IN" H 4800 4326 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4750 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 4750 4200 50  0001 C CNN
+F 4 "039281043" H 4750 4200 50  0001 C CNN "PN"
+	1    4750 4200
+	1    0    0    -1  
+$EndComp
+Text Label 4550 4200 2    50   ~ 0
+BL_+5V
+Text Label 4550 4300 2    50   ~ 0
+BL_+5V
+Text Label 5050 4300 0    50   ~ 0
+BL_GND
+Text Label 5050 4200 0    50   ~ 0
+BL_DATA2
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J6
+U 1 1 6190559A
+P 6250 4200
+F 0 "J6" H 6300 4417 50  0000 C CNN
+F 1 "BL2 THRU" H 6300 4326 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6250 4200 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039281043_sd.pdf" H 6250 4200 50  0001 C CNN
+F 4 "039281043" H 6250 4200 50  0001 C CNN "PN"
+	1    6250 4200
+	1    0    0    -1  
+$EndComp
+Text Label 6050 4200 2    50   ~ 0
+BL_+5V
+Text Label 6050 4300 2    50   ~ 0
+BL_+5V
+Text Label 6550 4300 0    50   ~ 0
+BL_GND
+Text Label 6550 4200 0    50   ~ 0
+BL_DATA2
 $EndSCHEMATC
