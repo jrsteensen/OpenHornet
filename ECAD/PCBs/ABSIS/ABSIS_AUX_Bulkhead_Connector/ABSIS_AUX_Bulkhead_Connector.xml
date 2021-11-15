@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\ABSIS\ABSIS_AUX_Bulkhead_Connector\ABSIS_AUX_Bulkhead_Connector.sch</source>
+    <date>11/14/2021 17:32:53</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ABSIS AUX Bulkhead Connector</title>
+        <company>www.OpenHornet.com</company>
+        <rev>1</rev>
+        <date>2021-11-14</date>
+        <source>ABSIS_AUX_Bulkhead_Connector.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C8B48</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C94E0</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C9703</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C99CF</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>OpenHornetLogoSmall</value>
+      <footprint>OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm</footprint>
+      <libsource lib="KiCadCustomLib" part="OpenHornetLogoSmall" description="37.7mm x 5.9mm OpenHorner Logo"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618CF8AC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>A IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61918988</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>B IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61918C2C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>C IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61919B0E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>D IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61919E6D</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>E IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191A19B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>F IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191A4FA</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>A THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61922052</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>B THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61922058</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>C THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6192205E</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>D THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61922064</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>E THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6192206A</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>F THRU</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61922070</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="OpenHornetLogoSmall">
+      <description>37.7mm x 5.9mm OpenHorner Logo</description>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">OpenHornetLogoSmall</field>
+        <field name="Footprint">OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A1">
+      <node ref="J1" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="2" name="/A2">
+      <node ref="J7" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="/B1">
+      <node ref="J8" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="/B2">
+      <node ref="J8" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="5" name="/C1">
+      <node ref="J9" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="6" name="/C2">
+      <node ref="J9" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="7" name="/D1">
+      <node ref="J10" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="8" name="/D2">
+      <node ref="J10" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="9" name="/E1">
+      <node ref="J5" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="10" name="/E2">
+      <node ref="J11" pin="2"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="11" name="/F1">
+      <node ref="J6" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="12" name="/F2">
+      <node ref="J6" pin="2"/>
+      <node ref="J12" pin="2"/>
+    </net>
+  </nets>
+</export>
