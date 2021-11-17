@@ -1113,4 +1113,70 @@ Text Label 3600 950  3    50   ~ 0
 LEDGND
 Text Label 3700 950  3    50   ~ 0
 DATAOUT
+$Comp
+L KiCadCustomLib:OH_BR10KPot_Silkscreen LOGO1
+U 1 1 61951C93
+P 5000 1100
+F 0 "LOGO1" H 5000 850 50  0001 C CNN
+F 1 "OH_BR10KPot_Silkscreen" H 5148 1267 50  0000 L CNN
+F 2 "OH_Backlighting:BR10K_Pot_Silkscreen" H 5050 750 50  0001 C CNN
+F 3 "" H 5050 850 50  0001 C CNN
+	1    5000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OH_BR10KPot_Silkscreen LOGO3
+U 1 1 6195354C
+P 5400 1100
+F 0 "LOGO3" H 5400 850 50  0001 C CNN
+F 1 "OH_BR10KPot_Silkscreen" H 5548 1267 50  0000 L CNN
+F 2 "OH_Backlighting:BR10K_Pot_Silkscreen" H 5450 750 50  0001 C CNN
+F 3 "" H 5450 850 50  0001 C CNN
+	1    5400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OH_BR10KPot_Silkscreen LOGO4
+U 1 1 61961811
+P 5800 1100
+F 0 "LOGO4" H 5800 850 50  0001 C CNN
+F 1 "OH_BR10KPot_Silkscreen" H 5948 1267 50  0000 L CNN
+F 2 "OH_Backlighting:BR10K_Pot_Silkscreen" H 5850 750 50  0001 C CNN
+F 3 "" H 5850 850 50  0001 C CNN
+	1    5800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OH_BR10KPot_Silkscreen LOGO6
+U 1 1 6196F889
+P 6150 1100
+F 0 "LOGO6" H 6150 850 50  0001 C CNN
+F 1 "OH_BR10KPot_Silkscreen" H 6298 1267 50  0000 L CNN
+F 2 "OH_Backlighting:BR10K_Pot_Silkscreen" H 6200 750 50  0001 C CNN
+F 3 "" H 6200 850 50  0001 C CNN
+	1    6150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO2
+U 1 1 6197F3AC
+P 5000 1700
+F 0 "LOGO2" H 5000 1700 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 5000 1700 50  0001 C CNN
+F 2 "OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm" H 5000 1700 50  0001 C CNN
+F 3 "" H 5000 1700 50  0001 C CNN
+	1    5000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:CC-BY-NC-SA_Icon LOGO5
+U 1 1 61980D84
+P 5850 1700
+F 0 "LOGO5" H 5850 1700 50  0001 C CNN
+F 1 "CC-BY-NC-SA_Icon" H 5850 1700 50  0001 C CNN
+F 2 "OH_KiCAD_Libraries:CC-BY-NC-SA-Small" H 5850 1700 50  0001 C CNN
+F 3 "" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

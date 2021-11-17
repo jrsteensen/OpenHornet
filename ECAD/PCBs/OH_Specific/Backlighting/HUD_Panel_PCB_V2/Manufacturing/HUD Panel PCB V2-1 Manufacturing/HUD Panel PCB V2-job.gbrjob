@@ -5,15 +5,15 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.6)-1"
+      "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2020-11-25T11:54:25+11:00"
+    "CreationDate":  "2021-11-17T10:49:59+11:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "HUD Panel PCB V1",
+      "Name": "HUD Panel PCB V2",
       "GUID": "48554420-5061-46e6-956c-205043422056",
       "Revision": "rev?"
     },
@@ -32,53 +32,55 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250
+      "MinLineWidth":  0.250,
+      "TrackToRegion":  0.508,
+      "RegionToRegion":  0.508
     }
   ],
   "FilesAttributes":
   [
     {
-      "Path":  "HUD Panel PCB V1-F_Cu.gbr",
+      "Path":  "HUD Panel PCB V2-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-B_Cu.gbr",
+      "Path":  "HUD Panel PCB V2-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-F_Paste.gbr",
+      "Path":  "HUD Panel PCB V2-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-B_Paste.gbr",
+      "Path":  "HUD Panel PCB V2-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-F_SilkS.gbr",
+      "Path":  "HUD Panel PCB V2-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-B_SilkS.gbr",
+      "Path":  "HUD Panel PCB V2-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "HUD Panel PCB V1-F_Mask.gbr",
+      "Path":  "HUD Panel PCB V2-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "HUD Panel PCB V1-B_Mask.gbr",
+      "Path":  "HUD Panel PCB V2-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "HUD Panel PCB V1-Edge_Cuts.gbr",
+      "Path":  "HUD Panel PCB V2-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
