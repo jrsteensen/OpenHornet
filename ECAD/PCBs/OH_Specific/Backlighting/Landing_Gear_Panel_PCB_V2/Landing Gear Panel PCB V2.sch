@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x04_Female J2
+L Landing-Gear-Panel-PCB-V2-rescue:Conn_01x04_Female-Connector J2
 U 1 1 5F87F05B
 P 5050 550
 F 0 "J2" V 4988 262 50  0000 R CNN
@@ -25,7 +25,7 @@ F 3 "~" H 5050 550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x04_Female J1
+L Landing-Gear-Panel-PCB-V2-rescue:Conn_01x04_Female-Connector J1
 U 1 1 5F880577
 P 5550 550
 F 0 "J1" V 5488 262 50  0000 R CNN
@@ -36,7 +36,7 @@ F 3 "~" H 5550 550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED:WS2812B D1
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D1
 U 1 1 5F88255D
 P 5200 1550
 F 0 "D1" H 5544 1641 50  0000 L CNN
@@ -48,7 +48,7 @@ F 4 "C114586" H 5544 1459 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D2
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D2
 U 1 1 5F883FB6
 P 6150 1550
 F 0 "D2" H 6494 1641 50  0000 L CNN
@@ -60,7 +60,7 @@ F 4 "C114586" H 6494 1459 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D3
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D3
 U 1 1 5F885B92
 P 7150 1550
 F 0 "D3" H 7494 1641 50  0000 L CNN
@@ -72,7 +72,7 @@ F 4 "C114586" H 7494 1459 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D4
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D4
 U 1 1 5F887524
 P 4150 2450
 F 0 "D4" H 4494 2541 50  0000 L CNN
@@ -84,7 +84,7 @@ F 4 "C114586" H 4494 2359 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D5
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D5
 U 1 1 5F88796A
 P 5050 2450
 F 0 "D5" H 5394 2541 50  0000 L CNN
@@ -96,7 +96,7 @@ F 4 "C114586" H 5394 2359 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D6
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D6
 U 1 1 5F8894DE
 P 6150 2450
 F 0 "D6" H 6494 2541 50  0000 L CNN
@@ -108,7 +108,7 @@ F 4 "C114586" H 6494 2359 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D7
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D7
 U 1 1 5F889812
 P 7150 2450
 F 0 "D7" H 7494 2541 50  0000 L CNN
@@ -120,7 +120,7 @@ F 4 "C114586" H 7494 2359 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D8
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D8
 U 1 1 5F889E26
 P 8100 2450
 F 0 "D8" H 8444 2541 50  0000 L CNN
@@ -132,7 +132,7 @@ F 4 "C114586" H 8444 2359 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D9
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D9
 U 1 1 5F88A704
 P 5050 3300
 F 0 "D9" H 5394 3391 50  0000 L CNN
@@ -144,7 +144,7 @@ F 4 "C114586" H 5394 3209 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D10
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D10
 U 1 1 5F88ADC8
 P 6150 3300
 F 0 "D10" H 6494 3391 50  0000 L CNN
@@ -156,7 +156,7 @@ F 4 "C114586" H 6494 3209 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D11
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D11
 U 1 1 5F88B38C
 P 7150 3300
 F 0 "D11" H 7494 3391 50  0000 L CNN
@@ -168,7 +168,7 @@ F 4 "C114586" H 7494 3209 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D12
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D12
 U 1 1 5F88B85A
 P 8100 3300
 F 0 "D12" H 8444 3391 50  0000 L CNN
@@ -180,7 +180,7 @@ F 4 "C114586" H 8444 3209 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D13
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D13
 U 1 1 5F88BFB4
 P 6150 4200
 F 0 "D13" H 6494 4291 50  0000 L CNN
@@ -192,7 +192,7 @@ F 4 "C114586" H 6494 4109 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D14
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D14
 U 1 1 5F88C388
 P 7150 4200
 F 0 "D14" H 7494 4291 50  0000 L CNN
@@ -204,7 +204,7 @@ F 4 "C114586" H 7494 4109 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D15
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D15
 U 1 1 5F88CBDE
 P 8100 4200
 F 0 "D15" H 8444 4291 50  0000 L CNN
@@ -216,7 +216,7 @@ F 4 "C114586" H 8444 4109 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D17
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D17
 U 1 1 5F88E31E
 P 5350 5000
 F 0 "D17" H 5694 5091 50  0000 L CNN
@@ -228,7 +228,7 @@ F 4 "C114586" H 5694 4909 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D16
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D16
 U 1 1 5F88F116
 P 3850 4350
 F 0 "D16" H 4194 4441 50  0000 L CNN
@@ -240,7 +240,7 @@ F 4 "C114586" H 4194 4259 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D18
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D18
 U 1 1 5F88F8AE
 P 3850 5200
 F 0 "D18" H 4194 5291 50  0000 L CNN
@@ -252,7 +252,7 @@ F 4 "C114586" H 4194 5109 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D19
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D19
 U 1 1 5F89017C
 P 2800 5950
 F 0 "D19" H 3144 6041 50  0000 L CNN
@@ -264,7 +264,7 @@ F 4 "C114586" H 3144 5859 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D20
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D20
 U 1 1 5F890D28
 P 4750 5950
 F 0 "D20" H 5094 6041 50  0000 L CNN
@@ -276,7 +276,7 @@ F 4 "C114586" H 5094 5859 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D21
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D21
 U 1 1 5F891AF0
 P 3350 6900
 F 0 "D21" H 3694 6991 50  0000 L CNN
@@ -288,7 +288,7 @@ F 4 "C114586" H 3694 6809 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D22
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D22
 U 1 1 5F892414
 P 4400 6900
 F 0 "D22" H 4744 6991 50  0000 L CNN
@@ -300,7 +300,7 @@ F 4 "C114586" H 4744 6809 50  0000 L CNN "LCSC Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:WS2812B D23
+L Landing-Gear-Panel-PCB-V2-rescue:WS2812B-LED D23
 U 1 1 5F892E06
 P 5400 7450
 F 0 "D23" H 5744 7541 50  0000 L CNN
@@ -582,7 +582,7 @@ LED+5V
 Text Label 8500 1850 0    50   ~ 0
 LEDGND
 $Comp
-L Device:LED D24
+L Landing-Gear-Panel-PCB-V2-rescue:LED-Device D24
 U 1 1 5F9C449E
 P 2050 850
 F 0 "D24" H 2043 1067 50  0000 C CNN
@@ -593,7 +593,7 @@ F 3 "~" H 2050 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Landing-Gear-Panel-PCB-V2-rescue:R-Device R1
 U 1 1 5F9C59BE
 P 1650 1000
 F 0 "R1" H 1720 1046 50  0000 L CNN
@@ -610,7 +610,7 @@ LED+5V
 Text Label 1650 1150 3    50   ~ 0
 LEDGND
 $Comp
-L Device:C C4
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C4
 U 1 1 5F9D59B5
 P 6950 5300
 F 0 "C4" H 7065 5346 50  0000 L CNN
@@ -621,7 +621,7 @@ F 3 "~" H 6950 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C5
 U 1 1 5F9E279A
 P 7250 5300
 F 0 "C5" H 7365 5346 50  0000 L CNN
@@ -632,7 +632,7 @@ F 3 "~" H 7250 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C6
 U 1 1 5F9E8CA0
 P 7550 5300
 F 0 "C6" H 7665 5346 50  0000 L CNN
@@ -643,7 +643,7 @@ F 3 "~" H 7550 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C7
 U 1 1 5F9EF184
 P 7850 5300
 F 0 "C7" H 7965 5346 50  0000 L CNN
@@ -654,7 +654,7 @@ F 3 "~" H 7850 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C8
 U 1 1 5F9F56B9
 P 8150 5300
 F 0 "C8" H 8265 5346 50  0000 L CNN
@@ -665,7 +665,7 @@ F 3 "~" H 8150 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C9
 U 1 1 5F9FBC5E
 P 8450 5300
 F 0 "C9" H 8565 5346 50  0000 L CNN
@@ -676,7 +676,7 @@ F 3 "~" H 8450 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C10
 U 1 1 5FA02139
 P 8750 5300
 F 0 "C10" H 8865 5346 50  0000 L CNN
@@ -687,7 +687,7 @@ F 3 "~" H 8750 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C11
 U 1 1 5FA087F2
 P 9050 5300
 F 0 "C11" H 9165 5346 50  0000 L CNN
@@ -698,7 +698,7 @@ F 3 "~" H 9050 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C12
 U 1 1 5FA0ECEB
 P 9400 5300
 F 0 "C12" H 9515 5346 50  0000 L CNN
@@ -709,7 +709,7 @@ F 3 "~" H 9400 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C13
 U 1 1 5FA15297
 P 9700 5300
 F 0 "C13" H 9815 5346 50  0000 L CNN
@@ -720,7 +720,7 @@ F 3 "~" H 9700 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C14
 U 1 1 5FA1B77A
 P 10000 5300
 F 0 "C14" H 10115 5346 50  0000 L CNN
@@ -731,7 +731,7 @@ F 3 "~" H 10000 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C15
 U 1 1 5FA21C84
 P 10300 5300
 F 0 "C15" H 10415 5346 50  0000 L CNN
@@ -742,7 +742,7 @@ F 3 "~" H 10300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C16
 U 1 1 5FA283D6
 P 10600 5300
 F 0 "C16" H 10715 5346 50  0000 L CNN
@@ -753,7 +753,7 @@ F 3 "~" H 10600 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C17
 U 1 1 5FA2EA00
 P 10900 5300
 F 0 "C17" H 11015 5346 50  0000 L CNN
@@ -764,7 +764,7 @@ F 3 "~" H 10900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C3
 U 1 1 5FA35644
 P 6700 5300
 F 0 "C3" H 6815 5346 50  0000 L CNN
@@ -775,7 +775,7 @@ F 3 "~" H 6700 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C2
 U 1 1 5FA3BB82
 P 6400 5300
 F 0 "C2" H 6515 5346 50  0000 L CNN
@@ -900,7 +900,7 @@ DATAOUT
 Text Label 4900 1550 2    50   ~ 0
 DATAIN
 $Comp
-L Device:C C18
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C18
 U 1 1 5FEBD809
 P 11200 5300
 F 0 "C18" H 11315 5346 50  0000 L CNN
@@ -911,7 +911,7 @@ F 3 "~" H 11200 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C19
 U 1 1 5FEBD80F
 P 11500 5300
 F 0 "C19" H 11615 5346 50  0000 L CNN
@@ -922,7 +922,7 @@ F 3 "~" H 11500 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C20
 U 1 1 5FEBD815
 P 11800 5300
 F 0 "C20" H 11915 5346 50  0000 L CNN
@@ -949,7 +949,7 @@ Connection ~ 11500 5450
 Wire Wire Line
 	11500 5450 11800 5450
 $Comp
-L Device:C C21
+L Landing-Gear-Panel-PCB-V2-rescue:C-Device C21
 U 1 1 5FEF267C
 P 12100 5300
 F 0 "C21" H 12215 5346 50  0000 L CNN
@@ -959,42 +959,25 @@ F 3 "~" H 12100 5300 50  0001 C CNN
 	1    12100 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C22
-U 1 1 5FEF2682
-P 12400 5300
-F 0 "C22" H 12515 5346 50  0000 L CNN
-F 1 "C" H 12515 5255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 12438 5150 50  0001 C CNN
-F 3 "~" H 12400 5300 50  0001 C CNN
-	1    12400 5300
-	1    0    0    -1  
-$EndComp
-Connection ~ 12100 5150
 Wire Wire Line
 	12100 5150 11800 5150
 Wire Wire Line
 	11800 5450 12100 5450
-Connection ~ 12100 5450
-Wire Wire Line
-	12100 5450 12400 5450
-Wire Wire Line
-	12400 5150 12100 5150
 $Comp
-L Device:C_Polarized C1
+L Landing-Gear-Panel-PCB-V2-rescue:C_Polarized-Device C1
 U 1 1 5F88069E
-P 12700 5300
-F 0 "C1" H 12582 5254 50  0000 R CNN
-F 1 "C_Polarized" H 12582 5345 50  0000 R CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10" H 12738 5150 50  0001 C CNN
-F 3 "~" H 12700 5300 50  0001 C CNN
-	1    12700 5300
+P 12450 5300
+F 0 "C1" H 12332 5254 50  0000 R CNN
+F 1 "C_Polarized" H 12332 5345 50  0000 R CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 12488 5150 50  0001 C CNN
+F 3 "~" H 12450 5300 50  0001 C CNN
+	1    12450 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12700 5450 12400 5450
+	12450 5150 12100 5150
+Connection ~ 12100 5150
 Wire Wire Line
-	12400 5150 12700 5150
-Connection ~ 12400 5150
-Connection ~ 12400 5450
+	12100 5450 12450 5450
+Connection ~ 12100 5450
 $EndSCHEMATC
