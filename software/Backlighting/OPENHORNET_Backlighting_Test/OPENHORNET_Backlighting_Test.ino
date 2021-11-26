@@ -7,10 +7,10 @@
 #define DATA_PIN     13       // What data pin are the LEDs conencted to? BL#1 = 13, BL#2 = 12, BL#3 = 11 etc.
 #define LED_TYPE     WS2812B  // OPENHORNET backlighting LEDs are WS2812B
 #define COLOUR_ORDER GRB      // OPENHORNET backlighting LEDs are GRB (green, red, blue)
-#define NUM_LEDS     24       // Set it to the number of LEDs you have connected.
-#define BRIGHTNESS   255      // LED Brightness 0 = Off, 255 = 100%.
+#define NUM_LEDS     79       // Set it to the number of LEDs you have connected.
+#define BRIGHTNESS   100      // LED Brightness 0 = Off, 255 = 100%.
 #define SOLID_SPEED  1000     // How long each solid colour is held in ms.
-#define CHASE_SPEED  100      // How fast the chase goes in ms
+#define CHASE_SPEED  50      // How fast the chase goes in ms
 
 CRGB leds[NUM_LEDS];
 
@@ -60,7 +60,7 @@ void cd77_colorwipe_dot(CRGB color,uint16_t from,  uint16_t to,  uint16_t wait) 
   for (uint16_t i = from; i <to; i++) {
     leds[i] = color;
     FastLED.delay(wait);
-    leds[i] = CRGB::Black;
+   // leds[i] = CRGB::Black;
     FastLED.show();
     
     

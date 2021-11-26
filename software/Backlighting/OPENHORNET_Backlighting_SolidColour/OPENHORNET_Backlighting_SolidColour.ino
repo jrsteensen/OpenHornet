@@ -6,7 +6,7 @@
 // Set your desired brightness and color below
 
 #define COLOUR       Green    // The color name that you want to show, e.g. Green, Red, Blue, White
-#define BRIGHTNESS   100      // LED Brightness 0 = Off, 255 = 100%.
+#define BRIGHTNESS   50      // LED Brightness 0 = Off, 255 = 100%.
 
 // Set your power supplies 5V current limit.
 
