@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:PWR_FLAG #FLG0102
+L ATX_PSU_Board-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5FA83FED
 P 9650 6200
 F 0 "#FLG0102" H 9650 6275 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 9650 6200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0103
+L ATX_PSU_Board-rescue:PWR_FLAG-power #FLG0103
 U 1 1 5FA84170
 P 9650 6350
 F 0 "#FLG0103" H 9650 6425 50  0001 C CNN
@@ -36,7 +36,7 @@ F 3 "~" H 9650 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0104
+L ATX_PSU_Board-rescue:PWR_FLAG-power #FLG0104
 U 1 1 5FA8424B
 P 9650 6500
 F 0 "#FLG0104" H 9650 6575 50  0001 C CNN
@@ -47,7 +47,7 @@ F 3 "~" H 9650 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0105
+L ATX_PSU_Board-rescue:PWR_FLAG-power #FLG0105
 U 1 1 5FA843B5
 P 9650 6650
 F 0 "#FLG0105" H 9650 6725 50  0001 C CNN
@@ -58,7 +58,7 @@ F 3 "~" H 9650 6650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR0102
+L ATX_PSU_Board-rescue:+12V-power #PWR0102
 U 1 1 5FA8505D
 P 9900 6050
 F 0 "#PWR0102" H 9900 5900 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "" H 9900 6050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0103
+L ATX_PSU_Board-rescue:+5V-power #PWR0103
 U 1 1 5FA8559F
 P 9900 6200
 F 0 "#PWR0103" H 9900 6050 50  0001 C CNN
@@ -80,7 +80,7 @@ F 3 "" H 9900 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5VP #PWR0104
+L ATX_PSU_Board-rescue:+5VP-power #PWR0104
 U 1 1 5FA85C15
 P 9900 6350
 F 0 "#PWR0104" H 9900 6200 50  0001 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 9900 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0106
+L ATX_PSU_Board-rescue:PWR_FLAG-power #FLG0106
 U 1 1 5FA8614B
 P 9650 6050
 F 0 "#FLG0106" H 9650 6125 50  0001 C CNN
@@ -102,7 +102,7 @@ F 3 "~" H 9650 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0105
+L ATX_PSU_Board-rescue:+3.3V-power #PWR0105
 U 1 1 5FA86B8F
 P 9900 6500
 F 0 "#PWR0105" H 9900 6350 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 9900 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L ATX_PSU_Board-rescue:GND-power #PWR0106
 U 1 1 5FA86CD5
 P 9900 6650
 F 0 "#PWR0106" H 9900 6400 50  0001 C CNN
@@ -138,7 +138,7 @@ PS_ON
 Wire Wire Line
 	1650 1400 2000 1400
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L ATX_PSU_Board-rescue:Conn_01x02-Connector_Generic J1
 U 1 1 5FA8D26E
 P 8800 5250
 F 0 "J1" H 8880 5242 50  0000 L CNN
@@ -149,7 +149,7 @@ F 3 "~" H 8800 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L ATX_PSU_Board-rescue:GND-power #PWR0107
 U 1 1 5FA8E38A
 P 8500 5450
 F 0 "#PWR0107" H 8500 5200 50  0001 C CNN
@@ -168,7 +168,7 @@ PS_ON
 Wire Wire Line
 	8600 5250 8250 5250
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J4
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J4
 U 1 1 5FA933DD
 P 4150 2300
 F 0 "J4" H 4200 2617 50  0000 C CNN
@@ -179,7 +179,7 @@ F 3 "~" H 4150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Top_Bottom J3
+L ATX_PSU_Board-rescue:Conn_02x05_Top_Bottom-Connector_Generic J3
 U 1 1 5FA94733
 P 4150 1600
 F 0 "J3" H 4200 2017 50  0000 C CNN
@@ -202,7 +202,7 @@ Text Label 3950 1600 2    31   ~ 0
 Text Label 4450 1600 0    31   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR0108
+L ATX_PSU_Board-rescue:GND-power #PWR0108
 U 1 1 5FA977C7
 P 4550 1750
 F 0 "#PWR0108" H 4550 1500 50  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 4550 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0109
+L ATX_PSU_Board-rescue:GND-power #PWR0109
 U 1 1 5FA97FB8
 P 3850 1750
 F 0 "#PWR0109" H 3850 1500 50  0001 C CNN
@@ -242,7 +242,7 @@ Wire Wire Line
 	4550 1800 4550 1750
 Connection ~ 4550 1750
 $Comp
-L power:GND #PWR0110
+L ATX_PSU_Board-rescue:GND-power #PWR0110
 U 1 1 5FA98F04
 P 3900 2250
 F 0 "#PWR0110" H 3900 2000 50  0001 C CNN
@@ -284,7 +284,7 @@ Text Label 3000 1800 0    31   ~ 0
 Text Label 3000 1400 0    31   ~ 0
 PWR_OK
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J8
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J8
 U 1 1 5FA85865
 P 5550 2300
 F 0 "J8" H 5600 2617 50  0000 C CNN
@@ -295,7 +295,7 @@ F 3 "~" H 5550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L ATX_PSU_Board-rescue:GND-power #PWR0112
 U 1 1 5FA8586B
 P 5300 2250
 F 0 "#PWR0112" H 5300 2000 50  0001 C CNN
@@ -327,7 +327,7 @@ Text Label 5350 2400 2    31   ~ 0
 Text Label 5850 2200 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J5
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J5
 U 1 1 5FA8663F
 P 4150 3000
 F 0 "J5" H 4200 3317 50  0000 C CNN
@@ -338,7 +338,7 @@ F 3 "~" H 4150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L ATX_PSU_Board-rescue:GND-power #PWR0113
 U 1 1 5FA86645
 P 3900 2950
 F 0 "#PWR0113" H 3900 2700 50  0001 C CNN
@@ -370,7 +370,7 @@ Text Label 3950 3100 2    31   ~ 0
 Text Label 4450 2900 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J9
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J9
 U 1 1 5FA87644
 P 5550 3000
 F 0 "J9" H 5600 3317 50  0000 C CNN
@@ -381,7 +381,7 @@ F 3 "~" H 5550 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L ATX_PSU_Board-rescue:GND-power #PWR0114
 U 1 1 5FA8764A
 P 5300 2950
 F 0 "#PWR0114" H 5300 2700 50  0001 C CNN
@@ -413,7 +413,7 @@ Text Label 5350 3100 2    31   ~ 0
 Text Label 5850 2900 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J6
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J6
 U 1 1 5FA88967
 P 4150 3650
 F 0 "J6" H 4200 3967 50  0000 C CNN
@@ -424,7 +424,7 @@ F 3 "~" H 4150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L ATX_PSU_Board-rescue:GND-power #PWR0115
 U 1 1 5FA8896D
 P 3900 3600
 F 0 "#PWR0115" H 3900 3350 50  0001 C CNN
@@ -456,7 +456,7 @@ Text Label 3950 3750 2    31   ~ 0
 Text Label 4450 3550 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J10
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J10
 U 1 1 5FA897DA
 P 5550 3650
 F 0 "J10" H 5600 3967 50  0000 C CNN
@@ -467,7 +467,7 @@ F 3 "~" H 5550 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L ATX_PSU_Board-rescue:GND-power #PWR0116
 U 1 1 5FA897E0
 P 5300 3600
 F 0 "#PWR0116" H 5300 3350 50  0001 C CNN
@@ -507,7 +507,7 @@ Text Label 8900 1800 2    31   ~ 0
 Text Label 8900 2100 2    31   ~ 0
 +12V_SUPPLY
 $Comp
-L Device:R R1
+L ATX_PSU_Board-rescue:R-Device R1
 U 1 1 5FA8D2DC
 P 9200 1200
 F 0 "R1" V 9100 1200 50  0000 C CNN
@@ -519,7 +519,7 @@ F 4 "C22808" V 9200 1200 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D1
+L ATX_PSU_Board-rescue:LED-Device D1
 U 1 1 5FA9079C
 P 9650 1200
 F 0 "D1" H 9500 1250 39  0000 C CNN
@@ -536,7 +536,7 @@ F 9 "FC-DA1608UGK-520D10" H 9650 1200 50  0001 C CNN "Manufacture PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0121
+L ATX_PSU_Board-rescue:GND-power #PWR0121
 U 1 1 5FA90F9E
 P 9950 1200
 F 0 "#PWR0121" H 9950 950 50  0001 C CNN
@@ -551,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 1200 9500 1200
 $Comp
-L Device:R R2
+L ATX_PSU_Board-rescue:R-Device R2
 U 1 1 5FA960E1
 P 9200 1500
 F 0 "R2" V 9100 1500 50  0000 C CNN
@@ -563,7 +563,7 @@ F 4 "C22808" V 9200 1500 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0122
+L ATX_PSU_Board-rescue:GND-power #PWR0122
 U 1 1 5FA960F6
 P 9950 1500
 F 0 "#PWR0122" H 9950 1250 50  0001 C CNN
@@ -580,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 1500 9950 1500
 $Comp
-L Device:R R3
+L ATX_PSU_Board-rescue:R-Device R3
 U 1 1 5FA9EB04
 P 9200 1800
 F 0 "R3" V 9100 1800 50  0000 C CNN
@@ -592,7 +592,7 @@ F 4 "C25196" V 9200 1800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0123
+L ATX_PSU_Board-rescue:GND-power #PWR0123
 U 1 1 5FA9EB19
 P 9950 1800
 F 0 "#PWR0123" H 9950 1550 50  0001 C CNN
@@ -609,7 +609,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 1800 9950 1800
 $Comp
-L Device:R R4
+L ATX_PSU_Board-rescue:R-Device R4
 U 1 1 5FA9FEAC
 P 9200 2100
 F 0 "R4" V 9100 2100 50  0000 C CNN
@@ -621,7 +621,7 @@ F 4 "C23204" V 9200 2100 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0124
+L ATX_PSU_Board-rescue:GND-power #PWR0124
 U 1 1 5FA9FEC1
 P 9950 2100
 F 0 "#PWR0124" H 9950 1850 50  0001 C CNN
@@ -650,7 +650,7 @@ F 3 "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-s
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J7
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J7
 U 1 1 5FAE8093
 P 4150 4350
 F 0 "J7" H 4200 4667 50  0000 C CNN
@@ -661,7 +661,7 @@ F 3 "~" H 4150 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L ATX_PSU_Board-rescue:GND-power #PWR01
 U 1 1 5FAE8099
 P 3900 4300
 F 0 "#PWR01" H 3900 4050 50  0001 C CNN
@@ -693,7 +693,7 @@ Text Label 3950 4450 2    31   ~ 0
 Text Label 4450 4250 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L Mechanical:MountingHole H2
+L ATX_PSU_Board-rescue:MountingHole-Mechanical H2
 U 1 1 5FB064ED
 P 8300 6200
 F 0 "H2" H 8400 6246 50  0000 L CNN
@@ -704,7 +704,7 @@ F 3 "~" H 8300 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L ATX_PSU_Board-rescue:MountingHole-Mechanical H3
 U 1 1 5FB06D5A
 P 8300 6400
 F 0 "H3" H 8400 6446 50  0000 L CNN
@@ -715,7 +715,7 @@ F 3 "~" H 8300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L ATX_PSU_Board-rescue:MountingHole-Mechanical H4
 U 1 1 5FB06FDC
 P 8300 6600
 F 0 "H4" H 8400 6646 50  0000 L CNN
@@ -726,7 +726,7 @@ F 3 "~" H 8300 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L ATX_PSU_Board-rescue:MountingHole-Mechanical H1
 U 1 1 5FB05B70
 P 8300 6000
 F 0 "H1" H 8400 6046 50  0000 L CNN
@@ -737,7 +737,7 @@ F 3 "~" H 8300 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L ATX_PSU_Board-rescue:GND-power #PWR0101
 U 1 1 5FB4B641
 P 2500 2400
 F 0 "#PWR0101" H 2500 2150 50  0001 C CNN
@@ -790,7 +790,7 @@ Wire Notes Line
 Text Notes 1550 1000 0    50   ~ 0
 Power Connectors
 $Comp
-L Device:LED D2
+L ATX_PSU_Board-rescue:LED-Device D2
 U 1 1 5FAD0C26
 P 9650 1500
 F 0 "D2" H 9500 1550 39  0000 C CNN
@@ -807,7 +807,7 @@ F 9 "FC-DA1608UGK-520D10" H 9650 1500 50  0001 C CNN "Manufacture PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D3
+L ATX_PSU_Board-rescue:LED-Device D3
 U 1 1 5FAD136C
 P 9650 1800
 F 0 "D3" H 9500 1850 39  0000 C CNN
@@ -824,7 +824,7 @@ F 9 "FC-DA1608UGK-520D10" H 9650 1800 50  0001 C CNN "Manufacture PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D4
+L ATX_PSU_Board-rescue:LED-Device D4
 U 1 1 5FAD1A79
 P 9650 2100
 F 0 "D4" H 9500 2150 39  0000 C CNN
@@ -840,7 +840,7 @@ $EndComp
 Wire Wire Line
 	9800 1200 9950 1200
 $Comp
-L power:GND #PWR03
+L ATX_PSU_Board-rescue:GND-power #PWR03
 U 1 1 617D71FB
 P 2400 3200
 F 0 "#PWR03" H 2400 2950 50  0001 C CNN
@@ -853,7 +853,7 @@ $EndComp
 Text Label 2400 3300 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L Connector:Conn_01x02_Female J28
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J28
 U 1 1 617D1149
 P 2600 3200
 F 0 "J28" H 2628 3176 50  0000 L CNN
@@ -866,7 +866,7 @@ $EndComp
 Text Label 8900 2400 2    31   ~ 0
 PWR_OK
 $Comp
-L Device:R R5
+L ATX_PSU_Board-rescue:R-Device R5
 U 1 1 617F03A4
 P 9200 2400
 F 0 "R5" V 9100 2400 50  0000 C CNN
@@ -878,7 +878,7 @@ F 4 "C23204" V 9200 2400 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L ATX_PSU_Board-rescue:GND-power #PWR05
 U 1 1 617F03AA
 P 9950 2400
 F 0 "#PWR05" H 9950 2150 50  0001 C CNN
@@ -895,7 +895,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 2400 9950 2400
 $Comp
-L Device:LED D5
+L ATX_PSU_Board-rescue:LED-Device D5
 U 1 1 617F03B6
 P 9650 2400
 F 0 "D5" H 9500 2450 39  0000 C CNN
@@ -915,7 +915,7 @@ Wire Notes Line
 Wire Notes Line
 	6500 4900 1500 4900
 $Comp
-L Connector:Conn_01x02_Female J12
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J12
 U 1 1 617F4B3D
 P 2550 5450
 F 0 "J12" H 2578 5426 50  0000 L CNN
@@ -928,7 +928,7 @@ $EndComp
 Text Label 2350 5450 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR02
+L ATX_PSU_Board-rescue:GND-power #PWR02
 U 1 1 617F6CDA
 P 2350 5550
 F 0 "#PWR02" H 2350 5300 50  0001 C CNN
@@ -939,7 +939,7 @@ F 3 "" H 2350 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J13
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J13
 U 1 1 617F8A99
 P 2550 5800
 F 0 "J13" H 2578 5776 50  0000 L CNN
@@ -952,7 +952,7 @@ $EndComp
 Text Label 2350 5800 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR06
+L ATX_PSU_Board-rescue:GND-power #PWR06
 U 1 1 617F8AA0
 P 2350 5900
 F 0 "#PWR06" H 2350 5650 50  0001 C CNN
@@ -963,7 +963,7 @@ F 3 "" H 2350 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J14
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J14
 U 1 1 617FB7A7
 P 2550 6100
 F 0 "J14" H 2578 6076 50  0000 L CNN
@@ -976,7 +976,7 @@ $EndComp
 Text Label 2350 6100 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR08
+L ATX_PSU_Board-rescue:GND-power #PWR08
 U 1 1 617FB7AE
 P 2350 6200
 F 0 "#PWR08" H 2350 5950 50  0001 C CNN
@@ -987,7 +987,7 @@ F 3 "" H 2350 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J15
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J15
 U 1 1 617FDD86
 P 2550 6400
 F 0 "J15" H 2578 6376 50  0000 L CNN
@@ -1000,7 +1000,7 @@ $EndComp
 Text Label 2350 6400 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR010
+L ATX_PSU_Board-rescue:GND-power #PWR010
 U 1 1 617FDD8D
 P 2350 6500
 F 0 "#PWR010" H 2350 6250 50  0001 C CNN
@@ -1011,7 +1011,7 @@ F 3 "" H 2350 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J16
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J16
 U 1 1 6183593B
 P 2550 6750
 F 0 "J16" H 2578 6726 50  0000 L CNN
@@ -1024,7 +1024,7 @@ $EndComp
 Text Label 2350 6750 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR012
+L ATX_PSU_Board-rescue:GND-power #PWR012
 U 1 1 61835942
 P 2350 6850
 F 0 "#PWR012" H 2350 6600 50  0001 C CNN
@@ -1035,7 +1035,7 @@ F 3 "" H 2350 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J17
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J17
 U 1 1 61835948
 P 2550 7100
 F 0 "J17" H 2578 7076 50  0000 L CNN
@@ -1048,7 +1048,7 @@ $EndComp
 Text Label 2350 7100 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR014
+L ATX_PSU_Board-rescue:GND-power #PWR014
 U 1 1 6183594F
 P 2350 7200
 F 0 "#PWR014" H 2350 6950 50  0001 C CNN
@@ -1059,7 +1059,7 @@ F 3 "" H 2350 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J18
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J18
 U 1 1 61835955
 P 2550 7400
 F 0 "J18" H 2578 7376 50  0000 L CNN
@@ -1072,7 +1072,7 @@ $EndComp
 Text Label 2350 7400 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR016
+L ATX_PSU_Board-rescue:GND-power #PWR016
 U 1 1 6183595C
 P 2350 7500
 F 0 "#PWR016" H 2350 7250 50  0001 C CNN
@@ -1083,7 +1083,7 @@ F 3 "" H 2350 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J19
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J19
 U 1 1 61835962
 P 2550 7700
 F 0 "J19" H 2578 7676 50  0000 L CNN
@@ -1096,7 +1096,7 @@ $EndComp
 Text Label 2350 7700 2    39   ~ 0
 +5V_SUPPLY
 $Comp
-L power:GND #PWR018
+L ATX_PSU_Board-rescue:GND-power #PWR018
 U 1 1 61835969
 P 2350 7800
 F 0 "#PWR018" H 2350 7550 50  0001 C CNN
@@ -1109,7 +1109,7 @@ $EndComp
 Text Label 3950 5450 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR04
+L ATX_PSU_Board-rescue:GND-power #PWR04
 U 1 1 6183F493
 P 3950 5550
 F 0 "#PWR04" H 3950 5300 50  0001 C CNN
@@ -1122,7 +1122,7 @@ $EndComp
 Text Label 3950 5800 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR07
+L ATX_PSU_Board-rescue:GND-power #PWR07
 U 1 1 618418E3
 P 3950 5900
 F 0 "#PWR07" H 3950 5650 50  0001 C CNN
@@ -1133,7 +1133,7 @@ F 3 "" H 3950 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J21
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J21
 U 1 1 618418DC
 P 4150 5800
 F 0 "J21" H 4178 5776 50  0000 L CNN
@@ -1144,7 +1144,7 @@ F 3 "~" H 4150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J20
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J20
 U 1 1 6183F48C
 P 4150 5450
 F 0 "J20" H 4178 5426 50  0000 L CNN
@@ -1155,7 +1155,7 @@ F 3 "~" H 4150 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J22
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J22
 U 1 1 61846100
 P 4150 6100
 F 0 "J22" H 4178 6076 50  0000 L CNN
@@ -1168,7 +1168,7 @@ $EndComp
 Text Label 3950 6100 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR09
+L ATX_PSU_Board-rescue:GND-power #PWR09
 U 1 1 61846107
 P 3950 6200
 F 0 "#PWR09" H 3950 5950 50  0001 C CNN
@@ -1179,7 +1179,7 @@ F 3 "" H 3950 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J23
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J23
 U 1 1 6184610D
 P 4150 6450
 F 0 "J23" H 4178 6426 50  0000 L CNN
@@ -1192,7 +1192,7 @@ $EndComp
 Text Label 3950 6450 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR011
+L ATX_PSU_Board-rescue:GND-power #PWR011
 U 1 1 61846114
 P 3950 6550
 F 0 "#PWR011" H 3950 6300 50  0001 C CNN
@@ -1203,7 +1203,7 @@ F 3 "" H 3950 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Female J24
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J24
 U 1 1 61848870
 P 4150 6750
 F 0 "J24" H 4178 6726 50  0000 L CNN
@@ -1216,7 +1216,7 @@ $EndComp
 Text Label 3950 6750 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L power:GND #PWR013
+L ATX_PSU_Board-rescue:GND-power #PWR013
 U 1 1 61848877
 P 3950 6850
 F 0 "#PWR013" H 3950 6600 50  0001 C CNN
@@ -1227,7 +1227,7 @@ F 3 "" H 3950 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J11
+L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J11
 U 1 1 6190A3CE
 P 5550 4300
 F 0 "J11" H 5600 4617 50  0000 C CNN
@@ -1238,7 +1238,7 @@ F 3 "~" H 5550 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L ATX_PSU_Board-rescue:GND-power #PWR021
 U 1 1 6190A3D4
 P 5300 4250
 F 0 "#PWR021" H 5300 4000 50  0001 C CNN
@@ -1270,7 +1270,7 @@ Text Label 5350 4400 2    31   ~ 0
 Text Label 5850 4200 0    31   ~ 0
 +3.3V_SUPPLY
 $Comp
-L power:GND #PWR020
+L ATX_PSU_Board-rescue:GND-power #PWR020
 U 1 1 6190C75D
 P 2400 3550
 F 0 "#PWR020" H 2400 3300 50  0001 C CNN
@@ -1283,7 +1283,7 @@ $EndComp
 Text Label 2400 3650 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L Connector:Conn_01x02_Female J29
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J29
 U 1 1 6190C764
 P 2600 3550
 F 0 "J29" H 2628 3526 50  0000 L CNN
@@ -1294,7 +1294,7 @@ F 3 "~" H 2600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L ATX_PSU_Board-rescue:GND-power #PWR022
 U 1 1 6193514B
 P 2450 2850
 F 0 "#PWR022" H 2450 2600 50  0001 C CNN
@@ -1307,7 +1307,7 @@ $EndComp
 Text Label 2450 2950 2    39   ~ 0
 +12V_SUPPLY
 $Comp
-L Connector:Conn_01x02_Female J30
+L ATX_PSU_Board-rescue:Conn_01x02_Female-Connector J30
 U 1 1 61935152
 P 2650 2850
 F 0 "J30" H 2678 2826 50  0000 L CNN
@@ -1331,4 +1331,82 @@ Wire Notes Line
 	1650 5200 1650 7950
 Wire Notes Line
 	5000 7950 5000 5200
+$Comp
+L ATX_PSU_Board-rescue:GND-power #PWR0117
+U 1 1 61A4E61E
+P 2800 4600
+F 0 "#PWR0117" H 2800 4350 50  0001 C CNN
+F 1 "GND" H 2800 4450 50  0000 C CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J26
+U 1 1 61A6820B
+P 2450 4600
+F 0 "J26" H 2500 4917 50  0000 C CNN
+F 1 "PCIE IN 1" H 2500 4826 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 2450 4600 50  0001 C CNN
+F 3 "~" H 2450 4600 50  0001 C CNN
+	1    2450 4600
+	1    0    0    -1  
+$EndComp
+Text Label 2250 4600 2    31   ~ 0
++12V_SUPPLY
+Text Label 2250 4500 2    31   ~ 0
++12V_SUPPLY
+Text Label 2250 4700 2    31   ~ 0
++12V_SUPPLY
+Wire Wire Line
+	2750 4500 2800 4500
+Wire Wire Line
+	2800 4500 2800 4600
+Wire Wire Line
+	2800 4700 2750 4700
+Wire Wire Line
+	2750 4600 2800 4600
+Connection ~ 2800 4600
+Wire Wire Line
+	2800 4600 2800 4700
+$Comp
+L ATX_PSU_Board-rescue:GND-power #PWR015
+U 1 1 61A93EE1
+P 2800 4050
+F 0 "#PWR015" H 2800 3800 50  0001 C CNN
+F 1 "GND" H 2800 3900 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J25
+U 1 1 61A93EE7
+P 2450 4050
+F 0 "J25" H 2500 4367 50  0000 C CNN
+F 1 "PCIE IN 2" H 2500 4276 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 2450 4050 50  0001 C CNN
+F 3 "~" H 2450 4050 50  0001 C CNN
+	1    2450 4050
+	1    0    0    -1  
+$EndComp
+Text Label 2250 4050 2    31   ~ 0
++12V_SUPPLY
+Text Label 2250 3950 2    31   ~ 0
++12V_SUPPLY
+Text Label 2250 4150 2    31   ~ 0
++12V_SUPPLY
+Wire Wire Line
+	2750 3950 2800 3950
+Wire Wire Line
+	2800 3950 2800 4050
+Wire Wire Line
+	2800 4150 2750 4150
+Wire Wire Line
+	2750 4050 2800 4050
+Connection ~ 2800 4050
+Wire Wire Line
+	2800 4050 2800 4150
 $EndSCHEMATC
