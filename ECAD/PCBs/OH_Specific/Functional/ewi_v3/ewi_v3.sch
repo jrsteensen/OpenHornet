@@ -1142,7 +1142,7 @@ F 3 "~" H 1850 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L ewi_v3-rescue:CP-Device C1
 U 1 1 5FD5BCF2
 P 2000 9900
 F 0 "C1" H 2100 9950 50  0000 L CNN
