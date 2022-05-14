@@ -187,7 +187,7 @@ F 3 "~" H 3450 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Polarized C1
+L AV-COOL-PCB-V2-rescue:C_Polarized-Device C1
 U 1 1 601A01D8
 P 3150 1050
 F 0 "C1" H 3268 1096 50  0000 L CNN
@@ -230,406 +230,249 @@ F 3 "~" H 1000 1000 50  0001 C CNN
 	1    1000 1000
 	0    -1   -1   0   
 $EndComp
-$Comp
-L LED:WS2813 D2
-U 1 1 606BC1F7
-P 900 2150
-F 0 "D2" H 1244 2196 50  0000 L CNN
-F 1 "WS2813" H 1244 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 950 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 1000 1775 50  0001 L TNN
-	1    900  2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D3
-U 1 1 606C652C
-P 1700 2150
-F 0 "D3" H 2044 2196 50  0000 L CNN
-F 1 "WS2813" H 2044 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 1750 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 1800 1775 50  0001 L TNN
-	1    1700 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D4
-U 1 1 606C6D6F
-P 2500 2150
-F 0 "D4" H 2844 2196 50  0000 L CNN
-F 1 "WS2813" H 2844 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 2550 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 2600 1775 50  0001 L TNN
-	1    2500 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D5
-U 1 1 606C77F1
-P 3350 2150
-F 0 "D5" H 3694 2196 50  0000 L CNN
-F 1 "WS2813" H 3694 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 3400 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 3450 1775 50  0001 L TNN
-	1    3350 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D6
-U 1 1 606C8024
-P 4150 2150
-F 0 "D6" H 4494 2196 50  0000 L CNN
-F 1 "WS2813" H 4494 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 4200 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 4250 1775 50  0001 L TNN
-	1    4150 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D7
-U 1 1 606C8A60
-P 5000 2150
-F 0 "D7" H 5344 2196 50  0000 L CNN
-F 1 "WS2813" H 5344 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5050 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5100 1775 50  0001 L TNN
-	1    5000 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D8
-U 1 1 606CA006
-P 5850 2150
-F 0 "D8" H 6194 2196 50  0000 L CNN
-F 1 "WS2813" H 6194 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 5900 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 5950 1775 50  0001 L TNN
-	1    5850 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D9
-U 1 1 606CD642
-P 6750 2150
-F 0 "D9" H 7094 2196 50  0000 L CNN
-F 1 "WS2813" H 7094 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 6800 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 6850 1775 50  0001 L TNN
-	1    6750 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D10
-U 1 1 606CD648
-P 7550 2150
-F 0 "D10" H 7894 2196 50  0000 L CNN
-F 1 "WS2813" H 7894 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7600 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 7650 1775 50  0001 L TNN
-	1    7550 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D11
-U 1 1 606CD64E
-P 8400 2150
-F 0 "D11" H 8744 2196 50  0000 L CNN
-F 1 "WS2813" H 8744 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8450 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 8500 1775 50  0001 L TNN
-	1    8400 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D12
-U 1 1 606CD654
-P 9250 2150
-F 0 "D12" H 9594 2196 50  0000 L CNN
-F 1 "WS2813" H 9594 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9300 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 9350 1775 50  0001 L TNN
-	1    9250 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 2150 2100 2150
-Wire Wire Line
-	2800 2150 2950 2150
-Wire Wire Line
-	3650 2150 3750 2150
-Wire Wire Line
-	6150 2150 6300 2150
-Wire Wire Line
-	7050 2150 7150 2150
-Wire Wire Line
-	7850 2150 8000 2150
-Wire Wire Line
-	8700 2150 8800 2150
-Wire Wire Line
-	550  2500 550  2150
-Wire Wire Line
-	550  2150 600  2150
-Wire Wire Line
-	1200 2150 1300 2150
-Wire Wire Line
-	550  2500 1200 2500
-Wire Wire Line
-	1200 2500 1200 2250
-Wire Wire Line
-	1200 2250 1400 2250
-Wire Wire Line
-	1300 2150 1300 2500
-Wire Wire Line
-	1300 2500 2000 2500
-Wire Wire Line
-	2000 2500 2000 2250
-Wire Wire Line
-	2000 2250 2200 2250
-Connection ~ 1300 2150
-Wire Wire Line
-	1300 2150 1400 2150
-Wire Wire Line
-	2100 2150 2100 2500
-Wire Wire Line
-	2100 2500 2800 2500
-Wire Wire Line
-	2800 2500 2800 2250
-Wire Wire Line
-	2800 2250 3050 2250
-Connection ~ 2100 2150
-Wire Wire Line
-	2100 2150 2200 2150
-Wire Wire Line
-	2950 2150 2950 2500
-Wire Wire Line
-	2950 2500 3650 2500
-Wire Wire Line
-	3650 2500 3650 2250
-Wire Wire Line
-	3650 2250 3850 2250
-Connection ~ 2950 2150
-Wire Wire Line
-	2950 2150 3050 2150
-Wire Wire Line
-	3750 2150 3750 2500
-Wire Wire Line
-	3750 2500 4450 2500
-Wire Wire Line
-	4450 2500 4450 2250
-Wire Wire Line
-	4450 2250 4700 2250
-Connection ~ 3750 2150
-Wire Wire Line
-	3750 2150 3850 2150
-Wire Wire Line
-	4450 2150 4600 2150
-Wire Wire Line
-	4600 2150 4600 2500
-Wire Wire Line
-	4600 2500 5300 2500
-Wire Wire Line
-	5300 2500 5300 2250
-Wire Wire Line
-	5300 2250 5550 2250
-Connection ~ 4600 2150
-Wire Wire Line
-	4600 2150 4700 2150
-Wire Wire Line
-	5300 2150 5450 2150
-Wire Wire Line
-	5450 2150 5450 2500
-Wire Wire Line
-	5450 2500 6150 2500
-Wire Wire Line
-	6150 2500 6150 2250
-Wire Wire Line
-	6150 2250 6450 2250
-Connection ~ 5450 2150
-Wire Wire Line
-	5450 2150 5550 2150
-Wire Wire Line
-	6300 2150 6300 2500
-Wire Wire Line
-	6300 2500 7050 2500
-Wire Wire Line
-	7050 2500 7050 2250
-Wire Wire Line
-	7050 2250 7250 2250
-Connection ~ 6300 2150
-Wire Wire Line
-	6300 2150 6450 2150
-Wire Wire Line
-	7150 2150 7150 2500
-Wire Wire Line
-	7150 2500 7850 2500
-Wire Wire Line
-	7850 2500 7850 2250
-Wire Wire Line
-	7850 2250 8100 2250
-Connection ~ 7150 2150
-Wire Wire Line
-	7150 2150 7250 2150
-Wire Wire Line
-	8000 2150 8000 2500
-Wire Wire Line
-	8000 2500 8700 2500
-Wire Wire Line
-	8700 2500 8700 2250
-Wire Wire Line
-	8700 2250 8950 2250
-Connection ~ 8000 2150
-Wire Wire Line
-	8000 2150 8100 2150
-Wire Wire Line
-	9250 2450 8400 2450
-Connection ~ 1700 2450
-Wire Wire Line
-	1700 2450 900  2450
-Connection ~ 2500 2450
-Wire Wire Line
-	2500 2450 1700 2450
-Connection ~ 3350 2450
-Wire Wire Line
-	3350 2450 2500 2450
-Connection ~ 4150 2450
-Wire Wire Line
-	4150 2450 3350 2450
-Connection ~ 5000 2450
-Wire Wire Line
-	5000 2450 4150 2450
-Connection ~ 5850 2450
-Wire Wire Line
-	5850 2450 5000 2450
-Connection ~ 6750 2450
-Wire Wire Line
-	6750 2450 5850 2450
-Connection ~ 7550 2450
-Wire Wire Line
-	7550 2450 6750 2450
-Connection ~ 8400 2450
-Wire Wire Line
-	8400 2450 7550 2450
-Wire Wire Line
-	800  1850 800  1750
-Wire Wire Line
-	800  1750 1600 1750
-Wire Wire Line
-	9150 1750 9150 1850
-Wire Wire Line
-	1600 1850 1600 1750
-Connection ~ 1600 1750
-Wire Wire Line
-	1600 1750 2400 1750
-Wire Wire Line
-	2400 1850 2400 1750
-Connection ~ 2400 1750
-Wire Wire Line
-	2400 1750 3250 1750
-Wire Wire Line
-	3250 1850 3250 1750
-Connection ~ 3250 1750
-Wire Wire Line
-	3250 1750 4050 1750
-Wire Wire Line
-	4050 1850 4050 1750
-Connection ~ 4050 1750
-Wire Wire Line
-	4050 1750 4900 1750
-Wire Wire Line
-	4900 1850 4900 1750
-Connection ~ 4900 1750
-Wire Wire Line
-	4900 1750 5750 1750
-Wire Wire Line
-	5750 1850 5750 1750
-Connection ~ 5750 1750
-Wire Wire Line
-	5750 1750 6650 1750
-Wire Wire Line
-	6650 1850 6650 1750
-Connection ~ 6650 1750
-Wire Wire Line
-	6650 1750 7450 1750
-Wire Wire Line
-	7450 1850 7450 1750
-Connection ~ 7450 1750
-Wire Wire Line
-	7450 1750 8300 1750
-Wire Wire Line
-	8300 1850 8300 1750
-Connection ~ 8300 1750
-Wire Wire Line
-	8300 1750 9150 1750
-Text Label 550  2150 2    50   ~ 0
+Text Label 1250 2550 2    50   ~ 0
 DATAIN
-Text Label 800  1750 2    50   ~ 0
+Text Label 1550 2250 2    50   ~ 0
 LED+5V
-$Comp
-L LED:WS2813 D13
-U 1 1 6071FF06
-P 10050 2150
-F 0 "D13" H 10394 2196 50  0000 L CNN
-F 1 "WS2813" H 10394 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10100 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 10150 1775 50  0001 L TNN
-	1    10050 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2813 D14
-U 1 1 6071FF0C
-P 10900 2150
-F 0 "D14" H 11244 2196 50  0000 L CNN
-F 1 "WS2813" H 11244 2105 50  0000 L CNN
-F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10950 1850 50  0001 L TNN
-F 3 "http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf" H 11000 1775 50  0001 L TNN
-	1    10900 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 2150 9650 2150
-Wire Wire Line
-	9550 2250 9750 2250
-Wire Wire Line
-	9650 2150 9650 2500
-Wire Wire Line
-	9650 2500 10350 2500
-Wire Wire Line
-	10350 2500 10350 2250
-Wire Wire Line
-	10350 2250 10600 2250
-Connection ~ 9650 2150
-Wire Wire Line
-	9650 2150 9750 2150
-Connection ~ 10050 2450
-Wire Wire Line
-	10050 2450 9250 2450
-Wire Wire Line
-	10900 2450 10050 2450
-Wire Wire Line
-	9150 1750 9950 1750
-Wire Wire Line
-	9950 1850 9950 1750
-Connection ~ 9950 1750
-Wire Wire Line
-	9950 1750 10800 1750
-Wire Wire Line
-	10800 1850 10800 1750
-Text Label 11200 2150 0    50   ~ 0
+Text Label 10850 2550 0    50   ~ 0
 DATAOUT
-Wire Wire Line
-	9550 2250 9550 2500
-Wire Wire Line
-	9550 2500 8800 2500
-Wire Wire Line
-	8800 2500 8800 2150
-Connection ~ 8800 2150
-Wire Wire Line
-	8800 2150 8950 2150
-Wire Wire Line
-	10350 2150 10600 2150
-Text Label 1250 2450 3    50   ~ 0
+Text Label 1550 2850 3    50   ~ 0
 LEDGND
-Connection ~ 9150 1750
-Connection ~ 9250 2450
+$Comp
+L LED:WS2812B D2
+U 1 1 62814A7D
+P 1550 2550
+F 0 "D2" H 1894 2596 50  0000 L CNN
+F 1 "WS2812B" H 1894 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 1600 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1650 2175 50  0001 L TNN
+	1    1550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 62816BD1
+P 2300 2550
+F 0 "D3" H 2644 2596 50  0000 L CNN
+F 1 "WS2812B" H 2644 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2350 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2400 2175 50  0001 L TNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 6281BAEE
+P 3050 2550
+F 0 "D4" H 3394 2596 50  0000 L CNN
+F 1 "WS2812B" H 3394 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3100 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 2175 50  0001 L TNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 62820883
+P 3800 2550
+F 0 "D5" H 4144 2596 50  0000 L CNN
+F 1 "WS2812B" H 4144 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3850 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3900 2175 50  0001 L TNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 6282913C
+P 4550 2550
+F 0 "D6" H 4894 2596 50  0000 L CNN
+F 1 "WS2812B" H 4894 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4600 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 2175 50  0001 L TNN
+	1    4550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D7
+U 1 1 62829142
+P 5300 2550
+F 0 "D7" H 5644 2596 50  0000 L CNN
+F 1 "WS2812B" H 5644 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5350 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5400 2175 50  0001 L TNN
+	1    5300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D8
+U 1 1 62829148
+P 6050 2550
+F 0 "D8" H 6394 2596 50  0000 L CNN
+F 1 "WS2812B" H 6394 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6100 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6150 2175 50  0001 L TNN
+	1    6050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D9
+U 1 1 6282914E
+P 6800 2550
+F 0 "D9" H 7144 2596 50  0000 L CNN
+F 1 "WS2812B" H 7144 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6850 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6900 2175 50  0001 L TNN
+	1    6800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D10
+U 1 1 6282F3E1
+P 7550 2550
+F 0 "D10" H 7894 2596 50  0000 L CNN
+F 1 "WS2812B" H 7894 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7600 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7650 2175 50  0001 L TNN
+	1    7550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D11
+U 1 1 6282F3E7
+P 8300 2550
+F 0 "D11" H 8644 2596 50  0000 L CNN
+F 1 "WS2812B" H 8644 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8350 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8400 2175 50  0001 L TNN
+	1    8300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D12
+U 1 1 6282F3ED
+P 9050 2550
+F 0 "D12" H 9394 2596 50  0000 L CNN
+F 1 "WS2812B" H 9394 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9100 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9150 2175 50  0001 L TNN
+	1    9050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D13
+U 1 1 6282F3F3
+P 9800 2550
+F 0 "D13" H 10144 2596 50  0000 L CNN
+F 1 "WS2812B" H 10144 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9850 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9900 2175 50  0001 L TNN
+	1    9800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D14
+U 1 1 62834521
+P 10550 2550
+F 0 "D14" H 10894 2596 50  0000 L CNN
+F 1 "WS2812B" H 10894 2505 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10600 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10650 2175 50  0001 L TNN
+	1    10550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2850 2300 2850
+Connection ~ 2300 2850
+Wire Wire Line
+	2300 2850 3050 2850
+Connection ~ 3050 2850
+Wire Wire Line
+	3050 2850 3800 2850
+Connection ~ 3800 2850
+Wire Wire Line
+	3800 2850 4550 2850
+Connection ~ 4550 2850
+Wire Wire Line
+	4550 2850 5300 2850
+Connection ~ 5300 2850
+Wire Wire Line
+	5300 2850 6050 2850
+Connection ~ 6050 2850
+Wire Wire Line
+	6050 2850 6800 2850
+Connection ~ 6800 2850
+Wire Wire Line
+	6800 2850 7550 2850
+Connection ~ 7550 2850
+Wire Wire Line
+	7550 2850 8300 2850
+Connection ~ 8300 2850
+Wire Wire Line
+	8300 2850 9050 2850
+Connection ~ 9050 2850
+Wire Wire Line
+	9050 2850 9800 2850
+Connection ~ 9800 2850
+Wire Wire Line
+	9800 2850 10550 2850
+Wire Wire Line
+	10550 2250 9800 2250
+Connection ~ 2300 2250
+Wire Wire Line
+	2300 2250 1550 2250
+Connection ~ 3050 2250
+Wire Wire Line
+	3050 2250 2300 2250
+Connection ~ 3800 2250
+Wire Wire Line
+	3800 2250 3050 2250
+Connection ~ 4550 2250
+Wire Wire Line
+	4550 2250 3800 2250
+Connection ~ 5300 2250
+Wire Wire Line
+	5300 2250 4550 2250
+Connection ~ 6050 2250
+Wire Wire Line
+	6050 2250 5300 2250
+Connection ~ 6800 2250
+Wire Wire Line
+	6800 2250 6050 2250
+Connection ~ 7550 2250
+Wire Wire Line
+	7550 2250 6800 2250
+Connection ~ 8300 2250
+Wire Wire Line
+	8300 2250 7550 2250
+Connection ~ 9050 2250
+Wire Wire Line
+	9050 2250 8300 2250
+Connection ~ 9800 2250
+Wire Wire Line
+	9800 2250 9050 2250
+Wire Wire Line
+	1850 2550 2000 2550
+Wire Wire Line
+	2600 2550 2750 2550
+Wire Wire Line
+	3350 2550 3500 2550
+Wire Wire Line
+	4100 2550 4250 2550
+Wire Wire Line
+	4850 2550 5000 2550
+Wire Wire Line
+	5600 2550 5750 2550
+Wire Wire Line
+	6350 2550 6500 2550
+Wire Wire Line
+	7100 2550 7250 2550
+Wire Wire Line
+	7850 2550 8000 2550
+Wire Wire Line
+	8600 2550 8750 2550
+Wire Wire Line
+	9350 2550 9500 2550
+Wire Wire Line
+	10100 2550 10250 2550
 $EndSCHEMATC
