@@ -5,6 +5,11 @@ D The ABSIS Backlighting Controller is an Arduino Mega based PCB that controls u
 K ABSIS Backlighting Controller Backlight BL PWM
 $ENDCMP
 #
+$CMP ABSIS_Bulkhead_Connector
+D The ABSIS Bulkhead Connector provides passthrough connections for the ABSIS BUS.
+K ABSIS Bulkhead
+$ENDCMP
+#
 $CMP ABSIS_Generic_BackLightPCB
 D This is a generic backlight PCB for ABSIS based backlighting panels. (Single pin PWM controlled RGB LEDs)
 $ENDCMP
@@ -18,8 +23,23 @@ D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
 K ABSIS Nano RS485 Slave
 $ENDCMP
 #
+$CMP ABSIS_Nano_2.5
+D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
+K ABSIS Nano RS485 Slave
+$ENDCMP
+#
+$CMP ABSIS_Nano_Relay_Module
+D This ABSIS Nano backpack/accessory provides 2 channels of 12v accessory power.
+K ABSIS Nano Relay Module
+$ENDCMP
+#
 $CMP ABSIS_RS485BusMaster
 D The ABSIS RS485 Bus Master provide power and data to three ABSIS RS485 slave buses utilizing the MAX487 chip.
+K ABSIS RS485 MAX487 Master Bus
+$ENDCMP
+#
+$CMP ABSIS_RS485HIDBusMaster
+D The ABSIS RS485 Bus Master provide power and data to a single ABSIS RS485 slave buses utilizing the MAX487 chip and the option of HID inputs to the PC.
 K ABSIS RS485 MAX487 Master Bus
 $ENDCMP
 #
