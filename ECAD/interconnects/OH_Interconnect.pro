@@ -1,4 +1,4 @@
-update=7/20/2022 21:47:58
+update=7/21/2022 09:39:59
 version=1
 last_client=eeschema
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
-PlotDirectoryName=./
+PlotDirectoryName=./OH_Schematic.pdf
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
