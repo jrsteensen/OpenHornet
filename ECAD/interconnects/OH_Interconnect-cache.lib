@@ -1068,6 +1068,21 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Speaker
+#
+DEF Device_Speaker LS 0 0 Y N 1 F N
+F0 "LS" 50 225 50 H V R CNN
+F1 "Device_Speaker" 50 150 50 H V R CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" -10 -50 50 H I C CNN
+DRAW
+S -100 50 40 -150 0 0 10 N
+P 4 0 0 10 40 50 140 150 140 -250 40 -150 N
+X 1 1 -200 0 100 R 50 50 1 1 I
+X 2 2 -200 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # KiCadCustomLib_SW_Rotary5
 #
 DEF KiCadCustomLib_SW_Rotary5 SW 0 40 Y N 1 F N
