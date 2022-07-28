@@ -14,6 +14,10 @@ $CMP ABSIS_Generic_BackLightPCB
 D This is a generic backlight PCB for ABSIS based backlighting panels. (Single pin PWM controlled RGB LEDs)
 $ENDCMP
 #
+$CMP ABSIS_Hall_Sensor
+D Hall Effect Sensor using the MT6825GT Sensor
+$ENDCMP
+#
 $CMP ABSIS_Mega_2.0
 D This is an arduino mega based IO PCB connecting to the ABSIS RS485 BUS as a slave device.
 $ENDCMP

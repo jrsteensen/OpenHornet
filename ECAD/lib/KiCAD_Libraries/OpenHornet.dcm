@@ -4,6 +4,10 @@ $CMP 800168
 D TFT Controller for ER-TFTV101A1-1
 $ENDCMP
 #
+$CMP ANALOG_STICK_BREAKOUT
+D BREAKOUT PCB FOR THE RKJXV12 MULTI-AXIS STICK
+$ENDCMP
+#
 $CMP DDI_AMPCD_Shield
 D Shield for DDI/AMPCD interfacing
 $ENDCMP
@@ -47,6 +51,10 @@ $CMP SW_Rotary20
 D rotary switch with 12 positions
 K rotary switch
 F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP THROTTLE_CONTROLLER
+D A throttle controller PCB for the OpenHornet Throttle.
 $ENDCMP
 #
 $CMP USB_3.0_4_Port_Hub
