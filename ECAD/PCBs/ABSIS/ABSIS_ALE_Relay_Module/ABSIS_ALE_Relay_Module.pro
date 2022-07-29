@@ -1,4 +1,4 @@
-update=11/6/2021 08:07:20
+update=7/29/2022 11:33:24
 version=1
 last_client=kicad
 [cvpcb]
@@ -23,7 +23,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
 LastNetListRead=ABSIS_Nano.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -44,6 +44,8 @@ TrackWidth6=0.9144
 TrackWidth7=1.6256
 ViaDiameter1=0.6
 ViaDrill1=0.4
+ViaDiameter2=1.5
+ViaDrill2=1.1
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -77,12 +79,12 @@ Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=2
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=2
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0

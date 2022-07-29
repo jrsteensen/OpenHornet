@@ -251,37 +251,21 @@ NC
 Text Notes 7700 4550 2    50   ~ 0
 NC
 Text Label 7750 4950 2    60   ~ 0
-A4
-Text Label 7750 4850 2    60   ~ 0
-A5
-Text Label 7750 4750 2    60   ~ 0
-A6
-Text Label 7750 4650 2    60   ~ 0
-A7
-Wire Wire Line
-	7450 5150 7450 5850
-$Comp
-L power:GND #PWR05
-U 1 1 618E9A62
-P 7450 6000
-F 0 "#PWR05" H 7450 5750 50  0001 C CNN
-F 1 "GND" H 7450 5850 50  0000 C CNN
-F 2 "" H 7450 6000 50  0000 C CNN
-F 3 "" H 7450 6000 50  0000 C CNN
-	1    7450 6000
-	1    0    0    -1  
-$EndComp
-Text Label 7750 5650 2    60   ~ 0
 A0
-Text Label 7750 5550 2    60   ~ 0
+Text Label 7750 4850 2    60   ~ 0
 A1
-Text Label 7750 5450 2    60   ~ 0
+Text Label 7750 4750 2    60   ~ 0
 A2
-Text Label 7750 5350 2    60   ~ 0
+Text Label 7750 4650 2    60   ~ 0
 A3
-Connection ~ 7450 5850
-Wire Wire Line
-	7450 5850 7450 6000
+Text Label 7750 5650 2    60   ~ 0
+~D10_A10
+Text Label 7750 5550 2    60   ~ 0
+D16
+Text Label 7750 5450 2    60   ~ 0
+D14
+Text Label 7750 5350 2    60   ~ 0
+D15
 NoConn ~ 7750 5250
 NoConn ~ 8250 5250
 Text Notes 7700 5250 2    50   ~ 0
@@ -289,29 +273,21 @@ NC
 Text Notes 8300 5250 0    50   ~ 0
 NC
 Text Label 8250 4650 0    60   ~ 0
-2
+D2
 Text Label 8250 4750 0    60   ~ 0
-4
+~D3
 Text Label 8250 4850 0    60   ~ 0
-5(**)
-Text Label 8250 4950 0    60   ~ 0
-6(**)
-Text Label 8250 5050 0    60   ~ 0
-7
-Text Label 8250 5150 0    60   ~ 0
-8
+D4_A6
 Text Label 8250 5350 0    60   ~ 0
-9(**)
+~D6_A7
 Text Label 8250 5450 0    60   ~ 0
-10(**/SS)
+D7
 Text Label 8250 5550 0    60   ~ 0
-11(**/MOSI)
+~D8_A6
 Text Label 8250 5650 0    60   ~ 0
-12(MISO)
-Text Label 8250 5750 0    60   ~ 0
-13(SCK)
+~D9_A9
 Wire Wire Line
-	8850 4450 8850 5850
+	8850 4450 8850 4950
 Connection ~ 8850 5850
 Wire Wire Line
 	8850 5850 8850 6000
@@ -616,24 +592,9 @@ CH2_CTRL
 Wire Notes Line
 	1750 6300 1750 4350
 Text Label 4150 3400 2    60   ~ 0
-2
+D2
 Text Label 4650 3400 0    60   ~ 0
-4
-Text Label 4150 3950 2    60   ~ 0
-5(**)
-Text Label 4650 3950 0    60   ~ 0
-6(**)
-NoConn ~ 8250 5050
-NoConn ~ 8250 5150
-NoConn ~ 8250 5350
-NoConn ~ 8250 5450
-NoConn ~ 8250 5550
-NoConn ~ 8250 5650
-NoConn ~ 8250 5750
-NoConn ~ 7750 5650
-NoConn ~ 7750 5550
-NoConn ~ 7750 5450
-NoConn ~ 7750 5350
+~D3
 NoConn ~ 7750 4950
 NoConn ~ 7750 4850
 NoConn ~ 7750 4750
@@ -665,10 +626,6 @@ F 5 "C2642" V 2200 3650 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 5150 7750 5150
-Wire Wire Line
-	7450 5850 7750 5850
-Wire Wire Line
 	8250 4450 8850 4450
 Wire Wire Line
 	8250 5850 8850 5850
@@ -689,37 +646,12 @@ Text Label 4300 3600 2    50   ~ 0
 CH1_CTRL
 Wire Wire Line
 	4300 3600 4400 3600
-$Comp
-L Device:Jumper_NC_Dual JP3
-U 1 1 61A728C6
-P 4400 3950
-F 0 "JP3" H 4400 4189 50  0000 C CNN
-F 1 "CH1 SEL B" H 4400 4098 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 3950 50  0001 C CNN
-F 3 "~" H 4400 3950 50  0001 C CNN
-	1    4400 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 4050 4400 4150
-Text Label 4300 4150 2    50   ~ 0
-CH1_CTRL
-Wire Wire Line
-	4300 4150 4400 4150
 Wire Notes Line
 	1750 4250 5150 4250
 Wire Notes Line
 	5150 4250 5150 2300
 Wire Notes Line
 	1750 2300 5150 2300
-Text Label 4150 5450 2    60   ~ 0
-2
-Text Label 4650 5450 0    60   ~ 0
-4
-Text Label 4150 6000 2    60   ~ 0
-5(**)
-Text Label 4650 6000 0    60   ~ 0
-6(**)
 $Comp
 L Device:Jumper_NC_Dual JP5
 U 1 1 61A807A6
@@ -737,34 +669,47 @@ Text Label 4300 5650 2    50   ~ 0
 CH2_CTRL
 Wire Wire Line
 	4300 5650 4400 5650
-$Comp
-L Device:Jumper_NC_Dual JP6
-U 1 1 61A807B3
-P 4400 6000
-F 0 "JP6" H 4400 6239 50  0000 C CNN
-F 1 "CH2 SEL B" H 4400 6148 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 6000 50  0001 C CNN
-F 3 "~" H 4400 6000 50  0001 C CNN
-	1    4400 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 6100 4400 6200
-Text Label 4300 6200 2    50   ~ 0
-CH2_CTRL
-Wire Wire Line
-	4300 6200 4400 6200
 Wire Notes Line
 	5150 4350 5150 6300
 Wire Notes Line
 	1750 4350 5150 4350
 Wire Notes Line
 	1750 6300 5150 6300
-NoConn ~ 7750 5050
-NoConn ~ 7750 5750
 NoConn ~ 8250 4350
+Wire Wire Line
+	8250 4950 8850 4950
+Connection ~ 8850 4950
+Wire Wire Line
+	8850 4950 8850 5050
+Wire Wire Line
+	8250 5050 8850 5050
+Connection ~ 8850 5050
+Wire Wire Line
+	8850 5050 8850 5150
+Wire Wire Line
+	8250 5150 8850 5150
+Connection ~ 8850 5150
+Wire Wire Line
+	8850 5150 8850 5750
+Wire Wire Line
+	8250 5750 8850 5750
+Connection ~ 8850 5750
+Wire Wire Line
+	8850 5750 8850 5850
+Text Label 4150 5450 2    60   ~ 0
+D2
+Text Label 4650 5450 0    60   ~ 0
+~D3
 Text Notes 7700 5050 2    50   ~ 0
++5V
+Text Notes 7700 5150 2    50   ~ 0
 +5V
 Text Notes 7700 5750 2    50   ~ 0
 +5V
+Text Notes 7700 5850 2    50   ~ 0
++5V
+NoConn ~ 7750 5850
+NoConn ~ 7750 5750
+NoConn ~ 7750 5150
+NoConn ~ 7750 5050
 $EndSCHEMATC
