@@ -33,12 +33,22 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP HB-U14P
+D 13-Port USB 2.0 Hub
+K usb 13-port 13 2.0 hub
+F http://sabrent.com/products/hb-u14p
+$ENDCMP
+#
 $CMP OH-OPT-DIGIT
 D 16 segment OPT Display Digit for F18 UFC
 $ENDCMP
 #
 $CMP RWR_Control_Panel
 D EWI PCB based on ABSIS Nano
+$ENDCMP
+#
+$CMP STICK_CONTROLLER
+D A flight stick controller PCB for the OpenHornet Stick. It is compatible with all TM grips.
 $ENDCMP
 #
 $CMP SW_Rotary10

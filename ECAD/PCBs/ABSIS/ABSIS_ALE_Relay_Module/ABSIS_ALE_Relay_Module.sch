@@ -211,7 +211,7 @@ P 5150 8050
 F 0 "LOGO1" H 5150 8050 50  0001 C CNN
 F 1 "OpenHornetLogoSmall" H 5150 8050 50  0001 C CNN
 F 2 "KiCAD Libraries:OH_LOGO_ONLY_11x6mm" H 5150 8050 50  0001 C CNN
-F 3 "" H 5150 8050 50  0001 C CNN
+F 3 "~" H 5150 8050 50  0001 C CNN
 	1    5150 8050
 	1    0    0    -1  
 $EndComp
@@ -300,7 +300,8 @@ P 3550 3900
 F 0 "J3" H 3550 4150 50  0000 C CNN
 F 1 "CH1 OUT" H 3550 4050 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3550 3900 50  0001 C CNN
-F 3 "~" H 3550 3900 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3550 3900 50  0001 C CNN
+F 4 "B2B-PH-K-S(LF)(SN)" H 3550 3900 50  0001 C CNN "PN"
 	1    3550 3900
 	1    0    0    -1  
 $EndComp
@@ -313,6 +314,7 @@ F 1 "IRLML6402TRPBF" V 3151 2950 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 2875 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2900 2950 50  0001 L CNN
 F 4 "C2593" V 2900 2950 50  0001 C CNN "LCSC"
+F 5 "IRLML6402TRPBF" H 2900 2950 50  0001 C CNN "PN"
 	1    2900 2950
 	0    1    -1   0   
 $EndComp
@@ -424,7 +426,8 @@ P 4400 2850
 F 0 "JP1" H 4400 3089 50  0000 C CNN
 F 1 "CH1 PWR SEL" H 4400 2998 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 2850 50  0001 C CNN
-F 3 "~" H 4400 2850 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 4400 2850 50  0001 C CNN
+F 4 "PH1-03-UA" H 4400 2850 50  0001 C CNN "PN"
 	1    4400 2850
 	1    0    0    -1  
 $EndComp
@@ -449,7 +452,8 @@ P 3550 5950
 F 0 "J4" H 3550 6200 50  0000 C CNN
 F 1 "CH2 OUT" H 3550 6100 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3550 5950 50  0001 C CNN
-F 3 "~" H 3550 5950 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3550 5950 50  0001 C CNN
+F 4 "B2B-PH-K-S(LF)(SN)" H 3550 5950 50  0001 C CNN "PN"
 	1    3550 5950
 	1    0    0    -1  
 $EndComp
@@ -462,6 +466,7 @@ F 1 "IRLML6402TRPBF" V 3151 5000 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 4925 50  0001 L CIN
 F 3 "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c" H 2900 5000 50  0001 L CNN
 F 4 "C2593" V 2900 5000 50  0001 C CNN "LCSC"
+F 5 "IRLML6402TRPBF" H 2900 5000 50  0001 C CNN "PN"
 	1    2900 5000
 	0    1    -1   0   
 $EndComp
@@ -573,7 +578,8 @@ P 4400 4900
 F 0 "JP4" H 4400 5139 50  0000 C CNN
 F 1 "CH2 PWR SEL" H 4400 5048 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 4900 50  0001 C CNN
-F 3 "~" H 4400 4900 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 4400 4900 50  0001 C CNN
+F 4 "PH1-03-UA" H 4400 4900 50  0001 C CNN "PN"
 	1    4400 4900
 	1    0    0    -1  
 $EndComp
@@ -636,7 +642,8 @@ P 4400 3400
 F 0 "JP2" H 4400 3639 50  0000 C CNN
 F 1 "CH1 SEL A" H 4400 3548 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 3400 50  0001 C CNN
-F 3 "~" H 4400 3400 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 4400 3400 50  0001 C CNN
+F 4 "PH1-03-UA" H 4400 3400 50  0001 C CNN "PN"
 	1    4400 3400
 	1    0    0    -1  
 $EndComp
@@ -659,7 +666,8 @@ P 4400 5450
 F 0 "JP5" H 4400 5689 50  0000 C CNN
 F 1 "CH2 SEL A" H 4400 5598 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 5450 50  0001 C CNN
-F 3 "~" H 4400 5450 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 4400 5450 50  0001 C CNN
+F 4 "PH1-03-UA" H 4400 5450 50  0001 C CNN "PN"
 	1    4400 5450
 	1    0    0    -1  
 $EndComp

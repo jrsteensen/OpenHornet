@@ -1,13 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABSIS_ALE
+D This Sparkfun Pro-Micro-based breakout offers basic I/O capabilities, as well as HID, Hybrid HID, Pure DCS-BIOS, RS485 Slave, and RS485 Master capabilities.
+K ABSIS ALE HID USB RS485 Slave Master Hybrid
+$ENDCMP
+#
+$CMP ABSIS_ALE_Relay_Module
+D This ABSIS ALE backpack/accessory provides 2 channels of 5v/12v accessory power.
+K ABSIS ALE Relay Module
+$ENDCMP
+#
 $CMP ABSIS_BackLightControl
 D The ABSIS Backlighting Controller is an Arduino Mega based PCB that controls up to 12 channels of RGB LED chains that can be controlled by a single PWM pin.
 K ABSIS Backlighting Controller Backlight BL PWM
-$ENDCMP
-#
-$CMP ABSIS_Bulkhead_Connector
-D The ABSIS Bulkhead Connector provides passthrough connections for the ABSIS BUS.
-K ABSIS Bulkhead
 $ENDCMP
 #
 $CMP ABSIS_Generic_BackLightPCB
@@ -22,28 +27,28 @@ $CMP ABSIS_Mega_2.0
 D This is an arduino mega based IO PCB connecting to the ABSIS RS485 BUS as a slave device.
 $ENDCMP
 #
-$CMP ABSIS_Nano_2.0
-D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
-K ABSIS Nano RS485 Slave
-$ENDCMP
-#
-$CMP ABSIS_Nano_2.5
-D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
-K ABSIS Nano RS485 Slave
-$ENDCMP
-#
-$CMP ABSIS_Nano_Relay_Module
-D This ABSIS Nano backpack/accessory provides 2 channels of 12v accessory power.
-K ABSIS Nano Relay Module
-$ENDCMP
-#
-$CMP ABSIS_RS485BusMaster
-D The ABSIS RS485 Bus Master provide power and data to three ABSIS RS485 slave buses utilizing the MAX487 chip.
+$CMP ABSIS_RS485HIDBusMaster
+D The ABSIS RS485 Bus Master provide power and data to a single ABSIS RS485 slave buses utilizing the MAX487 chip and the option of HID inputs to the PC.
 K ABSIS RS485 MAX487 Master Bus
 $ENDCMP
 #
-$CMP ABSIS_RS485HIDBusMaster
-D The ABSIS RS485 Bus Master provide power and data to a single ABSIS RS485 slave buses utilizing the MAX487 chip and the option of HID inputs to the PC.
+$CMP OBSOLETE_ABSIS_Bulkhead_Connector
+D The ABSIS Bulkhead Connector provides passthrough connections for the ABSIS BUS.
+K ABSIS Bulkhead
+$ENDCMP
+#
+$CMP OBSOLETE_ABSIS_Nano_2.0
+D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
+K ABSIS Nano RS485 Slave
+$ENDCMP
+#
+$CMP OBSOLETE_ABSIS_Nano_2.5
+D This Arduino Nano-based RS485 slave offers basic I/O capabilities.
+K ABSIS Nano RS485 Slave
+$ENDCMP
+#
+$CMP OBSOLETE_ABSIS_RS485BusMaster
+D The ABSIS RS485 Bus Master provide power and data to three ABSIS RS485 slave buses utilizing the MAX487 chip.
 K ABSIS RS485 MAX487 Master Bus
 $ENDCMP
 #

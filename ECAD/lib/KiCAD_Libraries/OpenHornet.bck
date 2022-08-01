@@ -41,6 +41,10 @@ $CMP RWR_Control_Panel
 D EWI PCB based on ABSIS Nano
 $ENDCMP
 #
+$CMP STICK_CONTROLLER
+D A flight stick controller PCB for the OpenHornet Stick. It is compatible with all TM grips.
+$ENDCMP
+#
 $CMP SW_Rotary10
 D rotary switch with 12 positions
 K rotary switch
