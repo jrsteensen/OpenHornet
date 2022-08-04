@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
+Date "2022-08-04"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""

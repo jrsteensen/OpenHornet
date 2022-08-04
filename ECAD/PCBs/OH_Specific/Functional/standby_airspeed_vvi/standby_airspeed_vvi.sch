@@ -5,8 +5,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
+Date "2022-08-04"
+Rev "2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -21,23 +21,6 @@ Text Label 5700 2250 2    50   ~ 0
 COIL3
 Text Label 5700 2450 2    50   ~ 0
 COIL4
-Text Label 6250 1150 0    50   ~ 0
-COIL1
-Text Label 5750 1150 2    50   ~ 0
-COIL2
-Text Label 5750 1550 2    50   ~ 0
-COIL3
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
-U 1 1 6133AB04
-P 5950 1350
-F 0 "J1" H 6000 1767 50  0000 C CNN
-F 1 "ALT_CONN" H 6000 1676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5950 1350 50  0001 C CNN
-F 3 "~" H 5950 1350 50  0001 C CNN
-	1    5950 1350
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 6134005A
@@ -60,21 +43,6 @@ F 3 "~" H 6950 2700 50  0001 C CNN
 	1    6950 2700
 	0    1    1    0   
 $EndComp
-Text Label 6250 1550 0    50   ~ 0
-COIL4
-Text Label 5750 1250 2    50   ~ 0
-ZERO_DETECT
-$Comp
-L power:GND #PWR017
-U 1 1 61366637
-P 5750 1350
-F 0 "#PWR017" H 5750 1100 50  0001 C CNN
-F 1 "GND" V 5750 1200 50  0000 R CNN
-F 2 "" H 5750 1350 50  0001 C CNN
-F 3 "" H 5750 1350 50  0001 C CNN
-	1    5750 1350
-	0    1    1    0   
-$EndComp
 $Comp
 L Motor:Stepper_Motor_bipolar M1
 U 1 1 61379EDE
@@ -82,15 +50,15 @@ P 6000 2350
 F 0 "M1" H 6188 2474 50  0000 L CNN
 F 1 "VID29-02" H 6188 2383 50  0000 L CNN
 F 2 "KiCAD Libraries:VID29-02" H 6010 2340 50  0001 C CNN
-F 3 "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0" H 6010 2340 50  0001 C CNN
+F 3 "https://guy.carpenter.id.au/gaugette/resources/vid/20091026113525_VID29_manual_EN-080606.pdf" H 6010 2340 50  0001 C CNN
 	1    6000 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J3
+L Connector:Conn_01x03_Male J4
 U 1 1 6137A947
 P 6900 1350
-F 0 "J3" H 6800 1400 50  0000 C CNN
+F 0 "J4" H 6800 1400 50  0000 C CNN
 F 1 "ZERO" H 6750 1300 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 1350 50  0001 C CNN
 F 3 "~" H 6900 1350 50  0001 C CNN
@@ -155,17 +123,6 @@ Text Notes 450  650  0    100  ~ 0
 NOTES: (UNLESS OTHERWISE SPECIFIED)
 Text Notes 500  800  0    50   ~ 0
 1) XXXX
-$Comp
-L power:+5V #PWR015
-U 1 1 613C5161
-P 5750 1450
-F 0 "#PWR015" H 5750 1300 50  0001 C CNN
-F 1 "+5V" V 5765 1578 50  0000 L CNN
-F 2 "" H 5750 1450 50  0001 C CNN
-F 3 "" H 5750 1450 50  0001 C CNN
-	1    5750 1450
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 613EF815
@@ -271,19 +228,74 @@ Text Label 5850 3600 2    50   ~ 0
 LED_DIN
 Text Label 7300 3600 0    50   ~ 0
 LED_DOUT
-Text Label 6250 1250 0    50   ~ 0
-LED_DIN
-Text Label 6250 1450 0    50   ~ 0
-LED_DOUT
 $Comp
-L power:GND #PWR0101
-U 1 1 61395B95
-P 6250 1350
-F 0 "#PWR0101" H 6250 1100 50  0001 C CNN
-F 1 "GND" V 6250 1200 50  0000 R CNN
-F 2 "" H 6250 1350 50  0001 C CNN
-F 3 "" H 6250 1350 50  0001 C CNN
-	1    6250 1350
-	0    -1   -1   0   
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 62EC0411
+P 5900 1600
+F 0 "J3" H 5950 1800 50  0000 C CNN
+F 1 "STEPPER" H 5950 1700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 1600 50  0001 C CNN
+F 3 "~" H 5900 1600 50  0001 C CNN
+	1    5900 1600
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1600 2    50   ~ 0
+COIL1
+Text Label 5700 1700 2    50   ~ 0
+COIL2
+Text Label 6200 1700 0    50   ~ 0
+COIL3
+Text Label 6200 1600 0    50   ~ 0
+COIL4
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J2
+U 1 1 62EC353A
+P 5900 1150
+F 0 "J2" H 5950 1350 50  0000 C CNN
+F 1 "LED/ZERO" H 5950 1250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 1150 50  0001 C CNN
+F 3 "~" H 5900 1150 50  0001 C CNN
+	1    5900 1150
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1150 2    50   ~ 0
+LED_DIN
+Text Label 6200 1150 0    50   ~ 0
+LED_DOUT
+Text Label 5700 1250 2    50   ~ 0
+ZERO_DETECT
+NoConn ~ 6200 1250
+$Comp
+L Connector_Generic:Conn_02x01 J1
+U 1 1 62EC4BD1
+P 5900 800
+F 0 "J1" H 5950 1000 50  0000 C CNN
+F 1 "PWR" H 5950 900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5900 800 50  0001 C CNN
+F 3 "~" H 5900 800 50  0001 C CNN
+	1    5900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 62EC5A3D
+P 5700 800
+F 0 "#PWR0101" H 5700 650 50  0001 C CNN
+F 1 "+5V" H 5700 950 50  0000 C CNN
+F 2 "" H 5700 800 50  0001 C CNN
+F 3 "" H 5700 800 50  0001 C CNN
+	1    5700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 62EC6840
+P 6200 800
+F 0 "#PWR0102" H 6200 550 50  0001 C CNN
+F 1 "GND" H 6200 650 50  0000 C CNN
+F 2 "" H 6200 800 50  0001 C CNN
+F 3 "" H 6200 800 50  0001 C CNN
+	1    6200 800 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

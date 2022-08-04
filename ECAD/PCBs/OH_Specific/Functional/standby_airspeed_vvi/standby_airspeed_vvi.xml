@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\standby_airspeed_vvi\standby_airspeed_vvi.sch</source>
+    <date>8/4/2022 11:59:42</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>2</rev>
+        <date>2022-08-04</date>
+        <source>standby_airspeed_vvi.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>VID29-02</value>
+      <footprint>KiCAD Libraries:VID29-02</footprint>
+      <datasheet>https://guy.carpenter.id.au/gaugette/resources/vid/20091026113525_VID29_manual_EN-080606.pdf</datasheet>
+      <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61379EDE</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>ZERO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6137A947</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613EF815</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613F0076</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613F01D2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1938</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>https://www.adafruit.com/product/1938</datasheet>
+      <libsource lib="KiCadCustomLib" part="1938" description="RGB 5mm LED thru-hole with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61398E20</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1938</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>https://www.adafruit.com/product/1938</datasheet>
+      <libsource lib="KiCadCustomLib" part="1938" description="RGB 5mm LED thru-hole with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613992CB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>STEPPER</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62EC0411</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>LED/ZERO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62EC353A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PWR</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x01" description="Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62EC4BD1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x01">
+      <description>Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes., script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="1938">
+      <description>RGB 5mm LED thru-hole with integrated controller</description>
+      <docs>https://www.adafruit.com/product/1938</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1938</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Motor" part="Stepper_Motor_bipolar">
+      <description>4-wire bipolar stepper motor</description>
+      <docs>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Stepper_Motor_bipolar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Motor.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="2" name="/COIL2">
+      <node ref="J3" pin="3"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="3" name="/COIL4">
+      <node ref="M1" pin="4"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="4" name="/COIL1">
+      <node ref="M1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="5" name="/COIL3">
+      <node ref="M1" pin="3"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="J4" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="8" name="/ZERO_DETECT">
+      <node ref="J4" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad4)">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="10" name="/LED_DOUT">
+      <node ref="D2" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="/LED_DIN">
+      <node ref="D1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+  </nets>
+</export>

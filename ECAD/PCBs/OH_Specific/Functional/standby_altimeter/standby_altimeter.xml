@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\standby_altimeter\standby_altimeter.sch</source>
-    <date>9/7/2021 12:46:25</date>
+    <date>8/4/2022 13:13:18</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
-        <rev/>
-        <date/>
+        <rev>2</rev>
+        <date>2022-08-04</date>
         <source>standby_altimeter.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -21,11 +21,11 @@
   <components>
     <comp ref="J1">
       <value>ALT_CONN</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6133AB04</tstamp>
+      <tstamp>6139C191</tstamp>
     </comp>
     <comp ref="DS1">
       <value>10K_ALT_DISP</value>
@@ -57,7 +57,7 @@
       <datasheet>http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0</datasheet>
       <libsource lib="Motor" part="Stepper_Motor_bipolar" description="4-wire bipolar stepper motor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>61379EDE</tstamp>
+      <tstamp>6139C195</tstamp>
     </comp>
     <comp ref="J3">
       <value>ZERO</value>
@@ -65,7 +65,7 @@
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6137A947</tstamp>
+      <tstamp>6139C196</tstamp>
     </comp>
     <comp ref="R3">
       <value>10K</value>
@@ -118,7 +118,7 @@
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>613EF815</tstamp>
+      <tstamp>6139C19C</tstamp>
     </comp>
     <comp ref="H2">
       <value>MountingHole</value>
@@ -126,7 +126,7 @@
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>613F0076</tstamp>
+      <tstamp>6139C19D</tstamp>
     </comp>
     <comp ref="H3">
       <value>MountingHole</value>
@@ -134,7 +134,7 @@
       <datasheet>~</datasheet>
       <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>613F01D2</tstamp>
+      <tstamp>6139C19E</tstamp>
     </comp>
     <comp ref="U1">
       <value>TCA9548APWR</value>
@@ -146,6 +146,22 @@
       <libsource lib="Interface_Expansion" part="TCA9548APWR" description="Low voltage 8-channel I2C switch with reset, TSSOP-24"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6137F795</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1938</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>https://www.adafruit.com/product/1938</datasheet>
+      <libsource lib="KiCadCustomLib" part="1938" description="RGB 5mm LED thru-hole with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61398E20</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1938</value>
+      <footprint>LED_THT:LED_D5.0mm-4_RGB</footprint>
+      <datasheet>https://www.adafruit.com/product/1938</datasheet>
+      <libsource lib="KiCadCustomLib" part="1938" description="RGB 5mm LED thru-hole with integrated controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613992CB</tstamp>
     </comp>
   </components>
   <libparts>
@@ -182,15 +198,15 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
-      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x06_Odd_Even</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -205,6 +221,8 @@
         <pin num="10" name="Pin_10" type="passive"/>
         <pin num="11" name="Pin_11" type="passive"/>
         <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -278,6 +296,24 @@
         <pin num="24" name="VCC" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="KiCadCustomLib" part="1938">
+      <description>RGB 5mm LED thru-hole with integrated controller</description>
+      <docs>https://www.adafruit.com/product/1938</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1938</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="input"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole">
       <description>Mounting Hole without connection</description>
       <docs>~</docs>
@@ -322,6 +358,9 @@
     <library logical="Interface_Expansion">
       <uri>C:\Program Files\KiCad\share\kicad\library/Interface_Expansion.lib</uri>
     </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
     <library logical="Mechanical">
       <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
@@ -330,125 +369,141 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R1-Pad2)">
-      <node ref="U1" pin="3"/>
-      <node ref="R1" pin="2"/>
+    <net code="1" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="DS2" pin="1"/>
-      <node ref="DS1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="U1" pin="21"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J3" pin="3"/>
-      <node ref="J1" pin="12"/>
-    </net>
-    <net code="3" name="+5V">
-      <node ref="R3" pin="1"/>
+    <net code="2" name="+5V">
+      <node ref="D2" pin="2"/>
       <node ref="R2" pin="1"/>
-      <node ref="J1" pin="10"/>
-      <node ref="J3" pin="1"/>
       <node ref="R1" pin="1"/>
-      <node ref="C1" pin="1"/>
+      <node ref="D1" pin="2"/>
       <node ref="U1" pin="24"/>
+      <node ref="J1" pin="12"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="1"/>
     </net>
-    <net code="4" name="/SCL">
-      <node ref="J1" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="22"/>
+    <net code="3" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="5" name="/SDA">
-      <node ref="J1" pin="4"/>
-      <node ref="U1" pin="23"/>
-      <node ref="R2" pin="2"/>
+    <net code="4" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="6" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
+    <net code="5" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="7" name="Net-(U1-Pad14)">
+    <net code="6" name="Net-(U1-Pad14)">
       <node ref="U1" pin="14"/>
     </net>
-    <net code="8" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
+    <net code="7" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
     </net>
-    <net code="9" name="Net-(U1-Pad16)">
+    <net code="8" name="Net-(U1-Pad16)">
       <node ref="U1" pin="16"/>
     </net>
-    <net code="10" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
+    <net code="9" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="11" name="Net-(U1-Pad18)">
+    <net code="10" name="Net-(U1-Pad18)">
       <node ref="U1" pin="18"/>
     </net>
-    <net code="12" name="Net-(U1-Pad19)">
-      <node ref="U1" pin="19"/>
+    <net code="11" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="13" name="Net-(U1-Pad20)">
+    <net code="12" name="Net-(U1-Pad20)">
       <node ref="U1" pin="20"/>
     </net>
-    <net code="14" name="/SD0">
-      <node ref="U1" pin="4"/>
+    <net code="13" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="14" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="/SCL">
+      <node ref="U1" pin="22"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="DS2" pin="1"/>
+      <node ref="D1" pin="3"/>
+      <node ref="DS1" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="17" name="/SDA">
+      <node ref="J1" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="19" name="/LED_DOUT">
+      <node ref="J1" pin="1"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="20" name="/SD0">
       <node ref="DS1" pin="4"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="15" name="/SC0">
-      <node ref="DS1" pin="3"/>
+    <net code="21" name="/SC0">
       <node ref="U1" pin="5"/>
+      <node ref="DS1" pin="3"/>
     </net>
-    <net code="16" name="/SD1">
+    <net code="22" name="/SD1">
       <node ref="U1" pin="6"/>
       <node ref="DS2" pin="4"/>
     </net>
-    <net code="17" name="/SC1">
+    <net code="23" name="/SC1">
       <node ref="U1" pin="7"/>
       <node ref="DS2" pin="3"/>
     </net>
-    <net code="18" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
+    <net code="24" name="/LED_DIN">
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="13"/>
     </net>
-    <net code="19" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="20" name="Net-(U1-Pad11)">
-      <node ref="U1" pin="11"/>
-    </net>
-    <net code="21" name="Net-(U1-Pad10)">
-      <node ref="U1" pin="10"/>
-    </net>
-    <net code="22" name="+3V3">
-      <node ref="J1" pin="11"/>
+    <net code="25" name="+3V3">
       <node ref="DS2" pin="2"/>
       <node ref="DS1" pin="2"/>
+      <node ref="J1" pin="10"/>
     </net>
-    <net code="23" name="/COIL1">
+    <net code="26" name="/ZERO_DETECT">
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="27" name="/COIL4">
+      <node ref="M1" pin="4"/>
       <node ref="J1" pin="5"/>
+    </net>
+    <net code="28" name="/CH_A">
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="29" name="/COIL1">
+      <node ref="J1" pin="7"/>
       <node ref="M1" pin="1"/>
     </net>
-    <net code="24" name="/CH_B">
-      <node ref="J2" pin="3"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="25" name="/CH_A">
-      <node ref="J2" pin="1"/>
+    <net code="30" name="/CH_B">
       <node ref="J1" pin="8"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="26" name="/COIL2">
-      <node ref="M1" pin="2"/>
-      <node ref="J1" pin="7"/>
-    </net>
-    <net code="27" name="/COIL3">
-      <node ref="J1" pin="1"/>
-      <node ref="M1" pin="3"/>
-    </net>
-    <net code="28" name="/COIL4">
-      <node ref="J1" pin="3"/>
-      <node ref="M1" pin="4"/>
-    </net>
-    <net code="29" name="/ZERO_DETECT">
+    <net code="31" name="/COIL2">
       <node ref="J1" pin="9"/>
-      <node ref="J3" pin="2"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="32" name="/COIL3">
+      <node ref="J1" pin="3"/>
+      <node ref="M1" pin="3"/>
     </net>
   </nets>
 </export>
