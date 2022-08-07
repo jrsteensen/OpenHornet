@@ -16,6 +16,10 @@ $CMP DDI_Button_PCB
 D DDI Button PCB, based on TCA9534
 $ENDCMP
 #
+$CMP DUAL_NEEDLE_GAUGE
+D DUAL STEPPER/BL PCB FOR 1.5" DUAL NEEDLE GAUGES
+$ENDCMP
+#
 $CMP ER-OLEDM023-1W
 D 2.2" OLED Display Module with 20 Pin Breakout (White on Black)
 F https://www.buydisplay.com/download/manual/ER-OLEDM023-1_Series_Datasheet.pdf
@@ -33,8 +37,19 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP HB-U14P
+D 13-Port USB 2.0 Hub
+K usb 13-port 13 2.0 hub
+F http://sabrent.com/products/hb-u14p
+$ENDCMP
+#
 $CMP OH-OPT-DIGIT
 D 16 segment OPT Display Digit for F18 UFC
+$ENDCMP
+#
+$CMP RALT_CONTROLLER
+D Control PCB for RALT Gauge
+K RALT
 $ENDCMP
 #
 $CMP RWR_Control_Panel
@@ -53,6 +68,12 @@ $ENDCMP
 #
 $CMP SW_Rotary20
 D rotary switch with 12 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP SW_Rotary8
+D rotary switch with 8 positions
 K rotary switch
 F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
 $ENDCMP
