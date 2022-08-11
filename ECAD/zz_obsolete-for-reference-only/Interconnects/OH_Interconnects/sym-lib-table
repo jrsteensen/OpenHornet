@@ -2,4 +2,5 @@
   (lib (name ABSIS)(type Legacy)(uri ${KIPRJMOD}/../../../lib/KiCAD_Libraries/ABSIS.lib)(options "")(descr ""))
   (lib (name OpenHornet)(type Legacy)(uri ${KIPRJMOD}/../../../lib/KiCAD_Libraries/OpenHornet.lib)(options "")(descr ""))
   (lib (name KiCadCustomLib)(type Legacy)(uri ${KIPRJMOD}/../../../lib/KiCAD_Libraries/KiCadCustomLib.lib)(options "")(descr ""))
+  (lib (name Main_Instrument_Panel-rescue)(type Legacy)(uri ${KIPRJMOD}/Main_Instrument_Panel-rescue.lib)(options "")(descr ""))
 )

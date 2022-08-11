@@ -43,6 +43,10 @@ K usb 13-port 13 2.0 hub
 F http://sabrent.com/products/hb-u14p
 $ENDCMP
 #
+$CMP IFEI
+D Combined BL/Switch PCB for IFEI.
+$ENDCMP
+#
 $CMP OH-OPT-DIGIT
 D 16 segment OPT Display Digit for F18 UFC
 $ENDCMP
