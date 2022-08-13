@@ -1,6 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 800168
+$CMP (RTD2660H)
 D TFT Controller for ER-TFTV101A1-1
 $ENDCMP
 #
@@ -8,12 +8,12 @@ $CMP ANALOG_STICK_BREAKOUT
 D BREAKOUT PCB FOR THE RKJXV12 MULTI-AXIS STICK
 $ENDCMP
 #
-$CMP DDI_AMPCD_Shield
-D Shield for DDI/AMPCD interfacing
+$CMP DDI_AMPCD_Button_PCB
+D DDI or AMPCD Button PCB, based on TCA9534
 $ENDCMP
 #
-$CMP DDI_Button_PCB
-D DDI Button PCB, based on TCA9534
+$CMP DDI_AMPCD_Controller
+D Controller for DDI/AMPCD interfacing based on ABSIS ALE
 $ENDCMP
 #
 $CMP DUAL_NEEDLE_GAUGE
@@ -25,12 +25,17 @@ D 2.2" OLED Display Module with 20 Pin Breakout (White on Black)
 F https://www.buydisplay.com/download/manual/ER-OLEDM023-1_Series_Datasheet.pdf
 $ENDCMP
 #
-$CMP ER-TFTB101A1-1
+$CMP ER-TFTV101A1-1
 D ER-TFTV101A1-1 10.1" TFT Display
 $ENDCMP
 #
 $CMP EWI_PCB
 D EWI PCB based on ABSIS Nano and MAX7219
+$ENDCMP
+#
+$CMP F-1020
+D 10A 12V Forward & Reverse Relay Module for DC Motor Control
+F https://www.czh-labs.com/tmp/madeimg/datasheet/f-1020.pdf
 $ENDCMP
 #
 $CMP GS105
@@ -44,7 +49,7 @@ F http://sabrent.com/products/hb-u14p
 $ENDCMP
 #
 $CMP IFEI
-D Combined BL/Switch PCB for IFEI.
+D SWITCH/BL PCB FOR THE IFEI
 $ENDCMP
 #
 $CMP OH-OPT-DIGIT
@@ -58,6 +63,11 @@ $ENDCMP
 #
 $CMP RWR_Control_Panel
 D EWI PCB based on ABSIS Nano
+$ENDCMP
+#
+$CMP STANDBY_CONTROLLER
+D Control PCB for STANDBY INSTRUMENTS
+K gauge instruments standby airspeed
 $ENDCMP
 #
 $CMP STICK_CONTROLLER
@@ -86,9 +96,19 @@ $CMP THROTTLE_CONTROLLER
 D A throttle controller PCB for the OpenHornet Throttle.
 $ENDCMP
 #
+$CMP USB32HD4
+D USB 3.0 TYPE A TO 4X HDMI EXTERNAL DISPLAY ADAPTER
+F https://www.startech.com/en-us/audio-video-products/usb32hd4#tech--specs
+$ENDCMP
+#
 $CMP USB_3.0_4_Port_Hub
 D USB-4PminiH, 4-Port USB 3.0 HUB
 F https://www.coolgear.com/wp-content/uploads/2020/07/USBG-4PminiH-Technical-Data-Sheet-v01.200713.pdf
+$ENDCMP
+#
+$CMP X502-1
+D Kenwood 500W @ 2ohm max CL D Mono Power Amplifier (used to power Buttkicker.)
+F https://www.kenwood.com/usa/car/excelon/x502-1/
 $ENDCMP
 #
 #End Doc Library
