@@ -8,6 +8,12 @@ $CMP ANALOG_STICK_BREAKOUT
 D BREAKOUT PCB FOR THE RKJXV12 MULTI-AXIS STICK
 $ENDCMP
 #
+$CMP B09V6WY1SD
+D 7-Port USB 3.0 Hub
+K usb 7-port 3.0 hub
+F https://www.amazon.com/Splitter%EF%BC%8C7-Independent-Switch-Indicators-Computer/dp/B09V6WY1SD
+$ENDCMP
+#
 $CMP DDI_AMPCD_Button_PCB
 D DDI or AMPCD Button PCB, based on TCA9534
 $ENDCMP

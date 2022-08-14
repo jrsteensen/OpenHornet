@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\psawka\Documents\GitHub\OpenHornet\ECAD\PCBs\ABSIS\ABSIS_ATX PSU Board\ATX PSU Board\ATX_PSU_Board.sch</source>
+    <date>2020-11-11 5:39:17 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ABSIS ATX Power Board</title>
+        <company>WWW.OPENHORNET.COM</company>
+        <rev>1</rev>
+        <date>2020-11-08</date>
+        <source>ATX_PSU_Board.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Power Swtich</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8D26E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA933DD</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>ABSIS BACKLIGHT PWR</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-10A2_2x05_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Top_Bottom" description="Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA94733</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA85865</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8663F</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA87644</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA88967</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA897DA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22808</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8D2DC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="Description">LED GREEN DIFFUSED</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="LCSC">C84267</field>
+        <field name="Manufacture PN">FC-DA1608UGK-520D10</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9079C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>150</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22808</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA960E1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>56</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081724_UNI-ROYAL-Uniroyal-Elec-0603WAF560JT5E_C25196.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25196</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9EB04</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021213_UNI-ROYAL-Uniroyal-Elec-0603WAF5600T5E_C23204.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23204</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA9FEAC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ATX-24</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-24A2_2x12_P4.20mm_Vertical</footprint>
+      <datasheet>https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33</datasheet>
+      <libsource lib="Connector" part="ATX-24" description="ATX Power supply 24pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA8791F</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>MEGA BUS POWER</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Top_Bottom" description="Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAE8093</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Socket_Arduino_Mega:Arduino_1pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB064ED</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Socket_Arduino_Mega:Arduino_1pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB06D5A</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>Socket_Arduino_Mega:Arduino_1pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB06FDC</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Socket_Arduino_Mega:Arduino_1pin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB05B70</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Green LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="Description">LED GREEN DIFFUSED</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="LCSC">C84267</field>
+        <field name="Manufacture PN">FC-DA1608UGK-520D10</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD0C26</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Green LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="Description">LED GREEN DIFFUSED</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="LCSC">C84267</field>
+        <field name="Manufacture PN">FC-DA1608UGK-520D10</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD136C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Green LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-DA1608UGK-520D10_C84267.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="Description">LED GREEN DIFFUSED</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="LCSC">C84267</field>
+        <field name="Manufacture PN">FC-DA1608UGK-520D10</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAD1A79</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="ATX-24">
+      <description>ATX Power supply 24pins</description>
+      <docs>https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33</docs>
+      <footprints>
+        <fp>*Mini?Fit*2x12*Vertical*</fp>
+        <fp>*Mini?Fit*2x12*Horizontal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ATX-24</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_out"/>
+        <pin num="2" name="+3.3V" type="passive"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="+5V" type="power_out"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="+5V" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="PWR_OK" type="output"/>
+        <pin num="9" name="+5VSB" type="power_out"/>
+        <pin num="10" name="+12V" type="power_out"/>
+        <pin num="11" name="+12V" type="passive"/>
+        <pin num="12" name="+3.3V" type="passive"/>
+        <pin num="13" name="+3.3V" type="passive"/>
+        <pin num="14" name="-12V" type="power_out"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="PS_ON#" type="openCol"/>
+        <pin num="17" name="GND" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="NC" type="NotConnected"/>
+        <pin num="21" name="+5V" type="passive"/>
+        <pin num="22" name="+5V" type="passive"/>
+        <pin num="23" name="+5V" type="passive"/>
+        <pin num="24" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Top_Bottom">
+      <description>Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Top_Bottom">
+      <description>Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Top_Bottom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V_SUPPLY">
+      <node ref="J2" pin="4"/>
+      <node ref="J3" pin="6"/>
+      <node ref="J2" pin="21"/>
+      <node ref="J2" pin="22"/>
+      <node ref="J2" pin="23"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J10" pin="7"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J8" pin="6"/>
+      <node ref="J8" pin="7"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J6" pin="6"/>
+      <node ref="J9" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J9" pin="7"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="2" name="/+5VSB_SUPPLY">
+      <node ref="J2" pin="9"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J2" pin="18"/>
+      <node ref="J2" pin="17"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J2" pin="19"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="24"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J3" pin="10"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="/+3.3V_SUPPLY">
+      <node ref="J4" pin="5"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J8" pin="5"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="12"/>
+      <node ref="J2" pin="13"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J9" pin="5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="7" name="/+12V_SUPPLY">
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="3"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J8" pin="8"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J7" pin="8"/>
+      <node ref="J6" pin="8"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J10" pin="8"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J2" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J9" pin="8"/>
+      <node ref="J4" pin="8"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J2" pin="11"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="8" name="/PWR_OK">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="9" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad20)">
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="17" name="/PS_ON">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="16"/>
+    </net>
+  </nets>
+</export>
