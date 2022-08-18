@@ -138,12 +138,12 @@ PS_ON
 Wire Wire Line
 	1650 1400 2000 1400
 $Comp
-L ATX_PSU_Board-rescue:Conn_01x02-Connector_Generic J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5FA8D26E
 P 8800 5250
 F 0 "J1" H 8880 5242 50  0000 L CNN
-F 1 "POWER SWITCH" H 8880 5151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8800 5250 50  0001 C CNN
+F 1 "I/O" H 8880 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8800 5250 50  0001 C CNN
 F 3 "~" H 8800 5250 50  0001 C CNN
 	1    8800 5250
 	1    0    0    -1  
@@ -160,13 +160,7 @@ F 3 "" H 8500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 5450 8500 5350
-Wire Wire Line
-	8500 5350 8600 5350
-Text Label 8250 5250 0    50   ~ 0
-PS_ON
-Wire Wire Line
-	8600 5250 8250 5250
+	8500 5450 8600 5450
 $Comp
 L ATX_PSU_Board-rescue:Conn_02x04_Top_Bottom-Connector_Generic J4
 U 1 1 5FA933DD
@@ -772,7 +766,7 @@ LED FEEDBACK
 Text Notes 8350 900  0    39   ~ 0
 NOTE: LED Feedback is optional and not required
 Text Notes 8250 5000 0    39   ~ 0
-CONNECTION TO POWER SWITCH PANEL
+CONNECTION TO PIT MANAGER
 Wire Notes Line
 	8200 4850 9450 4850
 Wire Notes Line
@@ -1409,4 +1403,10 @@ Wire Wire Line
 Connection ~ 2800 4050
 Wire Wire Line
 	2800 4050 2800 4150
+Text Label 8600 5250 2    31   ~ 0
++5VSB_SUPPLY
+Text Label 8600 5350 2    31   ~ 0
+PWR_OK
+Text Label 8600 5150 2    50   ~ 0
+PS_ON
 $EndSCHEMATC

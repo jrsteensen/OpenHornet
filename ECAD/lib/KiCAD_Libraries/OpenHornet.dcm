@@ -48,6 +48,10 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP GenericATXPSU
+D Generic ATX PSU Symbol
+$ENDCMP
+#
 $CMP HB-U14P
 D 13-Port USB 2.0 Hub
 K usb 13-port 13 2.0 hub
