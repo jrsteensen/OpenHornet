@@ -604,26 +604,26 @@ U 1 1 6300989F
 P 4200 4200
 F 0 "J3" H 4300 4750 50  0000 C CNN
 F 1 "EXT ACC OUT" H 4300 4650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4200 4200 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4200 4200 50  0001 C CNN
 F 3 "~" H 4200 4200 50  0001 C CNN
 	1    4200 4200
 	1    0    0    -1  
 $EndComp
-Text Label 4400 3900 0    50   ~ 0
-EXT_ACC1+
 Text Label 4400 4000 0    50   ~ 0
+EXT_ACC1+
+Text Label 4400 3900 0    50   ~ 0
 EXT_ACC1-
-Text Label 4400 4100 0    50   ~ 0
-EXT_ACC2+
 Text Label 4400 4200 0    50   ~ 0
+EXT_ACC2+
+Text Label 4400 4100 0    50   ~ 0
 EXT_ACC2-
-Text Label 4400 4300 0    50   ~ 0
-EXT_ACC3+
 Text Label 4400 4400 0    50   ~ 0
+EXT_ACC3+
+Text Label 4400 4300 0    50   ~ 0
 EXT_ACC3-
-Text Label 4400 4500 0    50   ~ 0
-EXT_ACC4+
 Text Label 4400 4600 0    50   ~ 0
+EXT_ACC4+
+Text Label 4400 4500 0    50   ~ 0
 EXT_ACC4-
 Text Label 7950 3850 0    50   ~ 0
 TX0_D1
