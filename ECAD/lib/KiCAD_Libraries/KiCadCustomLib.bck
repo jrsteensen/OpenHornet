@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 16x1Segment
-D 16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
-K LED Segment 16seg Display Tek TekCreations
-F https://tekcreations.space/product/16-segment-green-led-display/
-$ENDCMP
-#
 $CMP 1938
 D RGB 5mm LED thru-hole with integrated controller
 K RGB 5mm LED thru-hole TH NeoPixel addressable
@@ -189,6 +183,12 @@ $CMP ELD-426SYGWA
 D Double 7 segment brilliant yellow green LED common anode
 K Double 7 segment brilliant yellow green LED common anode
 F http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
+$ENDCMP
+#
+$CMP GN1640T
+D LED Display Driver, 8 X 16
+K LED Display Driver 8x16
+F https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf
 $ENDCMP
 #
 $CMP HDSM-441B
@@ -467,6 +467,11 @@ K 7 segment LED display common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
 $ENDCMP
 #
+$CMP SW_Rotary4
+D rotary switch with 4 positions
+K rotary switch
+$ENDCMP
+#
 $CMP SW_Rotary5
 D rotary switch with 5 positions
 K rotary switch
@@ -489,10 +494,16 @@ K switch normally-open pushbutton push-button LED
 F http://spec_sheets.e-switch.com/specs/P010362.pdf
 $ENDCMP
 #
-$CMP TM1640
-D LED Display Driver, 8 X 16
-K LED Display Driver 8x16
-F https://dl.icdst.org/pdfs/files3/1a3723ca081e8824039eb846c3e42050.pdf
+$CMP UFCOptionDigit
+D 16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
+K LED Segment 16seg Display Tek TekCreations
+F https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-led-display/
+$ENDCMP
+#
+$CMP UFCSingleDigit
+D 16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
+K LED Segment 16seg Display Tek TekCreations
+F https://tekcreations.space/product/16-segment-green-led-display/
 $ENDCMP
 #
 $CMP VID60-02
