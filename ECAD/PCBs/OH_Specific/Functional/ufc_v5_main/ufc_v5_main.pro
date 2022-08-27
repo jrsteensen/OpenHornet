@@ -1,4 +1,4 @@
-update=2/1/2021 5:28:52 PM
+update=8/24/2022 14:27:17
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,8 +11,8 @@ version=1
 LibDir=
 [schematic_editor]
 version=1
-PageLayoutDescrFile=E:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
-PlotDirectoryName=
+PageLayoutDescrFile=C:/GitHub/OpenHornet/ECAD/lib/templates/Open_hornet_frame.kicad_wks
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -23,7 +23,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=ufc_v4_main.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -42,10 +42,13 @@ TrackWidth4=0.4572
 TrackWidth5=0.635
 TrackWidth6=0.9144
 TrackWidth7=1.8288
+TrackWidth8=6
 ViaDiameter1=0.6
 ViaDrill1=0.4
-ViaDiameter2=0.73152
-ViaDrill2=0.6096
+ViaDiameter2=0.55
+ViaDrill2=0.35
+ViaDiameter3=0.73152
+ViaDrill3=0.6096
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -79,12 +82,12 @@ Type=2
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=2
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=1
-Enabled=1
+Type=0
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -255,17 +258,6 @@ dPairViaGap=0.25
 Name=+5V
 Clearance=0.2
 TrackWidth=0.457
-ViaDiameter=0.6
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=Supply_PWR
-Clearance=0.25
-TrackWidth=0.635
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3

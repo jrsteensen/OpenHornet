@@ -22,6 +22,11 @@ K LCD STN Graphics 128x64
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
 $ENDCMP
 #
+$CMP AW9523BTQR
+D 16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER
+F https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf
+$ENDCMP
+#
 $CMP AW9656QNR
 F https://pdf1.alldatasheet.net/datasheet-pdf/marking/1148544/AWINIC/AW9656QNR.html
 $ENDCMP
@@ -213,6 +218,11 @@ $CMP HDSM-543B
 D Double 7 segment Blue LED common cathode SMD mount
 K Double 7 segment Blue LED common cathode SMD mount
 F https://docs.broadcom.com/docs/AV02-1588EN
+$ENDCMP
+#
+$CMP HT1621B
+D DRIVER, LCD
+F https://datasheet.lcsc.com/lcsc/1809121513_Holtek-Semicon-HT1621B_C7532.pdf
 $ENDCMP
 #
 $CMP HY1602E
@@ -455,6 +465,10 @@ K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
 #
+$CMP S2_MINI
+F https://www.wemos.cc/en/latest/s2/s2_mini.html
+$ENDCMP
+#
 $CMP SBC18-11EGWA
 D Single digit 7 segment hyper red and green LED display, common cathode
 K 7 segment LED display common cathode
@@ -498,6 +512,10 @@ $CMP UFCOptionDigit
 D 16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
 K LED Segment 16seg Display Tek TekCreations
 F https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-led-display/
+$ENDCMP
+#
+$CMP UFCScratchpadLCD
+D UFC Scratchpad LCD, TekCreations.space
 $ENDCMP
 #
 $CMP UFCSingleDigit

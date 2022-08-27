@@ -1,0 +1,3359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\ufc_v5_main\ufc_v5_main.sch</source>
+    <date>8/26/2022 11:25:16</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UFC v5 MAIN</title>
+        <company>OPENHORNET.COM</company>
+        <rev>1</rev>
+        <date>2022-08-20</date>
+        <source>ufc_v5_main.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="TP1">
+      <value>5V</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC341F6</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64B2CAF4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891A1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891AD</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891B9</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891C5</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891E9</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D891F5</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D89264</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D892BB</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D892C7</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D892D3</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D8932A</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D89336</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D89342</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D89399</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D893A5</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D893B1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654246D3</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>654252E8</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>655356AB</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65536128</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65746140</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65746DC3</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657C9667</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657C9672</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6586D100</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65871413</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>658727A8</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65873829</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>658747C2</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65875591</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BA03</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BA5A</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BA66</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BA72</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BAC9</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BAD5</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BAE1</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BB38</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BB44</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BB50</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BBA7</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BBB3</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BBBF</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC16</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC22</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC2E</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC85</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC9D</tstamp>
+    </comp>
+    <comp ref="MK1">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3EB27C</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3ECA9A</tstamp>
+    </comp>
+    <comp ref="MK3">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3ECC02</tstamp>
+    </comp>
+    <comp ref="MK4">
+      <value>MH</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3ECD67</tstamp>
+    </comp>
+    <comp ref="POT1">
+      <value>VOL1</value>
+      <footprint>OHSwitches:BR10K_Pot_11mm_x_11mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B80BA</tstamp>
+    </comp>
+    <comp ref="POT2">
+      <value>VOL2</value>
+      <footprint>OHSwitches:BR10K_Pot_11mm_x_11mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E5950</tstamp>
+    </comp>
+    <comp ref="POT3">
+      <value>BRT</value>
+      <footprint>OHSwitches:BR10K_Pot_11mm_x_11mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E5B1B</tstamp>
+    </comp>
+    <comp ref="MK5">
+      <value>SW_ADF</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601E607B</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>GN1640T</value>
+      <footprint>Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2758330</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="GN1640T" description="LED Display Driver, 8 X 16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6306A8EF</tstamp>
+    </comp>
+    <comp ref="DS7">
+      <value>UFCSingleDigit</value>
+      <footprint>KiCAD Libraries:UFCSingleDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCSingleDigit" description="16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630841A0</tstamp>
+    </comp>
+    <comp ref="DS8">
+      <value>UFCSingleDigit</value>
+      <footprint>KiCAD Libraries:UFCSingleDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCSingleDigit" description="16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63098645</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="PN">CL21A106KAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>636CE34E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>GN1640T</value>
+      <footprint>Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2758330</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="GN1640T" description="LED Display Driver, 8 X 16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C9F46C</tstamp>
+    </comp>
+    <comp ref="DS3">
+      <value>UFCOptionDigit</value>
+      <footprint>KiCAD Libraries:UFCOptionDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCOptionDigit" description="16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D04BAB</tstamp>
+    </comp>
+    <comp ref="DS2">
+      <value>UFCOptionDigit</value>
+      <footprint>KiCAD Libraries:UFCOptionDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCOptionDigit" description="16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D0FC17</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="PN">CL21A106KAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ECC10F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="PN">CL21A106KAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ECC11E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811121310_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="PN">CL21A106KAYNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ECC12A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>GN1640T</value>
+      <footprint>Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2758330</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="GN1640T" description="LED Display Driver, 8 X 16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>650FEDA4</tstamp>
+    </comp>
+    <comp ref="DS5">
+      <value>UFCOptionDigit</value>
+      <footprint>KiCAD Libraries:UFCOptionDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCOptionDigit" description="16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65100800</tstamp>
+    </comp>
+    <comp ref="DS4">
+      <value>UFCOptionDigit</value>
+      <footprint>KiCAD Libraries:UFCOptionDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCOptionDigit" description="16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6510080A</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>GN1640T</value>
+      <footprint>Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2758330</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="GN1640T" description="LED Display Driver, 8 X 16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65811C86</tstamp>
+    </comp>
+    <comp ref="DS6">
+      <value>UFCOptionDigit</value>
+      <footprint>KiCAD Libraries:UFCOptionDigit</footprint>
+      <datasheet>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-~-display/</datasheet>
+      <libsource lib="KiCadCustomLib" part="UFCOptionDigit" description="16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65813B82</tstamp>
+    </comp>
+    <comp ref="BL1">
+      <value>UFCScratchPadBacklight</value>
+      <footprint>KiCAD Libraries:SCRATCHPADBACKLIGHT</footprint>
+      <libsource lib="KiCadCustomLib" part="UFCScratchPadBacklight" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6713F554</tstamp>
+    </comp>
+    <comp ref="DS1">
+      <value>UFCScratchpadLCD</value>
+      <footprint>KiCAD Libraries:SCRATCHPADLCD</footprint>
+      <libsource lib="KiCadCustomLib" part="UFCScratchpadLCD" description="UFC Scratchpad LCD, TekCreations.space"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6713FA22</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25804</field>
+        <field name="PN">0603WAF1002T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>67CCCA2B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HT1621B</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809121513_Holtek-Semicon-HT1621B_C7532.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C7532</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="HT1621B" description="DRIVER, LCD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>678F05DE</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AW9523BTQR</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf</datasheet>
+      <libsource lib="KiCadCustomLib" part="AW9523BTQR" description="16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>691D3370</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>691D4D26</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>691D4DDC</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>691D4DE8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>691D4DF4</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>657C967D</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6574787A</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65536C7D</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6542F0F1</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>69F38961</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A0FAC93</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A1320FA</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A169A5A</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A1A1DE1</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A1DB203</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A214F74</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A24FB06</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A28A5FA</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A2C64CA</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A302B90</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A3400DF</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A37E8C1</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A3BD296</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A3FCA43</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A43CABC</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A47D55D</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A4BF1E3</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6A501970</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>65F3BC91</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>~</value>
+      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C130723</field>
+        <field name="PN">FC-F1005UGK-520M5</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64D89258</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="PN">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C9BDAB5</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="PN">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6CDB13E4</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="PN">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6CDBA9A4</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>AP KB</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D3E3331</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>ENC1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D46AD5A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>ENC2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D51E116</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>ADF SW</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D5FDD02</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>VOL1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D665C1C</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>VOL2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D74A81C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>BRT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6D77AE04</tstamp>
+    </comp>
+    <comp ref="MC1">
+      <value>S2_MINI</value>
+      <footprint>KiCAD Libraries:S2_MINI</footprint>
+      <datasheet>https://www.wemos.cc/en/latest/s2/s2_mini.html</datasheet>
+      <libsource lib="KiCadCustomLib" part="S2_MINI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6DD06181</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>+5VIN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6DA182D5</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TXS0108EPW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E88BB39</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TXS0108EPW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E88EB4E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1001T5E_C21190.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="PN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E8C765A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2001T5E_C22975.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22975</field>
+        <field name="PN">0603WAF2001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E9E173C</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1001T5E_C21190.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="PN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E9E1DB8</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2001T5E_C22975.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22975</field>
+        <field name="PN">0603WAF2001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6E9E3DAC</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1001T5E_C21190.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="PN">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EA13FD7</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2001T5E_C22975.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22975</field>
+        <field name="PN">0603WAF2001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EA15FF7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EDA65EF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EE3DCF2</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EED3322</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EED333C</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EF08B25</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6EF71348</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>HUD BIT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>700DA424</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>68</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C27592</field>
+        <field name="PN">0603WAF680JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70204356</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>702FE08A</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>68</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C27592</field>
+        <field name="PN">0603WAF680JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70411334</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68E0E849</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68E0D4D4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68E0C84B</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68B7AECD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68B7A4C9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>682A93E4</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="PN">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>682A83DA</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6813EB21</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>AW9523BTQR</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf</datasheet>
+      <libsource lib="KiCadCustomLib" part="AW9523BTQR" description="16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>68139C0C</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>SDA</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70574A8B</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>SCL</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>70574A77</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC341F3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_Alt">
+      <description>test point (alternative shape)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Alt</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="AW9523BTQR">
+      <description>16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AW9523BTQR</field>
+        <field name="Footprint">Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1_0" type="BiDi"/>
+        <pin num="2" name="P1_1" type="BiDi"/>
+        <pin num="3" name="P1_2" type="BiDi"/>
+        <pin num="4" name="P1_3" type="BiDi"/>
+        <pin num="5" name="P0_0" type="BiDi"/>
+        <pin num="6" name="P0_1" type="BiDi"/>
+        <pin num="7" name="P0_2" type="BiDi"/>
+        <pin num="8" name="P0_3" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="P0_4" type="BiDi"/>
+        <pin num="11" name="P0_5" type="BiDi"/>
+        <pin num="12" name="P0_6" type="BiDi"/>
+        <pin num="13" name="P0_7" type="BiDi"/>
+        <pin num="14" name="P1_4" type="BiDi"/>
+        <pin num="15" name="P1_5" type="BiDi"/>
+        <pin num="16" name="P1_6" type="BiDi"/>
+        <pin num="17" name="P1_7" type="BiDi"/>
+        <pin num="18" name="AD0" type="input"/>
+        <pin num="19" name="SCL" type="BiDi"/>
+        <pin num="20" name="SDA" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="INTN" type="output"/>
+        <pin num="23" name="RSTN" type="input"/>
+        <pin num="24" name="AD1" type="input"/>
+        <pin num="25" name="GND_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="GN1640T">
+      <description>LED Display Driver, 8 X 16</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GN1640T</field>
+        <field name="Footprint">Package_SO:SSOP-28_3.9x9.9mm_P0.635mm</field>
+        <field name="LCSC">C2758330</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GRID12" type="output"/>
+        <pin num="2" name="GRID13" type="output"/>
+        <pin num="3" name="GRID14" type="output"/>
+        <pin num="4" name="GRID15" type="output"/>
+        <pin num="5" name="GRID16" type="output"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="DATA" type="BiDi"/>
+        <pin num="8" name="SCLK" type="BiDi"/>
+        <pin num="9" name="SEG1" type="output"/>
+        <pin num="10" name="SEG2" type="output"/>
+        <pin num="11" name="SEG3" type="output"/>
+        <pin num="12" name="SEG4" type="output"/>
+        <pin num="13" name="SEG5" type="output"/>
+        <pin num="14" name="SEG6" type="output"/>
+        <pin num="15" name="SEG7" type="output"/>
+        <pin num="16" name="SEG8" type="output"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="GRID1" type="output"/>
+        <pin num="19" name="GRID2" type="output"/>
+        <pin num="20" name="GRID3" type="output"/>
+        <pin num="21" name="GRID4" type="output"/>
+        <pin num="22" name="GRID5" type="output"/>
+        <pin num="23" name="GRID6" type="output"/>
+        <pin num="24" name="GRID7" type="output"/>
+        <pin num="25" name="GRID8" type="output"/>
+        <pin num="26" name="GRID9" type="output"/>
+        <pin num="27" name="GRID10" type="output"/>
+        <pin num="28" name="GRID11" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="HT1621B">
+      <description>DRIVER, LCD</description>
+      <docs>https://datasheet.lcsc.com/lcsc/1809121513_Holtek-Semicon-HT1621B_C7532.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HT1621B</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="LCSC">C7532</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS~" type="BiDi"/>
+        <pin num="2" name="~RD~" type="BiDi"/>
+        <pin num="3" name="~WR" type="BiDi"/>
+        <pin num="4" name="DATA" type="BiDi"/>
+        <pin num="5" name="VSS" type="power_in"/>
+        <pin num="6" name="OSCO" type="BiDi"/>
+        <pin num="7" name="OSCI" type="BiDi"/>
+        <pin num="8" name="VLCD" type="power_in"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="~IRQ" type="BiDi"/>
+        <pin num="11" name="BZ" type="BiDi"/>
+        <pin num="12" name="~BZ" type="BiDi"/>
+        <pin num="13" name="COM0" type="output"/>
+        <pin num="14" name="COM1" type="output"/>
+        <pin num="15" name="COM2" type="output"/>
+        <pin num="16" name="COM3" type="output"/>
+        <pin num="17" name="SEG31" type="output"/>
+        <pin num="18" name="SEG30" type="output"/>
+        <pin num="19" name="SEG29" type="output"/>
+        <pin num="20" name="SEG27" type="output"/>
+        <pin num="21" name="SEG28" type="output"/>
+        <pin num="22" name="SEG26" type="output"/>
+        <pin num="23" name="SEG25" type="output"/>
+        <pin num="24" name="SEG24" type="output"/>
+        <pin num="25" name="SEG23" type="output"/>
+        <pin num="26" name="SEG22" type="output"/>
+        <pin num="27" name="SEG21" type="output"/>
+        <pin num="28" name="SEG20" type="output"/>
+        <pin num="29" name="SEG19" type="output"/>
+        <pin num="30" name="SEG18" type="output"/>
+        <pin num="31" name="SEG17" type="output"/>
+        <pin num="32" name="SEG16" type="output"/>
+        <pin num="33" name="SEG15" type="output"/>
+        <pin num="34" name="SEG14" type="output"/>
+        <pin num="35" name="SEG13" type="output"/>
+        <pin num="36" name="SEG12" type="output"/>
+        <pin num="37" name="SEG11" type="output"/>
+        <pin num="38" name="SEG10" type="output"/>
+        <pin num="39" name="SEG9" type="output"/>
+        <pin num="40" name="SEG8" type="output"/>
+        <pin num="41" name="SEG7" type="output"/>
+        <pin num="42" name="SEG6" type="output"/>
+        <pin num="43" name="SEG5" type="output"/>
+        <pin num="44" name="SEG4" type="output"/>
+        <pin num="45" name="SEG3" type="output"/>
+        <pin num="46" name="SEG2" type="output"/>
+        <pin num="47" name="SEG1" type="output"/>
+        <pin num="48" name="SEG0" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="S2_MINI">
+      <docs>https://www.wemos.cc/en/latest/s2/s2_mini.html</docs>
+      <fields>
+        <field name="Reference">MC</field>
+        <field name="Value">S2_MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="IO3" type="BiDi"/>
+        <pin num="3" name="IO5" type="BiDi"/>
+        <pin num="4" name="IO7/SCK" type="BiDi"/>
+        <pin num="5" name="IO9/MISO" type="BiDi"/>
+        <pin num="6" name="IO11/MOSI" type="BiDi"/>
+        <pin num="7" name="IO12" type="BiDi"/>
+        <pin num="8" name="+3.3V" type="power_in"/>
+        <pin num="9" name="IO1" type="BiDi"/>
+        <pin num="10" name="IO2" type="BiDi"/>
+        <pin num="11" name="IO4" type="BiDi"/>
+        <pin num="12" name="IO6" type="BiDi"/>
+        <pin num="13" name="IO8" type="BiDi"/>
+        <pin num="14" name="IO10" type="BiDi"/>
+        <pin num="15" name="IO13" type="BiDi"/>
+        <pin num="16" name="IO14" type="BiDi"/>
+        <pin num="17" name="IO40" type="BiDi"/>
+        <pin num="18" name="IO38" type="BiDi"/>
+        <pin num="19" name="IO36" type="BiDi"/>
+        <pin num="20" name="IO34" type="BiDi"/>
+        <pin num="21" name="IO21" type="BiDi"/>
+        <pin num="22" name="IO17/DAC1" type="BiDi"/>
+        <pin num="23" name="GND1" type="power_in"/>
+        <pin num="24" name="IO15" type="BiDi"/>
+        <pin num="25" name="IO39" type="BiDi"/>
+        <pin num="26" name="IO37" type="BiDi"/>
+        <pin num="27" name="IO35/SCL" type="BiDi"/>
+        <pin num="28" name="IO33/SDA" type="BiDi"/>
+        <pin num="29" name="IO18/DAC2" type="BiDi"/>
+        <pin num="30" name="IO16" type="BiDi"/>
+        <pin num="31" name="GND2" type="power_in"/>
+        <pin num="32" name="VBUS/+5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="TL1240GQ">
+      <description>Push button switch with green LED</description>
+      <docs>http://spec_sheets.e-switch.com/specs/P010362.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL1240GQ</field>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="5" name="K" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="UFCOptionDigit">
+      <description>16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica</description>
+      <docs>https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-led-display/</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">UFCOptionDigit</field>
+        <field name="Footprint">KiCAD Libraries:UFCOptionDigit</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIG1" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="E" type="input"/>
+        <pin num="4" name="F" type="input"/>
+        <pin num="5" name="G" type="input"/>
+        <pin num="6" name="H" type="input"/>
+        <pin num="7" name="P" type="input"/>
+        <pin num="8" name="C5/D5" type="input"/>
+        <pin num="9" name="N" type="input"/>
+        <pin num="10" name="O" type="input"/>
+        <pin num="11" name="DIG4" type="input"/>
+        <pin num="12" name="DIG3" type="input"/>
+        <pin num="13" name="I" type="input"/>
+        <pin num="14" name="J" type="input"/>
+        <pin num="15" name="K" type="input"/>
+        <pin num="16" name="L" type="input"/>
+        <pin num="17" name="M" type="input"/>
+        <pin num="18" name="C" type="input"/>
+        <pin num="19" name="B" type="input"/>
+        <pin num="20" name="A" type="input"/>
+        <pin num="21" name="DIG2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="UFCScratchPadBacklight">
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">UFCScratchPadBacklight</field>
+        <field name="Footprint">KiCAD Libraries:SCRATCHPADBACKLIGHT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="output"/>
+        <pin num="2" name="A" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="UFCScratchpadLCD">
+      <description>UFC Scratchpad LCD, TekCreations.space</description>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">UFCScratchpadLCD</field>
+        <field name="Footprint">KiCAD Libraries:SCRATCHPADLCD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM1" type="input"/>
+        <pin num="2" name="COM2" type="input"/>
+        <pin num="3" name="COM3" type="input"/>
+        <pin num="4" name="COM4" type="input"/>
+        <pin num="5" name="9D1/9E/9F/9A1" type="input"/>
+        <pin num="6" name="9K/9G1/9H/9I" type="input"/>
+        <pin num="7" name="9L/9M/9G2/9J" type="input"/>
+        <pin num="8" name="9D2/9C/9B/9A2" type="input"/>
+        <pin num="9" name="8D1/8E/8F/8A1" type="input"/>
+        <pin num="10" name="8K/8G1/8H/8I" type="input"/>
+        <pin num="11" name="8L/8M/8G2/8J" type="input"/>
+        <pin num="12" name="8D2/8C/8B/8A2" type="input"/>
+        <pin num="13" name="7E/7F/7A" type="input"/>
+        <pin num="14" name="7D/7C/7G/7B" type="input"/>
+        <pin num="15" name="6E/6F/6A" type="input"/>
+        <pin num="16" name="6D/6C/6G/6B" type="input"/>
+        <pin num="17" name="5E/5F/5A" type="input"/>
+        <pin num="18" name="5D/5C/5G/5B" type="input"/>
+        <pin num="19" name="4E/4F/4A" type="input"/>
+        <pin num="20" name="4D/4C/4G/4B" type="input"/>
+        <pin num="21" name="3E/3F/3A" type="input"/>
+        <pin num="22" name="3D/3C/3G/3B" type="input"/>
+        <pin num="23" name="2E/2F/2A" type="input"/>
+        <pin num="24" name="2D/2C/2G/2B" type="input"/>
+        <pin num="25" name="1E/1F/1A" type="input"/>
+        <pin num="26" name="1D/1C/1G/1B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="UFCSingleDigit">
+      <description>16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica</description>
+      <docs>https://tekcreations.space/product/16-segment-green-led-display/</docs>
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">UFCSingleDigit</field>
+        <field name="Footprint">KiCAD Libraries:UFCSingleDigit</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="input"/>
+        <pin num="8" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXS0108EPW">
+      <description>Bidirectional  level-shifting voltage translator, TSSOP-20</description>
+      <docs>www.ti.com/lit/ds/symlink/txs0108e.pdf</docs>
+      <footprints>
+        <fp>*SSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXS0108EPW</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="BiDi"/>
+        <pin num="2" name="VCCA" type="power_in"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="A5" type="BiDi"/>
+        <pin num="7" name="A6" type="BiDi"/>
+        <pin num="8" name="A7" type="BiDi"/>
+        <pin num="9" name="A8" type="BiDi"/>
+        <pin num="10" name="OE" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="B8" type="BiDi"/>
+        <pin num="13" name="B7" type="BiDi"/>
+        <pin num="14" name="B6" type="BiDi"/>
+        <pin num="15" name="B5" type="BiDi"/>
+        <pin num="16" name="B4" type="BiDi"/>
+        <pin num="17" name="B3" type="BiDi"/>
+        <pin num="18" name="B2" type="BiDi"/>
+        <pin num="19" name="VCCB" type="power_in"/>
+        <pin num="20" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\ufc_v5_main/../../../../lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Logic_LevelTranslator.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3-">
+      <node ref="SW4" pin="5"/>
+      <node ref="SW3" pin="6"/>
+    </net>
+    <net code="2" name="/6-">
+      <node ref="SW7" pin="6"/>
+      <node ref="SW8" pin="5"/>
+    </net>
+    <net code="3" name="/9-">
+      <node ref="SW11" pin="6"/>
+      <node ref="SW12" pin="5"/>
+    </net>
+    <net code="4" name="/CLR-">
+      <node ref="SW16" pin="5"/>
+      <node ref="SW15" pin="6"/>
+    </net>
+    <net code="5" name="/OP1+">
+      <node ref="SW17" pin="5"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D19-Pad1)">
+      <node ref="D9" pin="2"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D20-Pad1)">
+      <node ref="D21" pin="2"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D15-Pad1)">
+      <node ref="D25" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D13-Pad2)">
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D34-Pad1)">
+      <node ref="D34" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="11" name="/EM-">
+      <node ref="R17" pin="1"/>
+      <node ref="SW19" pin="6"/>
+    </net>
+    <net code="12" name="/0-">
+      <node ref="D6" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="SW4" pin="6"/>
+      <node ref="SW17" pin="6"/>
+      <node ref="SW8" pin="6"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="SW10" pin="6"/>
+      <node ref="D27" pin="1"/>
+      <node ref="SW6" pin="6"/>
+      <node ref="SW14" pin="6"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="SW12" pin="6"/>
+      <node ref="SW16" pin="6"/>
+    </net>
+    <net code="13" name="/0+">
+      <node ref="SW13" pin="6"/>
+      <node ref="SW14" pin="5"/>
+    </net>
+    <net code="14" name="/7-">
+      <node ref="SW10" pin="5"/>
+      <node ref="SW9" pin="6"/>
+    </net>
+    <net code="15" name="/4-">
+      <node ref="SW6" pin="5"/>
+      <node ref="SW5" pin="6"/>
+    </net>
+    <net code="16" name="/1-">
+      <node ref="SW1" pin="6"/>
+      <node ref="SW2" pin="5"/>
+    </net>
+    <net code="17" name="ANALOG1">
+      <node ref="J3" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="18" name="/ADF2">
+      <node ref="U6" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="19" name="/ADF1">
+      <node ref="U6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="20" name="/ENC2PB">
+      <node ref="U7" pin="10"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="21" name="/ENC2-">
+      <node ref="J7" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="22" name="/ENC2+">
+      <node ref="R15" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="23" name="Net-(MC1-Pad1)">
+      <node ref="MC1" pin="1"/>
+    </net>
+    <net code="24" name="ANALOG3">
+      <node ref="J4" pin="3"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="25" name="ANALOG2">
+      <node ref="J8" pin="3"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D32-Pad1)">
+      <node ref="D33" pin="2"/>
+      <node ref="D32" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D28-Pad1)">
+      <node ref="D28" pin="1"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D29-Pad1)">
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D26-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="30" name="SDA">
+      <node ref="TP4" pin="1"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U7" pin="20"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J5" pin="3"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="31" name="/ENC1+">
+      <node ref="J2" pin="4"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="32" name="/ENC1-">
+      <node ref="U6" pin="7"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="33" name="/ENC1PB">
+      <node ref="J2" pin="2"/>
+      <node ref="U6" pin="8"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="34" name="+5V">
+      <node ref="U3" pin="17"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="U6" pin="21"/>
+      <node ref="U5" pin="17"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="SW5" pin="5"/>
+      <node ref="U9" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="17"/>
+      <node ref="SW19" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="SW9" pin="5"/>
+      <node ref="SW13" pin="5"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="SW18" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="MC1" pin="32"/>
+      <node ref="D10" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="SW3" pin="5"/>
+      <node ref="J8" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="SW7" pin="5"/>
+      <node ref="SW11" pin="5"/>
+      <node ref="SW15" pin="5"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U4" pin="17"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D35" pin="2"/>
+      <node ref="U7" pin="18"/>
+      <node ref="U7" pin="21"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="BL1" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="35" name="SCL">
+      <node ref="U6" pin="19"/>
+      <node ref="U7" pin="19"/>
+      <node ref="U8" pin="6"/>
+      <node ref="J5" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="36" name="/SW4">
+      <node ref="SW5" pin="1"/>
+      <node ref="U6" pin="17"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="37" name="/SW5">
+      <node ref="R23" pin="2"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="38" name="/SW6">
+      <node ref="U6" pin="15"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="39" name="/SW16">
+      <node ref="R33" pin="2"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="40" name="/SW15">
+      <node ref="R32" pin="2"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="41" name="/SW11">
+      <node ref="R20" pin="2"/>
+      <node ref="U6" pin="11"/>
+      <node ref="SW13" pin="1"/>
+    </net>
+    <net code="42" name="/SW17">
+      <node ref="U7" pin="14"/>
+      <node ref="R34" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="43" name="/SW9">
+      <node ref="R29" pin="2"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="44" name="/SW8">
+      <node ref="R24" pin="2"/>
+      <node ref="U6" pin="10"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="45" name="/SW7">
+      <node ref="U6" pin="14"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="46" name="/SW3">
+      <node ref="SW3" pin="1"/>
+      <node ref="U6" pin="16"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="47" name="/SW2">
+      <node ref="R22" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="48" name="/SW1">
+      <node ref="SW1" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D35-Pad1)">
+      <node ref="D7" pin="2"/>
+      <node ref="D35" pin="1"/>
+    </net>
+    <net code="50" name="/SW14">
+      <node ref="SW17" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="51" name="/SW18">
+      <node ref="R35" pin="2"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="52" name="/SW10">
+      <node ref="SW15" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="53" name="/SW12">
+      <node ref="SW14" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="54" name="ANALOG2@3.3V">
+      <node ref="R36" pin="2"/>
+      <node ref="R37" pin="1"/>
+      <node ref="MC1" pin="10"/>
+    </net>
+    <net code="55" name="/SW13">
+      <node ref="R21" pin="2"/>
+      <node ref="U6" pin="13"/>
+      <node ref="SW18" pin="1"/>
+    </net>
+    <net code="56" name="/SW19">
+      <node ref="SW19" pin="1"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="57" name="/NOGO_LED">
+      <node ref="R43" pin="2"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="58" name="/GO_LED">
+      <node ref="R44" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R43-Pad1)">
+      <node ref="R43" pin="1"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="60" name="Net-(R44-Pad1)">
+      <node ref="U7" pin="4"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="61" name="/BIT_SW">
+      <node ref="J6" pin="4"/>
+      <node ref="U7" pin="7"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R41-Pad1)">
+      <node ref="U9" pin="10"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="63" name="+3V3">
+      <node ref="MC1" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U9" pin="19"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="64" name="Net-(U9-Pad12)">
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="65" name="Net-(U9-Pad13)">
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="66" name="Net-(U9-Pad14)">
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="67" name="Net-(U9-Pad15)">
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="68" name="Net-(U9-Pad16)">
+      <node ref="U9" pin="16"/>
+    </net>
+    <net code="69" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="70" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="71" name="Net-(R40-Pad1)">
+      <node ref="U8" pin="10"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="72" name="Net-(U6-Pad22)">
+      <node ref="U6" pin="22"/>
+    </net>
+    <net code="73" name="Net-(U6-Pad23)">
+      <node ref="U6" pin="23"/>
+    </net>
+    <net code="74" name="Net-(MC1-Pad24)">
+      <node ref="MC1" pin="24"/>
+    </net>
+    <net code="75" name="ANALOG1@3.3V">
+      <node ref="R3" pin="1"/>
+      <node ref="MC1" pin="9"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="76" name="SCRDATA@3.3V">
+      <node ref="U9" pin="20"/>
+      <node ref="MC1" pin="7"/>
+    </net>
+    <net code="77" name="Net-(MC1-Pad6)">
+      <node ref="MC1" pin="6"/>
+    </net>
+    <net code="78" name="SCL@3.3V">
+      <node ref="U8" pin="15"/>
+      <node ref="MC1" pin="5"/>
+    </net>
+    <net code="79" name="DIO@3.3V">
+      <node ref="MC1" pin="4"/>
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="80" name="Net-(MC1-Pad30)">
+      <node ref="MC1" pin="30"/>
+    </net>
+    <net code="81" name="OP2_CLK@3.3V">
+      <node ref="MC1" pin="3"/>
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="82" name="Net-(MC1-Pad29)">
+      <node ref="MC1" pin="29"/>
+    </net>
+    <net code="83" name="Net-(MC1-Pad28)">
+      <node ref="MC1" pin="28"/>
+    </net>
+    <net code="84" name="Net-(MC1-Pad27)">
+      <node ref="MC1" pin="27"/>
+    </net>
+    <net code="85" name="Net-(MC1-Pad26)">
+      <node ref="MC1" pin="26"/>
+    </net>
+    <net code="86" name="Net-(MC1-Pad25)">
+      <node ref="MC1" pin="25"/>
+    </net>
+    <net code="87" name="Net-(MC1-Pad22)">
+      <node ref="MC1" pin="22"/>
+    </net>
+    <net code="88" name="Net-(MC1-Pad21)">
+      <node ref="MC1" pin="21"/>
+    </net>
+    <net code="89" name="Net-(MC1-Pad20)">
+      <node ref="MC1" pin="20"/>
+    </net>
+    <net code="90" name="ANALOG3@3.3V">
+      <node ref="R39" pin="1"/>
+      <node ref="MC1" pin="2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="91" name="Net-(MC1-Pad19)">
+      <node ref="MC1" pin="19"/>
+    </net>
+    <net code="92" name="Net-(MC1-Pad18)">
+      <node ref="MC1" pin="18"/>
+    </net>
+    <net code="93" name="Net-(MC1-Pad17)">
+      <node ref="MC1" pin="17"/>
+    </net>
+    <net code="94" name="SCRCS@3.3V">
+      <node ref="U9" pin="17"/>
+      <node ref="MC1" pin="16"/>
+    </net>
+    <net code="95" name="SCRWR@3.3V">
+      <node ref="MC1" pin="15"/>
+      <node ref="U9" pin="18"/>
+    </net>
+    <net code="96" name="C_CLK@3.3V">
+      <node ref="U8" pin="13"/>
+      <node ref="MC1" pin="14"/>
+    </net>
+    <net code="97" name="SDA@3.3V">
+      <node ref="U8" pin="14"/>
+      <node ref="MC1" pin="13"/>
+    </net>
+    <net code="98" name="OP3_CLK@3.3V">
+      <node ref="U8" pin="16"/>
+      <node ref="MC1" pin="12"/>
+    </net>
+    <net code="99" name="OP1_CLK@3.3V">
+      <node ref="U8" pin="18"/>
+      <node ref="MC1" pin="11"/>
+    </net>
+    <net code="100" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="101" name="Net-(U9-Pad9)">
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="102" name="Net-(U9-Pad8)">
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="103" name="Net-(U9-Pad7)">
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="104" name="Net-(U9-Pad6)">
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="105" name="Net-(U9-Pad5)">
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="106" name="SCRDATA">
+      <node ref="U1" pin="4"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="107" name="C_CLK">
+      <node ref="U5" pin="8"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="108" name="OP3_CLK">
+      <node ref="U4" pin="8"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="109" name="DIO">
+      <node ref="U4" pin="7"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="110" name="OP1_CLK">
+      <node ref="U8" pin="3"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="111" name="OP2_CLK">
+      <node ref="U8" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="112" name="SCRCS">
+      <node ref="U1" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="113" name="SCRWR">
+      <node ref="U9" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="114" name="/OP1D2">
+      <node ref="DS2" pin="21"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="115" name="/OP1D3">
+      <node ref="DS2" pin="12"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="116" name="/OP1D4">
+      <node ref="DS2" pin="11"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="117" name="/OP1D1">
+      <node ref="DS2" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="118" name="/1DP">
+      <node ref="DS3" pin="8"/>
+      <node ref="U2" pin="4"/>
+      <node ref="DS2" pin="8"/>
+    </net>
+    <net code="119" name="/1H">
+      <node ref="DS3" pin="6"/>
+      <node ref="U2" pin="23"/>
+      <node ref="DS2" pin="6"/>
+    </net>
+    <net code="120" name="/1C">
+      <node ref="DS3" pin="18"/>
+      <node ref="DS2" pin="18"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="121" name="/1AB">
+      <node ref="DS2" pin="20"/>
+      <node ref="DS2" pin="19"/>
+      <node ref="DS3" pin="19"/>
+      <node ref="U2" pin="18"/>
+      <node ref="DS3" pin="20"/>
+    </net>
+    <net code="122" name="/1D">
+      <node ref="U2" pin="20"/>
+      <node ref="DS3" pin="2"/>
+      <node ref="DS2" pin="2"/>
+    </net>
+    <net code="123" name="GND">
+      <node ref="U9" pin="11"/>
+      <node ref="U1" pin="5"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="U7" pin="24"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U7" pin="25"/>
+      <node ref="U7" pin="9"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U5" pin="6"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="R41" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="U8" pin="11"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U6" pin="9"/>
+      <node ref="U6" pin="25"/>
+      <node ref="U6" pin="24"/>
+      <node ref="U6" pin="18"/>
+      <node ref="J1" pin="2"/>
+      <node ref="MC1" pin="31"/>
+      <node ref="MC1" pin="23"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J7" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="124" name="/C_SEG6">
+      <node ref="U5" pin="14"/>
+      <node ref="DS8" pin="2"/>
+    </net>
+    <net code="125" name="/OP2D2">
+      <node ref="U2" pin="14"/>
+      <node ref="DS3" pin="21"/>
+    </net>
+    <net code="126" name="/1M">
+      <node ref="U2" pin="26"/>
+      <node ref="DS3" pin="17"/>
+      <node ref="DS2" pin="17"/>
+    </net>
+    <net code="127" name="/1L">
+      <node ref="DS2" pin="16"/>
+      <node ref="DS3" pin="16"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="128" name="/1K">
+      <node ref="U2" pin="28"/>
+      <node ref="DS3" pin="15"/>
+      <node ref="DS2" pin="15"/>
+    </net>
+    <net code="129" name="/1J">
+      <node ref="DS3" pin="14"/>
+      <node ref="DS2" pin="14"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="130" name="/1I">
+      <node ref="DS2" pin="13"/>
+      <node ref="U2" pin="25"/>
+      <node ref="DS3" pin="13"/>
+    </net>
+    <net code="131" name="/OP2D3">
+      <node ref="U2" pin="15"/>
+      <node ref="DS3" pin="12"/>
+    </net>
+    <net code="132" name="/OP2D4">
+      <node ref="U2" pin="16"/>
+      <node ref="DS3" pin="11"/>
+    </net>
+    <net code="133" name="/OP2D1">
+      <node ref="U2" pin="13"/>
+      <node ref="DS3" pin="1"/>
+    </net>
+    <net code="134" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="135" name="/1G">
+      <node ref="DS3" pin="5"/>
+      <node ref="U2" pin="22"/>
+      <node ref="DS2" pin="5"/>
+    </net>
+    <net code="136" name="/1EF">
+      <node ref="DS3" pin="3"/>
+      <node ref="DS2" pin="3"/>
+      <node ref="DS2" pin="4"/>
+      <node ref="DS3" pin="4"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="137" name="/1N">
+      <node ref="DS3" pin="9"/>
+      <node ref="DS2" pin="9"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="138" name="/1P">
+      <node ref="DS2" pin="7"/>
+      <node ref="DS3" pin="7"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="139" name="/1O">
+      <node ref="U2" pin="2"/>
+      <node ref="DS3" pin="10"/>
+      <node ref="DS2" pin="10"/>
+    </net>
+    <net code="140" name="/2L">
+      <node ref="U3" pin="27"/>
+      <node ref="DS4" pin="16"/>
+      <node ref="DS5" pin="16"/>
+    </net>
+    <net code="141" name="/2K">
+      <node ref="U3" pin="28"/>
+      <node ref="DS4" pin="15"/>
+      <node ref="DS5" pin="15"/>
+    </net>
+    <net code="142" name="/OP4D3">
+      <node ref="DS5" pin="12"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="143" name="/OP4D4">
+      <node ref="U3" pin="16"/>
+      <node ref="DS5" pin="11"/>
+    </net>
+    <net code="144" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="145" name="/C_SEG5">
+      <node ref="U5" pin="13"/>
+      <node ref="DS8" pin="1"/>
+    </net>
+    <net code="146" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="147" name="Net-(D11-Pad2)">
+      <node ref="D8" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="148" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="149" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="150" name="/IP-">
+      <node ref="D3" pin="2"/>
+      <node ref="SW18" pin="6"/>
+    </net>
+    <net code="151" name="Net-(D16-Pad1)">
+      <node ref="D17" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="152" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="153" name="Net-(D23-Pad1)">
+      <node ref="D24" pin="2"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="154" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="155" name="/C_GRID1">
+      <node ref="U5" pin="18"/>
+      <node ref="DS7" pin="8"/>
+      <node ref="DS8" pin="8"/>
+    </net>
+    <net code="156" name="/C_GRID2">
+      <node ref="DS8" pin="7"/>
+      <node ref="U5" pin="19"/>
+      <node ref="DS7" pin="7"/>
+    </net>
+    <net code="157" name="/C_GRID3">
+      <node ref="DS7" pin="6"/>
+      <node ref="U5" pin="20"/>
+      <node ref="DS8" pin="6"/>
+    </net>
+    <net code="158" name="/C_GRID4">
+      <node ref="DS7" pin="5"/>
+      <node ref="DS8" pin="5"/>
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="159" name="/C_SEG1">
+      <node ref="U5" pin="9"/>
+      <node ref="DS7" pin="1"/>
+    </net>
+    <net code="160" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="161" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="162" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="163" name="Net-(U5-Pad28)">
+      <node ref="U5" pin="28"/>
+    </net>
+    <net code="164" name="/C_SEG4">
+      <node ref="U5" pin="12"/>
+      <node ref="DS7" pin="4"/>
+    </net>
+    <net code="165" name="/C_SEG3">
+      <node ref="DS7" pin="3"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="166" name="/C_SEG2">
+      <node ref="U5" pin="10"/>
+      <node ref="DS7" pin="2"/>
+    </net>
+    <net code="167" name="/C_SEG7">
+      <node ref="DS8" pin="3"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="168" name="/C_SEG8">
+      <node ref="DS8" pin="4"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="169" name="Net-(U5-Pad27)">
+      <node ref="U5" pin="27"/>
+    </net>
+    <net code="170" name="Net-(U5-Pad26)">
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="171" name="Net-(U5-Pad25)">
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="172" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="173" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="174" name="Net-(U5-Pad22)">
+      <node ref="U5" pin="22"/>
+    </net>
+    <net code="175" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="176" name="/2M">
+      <node ref="DS4" pin="17"/>
+      <node ref="U3" pin="26"/>
+      <node ref="DS5" pin="17"/>
+    </net>
+    <net code="177" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="178" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="179" name="/COM0">
+      <node ref="DS1" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="180" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="181" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="182" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="8"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="183" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="184" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="185" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="186" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="187" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="188" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="189" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="190" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="191" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="192" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="193" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="194" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="195" name="/SEG21">
+      <node ref="U1" pin="27"/>
+      <node ref="DS1" pin="26"/>
+    </net>
+    <net code="196" name="/COM1">
+      <node ref="DS1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="197" name="/TNLEDPWR">
+      <node ref="BL1" pin="1"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="198" name="Net-(U7-Pad23)">
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="199" name="Net-(U7-Pad22)">
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="200" name="/SEG20">
+      <node ref="DS1" pin="25"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="201" name="/SEG7">
+      <node ref="U1" pin="41"/>
+      <node ref="DS1" pin="12"/>
+    </net>
+    <net code="202" name="/SEG8">
+      <node ref="U1" pin="40"/>
+      <node ref="DS1" pin="13"/>
+    </net>
+    <net code="203" name="/SEG9">
+      <node ref="DS1" pin="14"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="204" name="/SEG10">
+      <node ref="DS1" pin="15"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="205" name="/SEG11">
+      <node ref="U1" pin="37"/>
+      <node ref="DS1" pin="16"/>
+    </net>
+    <net code="206" name="/SEG12">
+      <node ref="U1" pin="36"/>
+      <node ref="DS1" pin="17"/>
+    </net>
+    <net code="207" name="/SEG13">
+      <node ref="DS1" pin="18"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="208" name="/SEG14">
+      <node ref="DS1" pin="19"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="209" name="/SEG15">
+      <node ref="DS1" pin="20"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="210" name="/SEG16">
+      <node ref="DS1" pin="21"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="211" name="/SEG17">
+      <node ref="DS1" pin="22"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="212" name="/SEG18">
+      <node ref="DS1" pin="23"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="213" name="/SEG19">
+      <node ref="U1" pin="29"/>
+      <node ref="DS1" pin="24"/>
+    </net>
+    <net code="214" name="/SEG6">
+      <node ref="U1" pin="42"/>
+      <node ref="DS1" pin="11"/>
+    </net>
+    <net code="215" name="/COM3">
+      <node ref="U1" pin="16"/>
+      <node ref="DS1" pin="4"/>
+    </net>
+    <net code="216" name="/COM2">
+      <node ref="U1" pin="15"/>
+      <node ref="DS1" pin="3"/>
+    </net>
+    <net code="217" name="/SEG0">
+      <node ref="DS1" pin="5"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="218" name="/SEG1">
+      <node ref="U1" pin="47"/>
+      <node ref="DS1" pin="6"/>
+    </net>
+    <net code="219" name="/SEG2">
+      <node ref="U1" pin="46"/>
+      <node ref="DS1" pin="7"/>
+    </net>
+    <net code="220" name="/SEG3">
+      <node ref="DS1" pin="8"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="221" name="/SEG4">
+      <node ref="DS1" pin="9"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="222" name="/SEG5">
+      <node ref="DS1" pin="10"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="223" name="/OP3D3">
+      <node ref="DS4" pin="12"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="224" name="/2N">
+      <node ref="U3" pin="3"/>
+      <node ref="DS5" pin="9"/>
+      <node ref="DS4" pin="9"/>
+    </net>
+    <net code="225" name="/2P">
+      <node ref="DS5" pin="7"/>
+      <node ref="DS4" pin="7"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="226" name="/2O">
+      <node ref="U3" pin="2"/>
+      <node ref="DS4" pin="10"/>
+      <node ref="DS5" pin="10"/>
+    </net>
+    <net code="227" name="/OP4D1">
+      <node ref="U3" pin="13"/>
+      <node ref="DS5" pin="1"/>
+    </net>
+    <net code="228" name="/OP4D2">
+      <node ref="DS5" pin="21"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="229" name="/2J">
+      <node ref="U3" pin="24"/>
+      <node ref="DS4" pin="14"/>
+      <node ref="DS5" pin="14"/>
+    </net>
+    <net code="230" name="/2I">
+      <node ref="DS5" pin="13"/>
+      <node ref="U3" pin="25"/>
+      <node ref="DS4" pin="13"/>
+    </net>
+    <net code="231" name="/OP3D1">
+      <node ref="DS4" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="232" name="/OP3D2">
+      <node ref="DS4" pin="21"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="233" name="/OP3D4">
+      <node ref="U3" pin="12"/>
+      <node ref="DS4" pin="11"/>
+    </net>
+    <net code="234" name="/2G">
+      <node ref="U3" pin="22"/>
+      <node ref="DS4" pin="5"/>
+      <node ref="DS5" pin="5"/>
+    </net>
+    <net code="235" name="/2EF">
+      <node ref="DS5" pin="4"/>
+      <node ref="DS5" pin="3"/>
+      <node ref="U3" pin="21"/>
+      <node ref="DS4" pin="4"/>
+      <node ref="DS4" pin="3"/>
+    </net>
+    <net code="236" name="/2AB">
+      <node ref="DS4" pin="20"/>
+      <node ref="DS4" pin="19"/>
+      <node ref="U3" pin="18"/>
+      <node ref="DS5" pin="20"/>
+      <node ref="DS5" pin="19"/>
+    </net>
+    <net code="237" name="/2D">
+      <node ref="DS4" pin="2"/>
+      <node ref="U3" pin="20"/>
+      <node ref="DS5" pin="2"/>
+    </net>
+    <net code="238" name="/2C">
+      <node ref="U3" pin="19"/>
+      <node ref="DS5" pin="18"/>
+      <node ref="DS4" pin="18"/>
+    </net>
+    <net code="239" name="/2H">
+      <node ref="DS4" pin="6"/>
+      <node ref="DS5" pin="6"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="240" name="/2DP">
+      <node ref="DS5" pin="8"/>
+      <node ref="U3" pin="4"/>
+      <node ref="DS4" pin="8"/>
+    </net>
+    <net code="241" name="/3N">
+      <node ref="DS6" pin="9"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="242" name="/3P">
+      <node ref="DS6" pin="7"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="243" name="/3O">
+      <node ref="DS6" pin="10"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="244" name="/3J">
+      <node ref="DS6" pin="14"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="245" name="/3I">
+      <node ref="DS6" pin="13"/>
+      <node ref="U4" pin="25"/>
+    </net>
+    <net code="246" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="247" name="/3DP">
+      <node ref="DS6" pin="8"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="248" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="249" name="/3L">
+      <node ref="U4" pin="27"/>
+      <node ref="DS6" pin="16"/>
+    </net>
+    <net code="250" name="/3AB">
+      <node ref="DS6" pin="20"/>
+      <node ref="DS6" pin="19"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="251" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="252" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="253" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="254" name="/OP5D1">
+      <node ref="U4" pin="9"/>
+      <node ref="DS6" pin="1"/>
+    </net>
+    <net code="255" name="/3EF">
+      <node ref="DS6" pin="4"/>
+      <node ref="U4" pin="21"/>
+      <node ref="DS6" pin="3"/>
+    </net>
+    <net code="256" name="/3H">
+      <node ref="U4" pin="23"/>
+      <node ref="DS6" pin="6"/>
+    </net>
+    <net code="257" name="/3G">
+      <node ref="DS6" pin="5"/>
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="258" name="/OP5D2">
+      <node ref="U4" pin="10"/>
+      <node ref="DS6" pin="21"/>
+    </net>
+    <net code="259" name="/3D">
+      <node ref="DS6" pin="2"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="260" name="/3C">
+      <node ref="U4" pin="19"/>
+      <node ref="DS6" pin="18"/>
+    </net>
+    <net code="261" name="/3M">
+      <node ref="DS6" pin="17"/>
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="262" name="/3K">
+      <node ref="DS6" pin="15"/>
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="263" name="/OP5D3">
+      <node ref="U4" pin="11"/>
+      <node ref="DS6" pin="12"/>
+    </net>
+    <net code="264" name="/OP5D4">
+      <node ref="U4" pin="12"/>
+      <node ref="DS6" pin="11"/>
+    </net>
+  </nets>
+</export>
