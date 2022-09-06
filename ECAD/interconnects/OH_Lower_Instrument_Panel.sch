@@ -14264,6 +14264,12 @@ Text Notes 7200 4650 2    50   ~ 0
 PC RST +
 Text Notes 7200 4750 2    50   ~ 0
 PC RST -
+Text Notes 6500 28100 0    50   ~ 0
+PWR IN: M6 RING\nRCON: M4 RING (16AWG)\nSPEAKER +/-: M4 RING
+Text Notes 9250 28350 1    50   ~ 0
+16AWG W/
+Text Notes 9350 28350 1    50   ~ 0
+M4 RING
 Wire Bus Line
 	-34950 11550 -33800 11550
 Wire Bus Line
@@ -14296,10 +14302,4 @@ Wire Bus Line
 	-32800 10300 -32800 11650
 Wire Bus Line
 	-34950 10300 -34950 11550
-Text Notes 6500 28100 0    50   ~ 0
-PWR IN: M6 RING\nRCON: M4 RING (16AWG)\nSPEAKER +/-: M4 RING
-Text Notes 9250 28350 1    50   ~ 0
-16AWG W/
-Text Notes 9350 28350 1    50   ~ 0
-M4 RING
 $EndSCHEMATC
