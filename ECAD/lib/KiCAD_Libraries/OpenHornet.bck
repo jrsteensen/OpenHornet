@@ -48,6 +48,10 @@ $CMP GS105
 D TP-Link GS105 Unmanaged Ethernet Switch
 $ENDCMP
 #
+$CMP GenericATXPSU
+D Generic ATX PSU Symbol
+$ENDCMP
+#
 $CMP HB-U14P
 D 13-Port USB 2.0 Hub
 K usb 13-port 13 2.0 hub
@@ -56,6 +60,10 @@ $ENDCMP
 #
 $CMP IFEI
 D SWITCH/BL PCB FOR THE IFEI
+$ENDCMP
+#
+$CMP MASTER_ARM
+D SWITCH/BL PCB FOR MASTER ARM PANEL
 $ENDCMP
 #
 $CMP OH-OPT-DIGIT
@@ -100,6 +108,10 @@ $ENDCMP
 #
 $CMP THROTTLE_CONTROLLER
 D A throttle controller PCB for the OpenHornet Throttle.
+$ENDCMP
+#
+$CMP UFCv5
+D MAIN PCB FOR THE UFC
 $ENDCMP
 #
 $CMP USB32HD4
