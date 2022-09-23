@@ -1,0 +1,724 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Autopilot Button PCB"
+Date "2022-08-26"
+Rev "2"
+Comp "WWW.OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KiCadCustomLib:TL1240GQ SW1
+U 1 1 5FE4A076
+P 2850 3900
+F 0 "SW1" H 2850 4285 50  0000 C CNN
+F 1 "TL1240GQ" H 2850 4194 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 2850 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2850 4200 50  0001 C CNN
+F 4 "TL1240GQ" H 2850 4200 98  0001 C CNN "PN"
+	1    2850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW2
+U 1 1 5FE4D524
+P 3800 3900
+F 0 "SW2" H 3800 4285 50  0000 C CNN
+F 1 "TL1240GQ" H 3800 4194 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 3800 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3800 4200 50  0001 C CNN
+F 4 "TL1240GQ" H 3800 4200 98  0001 C CNN "PN"
+	1    3800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW3
+U 1 1 5FE4E420
+P 4750 3900
+F 0 "SW3" H 4750 4285 50  0000 C CNN
+F 1 "TL1240GQ" H 4750 4194 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 4750 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4750 4200 50  0001 C CNN
+F 4 "TL1240GQ" H 4750 4200 98  0001 C CNN "PN"
+	1    4750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW4
+U 1 1 5FE4EE85
+P 5700 3900
+F 0 "SW4" H 5700 4285 50  0000 C CNN
+F 1 "TL1240GQ" H 5700 4194 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 5700 4200 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 5700 4200 50  0001 C CNN
+F 4 "TL1240GQ" H 5700 4200 98  0001 C CNN "PN"
+	1    5700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW5
+U 1 1 5FE4FBDC
+P 2800 4600
+F 0 "SW5" H 2800 4985 50  0000 C CNN
+F 1 "TL1240GQ" H 2800 4894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 2800 4900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2800 4900 50  0001 C CNN
+F 4 "TL1240GQ" H 2800 4900 98  0001 C CNN "PN"
+	1    2800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW6
+U 1 1 5FE50B77
+P 3750 4600
+F 0 "SW6" H 3750 4985 50  0000 C CNN
+F 1 "TL1240GQ" H 3750 4894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 3750 4900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3750 4900 50  0001 C CNN
+F 4 "TL1240GQ" H 3750 4900 98  0001 C CNN "PN"
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:TL1240GQ SW7
+U 1 1 5FE5114C
+P 4700 4600
+F 0 "SW7" H 4700 4985 50  0000 C CNN
+F 1 "TL1240GQ" H 4700 4894 50  0000 C CNN
+F 2 "KiCAD_Libraries:TL1240GQ" H 4700 4900 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4700 4900 50  0001 C CNN
+F 4 "TL1240GQ" H 4700 4900 98  0001 C CNN "PN"
+	1    4700 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
+Text Label 2650 3800 2    60   ~ 0
+AP_SW
+Text Label 3600 3800 2    60   ~ 0
+IFF_SW
+Text Label 4550 3800 2    60   ~ 0
+TCN_SW
+Text Label 5500 3800 2    60   ~ 0
+ILS_SW
+Text Label 2600 4500 2    60   ~ 0
+DL_SW
+Text Label 3550 4500 2    60   ~ 0
+BCN_SW
+Text Label 4500 4500 2    60   ~ 0
+ON_SW
+Text Notes 2950 4100 2    50   ~ 0
+A/P SW
+Text Notes 3900 4100 2    50   ~ 0
+IFF SW
+Text Notes 4850 4100 2    50   ~ 0
+TCN SW
+Text Notes 5800 4100 2    50   ~ 0
+ILS SW
+Text Notes 2900 4800 2    50   ~ 0
+D/L SW
+Text Notes 3850 4800 2    50   ~ 0
+BCN SW
+Text Notes 4900 4800 2    50   ~ 0
+ON/OFF SW
+Text Label 3050 3900 0    50   ~ 0
+AP-
+$Comp
+L power:GND #PWR02
+U 1 1 5FEA0F58
+P 3150 3800
+F 0 "#PWR02" H 3150 3550 50  0001 C CNN
+F 1 "GND" H 3150 3650 50  0000 C CNN
+F 2 "" H 3150 3800 50  0000 C CNN
+F 3 "" H 3150 3800 50  0000 C CNN
+	1    3150 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 3800 3050 3800
+$Comp
+L power:GND #PWR03
+U 1 1 5FEA6FA9
+P 4100 3800
+F 0 "#PWR03" H 4100 3550 50  0001 C CNN
+F 1 "GND" H 4100 3650 50  0000 C CNN
+F 2 "" H 4100 3800 50  0000 C CNN
+F 3 "" H 4100 3800 50  0000 C CNN
+	1    4100 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 3800 4000 3800
+$Comp
+L power:GND #PWR04
+U 1 1 5FEA72A9
+P 5050 3800
+F 0 "#PWR04" H 5050 3550 50  0001 C CNN
+F 1 "GND" H 5050 3650 50  0000 C CNN
+F 2 "" H 5050 3800 50  0000 C CNN
+F 3 "" H 5050 3800 50  0000 C CNN
+	1    5050 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3800 4950 3800
+$Comp
+L power:GND #PWR05
+U 1 1 5FEA77C7
+P 6000 3800
+F 0 "#PWR05" H 6000 3550 50  0001 C CNN
+F 1 "GND" H 6000 3650 50  0000 C CNN
+F 2 "" H 6000 3800 50  0000 C CNN
+F 3 "" H 6000 3800 50  0000 C CNN
+	1    6000 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3800 5900 3800
+$Comp
+L power:GND #PWR06
+U 1 1 5FEA7951
+P 3100 4500
+F 0 "#PWR06" H 3100 4250 50  0001 C CNN
+F 1 "GND" H 3100 4350 50  0000 C CNN
+F 2 "" H 3100 4500 50  0000 C CNN
+F 3 "" H 3100 4500 50  0000 C CNN
+	1    3100 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 4500 3000 4500
+$Comp
+L power:GND #PWR07
+U 1 1 5FEA7C96
+P 4050 4500
+F 0 "#PWR07" H 4050 4250 50  0001 C CNN
+F 1 "GND" H 4050 4350 50  0000 C CNN
+F 2 "" H 4050 4500 50  0000 C CNN
+F 3 "" H 4050 4500 50  0000 C CNN
+	1    4050 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 4500 3950 4500
+$Comp
+L power:GND #PWR08
+U 1 1 5FEA8047
+P 5000 4500
+F 0 "#PWR08" H 5000 4250 50  0001 C CNN
+F 1 "GND" H 5000 4350 50  0000 C CNN
+F 2 "" H 5000 4500 50  0000 C CNN
+F 3 "" H 5000 4500 50  0000 C CNN
+	1    5000 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4500 4900 4500
+Text Label 4000 3900 0    50   ~ 0
+IFF-
+Text Label 4950 3900 0    50   ~ 0
+TCN-
+Text Label 5900 3900 0    50   ~ 0
+ILS-
+Text Label 3000 4600 0    50   ~ 0
+DL-
+Text Label 3950 4600 0    50   ~ 0
+BCN-
+Text Label 4900 4600 0    50   ~ 0
+ON-
+Text Label 2650 3900 2    50   ~ 0
+AP+
+Text Label 3600 3900 2    50   ~ 0
+IFF+
+Text Label 4550 3900 2    50   ~ 0
+TCN+
+Text Label 5500 3900 2    50   ~ 0
+ILS+
+Text Label 2600 4600 2    50   ~ 0
+DL+
+Text Label 3550 4600 2    50   ~ 0
+BCN+
+Text Label 4500 4600 2    50   ~ 0
+ON+
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FEA9178
+P 9100 2300
+F 0 "#FLG0101" H 9100 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9100 2473 50  0000 C CNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "~" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FEA92D3
+P 9100 2300
+F 0 "#PWR0101" H 9100 2050 50  0001 C CNN
+F 1 "GND" H 9100 2150 50  0000 C CNN
+F 2 "" H 9100 2300 50  0000 C CNN
+F 3 "" H 9100 2300 50  0000 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FEA9DBF
+P 6850 1350
+F 0 "J1" H 6900 1667 50  0000 C CNN
+F 1 "TO UFC" H 6900 1576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6850 1350 50  0001 C CNN
+F 3 "~" H 6850 1350 50  0001 C CNN
+	1    6850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6309BA81
+P 9500 2300
+F 0 "#FLG0102" H 9500 2375 50  0001 C CNN
+F 1 "PWR_FLAG" H 9500 2473 50  0000 C CNN
+F 2 "" H 9500 2300 50  0001 C CNN
+F 3 "~" H 9500 2300 50  0001 C CNN
+	1    9500 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 6309BC33
+P 9500 2300
+F 0 "#PWR0102" H 9500 2050 50  0001 C CNN
+F 1 "+5V" H 9500 2450 50  0000 C CNN
+F 2 "" H 9500 2300 50  0000 C CNN
+F 3 "" H 9500 2300 50  0000 C CNN
+	1    9500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1250 6550 1250
+Wire Wire Line
+	6550 1250 6550 1150
+Wire Wire Line
+	6650 1350 6350 1350
+Wire Wire Line
+	6350 1350 6350 1150
+$Comp
+L power:GND #PWR0103
+U 1 1 6309DC46
+P 6550 1150
+F 0 "#PWR0103" H 6550 900 50  0001 C CNN
+F 1 "GND" H 6550 1000 50  0000 C CNN
+F 2 "" H 6550 1150 50  0000 C CNN
+F 3 "" H 6550 1150 50  0000 C CNN
+	1    6550 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 6309EC1D
+P 6350 1150
+F 0 "#PWR0104" H 6350 900 50  0001 C CNN
+F 1 "+5V" H 6350 1300 50  0000 C CNN
+F 2 "" H 6350 1150 50  0000 C CNN
+F 3 "" H 6350 1150 50  0000 C CNN
+	1    6350 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 1450 0    50   Input ~ 0
+SDA
+Text GLabel 6650 1550 0    50   Input ~ 0
+SCL
+$Comp
+L KiCadCustomLib:AW9523BTQR U1
+U 1 1 6309FE29
+P 3850 2250
+F 0 "U1" H 4150 3150 50  0000 C CNN
+F 1 "AW9523BTQR" H 4150 3050 50  0000 C CNN
+F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3850 2250 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2850 3100 2850
+Wire Wire Line
+	3100 2850 3100 2750
+Wire Wire Line
+	3400 2950 3100 2950
+Wire Wire Line
+	3100 2950 3100 2850
+Connection ~ 3100 2850
+$Comp
+L power:+5V #PWR0105
+U 1 1 630A25F6
+P 3100 2750
+F 0 "#PWR0105" H 3100 2500 50  0001 C CNN
+F 1 "+5V" H 3100 2900 50  0000 C CNN
+F 2 "" H 3100 2750 50  0000 C CNN
+F 3 "" H 3100 2750 50  0000 C CNN
+	1    3100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 630A3A6F
+P 3650 1300
+F 0 "C1" V 3421 1300 50  0000 C CNN
+F 1 ".1uF" V 3512 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 3650 1300 50  0001 C CNN
+F 4 "C14663" V 3650 1300 50  0001 C CNN "LCSC"
+F 5 "CC0603KRX7R9BB104" V 3650 1300 50  0001 C CNN "PN"
+	1    3650 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1400 3850 1300
+Wire Wire Line
+	3850 1300 3750 1300
+Connection ~ 3850 1300
+Wire Wire Line
+	3850 1300 3850 1200
+$Comp
+L power:+5V #PWR0106
+U 1 1 630A4C47
+P 3850 1200
+F 0 "#PWR0106" H 3850 950 50  0001 C CNN
+F 1 "+5V" H 3850 1350 50  0000 C CNN
+F 2 "" H 3850 1200 50  0000 C CNN
+F 3 "" H 3850 1200 50  0000 C CNN
+	1    3850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 630A55F1
+P 3550 1300
+F 0 "#PWR0107" H 3550 1050 50  0001 C CNN
+F 1 "GND" H 3550 1150 50  0000 C CNN
+F 2 "" H 3550 1300 50  0000 C CNN
+F 3 "" H 3550 1300 50  0000 C CNN
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 1550 0    50   Input ~ 0
+SDA
+Text GLabel 3300 1650 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	3300 1550 3400 1550
+Wire Wire Line
+	3400 1650 3300 1650
+NoConn ~ 3400 1750
+NoConn ~ 3400 1850
+Text Label 2550 2300 2    60   ~ 0
+AP_SW
+$Comp
+L power:GND #PWR0108
+U 1 1 630AAD37
+P 3850 3300
+F 0 "#PWR0108" H 3850 3050 50  0001 C CNN
+F 1 "GND" H 3850 3150 50  0000 C CNN
+F 2 "" H 3850 3300 50  0000 C CNN
+F 3 "" H 3850 3300 50  0000 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3100 3800 3200
+Wire Wire Line
+	3800 3200 3850 3200
+Wire Wire Line
+	3850 3200 3900 3200
+Wire Wire Line
+	3900 3200 3900 3100
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3300 3850 3200
+Text Label 2550 2200 2    60   ~ 0
+IFF_SW
+Text Label 2550 2100 2    60   ~ 0
+TCN_SW
+Text Label 2550 2000 2    60   ~ 0
+ILS_SW
+Text Label 5100 2700 0    60   ~ 0
+DL_SW
+Text Label 5100 2600 0    60   ~ 0
+BCN_SW
+Text Label 5100 2500 0    60   ~ 0
+ON_SW
+Text Label 6850 3850 0    50   ~ 0
+AP+
+Text Label 7350 3850 2    50   ~ 0
+AP-
+Text Label 7450 3850 0    50   ~ 0
+IFF+
+Text Label 7950 3850 2    50   ~ 0
+IFF-
+Text Label 6850 4050 0    50   ~ 0
+TCN+
+Text Label 7350 4050 2    50   ~ 0
+TCN-
+Text Label 7450 4050 0    50   ~ 0
+ILS+
+Text Label 7950 4050 2    50   ~ 0
+ILS-
+Text Label 6850 4250 0    50   ~ 0
+DL+
+Text Label 7350 4250 2    50   ~ 0
+DL-
+Text Label 7450 4250 0    50   ~ 0
+BCN+
+Text Label 7950 4250 2    50   ~ 0
+BCN-
+Text Label 7450 4450 0    50   ~ 0
+ON+
+Text Label 7950 4450 2    50   ~ 0
+ON-
+$Comp
+L Device:R_Small R1
+U 1 1 630B2472
+P 7100 4450
+F 0 "R1" V 7000 4450 50  0000 C CNN
+F 1 "33" V 7100 4450 39  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7100 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf" H 7100 4450 50  0001 C CNN
+F 4 "C25105" V 7100 4450 50  0001 C CNN "LCSC"
+F 5 "0402WGF330JTCE" V 7100 4450 50  0001 C CNN "PN"
+	1    7100 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 4250 7350 4250
+Wire Wire Line
+	7450 4050 7350 4050
+Wire Wire Line
+	7450 3850 7350 3850
+Wire Wire Line
+	6750 4450 6750 4250
+Wire Wire Line
+	8050 4450 8050 4250
+$Comp
+L power:+5V #PWR0109
+U 1 1 630B7A4C
+P 6750 3750
+F 0 "#PWR0109" H 6750 3500 50  0001 C CNN
+F 1 "+5V" H 6750 3900 50  0000 C CNN
+F 2 "" H 6750 3750 50  0000 C CNN
+F 3 "" H 6750 3750 50  0000 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+Text Label 8050 3750 0    50   ~ 0
+LEDVCC
+Wire Wire Line
+	7000 4450 6750 4450
+Wire Wire Line
+	6850 4250 6750 4250
+Connection ~ 6750 4250
+Wire Wire Line
+	6750 4250 6750 4050
+Wire Wire Line
+	6850 4050 6750 4050
+Connection ~ 6750 4050
+Wire Wire Line
+	6750 4050 6750 3850
+Wire Wire Line
+	6850 3850 6750 3850
+Connection ~ 6750 3850
+Wire Wire Line
+	6750 3850 6750 3750
+Wire Wire Line
+	7950 3850 8050 3850
+Connection ~ 8050 3850
+Wire Wire Line
+	8050 3850 8050 3750
+Wire Wire Line
+	7950 4050 8050 4050
+Connection ~ 8050 4050
+Wire Wire Line
+	8050 4050 8050 3850
+Wire Wire Line
+	7950 4250 8050 4250
+Connection ~ 8050 4250
+Wire Wire Line
+	8050 4250 8050 4050
+Wire Wire Line
+	7950 4450 8050 4450
+Wire Wire Line
+	7450 4450 7200 4450
+Wire Wire Line
+	3400 2000 2950 2000
+Wire Wire Line
+	3400 2100 2850 2100
+Wire Wire Line
+	3400 2200 2750 2200
+Wire Wire Line
+	3400 2300 2650 2300
+Wire Wire Line
+	2950 1900 2950 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	2950 2000 2550 2000
+Wire Wire Line
+	2850 1900 2850 2100
+Connection ~ 2850 2100
+Wire Wire Line
+	2850 2100 2550 2100
+Wire Wire Line
+	2750 1900 2750 2200
+Connection ~ 2750 2200
+Wire Wire Line
+	2750 2200 2550 2200
+Wire Wire Line
+	2650 1900 2650 2300
+Connection ~ 2650 2300
+Wire Wire Line
+	2650 2300 2550 2300
+Wire Wire Line
+	5100 2500 4700 2500
+Wire Wire Line
+	5100 2600 4800 2600
+Wire Wire Line
+	5100 2700 4900 2700
+Wire Wire Line
+	4700 2400 4700 2500
+Connection ~ 4700 2500
+Wire Wire Line
+	4800 2400 4800 2600
+Connection ~ 4800 2600
+Wire Wire Line
+	4900 2400 4900 2700
+Connection ~ 4900 2700
+NoConn ~ 5000 2400
+$Comp
+L power:+5V #PWR0110
+U 1 1 630D207E
+P 2800 1300
+F 0 "#PWR0110" H 2800 1050 50  0001 C CNN
+F 1 "+5V" H 2800 1450 50  0000 C CNN
+F 2 "" H 2800 1300 50  0000 C CNN
+F 3 "" H 2800 1300 50  0000 C CNN
+	1    2800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 630D3A01
+P 4800 1800
+F 0 "#PWR0111" H 4800 1550 50  0001 C CNN
+F 1 "+5V" H 4800 1950 50  0000 C CNN
+F 2 "" H 4800 1800 50  0000 C CNN
+F 3 "" H 4800 1800 50  0000 C CNN
+	1    4800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 630D7921
+P 4900 2200
+F 0 "RN2" H 5088 2246 50  0000 L CNN
+F 1 "4.7K" H 5088 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5175 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810170913_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0472T5E_C1980.pdf" H 4900 2200 50  0001 C CNN
+F 4 "C1980" H 4900 2200 50  0001 C CNN "LCSC"
+F 5 "4D03WGJ0472T5E" H 4900 2200 50  0001 C CNN "PN"
+	1    4900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2000 4700 1900
+Wire Wire Line
+	4700 1900 4800 1900
+Wire Wire Line
+	4900 2000 4900 1900
+Wire Wire Line
+	4800 2000 4800 1900
+Connection ~ 4800 1900
+NoConn ~ 5000 2000
+Wire Wire Line
+	4800 1900 4900 1900
+Wire Wire Line
+	4800 1800 4800 1900
+Wire Wire Line
+	2650 1500 2650 1400
+Wire Wire Line
+	2650 1400 2750 1400
+Wire Wire Line
+	2950 1400 2950 1500
+Wire Wire Line
+	2800 1400 2800 1300
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 1400 2850 1400
+Wire Wire Line
+	2850 1500 2850 1400
+Connection ~ 2850 1400
+Wire Wire Line
+	2850 1400 2950 1400
+Wire Wire Line
+	2750 1500 2750 1400
+Connection ~ 2750 1400
+Wire Wire Line
+	2750 1400 2800 1400
+Text Label 4300 2400 0    50   ~ 0
+LEDVCC
+NoConn ~ 4300 2300
+NoConn ~ 3400 2700
+NoConn ~ 3400 2600
+NoConn ~ 3400 2500
+NoConn ~ 3400 2400
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 6310B548
+P 2750 1700
+F 0 "RN1" H 2937 1746 50  0000 L CNN
+F 1 "4.7K" H 2937 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3025 1700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810170913_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0472T5E_C1980.pdf" H 2750 1700 50  0001 C CNN
+F 4 "C1980" H 2750 1700 50  0001 C CNN "LCSC"
+F 5 "4D03WGJ0472T5E" H 2750 1700 50  0001 C CNN "PN"
+	1    2750 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2500 4700 2500
+Wire Wire Line
+	4300 2600 4800 2600
+Wire Wire Line
+	4300 2700 4900 2700
+NoConn ~ 4300 2200
+NoConn ~ 4300 2100
+NoConn ~ 4300 2000
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 63147F1C
+P 9000 1750
+F 0 "H1" H 9100 1750 50  0000 L CNN
+F 1 "~" H 9100 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9000 1750 50  0001 C CNN
+F 3 "~" H 9000 1750 50  0001 C CNN
+	1    9000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 63148CA0
+P 9500 1750
+F 0 "H2" H 9600 1750 50  0000 L CNN
+F 1 "~" H 9600 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 9500 1750 50  0001 C CNN
+F 3 "~" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

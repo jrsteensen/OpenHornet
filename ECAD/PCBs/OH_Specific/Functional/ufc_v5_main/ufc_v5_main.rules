@@ -1,0 +1,123 @@
+
+(rules PCB ufc_v5_main
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout on)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 270)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 203.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um-+5V" "Via[0-1]_600:400_um" +5V
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    +5V "Via[0-1]_600:400_um-+5V"
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 203.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +5V "/1-" "/0-" "/4-" /0+ "/3-" "/6-"
+    "/9-" "/CLR-" "Net-(R2-Pad2)" "/C_GRID1" "/C_GRID2" "/C_GRID3" "/C_GRID4" "/C_SEG1"
+    "/C_SEG2" "/C_SEG3" "/C_SEG4" "/C_SEG5" "/C_SEG6" "/C_SEG7" "/C_SEG8" "Net-(U9-Pad8)"
+    "Net-(U9-Pad7)" "Net-(U9-Pad6)" "Net-(U9-Pad5)" /OP1D2 /1AB /1C /1M /1L
+    /1K /1J /1I /OP1D3 /OP1D4 /1O /1N /1DP
+    /1P /1H /1G /1EF /1D /OP1D1 /OP2D2 /OP2D3
+    /OP2D4 /OP2D1 /OP3D2 /2AB /2C /2M /2L /2K
+    /2J /2I /OP3D3 /OP3D4 /2O /2N /2DP /2P
+    /2H /2G /2EF /2D /OP3D1 /OP4D2 /OP4D1 /OP5D2
+    /3AB /3C /3M /3L /3K /3J /3I /OP5D3
+    /OP5D4 /3O /3N /3DP /3P /3H /3G /3EF
+    /3D /OP5D1 "OP1_CLK" DIO "OP2_CLK" "Net-(U2-Pad5)" "OP3_CLK" "Net-(U3-Pad5)"
+    "C_CLK" "Net-(U4-Pad5)" "Net-(U5-Pad5)" "Net-(U5-Pad4)" /TNLEDPWR "Net-(D1-Pad1)" "/IP-" "Net-(D4-Pad1)"
+    "Net-(D36-Pad2)" "Net-(D35-Pad1)" "Net-(D11-Pad2)" "Net-(D19-Pad1)" "Net-(D10-Pad1)" "Net-(D13-Pad2)" "Net-(D15-Pad1)" "Net-(D16-Pad1)"
+    "Net-(D18-Pad1)" "Net-(D20-Pad1)" "Net-(D23-Pad1)" "Net-(D26-Pad1)" "Net-(D28-Pad1)" "Net-(D29-Pad1)" "Net-(D32-Pad1)" "Net-(D34-Pad1)"
+    /COM0 /COM1 /COM2 /COM3 /SEG0 /SEG1 /SEG2 /SEG3
+    /SEG4 /SEG5 /SEG6 /SEG7 /SEG8 /SEG9 /SEG10 /SEG11
+    /SEG12 /SEG13 /SEG14 /SEG15 /SEG16 /SEG17 /SEG18 /SEG19
+    /SEG20 /SEG21 /ENC1+ "/ENC1-" /ENC1PB ANALOG1 ANALOG3 SCL
+    SDA /ENC2PB "/ENC2-" /ENC2+ ANALOG2 /ADF2 /ADF1 /SW1
+    /SW4 /OP1+ "/EM-" /SW7 /SW11 /SW13 /SW2 /SW5
+    /SW8 /SW12 /SW19 /SW3 /SW6 /SW9 /SW10 /SW14
+    /SW15 /SW16 /SW17 /SW18 "/7-" "Net-(U1-Pad26)" "Net-(U1-Pad25)" "Net-(U1-Pad24)"
+    "Net-(U1-Pad23)" "Net-(U1-Pad22)" "Net-(U1-Pad21)" "Net-(U1-Pad20)" "Net-(U1-Pad19)" "Net-(U1-Pad18)" "Net-(U1-Pad17)" "Net-(U1-Pad12)"
+    "Net-(U1-Pad11)" "Net-(U1-Pad10)" "Net-(U1-Pad7)" "Net-(U1-Pad6)" SCRDATA SCRWR SCRCS "Net-(U4-Pad16)"
+    "Net-(U4-Pad15)" "Net-(U4-Pad14)" "Net-(U4-Pad13)" "Net-(U5-Pad28)" "Net-(U5-Pad27)" "Net-(U5-Pad26)" "Net-(U5-Pad25)" "Net-(U5-Pad24)"
+    "Net-(U5-Pad23)" "Net-(U5-Pad22)" "Net-(U5-Pad3)" "Net-(U5-Pad2)" "Net-(U5-Pad1)" "Net-(U6-Pad23)" "Net-(U6-Pad22)" "Net-(U7-Pad23)"
+    "Net-(U7-Pad22)" +3V3 /OP4D3 /OP4D4 "/BIT_SW" "/NOGO_LED" "/GO_LED" ANALOG1@3.3V
+    ANALOG2@3.3V ANALOG3@3.3V "Net-(R40-Pad1)" "Net-(R41-Pad1)" "Net-(R43-Pad1)" "Net-(R44-Pad1)" "Net-(U1-Pad2)" "OP2_CLK@3.3V"
+    "OP1_CLK@3.3V" DIO@3.3V "OP3_CLK@3.3V" SCL@3.3V SDA@3.3V "C_CLK@3.3V" "Net-(U8-Pad12)" "Net-(U8-Pad9)"
+    SCRDATA@3.3V SCRWR@3.3V SCRCS@3.3V "Net-(U9-Pad16)" "Net-(U9-Pad15)" "Net-(U9-Pad14)" "Net-(U9-Pad13)" "Net-(U9-Pad12)"
+    "Net-(U9-Pad9)" "Net-(MC1-Pad22)" "Net-(MC1-Pad30)" "Net-(MC1-Pad17)" "Net-(MC1-Pad25)" "Net-(MC1-Pad27)" "Net-(MC1-Pad18)" "Net-(MC1-Pad24)"
+    "Net-(MC1-Pad20)" "Net-(MC1-Pad26)" "Net-(MC1-Pad28)" "Net-(MC1-Pad21)" "Net-(MC1-Pad29)" "Net-(MC1-Pad19)" "Net-(MC1-Pad6)" "Net-(MC1-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 203.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class +5V
+    (clearance_class +5V)
+    (via_rule +5V)
+    (rule
+      (width 203.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

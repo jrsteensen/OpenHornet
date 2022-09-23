@@ -1,0 +1,14 @@
+(module MRY106_RotarySW (layer F.Cu) (tedit 61017669)
+  (fp_text reference REF** (at -0.025 -6.125) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MRY106_RotarySW (at 0 -4.675) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.540752 7.540752) (drill 6.35) (layers *.Mask F.Cu)
+    (clearance 1))
+  (pad "" np_thru_hole circle (at -6.4257 2.0878) (size 2.38125 2.38125) (drill 2.2) (layers *.Cu *.Mask)
+    (clearance 1))
+  (pad "" np_thru_hole circle (at 0 0) (size 7.540752 7.540752) (drill 6.35) (layers *.Mask B.Cu)
+    (clearance 2))
+)

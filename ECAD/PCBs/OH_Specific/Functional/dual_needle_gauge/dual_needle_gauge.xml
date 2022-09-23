@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\dual_needle_gauge\dual_needle_gauge.sch</source>
+    <date>11/7/2021 11:32:37</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DUAL NEEDLE GAUGE</title>
+        <company>www.OpenHornet.com</company>
+        <rev>1</rev>
+        <date>2021-11-06</date>
+        <source>dual_needle_gauge.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J3">
+      <value>BL OUT</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7889C9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>BL IN</value>
+      <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F78526A</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>X40_8798</value>
+      <footprint>KiCAD Libraries:x40_8798</footprint>
+      <datasheet>https://www.jukenswisstech.com/JSTFiles/downloads/2011/03/X40_Flyer_v1.1.pdf</datasheet>
+      <libsource lib="KiCadCustomLib" part="X40_8798" description="dual microstepper motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618791F7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618A5449</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618DA367</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618EE53E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618F5560</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618FC6B9</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191AB9B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191ABC8</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191ABD7</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191ABE5</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6191ABF3</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194616A</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61946197</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619461A6</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619461B4</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619461C2</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619784A7</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61978873</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DATA</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61873EF2</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199767F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619976AC</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619976BA</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619976C7</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619976D5</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619976F2</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61997701</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61997710</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199771E</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199772C</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199774F</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199775E</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199776D</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6199777B</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61997789</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45CB1</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45CDE</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45CED</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45CFB</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D09</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D28</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D35</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D44</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D52</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A45D60</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A5363C</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>WS2812B-2020</value>
+      <footprint>KiCAD Libraries:WS2812-2020</footprint>
+      <datasheet>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="WS2812B-2020" description="RGB LED with integrated controller, 2 x 2mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A53669</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="WS2812B-2020">
+      <description>RGB LED with integrated controller, 2 x 2mm</description>
+      <docs>https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B-2020</field>
+        <field name="Footprint">KiCAD Libraries:WS2812-2020</field>
+        <field name="LCSC">C965555</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="X40_8798">
+      <description>dual microstepper motor</description>
+      <docs>https://www.jukenswisstech.com/JSTFiles/downloads/2011/03/X40_Flyer_v1.1.pdf</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*Vertical*</fp>
+        <fp>TerminalBlock*</fp>
+        <fp>Motor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">X40_8798</field>
+        <field name="Footprint">KiCAD Libraries:X40_dual_needle_microstepper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="-" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DOUT3">
+      <node ref="D30" pin="1"/>
+      <node ref="D31" pin="3"/>
+    </net>
+    <net code="2" name="Net-(D28-Pad1)">
+      <node ref="D29" pin="3"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D29-Pad1)">
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="3"/>
+    </net>
+    <net code="4" name="Net-(D15-Pad1)">
+      <node ref="D16" pin="3"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D25-Pad1)">
+      <node ref="D26" pin="3"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D31-Pad1)">
+      <node ref="D32" pin="3"/>
+      <node ref="D31" pin="1"/>
+    </net>
+    <net code="7" name="/DOUT2">
+      <node ref="D21" pin="3"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D18-Pad1)">
+      <node ref="D18" pin="1"/>
+      <node ref="D19" pin="3"/>
+    </net>
+    <net code="9" name="Net-(D19-Pad1)">
+      <node ref="D20" pin="3"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D17-Pad1)">
+      <node ref="D18" pin="3"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D16-Pad1)">
+      <node ref="D17" pin="3"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D26-Pad1)">
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="3"/>
+    </net>
+    <net code="14" name="Net-(D39-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="3"/>
+    </net>
+    <net code="15" name="Net-(D38-Pad1)">
+      <node ref="D38" pin="1"/>
+      <node ref="D39" pin="3"/>
+    </net>
+    <net code="16" name="Net-(D41-Pad1)">
+      <node ref="D41" pin="1"/>
+      <node ref="D42" pin="3"/>
+    </net>
+    <net code="17" name="/DOUT">
+      <node ref="J3" pin="4"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="18" name="/DOUT4">
+      <node ref="D40" pin="1"/>
+      <node ref="D41" pin="3"/>
+    </net>
+    <net code="19" name="Net-(D35-Pad1)">
+      <node ref="D35" pin="1"/>
+      <node ref="D36" pin="3"/>
+    </net>
+    <net code="20" name="Net-(D34-Pad1)">
+      <node ref="D35" pin="3"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D33-Pad1)">
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="3"/>
+    </net>
+    <net code="22" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="3"/>
+    </net>
+    <net code="23" name="/LED+5V">
+      <node ref="D12" pin="4"/>
+      <node ref="D11" pin="4"/>
+      <node ref="D13" pin="4"/>
+      <node ref="D35" pin="4"/>
+      <node ref="D34" pin="4"/>
+      <node ref="D41" pin="4"/>
+      <node ref="D36" pin="4"/>
+      <node ref="D38" pin="4"/>
+      <node ref="D16" pin="4"/>
+      <node ref="D32" pin="4"/>
+      <node ref="D15" pin="4"/>
+      <node ref="D33" pin="4"/>
+      <node ref="D37" pin="4"/>
+      <node ref="D24" pin="4"/>
+      <node ref="D23" pin="4"/>
+      <node ref="D9" pin="4"/>
+      <node ref="D10" pin="4"/>
+      <node ref="D25" pin="4"/>
+      <node ref="D8" pin="4"/>
+      <node ref="D21" pin="4"/>
+      <node ref="D22" pin="4"/>
+      <node ref="D14" pin="4"/>
+      <node ref="D5" pin="4"/>
+      <node ref="D7" pin="4"/>
+      <node ref="D6" pin="4"/>
+      <node ref="D1" pin="4"/>
+      <node ref="D2" pin="4"/>
+      <node ref="D4" pin="4"/>
+      <node ref="D3" pin="4"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D19" pin="4"/>
+      <node ref="D28" pin="4"/>
+      <node ref="D29" pin="4"/>
+      <node ref="D18" pin="4"/>
+      <node ref="D17" pin="4"/>
+      <node ref="D26" pin="4"/>
+      <node ref="D27" pin="4"/>
+      <node ref="D20" pin="4"/>
+      <node ref="D31" pin="4"/>
+      <node ref="D30" pin="4"/>
+      <node ref="D40" pin="4"/>
+      <node ref="D39" pin="4"/>
+      <node ref="D42" pin="4"/>
+    </net>
+    <net code="24" name="Net-(D37-Pad1)">
+      <node ref="D37" pin="1"/>
+      <node ref="D38" pin="3"/>
+    </net>
+    <net code="25" name="Net-(D36-Pad1)">
+      <node ref="D36" pin="1"/>
+      <node ref="D37" pin="3"/>
+    </net>
+    <net code="26" name="/DOUT1">
+      <node ref="D11" pin="3"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="3"/>
+    </net>
+    <net code="28" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="3"/>
+    </net>
+    <net code="29" name="/DIN">
+      <node ref="D1" pin="3"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="30" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="3"/>
+    </net>
+    <net code="31" name="Net-(D14-Pad1)">
+      <node ref="D15" pin="3"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="3"/>
+    </net>
+    <net code="33" name="/COIL6">
+      <node ref="M1" pin="6"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="34" name="/COIL2">
+      <node ref="J2" pin="3"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="35" name="/COIL3">
+      <node ref="M1" pin="3"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="36" name="/COIL4">
+      <node ref="J2" pin="7"/>
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="37" name="/COIL5">
+      <node ref="M1" pin="5"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="38" name="/COIL7">
+      <node ref="M1" pin="7"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="39" name="/COIL8">
+      <node ref="J2" pin="6"/>
+      <node ref="M1" pin="8"/>
+    </net>
+    <net code="40" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="41" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="3"/>
+    </net>
+    <net code="42" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="43" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="44" name="Net-(D6-Pad1)">
+      <node ref="D7" pin="3"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="46" name="/COIL1">
+      <node ref="J2" pin="1"/>
+      <node ref="M1" pin="1"/>
+    </net>
+    <net code="47" name="Net-(D10-Pad3)">
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="3"/>
+    </net>
+    <net code="48" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="D9" pin="3"/>
+    </net>
+    <net code="49" name="Net-(D23-Pad1)">
+      <node ref="D24" pin="3"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="50" name="Net-(D22-Pad1)">
+      <node ref="D22" pin="1"/>
+      <node ref="D23" pin="3"/>
+    </net>
+    <net code="51" name="Net-(D24-Pad1)">
+      <node ref="D25" pin="3"/>
+      <node ref="D24" pin="1"/>
+    </net>
+    <net code="52" name="Net-(D21-Pad1)">
+      <node ref="D22" pin="3"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="53" name="/LEDGND">
+      <node ref="D29" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D21" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D24" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D36" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D39" pin="2"/>
+      <node ref="D40" pin="2"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="D20" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D26" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="D17" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+  </nets>
+</export>

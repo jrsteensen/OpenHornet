@@ -413,7 +413,7 @@ F 3 "~" H 4550 500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Polarized C1
+L ANT-SEL-Panel-PCB-V2-rescue:C_Polarized-Device C1
 U 1 1 5FD5BCF2
 P 4550 300
 F 0 "C1" V 4805 300 50  0000 C CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 300  4400 500 
 $Comp
-L Device:C_Polarized C6
+L ANT-SEL-Panel-PCB-V2-rescue:C_Polarized-Device C6
 U 1 1 5FC120CE
 P 4550 300
 F 0 "C6" V 4805 300 50  0000 C CNN

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1938
+D RGB 5mm LED thru-hole with integrated controller
+K RGB 5mm LED thru-hole TH NeoPixel addressable
+F https://www.adafruit.com/product/1938
+$ENDCMP
+#
 $CMP 7SEGMENT_CA
 D Generic 7 segment display, common anode
 K LED
@@ -14,6 +20,11 @@ $CMP AG12864E
 D Graphics Display 128x64px,  8b parallel, 1/64 Duty, 3.3V or 5V VDD
 K LCD STN Graphics 128x64
 F https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+$ENDCMP
+#
+$CMP AW9523BTQR
+D 16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER
+F https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf
 $ENDCMP
 #
 $CMP AW9656QNR
@@ -54,6 +65,10 @@ $CMP CA56-12SYKWA
 D 4 digit 7 segment super bright yellow LED, common anode
 K 4 digit 7 segment super bright yellow LED, common anode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SYKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP CC-BY-NC-SA_Icon
+D CC-BY-NC-SA_Icon Small
 $ENDCMP
 #
 $CMP CC56-12CGKWA
@@ -175,6 +190,12 @@ K Double 7 segment brilliant yellow green LED common anode
 F http://www.everlight.com/file/ProductFile/D426SYGWA-S530-E2.pdf
 $ENDCMP
 #
+$CMP GN1640T
+D LED Display Driver, 8 X 16
+K LED Display Driver 8x16
+F https://datasheet.lcsc.com/lcsc/2103051837_GN-Semic-GN1640T_C2758330.pdf
+$ENDCMP
+#
 $CMP HDSM-441B
 D Double 7 segment Blue LED common anode SMD mount
 K Double 7 segment Blue LED common anode SMD mount
@@ -197,6 +218,11 @@ $CMP HDSM-543B
 D Double 7 segment Blue LED common cathode SMD mount
 K Double 7 segment Blue LED common cathode SMD mount
 F https://docs.broadcom.com/docs/AV02-1588EN
+$ENDCMP
+#
+$CMP HT1621B
+D DRIVER, LCD
+F https://datasheet.lcsc.com/lcsc/1809121513_Holtek-Semicon-HT1621B_C7532.pdf
 $ENDCMP
 #
 $CMP HY1602E
@@ -401,6 +427,32 @@ $CMP MAX7219EWG+T
 F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX7219EWG-T_C52476.pdf
 $ENDCMP
 #
+$CMP MT6825GT
+D Magnetic Position Sensor, 18-bit, ABZ/UVW/PWM/SPI Interface, TSSOP-16
+K Magnetic Hall Encoder
+F https://datasheet.lcsc.com/lcsc/2010271836_Magn-Tek-MT6825GT-M4D_C879563.pdf
+$ENDCMP
+#
+$CMP OHPanelScrew
+D 6-32 PHS Hole with back fill keepout area
+$ENDCMP
+#
+$CMP OPB615
+D Photointerrupter infrared LED with photo IC, OPB615, switch
+K Photointerrupter infrared LED with photo IC, OPB615, switch
+F https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf
+$ENDCMP
+#
+$CMP Omron_B3F-1026
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP OpenHornetLogoSmall
+D 37.7mm x 5.9mm OpenHorner Logo
+$ENDCMP
+#
 $CMP RC1602A
 D LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
 K LCD 16x2 Alphanumeric gray backlight, 3 or 5 V VDD
@@ -413,6 +465,10 @@ K LCD 16x2 Alphanumeric 16pin Gray Backlight
 F http://www.raystar-optronics.com/down.php?ProID=18
 $ENDCMP
 #
+$CMP S2_MINI
+F https://www.wemos.cc/en/latest/s2/s2_mini.html
+$ENDCMP
+#
 $CMP SBC18-11EGWA
 D Single digit 7 segment hyper red and green LED display, common cathode
 K 7 segment LED display common cathode
@@ -423,6 +479,16 @@ $CMP SBC18-11SURKCGKWA
 D Single digit 7 segment hyper red and green LED display, common cathode
 K 7 segment LED display common cathode
 F http://www.kingbright.com/attachments/file/psearch/000/00/00/SBC18-11SURKCGKWA(Ver.6A).pdf
+$ENDCMP
+#
+$CMP SW_Rotary4
+D rotary switch with 4 positions
+K rotary switch
+$ENDCMP
+#
+$CMP SW_Rotary5
+D rotary switch with 5 positions
+K rotary switch
 $ENDCMP
 #
 $CMP SW_Rotary6
@@ -442,10 +508,44 @@ K switch normally-open pushbutton push-button LED
 F http://spec_sheets.e-switch.com/specs/P010362.pdf
 $ENDCMP
 #
+$CMP UFCOptionDigit
+D 16x4+2 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
+K LED Segment 16seg Display Tek TekCreations
+F https://tekcreations.space/product/16-segment-green-4-digit-ufc-option-led-display/
+$ENDCMP
+#
+$CMP UFCScratchpadLCD
+D UFC Scratchpad LCD, TekCreations.space
+$ENDCMP
+#
+$CMP UFCSingleDigit
+D 16 Segment Green LED Display, TekCreations.space, Dot Matrix Replica
+K LED Segment 16seg Display Tek TekCreations
+F https://tekcreations.space/product/16-segment-green-led-display/
+$ENDCMP
+#
+$CMP VID60-02
+D 4-wire bipolar stepper motor with zero detection
+K bipolar stepper motor
+F http://www.vidmotion.com.cn/UploadFile/pdf/product/20091120013606VID60-02.pdf
+$ENDCMP
+#
 $CMP WC1602A
 D LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD
 K LCD 16x2 Alphanumeric Green Backlight
 F http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+$ENDCMP
+#
+$CMP WS2812B-2020
+D RGB LED with integrated controller, 2 x 2mm
+K RGB LED NeoPixel addressable, 2 x 2mm
+F https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf
+$ENDCMP
+#
+$CMP X40_8798
+D dual microstepper motor
+K dual microstepper motor
+F https://www.jukenswisstech.com/JSTFiles/downloads/2011/03/X40_Flyer_v1.1.pdf
 $ENDCMP
 #
 #End Doc Library

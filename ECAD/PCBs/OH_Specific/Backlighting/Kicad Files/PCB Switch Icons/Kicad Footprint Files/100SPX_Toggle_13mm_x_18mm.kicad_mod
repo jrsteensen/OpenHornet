@@ -1,0 +1,14 @@
+(module 100SPX_Toggle_13mm_x_18mm (layer F.Cu) (tedit 5FBF1A0E)
+  (fp_text reference REF** (at 0.025 -9) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 100SPX_Toggle_13mm_x_18mm (at 0.025 -7.6) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers *.Mask B.Cu)
+    (clearance 3.65))
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers *.Mask F.Cu)
+    (clearance 1))
+  (pad "" np_thru_hole circle (at 0 9.525) (size 3.572 3.572) (drill 3.572) (layers *.Cu *.Mask)
+    (clearance 1))
+)

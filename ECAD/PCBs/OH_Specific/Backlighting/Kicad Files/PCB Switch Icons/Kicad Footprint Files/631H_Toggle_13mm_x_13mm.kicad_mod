@@ -1,0 +1,12 @@
+(module 631H_Toggle_13mm_x_13mm (layer F.Cu) (tedit 5FBF1A5C)
+  (fp_text reference REF** (at 0.025 -8.775) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 631H_Toggle_13mm_x_13mm (at 0.025 -7.3) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers B.Cu)
+    (clearance 2.5))
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers *.Mask F.Cu)
+    (clearance 1))
+)

@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B D1
+U 1 1 5F8C2981
+P 3400 3950
+F 0 "D1" H 3744 4041 50  0000 L CNN
+F 1 "WS2812B" H 3744 3950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3450 3650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3500 3575 50  0001 L TNN
+F 4 "C114586" H 3744 3859 50  0000 L CNN "LCSC Part Number"
+	1    3400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D2
+U 1 1 5F8C3B1A
+P 4600 3950
+F 0 "D2" H 4944 4041 50  0000 L CNN
+F 1 "WS2812B" H 4944 3950 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4650 3650 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4700 3575 50  0001 L TNN
+F 4 "C114586" H 4944 3859 50  0000 L CNN "LCSC Part Number"
+	1    4600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 5F8C4066
+P 3050 5050
+F 0 "D3" H 3394 5141 50  0000 L CNN
+F 1 "WS2812B" H 3394 5050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3100 4750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 4675 50  0001 L TNN
+F 4 "C114586" H 3394 4959 50  0000 L CNN "LCSC Part Number"
+	1    3050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 5F8C44C6
+P 4000 5050
+F 0 "D4" H 4344 5141 50  0000 L CNN
+F 1 "WS2812B" H 4344 5050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4050 4750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4100 4675 50  0001 L TNN
+F 4 "C114586" H 4344 4959 50  0000 L CNN "LCSC Part Number"
+	1    4000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 5F8C48FC
+P 4900 5050
+F 0 "D5" H 5244 5141 50  0000 L CNN
+F 1 "WS2812B" H 5244 5050 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4950 4750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5000 4675 50  0001 L TNN
+F 4 "C114586" H 5244 4959 50  0000 L CNN "LCSC Part Number"
+	1    4900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 5F8C8D53
+P 3500 6100
+F 0 "D6" H 3844 6191 50  0000 L CNN
+F 1 "WS2812B" H 3844 6100 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3550 5800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3600 5725 50  0001 L TNN
+F 4 "C114586" H 3844 6009 50  0000 L CNN "LCSC Part Number"
+	1    3500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D7
+U 1 1 5F8C8D5A
+P 4400 6100
+F 0 "D7" H 4744 6191 50  0000 L CNN
+F 1 "WS2812B" H 4744 6100 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4450 5800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4500 5725 50  0001 L TNN
+F 4 "C114586" H 4744 6009 50  0000 L CNN "LCSC Part Number"
+	1    4400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 5F8C9D65
+P 4250 1900
+F 0 "J1" H 4278 1876 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 4278 1785 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 4250 1900 50  0001 C CNN
+F 3 "~" H 4250 1900 50  0001 C CNN
+	1    4250 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3950 4300 3950
+Wire Wire Line
+	4900 3950 4900 4500
+Wire Wire Line
+	4900 4500 2750 4500
+Wire Wire Line
+	2750 4500 2750 5050
+Wire Wire Line
+	3350 5050 3700 5050
+Wire Wire Line
+	4300 5050 4600 5050
+Wire Wire Line
+	5200 5050 5200 5600
+Wire Wire Line
+	5200 5600 3200 5600
+Wire Wire Line
+	3200 5600 3200 6100
+Wire Wire Line
+	3800 6100 4100 6100
+Wire Wire Line
+	4400 6400 3500 6400
+Connection ~ 3500 6400
+Wire Wire Line
+	3500 6400 2350 6400
+Wire Wire Line
+	4600 4250 3400 4250
+Wire Wire Line
+	2350 4250 2350 5350
+Connection ~ 3400 4250
+Wire Wire Line
+	3400 4250 2350 4250
+Wire Wire Line
+	4900 5350 4000 5350
+Connection ~ 2350 5350
+Wire Wire Line
+	2350 5350 2350 6400
+Connection ~ 3050 5350
+Wire Wire Line
+	3050 5350 2350 5350
+Connection ~ 4000 5350
+Wire Wire Line
+	4000 5350 3050 5350
+Wire Wire Line
+	3500 5800 4400 5800
+Wire Wire Line
+	5550 5800 5550 4750
+Connection ~ 4400 5800
+Wire Wire Line
+	3400 3650 4600 3650
+Connection ~ 4600 3650
+Wire Wire Line
+	4600 3650 5550 3650
+Wire Wire Line
+	3050 4750 4000 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	5550 4750 5550 3650
+Connection ~ 4000 4750
+Wire Wire Line
+	4000 4750 4900 4750
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 5550 4750
+$Comp
+L LED:WS2812B D8
+U 1 1 5F8FE9FC
+P 5250 6100
+F 0 "D8" H 5594 6191 50  0000 L CNN
+F 1 "WS2812B" H 5594 6100 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5300 5800 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 5725 50  0001 L TNN
+F 4 "C114586" H 5594 6009 50  0000 L CNN "LCSC Part Number"
+	1    5250 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6400 5250 6400
+Connection ~ 4400 6400
+Wire Wire Line
+	4400 5800 5250 5800
+Connection ~ 5250 5800
+Wire Wire Line
+	5250 5800 5550 5800
+Wire Wire Line
+	4700 6100 4950 6100
+Text Label 5550 6100 0    50   ~ 0
+DATAOUT
+Text Label 3100 3950 2    50   ~ 0
+DATAIN
+Text Label 4050 1800 2    50   ~ 0
+LED+5V
+Text Label 4050 1900 2    50   ~ 0
+LED+5V
+Text Label 4050 2000 2    50   ~ 0
+LEDGND
+Text Label 5550 3650 0    50   ~ 0
+LED+5V
+Text Label 2350 6400 2    50   ~ 0
+LEDGND
+Text Label 4050 2100 2    50   ~ 0
+DATAIN
+$EndSCHEMATC

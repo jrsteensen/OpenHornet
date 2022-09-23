@@ -15,67 +15,58 @@ Currently, this repo reflects the project in its current state and is not 100% f
 ## Status
 | Assembly                       |                 | Status |                                |
 |--------------------------------|:---------------:|--------|--------------------------------|
-| Upper Instrument Panel (UIP)   |    :bangbang:   | Beta   | Build at own risk              |
-| Lower Instrument Panel (LIP)   | :no_entry_sign: | Design | Do not build / Errors expected |
-| Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
-| Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
-| Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Ejection Seat (SEAT)           | :no_entry_sign: | Redesign | Redesign Required. Do Not Build. See #195 |
-| Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
-| Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
+| Upper Instrument Panel (UIP)   | :warning: | B1HWF | Build at own risk. |
+| Lower Instrument Panel (LIP)   | :warning: | B1HWF | Build at own risk. |
+| Left Console (LCON)            | :warning: | B1HWF | Build at own risk. |
+| Center Tub (CT)                | :warning: | B1HWF | Build at own risk. |
+| Right Console (RCON)           | :warning: | B1HWF | Build at own risk. |
+| Ejection Seat (SEAT)           | :warning: | B1HWF | Build at own risk. |
+| Flight Stick Assembly (FLTSTK) | :warning: | B1HWF | Build at own risk. |
+| Throttle Assembly (THROTTLE)   | :warning: | B1HWF | Build at own risk. |
 
 ![Overall Screen Grab](https://github.com/jrsteensen/OpenHornet/blob/master/images/Glareshields.2019.10.21.PNG)
 
 ## Design Software Requirements
 
-* Mechanical CAD Software Required: SolidWorks 2021 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
+* Mechanical CAD Software Required: Fusion360
 * Electrical CAD Software Required: KiCAD 5.1.0
 * Microsoft Office (or compatible)
+
+## Sim Software Requirements
+* [DCS w/ F/A-18C module](https://www.digitalcombatsimulator.com/en/shop/modules/hornet/)
+* [DCSFlightPanels DCS-BIOS](https://github.com/DCSFlightpanels/dcs-bios)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 * [Contributing HOW-TO](CONTRIBUTING.md)
 
-    1. Fork this repo
-    1. Create your feature branch (`git checkout -b my-new-feature`)
-    1. Commit your changes (`git commit -am 'Add some feature'`)
-    1. Push to the branch (`git push origin my-new-feature`)
-    1. Create a new pull request
-
 ## OpenHornet MCAD Model
 
-All models are in SolidWorks 2019. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required.
-
-### Top Level Assembly Structure
-
-```
-MCAD
-|- OpenHornetSimPit.sldasm
-   |- Upper Instrument Panel.sldasm
-   |- Lower Instrument Panel.sldasm
-   |- Left Console.sldasm
-   |- Right Console.sldasm
-   |- Center Tub.sldasm (Not created yet. .sldprt is a placeholder.)
-   |- SJU-17.sldasm
-```
+OpenHornet MCAD Model has been moved to Fusion360.
+Top Level Link: https://a360.co/3SuPQGs
+UIP: https://a360.co/3LHxMXd
+LIP: https://a360.co/3SbD7sc
+LC: https://a360.co/3dBR57I
+RC: https://a360.co/37pBiWj
+CT: https://a360.co/3LKM3mc
 
 ## Authors and Acknowledgment
 
 ### CORE DEVELOPMENT TEAM
 * Erik Scott (RandomTroubledMind): _Project Founder, Mechanical Design_
-* John Steensen (Noctum): _Systems/Mechanical Design Lead_
+* John Steensen (Noctum): _Co-Founder, Systems/Mechanical Design Lead_
 * Oscar Arias (Amanuense): _Electrical/Software Design Lead_
 
 ### DEVELOPMENT CONTRIBUTOR TEAM
 * Balz Reber (Balse): _Electrical/Software Design_
 * Tejay Beauparlant (Stang): _Mehcanical Design/Manufacturing Engineering_
 * Magic_Man: _Electrical Design_
-* Luke Walker (L.Walker): _Mechanical Design/Drafting_
+* Luke Walker (L.Walker): _Mechanical Design/Drafting/Backlighting System_
 
 ### HONORABLE MENTIONS
 * __Logo Design__: NegativeONE
-* __Beta Builders/Testers__: BuckEye, Splash, DG, Otso, L. Walker
+* __Development Builders/Testers__: BuckEye, Splash, DG, Otso, L. Walker
 * __Donators__: AJMilner, bnepethomas, crosshairs2230
 * __Inactive Dev Contributors__: Bullant (Software Design/DCS-BIOS Expert), Gaberun24 (Electrical/Software Design), Damien022 (Software Design), Baago, Caviar4, NegativeONE, Ravell
 * **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108, Luft101, Lex

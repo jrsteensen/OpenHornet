@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\ufc_v5_ap\ufc_v5_ap.sch</source>
+    <date>8/26/2022 16:12:45</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Autopilot Button PCB</title>
+        <company>WWW.OPENHORNET.COM</company>
+        <rev>2</rev>
+        <date>2022-08-26</date>
+        <source>ufc_v5_ap.sch</source>
+        <comment number="1" value="CC BY-NC-SA"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW1">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4A076</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4D524</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4E420</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4EE85</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE4FBDC</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE50B77</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>TL1240GQ</value>
+      <footprint>KiCAD_Libraries:TL1240GQ</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010362.pdf</datasheet>
+      <fields>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <libsource lib="KiCadCustomLib" part="TL1240GQ" description="Push button switch with green LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5114C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>TO UFC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA9DBF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AW9523BTQR</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf</datasheet>
+      <libsource lib="KiCadCustomLib" part="AW9523BTQR" description="16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6309FE29</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="PN">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630A3A6F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C25105</field>
+        <field name="PN">0402WGF330JTCE</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630B2472</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810170913_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0472T5E_C1980.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1980</field>
+        <field name="PN">4D03WGJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>630D7921</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810170913_UNI-ROYAL-Uniroyal-Elec-4D03WGJ0472T5E_C1980.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1980</field>
+        <field name="PN">4D03WGJ0472T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6310B548</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>~</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63147F1C</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>~</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63148CA0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="AW9523BTQR">
+      <description>16 CHANNEL I2C MULTI-FUNCTION LED DRIVER AND GPIO CONTROLLER</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/4886/AW9523+English+Datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AW9523BTQR</field>
+        <field name="Footprint">Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1_0" type="BiDi"/>
+        <pin num="2" name="P1_1" type="BiDi"/>
+        <pin num="3" name="P1_2" type="BiDi"/>
+        <pin num="4" name="P1_3" type="BiDi"/>
+        <pin num="5" name="P0_0" type="BiDi"/>
+        <pin num="6" name="P0_1" type="BiDi"/>
+        <pin num="7" name="P0_2" type="BiDi"/>
+        <pin num="8" name="P0_3" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="P0_4" type="BiDi"/>
+        <pin num="11" name="P0_5" type="BiDi"/>
+        <pin num="12" name="P0_6" type="BiDi"/>
+        <pin num="13" name="P0_7" type="BiDi"/>
+        <pin num="14" name="P1_4" type="BiDi"/>
+        <pin num="15" name="P1_5" type="BiDi"/>
+        <pin num="16" name="P1_6" type="BiDi"/>
+        <pin num="17" name="P1_7" type="BiDi"/>
+        <pin num="18" name="AD0" type="input"/>
+        <pin num="19" name="SCL" type="BiDi"/>
+        <pin num="20" name="SDA" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="INTN" type="output"/>
+        <pin num="23" name="RSTN" type="input"/>
+        <pin num="24" name="AD1" type="input"/>
+        <pin num="25" name="GND_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KiCadCustomLib" part="TL1240GQ">
+      <description>Push button switch with green LED</description>
+      <docs>http://spec_sheets.e-switch.com/specs/P010362.pdf</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL1240GQ</field>
+        <field name="PN">TL1240GQ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="5" name="K" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="KiCadCustomLib">
+      <uri>C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\ufc_v5_ap/../../../../lib/KiCAD_Libraries/KiCadCustomLib.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="RN2" pin="8"/>
+      <node ref="RN2" pin="7"/>
+      <node ref="RN2" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW3" pin="5"/>
+      <node ref="SW5" pin="5"/>
+      <node ref="RN1" pin="8"/>
+      <node ref="RN1" pin="6"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="RN1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="2" name="/BCN-">
+      <node ref="SW4" pin="6"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="SW7" pin="6"/>
+      <node ref="U1" pin="14"/>
+      <node ref="SW6" pin="6"/>
+    </net>
+    <net code="3" name="/ILS_SW">
+      <node ref="RN1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="4" name="/ON+">
+      <node ref="SW7" pin="5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="/TCN_SW">
+      <node ref="RN1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="6" name="/AP-">
+      <node ref="SW1" pin="6"/>
+      <node ref="SW2" pin="5"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="SW4" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="9"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="8" name="/BCN+">
+      <node ref="SW5" pin="6"/>
+      <node ref="SW6" pin="5"/>
+    </net>
+    <net code="9" name="/ILS+">
+      <node ref="SW3" pin="6"/>
+      <node ref="SW4" pin="5"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="16" name="/DL_SW">
+      <node ref="U1" pin="17"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="RN2" pin="3"/>
+    </net>
+    <net code="17" name="/BCN_SW">
+      <node ref="U1" pin="16"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="RN2" pin="2"/>
+    </net>
+    <net code="18" name="/ON_SW">
+      <node ref="U1" pin="15"/>
+      <node ref="RN2" pin="1"/>
+      <node ref="SW7" pin="1"/>
+    </net>
+    <net code="19" name="Net-(RN2-Pad5)">
+      <node ref="RN2" pin="5"/>
+    </net>
+    <net code="20" name="/AP_SW">
+      <node ref="RN1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="21" name="/IFF_SW">
+      <node ref="U1" pin="3"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="RN1" pin="3"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="24" name="Net-(RN2-Pad4)">
+      <node ref="RN2" pin="4"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="27" name="SCL">
+      <node ref="U1" pin="20"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="28" name="SDA">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="19"/>
+    </net>
+  </nets>
+</export>

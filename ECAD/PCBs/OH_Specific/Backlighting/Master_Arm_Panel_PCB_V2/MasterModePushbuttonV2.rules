@@ -1,0 +1,136 @@
+
+(rules PCB MasterModePushbuttonV2
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 52)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+    (layer_rule B.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 250.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 62.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_1500:750_um"
+    (shape
+      (circle F.Cu 1500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_1500:750_um" "Via[0-1]_1500:750_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_1500:750_um-kicad_default" "Via[0-1]_1500:750_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-LED+5" "Via[0-1]_800:400_um" LED+5
+  )
+  (via 
+    "Via[0-1]_1500:750_um-LED+5" "Via[0-1]_1500:750_um" LED+5
+  )
+  (via 
+    "Via[0-1]_800:400_um-LEDGND" "Via[0-1]_800:400_um" LEDGND
+  )
+  (via 
+    "Via[0-1]_1500:750_um-LEDGND" "Via[0-1]_1500:750_um" LEDGND
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    LED+5 "Via[0-1]_1500:750_um-LED+5"
+  )
+  (via_rule
+    LEDGND "Via[0-1]_1500:750_um-LEDGND"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D10-Pad4)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)"
+    "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)"
+    "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D29-Pad2)" "Net-(D30-Pad2)" "Net-(D32-Pad2)" /Column2
+    "Net-(D1-Pad1)" /Column1 "Net-(D2-Pad1)" "Net-(D3-Pad1)" /Row2 /Row1 "Net-(SW1-Pad6)" "Net-(SW2-Pad6)"
+    /DATAOUT /DATAIN "Net-(D31-Pad2)" "Net-(SW1-Pad5)" "Net-(SW2-Pad5)" "Net-(SW3-Pad6)" "Net-(SW3-Pad5)" "Net-(D4-Pad2)"
+    "Net-(D5-Pad2)" "Net-(D28-Pad4)" "Net-(D27-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+  (class LED+5
+    /LED+5V
+    (clearance_class LED+5)
+    (via_rule LED+5)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+  (class LEDGND
+    /LEDGND
+    (clearance_class LEDGND)
+    (via_rule LEDGND)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu)
+    )
+  )
+)

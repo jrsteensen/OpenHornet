@@ -1,0 +1,745 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 8500 11000 portrait
+encoding utf-8
+Sheet 1 1
+Title "Radar Altimeter Controller"
+Date "2021-10-30"
+Rev "1"
+Comp "OpenHornet"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR017
+U 1 1 61395B95
+P 3750 3150
+F 0 "#PWR017" H 3750 2900 50  0001 C CNN
+F 1 "GND" V 3750 3000 50  0000 R CNN
+F 2 "" H 3750 3150 50  0001 C CNN
+F 3 "" H 3750 3150 50  0001 C CNN
+	1    3750 3150
+	0    -1   -1   0   
+$EndComp
+Text Label 3750 3250 0    50   ~ 0
+LED_DOUT
+$Comp
+L power:GND #PWR016
+U 1 1 61401D90
+P 3250 3150
+F 0 "#PWR016" H 3250 2900 50  0001 C CNN
+F 1 "GND" V 3250 3000 50  0000 R CNN
+F 2 "" H 3250 3150 50  0001 C CNN
+F 3 "" H 3250 3150 50  0001 C CNN
+	1    3250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 6133AB04
+P 3450 3150
+F 0 "J5" H 3500 3567 50  0000 C CNN
+F 1 "STEPPER" H 3500 3476 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3450 3150 50  0001 C CNN
+F 3 "~" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 613A6055
+P 5450 4600
+F 0 "#PWR0101" H 5450 4450 50  0001 C CNN
+F 1 "+5V" V 5450 4800 50  0000 C CNN
+F 2 "" H 5450 4600 50  0000 C CNN
+F 3 "" H 5450 4600 50  0000 C CNN
+	1    5450 4600
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	6500 5950 6500 6750
+Wire Notes Line
+	5150 6100 7150 6100
+Wire Notes Line
+	5150 4350 7900 4350
+Wire Notes Line
+	5150 5950 7900 5950
+Text Notes 5650 4300 0    50   ~ 0
+RS485 BUS CONTROLLER
+Wire Notes Line
+	5150 3600 7900 3600
+Wire Notes Line
+	5150 4200 7900 4200
+Text Notes 6150 3550 0    50   ~ 0
+ABSIS BUS CONNECTORS
+Text Label 7100 4100 2    50   ~ 0
++3.3V_SUPPLY
+Text Label 7100 4000 2    50   ~ 0
++5V_SUPPLY
+Text Label 7100 3900 2    50   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR03
+U 1 1 5FA82307
+P 7600 4100
+F 0 "#PWR03" H 7600 3850 50  0001 C CNN
+F 1 "GND" V 7600 3900 50  0000 C CNN
+F 2 "" H 7600 4100 50  0000 C CNN
+F 3 "" H 7600 4100 50  0000 C CNN
+	1    7600 4100
+	0    -1   -1   0   
+$EndComp
+Text Label 7600 4000 0    50   ~ 0
+BUS-B
+Text Label 7600 3900 0    50   ~ 0
+BUS-A
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J2
+U 1 1 6182E808
+P 7300 4000
+F 0 "J2" H 7350 4317 50  0000 C CNN
+F 1 "BUS OUT" H 7350 4226 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 7300 4000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039299067_sd.pdf" H 7300 4000 50  0001 C CNN
+F 4 "039299067" H 7300 4000 50  0001 C CNN "PN"
+	1    7300 4000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7150 5950 7150 6750
+Wire Notes Line
+	5150 6750 7900 6750
+Text Notes 5650 6050 0    50   ~ 0
+TEST POINTS
+Text Notes 7300 6050 0    50   ~ 0
+PWR FLAGS
+Wire Wire Line
+	6550 5000 6600 5000
+Wire Wire Line
+	6600 5300 6550 5300
+Text Notes 600  1150 0    50   ~ 0
+1) BL DATA SELECT: PLACE JUMPER OVER PINS 1 & 2 OF JP1/JP2 TO \n    SELECT DATA INPUT FROM BACKLIGHTING BUS. PLACE JUMPER \n    OVER PINS 2 & 3 OF JP2/JP3 TO SELECT DATA FROM THE STANDBY \n    CONTROLLER MCU.
+Text Notes 550  750  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Connection ~ 5500 4600
+Wire Wire Line
+	5450 4600 5500 4600
+Wire Wire Line
+	5500 4600 6150 4600
+Text Label 7450 6300 2    31   ~ 0
++12V_SUPPLY
+Text Label 5750 4100 2    50   ~ 0
++3.3V_SUPPLY
+Text Label 5750 4000 2    50   ~ 0
++5V_SUPPLY
+Text Label 5750 3900 2    50   ~ 0
++12V_SUPPLY
+$Comp
+L power:GND #PWR02
+U 1 1 5FA794C6
+P 6250 4100
+F 0 "#PWR02" H 6250 3850 50  0001 C CNN
+F 1 "GND" V 6250 3900 50  0000 C CNN
+F 2 "" H 6250 4100 50  0000 C CNN
+F 3 "" H 6250 4100 50  0000 C CNN
+	1    6250 4100
+	0    -1   -1   0   
+$EndComp
+Text Label 6250 4000 0    50   ~ 0
+BUS-B
+Text Label 6250 3900 0    50   ~ 0
+BUS-A
+Text Label 6600 5300 0    50   ~ 0
+BUS-A
+Text Label 6600 5000 0    50   ~ 0
+BUS-B
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J1
+U 1 1 5FA7581B
+P 5950 4000
+F 0 "J1" H 6000 4317 50  0000 C CNN
+F 1 "BUS IN" H 6000 4226 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" H 5950 4000 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/039299067_sd.pdf" H 5950 4000 50  0001 C CNN
+F 4 "039299067" H 5950 4000 50  0001 C CNN "PN"
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 6182E805
+P 6150 5700
+F 0 "#PWR09" H 6150 5450 50  0001 C CNN
+F 1 "GND" H 6150 5550 50  0000 C CNN
+F 2 "" H 6150 5700 50  0000 C CNN
+F 3 "" H 6150 5700 50  0000 C CNN
+	1    6150 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FA61664
+P 5500 4800
+F 0 "#PWR0102" H 5500 4550 50  0001 C CNN
+F 1 "GND" H 5500 4650 50  0000 C CNN
+F 2 "" H 5500 4800 50  0000 C CNN
+F 3 "" H 5500 4800 50  0000 C CNN
+	1    5500 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5FA5FC67
+P 5500 4700
+F 0 "C1" H 5592 4746 50  0000 L CNN
+F 1 "0.1uF" H 5592 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5500 4700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 5500 4700 50  0001 C CNN
+F 4 "C49678" H 5500 4700 50  0001 C CNN "LCSC"
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 5200
+Wire Wire Line
+	5650 5200 5750 5200
+Wire Wire Line
+	5750 5100 5750 5200
+$Comp
+L power:GND #PWR014
+U 1 1 61539069
+P 7450 6600
+F 0 "#PWR014" H 7450 6350 50  0001 C CNN
+F 1 "GND" V 7450 6450 31  0000 C CNN
+F 2 "" H 7450 6600 50  0000 C CNN
+F 3 "" H 7450 6600 50  0000 C CNN
+	1    7450 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG05
+U 1 1 5FA0B598
+P 7450 6600
+F 0 "#FLG05" H 7450 6675 50  0001 C CNN
+F 1 "PWR_FLAG" V 7450 6850 31  0000 C CNN
+F 2 "" H 7450 6600 50  0001 C CNN
+F 3 "~" H 7450 6600 50  0001 C CNN
+	1    7450 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 61539067
+P 7450 6300
+F 0 "#FLG01" H 7450 6375 50  0001 C CNN
+F 1 "PWR_FLAG" V 7450 6428 31  0000 L CNN
+F 2 "" H 7450 6300 50  0001 C CNN
+F 3 "~" H 7450 6300 50  0001 C CNN
+	1    7450 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 61539066
+P 7450 6400
+F 0 "#FLG02" H 7450 6475 50  0001 C CNN
+F 1 "PWR_FLAG" V 7450 6528 31  0000 L CNN
+F 2 "" H 7450 6400 50  0001 C CNN
+F 3 "~" H 7450 6400 50  0001 C CNN
+	1    7450 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 61539065
+P 7450 6500
+F 0 "#FLG04" H 7450 6575 50  0001 C CNN
+F 1 "PWR_FLAG" V 7450 6628 31  0000 L CNN
+F 2 "" H 7450 6500 50  0001 C CNN
+F 3 "~" H 7450 6500 50  0001 C CNN
+	1    7450 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR013
+U 1 1 61539064
+P 7450 6500
+F 0 "#PWR013" H 7450 6350 50  0001 C CNN
+F 1 "+3.3V" V 7450 6700 31  0000 C CNN
+F 2 "" H 7450 6500 50  0000 C CNN
+F 3 "" H 7450 6500 50  0000 C CNN
+	1    7450 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR010
+U 1 1 61539063
+P 7450 6400
+F 0 "#PWR010" H 7450 6250 50  0001 C CNN
+F 1 "+5V" V 7450 6550 31  0000 C CNN
+F 2 "" H 7450 6400 50  0000 C CNN
+F 3 "" H 7450 6400 50  0000 C CNN
+	1    7450 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Interface_UART:MAX487E U1
+U 1 1 6182E7FE
+P 6150 5100
+F 0 "U1" H 6150 5750 50  0000 C CNN
+F 1 "MAX487EESA+T" H 6150 5650 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf" H 6150 5150 50  0001 C CNN
+F 4 "C116539" H 6150 5100 50  0001 C CNN "LCSC"
+	1    6150 5100
+	1    0    0    -1  
+$EndComp
+Text Notes 6550 6050 0    50   ~ 0
+MOUNT HOLES
+$Comp
+L Mechanical:MountingHole MK2
+U 1 1 61539060
+P 6900 6200
+F 0 "MK2" H 6900 6400 50  0000 C CNN
+F 1 "MH" H 6900 6325 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6900 6200 50  0001 C CNN
+F 3 "" H 6900 6200 50  0001 C CNN
+	1    6900 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole MK3
+U 1 1 6153905F
+P 6750 6500
+F 0 "MK3" H 6750 6700 50  0000 C CNN
+F 1 "MH" H 6750 6625 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6750 6500 50  0001 C CNN
+F 3 "" H 6750 6500 50  0001 C CNN
+	1    6750 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole MK1
+U 1 1 6153905E
+P 6750 6200
+F 0 "MK1" H 6750 6400 50  0000 C CNN
+F 1 "MH" H 6750 6325 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6750 6200 50  0001 C CNN
+F 3 "" H 6750 6200 50  0001 C CNN
+	1    6750 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 5F7889C9
+P 7550 5300
+F 0 "J4" H 7578 5276 50  0000 L CNN
+F 1 "BL OUT" H 7578 5185 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 7550 5300 50  0001 C CNN
+F 3 "~" H 7550 5300 50  0001 C CNN
+	1    7550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5F78526A
+P 7550 4650
+F 0 "J3" H 7578 4626 50  0000 L CNN
+F 1 "BL IN" H 7578 4535 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 7550 4650 50  0001 C CNN
+F 3 "~" H 7550 4650 50  0001 C CNN
+	1    7550 4650
+	1    0    0    -1  
+$EndComp
+Text Label 7350 5200 2    50   ~ 0
+LED+5V
+Text Label 7350 5500 2    50   ~ 0
+DATAOUT
+Text Label 7350 5300 2    50   ~ 0
+LED+5V
+Text Label 7350 5400 2    50   ~ 0
+LEDGND
+Text Label 7350 4850 2    50   ~ 0
+DATAIN
+Text Label 7350 4550 2    50   ~ 0
+LED+5V
+Text Label 7350 4650 2    50   ~ 0
+LED+5V
+Text Label 7350 4750 2    50   ~ 0
+LEDGND
+Text Label 3750 3050 0    50   ~ 0
+LED_DIN
+Wire Notes Line
+	6950 4200 6950 5950
+Text Notes 7150 4300 0    50   ~ 0
+BL CONNECTORS
+Wire Notes Line
+	5150 6750 5150 3450
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 617C24BA
+P 5900 2750
+F 0 "JP1" H 5900 2974 50  0000 C CNN
+F 1 "BL_DIN_SEL" H 5900 2883 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5900 2750 50  0001 C CNN
+F 3 "~" H 5900 2750 50  0001 C CNN
+	1    5900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP2
+U 1 1 617C7CCF
+P 7200 2800
+F 0 "JP2" H 7200 3024 50  0000 C CNN
+F 1 "BL_DOUT_SEL" H 7200 2933 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7200 2800 50  0001 C CNN
+F 3 "~" H 7200 2800 50  0001 C CNN
+	1    7200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 617CD150
+P 7550 2900
+F 0 "#PWR030" H 7550 2650 50  0001 C CNN
+F 1 "GND" H 7550 2750 50  0000 C CNN
+F 2 "" H 7550 2900 50  0001 C CNN
+F 3 "" H 7550 2900 50  0001 C CNN
+	1    7550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2900 7550 2800
+Wire Wire Line
+	7550 2800 7450 2800
+Text Label 7200 2950 3    50   ~ 0
+LED_DOUT
+Text Label 6950 2800 2    50   ~ 0
+DATAOUT
+Text Label 5900 2900 3    50   ~ 0
+LED_DIN
+Text Label 5650 2750 2    50   ~ 0
+DATAIN
+Text Label 3250 3250 2    31   ~ 0
++5V_SUPPLY
+$Comp
+L KiCadCustomLib:ProMicro U0
+U 1 1 616A89EF
+P 6750 1700
+F 0 "U0" H 6750 2843 60  0000 C CNN
+F 1 "ProMicro" H 6750 2737 60  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket" H 6750 2631 60  0000 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810271810_CONNFLY-Elec-DS1009-24AT1WX-0A2_C72120.pdf" H 6850 650 60  0001 C CNN
+F 4 "C72120" H 6750 1700 50  0001 C CNN "LCSC"
+	1    6750 1700
+	1    0    0    -1  
+$EndComp
+Text Label 7450 1650 0    50   ~ 0
+A0
+$Comp
+L power:+5V #PWR045
+U 1 1 616C86C9
+P 7850 1250
+F 0 "#PWR045" H 7850 1100 50  0001 C CNN
+F 1 "+5V" H 7850 1400 50  0000 C CNN
+F 2 "" H 7850 1250 50  0001 C CNN
+F 3 "" H 7850 1250 50  0001 C CNN
+	1    7850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 616CA3AA
+P 7700 1050
+F 0 "#PWR042" H 7700 800 50  0001 C CNN
+F 1 "GND" H 7700 900 50  0000 C CNN
+F 2 "" H 7700 1050 50  0001 C CNN
+F 3 "" H 7700 1050 50  0001 C CNN
+	1    7700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1050 7450 1050
+Wire Wire Line
+	7450 1250 7850 1250
+$Comp
+L power:GND #PWR0105
+U 1 1 616CE2AC
+P 5650 1150
+F 0 "#PWR0105" H 5650 900 50  0001 C CNN
+F 1 "GND" H 5650 1000 50  0000 C CNN
+F 2 "" H 5650 1150 50  0001 C CNN
+F 3 "" H 5650 1150 50  0001 C CNN
+	1    5650 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1250 5950 1250
+Wire Wire Line
+	5950 1250 5950 1150
+Wire Wire Line
+	6050 1150 5950 1150
+Connection ~ 5950 1150
+Text Label 7450 1950 0    50   ~ 0
+D16MOSI
+Text Label 7450 1850 0    50   ~ 0
+D14MISO
+Text Label 7450 1750 0    50   ~ 0
+D15SCK
+Text Label 6050 1450 2    50   ~ 0
+~SCLD3
+Text Label 6050 1350 2    50   ~ 0
+SDAD2
+Text Label 6050 1650 2    50   ~ 0
+~D5
+Text Label 6050 1750 2    50   ~ 0
+~D6A7
+Text Label 6050 1550 2    50   ~ 0
+D4A6
+Text Label 7450 1550 0    50   ~ 0
+A1
+Text Label 7450 1450 0    50   ~ 0
+A2
+Text Label 6050 1950 2    50   ~ 0
+D8A8
+Text Label 6050 1850 2    50   ~ 0
+D7
+Text Notes 6400 2400 0    50   ~ 0
+USB SHOULD BE \nACCESSIBLE FOR \nPROGRAMMING
+Text Notes 4250 2950 0    50   ~ 0
+COIL1
+Text Notes 4250 3050 0    50   ~ 0
+LED_DIN
+Text Notes 4250 3250 0    50   ~ 0
+LED_DOUT
+Text Notes 4250 3350 0    50   ~ 0
+COIL4
+Text Notes 2850 3350 2    50   ~ 0
+COIL3
+Text Notes 2850 2950 2    50   ~ 0
+COIL2
+NoConn ~ 3250 3050
+$Comp
+L Connector:Conn_01x02_Male J13
+U 1 1 619AA21F
+P 3100 3650
+F 0 "J13" H 3050 3650 50  0000 R CNN
+F 1 "GRN_LED" H 3050 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3100 3650 50  0001 C CNN
+F 3 "~" H 3100 3650 50  0001 C CNN
+	1    3100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 619AB967
+P 3800 3850
+F 0 "#PWR0129" H 3800 3600 50  0001 C CNN
+F 1 "GND" H 3800 3700 50  0000 C CNN
+F 2 "" H 3800 3850 50  0000 C CNN
+F 3 "" H 3800 3850 50  0000 C CNN
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3850 3800 3750
+Wire Wire Line
+	3800 3750 3700 3750
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 619C3334
+P 4300 3650
+F 0 "J14" H 4250 3650 50  0000 R CNN
+F 1 "RED_LED" H 4250 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4300 3650 50  0001 C CNN
+F 3 "~" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0130
+U 1 1 619C3350
+P 4950 3850
+F 0 "#PWR0130" H 4950 3600 50  0001 C CNN
+F 1 "GND" H 4950 3700 50  0000 C CNN
+F 2 "" H 4950 3850 50  0000 C CNN
+F 3 "" H 4950 3850 50  0000 C CNN
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3850 4950 3750
+Wire Wire Line
+	4950 3750 4900 3750
+$Comp
+L Connector:Conn_01x03_Male J15
+U 1 1 619D9773
+P 3500 4450
+F 0 "J15" H 3450 4500 50  0000 R CNN
+F 1 "OFF_SERVO" H 3450 4400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3500 4450 50  0001 C CNN
+F 3 "~" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 619DD420
+P 3800 4250
+F 0 "#PWR0131" H 3800 4000 50  0001 C CNN
+F 1 "GND" H 3800 4100 50  0000 C CNN
+F 2 "" H 3800 4250 50  0000 C CNN
+F 3 "" H 3800 4250 50  0000 C CNN
+	1    3800 4250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3800 4250 3800 4350
+Wire Wire Line
+	3800 4350 3700 4350
+Text Label 3700 4450 0    50   ~ 0
++5V_SUPPLY
+$Comp
+L Connector:Conn_01x03_Male J17
+U 1 1 61A1E8BF
+P 4400 4450
+F 0 "J17" H 4350 4500 50  0000 R CNN
+F 1 "POT" H 4350 4400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4400 4450 50  0001 C CNN
+F 3 "~" H 4400 4450 50  0001 C CNN
+	1    4400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J16
+U 1 1 61A214DA
+P 3500 4800
+F 0 "J16" H 3450 4800 50  0000 R CNN
+F 1 "PUSH" H 3450 4700 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 4800 50  0001 C CNN
+F 3 "~" H 3500 4800 50  0001 C CNN
+	1    3500 4800
+	1    0    0    -1  
+$EndComp
+Text Label 6050 1050 2    50   ~ 0
+RX1D0
+Text Label 6050 950  2    50   ~ 0
+TX0D1
+Text Label 6050 2050 2    50   ~ 0
+~D9A9
+Text Label 7450 950  0    50   ~ 0
++12V_SUPPLY
+NoConn ~ 7450 1150
+Text Label 7450 1350 0    50   ~ 0
+A3
+Text Label 7450 2050 0    50   ~ 0
+~D10A10
+Text Label 5750 5000 2    50   ~ 0
+RX1D0
+Text Label 5750 5300 2    50   ~ 0
+TX0D1
+Text Label 3750 3350 0    50   ~ 0
+D14MISO
+Text Label 3250 3350 2    50   ~ 0
+D15SCK
+Text Label 3750 2950 0    50   ~ 0
+D16MOSI
+Text Label 3250 2950 2    50   ~ 0
+~D10A10
+Wire Wire Line
+	5650 1150 5950 1150
+Text Label 3300 3650 0    50   ~ 0
+~D9A9
+Text Label 4500 3650 0    50   ~ 0
+~D6A7
+Text Label 3700 4550 0    50   ~ 0
+~D5
+$Comp
+L power:+5V #PWR0132
+U 1 1 61BB246F
+P 4700 4250
+F 0 "#PWR0132" H 4700 4100 50  0001 C CNN
+F 1 "+5V" H 4700 4400 50  0000 C CNN
+F 2 "" H 4700 4250 50  0000 C CNN
+F 3 "" H 4700 4250 50  0000 C CNN
+	1    4700 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4250 4700 4350
+Wire Wire Line
+	4700 4350 4600 4350
+Wire Wire Line
+	4600 4550 4700 4550
+Wire Wire Line
+	4700 4550 4700 4650
+$Comp
+L power:GND #PWR0133
+U 1 1 61BF776F
+P 4700 4650
+F 0 "#PWR0133" H 4700 4400 50  0001 C CNN
+F 1 "GND" H 4700 4500 50  0000 C CNN
+F 2 "" H 4700 4650 50  0000 C CNN
+F 3 "" H 4700 4650 50  0000 C CNN
+	1    4700 4650
+	1    0    0    -1  
+$EndComp
+Text Label 4600 4450 0    50   ~ 0
+A0
+Text Label 3700 4800 0    50   ~ 0
+SDAD2
+NoConn ~ 6050 1850
+NoConn ~ 6050 1950
+NoConn ~ 7450 1350
+NoConn ~ 7450 1450
+NoConn ~ 7450 1550
+Text Label 6150 2750 0    50   ~ 0
+~SCLD3
+Text Label 5650 5200 2    50   ~ 0
+D4A6
+$Comp
+L Device:R R1
+U 1 1 61D20DC8
+P 3550 3750
+F 0 "R1" V 3450 3750 50  0000 C CNN
+F 1 "120" V 3550 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3480 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1200T5E_C17437.pdf" H 3550 3750 50  0001 C CNN
+F 4 "C17437" V 3550 3750 50  0001 C CNN "LCSC"
+	1    3550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 61BF98E7
+P 3800 5000
+F 0 "#PWR0134" H 3800 4750 50  0001 C CNN
+F 1 "GND" H 3800 4850 50  0000 C CNN
+F 2 "" H 3800 5000 50  0000 C CNN
+F 3 "" H 3800 5000 50  0000 C CNN
+	1    3800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4900 3800 5000
+Wire Wire Line
+	3700 4900 3800 4900
+Wire Wire Line
+	3300 3750 3400 3750
+$Comp
+L Device:R R2
+U 1 1 61D26196
+P 4750 3750
+F 0 "R2" V 4650 3750 50  0000 C CNN
+F 1 "120" V 4750 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4680 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1200T5E_C17437.pdf" H 4750 3750 50  0001 C CNN
+F 4 "C17437" V 4750 3750 50  0001 C CNN "LCSC"
+	1    4750 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3750 4500 3750
+$EndSCHEMATC

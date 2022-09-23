@@ -1,0 +1,644 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "ABSIS PIT MANAGEMENT SYSTEM"
+Date "2022-08-18"
+Rev "1"
+Comp "WWW.OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7750 750  0    60   ~ 0
+SPARKFUN PRO MICRO \n5V/16Hz
+Wire Notes Line
+	10450 2600 7700 2600
+$Comp
+L power:+5V #PWR0101
+U 1 1 62E4AC52
+P 10050 3150
+F 0 "#PWR0101" H 10050 3000 50  0001 C CNN
+F 1 "+5V" V 10050 3300 31  0000 C CNN
+F 2 "" H 10050 3150 50  0000 C CNN
+F 3 "" H 10050 3150 50  0000 C CNN
+	1    10050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 62EE32E8
+P 10050 3250
+F 0 "#PWR0102" H 10050 3100 50  0001 C CNN
+F 1 "+3.3V" V 10050 3450 31  0000 C CNN
+F 2 "" H 10050 3250 50  0000 C CNN
+F 3 "" H 10050 3250 50  0000 C CNN
+	1    10050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 62EE32E9
+P 10050 3250
+F 0 "#FLG0101" H 10050 3325 50  0001 C CNN
+F 1 "PWR_FLAG" V 10050 3378 31  0000 L CNN
+F 2 "" H 10050 3250 50  0001 C CNN
+F 3 "~" H 10050 3250 50  0001 C CNN
+	1    10050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 62EE32EA
+P 10050 3150
+F 0 "#FLG0102" H 10050 3225 50  0001 C CNN
+F 1 "PWR_FLAG" V 10050 3278 31  0000 L CNN
+F 2 "" H 10050 3150 50  0001 C CNN
+F 3 "~" H 10050 3150 50  0001 C CNN
+	1    10050 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 62EE32EB
+P 10050 3050
+F 0 "#FLG0103" H 10050 3125 50  0001 C CNN
+F 1 "PWR_FLAG" V 10050 3178 31  0000 L CNN
+F 2 "" H 10050 3050 50  0001 C CNN
+F 3 "~" H 10050 3050 50  0001 C CNN
+	1    10050 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 62E4AC57
+P 10050 3350
+F 0 "#FLG0104" H 10050 3425 50  0001 C CNN
+F 1 "PWR_FLAG" V 10050 3600 31  0000 C CNN
+F 2 "" H 10050 3350 50  0001 C CNN
+F 3 "~" H 10050 3350 50  0001 C CNN
+	1    10050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FA1115F
+P 10050 3350
+F 0 "#PWR0103" H 10050 3100 50  0001 C CNN
+F 1 "GND" V 10050 3200 31  0000 C CNN
+F 2 "" H 10050 3350 50  0000 C CNN
+F 3 "" H 10050 3350 50  0000 C CNN
+	1    10050 3350
+	0    1    1    0   
+$EndComp
+Text Notes 550  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 550  800  0    50   ~ 0
+1) XXXX
+Text Notes 9850 2700 0    50   ~ 0
+PWR FLAGS
+Text Notes 7750 2700 0    50   ~ 0
+MOUNTING HOLES
+Wire Notes Line
+	9700 2600 9700 3400
+Wire Notes Line
+	7700 2750 10450 2750
+Wire Notes Line
+	7700 5900 10450 5900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62EE32EF
+P 7850 2950
+F 0 "H1" H 7950 2996 50  0000 L CNN
+F 1 "MH" H 7950 2905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7850 2950 50  0001 C CNN
+F 3 "~" H 7850 2950 50  0001 C CNN
+F 4 "N/A" H 7850 2950 50  0001 C CNN "LCSC"
+F 5 "N/A" H 7850 2950 50  0001 C CNN "PN"
+	1    7850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61896424
+P 7850 3150
+F 0 "H2" H 7950 3196 50  0000 L CNN
+F 1 "MH" H 7950 3105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 7850 3150 50  0001 C CNN
+F 3 "~" H 7850 3150 50  0001 C CNN
+F 4 "N/A" H 7850 3150 50  0001 C CNN "LCSC"
+F 5 "N/A" H 7850 3150 50  0001 C CNN "PN"
+	1    7850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62EE32F1
+P 8200 2950
+F 0 "H3" H 8300 2996 50  0000 L CNN
+F 1 "MH" H 8300 2905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8200 2950 50  0001 C CNN
+F 3 "~" H 8200 2950 50  0001 C CNN
+F 4 "N/A" H 8200 2950 50  0001 C CNN "LCSC"
+F 5 "N/A" H 8200 2950 50  0001 C CNN "PN"
+	1    8200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62EE32F2
+P 8200 3150
+F 0 "H4" H 8300 3196 50  0000 L CNN
+F 1 "MH" H 8300 3105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 8200 3150 50  0001 C CNN
+F 3 "~" H 8200 3150 50  0001 C CNN
+F 4 "N/A" H 8200 3150 50  0001 C CNN "LCSC"
+F 5 "N/A" H 8200 3150 50  0001 C CNN "PN"
+	1    8200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO1
+U 1 1 62EE32F3
+P 8050 6550
+F 0 "LOGO1" H 8050 6550 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 8050 6550 50  0001 C CNN
+F 2 "KiCAD Libraries:OH_LOGO_ONLY_11x6mm" H 8050 6550 50  0001 C CNN
+F 3 "~" H 8050 6550 50  0001 C CNN
+F 4 "N/A" H 8050 6550 50  0001 C CNN "LCSC"
+F 5 "N/A" H 8050 6550 50  0001 C CNN "PN"
+	1    8050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:ProMicro XU1
+U 1 1 616A89EF
+P 9250 1700
+F 0 "XU1" H 9250 2750 60  0000 C CNN
+F 1 "ProMicro_5V/16Hz" H 9250 2650 60  0000 C CNN
+F 2 "Package_DIP:DIP-24_W15.24mm_Socket" H 9250 1200 60  0000 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810271810_CONNFLY-Elec-DS1009-24AT1WX-0A2_C72120.pdf" H 9350 650 60  0001 C CNN
+F 4 "C72120" H 9250 1700 50  0001 C CNN "LCSC"
+F 5 "DEV-12640" H 9250 1700 50  0001 C CNN "PN"
+	1    9250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR045
+U 1 1 616C86C9
+P 10350 1250
+F 0 "#PWR045" H 10350 1100 50  0001 C CNN
+F 1 "+5V" H 10350 1400 50  0000 C CNN
+F 2 "" H 10350 1250 50  0001 C CNN
+F 3 "" H 10350 1250 50  0001 C CNN
+	1    10350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 616CA3AA
+P 10200 1050
+F 0 "#PWR042" H 10200 800 50  0001 C CNN
+F 1 "GND" H 10200 900 50  0000 C CNN
+F 2 "" H 10200 1050 50  0001 C CNN
+F 3 "" H 10200 1050 50  0001 C CNN
+	1    10200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 1050 9950 1050
+Wire Wire Line
+	9950 1250 10350 1250
+$Comp
+L power:GND #PWR025
+U 1 1 616CE2AC
+P 8350 1100
+F 0 "#PWR025" H 8350 850 50  0001 C CNN
+F 1 "GND" H 8350 950 50  0000 C CNN
+F 2 "" H 8350 1100 50  0001 C CNN
+F 3 "" H 8350 1100 50  0001 C CNN
+	1    8350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1250 8450 1150
+Text Label 9950 1150 0    50   ~ 0
+RST
+Text Label 8550 950  2    50   ~ 0
+TX0_D1
+Text Label 8550 1050 2    50   ~ 0
+RX1_D0
+Text Label 8550 1650 2    50   ~ 0
+~D5
+$Comp
+L KiCadCustomLib:OpenHornetLogoSmall LOGO2
+U 1 1 617F808C
+P 8700 6550
+F 0 "LOGO2" H 8700 6550 50  0001 C CNN
+F 1 "OpenHornetLogoSmall" H 8700 6550 50  0001 C CNN
+F 2 "KiCAD Libraries:OH_LOGO_ONLY_11x6mm" H 8700 6550 50  0001 C CNN
+F 3 "~" H 8700 6550 50  0001 C CNN
+F 4 "N/A" H 8700 6550 50  0001 C CNN "LCSC"
+F 5 "N/A" H 8700 6550 50  0001 C CNN "PN"
+	1    8700 6550
+	1    0    0    -1  
+$EndComp
+Text Notes 8800 2500 0    50   ~ 0
+NOTE: IN ARDUINO CODE: \nUSE "SERIAL" FOR USB; \n"SERIAL1" FOR TX/RX PINS.
+Wire Wire Line
+	8450 1250 8550 1250
+Wire Wire Line
+	8550 1150 8450 1150
+Text Label 8550 1350 2    50   ~ 0
+SDA_D2
+Text Label 8550 1450 2    50   ~ 0
+~SCL_D3
+Wire Wire Line
+	8450 1150 8450 1100
+Wire Wire Line
+	8450 1100 8350 1100
+Connection ~ 8450 1150
+Text Label 8550 1550 2    50   ~ 0
+D4_A6
+Text Label 8550 1750 2    50   ~ 0
+~D6_A7
+Text Label 8550 1850 2    50   ~ 0
+D7
+Text Label 8550 1950 2    50   ~ 0
+D8_A8
+Text Label 8550 2050 2    50   ~ 0
+~D9_A9
+Text Label 9950 1350 0    50   ~ 0
+A3
+Text Label 9950 1450 0    50   ~ 0
+A2
+Text Label 9950 1550 0    50   ~ 0
+A1
+Text Label 9950 1650 0    50   ~ 0
+A0
+Text Label 9950 1750 0    50   ~ 0
+D15_SCK
+Text Label 9950 1850 0    50   ~ 0
+D14_MISO
+Text Label 9950 1950 0    50   ~ 0
+D16_MOSI
+Text Label 9950 2050 0    50   ~ 0
+~D10_A10
+Text Notes 9150 1100 0    50   ~ 0
+CONNECT \nTO PC \nVIA USB
+Wire Notes Line
+	9100 1150 9100 800 
+Wire Notes Line
+	9100 800  9550 800 
+Wire Notes Line
+	9550 800  9550 1150
+Wire Notes Line
+	9550 1150 9100 1150
+Wire Notes Line
+	7700 800  8800 800 
+Wire Notes Line
+	8800 800  8800 550 
+Text Notes 8650 6000 0    50   ~ 0
+LOGOS/SILKSCREENS
+Wire Notes Line
+	7700 6050 10450 6050
+Wire Notes Line
+	7700 6550 10450 6550
+Wire Notes Line
+	7700 6550 7700 550 
+Text Label 9400 3100 0    50   ~ 0
+RST
+$Comp
+L power:GND #PWR0108
+U 1 1 62E94D06
+P 8800 3100
+F 0 "#PWR0108" H 8800 2850 50  0001 C CNN
+F 1 "GND" H 8800 2950 50  0000 C CNN
+F 2 "" H 8800 3100 50  0000 C CNN
+F 3 "" H 8800 3100 50  0000 C CNN
+	1    8800 3100
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8500 2600 8500 3400
+Text Notes 8750 2700 0    50   ~ 0
+RESET JUMP PAD
+$Comp
+L Device:Jumper RST1
+U 1 1 62E94084
+P 9100 3100
+F 0 "RST1" H 9100 3364 50  0000 C CNN
+F 1 "RST" H 9100 3273 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 9100 3100 50  0001 C CNN
+F 3 "~" H 9100 3100 50  0001 C CNN
+	1    9100 3100
+	1    0    0    -1  
+$EndComp
+Text Label 2900 3850 2    50   ~ 0
+~D5
+Text Label 7950 4050 0    50   ~ 0
+SDA_D2
+Text Label 7950 4150 0    50   ~ 0
+~SCL_D3
+Text Label 2900 4400 2    50   ~ 0
+~D6_A7
+Text Label 2900 5000 2    50   ~ 0
+D7
+Text Label 4750 2050 0    50   ~ 0
+A3
+Text Label 4750 2150 0    50   ~ 0
+A2
+Text Label 4750 2250 0    50   ~ 0
+A1
+Text Label 4750 2350 0    50   ~ 0
+A0
+Text Label 7950 4350 0    50   ~ 0
+D16_MOSI
+Text Label 7950 4250 0    50   ~ 0
+~D10_A10
+Text Label 4550 2450 2    50   ~ 0
+SIMPWR_PFLT_MODE
+Text Label 10050 3050 2    50   ~ 0
++5VSB
+Text Label 9950 950  0    50   ~ 0
+RAW_PWR
+$Comp
+L Isolator:PC817 U1
+U 1 1 62FF7C4E
+P 3200 3350
+F 0 "U1" H 3200 3675 50  0000 C CNN
+F 1 "140817140010" H 3200 3584 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3000 3150 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3200 3350 50  0001 L CNN
+	1    3200 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3450 2900 3450
+$Comp
+L power:GND #PWR03
+U 1 1 62FF918B
+P 2800 3450
+F 0 "#PWR03" H 2800 3200 50  0001 C CNN
+F 1 "GND" H 2800 3300 50  0000 C CNN
+F 2 "" H 2800 3450 50  0001 C CNN
+F 3 "" H 2800 3450 50  0001 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+Text Label 2900 3250 2    50   ~ 0
+D4_A6
+Text Label 3500 3250 0    50   ~ 0
+EXT_ACC1+
+Text Label 3500 3450 0    50   ~ 0
+EXT_ACC1-
+$Comp
+L Isolator:PC817 U2
+U 1 1 62FFCFE0
+P 3200 3950
+F 0 "U2" H 3200 4275 50  0000 C CNN
+F 1 "140817140010" H 3200 4184 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3000 3750 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3200 3950 50  0001 L CNN
+	1    3200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4050 2900 4050
+$Comp
+L power:GND #PWR04
+U 1 1 62FFD015
+P 2800 4050
+F 0 "#PWR04" H 2800 3800 50  0001 C CNN
+F 1 "GND" H 2800 3900 50  0000 C CNN
+F 2 "" H 2800 4050 50  0001 C CNN
+F 3 "" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	1    0    0    -1  
+$EndComp
+Text Label 3500 3850 0    50   ~ 0
+EXT_ACC2+
+Text Label 3500 4050 0    50   ~ 0
+EXT_ACC2-
+$Comp
+L Isolator:PC817 U3
+U 1 1 62FFDA93
+P 3200 4500
+F 0 "U3" H 3200 4825 50  0000 C CNN
+F 1 "140817140010" H 3200 4734 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3000 4300 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3200 4500 50  0001 L CNN
+	1    3200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4600 2900 4600
+$Comp
+L power:GND #PWR05
+U 1 1 62FFDAC8
+P 2800 4600
+F 0 "#PWR05" H 2800 4350 50  0001 C CNN
+F 1 "GND" H 2800 4450 50  0000 C CNN
+F 2 "" H 2800 4600 50  0001 C CNN
+F 3 "" H 2800 4600 50  0001 C CNN
+	1    2800 4600
+	1    0    0    -1  
+$EndComp
+Text Label 3500 4400 0    50   ~ 0
+EXT_ACC3+
+Text Label 3500 4600 0    50   ~ 0
+EXT_ACC3-
+$Comp
+L Isolator:PC817 U4
+U 1 1 62FFDAD5
+P 3200 5100
+F 0 "U4" H 3200 5425 50  0000 C CNN
+F 1 "140817140010" H 3200 5334 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 3000 4900 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3200 5100 50  0001 L CNN
+	1    3200 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5200 2900 5200
+$Comp
+L power:GND #PWR06
+U 1 1 62FFDAE0
+P 2800 5200
+F 0 "#PWR06" H 2800 4950 50  0001 C CNN
+F 1 "GND" H 2800 5050 50  0000 C CNN
+F 2 "" H 2800 5200 50  0001 C CNN
+F 3 "" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+Text Label 3500 5000 0    50   ~ 0
+EXT_ACC4+
+Text Label 3500 5200 0    50   ~ 0
+EXT_ACC4-
+Text Label 4750 1400 0    50   ~ 0
+D8_A8
+Text Label 4750 1600 0    50   ~ 0
+~D9_A9
+Text Label 4550 2050 2    50   ~ 0
+SIMPWR_PCPWR
+Text Label 4550 2150 2    50   ~ 0
+SIMPWR_PCRESET
+Text Label 4550 2250 2    50   ~ 0
+SIMPWR_MASTERON
+Text Label 4550 2350 2    50   ~ 0
+SIMPWR_DISPON
+Text Label 4550 2550 2    50   ~ 0
+SIMPWR_MAINT_MODE
+Text Label 2900 2450 0    50   ~ 0
+SIMPWR_PFLT_MODE
+Text Label 4550 1400 2    50   ~ 0
+PS_ON
+Text Notes 1350 1700 0    50   ~ 0
+WHILE PWR_OK = HIGH & \nSIMPWR_MASTERON = HIGH: \n   PS_ON = HIGH\n   ELSE \n   PS_ON = LOW
+Text Label 2900 1600 0    50   ~ 0
+PWR_OK
+Text Notes 2950 2750 0    50   ~ 0
+NC/SPARE
+NoConn ~ 2900 2750
+Text Label 2900 2650 0    50   ~ 0
+SIMPWR_GND
+Text Label 2900 2550 0    50   ~ 0
+SIMPWR_MAINT_MODE
+Text Label 2900 2350 0    50   ~ 0
+SIMPWR_DISPON
+Text Label 2900 2250 0    50   ~ 0
+SIMPWR_MASTERON
+Text Label 2900 2150 0    50   ~ 0
+SIMPWR_PCRESET
+Text Label 2900 2050 0    50   ~ 0
+SIMPWR_PCPWR
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 62FF4DF6
+P 2700 2350
+F 0 "J2" H 2800 2900 50  0000 C CNN
+F 1 "FROM SIM PWR" H 2800 2800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2700 2350 50  0001 C CNN
+F 3 "~" H 2700 2350 50  0001 C CNN
+	1    2700 2350
+	1    0    0    -1  
+$EndComp
+Text Label 2900 1700 0    50   ~ 0
+PSU_GND
+Text Label 4550 1600 2    50   ~ 0
+PWR_OK
+Text Label 2900 1500 0    50   ~ 0
++5VSB
+Text Label 2900 1400 0    50   ~ 0
+PS_ON
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 62FF3E4C
+P 2700 1500
+F 0 "J1" H 2800 1850 50  0000 C CNN
+F 1 "FROM PSU" H 2800 1750 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2700 1500 50  0001 C CNN
+F 3 "~" H 2700 1500 50  0001 C CNN
+	1    2700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 1400 4750 1400
+Wire Wire Line
+	4550 1600 4750 1600
+Wire Wire Line
+	4550 2050 4750 2050
+Wire Wire Line
+	4550 2150 4750 2150
+Wire Wire Line
+	4550 2250 4750 2250
+Wire Wire Line
+	4550 2350 4750 2350
+Wire Wire Line
+	4550 2450 4750 2450
+Wire Wire Line
+	4550 2550 4750 2550
+Text Label 4550 2650 2    50   ~ 0
+SIMPWR_GND
+$Comp
+L power:GND #PWR02
+U 1 1 63005FA1
+P 4750 2650
+F 0 "#PWR02" H 4750 2400 50  0001 C CNN
+F 1 "GND" H 4750 2500 50  0000 C CNN
+F 2 "" H 4750 2650 50  0001 C CNN
+F 3 "" H 4750 2650 50  0001 C CNN
+	1    4750 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2650 4550 2650
+Text Label 4550 1700 2    50   ~ 0
+PSU_GND
+$Comp
+L power:GND #PWR01
+U 1 1 6300780C
+P 4750 1700
+F 0 "#PWR01" H 4750 1450 50  0001 C CNN
+F 1 "GND" H 4750 1550 50  0000 C CNN
+F 2 "" H 4750 1700 50  0001 C CNN
+F 3 "" H 4750 1700 50  0001 C CNN
+	1    4750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1700 4550 1700
+Text Label 4550 1500 2    50   ~ 0
++5VSB
+Text Label 4750 1500 0    50   ~ 0
+RAW_PWR
+Wire Wire Line
+	4750 1500 4550 1500
+$Comp
+L Connector:Conn_01x08_Male J3
+U 1 1 6300989F
+P 4200 4200
+F 0 "J3" H 4300 4750 50  0000 C CNN
+F 1 "EXT ACC OUT" H 4300 4650 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical" H 4200 4200 50  0001 C CNN
+F 3 "~" H 4200 4200 50  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+Text Label 4400 4000 0    50   ~ 0
+EXT_ACC1+
+Text Label 4400 3900 0    50   ~ 0
+EXT_ACC1-
+Text Label 4400 4200 0    50   ~ 0
+EXT_ACC2+
+Text Label 4400 4100 0    50   ~ 0
+EXT_ACC2-
+Text Label 4400 4400 0    50   ~ 0
+EXT_ACC3+
+Text Label 4400 4300 0    50   ~ 0
+EXT_ACC3-
+Text Label 4400 4600 0    50   ~ 0
+EXT_ACC4+
+Text Label 4400 4500 0    50   ~ 0
+EXT_ACC4-
+Text Label 7950 3850 0    50   ~ 0
+TX0_D1
+Text Label 7950 3950 0    50   ~ 0
+RX1_D0
+NoConn ~ 7950 3850
+NoConn ~ 7950 3950
+NoConn ~ 7950 4050
+NoConn ~ 7950 4150
+NoConn ~ 7950 4250
+NoConn ~ 7950 4350
+Text Notes 7950 3750 0    50   ~ 0
+UNUSED\nPINS
+Text Label 4750 2450 0    50   ~ 0
+D15_SCK
+Text Label 4750 2550 0    50   ~ 0
+D14_MISO
+$EndSCHEMATC

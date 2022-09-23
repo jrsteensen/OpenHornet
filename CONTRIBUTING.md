@@ -16,19 +16,22 @@ The first time, you will need to install the github desktop app, open it and log
   1. Click ```Clone```. 
 Now you have a copy on your PC of the OpenHornet Project Dev Files.
 
-### 3) Create a branch
-Click on ```Current branch``` at the top, click ```New Branch```, and create a branch. Make sure it's descriptive.
+### 3) Select the base branch
+Click on ```Current branch``` at the top, select the branch you want to work with as a base. (Usually, should be current working branch (i.e. `1.0.0-beta1`.)
 
-### 4) Make the change
+### 4) Create a branch
+Click on ```Current branch``` at the top, click ```New Branch```, and create a branch. Make sure it's descriptive and follows the guidelines below.
+
+### 5) Make the change
 Navigate to the folder you cloned OH to, then make the change(s) you want to contribute back to OpenHornet.
 
-### 5) Commit the change
+### 6) Commit the change
 After completing your desired change, go back to github desktop app and complete the commit title and descriptions fields. title should be brief, description should be verbose. Commit frequently, so you have lots of points to roll back to if something doesn't work out.
 
-### 6) Push the change
+### 7) Push the change
 The next step is to synchronize your local changes with your repository on GitHub. You need to push your changes to GitHub. Click the button that displays ```Publish branch``` to sync changes. Now you have the same copy of this branch on your computer as well as on GitHub.
 
-### 7) Submit a Pull Request
+### 8) Submit a Pull Request
 This is where you really document the nitty gritty of what you did and why you did it. 
 
 A Pull Request notifies the project maintainers that you have some work that they should review and eventually add to the project.
@@ -46,6 +49,9 @@ Write a title and in the comments section summarize the work you did.
 * Use the checklist in the PR.
 
 Click ```Create pull request``` and leave the box checked that says ```Allow edits from maintainers```.
+
+## Aw crap, I need to fix my PR (Or a reviewer requested changes.)
+* Thats easy! Just make another commit against the same branch the PR is against and it will apply it to the PR. (Try not to open a new PR unless explicitly instructed to by repository maintainers.)
 
 ## Repository Structure
     master
