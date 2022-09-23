@@ -11,20 +11,20 @@ Currently, this repo reflects the project in its current state and is not 100% f
 ## Status
 | Assembly                       |                 | Status |                                |
 |--------------------------------|:---------------:|--------|--------------------------------|
-| Upper Instrument Panel (UIP)   | :no_entry_sign: | B1DF RC | Do not build / Errors expected |
-| Lower Instrument Panel (LIP)   | :no_entry_sign: | B1DF RC | Do not build / Errors expected |
-| Left Console (LCON)            | :no_entry_sign: | Design | Do not build / Errors expected |
-| Center Tub (CT)                | :no_entry_sign: | Design | Do not build / Errors expected |
-| Right Console (RCON)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Ejection Seat (SEAT)           | :no_entry_sign: | Design | Do not build / Errors expected |
-| Flight Stick Assembly (FLTSTK) | :no_entry_sign: | Design | Do not build / Errors expected |
-| Throttle Assembly (THROTTLE)   | :no_entry_sign: | Design | Do not build / Errors expected |
+| Upper Instrument Panel (UIP)   | :warning: | B1HWF | Build at own risk. |
+| Lower Instrument Panel (LIP)   | :warning: | B1HWF | Build at own risk. |
+| Left Console (LCON)            | :warning: | B1HWF | Build at own risk. |
+| Center Tub (CT)                | :warning: | B1HWF | Build at own risk. |
+| Right Console (RCON)           | :warning: | B1HWF | Build at own risk. |
+| Ejection Seat (SEAT)           | :warning: | B1HWF | Build at own risk. |
+| Flight Stick Assembly (FLTSTK) | :warning: | B1HWF | Build at own risk. |
+| Throttle Assembly (THROTTLE)   | :warning: | B1HWF | Build at own risk. |
 
 ![Overall Screen Grab](https://github.com/jrsteensen/OpenHornet/blob/master/images/Glareshields.2019.10.21.PNG)
 
 ## Design Software Requirements
 
-* Mechanical CAD Software Required: SolidWorks 2021 / [SolidWorks eDrawings Viewer](https://www.solidworks.com/sw/support/eDrawings/e2_register.htm)
+* Mechanical CAD Software Required: Fusion360
 * Electrical CAD Software Required: KiCAD 5.1.0
 * Microsoft Office (or compatible)
 
@@ -39,26 +39,19 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## OpenHornet MCAD Model
 
-The MCAD is converting from SW2019 to 2021. No models for contribution will be accepted in anything except this format so we don't end up with various components in various software packages and increase the dependencies required. No commits from the educational or makers versions will be accepted.
-
-### Top Level Assembly Structure
-
-```
-MCAD
-|- OpenHornetSimPit.sldasm
-   |- Upper Instrument Panel.sldasm
-   |- Lower Instrument Panel.sldasm
-   |- Left Console.sldasm
-   |- Right Console.sldasm
-   |- Center Tub.sldasm (Not created yet. .sldprt is a placeholder.)
-   |- SJU-17.sldasm
-```
+OpenHornet MCAD Model has been moved to Fusion360.
+Top Level Link: https://a360.co/3SuPQGs
+UIP: https://a360.co/3LHxMXd
+LIP: https://a360.co/3SbD7sc
+LC: https://a360.co/3dBR57I
+RC: https://a360.co/37pBiWj
+CT: https://a360.co/3LKM3mc
 
 ## Authors and Acknowledgment
 
 ### CORE DEVELOPMENT TEAM
 * Erik Scott (RandomTroubledMind): _Project Founder, Mechanical Design_
-* John Steensen (Noctum): _Systems/Mechanical Design Lead_
+* John Steensen (Noctum): _Co-Founder, Systems/Mechanical Design Lead_
 * Oscar Arias (Amanuense): _Electrical/Software Design Lead_
 
 ### DEVELOPMENT CONTRIBUTOR TEAM
