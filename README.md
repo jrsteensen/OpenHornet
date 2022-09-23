@@ -8,6 +8,10 @@ Currently, this repo reflects the project in its current state and is not 100% f
 * [OpenHornet Discord](https://discord.gg/G5PA5ju)
 * [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
 
+## ALL ITEMS IN THE MASTER BRANCH SHOULD BE CONSIDERED OUTDATED AND NOT USED. v1.0.0.0-beta1 IS THE LATEST BRANCH.
+* ALSO, DO NOT use anything in the release folder. It is outdated as well, and will be replaced as we prepare the beta1 release.
+* If you have any questions, visit our Discord server and ask questions.
+
 ## Status
 | Assembly                       |                 | Status |                                |
 |--------------------------------|:---------------:|--------|--------------------------------|
