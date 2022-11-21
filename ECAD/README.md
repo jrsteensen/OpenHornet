@@ -56,3 +56,12 @@ responsible for ensuring the required files meet their specifications and format
 ***For the JLCPCB MANUFACTURING PROCESS, please see the "MANUFACTURING.MD" located in the ECAD folder or CLICK THE LINK BELOW***
 
   [JLCPCB MANUFACTURING PROCESS & FAQ](MANUFACTURING.MD)
+
+# TO-DO:
+
+- [ ] Review/Verify DISP_ECM Panel version
+- [ ] Add JLCPCB Process to Manufacturing.MD
+- [ ] Naming Convention -> Match OH nomenclature
+- [ ] Finish & Push Complete PCB BOM Spreadsheet
+- [ ] Difference between bottom/top csv
+
