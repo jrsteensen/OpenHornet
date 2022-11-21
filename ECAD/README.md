@@ -1,16 +1,11 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
-
-The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
-
-Currently, this repo reflects the project in its current state and is not 100% functional, and all items are subject to change.
-
 * [OpenHornet Website](https://www.openhornet.com)
 * [OpenHornet Discord](https://discord.gg/G5PA5ju)
 * [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
 
-## ALL ITEMS IN THE MASTER BRANCH SHOULD BE CONSIDERED OUTDATED AND NOT USED. v1.0.0.0-beta1 IS THE LATEST BRANCH.
-* ALSO, DO NOT use anything in the release folder. It is outdated as well, and will be replaced as we prepare the beta1 release.
-* If you have any questions, visit our Discord server and ask questions.
+
+# 								**ECAD DIRECTORY INFORMATION**
+
 
 ## PCB Manufacturing
 
