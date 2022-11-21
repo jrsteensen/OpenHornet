@@ -55,4 +55,4 @@ responsible for ensuring the required files meet their specifications and format
 
 ***For the JLCPCB MANUFACTURING PROCESS, please see the "MANUFACTURING.MD" located in the ECAD folder or CLICK THE LINK BELOW***
 
-  [JLCPCB MANUFACTURING PROCESS & FAQ](ECAD/MANUFACTURING.md)
+  [JLCPCB MANUFACTURING PROCESS & FAQ](MANUFACTURING.md)
