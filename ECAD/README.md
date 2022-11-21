@@ -1,0 +1,38 @@
+![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
+
+The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
+
+Currently, this repo reflects the project in its current state and is not 100% functional, and all items are subject to change.
+
+* [OpenHornet Website](https://www.openhornet.com)
+* [OpenHornet Discord](https://discord.gg/G5PA5ju)
+* [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
+
+## ALL ITEMS IN THE MASTER BRANCH SHOULD BE CONSIDERED OUTDATED AND NOT USED. v1.0.0.0-beta1 IS THE LATEST BRANCH.
+* ALSO, DO NOT use anything in the release folder. It is outdated as well, and will be replaced as we prepare the beta1 release.
+* If you have any questions, visit our Discord server and ask questions.
+
+## PCB Manufacturing
+
+At the moment, all PCB's are being standardized to allow for fabrication using JLCPCB (https://www.jlcpcb.com).  You may use another PCB manufacturer of your choosing, however, you'll be
+responsible for ensuring the required files meet their specifications and formatting.  (I.E:  BOM and CPL files)
+
+
+## ECAD File Structure
+
+The ECAD Directory has been organized to facilitate the end user in acquiring the necessary files needed to submit a request online for PCB fabrication.
+
+* Within each labled PCB folder, there will be a folder called "Manufacturing Files." 
+* The "Manufacturing Files" folder will have a .zip file containing the gerber (.gbr) files required during the intial upload process during step 1.
+* There will also be a excel spreadsheet labaled "Name_of_PCB_BOM.xlsx" that will contain the required Bill of Materials needed during the assembly process.
+* There will be two more CSV files labeled "Name_of_PCB_top_pos.csv" and "Name_of_PCB_bottom_pos.csv" that is uploaded to show the precise location that the components (listed in the BOM) 
+	need to be placed.
+
+
+## JLCPCB MANUFACTURING PROCESS
+
+
+
+
+ASDF
+
