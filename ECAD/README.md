@@ -25,16 +25,16 @@ The ECAD Directory has been organized to facilitate the end user, regardless of 
      * ABSIS
      * OH_Specific
         * Backlighting
-			* **Name_of_PCB_&Ver**
+			* **Name_of_PCB**
 			   * Manufacturing Files
 			      * ***Name_of_PCB_&Ver*.zip**
 			      * ***Name_of_PCB_&Ver*_BOM.xlsx**
 				  * ***Name_of_PCB_&Ver*_top-pos.csv**
 				  * ***Name_of_PCB_&Ver*_bottom-pos.csv**
 			   * *A bunch of KiCAD files*
-			* **Name_of_PCB_&Ver**
-			* **Name_of_PCB_&Ver**
-			* **Name_of_PCB_&Ver**
+			* **Name_of_PCB**
+			* **Name_of_PCB**
+			* **Name_of_PCB**
 	    * Functional
 	    * Non_Backlighting
      * Specialty
