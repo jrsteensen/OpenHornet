@@ -48,6 +48,9 @@
  *
  *   DCS-BIOS is released under the following terms:
  *   https://github.com/dcs-bios/dcs-bios/blob/develop/DCS-BIOS-License.txt
+ * 
+ *   Use only the following DCS-BIOS Arduino Library
+ *   https://github.com/DCSFlightpanels/dcs-bios-arduino-library
  *
  *   ---------------------------------------------------------------------------------
  *
@@ -58,9 +61,9 @@
 
 /**
  * @file OHSketchTemplate.ino
- * @author Balz Reber
- * @date 29.12.2019
- * @version u.0.0.1 (untested)
+ * @author <full name> @ <email@somehost.com>
+ * @date <dd.mm.yyyy>
+ * @version u.0.0.1
  * @warning This sketch is based on a wiring diagram, and was not yet tested on hardware
  * @brief This is the OpenHornet Sketch Template
  *
@@ -81,9 +84,19 @@
  */
 
 /**
- * Set DCS Bios to use irq serial
+ * Check if we're on a Mega328 or Mega2560 and define the correct
+ * serial interface
+ * 
  */
-#define DCSBIOS_IRQ_SERIAL
+#if defined(__AVR_ATmega328P__) ||  defined(__AVR_ATmega2560__)
+  #define DCSBIOS_IRQ_SERIAL
+#else
+  #define DCSBIOS_DEFAULT_SERIAL
+#endif
+
+#ifdef __AVR__
+ #include <avr/power.h> 
+#endif
 
 /**
  * DCS Bios library include
@@ -151,6 +164,8 @@ void loop() {
 * @returns Description of returned value.
 */
 int sampleFunction(int myParam1, int myParam2) {
-  int myReturn;
+  // Must initialize a return value to avoid compile errors
+  int myReturn = 0;  
+
   return myReturn;
 }
