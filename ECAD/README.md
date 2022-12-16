@@ -24,7 +24,7 @@ The ECAD Directory has been organized to facilitate the end user, regardless of 
 *   PCBs
      * ABSIS
      * OH_Specific
-        * Backlighting
+        * Backlighting_Type A [https://github.com/jrsteensen/OpenHornet/issues/463]
 			* **Name_of_PCB**
 			   * Manufacturing Files
 			      * ***Name_of_PCB_&Ver*.zip**
@@ -35,8 +35,8 @@ The ECAD Directory has been organized to facilitate the end user, regardless of 
 			* **Name_of_PCB**
 			* **Name_of_PCB**
 			* **Name_of_PCB**
+	    * Backlighting_Type B [https://github.com/jrsteensen/OpenHornet/issues/463]
 	    * Functional
-	    * Non_Backlighting
      * Specialty
 *  DOCs
 *  Interconnects
