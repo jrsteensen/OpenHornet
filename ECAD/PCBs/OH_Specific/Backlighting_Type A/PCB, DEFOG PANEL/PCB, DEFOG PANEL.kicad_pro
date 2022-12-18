@@ -81,7 +81,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -339,7 +339,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DEFOG Panel PCB V2.kicad_pro",
+    "filename": "PCB, DEFOG PANEL.kicad_pro",
     "version": 1
   },
   "net_settings": {
