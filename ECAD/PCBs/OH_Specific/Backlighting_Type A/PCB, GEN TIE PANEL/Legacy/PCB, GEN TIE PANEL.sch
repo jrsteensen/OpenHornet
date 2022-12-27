@@ -1,0 +1,457 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D10
+U 1 1 5F990647
+P 6850 4450
+F 0 "D10" H 6843 4667 50  0000 C CNN
+F 1 "LED" H 6843 4576 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6850 4450 50  0001 C CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F99222A
+P 6500 4600
+F 0 "R1" H 6570 4646 50  0000 L CNN
+F 1 "R" H 6570 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6430 4600 50  0001 C CNN
+F 3 "~" H 6500 4600 50  0001 C CNN
+	1    6500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4450 6500 4450
+$Comp
+L Device:C C1
+U 1 1 5F99165A
+P 2800 4850
+F 0 "C1" H 2915 4896 50  0000 L CNN
+F 1 "C" H 2915 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2838 4700 50  0001 C CNN
+F 3 "~" H 2800 4850 50  0001 C CNN
+	1    2800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F994656
+P 3100 4850
+F 0 "C2" H 3215 4896 50  0000 L CNN
+F 1 "C" H 3215 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 4700 50  0001 C CNN
+F 3 "~" H 3100 4850 50  0001 C CNN
+	1    3100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F9A0F38
+P 3400 4850
+F 0 "C3" H 3515 4896 50  0000 L CNN
+F 1 "C" H 3515 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 4700 50  0001 C CNN
+F 3 "~" H 3400 4850 50  0001 C CNN
+	1    3400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F9B9F57
+P 4000 4850
+F 0 "C5" H 4115 4896 50  0000 L CNN
+F 1 "C" H 4115 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4038 4700 50  0001 C CNN
+F 3 "~" H 4000 4850 50  0001 C CNN
+	1    4000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F9C684D
+P 4250 4850
+F 0 "C6" H 4365 4896 50  0000 L CNN
+F 1 "C" H 4365 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 4700 50  0001 C CNN
+F 3 "~" H 4250 4850 50  0001 C CNN
+	1    4250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5F9D337E
+P 4500 4850
+F 0 "C7" H 4615 4896 50  0000 L CNN
+F 1 "C" H 4615 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 4700 50  0001 C CNN
+F 3 "~" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5F9E027A
+P 5000 4850
+F 0 "C9" H 5115 4896 50  0000 L CNN
+F 1 "C" H 5115 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5038 4700 50  0001 C CNN
+F 3 "~" H 5000 4850 50  0001 C CNN
+	1    5000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4700 3100 4700
+Connection ~ 3100 4700
+Wire Wire Line
+	3100 4700 3400 4700
+Connection ~ 3400 4700
+Connection ~ 4000 4700
+Wire Wire Line
+	4000 4700 4250 4700
+Connection ~ 4250 4700
+Wire Wire Line
+	4250 4700 4500 4700
+Wire Wire Line
+	4750 4700 5000 4700
+Connection ~ 5000 4700
+Wire Wire Line
+	5000 4700 5250 4700
+Wire Wire Line
+	2800 5000 3100 5000
+Connection ~ 3100 5000
+Wire Wire Line
+	3100 5000 3400 5000
+Wire Wire Line
+	4000 5000 4250 5000
+Connection ~ 4250 5000
+Wire Wire Line
+	4250 5000 4500 5000
+Wire Wire Line
+	4750 5000 5000 5000
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5FCE635A
+P 8600 4950
+F 0 "J2" H 8628 4926 50  0000 L CNN
+F 1 "THRU" H 8628 4835 50  0000 L CNN
+F 2 "OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8600 4950 50  0001 C CNN
+F 3 "~" H 8600 4950 50  0001 C CNN
+	1    8600 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 5FCE124C
+P 8050 4950
+F 0 "J1" H 8078 4926 50  0000 L CNN
+F 1 "IN" H 8078 4835 50  0000 L CNN
+F 2 "OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8050 4950 50  0001 C CNN
+F 3 "~" H 8050 4950 50  0001 C CNN
+	1    8050 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L GEN-TIE-PCB-V2-rescue:C_Polarized-Device-Fuel-Panel-PCB-V1-rescue-Fuel-Panel-PCB-V2-rescue C10
+U 1 1 5FA7E97D
+P 5250 4850
+F 0 "C10" H 5368 4896 50  0000 L CNN
+F 1 "C_Polarized" H 5368 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 5288 4700 50  0001 C CNN
+F 3 "~" H 5250 4850 50  0001 C CNN
+	1    5250 4850
+	1    0    0    -1  
+$EndComp
+Text Label 8150 4750 1    50   ~ 0
+LED+5V
+Text Label 8600 4750 1    50   ~ 0
+LED+5V
+Text Label 6500 4750 3    50   ~ 0
+LEDGND
+Text Label 7000 4450 3    50   ~ 0
+LED+5V
+Text Label 7950 4750 1    50   ~ 0
+LEDGND
+Text Label 8400 4750 1    50   ~ 0
+DATAOUT
+Text Label 8500 4750 1    50   ~ 0
+LEDGND
+Text Label 7850 4750 1    50   ~ 0
+DATAIN
+Text Label 8050 4750 1    50   ~ 0
+LED+5V
+Text Label 8700 4750 1    50   ~ 0
+LED+5V
+Text Label 4350 4700 1    50   ~ 0
+LED+5V
+Text Label 4450 5000 3    50   ~ 0
+LEDGND
+$Comp
+L LED:WS2812B D2
+U 1 1 6150F8EC
+P 3000 2750
+F 0 "D2" H 3344 2796 50  0000 L CNN
+F 1 "WS2812B" H 3344 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3050 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3100 2375 50  0001 L TNN
+	1    3000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 615106D5
+P 3900 2750
+F 0 "D3" H 4244 2796 50  0000 L CNN
+F 1 "WS2812B" H 4244 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3950 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 2375 50  0001 L TNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 6151134B
+P 4800 2750
+F 0 "D4" H 5144 2796 50  0000 L CNN
+F 1 "WS2812B" H 5144 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4850 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4900 2375 50  0001 L TNN
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 61511F29
+P 5700 2750
+F 0 "D5" H 6044 2796 50  0000 L CNN
+F 1 "WS2812B" H 6044 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5750 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5800 2375 50  0001 L TNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 2750 2700 2750
+Wire Wire Line
+	3300 2750 3600 2750
+Wire Wire Line
+	4200 2750 4500 2750
+Wire Wire Line
+	5100 2750 5400 2750
+Wire Wire Line
+	2100 2450 3000 2450
+Connection ~ 3000 2450
+Wire Wire Line
+	3000 2450 3900 2450
+Connection ~ 3900 2450
+Wire Wire Line
+	3900 2450 4800 2450
+Connection ~ 4800 2450
+Wire Wire Line
+	4800 2450 5700 2450
+Connection ~ 3000 3050
+Wire Wire Line
+	3000 3050 2100 3050
+Connection ~ 3900 3050
+Wire Wire Line
+	3900 3050 3000 3050
+Connection ~ 4800 3050
+Wire Wire Line
+	4800 3050 3900 3050
+Wire Wire Line
+	5700 3050 4800 3050
+Text Label 1800 2750 2    50   ~ 0
+DATAIN
+$Comp
+L LED:WS2812B D1
+U 1 1 6150E6CA
+P 2100 2750
+F 0 "D1" H 2444 2796 50  0000 L CNN
+F 1 "WS2812B" H 2444 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2150 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2200 2375 50  0001 L TNN
+	1    2100 2750
+	1    0    0    -1  
+$EndComp
+Text Label 5100 2450 0    50   ~ 0
+LED+5V
+Text Label 5150 3050 0    50   ~ 0
+LEDGND
+Connection ~ 5000 5000
+Wire Wire Line
+	5000 5000 5250 5000
+$Comp
+L Device:C C8
+U 1 1 6151D9D4
+P 4750 4850
+F 0 "C8" H 4865 4896 50  0000 L CNN
+F 1 "C" H 4865 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 4700 50  0001 C CNN
+F 3 "~" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4700 4750 4700
+Wire Wire Line
+	4500 5000 4750 5000
+Connection ~ 4750 4700
+Connection ~ 4750 5000
+$Comp
+L LED:WS2812B D6
+U 1 1 61524CC9
+P 6550 2750
+F 0 "D6" H 6894 2796 50  0000 L CNN
+F 1 "WS2812B" H 6894 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6600 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6650 2375 50  0001 L TNN
+	1    6550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D7
+U 1 1 61524CCF
+P 7450 2750
+F 0 "D7" H 7794 2796 50  0000 L CNN
+F 1 "WS2812B" H 7794 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7500 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7550 2375 50  0001 L TNN
+	1    7450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2750 6250 2750
+Wire Wire Line
+	6850 2750 7150 2750
+Wire Wire Line
+	5700 2450 6550 2450
+Connection ~ 6550 2450
+Wire Wire Line
+	6550 2450 7450 2450
+Wire Wire Line
+	7450 3050 6550 3050
+Connection ~ 6550 3050
+Wire Wire Line
+	6550 3050 5700 3050
+$Comp
+L LED:WS2812B D8
+U 1 1 61512BB8
+P 8300 2750
+F 0 "D8" H 8644 2796 50  0000 L CNN
+F 1 "WS2812B" H 8644 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8350 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8400 2375 50  0001 L TNN
+	1    8300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D9
+U 1 1 615138D8
+P 9200 2750
+F 0 "D9" H 9544 2796 50  0000 L CNN
+F 1 "WS2812B" H 9544 2705 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9250 2450 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9300 2375 50  0001 L TNN
+	1    9200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2750 8000 2750
+Wire Wire Line
+	8600 2750 8900 2750
+Wire Wire Line
+	7450 2450 8300 2450
+Connection ~ 8300 2450
+Wire Wire Line
+	8300 2450 9200 2450
+Wire Wire Line
+	9200 3050 8300 3050
+Connection ~ 8300 3050
+Wire Wire Line
+	8300 3050 7450 3050
+Text Label 9500 2750 0    50   ~ 0
+DATAOUT
+Connection ~ 7450 2450
+Connection ~ 7450 3050
+Connection ~ 4500 4700
+Connection ~ 4500 5000
+Wire Notes Line
+	2450 4150 2450 5150
+Wire Notes Line
+	5500 5150 5500 4150
+Text Notes 2500 4300 0    50   ~ 0
+Filter Capacitors
+Wire Notes Line
+	2450 5150 5500 5150
+Wire Notes Line
+	5500 4150 2450 4150
+Connection ~ 4000 5000
+Connection ~ 3400 5000
+Connection ~ 3700 4700
+Wire Wire Line
+	3700 4700 4000 4700
+Wire Wire Line
+	3400 4700 3700 4700
+Wire Wire Line
+	3700 5000 4000 5000
+Connection ~ 3700 5000
+Wire Wire Line
+	3400 5000 3700 5000
+$Comp
+L Device:C C4
+U 1 1 5F9AD727
+P 3700 4850
+F 0 "C4" H 3815 4896 50  0000 L CNN
+F 1 "C" H 3815 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 4700 50  0001 C CNN
+F 3 "~" H 3700 4850 50  0001 C CNN
+	1    3700 4850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5700 4100 7150 4100
+Wire Notes Line
+	7150 5150 5700 5150
+Text Notes 5750 4250 0    50   ~ 0
+Ready LED
+Wire Notes Line
+	5700 4100 5700 5150
+Wire Notes Line
+	7150 5150 7150 4100
+Wire Notes Line
+	7450 5550 9000 5550
+Wire Notes Line
+	9000 5550 9000 3900
+Wire Notes Line
+	9000 3900 7450 3900
+Wire Notes Line
+	7450 3900 7450 5550
+Text Notes 7500 4050 0    50   ~ 0
+Input / Output Connectors
+Connection ~ 5700 2450
+Connection ~ 5700 3050
+Wire Notes Line
+	1150 1950 10250 1950
+Wire Notes Line
+	10250 1950 10250 3300
+Wire Notes Line
+	10250 3300 1150 3300
+Wire Notes Line
+	1150 3300 1150 1950
+Text Notes 1200 2100 0    50   ~ 0
+Backlighting LEDs
+$EndSCHEMATC
