@@ -16400,7 +16400,7 @@
     (property "Value" "Omron_B3F-1026" (id 1) (at 0 -6.858 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 5.08 0)
+    (property "Footprint" "OH_Footprints:SW_TH_Tactile_Omron_B3F-10xx" (id 2) (at 0 5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 0 5.08 0)
