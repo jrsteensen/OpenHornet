@@ -1,0 +1,1125 @@
+(export 
+  (version D) 
+  (design 
+    (source "C:\\Users\\lukew\\Documents\\OpenHornet\\ECAD\\PCBs\\OH_Specific\\Backlighting\\OBOGS_Panel_PCB_V2\\OBOGS Panel PCB V2.sch") 
+    (date "5/01/2021 12:40:49 PM") 
+    (tool "Eeschema (5.1.6)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "OBOGS PANEL.sch") 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J1) 
+      (value Conn_01x04_Female) 
+      (footprint OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDED1DF)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x04_Female) 
+      (footprint OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDEEA6D)) 
+    (comp 
+      (ref R1) 
+      (value R) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDEED67)) 
+    (comp 
+      (ref D17) 
+      (value LED) 
+      (footprint LED_THT:LED_D3.0mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDEF4F4)) 
+    (comp 
+      (ref D1) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF1AE1)) 
+    (comp 
+      (ref D2) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF2AC6)) 
+    (comp 
+      (ref D3) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF315A)) 
+    (comp 
+      (ref D4) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF35AC)) 
+    (comp 
+      (ref D5) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF3B76)) 
+    (comp 
+      (ref D6) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF3EEE)) 
+    (comp 
+      (ref D7) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF4446)) 
+    (comp 
+      (ref D8) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF4810)) 
+    (comp 
+      (ref D9) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF4C2C)) 
+    (comp 
+      (ref D10) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF4F3E)) 
+    (comp 
+      (ref D15) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF543A)) 
+    (comp 
+      (ref D16) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF59EE)) 
+    (comp 
+      (ref D11) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF6958)) 
+    (comp 
+      (ref D12) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF6E9E)) 
+    (comp 
+      (ref D13) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF755C)) 
+    (comp 
+      (ref D14) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (fields 
+        (field 
+          (name "LCSC Part Number") C114586)) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDF7AC8)) 
+    (comp 
+      (ref C1) 
+      (value C_Polarized) 
+      (footprint Capacitor_SMD:CP_Elec_8x10) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Polarized) 
+        (description "Polarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F96BDB6)) 
+    (comp 
+      (ref C2) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9AA99A)) 
+    (comp 
+      (ref C3) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9AB51B)) 
+    (comp 
+      (ref C4) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9AC893)) 
+    (comp 
+      (ref C5) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9ADC6B)) 
+    (comp 
+      (ref C6) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9AF091)) 
+    (comp 
+      (ref C7) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9B04C1)) 
+    (comp 
+      (ref C8) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9B180A)) 
+    (comp 
+      (ref C9) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9B2A50)) 
+    (comp 
+      (ref C10) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F9B4D4D)) 
+    (comp 
+      (ref C11) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD8769)) 
+    (comp 
+      (ref C12) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD876F)) 
+    (comp 
+      (ref C13) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD8775)) 
+    (comp 
+      (ref C14) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD877B)) 
+    (comp 
+      (ref C15) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD8781)) 
+    (comp 
+      (ref C16) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD8787)) 
+    (comp 
+      (ref C17) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD878D)) 
+    (comp 
+      (ref C18) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FDD8793))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Female) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C) 
+      (description "Unpolarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Polarized) 
+      (description "Polarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp CP_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Polarized)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib LED) 
+      (part WS2812B) 
+      (description "RGB LED with integrated controller") 
+      (docs https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (footprints 
+        (fp LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) WS2812B) 
+        (field 
+          (name Footprint) LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name DOUT) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name DIN) 
+          (type input))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical LED) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/LED.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref D10) 
+        (pin 2)) 
+      (node 
+        (ref D11) 
+        (pin 4))) 
+    (net 
+      (code 2) 
+      (name "Net-(D10-Pad4)") 
+      (node 
+        (ref D10) 
+        (pin 4)) 
+      (node 
+        (ref D9) 
+        (pin 2))) 
+    (net 
+      (code 3) 
+      (name "Net-(D8-Pad2)") 
+      (node 
+        (ref D9) 
+        (pin 4)) 
+      (node 
+        (ref D8) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name "Net-(D7-Pad2)") 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref D8) 
+        (pin 4))) 
+    (net 
+      (code 5) 
+      (name "Net-(D6-Pad2)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref D7) 
+        (pin 4))) 
+    (net 
+      (code 6) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref D6) 
+        (pin 4)) 
+      (node 
+        (ref D5) 
+        (pin 2))) 
+    (net 
+      (code 7) 
+      (name "Net-(D4-Pad2)") 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref D5) 
+        (pin 4))) 
+    (net 
+      (code 8) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 4)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 9) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 4))) 
+    (net 
+      (code 10) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref D4) 
+        (pin 4)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 11) 
+      (name "Net-(D11-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 4)) 
+      (node 
+        (ref D11) 
+        (pin 2))) 
+    (net 
+      (code 12) 
+      (name "Net-(D12-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref D13) 
+        (pin 4))) 
+    (net 
+      (code 13) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref D14) 
+        (pin 4)) 
+      (node 
+        (ref D13) 
+        (pin 2))) 
+    (net 
+      (code 14) 
+      (name "Net-(D14-Pad2)") 
+      (node 
+        (ref D15) 
+        (pin 4)) 
+      (node 
+        (ref D14) 
+        (pin 2))) 
+    (net 
+      (code 15) 
+      (name "Net-(D15-Pad2)") 
+      (node 
+        (ref D15) 
+        (pin 2)) 
+      (node 
+        (ref D16) 
+        (pin 4))) 
+    (net 
+      (code 16) 
+      (name /LED+5V) 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref D12) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 1)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1)) 
+      (node 
+        (ref C9) 
+        (pin 1)) 
+      (node 
+        (ref C17) 
+        (pin 1)) 
+      (node 
+        (ref C16) 
+        (pin 1)) 
+      (node 
+        (ref C15) 
+        (pin 1)) 
+      (node 
+        (ref C14) 
+        (pin 1)) 
+      (node 
+        (ref C13) 
+        (pin 1)) 
+      (node 
+        (ref C12) 
+        (pin 1)) 
+      (node 
+        (ref C11) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref D17) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref C18) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref C8) 
+        (pin 1)) 
+      (node 
+        (ref C7) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref C10) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 1))) 
+    (net 
+      (code 17) 
+      (name /LEDGND) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 3)) 
+      (node 
+        (ref C10) 
+        (pin 2)) 
+      (node 
+        (ref C7) 
+        (pin 2)) 
+      (node 
+        (ref D14) 
+        (pin 3)) 
+      (node 
+        (ref C8) 
+        (pin 2)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref D16) 
+        (pin 3)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref C9) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref D12) 
+        (pin 3)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref D13) 
+        (pin 3)) 
+      (node 
+        (ref D11) 
+        (pin 3)) 
+      (node 
+        (ref C14) 
+        (pin 2)) 
+      (node 
+        (ref C15) 
+        (pin 2)) 
+      (node 
+        (ref C16) 
+        (pin 2)) 
+      (node 
+        (ref D6) 
+        (pin 3)) 
+      (node 
+        (ref D5) 
+        (pin 3)) 
+      (node 
+        (ref D7) 
+        (pin 3)) 
+      (node 
+        (ref C11) 
+        (pin 2)) 
+      (node 
+        (ref C12) 
+        (pin 2)) 
+      (node 
+        (ref C13) 
+        (pin 2)) 
+      (node 
+        (ref D9) 
+        (pin 3)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref D15) 
+        (pin 3)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 3)) 
+      (node 
+        (ref D10) 
+        (pin 3)) 
+      (node 
+        (ref C18) 
+        (pin 2)) 
+      (node 
+        (ref D8) 
+        (pin 3)) 
+      (node 
+        (ref C17) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 3)) 
+      (node 
+        (ref D4) 
+        (pin 3))) 
+    (net 
+      (code 18) 
+      (name "Net-(D17-Pad1)") 
+      (node 
+        (ref D17) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 19) 
+      (name /DATAIN) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref D1) 
+        (pin 4))) 
+    (net 
+      (code 20) 
+      (name /DATAOUT) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref D16) 
+        (pin 2)))))
