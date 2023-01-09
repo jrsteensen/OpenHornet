@@ -2044,7 +2044,7 @@
     (pad "2" thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 1 "/LEDGND") (pinfunction "A") (pintype "passive") (tstamp 76e53344-5976-4902-91e1-ebdde66b2163))
     (model "${KICAD6_USER_OH_3DMODELS}/LED_D3.0mm.wrl"
-      (offset (xyz 0 0 -1.5))
+      (offset (xyz 0 0 -3))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
