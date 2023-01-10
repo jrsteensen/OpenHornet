@@ -1,0 +1,24 @@
+Comment,Designator,Footprint,LCSC Part Number
+0.1uF,C1,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C49678
+BUS IN,J1,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,
+BUS OUT,J2,Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,
+DIGITAL #1,J3,Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical,
+ANALOG,J4,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,
+DIGITAL #2,J5,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,
+DIGITAL #3,J6,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,
+ACC PWR,J7,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,MTP125-1240S1
+BUS ENABLE,JP1,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C358703
+MH,"MK1,MK3,MK4,MK6",Socket_Arduino_Mega:Arduino_1pin,
+Digital,P1,Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical,
+Power,P2,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+Analog,"P3,P4",Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+PWM,P5,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,
+PWM,P6,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+Communication,P7,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+TP-12,TP1,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-5V,TP2,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-3.3V,TP3,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-GND,TP4,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-A,TP5,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+TP-B,TP6,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,
+MAX487EESA+T,U1,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C116539
