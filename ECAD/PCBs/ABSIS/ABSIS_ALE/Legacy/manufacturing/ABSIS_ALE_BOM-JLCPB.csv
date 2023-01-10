@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"0.1uF","C1","Capacitor_SMD:C_0805_2012Metric","C49678"
+"MH","H1,H2,H3,H4","MountingHole:MountingHole_3.2mm_M3_DIN965","N/A"
+"BUS IN","J1","Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical","N/A"
+"BUS OUT","J2","Connector_Molex:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical","N/A"
+"I/O #1","J3","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical","C124388"
+"I/O #2","J4","Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical","C124388"
+"GND","J5","Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical","C37208"
+"ACC PWR","J6","Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical","C66690"
+"OpenHornetLogoSmall","LOGO1,LOGO2","KiCAD Libraries:OH_LOGO_ONLY_11x6mm","N/A"
+"RST","RST1","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm",""
+"MAX487EESA+T","U1","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","C116539"
+"ProMicro_5V/16Hz","XU1","Package_DIP:DIP-24_W15.24mm_Socket","C72120"
