@@ -1,0 +1,23 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,5V,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,87.913,18.038,180.0,top
+D2,12V,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,87.93,15.82,180.0,top
+D3,Overtemp,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,87.955,11.97,180.0,top
+J1,PWR IN,Molex_Mini-Fit_Jr_5566-10A2_2x05_P4.20mm_Vertical,11.43,27.94,-90.0,top
+J2,BL #1,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,30.82,31.36,180.0,top
+J3,BL #2,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,42.82,31.36,180.0,top
+J4,BL #3,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,54.82,31.36,180.0,top
+J5,BL #4,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,66.82,31.36,180.0,top
+J6,BL #5,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,78.82,31.36,180.0,top
+J7,BL #6,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,30.82,11.36,180.0,top
+J8,BL #7,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,42.82,11.36,180.0,top
+J9,BL #8,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,54.82,11.36,180.0,top
+J10,BL #9,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,66.82,11.36,180.0,top
+J11,BL #10,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,78.82,11.36,180.0,top
+J12,Conn_01x04_Female,Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,4.174,36.93,90.0,top
+J13,Conn_01x04_Female,Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical,11.286,36.93,90.0,top
+J14,Conn_01x05_Female,Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical,88.77,29.56,90.0,top
+J16,Fan voltage selector,PinHeader_1x03_P2.54mm_Vertical,10.016,48.36,-90.0,top
+R1,2.2K,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,89.53,8.93,90.0,top
+R2,4.7K,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,87.925,8.93,90.0,top
+R3,2.2K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,86.32,8.93,90.0,top
+U1,LM75C,SOIC-8_3.9x4.9mm_P1.27mm,23.289,44.677,0.0,top
