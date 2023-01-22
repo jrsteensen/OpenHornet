@@ -1,0 +1,1958 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\standby_controller\standby_controller.sch) 
+    (date "9/9/2021 09:37:00") 
+    (tool "Eeschema (5.1.9)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "ABSIS MEGA 2.0") 
+        (company OPENHORNET.COM) 
+        (rev 1) 
+        (date 2020-11-08) 
+        (source CONTROLLER_Standby Instrument.sch) 
+        (comment 
+          (number 1) 
+          (value "CC BY-NC-SA")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J7) 
+      (value AIRSPEED) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x05_Odd_Even) 
+        (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 614C92CF)) 
+    (comp 
+      (ref J5) 
+      (value VVI) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x05_Odd_Even) 
+        (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6133AB04)) 
+    (comp 
+      (ref J6) 
+      (value ALTIMETER) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x07_Odd_Even) 
+        (description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6139C191)) 
+    (comp 
+      (ref J2) 
+      (value "BUS OUT") 
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal) 
+      (datasheet https://www.molex.com/pdm_docs/sd/039291067_sd.pdf) 
+      (fields 
+        (field 
+          (name PN) 3)) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x03_Top_Bottom) 
+        (description "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA822FB)) 
+    (comp 
+      (ref TP5) 
+      (value TP-A) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA1004F)) 
+    (comp 
+      (ref TP1) 
+      (value TP-12) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153906A)) 
+    (comp 
+      (ref TP4) 
+      (value TP-GND) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61539071)) 
+    (comp 
+      (ref TP3) 
+      (value TP-3.3V) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA4C2DF)) 
+    (comp 
+      (ref TP2) 
+      (value TP-5V) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA88109)) 
+    (comp 
+      (ref TP6) 
+      (value TP-B) 
+      (footprint TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part TestPoint_Alt) 
+        (description "test point (alternative shape)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA1BB7A)) 
+    (comp 
+      (ref J1) 
+      (value "BUS IN") 
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal) 
+      (datasheet https://www.molex.com/pdm_docs/sd/039291067_sd.pdf) 
+      (fields 
+        (field 
+          (name PN) 3)) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x03_Top_Bottom) 
+        (description "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA7581B)) 
+    (comp 
+      (ref C1) 
+      (value 0.1uF) 
+      (footprint Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C49678)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA5FC67)) 
+    (comp 
+      (ref U1) 
+      (value MAX487EESA+T) 
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C116539)) 
+      (libsource 
+        (lib Interface_UART) 
+        (part MAX487E) 
+        (description "Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA05D20)) 
+    (comp 
+      (ref P7) 
+      (value Digital) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x18_Odd_Even) 
+        (description "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61539070)) 
+    (comp 
+      (ref P3) 
+      (value Analog) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x08) 
+        (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 56D72F1C)) 
+    (comp 
+      (ref MK4) 
+      (value MH) 
+      (footprint Socket_Arduino_Mega:Arduino_1pin) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A6A7AD9)) 
+    (comp 
+      (ref MK2) 
+      (value MH) 
+      (footprint Socket_Arduino_Mega:Arduino_1pin) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61539060)) 
+    (comp 
+      (ref MK3) 
+      (value MH) 
+      (footprint Socket_Arduino_Mega:Arduino_1pin) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153905F)) 
+    (comp 
+      (ref MK1) 
+      (value MH) 
+      (footprint Socket_Arduino_Mega:Arduino_1pin) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153905E)) 
+    (comp 
+      (ref P6) 
+      (value Communication) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x08) 
+        (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153906F)) 
+    (comp 
+      (ref P5) 
+      (value Analog) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x08) 
+        (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153905C)) 
+    (comp 
+      (ref P4) 
+      (value PWM) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x08) 
+        (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 56D734D0)) 
+    (comp 
+      (ref P1) 
+      (value PWM) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x10) 
+        (description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6153906E)) 
+    (comp 
+      (ref P2) 
+      (value Power) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x08) 
+        (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FA49043)) 
+    (comp 
+      (ref J4) 
+      (value "BL OUT") 
+      (footprint OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F7889C9)) 
+    (comp 
+      (ref J3) 
+      (value "BL IN") 
+      (footprint OH_Backlighting:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F78526A)) 
+    (comp 
+      (ref H3) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613F01D2)) 
+    (comp 
+      (ref H2) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613F0076)) 
+    (comp 
+      (ref H1) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613EF815)) 
+    (comp 
+      (ref J10) 
+      (value SARI_TEST) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Male) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6173313C)) 
+    (comp 
+      (ref J9) 
+      (value SARI_CAGE) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x05_Male) 
+        (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61733D8D)) 
+    (comp 
+      (ref J8) 
+      (value RWR_BRT) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617351F2)) 
+    (comp 
+      (ref H4) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617B0542)) 
+    (comp 
+      (ref JP1) 
+      (value BL_DIN_SEL) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part Jumper_3_Open) 
+        (description "Jumper, 3-pole, both open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617C24BA)) 
+    (comp 
+      (ref JP2) 
+      (value BL_DOUT_SEL) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Jumper) 
+        (part Jumper_3_Open) 
+        (description "Jumper, 3-pole, both open")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 617C7CCF))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x02_Male) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x03_Male) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Female) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x05_Male) 
+      (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x05_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part TestPoint_Alt) 
+      (description "test point (alternative shape)") 
+      (docs ~) 
+      (footprints 
+        (fp Pin*) 
+        (fp Test*)) 
+      (fields 
+        (field 
+          (name Reference) TP) 
+        (field 
+          (name Value) TestPoint_Alt)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x08) 
+      (description "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x08)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x10) 
+      (description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x10)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x03_Top_Bottom) 
+      (description "Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x03_Top_Bottom)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x05_Odd_Even) 
+      (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x05_Odd_Even)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x07_Odd_Even) 
+      (description "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x07_Odd_Even)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name Pin_11) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name Pin_12) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name Pin_13) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name Pin_14) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x18_Odd_Even) 
+      (description "Generic connector, double row, 02x18, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x18_Odd_Even)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name Pin_11) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name Pin_12) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name Pin_13) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name Pin_14) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name Pin_15) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name Pin_16) 
+          (type passive)) 
+        (pin 
+          (num 17) 
+          (name Pin_17) 
+          (type passive)) 
+        (pin 
+          (num 18) 
+          (name Pin_18) 
+          (type passive)) 
+        (pin 
+          (num 19) 
+          (name Pin_19) 
+          (type passive)) 
+        (pin 
+          (num 20) 
+          (name Pin_20) 
+          (type passive)) 
+        (pin 
+          (num 21) 
+          (name Pin_21) 
+          (type passive)) 
+        (pin 
+          (num 22) 
+          (name Pin_22) 
+          (type passive)) 
+        (pin 
+          (num 23) 
+          (name Pin_23) 
+          (type passive)) 
+        (pin 
+          (num 24) 
+          (name Pin_24) 
+          (type passive)) 
+        (pin 
+          (num 25) 
+          (name Pin_25) 
+          (type passive)) 
+        (pin 
+          (num 26) 
+          (name Pin_26) 
+          (type passive)) 
+        (pin 
+          (num 27) 
+          (name Pin_27) 
+          (type passive)) 
+        (pin 
+          (num 28) 
+          (name Pin_28) 
+          (type passive)) 
+        (pin 
+          (num 29) 
+          (name Pin_29) 
+          (type passive)) 
+        (pin 
+          (num 30) 
+          (name Pin_30) 
+          (type passive)) 
+        (pin 
+          (num 31) 
+          (name Pin_31) 
+          (type passive)) 
+        (pin 
+          (num 32) 
+          (name Pin_32) 
+          (type passive)) 
+        (pin 
+          (num 33) 
+          (name Pin_33) 
+          (type passive)) 
+        (pin 
+          (num 34) 
+          (name Pin_34) 
+          (type passive)) 
+        (pin 
+          (num 35) 
+          (name Pin_35) 
+          (type passive)) 
+        (pin 
+          (num 36) 
+          (name Pin_36) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Interface_UART) 
+      (part MAX481E) 
+      (aliases 
+        (alias MAX483E) 
+        (alias MAX485E) 
+        (alias MAX487E) 
+        (alias MAX1487E) 
+        (alias MAX3485) 
+        (alias MAX3483) 
+        (alias MAX3486)) 
+      (description "Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8") 
+      (docs https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf) 
+      (footprints 
+        (fp DIP*W7.62mm*) 
+        (fp SOIC*3.9x4.9mm*P1.27mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) MAX481E)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name RO) 
+          (type output)) 
+        (pin 
+          (num 2) 
+          (name ~RE) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name DE) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name DI) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 6) 
+          (name A) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name B) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name VCC) 
+          (type power_in)))) 
+    (libpart 
+      (lib Jumper) 
+      (part Jumper_3_Open) 
+      (description "Jumper, 3-pole, both open") 
+      (docs ~) 
+      (footprints 
+        (fp Jumper*) 
+        (fp TestPoint*3Pads*) 
+        (fp TestPoint*Bridge*)) 
+      (fields 
+        (field 
+          (name Reference) JP) 
+        (field 
+          (name Value) Jumper_3_Open)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name C) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name B) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole)))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical Interface_UART) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_UART.lib")) 
+    (library 
+      (logical Jumper) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Jumper.lib")) 
+    (library 
+      (logical Mechanical) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name /22) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref P7) 
+        (pin 33))) 
+    (net 
+      (code 2) 
+      (name /24) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref P7) 
+        (pin 31))) 
+    (net 
+      (code 3) 
+      (name /A3) 
+      (node 
+        (ref P3) 
+        (pin 4)) 
+      (node 
+        (ref J8) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name /A2) 
+      (node 
+        (ref P3) 
+        (pin 3)) 
+      (node 
+        (ref J7) 
+        (pin 3))) 
+    (net 
+      (code 5) 
+      (name /A1) 
+      (node 
+        (ref P3) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 11))) 
+    (net 
+      (code 6) 
+      (name /40) 
+      (node 
+        (ref J6) 
+        (pin 5)) 
+      (node 
+        (ref P7) 
+        (pin 15))) 
+    (net 
+      (code 7) 
+      (name "/52(SCK)") 
+      (node 
+        (ref P7) 
+        (pin 3)) 
+      (node 
+        (ref J7) 
+        (pin 10))) 
+    (net 
+      (code 8) 
+      (name "/50(MISO)") 
+      (node 
+        (ref J7) 
+        (pin 9)) 
+      (node 
+        (ref P7) 
+        (pin 5))) 
+    (net 
+      (code 9) 
+      (name /48) 
+      (node 
+        (ref P7) 
+        (pin 7)) 
+      (node 
+        (ref J7) 
+        (pin 2))) 
+    (net 
+      (code 10) 
+      (name /46) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref P7) 
+        (pin 9))) 
+    (net 
+      (code 11) 
+      (name /44) 
+      (node 
+        (ref P7) 
+        (pin 11)) 
+      (node 
+        (ref J6) 
+        (pin 9))) 
+    (net 
+      (code 12) 
+      (name /42) 
+      (node 
+        (ref J6) 
+        (pin 7)) 
+      (node 
+        (ref P7) 
+        (pin 13))) 
+    (net 
+      (code 13) 
+      (name /38) 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref P7) 
+        (pin 17))) 
+    (net 
+      (code 14) 
+      (name /36) 
+      (node 
+        (ref J5) 
+        (pin 10)) 
+      (node 
+        (ref P7) 
+        (pin 19))) 
+    (net 
+      (code 15) 
+      (name /34) 
+      (node 
+        (ref J5) 
+        (pin 9)) 
+      (node 
+        (ref P7) 
+        (pin 21))) 
+    (net 
+      (code 16) 
+      (name /32) 
+      (node 
+        (ref P7) 
+        (pin 23)) 
+      (node 
+        (ref J5) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name /30) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref P7) 
+        (pin 25))) 
+    (net 
+      (code 18) 
+      (name /28) 
+      (node 
+        (ref P7) 
+        (pin 27)) 
+      (node 
+        (ref J10) 
+        (pin 1))) 
+    (net 
+      (code 19) 
+      (name /26) 
+      (node 
+        (ref P7) 
+        (pin 29)) 
+      (node 
+        (ref J9) 
+        (pin 5))) 
+    (net 
+      (code 20) 
+      (name /A14) 
+      (node 
+        (ref P5) 
+        (pin 7))) 
+    (net 
+      (code 21) 
+      (name "/20(SDA)") 
+      (node 
+        (ref P6) 
+        (pin 7))) 
+    (net 
+      (code 22) 
+      (name "/21(SCL)") 
+      (node 
+        (ref P6) 
+        (pin 8))) 
+    (net 
+      (code 23) 
+      (name /A8) 
+      (node 
+        (ref P5) 
+        (pin 1))) 
+    (net 
+      (code 24) 
+      (name /A9) 
+      (node 
+        (ref P5) 
+        (pin 2))) 
+    (net 
+      (code 25) 
+      (name /A10) 
+      (node 
+        (ref P5) 
+        (pin 3))) 
+    (net 
+      (code 26) 
+      (name /A11) 
+      (node 
+        (ref P5) 
+        (pin 4))) 
+    (net 
+      (code 27) 
+      (name /A12) 
+      (node 
+        (ref P5) 
+        (pin 5))) 
+    (net 
+      (code 28) 
+      (name /A13) 
+      (node 
+        (ref P5) 
+        (pin 6))) 
+    (net 
+      (code 29) 
+      (name "/19(Rx1)") 
+      (node 
+        (ref P6) 
+        (pin 6))) 
+    (net 
+      (code 30) 
+      (name /A15) 
+      (node 
+        (ref P5) 
+        (pin 8))) 
+    (net 
+      (code 31) 
+      (name "/7(**)") 
+      (node 
+        (ref P4) 
+        (pin 1))) 
+    (net 
+      (code 32) 
+      (name "/6(**)") 
+      (node 
+        (ref P4) 
+        (pin 2))) 
+    (net 
+      (code 33) 
+      (name "/5(**)") 
+      (node 
+        (ref P4) 
+        (pin 3))) 
+    (net 
+      (code 34) 
+      (name "/4(**)") 
+      (node 
+        (ref P4) 
+        (pin 4))) 
+    (net 
+      (code 35) 
+      (name "/3(**)") 
+      (node 
+        (ref P4) 
+        (pin 5))) 
+    (net 
+      (code 36) 
+      (name "/2(**)") 
+      (node 
+        (ref P4) 
+        (pin 6)) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 37) 
+      (name /IOREF) 
+      (node 
+        (ref P2) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name /Reset) 
+      (node 
+        (ref P2) 
+        (pin 3))) 
+    (net 
+      (code 39) 
+      (name +5V) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref P2) 
+        (pin 5))) 
+    (net 
+      (code 40) 
+      (name +3V3) 
+      (node 
+        (ref J6) 
+        (pin 10)) 
+      (node 
+        (ref P2) 
+        (pin 4))) 
+    (net 
+      (code 41) 
+      (name "/1(Tx0)") 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref P4) 
+        (pin 7))) 
+    (net 
+      (code 42) 
+      (name "/14(Tx3)") 
+      (node 
+        (ref P6) 
+        (pin 1))) 
+    (net 
+      (code 43) 
+      (name "/15(Rx3)") 
+      (node 
+        (ref P6) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name "/16(Tx2)") 
+      (node 
+        (ref P6) 
+        (pin 3))) 
+    (net 
+      (code 45) 
+      (name "/17(Rx2)") 
+      (node 
+        (ref P6) 
+        (pin 4))) 
+    (net 
+      (code 46) 
+      (name "/18(Tx1)") 
+      (node 
+        (ref P6) 
+        (pin 5))) 
+    (net 
+      (code 47) 
+      (name "Net-(P2-Pad1)") 
+      (node 
+        (ref P2) 
+        (pin 1))) 
+    (net 
+      (code 48) 
+      (name /A0) 
+      (node 
+        (ref P3) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 3))) 
+    (net 
+      (code 49) 
+      (name GND) 
+      (node 
+        (ref P2) 
+        (pin 7)) 
+      (node 
+        (ref P2) 
+        (pin 6)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 6)) 
+      (node 
+        (ref P7) 
+        (pin 2)) 
+      (node 
+        (ref P1) 
+        (pin 4)) 
+      (node 
+        (ref J7) 
+        (pin 6)) 
+      (node 
+        (ref J7) 
+        (pin 5)) 
+      (node 
+        (ref J1) 
+        (pin 6)) 
+      (node 
+        (ref J5) 
+        (pin 6)) 
+      (node 
+        (ref J5) 
+        (pin 5)) 
+      (node 
+        (ref J6) 
+        (pin 14)) 
+      (node 
+        (ref JP2) 
+        (pin 3)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref P7) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 3)) 
+      (node 
+        (ref TP4) 
+        (pin 1))) 
+    (net 
+      (code 50) 
+      (name "/9(**)") 
+      (node 
+        (ref P1) 
+        (pin 9))) 
+    (net 
+      (code 51) 
+      (name "/10(**)") 
+      (node 
+        (ref P1) 
+        (pin 8))) 
+    (net 
+      (code 52) 
+      (name "/11(**)") 
+      (node 
+        (ref P1) 
+        (pin 7)) 
+      (node 
+        (ref JP1) 
+        (pin 3))) 
+    (net 
+      (code 53) 
+      (name "/12(**)") 
+      (node 
+        (ref J6) 
+        (pin 8)) 
+      (node 
+        (ref P1) 
+        (pin 6))) 
+    (net 
+      (code 54) 
+      (name "/13(**)") 
+      (node 
+        (ref P1) 
+        (pin 5)) 
+      (node 
+        (ref J6) 
+        (pin 6))) 
+    (net 
+      (code 55) 
+      (name /AREF) 
+      (node 
+        (ref P1) 
+        (pin 3))) 
+    (net 
+      (code 56) 
+      (name /SDA) 
+      (node 
+        (ref P1) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 4))) 
+    (net 
+      (code 57) 
+      (name "/8(**)") 
+      (node 
+        (ref P1) 
+        (pin 10))) 
+    (net 
+      (code 58) 
+      (name /SCL) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref P1) 
+        (pin 1))) 
+    (net 
+      (code 59) 
+      (name "/0(Rx0)") 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref P4) 
+        (pin 8))) 
+    (net 
+      (code 60) 
+      (name /A7) 
+      (node 
+        (ref P3) 
+        (pin 8))) 
+    (net 
+      (code 61) 
+      (name /A4) 
+      (node 
+        (ref P3) 
+        (pin 5))) 
+    (net 
+      (code 62) 
+      (name /A5) 
+      (node 
+        (ref P3) 
+        (pin 6))) 
+    (net 
+      (code 63) 
+      (name /A6) 
+      (node 
+        (ref P3) 
+        (pin 7))) 
+    (net 
+      (code 64) 
+      (name "Net-(P7-Pad35)") 
+      (node 
+        (ref P7) 
+        (pin 35))) 
+    (net 
+      (code 65) 
+      (name /41) 
+      (node 
+        (ref P7) 
+        (pin 16))) 
+    (net 
+      (code 66) 
+      (name /43) 
+      (node 
+        (ref P7) 
+        (pin 14))) 
+    (net 
+      (code 67) 
+      (name /45) 
+      (node 
+        (ref P7) 
+        (pin 12))) 
+    (net 
+      (code 68) 
+      (name /47) 
+      (node 
+        (ref P7) 
+        (pin 10))) 
+    (net 
+      (code 69) 
+      (name /49) 
+      (node 
+        (ref P7) 
+        (pin 8))) 
+    (net 
+      (code 70) 
+      (name "/51(MOSI)") 
+      (node 
+        (ref P7) 
+        (pin 6))) 
+    (net 
+      (code 71) 
+      (name "/53(SS)") 
+      (node 
+        (ref P7) 
+        (pin 4))) 
+    (net 
+      (code 72) 
+      (name "Net-(P7-Pad36)") 
+      (node 
+        (ref P7) 
+        (pin 36))) 
+    (net 
+      (code 73) 
+      (name /39) 
+      (node 
+        (ref P7) 
+        (pin 18))) 
+    (net 
+      (code 74) 
+      (name /37) 
+      (node 
+        (ref P7) 
+        (pin 20))) 
+    (net 
+      (code 75) 
+      (name /35) 
+      (node 
+        (ref P7) 
+        (pin 22))) 
+    (net 
+      (code 76) 
+      (name /33) 
+      (node 
+        (ref P7) 
+        (pin 24))) 
+    (net 
+      (code 77) 
+      (name /31) 
+      (node 
+        (ref P7) 
+        (pin 26))) 
+    (net 
+      (code 78) 
+      (name /29) 
+      (node 
+        (ref P7) 
+        (pin 28))) 
+    (net 
+      (code 79) 
+      (name /27) 
+      (node 
+        (ref P7) 
+        (pin 30))) 
+    (net 
+      (code 80) 
+      (name /25) 
+      (node 
+        (ref P7) 
+        (pin 32))) 
+    (net 
+      (code 81) 
+      (name /23) 
+      (node 
+        (ref P7) 
+        (pin 34))) 
+    (net 
+      (code 82) 
+      (name /LED+5V) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref J3) 
+        (pin 2))) 
+    (net 
+      (code 83) 
+      (name /DATAOUT) 
+      (node 
+        (ref JP2) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 4))) 
+    (net 
+      (code 84) 
+      (name /LEDGND) 
+      (node 
+        (ref J3) 
+        (pin 3)) 
+      (node 
+        (ref J4) 
+        (pin 3))) 
+    (net 
+      (code 85) 
+      (name /DATAIN) 
+      (node 
+        (ref J3) 
+        (pin 4)) 
+      (node 
+        (ref JP1) 
+        (pin 1))) 
+    (net 
+      (code 86) 
+      (name /LED_DIN) 
+      (node 
+        (ref J5) 
+        (pin 4)) 
+      (node 
+        (ref JP1) 
+        (pin 2))) 
+    (net 
+      (code 87) 
+      (name /+3.3V_SUPPLY) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref TP3) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 3))) 
+    (net 
+      (code 88) 
+      (name /BUS-A) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref TP5) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 89) 
+      (name /BUS-B) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref TP6) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 5)) 
+      (node 
+        (ref J2) 
+        (pin 5))) 
+    (net 
+      (code 90) 
+      (name /+12V_SUPPLY) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref TP1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref P2) 
+        (pin 8))) 
+    (net 
+      (code 91) 
+      (name /LED_DOUT) 
+      (node 
+        (ref J7) 
+        (pin 8)) 
+      (node 
+        (ref JP2) 
+        (pin 2))) 
+    (net 
+      (code 92) 
+      (name /+5V_SUPPLY) 
+      (node 
+        (ref J6) 
+        (pin 12)) 
+      (node 
+        (ref J5) 
+        (pin 7)) 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref TP2) 
+        (pin 1)) 
+      (node 
+        (ref J7) 
+        (pin 7)) 
+      (node 
+        (ref J2) 
+        (pin 2))) 
+    (net 
+      (code 93) 
+      (name /LED_DOUT1) 
+      (node 
+        (ref J6) 
+        (pin 13)) 
+      (node 
+        (ref J5) 
+        (pin 8))) 
+    (net 
+      (code 94) 
+      (name /LED_DOUT2) 
+      (node 
+        (ref J7) 
+        (pin 4)) 
+      (node 
+        (ref J6) 
+        (pin 1)))))
