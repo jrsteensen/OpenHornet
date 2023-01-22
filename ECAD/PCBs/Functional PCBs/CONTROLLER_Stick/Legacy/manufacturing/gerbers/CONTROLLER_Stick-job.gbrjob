@@ -1,0 +1,155 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.61,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.2
+},
+{
+"Layers": "Inner",
+"MinLineWidth": 0.305,
+"PadToPad": 0.2,
+"PadToTrack": 0.2,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Bot",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-F_SilkS.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-B_SilkS.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "CONTROLLER_Stick-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "CONTROLLER_Stick-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "CONTROLLER_Stick-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"LayerNumber": 4,
+"ProjectId": {
+"GUID": "73746963-6b5f-4636-9f6e-74726f6c6c65",
+"Name": "stick_controller",
+"Revision": "rev?"
+},
+"Size": {
+"X": 39.05,
+"Y": 45.05
+}
+},
+"Header": {
+"CreationDate": "2021-10-18T19:29:22-06:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(5.1.9)-1"
+}
+},
+"MaterialStackup": [
+{
+"Notes": "Layer F.SilkS",
+"Type": "Legend"
+},
+{
+"Notes": "Layer F.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer F.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer F.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L1/L2",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In1.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L2/L3",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer In2.Cu",
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Notes": "Layers L3/L4",
+"Type": "Dielectric"
+},
+{
+"Notes": "Layer B.Cu",
+"Type": "Copper"
+},
+{
+"Notes": "Layer B.Mask",
+"Type": "SolderMask"
+},
+{
+"Notes": "Layer B.Paste",
+"Type": "SolderPaste"
+},
+{
+"Notes": "Layer B.SilkS",
+"Type": "Legend"
+}
+]
+}
