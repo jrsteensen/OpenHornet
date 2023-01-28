@@ -1,0 +1,301 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2022-08-04"
+Rev "2"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5900 2050 1    50   ~ 0
+COIL1
+Text Label 6100 2050 1    50   ~ 0
+COIL2
+Text Label 5700 2250 2    50   ~ 0
+COIL3
+Text Label 5700 2450 2    50   ~ 0
+COIL4
+$Comp
+L power:GND #PWR09
+U 1 1 6134005A
+P 6950 2700
+F 0 "#PWR09" H 6950 2450 50  0001 C CNN
+F 1 "GND" V 6955 2572 50  0000 R CNN
+F 2 "" H 6950 2700 50  0001 C CNN
+F 3 "" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 6133FBE7
+P 6950 2700
+F 0 "#FLG02" H 6950 2775 50  0001 C CNN
+F 1 "PWR_FLAG" V 6950 2828 50  0000 L CNN
+F 2 "" H 6950 2700 50  0001 C CNN
+F 3 "~" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Motor:Stepper_Motor_bipolar M1
+U 1 1 61379EDE
+P 6000 2350
+F 0 "M1" H 6188 2474 50  0000 L CNN
+F 1 "VID29-02" H 6188 2383 50  0000 L CNN
+F 2 "KiCAD Libraries:VID29-02" H 6010 2340 50  0001 C CNN
+F 3 "https://guy.carpenter.id.au/gaugette/resources/vid/20091026113525_VID29_manual_EN-080606.pdf" H 6010 2340 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 6137A947
+P 6900 1350
+F 0 "J4" H 6800 1400 50  0000 C CNN
+F 1 "ZERO" H 6750 1300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 1350 50  0001 C CNN
+F 3 "~" H 6900 1350 50  0001 C CNN
+	1    6900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 6137B25C
+P 7200 1150
+F 0 "#PWR011" H 7200 1000 50  0001 C CNN
+F 1 "+5V" H 7215 1323 50  0000 C CNN
+F 2 "" H 7200 1150 50  0001 C CNN
+F 3 "" H 7200 1150 50  0001 C CNN
+	1    7200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6137C2EC
+P 7200 1550
+F 0 "#PWR013" H 7200 1300 50  0001 C CNN
+F 1 "GND" H 7205 1377 50  0000 C CNN
+F 2 "" H 7200 1550 50  0001 C CNN
+F 3 "" H 7200 1550 50  0001 C CNN
+	1    7200 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 7200 1450
+Wire Wire Line
+	7200 1450 7100 1450
+Text Label 7100 1350 0    50   ~ 0
+ZERO_DETECT
+Wire Wire Line
+	7100 1250 7200 1250
+Wire Wire Line
+	7200 1250 7200 1150
+$Comp
+L power:+5V #PWR012
+U 1 1 6137E4CF
+P 6950 2600
+F 0 "#PWR012" H 6950 2450 50  0001 C CNN
+F 1 "+5V" V 6965 2728 50  0000 L CNN
+F 2 "" H 6950 2600 50  0001 C CNN
+F 3 "" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 6137EE9D
+P 6950 2600
+F 0 "#FLG03" H 6950 2675 50  0001 C CNN
+F 1 "PWR_FLAG" V 6950 2728 50  0000 L CNN
+F 2 "" H 6950 2600 50  0001 C CNN
+F 3 "~" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	0    1    1    0   
+$EndComp
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 613EF815
+P 6850 2000
+F 0 "H1" H 6950 2046 50  0000 L CNN
+F 1 "MountingHole" H 6950 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2000 50  0001 C CNN
+F 3 "~" H 6850 2000 50  0001 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 613F0076
+P 6850 2200
+F 0 "H2" H 6950 2246 50  0000 L CNN
+F 1 "MountingHole" H 6950 2155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2200 50  0001 C CNN
+F 3 "~" H 6850 2200 50  0001 C CNN
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 613F01D2
+P 6850 2400
+F 0 "H3" H 6950 2446 50  0000 L CNN
+F 1 "MountingHole" H 6950 2355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 6850 2400 50  0001 C CNN
+F 3 "~" H 6850 2400 50  0001 C CNN
+	1    6850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:1938 D1
+U 1 1 61398E20
+P 6150 3600
+F 0 "D1" H 6250 3950 50  0000 L CNN
+F 1 "1938" H 6250 3850 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 6200 3300 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H 6250 3225 50  0001 L TNN
+	1    6150 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L KiCadCustomLib:1938 D2
+U 1 1 613992CB
+P 7000 3600
+F 0 "D2" H 7100 3950 50  0000 L CNN
+F 1 "1938" H 7100 3850 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 7050 3300 50  0001 L TNN
+F 3 "https://www.adafruit.com/product/1938" H 7100 3225 50  0001 L TNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3600 6700 3600
+Wire Wire Line
+	6150 3300 6150 3200
+Wire Wire Line
+	6150 3200 6600 3200
+Wire Wire Line
+	7000 3200 7000 3300
+$Comp
+L power:+5V #PWR01
+U 1 1 6139A74B
+P 6600 3100
+F 0 "#PWR01" H 6600 2950 50  0001 C CNN
+F 1 "+5V" H 6615 3273 50  0000 C CNN
+F 2 "" H 6600 3100 50  0001 C CNN
+F 3 "" H 6600 3100 50  0001 C CNN
+	1    6600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3100 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 3200 7000 3200
+Wire Wire Line
+	6150 3900 6150 4000
+Wire Wire Line
+	6150 4000 6600 4000
+Wire Wire Line
+	7000 4000 7000 3900
+Wire Wire Line
+	6600 4000 6600 4100
+Connection ~ 6600 4000
+Wire Wire Line
+	6600 4000 7000 4000
+$Comp
+L power:GND #PWR02
+U 1 1 6139C604
+P 6600 4100
+F 0 "#PWR02" H 6600 3850 50  0001 C CNN
+F 1 "GND" V 6605 3972 50  0000 R CNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+Text Label 5850 3600 2    50   ~ 0
+LED_DIN
+Text Label 7300 3600 0    50   ~ 0
+LED_DOUT
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J3
+U 1 1 62EC0411
+P 5900 1600
+F 0 "J3" H 5950 1800 50  0000 C CNN
+F 1 "STEPPER" H 5950 1700 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 1600 50  0001 C CNN
+F 3 "~" H 5900 1600 50  0001 C CNN
+	1    5900 1600
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1600 2    50   ~ 0
+COIL1
+Text Label 5700 1700 2    50   ~ 0
+COIL2
+Text Label 6200 1700 0    50   ~ 0
+COIL3
+Text Label 6200 1600 0    50   ~ 0
+COIL4
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J2
+U 1 1 62EC353A
+P 5900 1150
+F 0 "J2" H 5950 1350 50  0000 C CNN
+F 1 "LED/ZERO" H 5950 1250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5900 1150 50  0001 C CNN
+F 3 "~" H 5900 1150 50  0001 C CNN
+	1    5900 1150
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1150 2    50   ~ 0
+LED_DIN
+Text Label 6200 1150 0    50   ~ 0
+LED_DOUT
+Text Label 5700 1250 2    50   ~ 0
+ZERO_DETECT
+NoConn ~ 6200 1250
+$Comp
+L Connector_Generic:Conn_02x01 J1
+U 1 1 62EC4BD1
+P 5900 800
+F 0 "J1" H 5950 1000 50  0000 C CNN
+F 1 "PWR" H 5950 900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 5900 800 50  0001 C CNN
+F 3 "~" H 5900 800 50  0001 C CNN
+	1    5900 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 62EC5A3D
+P 5700 800
+F 0 "#PWR0101" H 5700 650 50  0001 C CNN
+F 1 "+5V" H 5700 950 50  0000 C CNN
+F 2 "" H 5700 800 50  0001 C CNN
+F 3 "" H 5700 800 50  0001 C CNN
+	1    5700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 62EC6840
+P 6200 800
+F 0 "#PWR0102" H 6200 550 50  0001 C CNN
+F 1 "GND" H 6200 650 50  0000 C CNN
+F 2 "" H 6200 800 50  0001 C CNN
+F 3 "" H 6200 800 50  0001 C CNN
+	1    6200 800 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
