@@ -1,0 +1,55 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
+%TF.CreationDate,2023-01-28T00:00:36-09:00*%
+%TF.ProjectId,HOTAS_Hat Switch Breakout,484f5441-535f-4486-9174-205377697463,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-01-28 00:00:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,1.800000*%
+%TD*%
+%TA.AperFunction,WasherPad*%
+%ADD11C,1.800000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,S1,COM*%
+%TO.N,Net-(J6-Pad1)*%
+X1000000Y-5256000D03*
+%TO.P,S1,PUSH3*%
+%TO.N,Net-(J5-Pad1)*%
+X5256000Y1000000D03*
+%TO.P,S1,B*%
+%TO.N,Net-(J2-Pad1)*%
+X4845000Y-1000000D03*
+D11*
+%TO.P,S1,*%
+%TO.N,*%
+X1000000Y-3000000D03*
+D10*
+%TO.P,S1,C*%
+%TO.N,Net-(J3-Pad1)*%
+X-1000000Y-4848000D03*
+%TO.P,S1,GND*%
+%TO.N,N/C*%
+X-4150000Y-2698000D03*
+%TO.P,S1,PUSH1*%
+%TO.N,Net-(J5-Pad1)*%
+X-5256000Y-1000000D03*
+%TO.P,S1,D*%
+%TO.N,Net-(J4-Pad1)*%
+X-4848000Y1000000D03*
+%TO.P,S1,PUSH2*%
+%TO.N,Net-(J5-Pad1)*%
+X-1000000Y5526000D03*
+%TO.P,S1,A*%
+%TO.N,Net-(J1-Pad1)*%
+X1000000Y4848000D03*
+%TD*%
+M02*
