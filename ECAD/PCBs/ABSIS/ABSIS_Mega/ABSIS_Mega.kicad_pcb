@@ -1019,7 +1019,7 @@
       (net 86 "/BUS-B") (tstamp 72d13f5e-99c5-4ad0-93a8-0f35e757943a))
     (pad "8" smd roundrect locked (at 2.475 -1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 84 "/BUS-ENABLE") (tstamp feeb1c9c-26e7-4a07-9fb8-f1dadd9f537f))
-    (model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KICAD6_USER_OH_3DMODELS}/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
-%TF.CreationDate,2023-01-06T08:48:34-09:00*%
+%TF.CreationDate,2023-01-29T05:27:43-09:00*%
 %TF.ProjectId,CAUTION LIGHTS PANEL,43415554-494f-44e2-904c-494748545320,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-01-06 08:48:34*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-01-29 05:27:43*
 %MOMM*%
 %LPD*%
 G01*
@@ -2329,17 +2329,17 @@ X73691200Y23349000D01*
 %TD*%
 %LPC*%
 D12*
-%TO.C,MK1*%
-X2591200Y37330800D03*
-%TD*%
-%TO.C,MK2*%
-X79391200Y37330800D03*
+%TO.C,MK4*%
+X79391200Y2591200D03*
 %TD*%
 %TO.C,MK3*%
 X2591200Y2591200D03*
 %TD*%
-%TO.C,MK4*%
-X79391200Y2591200D03*
+%TO.C,MK2*%
+X79391200Y37330800D03*
+%TD*%
+%TO.C,MK1*%
+X2591200Y37330800D03*
 %TD*%
 D13*
 %TO.C,D1*%

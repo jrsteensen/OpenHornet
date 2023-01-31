@@ -1785,7 +1785,7 @@
     (tedit 5FBF1A68) (tstamp 00000000-0000-0000-0000-00005fce1c98)
     (at 90.97772 94.21876)
     (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G1" (at 0 10.1) (layer "F.SilkS") hide
+    (fp_text reference "" (at 0 10.1) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 1809699d-9033-4020-8bc3-4dc5ef6d7926)
     )
@@ -2160,7 +2160,7 @@
     (tedit 5FBF1A68) (tstamp 00000000-0000-0000-0000-00005fce1d39)
     (at 101.7016 153.06802)
     (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G4" (at 0 10.1) (layer "F.SilkS") hide
+    (fp_text reference "" (at 0 10.1) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp c42ea9d9-c938-491e-a031-97f2db9e9553)
     )
@@ -2821,7 +2821,7 @@
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005fce1fcb)
     (at 91.45 130.95 180)
     (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G3" (at 0 0) (layer "B.SilkS") hide
+    (fp_text reference "" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp dc839743-b776-4e74-b9b1-37c4ed804016)
     )
@@ -3198,7 +3198,7 @@
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005fce21c0)
     (at 92.80906 119.82958 180)
     (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G2" (at 0 0) (layer "B.SilkS") hide
+    (fp_text reference "" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp bb0bae22-f9a0-4af5-810f-5171c818b75f)
     )
@@ -7920,7 +7920,7 @@
   (gr_text "3" (at 101.64572 154.92476) (layer "B.SilkS") (tstamp 16834be3-c58e-47d9-9562-c49d261a3b00)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "APU Panel Backlight\nDesigned by L. Walker" (at 90.88882 111.9124) (layer "B.SilkS") (tstamp 1bf538db-6118-4f75-8b24-234d68b53763)
+  (gr_text "APU PANEL\nVersion: 2.4\n\nwww.openhornet.com" (at 92.202 110.744) (layer "B.SilkS") (tstamp 1bf538db-6118-4f75-8b24-234d68b53763)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Molex 2X2 Mini-Fit Jr." (at 101.45 66.35 90) (layer "B.SilkS") (tstamp 1db544d3-63c7-4d7b-8a80-f4919dbe7c0a)
@@ -7938,16 +7938,13 @@
   (gr_text "1000uF" (at 86.81 64.72 90) (layer "B.SilkS") (tstamp 4d8b36c5-512a-4a77-b3a0-3627e78067a9)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 20\nCURRENT: 1.2A\nWATTAGE: 6.0W" (at 99.3 78.25) (layer "B.SilkS") (tstamp 5604ebb8-1824-4064-a075-775d7a2d2fbf)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 20\nCURRENT: 1.2A\nWATTAGE: 6.0W" (at 97.79 76.2) (layer "B.SilkS") (tstamp 5604ebb8-1824-4064-a075-775d7a2d2fbf)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "THRU" (at 115.05184 72.96404 90) (layer "B.SilkS") (tstamp 6543e26d-ec9b-4a8f-88ab-8529589f5413)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "READY" (at 89.35 58.15) (layer "B.SilkS") (tstamp 9ad5a2d7-83d2-4a3e-83f7-c4a2fe4fad51)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "Version 2.3" (at 77.55 71.8) (layer "B.SilkS") (tstamp a21f7522-027e-4067-a48e-04c919b425cf)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "APU READY" (at 106.3244 104.9528) (layer "B.SilkS") (tstamp d7c21b86-8180-4dcd-9381-f172bbf3aba4)
