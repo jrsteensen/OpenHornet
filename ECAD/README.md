@@ -7,7 +7,7 @@
 # **ECAD DIRECTORY INFORMATION**
 
 The purpose of this guide is to help enable the end-user to successfully accomplish the following:  
-*   1:  Facilitate navigatation of the file structure.
+*   1:  Facilitate navigation of the file structure.
 *   2:  Provide clarification regarding the manufacturing process of PCB's related to OpenHornet using JLCPCB.com
 *   2:  How to install KiCad 6 and set up libraries associated with OpenHornet. _(optional)__
 
@@ -28,7 +28,7 @@ The ECAD Directory has been organized to facilitate the end user, regardless of 
 ![Example](https://user-images.githubusercontent.com/81926396/215696071-7edc249b-18df-4af8-915c-aca4d49060c1.png)
 
 
-1. Within each labled PCB folder, there will be a folder called "JLCPCB" and inside of that folder will be two additional folders called "gerbers" and "production_files"
+1. Within each labeled PCB folder, there will be a folder called "JLCPCB" and inside of that folder will be two additional folders called "gerbers" and "production_files"
 2. **_All files you need for manufacturing are located in the "production_files" folder.  The gerbers are already compressed in a .zip file labeled the same way as the PCB folder their located in._** 
 3. Additionally, there will be 3 .csv files:  _**BOM_BOTTOM-'NAME OF PANEL'.csv**_,  _**BOM_TOP-'NAME OF PANEL'.csv**_, AND  _**CPL-'NAME OF PANEL'.csv**_ that will contain a Bill of Materials for both components located on both the top and bottom of the PCB, as well as the CPL used for placing the components.
 
@@ -47,10 +47,10 @@ At the moment, all manufacturing files have been standardized to allow for fabri
 
 ## **Installation of KiCad and OpenHornet Libraries _(OPTIONAL)_**
 
-*Intsallation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
+*Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
 
 Before we begin, it is assumed that you have:
-*  1:  Downloaded the latest version of KiCad _(currently KiCad 6.0.9)_ and have it installed on your computer.  
+*  1:  Downloaded the latest version of KiCad _(currently KiCad 6.0.9)_ and installed it on your computer.  
 *  2:  Cloned the OpenHornet repository
 
 #### STEP ONE:  Configure Paths & Create Environmental Variables
@@ -74,11 +74,11 @@ With the project window open, navigate to Preferences --> Manage Symbol Librarie
 
 ![image](https://user-images.githubusercontent.com/81926396/215702056-a04ba630-c79d-4d75-a71d-4f6d4f21d9cd.png)
 
-When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substituions".  Ensure that the environmental variable that you just created is located in there.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transitition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
+When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions".  Ensure that the environmental variable that you just created is located in there.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
 
-Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\OH_Symbols_ and add the four kicad_sym files located in the folder.  This will autommatically populate the fields with the information.  Alternatively, you click on the "+" icon to add a new row and manually enter the information for your libraries.  
+Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\OH_Symbols_ and add the four kicad_sym files located in the folder.  This will automatically populate the fields with the information.  Alternatively, you click on the "+" icon to add a new row and manually enter the information for your libraries.  
 
-Finally, check to Library Path to make sure your environmenal variable was adopted.
+Finally, check the Library Path to make sure your environmental variable was adopted.
 
 ![image](https://user-images.githubusercontent.com/81926396/215706404-a696a824-7ae2-408e-93a4-a45cad99607d.png)
 
@@ -87,5 +87,6 @@ Do the same thing for the footprint Libraries:
 ![image](https://user-images.githubusercontent.com/81926396/215707143-b7feb91e-98a2-4507-bd70-a8d7ed945f4d.png)
 
 ### Congratulations. That's all you have to do.  The 3D models that are associated with the footprints will automatically be linked as long as the OH_Footprints are used.  
+
 
 

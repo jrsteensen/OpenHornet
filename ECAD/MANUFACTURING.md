@@ -5,7 +5,7 @@
 
 
 # Ordering PCBs from JLCPCB
-JLCPCB is a popular online platform for ordering printed circuit boards (PCBs) and has been choosen as the recommended supplier of OpenHornet PCBs. This guide will walk you through the steps to order your own PCBs from JLCPCB.
+JLCPCB is a popular online platform for ordering printed circuit boards (PCBs) and has been chosen as the recommended supplier of OpenHornet PCBs. This guide will walk you through the steps to order your own PCBs from JLCPCB.
 
 ## Step 1: Sign Up
 Before you can start ordering PCBs, you need to create an account on JLCPCB. To do so, go to jlcpcb.com and click on the "Sign Up" button. Fill in your email address and password to create your account.
@@ -19,7 +19,7 @@ On the main page, click on the icon that says "Add gerber file."  OpenHornet has
 After uploading your design, you'll be taken to the order page where you can select the parameters for your PCBs. You'll need to select the following parameters:
 
 
-#### JLC should detect how many layers it needs based off of the gerber files you've uploaded.  However, the safest course of action is to double check the "production_files" folder and look for a text document called "IMPORTANT MANUFACTURING INSTRUCTIONS.TXT" which will provide any specific adjustments you need to make to the parameters.  If there isn't one located in the folder, then the standard settings will apply.
+#### JLCPCB should detect how many layers it needs based on the gerber files you've uploaded.  However, the safest course of action is to double check the "production_files" folder and look for a text document called "IMPORTANT MANUFACTURING INSTRUCTIONS.TXT" which will provide any specific adjustments you need to make to the parameters.  If there isn't one located in the folder, then the standard settings will apply.
 
 
 ### PCB Layer: 
@@ -38,7 +38,7 @@ The number of PCBs you want to order.  The minimum is 5.  Most PCBs only require
 Choose whatever color you prefer.  Note: Depending on other PCB attributes (2oz Copper, 4 Layers, etc.) you'll be limited on the color you can choose.
 
 ### Confirm Production File:
-YES!  It's a few cents more and having the extra check is absolutely worth it.  JLC currently has errors with the way their website analyizes files, so it's highly possible for pieces to be rotated incorrectly.
+YES!  It's a few cents more and having the extra check is absolutely worth it.  JLC currently has errors with the way their website analyzes files, so it's highly possible for pieces to be rotated incorrectly.
 
 ### The rest of the settings can be default.  See the example before if you have any questions.
 
@@ -48,10 +48,10 @@ YES!  It's a few cents more and having the extra check is absolutely worth it.  
 ## Step 4: Choose Components and Assembly Services (Optional)
 If you want JLCPCB to assemble the components onto your PCBs, you can choose from their component and assembly services. You'll need to upload a BOM (Bill of Materials) file and CPL positioning file that tells JLC the exact location that the components need to be placed.  Again, Openhornet provides these documents in the same production_files folder for you to use.
 
-#### It is possible that JLC doesn't have an item in stock.  You have a few options: choose a similiar piece that meets the specifications, provide your own components by using the Parts Manager located on their website, or ignore the missing parts and continue production with what they have available.  The majority of OpenHornet PCBs require only TOP level SMD (surface mounted device) Assembly.  The Bottom Level is typically THT (Thru-hole technology) which can be soldered at home.  Due to cost effectiveness and feasability, it is recommended to assemble layers that have SMD components.
+#### It is possible that JLC doesn't have an item in stock.  You have a few options: choose a similar piece that meets the specifications, provide your own components by using the Parts Manager located on their website, or ignore the missing parts and continue production with what they have available.  The majority of OpenHornet PCBs require only TOP level SMD (surface mounted device) Assembly.  The Bottom Level is typically THT (Thru-hole technology) which can be soldered at home.  Due to cost effectiveness and feasibility, it is recommended to assemble layers that have SMD components.
 
 ### PCBA Type:
-Economic is cheapest, but if you assemble both sides, you'll have to choose Standard.  Some components require Standard to be selected and JLC will prompt you to change if needed.
+The “Economic” option is the cheapest, but if you assemble both sides, you'll have to choose the “Standard” option.  Some components require Standard to be selected and JLC will prompt you to change if needed.
 
 ### Assembly Side: 
 Top Side.  9/10 PCBs require Top Level assembly.  If the parts are available and cost is of no concern, you can opt to have both sides assembled.
@@ -83,4 +83,5 @@ Review your order and if everything looks correct, fill out your financial and s
 
 
 _Note: The details mentioned in this guide are subject to change, kindly check the JLCPCB website for the latest information._
+
 
