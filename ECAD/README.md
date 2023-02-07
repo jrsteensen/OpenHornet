@@ -86,6 +86,18 @@ Do the same thing for the footprint Libraries:
 
 ![image](https://user-images.githubusercontent.com/81926396/215707143-b7feb91e-98a2-4507-bd70-a8d7ed945f4d.png)
 
+#### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
+Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
+
+*  1: Click **"Plugin and Content Manager"**
+*  2: When the dialog box opens, click on **"Manage"**
+*  3: When the **"Manage Repositories"** dialog box opens, Click the "+" sign and add the following:
+    *  Name:  Bouni's KiCad repository
+    *  URL:  https://raw.githubusercontent.com/Bouni/bouni-kicad-repository/main/repository.json
+*  4: Once downloaded and installed, hit "Apply Changes"
+
+![image](https://user-images.githubusercontent.com/81926396/217127559-052fe26c-a70d-4acf-93be-c1f66102bf7e.png)
+
 ### Congratulations. That's all you have to do.  The 3D models that are associated with the footprints will automatically be linked as long as the OH_Footprints are used.  
 
 
