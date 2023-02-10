@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "AV COOL PANEL")
+    (date "2023-02-10")
+    (rev "3")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x04_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 5.08 0)

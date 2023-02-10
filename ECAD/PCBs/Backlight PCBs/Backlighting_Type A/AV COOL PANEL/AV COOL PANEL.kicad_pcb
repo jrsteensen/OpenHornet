@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "AV COOL PANEL")
+    (date "2023-02-10")
+    (rev "3")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -6025,7 +6033,7 @@
   (gr_text "AV COOL" (at 245.364 87.376) (layer "B.SilkS") (tstamp 558ba497-aa1c-49b3-9add-891038505680)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "AV COOL PANEL\nVersion 2.2\nwww.openhornet.com" (at 222.25 47.244) (layer "B.SilkS") (tstamp 8812def8-a2bc-4eb9-87c0-0af94754e5e8)
+  (gr_text "AV COOL PANEL\nRevision: 3\nwww.openhornet.com" (at 222.25 47.244) (layer "B.SilkS") (tstamp 8812def8-a2bc-4eb9-87c0-0af94754e5e8)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Molex\nMini-Fit Jr." (at 236.840094 40.344573) (layer "B.SilkS") (tstamp 8d586108-9606-4760-8abd-90b8205e2d65)

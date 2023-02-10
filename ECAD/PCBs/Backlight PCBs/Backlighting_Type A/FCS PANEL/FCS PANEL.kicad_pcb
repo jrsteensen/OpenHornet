@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "FCS PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -2396,7 +2402,7 @@
 
   (footprint "OH_General:OH_LOGO_37.7mm_5.9mm" (layer "B.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005fce4639)
-    (at 152.0063 55.54472 180)
+    (at 153.8732 55.9054 180)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -7064,7 +7070,7 @@
 
   (footprint "OH_General:CC-BY-NC-SA-Small" (layer "B.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-00005fce4b0a)
-    (at 107.09148 55.38724 180)
+    (at 109.4232 55.245 180)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -7598,7 +7604,7 @@
   (gr_text "⌀4MM" (at 126.4412 56.2356) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005f9665ef)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 23\nCURRENT: 1.38A\nWATTAGE: 6.9W" (at 115.69446 70.53072) (layer "B.SilkS") (tstamp 133582e5-d9a9-42a0-b91c-402f30fb1673)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 23\nCURRENT: 1.38A\nWATTAGE: 6.9W" (at 119.9388 65.8622) (layer "B.SilkS") (tstamp 133582e5-d9a9-42a0-b91c-402f30fb1673)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
   (gr_text "⌀4MM" (at 134.8232 93.6752) (layer "B.SilkS") (tstamp 15c31d8d-3e6c-4973-9beb-8a7fa0797af9)
@@ -7643,8 +7649,8 @@
   (gr_text "RUD TRIM ASSY.\nH3" (at 134.6708 86.5632) (layer "B.SilkS") (tstamp 71e60beb-8ead-41ed-aa83-8406752dcde9)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "FCS Panel Backlight\nDesigned by L. Walker" (at 192.91808 56.72328) (layer "B.SilkS") (tstamp 773ac519-e2b7-4371-81fb-205106d9ecda)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "FCS PANEL\nRevision: 3\nwww.openhornet.com" (at 126.5682 77.6224) (layer "B.SilkS") (tstamp 773ac519-e2b7-4371-81fb-205106d9ecda)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "RUD TRIM ASSY.\nH1" (at 126.238 49.022) (layer "B.SilkS") (tstamp aac8032e-dfa9-4e9d-a27d-b086b13c8b2f)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

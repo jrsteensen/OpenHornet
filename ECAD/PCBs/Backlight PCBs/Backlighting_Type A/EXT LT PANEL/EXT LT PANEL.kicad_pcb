@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "EXT LT PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -11028,8 +11034,8 @@
   (gr_text "POSITION" (at 115.7732 87.3252) (layer "B.SilkS") (tstamp 488d2ddf-2180-4218-9280-0d6d3b18d0b2)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Exterior Lights\nPanel Backlight\nDesigned by L. Walker" (at 124.42698 96.77146) (layer "B.SilkS") (tstamp 4dcac4ea-91f9-4a86-90ff-d1a87de15be5)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "EXT LT PANEL\nRevision: 3\nwww.openhornet.com" (at 114.3 97.9932) (layer "B.SilkS") (tstamp 4dcac4ea-91f9-4a86-90ff-d1a87de15be5)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "IN" (at 147.73148 69.59854 90) (layer "B.SilkS") (tstamp 533fefdb-4002-4011-b544-34ecadf9ade4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

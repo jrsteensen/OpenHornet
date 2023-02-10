@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ELEC PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -11210,10 +11216,7 @@
   (gr_text "1000uF" (at 82.2 125.08 90) (layer "B.SilkS") (tstamp 68c12313-fb37-414e-9780-da21e6ff27bc)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "ELEC Panel Backlight\nDesigned by L. Walker" (at 155.85 123.72) (layer "B.SilkS") (tstamp 6c2afcae-c505-43ec-94af-1dfaac373629)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
-  )
-  (gr_text "Version 2.0" (at 53.3146 122.047) (layer "B.SilkS") (tstamp 6c9b2dfe-16c6-4eda-862e-1b97c9910971)
+  (gr_text "ELEC PANEL\nRevision: 3\nwww.openhornet.com" (at 101.7778 119.2784) (layer "B.SilkS") (tstamp 6c2afcae-c505-43ec-94af-1dfaac373629)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "THRU" (at 130.75 130.91) (layer "B.SilkS") (tstamp 79aae84a-29f3-44ed-aeb2-08bb8b467336)

@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "DEFOT PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -10273,7 +10279,7 @@
   (gr_line (start 120.634016 30.717627) (end 120.634016 62.467628) (layer "Edge.Cuts") (width 0.2) (tstamp c8c7884e-236e-42dd-b358-f71db76165f3))
   (gr_arc (start 136.509016 62.467625) (mid 138.75408 63.397561) (end 139.684016 65.642625) (layer "Edge.Cuts") (width 0.2) (tstamp e3843848-e0f8-4e14-ada9-563a0e8ddc5b))
   (gr_line (start 120.634016 184.387625) (end 158.734016 184.387625) (layer "Edge.Cuts") (width 0.2) (tstamp eedf7f5c-5f3b-4965-975c-84cd8e361350))
-  (gr_text "DEFOG Panel Backlight\nDesigned by L. Walker" (at 146.72 58.25) (layer "B.SilkS") (tstamp 55fb754d-4e53-4a9f-a14b-1a017830908c)
+  (gr_text "DEFOG PANEL\nRevision: 3\nwww.openhornet.com" (at 146.72 58.25) (layer "B.SilkS") (tstamp 55fb754d-4e53-4a9f-a14b-1a017830908c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "V2.1\n" (at 150.749 144.018) (layer "B.SilkS") (tstamp 884d44df-61bb-4f22-8bed-b7c5df9ca471)

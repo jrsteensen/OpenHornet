@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "APU PANEL")
+    (date "2023-02-10")
+    (rev "3")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7920,7 +7928,7 @@
   (gr_text "3" (at 101.64572 154.92476) (layer "B.SilkS") (tstamp 16834be3-c58e-47d9-9562-c49d261a3b00)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "APU PANEL\nVersion: 2.4\n\nwww.openhornet.com" (at 92.202 110.744) (layer "B.SilkS") (tstamp 1bf538db-6118-4f75-8b24-234d68b53763)
+  (gr_text "APU PANEL\nRevision: 3\nwww.openhornet.com" (at 92.202 110.744) (layer "B.SilkS") (tstamp 1bf538db-6118-4f75-8b24-234d68b53763)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Molex 2X2 Mini-Fit Jr." (at 101.45 66.35 90) (layer "B.SilkS") (tstamp 1db544d3-63c7-4d7b-8a80-f4919dbe7c0a)
@@ -7947,7 +7955,7 @@
   (gr_text "READY" (at 89.35 58.15) (layer "B.SilkS") (tstamp 9ad5a2d7-83d2-4a3e-83f7-c4a2fe4fad51)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "APU READY" (at 106.3244 104.9528) (layer "B.SilkS") (tstamp d7c21b86-8180-4dcd-9381-f172bbf3aba4)
+  (gr_text "APU READY" (at 106.299 105.7402) (layer "B.SilkS") (tstamp d7c21b86-8180-4dcd-9381-f172bbf3aba4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 85.63 169.47) (layer "F.SilkS") (tstamp 8b9f5c0b-2500-4bed-8239-91d35b4988ad)

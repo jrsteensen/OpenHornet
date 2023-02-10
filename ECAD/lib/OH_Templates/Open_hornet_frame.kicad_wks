@@ -13,7 +13,7 @@
   (tbtext "A" (name "text4:Text") (pos 1 25 rtcorner) (font (size 1.3 1.3)) (justify center) (repeat 100) (incry 50))
   (tbtext "Date: ${ISSUE_DATE}" (name "text5:Text") (pos 87 6.5))
   (line (name "segm5:Line") (start 110 5) (end 2 5))
-  (tbtext "${COMMENT1}" (name "text6:Text") (pos 109 3.5))
+  (tbtext "License:  CC BY-NC-SA" (name "text6:Text") (pos 109 3.5))
   (line (name "segm6:Line") (start 110 8) (end 2 8))
   (bitmap (name "bm1:Bitmap") (pos 60 27) (scale 0.1)
   (pngdata
@@ -9224,7 +9224,7 @@
   (tbtext "File: ${FILENAME}" (name "text11:Text") (pos 109 14.5))
   (line (name "segm8:Line") (start 110 18.5) (end 2 18.5))
   (tbtext "Sheet: ${SHEETNAME}" (name "text12:Text") (pos 109 17))
-  (tbtext "${COMPANY}" (name "text13:Text") (pos 65 20) (font bold))
+  (tbtext "www.openhornet.com" (name "text13:Text") (pos 65 20) (font bold))
   (tbtext "${COMMENT2}" (name "text14:Text") (pos 109 32))
   (tbtext "${COMMENT3}" (name "text15:Text") (pos 109 29))
   (tbtext "${COMMENT4}" (name "text16:Text") (pos 109 26))

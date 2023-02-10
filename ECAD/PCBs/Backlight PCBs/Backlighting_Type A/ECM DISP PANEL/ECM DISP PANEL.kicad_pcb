@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ECM DISP PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -4998,10 +5004,7 @@
   (gr_text "IN" (at 88.2 78.3) (layer "B.SilkS") (tstamp 5cc1d3b2-b2e1-49a5-bbf2-0e2a28249cdb)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "DISP-EMC Panel Backlight\nDesigned by L. Walker" (at 131.318 119.38) (layer "B.SilkS") (tstamp 602b9469-45f7-4f0c-a6cd-8fcc8645c330)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
-  )
-  (gr_text "Version 2.6" (at 87.884 117.348) (layer "B.SilkS") (tstamp 81d06f7b-af43-408a-81ab-785fe24c0e07)
+  (gr_text "ECM DISP PANEL\nRevision: 3\nwww.openhornet.com" (at 125.779172 119.871122) (layer "B.SilkS") (tstamp 602b9469-45f7-4f0c-a6cd-8fcc8645c330)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 58\nCURRENT: 3.48A\nWATTAGE: 17.4W" (at 131.318 109.22) (layer "B.SilkS") (tstamp 842d3eca-fe73-47af-b6dc-d69634eb3b00)

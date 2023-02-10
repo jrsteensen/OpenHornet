@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ECM DISP PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -680,7 +686,6 @@
       )
     )
   )
-
 
   (junction (at 218.44 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 0124f471-1ef4-4822-8ef9-f6a96b94cbe8)

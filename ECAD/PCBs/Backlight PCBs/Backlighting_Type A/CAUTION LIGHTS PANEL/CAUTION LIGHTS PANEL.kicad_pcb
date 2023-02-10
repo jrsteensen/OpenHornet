@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "CAUTION LIGHTS PANEL")
+    (date "2023-02-10")
+    (rev "3")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7990,7 +7998,7 @@
   (gr_text "⌀2.5MM" (at 180.8734 72.644) (layer "B.SilkS") (tstamp 47392dc5-3420-49db-8ee0-450f623626d0)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "CAUTION LIGHTS PANEL\nVersion 2.0\nwww.openhornet.com" (at 136.398 75.692) (layer "B.SilkS") (tstamp 660704a1-7f30-423d-98a7-2bd8c8d98f26)
+  (gr_text "CAUTION LIGHTS PANEL\nRevision: 3\nwww.openhornet.com" (at 136.398 75.692) (layer "B.SilkS") (tstamp 660704a1-7f30-423d-98a7-2bd8c8d98f26)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "H4" (at 109.1438 104.8766) (layer "B.SilkS") (tstamp 91de86ea-753b-48a6-b143-da35d43ae27c)
