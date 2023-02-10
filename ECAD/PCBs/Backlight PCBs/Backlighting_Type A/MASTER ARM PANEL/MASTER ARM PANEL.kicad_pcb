@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "MASTER ARM PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" mixed)
     (31 "B.Cu" power)
@@ -8455,9 +8461,6 @@
   (gr_text "GND" (at 226.36938 104.75358) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-000061448d63)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.3" (at 219.16848 60.51948) (layer "B.SilkS") (tstamp 014a1326-0e07-43ca-af3b-f7c9c43ebea5)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "GND" (at 226.36938 94.55548) (layer "B.SilkS") (tstamp 0a0313ee-1552-4ad3-b07a-89c1b771f93b)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -8491,8 +8494,8 @@
   (gr_text "A/A" (at 226.512237 109.79548) (layer "B.SilkS") (tstamp d506a6f4-638d-4203-9715-98eb41df0324)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "MASTER ARM Panel Backlight\nDesigned by L. Walker" (at 239.92488 117.69958) (layer "B.SilkS") (tstamp e65399d2-2ae3-422c-bd4a-1e461f1f628b)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "MASTER ARM PANEL\nRevision: 3\nwww.openhornet.com" (at 223.42298 119.05378) (layer "B.SilkS") (tstamp e65399d2-2ae3-422c-bd4a-1e461f1f628b)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "THRU" (at 199.20408 96.25728 270) (layer "B.SilkS") (tstamp fcbe6658-b9e0-42a4-abb1-ecd643f3ccef)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

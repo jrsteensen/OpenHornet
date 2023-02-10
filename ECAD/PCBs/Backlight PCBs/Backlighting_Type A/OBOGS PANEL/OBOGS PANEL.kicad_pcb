@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "OBOGS PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7931,11 +7937,8 @@
   (gr_text "THRU" (at 173.98746 62.37732 90) (layer "B.SilkS") (tstamp 683149e3-f202-4658-a526-0ea6b859b6fd)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.1" (at 165.608 111.125) (layer "B.SilkS") (tstamp 761ba044-e5e3-4dc9-bb36-31903a30668c)
+  (gr_text "OBOGS PANEL\nRevision: 3\nwww.openhornet.com" (at 181.0766 76.7334) (layer "B.SilkS") (tstamp 76978f32-af6f-4416-a6f3-845b06aaa2fc)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "OBOGS Panel Backlight\nDesigned by L. Walker" (at 206.25308 45.20438) (layer "B.SilkS") (tstamp 76978f32-af6f-4416-a6f3-845b06aaa2fc)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "IN" (at 173.78426 51.61534 90) (layer "B.SilkS") (tstamp 925650b1-ac06-4951-9864-3f7da6362b18)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

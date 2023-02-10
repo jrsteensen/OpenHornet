@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "INTR LT PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -13322,7 +13328,7 @@
   (gr_text "Switch PCB\nH4" (at 94.0054 94.9452) (layer "B.SilkS") (tstamp a82497fb-a02a-4f70-b90f-9021e3de4427)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "INTR LT PANEL\nVersion 2.2\nwww.openhornet.com" (at 59.944 75.692) (layer "B.SilkS") (tstamp b3e7ea74-91ee-49f5-bbad-8a37d6b3ea6d)
+  (gr_text "INTR LT PANEL\nRevision: 3\nwww.openhornet.com" (at 59.944 75.692) (layer "B.SilkS") (tstamp b3e7ea74-91ee-49f5-bbad-8a37d6b3ea6d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 53\nCURRENT: 3.18A\nWATTAGE: 15.9W" (at 67.564 87.63) (layer "B.SilkS") (tstamp cde6747f-81f8-4ae4-8a36-cc2139bbe78f)
@@ -13332,9 +13338,6 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "CHART" (at 124.4092 108.0516) (layer "B.SilkS") (tstamp da242bd4-e699-4d62-8cf6-d38180afe2e0)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "Version 2.0" (at 157.375 81.55) (layer "B.SilkS") (tstamp ef35cbb7-dd9e-4b8b-b52d-85070fe4b8c3)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "WARN/CAUT" (at 83.4898 107.9754) (layer "B.SilkS") (tstamp f3adce6f-ed01-474e-9131-39dd9cf7de9c)

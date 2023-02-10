@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ECS PANEL")
+    (date "2023-02-10")
+    (rev "1")
+    (comment 2 "Backlighting-Type B")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)

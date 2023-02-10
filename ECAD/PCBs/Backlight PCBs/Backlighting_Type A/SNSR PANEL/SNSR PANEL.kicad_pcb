@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "SNSR PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -14367,8 +14373,8 @@
   (gr_text "Switch PCB\nH1" (at 170.0022 57.6072) (layer "B.SilkS") (tstamp b020a82f-f21d-475d-a4ca-53589a40ed8e)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "SNSR Panel Backlight\nDesigned by L. Walker" (at 121.2 83.4) (layer "B.SilkS") (tstamp b6633d41-ed80-47dd-b377-b7fda07f9d8c)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "SNSR PANEL\nRevision: 3\nwww.openhornet.com" (at 156.4132 88.0618) (layer "B.SilkS") (tstamp b6633d41-ed80-47dd-b377-b7fda07f9d8c)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 58\nCURRENT: 3.48A\nWATTAGE: 17.4W" (at 199.7456 88.8746) (layer "B.SilkS") (tstamp b71913a1-e11f-42b7-b16e-75233ef4ca19)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))

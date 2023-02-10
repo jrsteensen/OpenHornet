@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "LANDING GEAR PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7697,9 +7703,6 @@
   (gr_text "⌀4MM" (at 121.3866 48.1838) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-0000619d7e6d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.2" (at 75.692 114.554) (layer "B.SilkS") (tstamp 002a37fb-bd88-420e-aaa9-e156726beebf)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "1000uF" (at 79.6036 50.7746 90) (layer "B.SilkS") (tstamp 0785e1c8-c222-45b4-a3ff-40857e210ad5)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -7718,8 +7721,8 @@
   (gr_text "H3" (at 94.234 70.8152) (layer "B.SilkS") (tstamp 221fcf57-549e-4332-abca-a91af3c54615)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Landing Gear Panel Backlight\nDesigned by L. Walker" (at 116.95 66.7) (layer "B.SilkS") (tstamp 3675e059-6afc-4d1e-9330-3fbb7bc86113)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "LANDING GEAR PANEL\nRevision: 3\nwww.openhornet.com" (at 108.2802 67.4624) (layer "B.SilkS") (tstamp 3675e059-6afc-4d1e-9330-3fbb7bc86113)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 23\nCURRENT: 1.38A\nWATTAGE: 6.9W" (at 103.15 47.9) (layer "B.SilkS") (tstamp 39189a8a-e605-4d29-ad17-689d5d946789)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))

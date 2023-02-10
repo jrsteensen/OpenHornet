@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "FUEL PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -11680,9 +11686,6 @@
   (gr_text "⌀3MM" (at 180.2384 132.6388) (layer "B.SilkS") (tstamp 965834e3-87e5-4690-b962-2de6faa50273)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.2" (at 198.12 95.25) (layer "B.SilkS") (tstamp b6db3713-5195-4bc1-a1a5-0cd1567585e6)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "Switch PCB\nH1" (at 179.8828 83.3628) (layer "B.SilkS") (tstamp b94bde45-f9a6-44bd-bbd0-43f8586acfee)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -11692,8 +11695,8 @@
   (gr_text "⌀3MM" (at 179.9844 77.5208) (layer "B.SilkS") (tstamp f167dd5e-d360-4138-8de4-a0dda24edeb0)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Fuel Panel Backlight\nDesigned by L. Walker" (at 141.58468 141.84122) (layer "B.SilkS") (tstamp f829128a-b663-4351-b047-5dd06d5baaec)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "FUEL PANEL\nRevision: 3\nwww.openhornet.com" (at 131.7498 136.1694) (layer "B.SilkS") (tstamp f829128a-b663-4351-b047-5dd06d5baaec)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "Molex 2X2 Mini-Fit Jr." (at 154.54884 125.65634) (layer "B.SilkS") (tstamp f89b10c9-634c-450b-acd6-be18f70417f4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

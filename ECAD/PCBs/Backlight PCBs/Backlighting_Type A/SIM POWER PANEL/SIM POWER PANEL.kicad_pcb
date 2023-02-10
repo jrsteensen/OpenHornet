@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "SIM POWER PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -13576,9 +13582,6 @@
   (gr_text "BACKLIGHT\nMODE" (at 236.26 156.81) (layer "B.SilkS") (tstamp 959df328-d79f-4f5d-b891-c9641e3b406b)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 3.0" (at 224.63 54.85) (layer "B.SilkS") (tstamp b03215dd-89c3-4b73-81c4-6582896df952)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "MODE" (at 251.69 125.11) (layer "B.SilkS") (tstamp c04d79b1-ba09-491d-8fda-d85b7754470e)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -13594,8 +13597,8 @@
   (gr_text "PC" (at 224.31 89.2) (layer "B.SilkS") (tstamp e536b4cb-7947-4b26-9a02-632fe1f1cebe)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "SIM PWR Panel Backlight\nDesigned by L. Walker" (at 263.25 63.01) (layer "B.SilkS") (tstamp fbcc3389-d522-443d-ad78-f1d299b292e4)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "SIM POWER PANEL\nRevision: 3\nwww.openhornet.com" (at 224.8662 56.7944) (layer "B.SilkS") (tstamp fbcc3389-d522-443d-ad78-f1d299b292e4)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 251.26 157.5) (layer "F.SilkS") (tstamp 7fac9261-6e5f-47dd-a01f-4adc280d4aaa)
     (effects (font (size 1 1) (thickness 0.15)))

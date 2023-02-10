@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "GEN TIE PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -8452,16 +8458,13 @@
   (gr_text "Molex 2X2 Mini-Fit Jr." (at 134.366 107.188) (layer "B.SilkS") (tstamp 0ae3b2e6-c55f-4eb9-a245-0d5535bd2724)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "GEN TIE Panel Backlight\nDesigned by L. Walker" (at 160.02 151.892) (layer "B.SilkS") (tstamp 1fbd99e6-7cde-48eb-bf2e-644b01259ff5)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "GEN TIE PANEL\nRevision: 3\nwww.openhornet.com" (at 150.6982 153.1874) (layer "B.SilkS") (tstamp 1fbd99e6-7cde-48eb-bf2e-644b01259ff5)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "READY" (at 150.542 113.564) (layer "B.SilkS") (tstamp 402e2264-29a9-4179-857e-4860136bb0c1)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "THRU" (at 131.826 121.158) (layer "B.SilkS") (tstamp 641632b2-a198-4c3a-baac-d6433fbc72e8)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "Version 2.1" (at 155.659285 157.734) (layer "B.SilkS") (tstamp 961cdc86-8e69-4c75-9863-33efbbb656fa)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "1000uF" (at 147.802 102.752 270) (layer "B.SilkS") (tstamp bf1b4cb1-46c2-4292-9a28-f8f6b5190571)

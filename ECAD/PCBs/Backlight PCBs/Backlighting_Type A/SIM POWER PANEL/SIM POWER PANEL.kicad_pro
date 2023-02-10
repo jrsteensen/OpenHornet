@@ -397,7 +397,7 @@
       "step": "SIM POWER PANEL.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KICAD6_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -430,7 +430,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "${KICAD6_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",

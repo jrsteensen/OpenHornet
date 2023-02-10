@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "SIM CONTROL PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -12517,9 +12523,6 @@
   (gr_text "HEAD TRACK" (at 98.375 68.8) (layer "B.SilkS") (tstamp 3e3d76a2-94e4-4297-b052-76bade7a50d5)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.1" (at 207.225 61.875) (layer "B.SilkS") (tstamp 4bf70c37-393b-4d65-82c8-3324e84d96e8)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "READY" (at 201.875 75.05 90) (layer "B.SilkS") (tstamp 53f1b1c2-a6cb-4f0c-8b47-054cd172c3a2)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -12535,8 +12538,8 @@
   (gr_text "THRU" (at 125.6 91.55) (layer "B.SilkS") (tstamp 72f35cdb-b7e5-46be-86ae-e68d78f0fe5c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "SIM CNTL Panel Backlight\nDesigned by L. Walker" (at 171.075 87.025) (layer "B.SilkS") (tstamp 74261279-f702-4e8d-bbb6-9576a11c271c)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "SIM CONTROL PANEL\nRevision: 3\nwww.openhornet.com" (at 167.4114 87.0966) (layer "B.SilkS") (tstamp 74261279-f702-4e8d-bbb6-9576a11c271c)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "2" (at 180.7718 73.4314) (layer "B.SilkS") (tstamp 78a4e9e7-fcb6-4273-899a-d865287fe31e)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

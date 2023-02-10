@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "HYD ISO PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -7874,10 +7880,10 @@
   (gr_text "THRU" (at 118.45 76.9 90) (layer "B.SilkS") (tstamp 8bf047a1-f1bc-40b9-b249-ebc2911ae08e)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 24\nCURRENT: 1.44A\nWATTAGE: 7.2W" (at 162.9016 66.5508) (layer "B.SilkS") (tstamp 98688e18-a984-461f-8b1b-867e9bafe849)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 24\nCURRENT: 1.44A\nWATTAGE: 7.2W" (at 159.5628 66.421) (layer "B.SilkS") (tstamp 98688e18-a984-461f-8b1b-867e9bafe849)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
-  (gr_text "HYD ISO PANEL\nVersion: 2.3\nwww.openhornet.com" (at 92.202 65.024) (layer "B.SilkS") (tstamp be846814-8b6f-4da1-a1c6-fa63c5256de4)
+  (gr_text "HYD ISO PANEL\nRevision: 3\nwww.openhornet.com" (at 92.1258 64.9986) (layer "B.SilkS") (tstamp be846814-8b6f-4da1-a1c6-fa63c5256de4)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "READY" (at 135.5 63.15) (layer "B.SilkS") (tstamp c023edb0-522e-45b9-bb02-0a9c5e723bc1)

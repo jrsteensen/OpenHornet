@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "JETT STATION SELECT PLACARD")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -593,7 +599,7 @@
 
   (footprint "OH_General:OH_LOGO_ONLY_11x6mm" (layer "B.Cu")
     (tedit 5FB80A6A) (tstamp 00000000-0000-0000-0000-00006123aa90)
-    (at 139.7 100.584 180)
+    (at 138.049 100.5332 180)
     (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G1" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -4886,13 +4892,10 @@
   (gr_text "2X2 Molex\nMini-Fit Jr." (at 141.478 83.82) (layer "B.SilkS") (tstamp 37a83763-3b57-473c-ba76-4a9aca91200e)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
-  (gr_text "JETT Station Select Backlight\nDesigned by L.Walker" (at 147.6248 94.8944) (layer "B.SilkS") (tstamp 42689443-06b3-4b45-9e66-9eb4e1260dd6)
+  (gr_text "JETT STATION SELECT PLACARD\nRevision: 3\nwww.openhornet.com" (at 151.2316 96.9518) (layer "B.SilkS") (tstamp 42689443-06b3-4b45-9e66-9eb4e1260dd6)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "IN" (at 155.448 86.36) (layer "B.SilkS") (tstamp 775d1b23-f682-4091-9819-9e36fdf026aa)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "Version 2.0" (at 157.48 100.838) (layer "B.SilkS") (tstamp bb462e69-497d-49fb-a79d-bd9b032c8fce)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "JLCJLCJLCJLC" (at 162.56 105.41 90) (layer "F.SilkS") (tstamp 302143e8-8b48-4c63-8bf2-8b33127b0672)

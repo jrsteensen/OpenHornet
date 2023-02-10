@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "LDG WING FOLD PLACARD")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -10633,7 +10639,7 @@
   (gr_line (start 147.828 21.364547) (end 147.828 101.901758) (layer "Edge.Cuts") (width 0.2) (tstamp c2e17cd3-23d1-4c85-9591-14aeac78d01d))
   (gr_arc (start 175.768006 101.837421) (mid 183.978791 104.361481) (end 190.246 110.236) (layer "Edge.Cuts") (width 0.2) (tstamp dc7b4708-351f-4c38-b590-ee727b879c30))
   (gr_line (start 192.614486 64.258791) (end 167.849472 21.364547) (layer "Edge.Cuts") (width 0.2) (tstamp f1b14b45-0cc2-4c20-8c11-54d1511cf4a1))
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 24\nCURRENT: 1.44A\nWATTAGE: 7.2W" (at 172.05 67.4) (layer "B.SilkS") (tstamp 1517db19-8229-4cab-bd0b-039d4e51689a)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 24\nCURRENT: 1.44A\nWATTAGE: 7.2W" (at 168.3258 65.1764) (layer "B.SilkS") (tstamp 1517db19-8229-4cab-bd0b-039d4e51689a)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "READY\n" (at 177.546 53.848) (layer "B.SilkS") (tstamp 1cb00c28-6efa-483d-80aa-01ae0d44bb00)
@@ -10648,8 +10654,8 @@
   (gr_text "IN" (at 169.672 56.134) (layer "B.SilkS") (tstamp ba0c0012-8053-419d-ad2f-8dfb0b6b6e78)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "LDG WING FOLD Panel Backlight\nDesigned by L. Walker" (at 177 78.3) (layer "B.SilkS") (tstamp c4657892-9b7f-4cf0-b1bf-5b853ec03753)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "LDG WING FOLD PANEL\nRevision: 3\nwww.openhornet.com" (at 161.6456 74.6506) (layer "B.SilkS") (tstamp c4657892-9b7f-4cf0-b1bf-5b853ec03753)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "THRU" (at 179.578 72.898) (layer "B.SilkS") (tstamp d38ce220-0d24-4243-8dea-fa342a8fc2f1)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

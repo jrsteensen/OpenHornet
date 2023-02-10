@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "KY-58 PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -9146,7 +9152,7 @@
 
   (footprint "OH_General:OH_LOGO_37.7mm_5.9mm" (layer "B.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-000060154403)
-    (at 148.45 131.025 180)
+    (at 148.9964 132.9182 180)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -14244,8 +14250,8 @@
   (gr_text "4 POS 45°" (at 134.6 60.875) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-000060134d33)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "KY-58 Panel Backlight\nDesigned by L. Walker" (at 124.5 124.675) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006014dab9)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "KY-58 PANEL\nRevision: 3\nwww.openhornet.com" (at 135.2296 122.301) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00006014dab9)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "⌀3MM" (at 115.95 135.25) (layer "B.SilkS") (tstamp 04570887-47fb-46f3-b0da-a8d9b85d802c)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -14256,7 +14262,7 @@
   (gr_text "⌀4MM" (at 91.75 59.875) (layer "B.SilkS") (tstamp 10168af4-cd6f-44a4-a98c-7066b2728d44)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 79\nCURRENT: 4.74A\nWATTAGE: 23.7W" (at 141.575 114.85) (layer "B.SilkS") (tstamp 13f3d132-9391-49b6-8c06-6319fdad9add)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 79\nCURRENT: 4.74A\nWATTAGE: 23.7W" (at 141.5542 113.3602) (layer "B.SilkS") (tstamp 13f3d132-9391-49b6-8c06-6319fdad9add)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "⌀3MM" (at 176.3026 109.2346) (layer "B.SilkS") (tstamp 1c3257de-2105-4d56-aac5-0c5eead12cda)
@@ -14299,9 +14305,6 @@
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "CHANNEL" (at 167.875 47.15) (layer "B.SilkS") (tstamp c9fc90c9-3a9c-44b6-a8c6-a3e4f2f64a68)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
-  (gr_text "Version 2.1" (at 104.25 76.1) (layer "B.SilkS") (tstamp ccdfedd5-7d73-445b-ad9d-492a153f6467)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "8 POS 45°" (at 167.675 61.15) (layer "B.SilkS") (tstamp d0d7c36e-1889-4d5c-aebd-03a879e1ebf6)

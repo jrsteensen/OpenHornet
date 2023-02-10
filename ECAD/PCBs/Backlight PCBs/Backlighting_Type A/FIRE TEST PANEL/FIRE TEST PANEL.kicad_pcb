@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "FIRE TEST PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -1226,9 +1232,6 @@
   (gr_line (start 141.8336 75.438) (end 151.0284 75.4888) (layer "Edge.Cuts") (width 0.05) (tstamp 887d6017-0eab-4df3-a811-5114f9436256))
   (gr_line (start 158.9024 122.2756) (end 113.1316 122.2756) (layer "Edge.Cuts") (width 0.05) (tstamp 953a0075-b07c-4251-a5c5-fe73b13bac0e))
   (gr_line (start 158.9024 122.2756) (end 165.2016 113.5888) (layer "Edge.Cuts") (width 0.05) (tstamp a2f01159-5202-48bd-abdd-3446edd983fb))
-  (gr_text "Version 2.1" (at 121.4628 95.6564) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005f97a63c)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "READY" (at 146.41068 108.7374) (layer "B.SilkS") (tstamp 094942a0-d2a7-4356-bf89-74220306f27d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -1241,7 +1244,7 @@
   (gr_text "3" (at 145.034 103.886) (layer "B.SilkS") (tstamp 552b1967-b131-49a9-a5bb-3bdd64ae414a)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 10\nCURRENT: 0.60A\nWATTAGE: 3.0W" (at 142.5956 114.9096) (layer "B.SilkS") (tstamp 553c11ad-a7a5-4205-a26c-6cf6c5dc16c0)
+  (gr_text "POWER REQUIREMENTS:\nVOLTAGE: 5V DC\nLEDS: 10\nCURRENT: 0.60A\nWATTAGE: 3.0W" (at 141.9098 115.951) (layer "B.SilkS") (tstamp 553c11ad-a7a5-4205-a26c-6cf6c5dc16c0)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "IN" (at 162.00374 91.48064 90) (layer "B.SilkS") (tstamp 7e8e2edb-2c85-488a-b37d-2b86b79c5d18)
@@ -1250,8 +1253,8 @@
   (gr_text "THRU" (at 162.2806 102.66934 90) (layer "B.SilkS") (tstamp 8b57c5a5-b588-4628-9b73-a1cce10bd0ca)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "OPENHORNET.COM\nFIRE TEST\nPanel Backlight\nDesigned by L. Walker" (at 143.74368 84.99602) (layer "B.SilkS") (tstamp 90fe8698-ee10-4098-a99f-7df591d23991)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "FIRE TEST PANEL\nRevision: 3\nwww.openhornet.com" (at 134.8486 85.1408) (layer "B.SilkS") (tstamp 90fe8698-ee10-4098-a99f-7df591d23991)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "FIRE TEST" (at 123.698 101.3968) (layer "B.SilkS") (tstamp c40a11af-e2c1-4060-8886-810a372864cb)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))

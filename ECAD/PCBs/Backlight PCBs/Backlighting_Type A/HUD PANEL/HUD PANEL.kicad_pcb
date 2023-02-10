@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "HUD PANEL")
+    (date "2023-02-10")
+    (rev "3")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -10877,9 +10883,6 @@
   (gr_text "IN" (at 117.15 63.05 270) (layer "B.SilkS") (tstamp 2dba0ed5-2512-4f7f-91ba-abefc125ccff)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Version 2.1" (at 196.977 70.739) (layer "B.SilkS") (tstamp 3324ea62-6f5c-4e4e-a9ae-769d57d753de)
-    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-  )
   (gr_text "ALT" (at 136.779 85.979) (layer "B.SilkS") (tstamp 38fd774e-3cc3-455e-b691-864ad4c103f3)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -10910,8 +10913,8 @@
   (gr_text "BAL" (at 227.1014 51.4858) (layer "B.SilkS") (tstamp cb2b71b2-21c6-40fe-aecf-367f7b9cb5df)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "HUD Panel Backlight\nDesigned by L.Walker" (at 208.153 41.275) (layer "B.SilkS") (tstamp d761049f-36b3-4d24-a389-6b4b8778cd25)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
+  (gr_text "HUD PANEL\nRevision: 3\nwww.openhornet.com" (at 180.6702 47.0662) (layer "B.SilkS") (tstamp d761049f-36b3-4d24-a389-6b4b8778cd25)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "AOA" (at 110.998 86.233) (layer "B.SilkS") (tstamp f3af33e2-8251-4fe7-928e-e173c85743d1)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
