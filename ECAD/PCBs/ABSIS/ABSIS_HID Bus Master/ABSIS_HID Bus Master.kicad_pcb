@@ -6,11 +6,11 @@
 
   (paper "A4")
   (title_block
-    (title "ABSIS RS485 BUS MASTER")
-    (date "2020-11-04")
+    (title "ABSIS HID Bus Master")
+    (date "2023-02-10")
     (rev "2")
-    (company "OPENHORNET.COM")
-    (comment 1 "CC BY-NC-SA")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
   )
 
   (layers
@@ -10053,7 +10053,7 @@
   (gr_text "1" (at 140.173 90.666 90) (layer "F.SilkS") (tstamp 37a45f10-becc-4189-8b4c-157b26aa6860)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "REV: 1" (at 191.643 75.819) (layer "F.SilkS") (tstamp 44643dd7-6c6a-473f-8591-8e1062e8874a)
+  (gr_text "REV: 2" (at 191.643 75.819) (layer "F.SilkS") (tstamp 44643dd7-6c6a-473f-8591-8e1062e8874a)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (gr_text "ABSIS \nHYBRID HID/\nRS485 BUS \nMASTER" (at 151.173 106.666) (layer "F.SilkS") (tstamp 65619519-a017-42bc-8063-480b6da78e5b)

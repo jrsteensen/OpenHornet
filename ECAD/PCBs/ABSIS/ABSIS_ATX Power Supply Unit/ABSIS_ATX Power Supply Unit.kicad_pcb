@@ -5,6 +5,17 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ABSIS ATX Power Supply Unit")
+    (date "2023-02-10")
+    (rev "6")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+    (comment 2 "1:  This is to be manufactured as a 4 layer PCB")
+    (comment 3 "2:  Each layer requires a 2oz copper pour")
+    (comment 4 "3:  This PCB only has top layer components and will only contain a single BOM")
+  )
+
   (layers
     (0 "F.Cu" mixed)
     (1 "In1.Cu" power)
@@ -12804,6 +12815,9 @@
   (gr_text "+3.3V" (at 144.340641 104.521 45) (layer "B.SilkS") (tstamp 382214a7-a4b0-4ab9-80ab-5a47b53803cd)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
+  (gr_text "www.openhornet.com" (at 84.565 103.3018 90) (layer "B.SilkS") (tstamp 3c2f0d26-d507-4066-9b72-4b1a40c9af2b)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "+12V" (at 161.654 116.967 45) (layer "B.SilkS") (tstamp 3edf49d4-30e1-4062-a4d5-26c0e75ac12d)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
@@ -13042,6 +13056,9 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right))
   )
   (gr_text "GND" (at 73.897 57.658) (layer "F.SilkS") (tstamp 0f8921e2-6958-48fb-aef2-7995b89b4c74)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "www.openhornet.com" (at 83.8538 96.4184 90) (layer "F.SilkS") (tstamp 86bcbd74-b458-4ff8-85fb-0adfb63c0f7a)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "5V ACCESSORIES" (at 103.615 67.691) (layer "F.SilkS") (tstamp 9dad5bfa-52ed-40d7-a48e-1a7d90a93947)

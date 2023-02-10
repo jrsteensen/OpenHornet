@@ -6,7 +6,13 @@
 
   (paper "A4")
   (title_block
-    (date "mar. 31 mars 2015")
+    (title "ABSIS Backlight Controller")
+    (date "2023-02-10")
+    (rev "6")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+    (comment 2 "1:  This is a 2 layer PCB")
+    (comment 3 "2:  Each layer requires a 2 oz Copper Pour")
   )
 
   (layers

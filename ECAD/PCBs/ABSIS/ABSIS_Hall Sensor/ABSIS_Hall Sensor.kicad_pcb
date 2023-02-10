@@ -5,6 +5,14 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ABSIS Hall Sensor")
+    (date "2023-02-10")
+    (rev "2")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
