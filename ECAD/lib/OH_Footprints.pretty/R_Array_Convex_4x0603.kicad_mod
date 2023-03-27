@@ -34,7 +34,7 @@
   (pad "6" smd rect (at 0.9 0.4) (size 0.8 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b912f6d7-1910-4dd9-8e40-7be4ce913ac7))
   (pad "7" smd rect (at 0.9 -0.4) (size 0.8 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 99449369-5483-4ee3-8de7-908804355987))
   (pad "8" smd rect (at 0.9 -1.2) (size 0.8 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6a403ddb-fcb5-4209-8d2b-c6c5d225f29c))
-  (model "${KICAD6_USER_OH_3DMODELS}/R_Array_Convex_4x0603.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/R_Array_Convex_4x0603.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

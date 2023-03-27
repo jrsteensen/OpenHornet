@@ -47,7 +47,7 @@
   (fp_line (start -1.27 -0.5) (end -0.562893 0) (layer "F.Fab") (width 0.1) (tstamp fe30edfd-b308-487c-8034-28d716ad1770))
   (pad "1" thru_hole roundrect (at 0 0) (size 1.74 2.19) (drill 1.19) (layers *.Cu *.Mask) (roundrect_rratio 0.143678) (tstamp e9846617-8656-413a-a2e9-ace80895fa71))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.74 2.19) (drill 1.19) (layers *.Cu *.Mask) (tstamp 16fc5370-527a-4f92-86d0-54a032c680c1))
-  (model "${KICAD6_USER_OH_3DMODELS}/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

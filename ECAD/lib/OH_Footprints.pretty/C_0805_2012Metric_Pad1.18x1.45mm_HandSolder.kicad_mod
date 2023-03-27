@@ -28,7 +28,7 @@
   (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp c27546ee-1d07-4d96-bdd5-078fe9468528))
   (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766) (tstamp 5c952ec8-c980-4a94-a972-30f730128869))
   (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766) (tstamp 26b8f07a-78fd-4334-a627-c22ac9be221b))
-  (model "${KICAD6_USER_OH_3DMODELS}/C_0805_2012Metric.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/C_0805_2012Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

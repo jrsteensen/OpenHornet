@@ -51,7 +51,7 @@
   (pad "1" thru_hole roundrect (at 0 0) (size 1.74 2.19) (drill 1.19) (layers *.Cu *.Mask) (roundrect_rratio 0.143678) (tstamp faa54f27-14d8-4af8-ad96-41a5ca6f1419))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.74 2.19) (drill 1.19) (layers *.Cu *.Mask) (tstamp 11c569b9-9417-4469-a97d-7bd7cf7df284))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.74 2.19) (drill 1.19) (layers *.Cu *.Mask) (tstamp 03050e04-9222-4347-aab0-0d98591113fc))
-  (model "${KICAD6_USER_OH_3DMODELS}/Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

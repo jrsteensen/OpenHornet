@@ -53,7 +53,7 @@
   (fp_line (start -2.36 -2.11) (end -2.36 -0.86) (layer "F.Fab") (width 0.1) (tstamp f35a893a-6e4a-43d2-9987-96d147799778))
   (pad "1" thru_hole roundrect (at 0 0) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.208333) (tstamp 00560588-cfd4-44ee-b3af-052301802f8b))
   (pad "2" thru_hole oval (at 2 0) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (tstamp 044ca71e-2eda-4d62-a1ba-f9c4a849241e))
-  (model "${KICAD6_USER_OH_3DMODELS}/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

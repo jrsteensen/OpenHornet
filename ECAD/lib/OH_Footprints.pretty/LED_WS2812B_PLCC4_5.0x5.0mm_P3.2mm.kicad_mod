@@ -37,7 +37,7 @@
   (pad "2" smd rect (at -2.45 1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 19ff1e90-56ef-461a-889c-61ffea674474))
   (pad "3" smd rect (at 2.45 1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp abc776f0-6816-4443-a596-fad8645d4ac8))
   (pad "4" smd rect (at 2.45 -1.65) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6e3b1bc-4064-4031-9b80-d1df61337d0a))
-  (model "${KICAD6_USER_OH_3DMODELS}/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.wrl"
+  (model "${KICAD6_USER_OH_3DMODELS}/LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
