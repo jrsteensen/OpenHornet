@@ -1,0 +1,17 @@
+(footprint "Arduino_1pin" (version 20211014) (generator pcbnew)
+  locked (layer "F.Cu")
+  (tedit 5A69981F)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags "DEV")
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "MK3" (at 0 -3.048) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7ae29e9f-5ed9-451e-ae84-fc527c549b98)
+  )
+  (fp_text value "MH" (at 0 2.794) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2428873a-2e6a-4e6c-9417-3970e8fb2a21)
+  )
+  (fp_circle (center 0 0) (end 0 -2.286) (layer "F.SilkS") (width 0.15) (fill none) (tstamp b0fb0e08-5517-423a-95ef-b33a3cebed63))
+  (pad "1" thru_hole circle locked (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask "F.SilkS") (tstamp c9720b60-a050-4372-a111-81434cdd7f5e))
+)
