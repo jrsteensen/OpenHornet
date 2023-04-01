@@ -1,4 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,C_Polarized,CP_Elec_8x10,237.33,-63.99,90.0,bottom
 C2,C,C_0603_1608Metric,228.138,-56.95,0.0,top
 C3,C,C_0603_1608Metric,235.6,-56.95,0.0,top
 C4,C,C_0603_1608Metric,242.588,-57.1,0.0,top
@@ -63,4 +64,7 @@ D32,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,230.05,-138.65,0.0,top
 D33,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,239.9,-132.1,0.0,top
 D34,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,246.9,-132.1,0.0,top
 D35,WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,241.95,-139.05,0.0,top
+D36,LED,LED_D3.0mm,237.388,-122.588,180.0,bottom
+J1,Conn_01x04_Female,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,249.62,-140.89,90.0,bottom
+J2,Conn_01x04_Female,Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,249.6,-151.66,90.0,bottom
 R1,R,R_0603_1608Metric,234.091,-123.403,-90.0,top
