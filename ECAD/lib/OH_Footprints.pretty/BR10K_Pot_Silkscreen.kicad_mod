@@ -2,13 +2,13 @@
   (layer "F.Cu")
   (tedit 5FBF1A80)
   (attr through_hole)
-  (fp_text reference "G2" (at -0.025 9.3) (layer "B.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-    (tstamp 9c2280ee-fa3e-4eb1-afd4-933984606778)
+  (fp_text reference "G***" (at -0.025 9.3) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp 4490d4b1-89b4-4889-8632-4c429725f5c7)
   )
-  (fp_text value "LOGO" (at 0 7.05) (layer "B.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
-    (tstamp 0fcbe6c5-14ad-41a1-b89f-831ae4e20a2d)
+  (fp_text value "LOGO" (at 0 7.05) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp 0867d154-3146-4315-aaff-894dbc8f2ddd)
   )
   (fp_poly (pts
       (xy 0.893681 -5.577615)
@@ -345,5 +345,5 @@
       (xy 0.207575 -5.58922)
       (xy 0.559917 -5.592183)
       (xy 0.893681 -5.577615)
-    ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 55cc217b-9f72-4d1a-a6b6-77b7e6d823f6))
+    ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 5595630f-77bd-4b65-90a5-80493ef6eb80))
 )
