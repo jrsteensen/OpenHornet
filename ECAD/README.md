@@ -59,20 +59,20 @@ Open up a new or previous project in KiCad.  For this example, I'll be using the
 ![image1](https://user-images.githubusercontent.com/81926396/215698270-9f4a21c0-954a-4cf2-9666-c6913cf2d084.png)
 
 Create 4 new variables with the following Names and paths:
-*  1:  KICAD7_USER_OH_3DMODELS
-*  2:  KICAD7_USER_OH_FOOTPRINTS
-*  3:  KICAD7_USER_OH_SYMBOLS
-*  4:  KICAD7_USER_OH_TEMPLATES
+*  1:  KICAD_USER_OH_3DMODELS
+*  2:  KICAD_USER_OH_FOOTPRINTS
+*  3:  KICAD_USER_OH_SYMBOLS
+*  4:  KICAD_USER_OH_TEMPLATES
 
 The paths can be anywhere so long as it points to your Open Hornet directory.  _Make sure the OH_FOOTPRINTS variable points to the \ECAD\lib folder and **NOT** \ECAD\lib\OH_FOOTPRINTS.PRETTY_.
 
-![image2](https://user-images.githubusercontent.com/81926396/229936285-7e0fc05c-24b9-4263-ae93-96c92c819bb5.png)
+![image2](https://user-images.githubusercontent.com/81926396/229941737-b53df08d-405d-4904-8abc-f08c26ade3c9.png)
 
 #### STEP TWO:  Add OpenHornet Symbol and Footprint Libraries
 
 With the project window open, navigate to Preferences --> Manage Symbol Libraries.
 
-![image](https://user-images.githubusercontent.com/81926396/215702056-a04ba630-c79d-4d75-a71d-4f6d4f21d9cd.png)
+![image3](https://user-images.githubusercontent.com/81926396/229941950-e31f977d-aa23-40ff-ae82-249697b228db.png)
 
 When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions".  Ensure that the environmental variable that you just created is located in there.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
 
@@ -80,11 +80,12 @@ Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\
 
 Finally, check the Library Path to make sure your environmental variable was adopted.
 
-![image](https://user-images.githubusercontent.com/81926396/229936579-0a26142d-5d42-42e0-9e96-f07c08a19642.png)
+
+![image4](https://user-images.githubusercontent.com/81926396/229942228-0e1fb016-5d74-4bbd-9eff-d06524fb0f68.png)
 
 Do the same thing for the footprint Libraries:
 
-![image](https://user-images.githubusercontent.com/81926396/229936762-aff6a211-5e9b-472d-a90e-6526e4011000.png)
+![image](https://user-images.githubusercontent.com/81926396/229942317-f23ff69c-a5f3-40bd-9794-5801846462b9.png)
 
 #### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
 Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
