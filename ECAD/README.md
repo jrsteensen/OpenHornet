@@ -9,7 +9,7 @@
 The purpose of this guide is to help enable the end-user to successfully accomplish the following:  
 *   1:  Facilitate navigation of the file structure.
 *   2:  Provide clarification regarding the manufacturing process of PCB's related to OpenHornet using JLCPCB.com
-*   2:  How to install KiCad 6 and set up libraries associated with OpenHornet. _(optional)__
+*   2:  How to install KiCad 7 and set up libraries associated with OpenHornet. _(optional)__
 
  _Note:  Manufacturing files have been generated accordinging to JLCPCB.com guidelines.  If choosing a different PCB Manufacturer, make sure to research their formatting standards and modify the necessary manufacturing files accordingly. And if you choose to manufacture them yourself, best of luck!_
 
@@ -50,7 +50,7 @@ At the moment, all manufacturing files have been standardized to allow for fabri
 *Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
 
 Before we begin, it is assumed that you have:
-*  1:  Downloaded the latest version of KiCad _(currently KiCad 6.0.9)_ and installed it on your computer.  
+*  1:  Downloaded the latest version of KiCad _(currently KiCad 7.0.1)_ and installed it on your computer.  
 *  2:  Cloned the OpenHornet repository
 
 #### STEP ONE:  Configure Paths & Create Environmental Variables
@@ -59,14 +59,14 @@ Open up a new or previous project in KiCad.  For this example, I'll be using the
 ![image1](https://user-images.githubusercontent.com/81926396/215698270-9f4a21c0-954a-4cf2-9666-c6913cf2d084.png)
 
 Create 4 new variables with the following Names and paths:
-*  1:  KICAD6_USER_OH_3DMODELS
-*  2:  KICAD6_USER_OH_FOOTPRINTS
-*  3:  KICAD6_USER_OH_SYMBOLS
-*  4:  KICAD6_USER_OH_TEMPLATES
+*  1:  KICAD7_USER_OH_3DMODELS
+*  2:  KICAD7_USER_OH_FOOTPRINTS
+*  3:  KICAD7_USER_OH_SYMBOLS
+*  4:  KICAD7_USER_OH_TEMPLATES
 
 The paths can be anywhere so long as it points to your Open Hornet directory.  _Make sure the OH_FOOTPRINTS variable points to the \ECAD\lib folder and **NOT** \ECAD\lib\OH_FOOTPRINTS.PRETTY_.
 
-![image2](https://user-images.githubusercontent.com/81926396/215700907-8fe67a02-080c-4bce-b383-fd3a9aa0b3db.png)
+![image2](https://user-images.githubusercontent.com/81926396/229936285-7e0fc05c-24b9-4263-ae93-96c92c819bb5.png)
 
 #### STEP TWO:  Add OpenHornet Symbol and Footprint Libraries
 
@@ -80,11 +80,11 @@ Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\
 
 Finally, check the Library Path to make sure your environmental variable was adopted.
 
-![image](https://user-images.githubusercontent.com/81926396/215706404-a696a824-7ae2-408e-93a4-a45cad99607d.png)
+![image](https://user-images.githubusercontent.com/81926396/229936579-0a26142d-5d42-42e0-9e96-f07c08a19642.png)
 
 Do the same thing for the footprint Libraries:
 
-![image](https://user-images.githubusercontent.com/81926396/215707143-b7feb91e-98a2-4507-bd70-a8d7ed945f4d.png)
+![image](https://user-images.githubusercontent.com/81926396/229936762-aff6a211-5e9b-472d-a90e-6526e4011000.png)
 
 #### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
 Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
