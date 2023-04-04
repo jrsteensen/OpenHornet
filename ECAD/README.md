@@ -66,7 +66,7 @@ Create 4 new variables with the following Names and paths:
 
 The paths can be anywhere so long as it points to your Open Hornet directory.  _Make sure the OH_FOOTPRINTS variable points to the \ECAD\lib folder and **NOT** \ECAD\lib\OH_FOOTPRINTS.PRETTY_.
 
-![image2](https://user-images.githubusercontent.com/81926396/229941737-b53df08d-405d-4904-8abc-f08c26ade3c9.png)
+![tempsnip](https://user-images.githubusercontent.com/81926396/229943906-2367341a-c5ae-477b-9768-69fd16b918ba.png)
 
 #### STEP TWO:  Add OpenHornet Symbol and Footprint Libraries
 
