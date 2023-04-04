@@ -74,7 +74,7 @@ With the project window open, navigate to Preferences --> Manage Symbol Librarie
 
 ![image3](https://user-images.githubusercontent.com/81926396/229941950-e31f977d-aa23-40ff-ae82-249697b228db.png)
 
-When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions".  Ensure that the environmental variable that you just created is located in there.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
+When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions" ensuring that the environmental variable that you just created is being referenced.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
 
 Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\OH_Symbols_ and add the four kicad_sym files located in the folder.  This will automatically populate the fields with the information.  Alternatively, you click on the "+" icon to add a new row and manually enter the information for your libraries.  
 
