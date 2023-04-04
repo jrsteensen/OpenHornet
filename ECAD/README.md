@@ -81,11 +81,11 @@ Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\
 Finally, check the Library Path to make sure your environmental variable was adopted.
 
 
-![image4](https://user-images.githubusercontent.com/81926396/229942228-0e1fb016-5d74-4bbd-9eff-d06524fb0f68.png)
+![image4](https://user-images.githubusercontent.com/81926396/229943598-6e0ad0c5-3246-46d9-a987-4752934cada0.png)
 
 Do the same thing for the footprint Libraries:
 
-![image](https://user-images.githubusercontent.com/81926396/229942317-f23ff69c-a5f3-40bd-9794-5801846462b9.png)
+![image5](https://user-images.githubusercontent.com/81926396/229943449-f02c92c1-1529-4c4c-b9b3-f9b39ffe311b.png)
 
 #### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
 Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
