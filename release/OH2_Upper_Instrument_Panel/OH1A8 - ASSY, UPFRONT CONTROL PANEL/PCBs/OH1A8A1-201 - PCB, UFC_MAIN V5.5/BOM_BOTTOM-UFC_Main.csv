@@ -1,0 +1,26 @@
+Comment,Designator,Footprint,LCSC
+.1uF,"C10,C11,C12,C7,C8,C9",C_0603_1608Metric,C14663
+AW9523BTQR,"U6,U7",WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,C148077
+10uF,"C1,C2,C3,C4",C_0805_2012Metric,C15850
+1k,"R1,R36,R38",R_0603_1608Metric,C21190
+2K,"R3,R37,R39",R_0603_1608Metric,C22975
+4.7k,"R10,R40,R41,R9",R_0603_1608Metric,C23162
+10K,R2,R_0603_1608Metric,C25804
+GN1640T,"U2,U3,U4,U5",SSOP-28_3.9x9.9mm_P0.635mm,C2758330
+HT1621B,U1,LQFP-48_7x7mm_P0.5mm,C7532
+S2_MINI,MC1,S2_MINI,
+TXS0108EPW,U9,TSSOP-20_4.4x6.5mm_P0.65mm,
+TXS0108EPW,U8,TSSOP-20_4.4x6.5mm_P0.65mm,
+SDA,TP4,TestPoint_THTPad_D1.5mm_Drill0.7mm,
+SCL,TP3,TestPoint_THTPad_D1.5mm_Drill0.7mm,
+ADF SW,J9,PinHeader_1x03_P2.54mm_Vertical,
+VOL2,J8,PinHeader_1x03_P2.54mm_Vertical,
+ENC2,J7,PinHeader_1x04_P2.54mm_Vertical,
+HUD BIT,J6,PinHeader_1x04_P2.54mm_Vertical,
+AP KB,J5,PinHeader_1x04_P2.54mm_Vertical,
+BRT,J4,PinHeader_1x03_P2.54mm_Vertical,
+VOL1,J3,PinHeader_1x03_P2.54mm_Vertical,
+ENC1,J2,PinHeader_1x04_P2.54mm_Vertical,
++5VIN,J1,PinHeader_1x02_P2.54mm_Vertical,
+5V,TP1,TestPoint_THTPad_D1.5mm_Drill0.7mm,
+GND,TP2,TestPoint_THTPad_D1.5mm_Drill0.7mm,
