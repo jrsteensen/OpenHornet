@@ -3,6 +3,9 @@
 Once an end item is fully built and functional, we will create a release. Until they are included in a release, they should be considered beta and/or untested.
 
 ## Layout for Release Folder
+
+:warning: This layout is out of date.
+
 ```
 release
 1_OpenHornet_Top_Level
