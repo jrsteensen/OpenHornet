@@ -1,0 +1,8 @@
+(version 1)
+
+#Copper constraint for 12.7mm NPTH Pad
+(rule "GND Copper constraint for 12.7mm NPTH Pad"
+	(layer B.Cu)
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint physical_hole_clearance (min 3.65mm)))
+

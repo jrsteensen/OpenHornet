@@ -1,4 +1,4 @@
-(kicad_wks (version 20210606) (generator pl_editor)
+(kicad_wks (version 20220228) (generator pl_editor)
   (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
   (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10))
   (rect (name "rect1:Rect") (start 110 34) (end 2 2))
@@ -15,7 +15,7 @@
   (line (name "segm5:Line") (start 110 5) (end 2 5))
   (tbtext "License:  CC BY-NC-SA" (name "text6:Text") (pos 109 3.5))
   (line (name "segm6:Line") (start 110 8) (end 2 8))
-  (bitmap (name "bm1:Bitmap") (pos 60 27) (scale 0.1)
+  (bitmap (name "bm1:Bitmap") (pos 55 25) (scale 0.1)
   (pngdata
     (data "89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 22 C7 00 00 05 7C 08 06 00 00 00 51 C0 BD ")
     (data "C1 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 B8 60 00 00 B8 ")
@@ -9224,7 +9224,7 @@
   (tbtext "File: ${FILENAME}" (name "text11:Text") (pos 109 14.5))
   (line (name "segm8:Line") (start 110 18.5) (end 2 18.5))
   (tbtext "Sheet: ${SHEETNAME}" (name "text12:Text") (pos 109 17))
-  (tbtext "www.openhornet.com" (name "text13:Text") (pos 65 20) (font bold))
+  (tbtext "www.openhornet.com" (name "text13:Text") (pos 55 20) (font bold))
   (tbtext "${COMMENT2}" (name "text14:Text") (pos 109 32))
   (tbtext "${COMMENT3}" (name "text15:Text") (pos 109 29))
   (tbtext "${COMMENT4}" (name "text16:Text") (pos 109 26))
