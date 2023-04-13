@@ -89523,7 +89523,7 @@
   (footprint "OH_Footprints:100SP3_Toggle_Silkscreen" (layer "B.Cu")
     (tstamp 9d4f2218-4a7a-4089-abe2-df191ad169d9)
     (at 144.3 65.1 180)
-    (attr through_hole)
+    (attr through_hole board_only)
     (fp_text reference "Ref**" (at -0.4 -9.475) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp eefc93c7-7c93-4528-905c-d291720855e2)
@@ -89857,7 +89857,7 @@
   (footprint "OH_Footprints:100SP3_Toggle_Silkscreen" (layer "B.Cu")
     (tstamp a4ad8980-303a-4c07-bb96-9274a2aeae1a)
     (at 112.25 65.098804 180)
-    (attr through_hole)
+    (attr through_hole board_only)
     (fp_text reference "Ref**" (at -0.4 -9.475) (layer "B.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp ba0fb621-6720-49f1-8261-a709c6f1dcd5)
