@@ -1,16 +1,16 @@
-(footprint "BR10K_Pot_Silkscreen" (version 20211014) (generator pcbnew)
+(footprint "BR10K_Pot_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5FBF1A80)
   (attr through_hole)
   (fp_text reference "G***" (at -0.025 9.3) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 4490d4b1-89b4-4889-8632-4c429725f5c7)
   )
   (fp_text value "LOGO" (at 0 7.05) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 0867d154-3146-4315-aaff-894dbc8f2ddd)
   )
-  (fp_poly (pts
+  (fp_poly
+    (pts
       (xy 0.893681 -5.577615)
       (xy 1.16228 -5.54537)
       (xy 1.319132 -5.495308)
@@ -345,5 +345,7 @@
       (xy 0.207575 -5.58922)
       (xy 0.559917 -5.592183)
       (xy 0.893681 -5.577615)
-    ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 5595630f-77bd-4b65-90a5-80493ef6eb80))
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 5595630f-77bd-4b65-90a5-80493ef6eb80))
 )
