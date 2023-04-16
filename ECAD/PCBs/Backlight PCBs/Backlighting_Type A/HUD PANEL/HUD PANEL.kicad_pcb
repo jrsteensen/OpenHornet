@@ -8,7 +8,7 @@
   (title_block
     (title "HUD PANEL")
     (date "2023-04-14")
-    (rev "3")
+    (rev "4")
     (company "www.openhornet.com")
     (comment 1 "CC-BY-NC-SA")
     (comment 2 "Backlighting - Type A")
@@ -13313,7 +13313,7 @@
   (gr_text "BAL" (at 227.1014 51.4858) (layer "B.SilkS") (tstamp cb2b71b2-21c6-40fe-aecf-367f7b9cb5df)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "HUD PANEL\nREV: 3\nWWW.OPENHORNET.COM" (at 161.036 66.802) (layer "B.SilkS") (tstamp d761049f-36b3-4d24-a389-6b4b8778cd25)
+  (gr_text "HUD PANEL\nREV: 4\nWWW.OPENHORNET.COM" (at 161.036 66.802) (layer "B.SilkS") (tstamp d761049f-36b3-4d24-a389-6b4b8778cd25)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "AOA" (at 112.014 86.106) (layer "B.SilkS") (tstamp f3af33e2-8251-4fe7-928e-e173c85743d1)
