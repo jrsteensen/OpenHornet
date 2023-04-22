@@ -56,7 +56,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|109537500|59489600|175562c3-e2db-4bd8-90af-7bae7936fb52|b7957437-37f7-41ba-b951-3e60845c67df",
+        "clearance|109537500|59489600|b7957437-37f7-41ba-b951-3e60845c67df|175562c3-e2db-4bd8-90af-7bae7936fb52",
+        "clearance|118110000|89017099|07c04fa0-711c-4e9e-8caa-25da1b94a0f8|db88ff1e-906c-4668-9e27-df42fecd6158",
+        "clearance|118110000|89017099|db88ff1e-906c-4668-9e27-df42fecd6158|07c04fa0-711c-4e9e-8caa-25da1b94a0f8",
+        "clearance|168275000|59489600|98380cd5-4bf2-476e-8147-798c1eada93b|9ca7f495-1168-4df9-bef7-ae6a64106799",
+        "clearance|168275000|59489600|9ca7f495-1168-4df9-bef7-ae6a64106799|98380cd5-4bf2-476e-8147-798c1eada93b",
+        "clearance|227012000|59489600|d77d2679-0ef7-44f3-9ec0-516e0fc10c5f|e94f1d0b-21ab-4550-8def-aa0c43a8459d",
+        "clearance|227012000|59489600|e94f1d0b-21ab-4550-8def-aa0c43a8459d|d77d2679-0ef7-44f3-9ec0-516e0fc10c5f",
+        "hole_clearance|139700000|46964600|0ca99e03-49c8-4c57-b6c0-54e1468af40b|b0c0167f-ab37-4db7-9f69-6bc920e93b01",
+        "hole_clearance|139700000|56489600|0ca99e03-49c8-4c57-b6c0-54e1468af40b|b0c0167f-ab37-4db7-9f69-6bc920e93b01",
+        "hole_clearance|146050000|76492099|042e4e0a-feae-4d40-b5c4-85a0f988abb2|23585858-b4a1-46a2-9867-eeb9c781b9eb",
+        "hole_clearance|146050000|86017099|042e4e0a-feae-4d40-b5c4-85a0f988abb2|23585858-b4a1-46a2-9867-eeb9c781b9eb",
+        "hole_clearance|176530000|76492099|8d4f119c-4aa1-4e1b-b9cc-97154520456f|993f0b53-3b9a-489c-b919-1758feee389a",
+        "hole_clearance|176530000|86017099|8d4f119c-4aa1-4e1b-b9cc-97154520456f|993f0b53-3b9a-489c-b919-1758feee389a",
+        "hole_clearance|196850000|46964600|3dc5183b-e40a-4133-a3ca-17f4a78b05ac|f03ec726-d33c-4648-bc4a-dd2b10000e12",
+        "hole_clearance|196850000|56489600|3dc5183b-e40a-4133-a3ca-17f4a78b05ac|f03ec726-d33c-4648-bc4a-dd2b10000e12",
+        "hole_clearance|79375000|46964600|eb8334ac-55eb-453b-9bfe-01b7004bfe85|d878f712-eb38-48a8-b3b5-94f43e523290",
+        "hole_clearance|79375000|56489600|eb8334ac-55eb-453b-9bfe-01b7004bfe85|d878f712-eb38-48a8-b3b5-94f43e523290"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -75,7 +94,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "ignore",
+        "hole_clearance": "warning",
         "hole_near_hole": "error",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +108,9 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -178,6 +197,7 @@
       "track_widths": [
         0.0,
         0.25,
+        0.5,
         0.75
       ],
       "via_dimensions": [
