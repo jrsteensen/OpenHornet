@@ -1,7 +1,7 @@
 (footprint "LOGO_CC-BY-NC-SA_Full_Small" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "34.1mm x 12mm, With symbols")
-  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "LOGO" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp c6bfbe6a-3ae1-4112-a06d-dfa34d2c0277)

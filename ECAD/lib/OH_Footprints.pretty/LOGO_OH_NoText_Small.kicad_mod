@@ -1,7 +1,7 @@
 (footprint "LOGO_OH_NoText_Small" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "11mm x 6mm, Openhornet Logo without text, Small")
-  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "LOGO" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 59d53cb7-90ba-45fb-93b1-a914f0e3a8fb)

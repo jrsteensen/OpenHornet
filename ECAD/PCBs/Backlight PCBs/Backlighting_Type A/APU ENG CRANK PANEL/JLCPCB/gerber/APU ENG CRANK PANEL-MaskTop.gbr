@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,7.0.1*%
-%TF.CreationDate,2023-04-12T19:10:25-08:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.2*%
+%TF.CreationDate,2023-05-01T05:07:36-08:00*%
 %TF.ProjectId,APU ENG CRANK PANEL,41505520-454e-4472-9043-52414e4b2050,4*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.1) date 2023-04-12 19:10:25*
+G04 Created by KiCad (PCBNEW 7.0.2) date 2023-05-01 05:07:36*
 %MOMM*%
 %LPD*%
 G01*
@@ -210,25 +210,25 @@ X168135600Y-75572600D03*
 X166585600Y-75572600D03*
 %TD*%
 D14*
-%TO.C,H3*%
+%TO.C,MH3*%
 X157099000Y-85039200D03*
 %TD*%
-%TO.C,H4*%
+%TO.C,MH4*%
 X183515000Y-85039200D03*
 %TD*%
 D15*
-%TO.C,H1*%
+%TO.C,MH1*%
 X174879000Y-53289200D03*
 %TD*%
-%TO.C,H2*%
+%TO.C,MH2*%
 X152019000Y-136855200D03*
 %TD*%
 D14*
-%TO.C,H5*%
+%TO.C,MH5*%
 X168211500Y-143776700D03*
 %TD*%
 D16*
-%TO.C,TP3*%
+%TO.C,TP2*%
 X151638000Y-61163200D03*
 %TD*%
 %TO.C,TP1*%
@@ -237,7 +237,7 @@ X154686000Y-57988200D03*
 %TO.C,TP4*%
 X184404000Y-69037200D03*
 %TD*%
-%TO.C,TP2*%
+%TO.C,TP3*%
 X170053000Y-58877200D03*
 %TD*%
 D17*
