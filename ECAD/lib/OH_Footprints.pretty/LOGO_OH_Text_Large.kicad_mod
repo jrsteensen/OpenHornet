@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "75.4mm_11.9mm, Openhornet symbol with Text, Large")
   (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
+  (fp_text reference "LOGO" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp e0806446-e5da-48ac-ba09-1138b061f869)
   )
