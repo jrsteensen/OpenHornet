@@ -9,7 +9,7 @@
 The purpose of this guide is to help enable the end-user to successfully accomplish the following:  
 *   1:  Facilitate navigation of the file structure.
 *   2:  Provide clarification regarding the manufacturing process of PCB's related to OpenHornet using JLCPCB.com
-*   2:  How to install KiCad 7 and set up libraries associated with OpenHornet. _(optional)__
+*   3:  How to install the latest version of KiCad and set up libraries associated with OpenHornet. _(optional, required only if you wish to contribute.)_
 
  _Note:  Manufacturing files have been generated accordinging to JLCPCB.com guidelines.  If choosing a different PCB Manufacturer, make sure to research their formatting standards and modify the necessary manufacturing files accordingly. And if you choose to manufacture them yourself, best of luck!_
 
@@ -30,11 +30,11 @@ The ECAD Directory has been organized to facilitate the end user, regardless of 
 
 1. Within each labeled PCB folder, there will be a folder called "JLCPCB" and inside of that folder will be two additional folders called "gerbers" and "production_files"
 2. **_All files you need for manufacturing are located in the "production_files" folder.  The gerbers are already compressed in a .zip file labeled the same way as the PCB folder their located in._** 
-3. Additionally, there will be 3 .csv files:  _**BOM_BOTTOM-'NAME OF PANEL'.csv**_,  _**BOM_TOP-'NAME OF PANEL'.csv**_, AND  _**CPL-'NAME OF PANEL'.csv**_ that will contain a Bill of Materials for both components located on both the top and bottom of the PCB, as well as the CPL used for placing the components.
+3. Additionally, there will be 2 .csv files:  _**BOM-'NAME OF PANEL'.csv**_ and  _**CPL-'NAME OF PANEL'.csv**_ that will contain a consolidated Bill of Materials (BOM) for components located on the top and bottom of the PCB, as well as the Control Panel File (CPL)  used for placing the components.
 
-***PLEASE READ:  YOU NEED TO DOWNLOAD ALL 4 FILES WITHIN THE PRODUCTION_FILES FOLDER.  NOT JUST THE .ZIP.***
+***PLEASE READ:  YOU NEED TO DOWNLOAD ALL 3 FILES WITHIN THE PRODUCTION_FILES FOLDER.  NOT JUST THE .ZIP.***
 
-![image](https://user-images.githubusercontent.com/81926396/215696657-bacbb010-a29e-4e46-b141-01909603b5b7.png)
+![image](https://user-images.githubusercontent.com/81926396/236571455-adad3477-bb04-4a43-80ba-239d9185d7cf.png)
 
 
 ## **PCB Manufacturing**
@@ -50,10 +50,10 @@ At the moment, all manufacturing files have been standardized to allow for fabri
 *Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
 
 Before we begin, it is assumed that you have:
-*  1:  Downloaded the latest version of KiCad _(currently KiCad 7.0.1)_ and installed it on your computer.  
+*  1:  Downloaded the latest version of KiCad _(currently KiCad 7.0.2)_ and have it installed on your computer.  
 *  2:  Cloned the OpenHornet repository
 
-#### STEP ONE:  Configure Paths & Create Environmental Variables
+### STEP ONE:  Configure Paths & Create Environmental Variables
 Open up a new or previous project in KiCad.  For this example, I'll be using the MASTER ARM PANEL.  In the Top Menu: Navigate to Preferences --> Configure Paths
 
 ![image1](https://user-images.githubusercontent.com/81926396/215698270-9f4a21c0-954a-4cf2-9666-c6913cf2d084.png)
@@ -68,7 +68,7 @@ The paths can be anywhere so long as it points to your Open Hornet directory.  _
 
 ![tempsnip](https://user-images.githubusercontent.com/81926396/229943906-2367341a-c5ae-477b-9768-69fd16b918ba.png)
 
-#### STEP TWO:  Add OpenHornet Symbol and Footprint Libraries
+### STEP TWO:  Add OpenHornet Symbol and Footprint Libraries
 
 With the project window open, navigate to Preferences --> Manage Symbol Libraries.
 
@@ -87,7 +87,7 @@ Do the same thing for the footprint Libraries:
 
 ![image5](https://user-images.githubusercontent.com/81926396/229943449-f02c92c1-1529-4c4c-b9b3-f9b39ffe311b.png)
 
-#### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
+### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
 Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
 
 *  1: Click **"Plugin and Content Manager"**
