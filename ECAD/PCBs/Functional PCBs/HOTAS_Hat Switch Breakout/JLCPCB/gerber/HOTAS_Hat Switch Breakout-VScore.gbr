@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
+%TF.CreationDate,2023-01-28T00:00:36-09:00*%
+%TF.ProjectId,HOTAS_Hat Switch Breakout,484f5441-535f-4486-9174-205377697463,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Other,Comment*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (6.0.9)) date 2023-01-28 00:00:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.150000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H1*%
+X-3000000Y11000000D02*
+G75*
+G03*
+X-3000000Y11000000I-3000000J0D01*
+G01*
+%TO.C,H2*%
+X9000000Y-11000000D02*
+G75*
+G03*
+X9000000Y-11000000I-3000000J0D01*
+G01*
+%TD*%
+M02*

@@ -1,0 +1,1832 @@
+(export 
+  (version D) 
+  (design 
+    (source "C:\\Users\\Solidworks\\Documents\\GitHub\\OpenHornet\\ECAD\\PCBs\\OH_Specific\\Backlighting\\HUD_Panel_PCB_V2\\HUD Panel PCB V2.sch") 
+    (date "17/11/2021 8:44:41 AM") 
+    (tool "Eeschema (5.1.10)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source "HUD PANEL.sch") 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J1) 
+      (value Conn_01x04_Female) 
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FB9BEC)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x04_Female) 
+      (footprint Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Female) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FBB4BA)) 
+    (comp 
+      (ref D1) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FBB70E)) 
+    (comp 
+      (ref D2) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FBCC82)) 
+    (comp 
+      (ref D3) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FBD12B)) 
+    (comp 
+      (ref D4) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC3138)) 
+    (comp 
+      (ref D5) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC313E)) 
+    (comp 
+      (ref D6) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC3144)) 
+    (comp 
+      (ref D7) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FA6)) 
+    (comp 
+      (ref D8) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FAC)) 
+    (comp 
+      (ref D9) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FB2)) 
+    (comp 
+      (ref D10) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FB8)) 
+    (comp 
+      (ref D11) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FBE)) 
+    (comp 
+      (ref D12) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FC6FC4)) 
+    (comp 
+      (ref D13) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FB2)) 
+    (comp 
+      (ref D14) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FB8)) 
+    (comp 
+      (ref D15) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FBE)) 
+    (comp 
+      (ref D16) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FC4)) 
+    (comp 
+      (ref D17) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FCA)) 
+    (comp 
+      (ref D18) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FD0)) 
+    (comp 
+      (ref D19) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FD6)) 
+    (comp 
+      (ref D20) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FDC)) 
+    (comp 
+      (ref D21) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FE2)) 
+    (comp 
+      (ref D22) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FE8)) 
+    (comp 
+      (ref D23) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FEE)) 
+    (comp 
+      (ref D24) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FD5FF4)) 
+    (comp 
+      (ref D25) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCB93)) 
+    (comp 
+      (ref D26) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCB99)) 
+    (comp 
+      (ref D27) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCB9F)) 
+    (comp 
+      (ref D28) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBA5)) 
+    (comp 
+      (ref D29) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBAB)) 
+    (comp 
+      (ref D30) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBB1)) 
+    (comp 
+      (ref D31) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBB7)) 
+    (comp 
+      (ref D32) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBBD)) 
+    (comp 
+      (ref D33) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBC3)) 
+    (comp 
+      (ref D34) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBC9)) 
+    (comp 
+      (ref D35) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBCF)) 
+    (comp 
+      (ref D36) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FDCBD5)) 
+    (comp 
+      (ref D37) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BC7)) 
+    (comp 
+      (ref D38) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BCD)) 
+    (comp 
+      (ref D39) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BD3)) 
+    (comp 
+      (ref D40) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BD9)) 
+    (comp 
+      (ref D41) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BDF)) 
+    (comp 
+      (ref D42) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BE5)) 
+    (comp 
+      (ref D43) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BEB)) 
+    (comp 
+      (ref D44) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BF1)) 
+    (comp 
+      (ref D45) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BF7)) 
+    (comp 
+      (ref D46) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6BFD)) 
+    (comp 
+      (ref D47) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6C03)) 
+    (comp 
+      (ref D48) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FE6C09)) 
+    (comp 
+      (ref D49) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A07)) 
+    (comp 
+      (ref D50) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A0D)) 
+    (comp 
+      (ref D51) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A13)) 
+    (comp 
+      (ref D52) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A19)) 
+    (comp 
+      (ref D53) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A1F)) 
+    (comp 
+      (ref D54) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A25)) 
+    (comp 
+      (ref D55) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A2B)) 
+    (comp 
+      (ref D56) 
+      (value WS2812B) 
+      (footprint LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm) 
+      (datasheet https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (libsource 
+        (lib LED) 
+        (part WS2812B) 
+        (description "RGB LED with integrated controller")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60FF5A31)) 
+    (comp 
+      (ref LOGO1) 
+      (value OH_BR10KPot_Silkscreen) 
+      (footprint OH_Backlighting:BR10K_Pot_Silkscreen) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OH_BR10KPot_Silkscreen) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61951C93)) 
+    (comp 
+      (ref LOGO3) 
+      (value OH_BR10KPot_Silkscreen) 
+      (footprint OH_Backlighting:BR10K_Pot_Silkscreen) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OH_BR10KPot_Silkscreen) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6195354C)) 
+    (comp 
+      (ref LOGO4) 
+      (value OH_BR10KPot_Silkscreen) 
+      (footprint OH_Backlighting:BR10K_Pot_Silkscreen) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OH_BR10KPot_Silkscreen) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61961811)) 
+    (comp 
+      (ref LOGO6) 
+      (value OH_BR10KPot_Silkscreen) 
+      (footprint OH_Backlighting:BR10K_Pot_Silkscreen) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OH_BR10KPot_Silkscreen) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6196F889)) 
+    (comp 
+      (ref LOGO2) 
+      (value OpenHornetLogoSmall) 
+      (footprint OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OpenHornetLogoSmall) 
+        (description "37.7mm x 5.9mm OpenHorner Logo")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6197F3AC)) 
+    (comp 
+      (ref LOGO5) 
+      (value CC-BY-NC-SA_Icon) 
+      (footprint OH_KiCAD_Libraries:CC-BY-NC-SA-Small) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part CC-BY-NC-SA_Icon) 
+        (description "CC-BY-NC-SA_Icon Small")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61980D84))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Female) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib KiCadCustomLib) 
+      (part CC-BY-NC-SA_Icon) 
+      (description "CC-BY-NC-SA_Icon Small") 
+      (fields 
+        (field 
+          (name Reference) LOGO) 
+        (field 
+          (name Value) CC-BY-NC-SA_Icon) 
+        (field 
+          (name Footprint) OH_KiCAD_Libraries:CC-BY-NC-SA-Small))) 
+    (libpart 
+      (lib KiCadCustomLib) 
+      (part OH_BR10KPot_Silkscreen) 
+      (fields 
+        (field 
+          (name Reference) LOGO) 
+        (field 
+          (name Value) OH_BR10KPot_Silkscreen) 
+        (field 
+          (name Footprint) OH_Backlighting:BR10K_Pot_Silkscreen))) 
+    (libpart 
+      (lib KiCadCustomLib) 
+      (part OpenHornetLogoSmall) 
+      (description "37.7mm x 5.9mm OpenHorner Logo") 
+      (fields 
+        (field 
+          (name Reference) LOGO) 
+        (field 
+          (name Value) OpenHornetLogoSmall) 
+        (field 
+          (name Footprint) OH_KiCAD_Libraries:OH_LOGO_37.7mm_5.9mm))) 
+    (libpart 
+      (lib LED) 
+      (part WS2812B) 
+      (description "RGB LED with integrated controller") 
+      (docs https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) 
+      (footprints 
+        (fp LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) WS2812B) 
+        (field 
+          (name Footprint) LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDD) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name DOUT) 
+          (type output)) 
+        (pin 
+          (num 3) 
+          (name VSS) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name DIN) 
+          (type input))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical KiCadCustomLib) 
+      (uri C:/Users/Solidworks/Documents/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib)) 
+    (library 
+      (logical LED) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/LED.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(D46-Pad2)") 
+      (node 
+        (ref D47) 
+        (pin 4)) 
+      (node 
+        (ref D46) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name "Net-(D44-Pad2)") 
+      (node 
+        (ref D45) 
+        (pin 4)) 
+      (node 
+        (ref D44) 
+        (pin 2))) 
+    (net 
+      (code 3) 
+      (name "Net-(D43-Pad2)") 
+      (node 
+        (ref D44) 
+        (pin 4)) 
+      (node 
+        (ref D43) 
+        (pin 2))) 
+    (net 
+      (code 4) 
+      (name "Net-(D45-Pad2)") 
+      (node 
+        (ref D45) 
+        (pin 2)) 
+      (node 
+        (ref D46) 
+        (pin 4))) 
+    (net 
+      (code 5) 
+      (name "Net-(D42-Pad2)") 
+      (node 
+        (ref D43) 
+        (pin 4)) 
+      (node 
+        (ref D42) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(D41-Pad2)") 
+      (node 
+        (ref D42) 
+        (pin 4)) 
+      (node 
+        (ref D41) 
+        (pin 2))) 
+    (net 
+      (code 7) 
+      (name "Net-(D40-Pad2)") 
+      (node 
+        (ref D41) 
+        (pin 4)) 
+      (node 
+        (ref D40) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name "Net-(D38-Pad2)") 
+      (node 
+        (ref D38) 
+        (pin 2)) 
+      (node 
+        (ref D39) 
+        (pin 4))) 
+    (net 
+      (code 9) 
+      (name "Net-(D39-Pad2)") 
+      (node 
+        (ref D39) 
+        (pin 2)) 
+      (node 
+        (ref D40) 
+        (pin 4))) 
+    (net 
+      (code 10) 
+      (name "Net-(D47-Pad2)") 
+      (node 
+        (ref D47) 
+        (pin 2)) 
+      (node 
+        (ref D48) 
+        (pin 4))) 
+    (net 
+      (code 11) 
+      (name "Net-(D37-Pad2)") 
+      (node 
+        (ref D38) 
+        (pin 4)) 
+      (node 
+        (ref D37) 
+        (pin 2))) 
+    (net 
+      (code 12) 
+      (name "Net-(D35-Pad2)") 
+      (node 
+        (ref D36) 
+        (pin 4)) 
+      (node 
+        (ref D35) 
+        (pin 2))) 
+    (net 
+      (code 13) 
+      (name "Net-(D34-Pad2)") 
+      (node 
+        (ref D35) 
+        (pin 4)) 
+      (node 
+        (ref D34) 
+        (pin 2))) 
+    (net 
+      (code 14) 
+      (name "Net-(D33-Pad2)") 
+      (node 
+        (ref D34) 
+        (pin 4)) 
+      (node 
+        (ref D33) 
+        (pin 2))) 
+    (net 
+      (code 15) 
+      (name "Net-(D32-Pad2)") 
+      (node 
+        (ref D32) 
+        (pin 2)) 
+      (node 
+        (ref D33) 
+        (pin 4))) 
+    (net 
+      (code 16) 
+      (name "Net-(D31-Pad2)") 
+      (node 
+        (ref D32) 
+        (pin 4)) 
+      (node 
+        (ref D31) 
+        (pin 2))) 
+    (net 
+      (code 17) 
+      (name "Net-(D30-Pad2)") 
+      (node 
+        (ref D30) 
+        (pin 2)) 
+      (node 
+        (ref D31) 
+        (pin 4))) 
+    (net 
+      (code 18) 
+      (name "Net-(D29-Pad2)") 
+      (node 
+        (ref D30) 
+        (pin 4)) 
+      (node 
+        (ref D29) 
+        (pin 2))) 
+    (net 
+      (code 19) 
+      (name "Net-(D28-Pad2)") 
+      (node 
+        (ref D28) 
+        (pin 2)) 
+      (node 
+        (ref D29) 
+        (pin 4))) 
+    (net 
+      (code 20) 
+      (name "Net-(D27-Pad2)") 
+      (node 
+        (ref D27) 
+        (pin 2)) 
+      (node 
+        (ref D28) 
+        (pin 4))) 
+    (net 
+      (code 21) 
+      (name "Net-(D26-Pad2)") 
+      (node 
+        (ref D26) 
+        (pin 2)) 
+      (node 
+        (ref D27) 
+        (pin 4))) 
+    (net 
+      (code 22) 
+      (name "Net-(D25-Pad2)") 
+      (node 
+        (ref D25) 
+        (pin 2)) 
+      (node 
+        (ref D26) 
+        (pin 4))) 
+    (net 
+      (code 23) 
+      (name "Net-(D36-Pad2)") 
+      (node 
+        (ref D37) 
+        (pin 4)) 
+      (node 
+        (ref D36) 
+        (pin 2))) 
+    (net 
+      (code 24) 
+      (name "Net-(D55-Pad2)") 
+      (node 
+        (ref D56) 
+        (pin 4)) 
+      (node 
+        (ref D55) 
+        (pin 2))) 
+    (net 
+      (code 25) 
+      (name "Net-(D54-Pad2)") 
+      (node 
+        (ref D55) 
+        (pin 4)) 
+      (node 
+        (ref D54) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name "Net-(D53-Pad2)") 
+      (node 
+        (ref D54) 
+        (pin 4)) 
+      (node 
+        (ref D53) 
+        (pin 2))) 
+    (net 
+      (code 27) 
+      (name "Net-(D52-Pad2)") 
+      (node 
+        (ref D52) 
+        (pin 2)) 
+      (node 
+        (ref D53) 
+        (pin 4))) 
+    (net 
+      (code 28) 
+      (name "Net-(D51-Pad2)") 
+      (node 
+        (ref D51) 
+        (pin 2)) 
+      (node 
+        (ref D52) 
+        (pin 4))) 
+    (net 
+      (code 29) 
+      (name "Net-(D50-Pad2)") 
+      (node 
+        (ref D50) 
+        (pin 2)) 
+      (node 
+        (ref D51) 
+        (pin 4))) 
+    (net 
+      (code 30) 
+      (name "Net-(D48-Pad2)") 
+      (node 
+        (ref D48) 
+        (pin 2)) 
+      (node 
+        (ref D49) 
+        (pin 4))) 
+    (net 
+      (code 31) 
+      (name "Net-(D24-Pad2)") 
+      (node 
+        (ref D24) 
+        (pin 2)) 
+      (node 
+        (ref D25) 
+        (pin 4))) 
+    (net 
+      (code 32) 
+      (name "Net-(D12-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref D13) 
+        (pin 4))) 
+    (net 
+      (code 33) 
+      (name "Net-(D49-Pad2)") 
+      (node 
+        (ref D50) 
+        (pin 4)) 
+      (node 
+        (ref D49) 
+        (pin 2))) 
+    (net 
+      (code 34) 
+      (name "Net-(D11-Pad2)") 
+      (node 
+        (ref D12) 
+        (pin 4)) 
+      (node 
+        (ref D11) 
+        (pin 2))) 
+    (net 
+      (code 35) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref D11) 
+        (pin 4)) 
+      (node 
+        (ref D10) 
+        (pin 2))) 
+    (net 
+      (code 36) 
+      (name "Net-(D10-Pad4)") 
+      (node 
+        (ref D10) 
+        (pin 4)) 
+      (node 
+        (ref D9) 
+        (pin 2))) 
+    (net 
+      (code 37) 
+      (name "Net-(D15-Pad2)") 
+      (node 
+        (ref D15) 
+        (pin 2)) 
+      (node 
+        (ref D16) 
+        (pin 4))) 
+    (net 
+      (code 38) 
+      (name "Net-(D14-Pad2)") 
+      (node 
+        (ref D15) 
+        (pin 4)) 
+      (node 
+        (ref D14) 
+        (pin 2))) 
+    (net 
+      (code 39) 
+      (name "Net-(D8-Pad2)") 
+      (node 
+        (ref D8) 
+        (pin 2)) 
+      (node 
+        (ref D9) 
+        (pin 4))) 
+    (net 
+      (code 40) 
+      (name "Net-(D13-Pad2)") 
+      (node 
+        (ref D13) 
+        (pin 2)) 
+      (node 
+        (ref D14) 
+        (pin 4))) 
+    (net 
+      (code 41) 
+      (name "Net-(D6-Pad2)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref D7) 
+        (pin 4))) 
+    (net 
+      (code 42) 
+      (name "Net-(D5-Pad2)") 
+      (node 
+        (ref D5) 
+        (pin 2)) 
+      (node 
+        (ref D6) 
+        (pin 4))) 
+    (net 
+      (code 43) 
+      (name "Net-(D4-Pad2)") 
+      (node 
+        (ref D5) 
+        (pin 4)) 
+      (node 
+        (ref D4) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name "Net-(D3-Pad2)") 
+      (node 
+        (ref D4) 
+        (pin 4)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 45) 
+      (name "Net-(D2-Pad2)") 
+      (node 
+        (ref D3) 
+        (pin 4)) 
+      (node 
+        (ref D2) 
+        (pin 2))) 
+    (net 
+      (code 46) 
+      (name "Net-(D1-Pad2)") 
+      (node 
+        (ref D2) 
+        (pin 4)) 
+      (node 
+        (ref D1) 
+        (pin 2))) 
+    (net 
+      (code 47) 
+      (name /DATAOUT) 
+      (node 
+        (ref D56) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 4))) 
+    (net 
+      (code 48) 
+      (name /LEDGND) 
+      (node 
+        (ref D22) 
+        (pin 3)) 
+      (node 
+        (ref D23) 
+        (pin 3)) 
+      (node 
+        (ref D19) 
+        (pin 3)) 
+      (node 
+        (ref D54) 
+        (pin 3)) 
+      (node 
+        (ref D53) 
+        (pin 3)) 
+      (node 
+        (ref D18) 
+        (pin 3)) 
+      (node 
+        (ref D13) 
+        (pin 3)) 
+      (node 
+        (ref D46) 
+        (pin 3)) 
+      (node 
+        (ref D20) 
+        (pin 3)) 
+      (node 
+        (ref D52) 
+        (pin 3)) 
+      (node 
+        (ref D51) 
+        (pin 3)) 
+      (node 
+        (ref D50) 
+        (pin 3)) 
+      (node 
+        (ref D14) 
+        (pin 3)) 
+      (node 
+        (ref D24) 
+        (pin 3)) 
+      (node 
+        (ref D15) 
+        (pin 3)) 
+      (node 
+        (ref D16) 
+        (pin 3)) 
+      (node 
+        (ref D33) 
+        (pin 3)) 
+      (node 
+        (ref D27) 
+        (pin 3)) 
+      (node 
+        (ref D28) 
+        (pin 3)) 
+      (node 
+        (ref D29) 
+        (pin 3)) 
+      (node 
+        (ref D26) 
+        (pin 3)) 
+      (node 
+        (ref D30) 
+        (pin 3)) 
+      (node 
+        (ref D25) 
+        (pin 3)) 
+      (node 
+        (ref D31) 
+        (pin 3)) 
+      (node 
+        (ref D32) 
+        (pin 3)) 
+      (node 
+        (ref D21) 
+        (pin 3)) 
+      (node 
+        (ref D34) 
+        (pin 3)) 
+      (node 
+        (ref D35) 
+        (pin 3)) 
+      (node 
+        (ref D4) 
+        (pin 3)) 
+      (node 
+        (ref D6) 
+        (pin 3)) 
+      (node 
+        (ref D5) 
+        (pin 3)) 
+      (node 
+        (ref D3) 
+        (pin 3)) 
+      (node 
+        (ref D2) 
+        (pin 3)) 
+      (node 
+        (ref D1) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref D12) 
+        (pin 3)) 
+      (node 
+        (ref D11) 
+        (pin 3)) 
+      (node 
+        (ref D17) 
+        (pin 3)) 
+      (node 
+        (ref D10) 
+        (pin 3)) 
+      (node 
+        (ref D9) 
+        (pin 3)) 
+      (node 
+        (ref D8) 
+        (pin 3)) 
+      (node 
+        (ref D7) 
+        (pin 3)) 
+      (node 
+        (ref D45) 
+        (pin 3)) 
+      (node 
+        (ref D44) 
+        (pin 3)) 
+      (node 
+        (ref D43) 
+        (pin 3)) 
+      (node 
+        (ref D42) 
+        (pin 3)) 
+      (node 
+        (ref D41) 
+        (pin 3)) 
+      (node 
+        (ref D40) 
+        (pin 3)) 
+      (node 
+        (ref D39) 
+        (pin 3)) 
+      (node 
+        (ref D48) 
+        (pin 3)) 
+      (node 
+        (ref D47) 
+        (pin 3)) 
+      (node 
+        (ref D36) 
+        (pin 3)) 
+      (node 
+        (ref D38) 
+        (pin 3)) 
+      (node 
+        (ref D37) 
+        (pin 3)) 
+      (node 
+        (ref D55) 
+        (pin 3)) 
+      (node 
+        (ref D56) 
+        (pin 3)) 
+      (node 
+        (ref D49) 
+        (pin 3))) 
+    (net 
+      (code 49) 
+      (name /DATAIN) 
+      (node 
+        (ref D1) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 4))) 
+    (net 
+      (code 50) 
+      (name "Net-(D7-Pad2)") 
+      (node 
+        (ref D8) 
+        (pin 4)) 
+      (node 
+        (ref D7) 
+        (pin 2))) 
+    (net 
+      (code 51) 
+      (name "Net-(D23-Pad2)") 
+      (node 
+        (ref D24) 
+        (pin 4)) 
+      (node 
+        (ref D23) 
+        (pin 2))) 
+    (net 
+      (code 52) 
+      (name "Net-(D22-Pad2)") 
+      (node 
+        (ref D23) 
+        (pin 4)) 
+      (node 
+        (ref D22) 
+        (pin 2))) 
+    (net 
+      (code 53) 
+      (name "Net-(D21-Pad2)") 
+      (node 
+        (ref D22) 
+        (pin 4)) 
+      (node 
+        (ref D21) 
+        (pin 2))) 
+    (net 
+      (code 54) 
+      (name "Net-(D20-Pad2)") 
+      (node 
+        (ref D21) 
+        (pin 4)) 
+      (node 
+        (ref D20) 
+        (pin 2))) 
+    (net 
+      (code 55) 
+      (name "Net-(D19-Pad2)") 
+      (node 
+        (ref D19) 
+        (pin 2)) 
+      (node 
+        (ref D20) 
+        (pin 4))) 
+    (net 
+      (code 56) 
+      (name "Net-(D17-Pad2)") 
+      (node 
+        (ref D18) 
+        (pin 4)) 
+      (node 
+        (ref D17) 
+        (pin 2))) 
+    (net 
+      (code 57) 
+      (name "Net-(D18-Pad2)") 
+      (node 
+        (ref D18) 
+        (pin 2)) 
+      (node 
+        (ref D19) 
+        (pin 4))) 
+    (net 
+      (code 58) 
+      (name /LED+5V) 
+      (node 
+        (ref D31) 
+        (pin 1)) 
+      (node 
+        (ref D30) 
+        (pin 1)) 
+      (node 
+        (ref D47) 
+        (pin 1)) 
+      (node 
+        (ref D32) 
+        (pin 1)) 
+      (node 
+        (ref D35) 
+        (pin 1)) 
+      (node 
+        (ref D34) 
+        (pin 1)) 
+      (node 
+        (ref D48) 
+        (pin 1)) 
+      (node 
+        (ref D33) 
+        (pin 1)) 
+      (node 
+        (ref D20) 
+        (pin 1)) 
+      (node 
+        (ref D22) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 1)) 
+      (node 
+        (ref D44) 
+        (pin 1)) 
+      (node 
+        (ref D21) 
+        (pin 1)) 
+      (node 
+        (ref D54) 
+        (pin 1)) 
+      (node 
+        (ref D45) 
+        (pin 1)) 
+      (node 
+        (ref D19) 
+        (pin 1)) 
+      (node 
+        (ref D55) 
+        (pin 1)) 
+      (node 
+        (ref D18) 
+        (pin 1)) 
+      (node 
+        (ref D46) 
+        (pin 1)) 
+      (node 
+        (ref D39) 
+        (pin 1)) 
+      (node 
+        (ref D40) 
+        (pin 1)) 
+      (node 
+        (ref D53) 
+        (pin 1)) 
+      (node 
+        (ref D41) 
+        (pin 1)) 
+      (node 
+        (ref D36) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref D42) 
+        (pin 1)) 
+      (node 
+        (ref D29) 
+        (pin 1)) 
+      (node 
+        (ref D24) 
+        (pin 1)) 
+      (node 
+        (ref D43) 
+        (pin 1)) 
+      (node 
+        (ref D23) 
+        (pin 1)) 
+      (node 
+        (ref D56) 
+        (pin 1)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref D49) 
+        (pin 1)) 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref D17) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref D5) 
+        (pin 1)) 
+      (node 
+        (ref D52) 
+        (pin 1)) 
+      (node 
+        (ref D26) 
+        (pin 1)) 
+      (node 
+        (ref D51) 
+        (pin 1)) 
+      (node 
+        (ref D25) 
+        (pin 1)) 
+      (node 
+        (ref D37) 
+        (pin 1)) 
+      (node 
+        (ref D38) 
+        (pin 1)) 
+      (node 
+        (ref D28) 
+        (pin 1)) 
+      (node 
+        (ref D27) 
+        (pin 1)) 
+      (node 
+        (ref D12) 
+        (pin 1)) 
+      (node 
+        (ref D11) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref D50) 
+        (pin 1))) 
+    (net 
+      (code 59) 
+      (name "Net-(D16-Pad2)") 
+      (node 
+        (ref D17) 
+        (pin 4)) 
+      (node 
+        (ref D16) 
+        (pin 2)))))

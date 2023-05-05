@@ -1,0 +1,16 @@
+(footprint "BR10K_Pot_11mm_x_11mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.025 -6.125) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a4c71501-d13c-4f7a-ac80-c3571f2bf13b)
+  )
+  (fp_text value "BR10K_Pot_11mm_x_11mm" (at 0 -4.675) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6bb8d96f-d746-4f11-9b7b-2725e6c2df79)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.540752 7.540752) (drill 7.54) (layers "F&B.Cu" "*.Mask")
+    (clearance 2.25) (tstamp df7d7c54-bd04-4d02-8e1b-0a8021fee163))
+  (pad "" np_thru_hole circle (at 0 6) (size 2.38125 2.38125) (drill 2.38) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.54) (tstamp d130016e-d4bb-40fc-ae66-77c829af4b76))
+)
