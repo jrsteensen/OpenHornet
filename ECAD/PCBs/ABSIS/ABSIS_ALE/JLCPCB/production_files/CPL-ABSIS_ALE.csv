@@ -1,0 +1,10 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0805_2012Metric,14.1689,20.1848,90.0,top
+J1,BUS IN,Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,6.75,35.8,-90.0,top
+J2,BUS OUT,Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,6.75,12.8,-90.0,top
+J3,I/O #1,PinHeader_2x06_P2.54mm_Vertical,25.225,32.43,0.0,bottom
+J4,I/O #2,PinHeader_2x06_P2.54mm_Vertical,25.225,14.65,0.0,bottom
+J5,GND,PinHeader_1x06_P2.54mm_Vertical,22.55,4.0,270.0,bottom
+J6,ACC PWR,PinHeader_2x02_P2.54mm_Vertical,25.225,45.125,0.0,bottom
+U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,11.5,25.0,180.0,top
+XU1,ProMicro_5V/16Hz,DIP-24_W15.24mm_Socket,25.3626,29.5118,0.0,top

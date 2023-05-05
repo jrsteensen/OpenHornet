@@ -1,0 +1,15 @@
+(footprint "Mouting_Hole_1.85mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5A7BD47A)
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "" (at 0.54 1.88) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 515a2162-6f5a-4723-9bf9-2b8ec05d5497)
+  )
+  (fp_text value "Mouting_Hole_1.85mm" (at 0.32 1.73) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 100ddde2-c2d2-4af4-8828-344ed96453e5)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.85 1.85) (drill 1.85) (layers *.Cu)
+    (clearance 0.5) (zone_connect 0) (tstamp 4b8b37b0-1ab6-467e-a6a2-b1570d671a19))
+)

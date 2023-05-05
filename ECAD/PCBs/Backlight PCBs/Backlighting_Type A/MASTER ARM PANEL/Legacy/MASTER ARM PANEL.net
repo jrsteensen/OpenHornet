@@ -1,0 +1,401 @@
+(export 
+  (version D) 
+  (design 
+    (source "C:\\Users\\lukew\\OneDrive\\Desktop\\APU Panel PCB V1\\Master Arm Panel PCB V1\\Master_Mode_Pushbutton\\MasterModePushbutton.sch") 
+    (date "20/10/2020 7:09:09 PM") 
+    (tool "Eeschema (5.1.6)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source MasterModePushbutton.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref SW3) 
+      (value PT_Tactile_Switch_Led) 
+      (footprint PT_Library_v001:PT_Small_Tactile_Switch_With_LED) 
+      (libsource 
+        (lib PT_Symbol_Library_v001) 
+        (part PT_Tactile_Switch_Led) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EB472)) 
+    (comp 
+      (ref SW2) 
+      (value PT_Tactile_Switch_Led) 
+      (footprint PT_Library_v001:PT_Small_Tactile_Switch_With_LED) 
+      (libsource 
+        (lib PT_Symbol_Library_v001) 
+        (part PT_Tactile_Switch_Led) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EB082)) 
+    (comp 
+      (ref SW1) 
+      (value PT_Tactile_Switch_Led) 
+      (footprint PT_Library_v001:PT_Small_Tactile_Switch_With_LED) 
+      (libsource 
+        (lib PT_Symbol_Library_v001) 
+        (part PT_Tactile_Switch_Led) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EA411)) 
+    (comp 
+      (ref J1) 
+      (value Conn_01x02_Female) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EE7B0)) 
+    (comp 
+      (ref J2) 
+      (value Conn_01x02_Female) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EF652)) 
+    (comp 
+      (ref J3) 
+      (value Conn_01x02_Female) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x02_Female) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8EFA17)) 
+    (comp 
+      (ref R1) 
+      (value R) 
+      (footprint Resistor_SMD:R_0201_0603Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8F640F)) 
+    (comp 
+      (ref D2) 
+      (value D) 
+      (footprint Diode_SMD:D_0201_0603Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8FB80D)) 
+    (comp 
+      (ref D3) 
+      (value D) 
+      (footprint Diode_SMD:D_0201_0603Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8FD8AF)) 
+    (comp 
+      (ref D1) 
+      (value D) 
+      (footprint Diode_SMD:D_0201_0603Metric) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part D) 
+        (description Diode)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5F8FDD42))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x02_Female) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02_Female)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part D) 
+      (description Diode) 
+      (docs ~) 
+      (footprints 
+        (fp TO-???*) 
+        (fp *_Diode_*) 
+        (fp *SingleDiode*) 
+        (fp D_*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib PT_Symbol_Library_v001) 
+      (part PT_Tactile_Switch_Led) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) PT_Tactile_Switch_Led) 
+        (field 
+          (name Footprint) PT_Library_v001:PT_Small_Tactile_Switch_With_LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type input)) 
+        (pin 
+          (num 5) 
+          (name +) 
+          (type input)) 
+        (pin 
+          (num 6) 
+          (name -) 
+          (type input))))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri C:/Users/lukew/Downloads/kicad-symbols-master/kicad-symbols-master/Connector.lib)) 
+    (library 
+      (logical Device) 
+      (uri C:/Users/lukew/Downloads/kicad-symbols-master/kicad-symbols-master/Device.lib)) 
+    (library 
+      (logical PT_Symbol_Library_v001) 
+      (uri C:\Users\lukew\Documents\bne-arduino-flight-simulator-interfaces\PCBs\Arduino_NW_Template\PT_Symbol_Library_v001.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref SW3) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref SW3) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name "Net-(D3-Pad1)") 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name "Net-(D2-Pad1)") 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name "Net-(R1-Pad1)") 
+      (node 
+        (ref SW1) 
+        (pin 5)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name "Net-(SW1-Pad6)") 
+      (node 
+        (ref SW1) 
+        (pin 6)) 
+      (node 
+        (ref SW2) 
+        (pin 5))) 
+    (net 
+      (code 6) 
+      (name /Row1) 
+      (node 
+        (ref SW1) 
+        (pin 4)) 
+      (node 
+        (ref SW3) 
+        (pin 4)) 
+      (node 
+        (ref SW1) 
+        (pin 3)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref SW3) 
+        (pin 3))) 
+    (net 
+      (code 7) 
+      (name "Net-(SW2-Pad6)") 
+      (node 
+        (ref SW2) 
+        (pin 6)) 
+      (node 
+        (ref SW3) 
+        (pin 5))) 
+    (net 
+      (code 8) 
+      (name /BacklightGND) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref SW3) 
+        (pin 6))) 
+    (net 
+      (code 9) 
+      (name /Backlight+12) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 1))) 
+    (net 
+      (code 10) 
+      (name /Row2) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 4)) 
+      (node 
+        (ref SW2) 
+        (pin 3))) 
+    (net 
+      (code 11) 
+      (name /Column2) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 12) 
+      (name /Column1) 
+      (node 
+        (ref D3) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1)))))
