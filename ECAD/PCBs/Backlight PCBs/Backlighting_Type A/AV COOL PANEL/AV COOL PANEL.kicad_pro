@@ -66,8 +66,8 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "copper_sliver": "ignore",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -94,7 +94,7 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -479,7 +479,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "DATA IN"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -490,7 +503,7 @@
       "step": "MCAD/AV COOL PANEL.step",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KICAD6_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks"
+    "page_layout_descr_file": "${KICAD_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

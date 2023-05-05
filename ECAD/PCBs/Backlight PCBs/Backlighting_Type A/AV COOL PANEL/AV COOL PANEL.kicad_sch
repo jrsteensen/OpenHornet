@@ -174,7 +174,7 @@
         )
       )
     )
-    (symbol "OH_Symbols:LOGO_License_Half_Large" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "OH_Symbols:LOGO_License_Half_Large" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
       (property "Reference" "LOGO" (at 0 12.7 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -246,11 +246,11 @@
         )
       )
     )
-    (symbol "OH_Symbols:Molex_2x02_Mini-Fit_Jr." (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "OH_Symbols:Molex_Mini-Fit_Jr._2x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J2" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Molex 2x02 Mini-Fit Jr." (at 1.27 -5.08 0)
+      (property "Value" "Mini-Fit Jr. 2x02" (at 1.27 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 3.81 -15.24 0)
@@ -277,7 +277,7 @@
       (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Molex_2x02_Mini-Fit_Jr._1_1"
+      (symbol "Molex_Mini-Fit_Jr._2x02_1_1"
         (rectangle (start -1.27 -2.413) (end 0 -2.667)
           (stroke (width 0.1524) (type default))
           (fill (type none))
@@ -317,7 +317,7 @@
       )
     )
     (symbol "OH_Symbols:MountingHole_6x32_PHS" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
-      (property "Reference" "H" (at 0 3.81 0) (do_not_autoplace)
+      (property "Reference" "MH" (at 0 3.81 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "6x32 / 4mm" (at 0 -12.065 0)
@@ -348,11 +348,11 @@
         )
       )
     )
-    (symbol "OH_Symbols:MountingHole_SxAL_Toggle" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
-      (property "Reference" "H" (at 0 5.715 0) (do_not_autoplace)
+    (symbol "OH_Symbols:MountingHole_SxAL_Toggle" (pin_names (offset 1.016)) (in_bom no) (on_board no)
+      (property "Reference" "MH" (at 0 5.715 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SxAL" (at 0 -9.398 0)
+      (property "Value" "Switch_NKK SxAL" (at 0 -9.398 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "OH_Footprints:SxAL_Toggle_13x13mm" (at 0 -11.43 0)
@@ -435,7 +435,7 @@
       )
     )
     (symbol "OH_Symbols:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
-      (property "Reference" "TP" (at -6.604 0 0)
+      (property "Reference" "TP" (at -3.302 1.778 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "TestPoint" (at 0 -2.54 0)
@@ -470,10 +470,10 @@
       )
     )
     (symbol "OH_Symbols:WS2812B" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 2.54 6.35 0) (do_not_autoplace)
+      (property "Reference" "D" (at 2.54 6.096 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "RGB" (at 3.81 -10.16 0)
+      (property "Value" "WS2812B" (at 3.81 -10.16 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 29.21 -12.065 0) (do_not_autoplace)
@@ -485,7 +485,7 @@
       (property "LCSC" "C2761795" (at 6.985 -8.255 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer PN" "WS2812B" (at 6.35 -6.35 0) (do_not_autoplace)
+      (property "Manufacturer PN" "WS2812B" (at 5.08 -6.35 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
       (property "Silkscreen" "" (at 0 0 0)
@@ -814,7 +814,7 @@
     (stroke (width 0) (type default))
     (uuid 0fc990ae-0ef1-4be0-b8b0-153e4fd001d8)
   )
-  (wire (pts (xy 201.295 76.2) (xy 205.74 76.2))
+  (wire (pts (xy 201.295 76.2) (xy 208.28 76.2))
     (stroke (width 0) (type default))
     (uuid 13bb7383-cfd9-48b2-91f5-f5f340a6441a)
   )
@@ -1079,7 +1079,7 @@
     (uuid 67f59687-6024-4d47-a1e0-7479769aee6b)
   )
   (text_box "\"ON\" (APU)"
-    (at 30.48 61.595 0) (size 172.72 28.448)
+    (at 30.48 61.595 0) (size 175.26 28.448)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify top))
@@ -1137,24 +1137,24 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DATA OUT" (shape input) (at 272.415 55.245 0) (fields_autoplaced)
+  (global_label "DATA OUT" (shape output) (at 272.415 55.245 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 68c8aab1-fd92-474a-b3cd-e1f81913e855)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 284.3318 55.245 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 283.6776 55.245 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DATA OUT" (shape output) (at 205.74 76.2 0) (fields_autoplaced)
+  (global_label "DATA OUT" (shape output) (at 208.28 76.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d1c52301-47c8-4578-95eb-8e9b9161055f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.0026 76.2 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 219.5426 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "DATA OUT" (shape input) (at 250.19 74.93 0) (fields_autoplaced)
+  (global_label "DATA OUT" (shape output) (at 250.19 74.93 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid efb265b5-c329-48a0-82de-63bdd0a4dc6b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.1068 74.93 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 261.4526 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1165,7 +1165,7 @@
     (property "Reference" "D2" (at 43.815 25.4 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 45.085 41.91 0)
+    (property "Value" "WS2812B" (at 45.085 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 70.485 43.815 0) (do_not_autoplace)
@@ -1177,16 +1177,16 @@
     (property "LCSC" "C2761795" (at 48.26 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 47.625 38.1 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 46.355 38.1 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 41.275 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a1381f1-33dc-45ea-9a6b-d2ae729c8b8e))
-    (pin "2" (uuid da5028cd-9cdf-413d-9836-9155629c9396))
-    (pin "3" (uuid b1030cd6-23f0-45fe-9941-3880ee3bed7f))
-    (pin "4" (uuid f5ec6d5d-e968-4811-b814-3c7bb1ccfe39))
+    (pin "1" (uuid 72976bf4-5bd7-4378-ba99-744edaeff93e))
+    (pin "2" (uuid 7d503c74-fa08-4f45-8946-d5eb887f3348))
+    (pin "3" (uuid bc5cfd98-abd5-4246-98c7-2460adaa4429))
+    (pin "4" (uuid ee5c4903-c585-4eb8-84bb-e8618a60dcea))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1202,7 +1202,7 @@
     (property "Reference" "D3" (at 62.865 25.4 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 64.135 41.91 0)
+    (property "Value" "WS2812B" (at 64.135 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 89.535 43.815 0) (do_not_autoplace)
@@ -1214,16 +1214,16 @@
     (property "LCSC" "C2761795" (at 67.31 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 66.675 38.1 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 65.405 38.1 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 60.325 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ff36f9bf-ebbd-4f73-993c-30ce2dbff35c))
-    (pin "2" (uuid afca2ae5-6ca2-48cb-a623-06def4bdab6a))
-    (pin "3" (uuid 13f2ff11-4376-4fe0-b336-162c1c9e0b88))
-    (pin "4" (uuid 8d555acd-84a6-4fc1-affe-a66754088798))
+    (pin "1" (uuid e6cc7dfb-67c9-43ab-8a22-2c4864911f20))
+    (pin "2" (uuid 33b9ee5a-9f4d-4273-992d-ab6efedaa4b7))
+    (pin "3" (uuid 55f2b973-171f-497a-87f9-bb73709b987c))
+    (pin "4" (uuid f59f6e7c-bf06-4a1c-b52d-f15da3da7004))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1239,7 +1239,7 @@
     (property "Reference" "D4" (at 81.915 25.4 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 83.185 41.91 0)
+    (property "Value" "WS2812B" (at 83.185 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 108.585 43.815 0) (do_not_autoplace)
@@ -1251,16 +1251,16 @@
     (property "LCSC" "C2761795" (at 86.36 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 85.725 38.1 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 84.455 38.1 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 79.375 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf50bf0a-c60f-4e19-b45b-f57fad75df3e))
-    (pin "2" (uuid 479686fd-92b2-4733-a605-9f8f39427c5e))
-    (pin "3" (uuid 17c3683a-5498-46d8-9fd5-a0f29fd92eec))
-    (pin "4" (uuid ccdb77be-1cc0-4c0b-9e26-8970d188bf47))
+    (pin "1" (uuid 76e6e510-981c-49ba-b19d-a8ed1abb1272))
+    (pin "2" (uuid 3f18cfd5-ed5c-4cb5-9101-f867129a4913))
+    (pin "3" (uuid 59235b03-b71a-4c3c-94da-c56c6c01c775))
+    (pin "4" (uuid 828b0cfd-8a36-48f7-8704-ed768eb0b0b6))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1276,7 +1276,7 @@
     (property "Reference" "D5" (at 100.965 25.4 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 102.235 41.91 0)
+    (property "Value" "WS2812B" (at 102.235 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 127.635 43.815 0) (do_not_autoplace)
@@ -1288,16 +1288,16 @@
     (property "LCSC" "C2761795" (at 105.41 40.005 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 104.775 38.1 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 103.505 38.1 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 98.425 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c2dcd72e-3e7e-492f-95e5-d3157aa4570a))
-    (pin "2" (uuid 4ca72527-8395-4624-a03f-6fcc5d00a063))
-    (pin "3" (uuid 0a122da7-02ff-4507-a175-4df22ba41f01))
-    (pin "4" (uuid 3ef50460-7bc8-4d09-b570-1a11680407ea))
+    (pin "1" (uuid 11ee23ef-73e0-4455-835c-ee4c03b5c7df))
+    (pin "2" (uuid 5570acba-347f-4001-acbb-089555aa7b0a))
+    (pin "3" (uuid d2c9debe-5701-4f52-8c65-04d216b6175c))
+    (pin "4" (uuid afc9c4f1-4019-489d-b8b3-9ee71c549ad5))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1313,7 +1313,7 @@
     (property "Reference" "D6" (at 43.815 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 45.085 86.36 0)
+    (property "Value" "WS2812B" (at 45.085 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 70.485 88.265 0) (do_not_autoplace)
@@ -1325,16 +1325,16 @@
     (property "LCSC" "C2761795" (at 48.26 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 47.625 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 46.355 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 41.275 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cb52c0d6-23e8-4be9-ba89-c3838360d82a))
-    (pin "2" (uuid e4426c94-ee2e-4013-883d-5d7cc586cd16))
-    (pin "3" (uuid accf8c44-3db3-4910-87d1-ee209cf21f48))
-    (pin "4" (uuid 90aa553c-4813-4003-a0db-a5c9707e31e6))
+    (pin "1" (uuid 5092523c-f8cf-4706-9878-19fbddb43e98))
+    (pin "2" (uuid 2cbb4e4c-0f2a-4b14-8842-f939f1cc7ba0))
+    (pin "3" (uuid c5c1bd45-fff6-48ee-9ffd-cd9f1dd6b076))
+    (pin "4" (uuid 2bdbdb79-833a-45ce-95db-4ffb35805bd6))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1350,7 +1350,7 @@
     (property "Reference" "D7" (at 62.865 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 64.135 86.36 0)
+    (property "Value" "WS2812B" (at 64.135 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 89.535 88.265 0) (do_not_autoplace)
@@ -1362,16 +1362,16 @@
     (property "LCSC" "C2761795" (at 67.31 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 66.675 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 65.405 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 60.325 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69b35fb6-bfcf-4cc3-9fbb-b0ecc6f9f59e))
-    (pin "2" (uuid 0ee06122-7d61-4c63-9920-5364ac204f80))
-    (pin "3" (uuid c7bb61da-f269-44b8-92e6-e8a93a84a85e))
-    (pin "4" (uuid a72f45eb-c3fa-42d3-b07f-d6fb4604af01))
+    (pin "1" (uuid 976b5e3d-851f-4920-b97d-3e28e242f045))
+    (pin "2" (uuid b161d5b2-ae18-4f1e-baa5-d2f1e27143e0))
+    (pin "3" (uuid 0a0b1237-df49-48df-9836-0b7458350330))
+    (pin "4" (uuid f755f16b-0400-4324-8a4e-13921c3d14c4))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1387,7 +1387,7 @@
     (property "Reference" "D8" (at 81.915 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 83.185 86.36 0)
+    (property "Value" "WS2812B" (at 83.185 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 108.585 88.265 0) (do_not_autoplace)
@@ -1399,16 +1399,16 @@
     (property "LCSC" "C2761795" (at 86.36 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 85.725 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 84.455 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 79.375 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e28baae-b36c-4324-ab67-53af4ab6a0ed))
-    (pin "2" (uuid c4b26b5c-b09c-4499-9876-84734330a148))
-    (pin "3" (uuid 50944d6e-b47e-4481-bafc-b5fde5949f4d))
-    (pin "4" (uuid 53657859-53ff-4a80-b564-5d7f4f393312))
+    (pin "1" (uuid 3bee0d47-6f97-4e6b-a187-1f50f085f652))
+    (pin "2" (uuid 471fdb35-e8d0-4b63-a209-7ed6288b81ec))
+    (pin "3" (uuid b5c672d9-a3bc-4baa-ad15-94903e5cc73a))
+    (pin "4" (uuid a7ed1964-6b47-4bdc-85b6-88c7d4fadeee))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1424,7 +1424,7 @@
     (property "Reference" "D9" (at 100.965 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 102.235 86.36 0)
+    (property "Value" "WS2812B" (at 102.235 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 127.635 88.265 0) (do_not_autoplace)
@@ -1436,16 +1436,16 @@
     (property "LCSC" "C2761795" (at 105.41 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 104.775 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 103.505 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 98.425 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd176b39-0ca1-4dbb-ab2b-b9f19a9a72aa))
-    (pin "2" (uuid 2c603d6a-e19a-4dba-a570-0b1287952801))
-    (pin "3" (uuid 4a05977c-5fec-4e9e-af77-4fa0f89d4b78))
-    (pin "4" (uuid e8d02f64-3e6e-441a-ac62-d7d51dfc9c11))
+    (pin "1" (uuid 14717add-9a68-4ec3-8b8a-ec70753ca1f6))
+    (pin "2" (uuid facaf113-7201-4277-ae51-18e53fb61eb2))
+    (pin "3" (uuid 6d97742a-30d9-4e1c-a072-e17998b99fe5))
+    (pin "4" (uuid 4be41f1c-2815-4409-a929-7217988bfb57))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1461,7 +1461,7 @@
     (property "Reference" "D10" (at 120.015 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 121.285 86.36 0)
+    (property "Value" "WS2812B" (at 121.285 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 146.685 88.265 0) (do_not_autoplace)
@@ -1473,16 +1473,16 @@
     (property "LCSC" "C2761795" (at 124.46 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 123.825 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 122.555 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 117.475 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 527e5e63-5390-4423-b269-845a6463060b))
-    (pin "2" (uuid bb209978-34df-4d81-8b42-d2159b25a34d))
-    (pin "3" (uuid a001b524-861d-4c00-8c69-252a562569f9))
-    (pin "4" (uuid 0551465c-88fb-4471-9a86-a2fbe04b3bbd))
+    (pin "1" (uuid d8efd0f9-1c77-4350-ac04-83b36369c5be))
+    (pin "2" (uuid e6e45640-df92-427a-bfa4-e14ff3927c4e))
+    (pin "3" (uuid 106e79e9-9b1f-4df9-87be-b0a8469c70d6))
+    (pin "4" (uuid 02da8330-8721-4c3a-8aa4-82cf9acd9b48))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1498,7 +1498,7 @@
     (property "Reference" "D11" (at 139.065 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 140.335 86.36 0)
+    (property "Value" "WS2812B" (at 140.335 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 165.735 88.265 0) (do_not_autoplace)
@@ -1510,16 +1510,16 @@
     (property "LCSC" "C2761795" (at 143.51 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 142.875 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 141.605 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 136.525 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb5b65bd-c64b-4b0e-875f-c2d2824b63e5))
-    (pin "2" (uuid 1772d275-b487-4ef9-886a-4710a2151150))
-    (pin "3" (uuid 43cb88e0-4cff-4352-bb64-58e6d93b2eca))
-    (pin "4" (uuid 09073a3d-2970-45e1-8a9c-7ff24177c73c))
+    (pin "1" (uuid 26b47217-a70a-4efd-b9d6-04069f87ec59))
+    (pin "2" (uuid e227e0d9-f50c-48bd-b9db-fdc4154b7cb2))
+    (pin "3" (uuid bfa892c8-3b31-4f92-879e-6126f7b558da))
+    (pin "4" (uuid 43509ee4-6f09-4187-8010-0f0b051bfc20))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1535,7 +1535,7 @@
     (property "Reference" "D12" (at 158.115 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 159.385 86.36 0)
+    (property "Value" "WS2812B" (at 159.385 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 184.785 88.265 0) (do_not_autoplace)
@@ -1547,16 +1547,16 @@
     (property "LCSC" "C2761795" (at 162.56 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 161.925 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 160.655 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 155.575 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e909fbf-e422-4f53-a4c2-0f5d6f8e70a9))
-    (pin "2" (uuid b725b278-b688-4dc5-ac10-0d3933a1f379))
-    (pin "3" (uuid 93adb998-ba2b-4ae2-86dc-868bf727517f))
-    (pin "4" (uuid a4b79a2d-d398-4ea1-9430-5e2489c1296b))
+    (pin "1" (uuid a8054fcc-f608-4919-85d6-32363765ef36))
+    (pin "2" (uuid 4d9bfc58-7e07-4507-a756-cacfecf26f84))
+    (pin "3" (uuid f8122958-e0c1-4d67-af65-f1506bf8feee))
+    (pin "4" (uuid 68a3cb75-9c23-43cb-9698-e22cd21c28d3))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1572,7 +1572,7 @@
     (property "Reference" "D13" (at 177.165 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 178.435 86.36 0)
+    (property "Value" "WS2812B" (at 178.435 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 203.835 88.265 0) (do_not_autoplace)
@@ -1584,16 +1584,16 @@
     (property "LCSC" "C2761795" (at 181.61 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 180.975 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 179.705 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 174.625 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e73816f-411c-4673-9f1a-673fc309bc1e))
-    (pin "2" (uuid e966ac32-e7e5-4b3e-8cfb-98889ab9f00e))
-    (pin "3" (uuid 6965aa8f-a40c-418d-9e2c-42e3ce550e04))
-    (pin "4" (uuid b05d1809-bc21-4f77-8dea-0ffb8cbdce1e))
+    (pin "1" (uuid 31bad1a1-1917-41f0-852a-9dfc9baaffdf))
+    (pin "2" (uuid 40a44643-5748-44ba-ab37-05fd55dfe916))
+    (pin "3" (uuid 99f1d2f8-0e63-4e9a-877e-bf5601dbd43b))
+    (pin "4" (uuid 78c22772-bdb9-4d8e-85e0-6a9b95c0311c))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1609,7 +1609,7 @@
     (property "Reference" "D14" (at 196.215 69.85 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RGB" (at 197.485 86.36 0)
+    (property "Value" "WS2812B" (at 197.485 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 222.885 88.265 0) (do_not_autoplace)
@@ -1621,16 +1621,16 @@
     (property "LCSC" "C2761795" (at 200.66 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer PN" "WS2812B" (at 200.025 82.55 0) (do_not_autoplace)
+    (property "Manufacturer PN" "WS2812B" (at 198.755 82.55 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Silkscreen" "" (at 193.675 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d793c5d2-8a47-4e9d-8727-3e925d996300))
-    (pin "2" (uuid 3c35dc73-3960-46f3-96e4-74655f6bf515))
-    (pin "3" (uuid 4ea3f434-2055-4ef9-85e4-a325f3666ac5))
-    (pin "4" (uuid 608c6479-2d9c-4a88-8044-348092e8481b))
+    (pin "1" (uuid a2c817d4-fc3f-48dd-8fcd-33809fe42753))
+    (pin "2" (uuid d5436d60-b2c7-4c7d-bfb2-fc9046df1065))
+    (pin "3" (uuid e2601632-7f11-42fe-abff-3962ec6c4c7c))
+    (pin "4" (uuid 014dcc0b-c79a-411e-81e1-b056711fc618))
     (instances
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
@@ -1664,8 +1664,8 @@
     (property "Manufacturer PN" "" (at 262.255 24.765 0)
       (effects (font (size 1.27 1.27)))
     )
-    (pin "1" (uuid 4375a375-f0cf-4328-9afa-bcec79e41951))
-    (pin "2" (uuid 9374ef85-eca7-475f-800c-497cd19e7f1e))
+    (pin "1" (uuid ad2e8a34-2a24-41fd-a720-47ab9fe39724))
+    (pin "2" (uuid 688c5985-0a43-4340-a309-1363fc5257e1))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1700,7 +1700,7 @@
     (property "Datasheet" "" (at 19.05 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd0668e6-dbf2-4915-b8e8-89d707d35f71))
+    (pin "1" (uuid 6e93bf0e-f60a-41c1-b588-0d8169766d2a))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1743,7 +1743,7 @@
       )
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
-          (reference "H1") (unit 1)
+          (reference "MH1") (unit 1)
         )
       )
       (project "ANT SEL PANEL"
@@ -1769,7 +1769,7 @@
     (property "Datasheet" "" (at 239.395 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dd5c7868-789d-4c66-a0de-4eeaabe2b533))
+    (pin "1" (uuid 08837ed6-94a9-47c9-9e20-4fc989200e9a))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1804,7 +1804,7 @@
     (property "Datasheet" "" (at 245.745 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7232c45a-d357-4bc5-80d9-9fba87faedc2))
+    (pin "1" (uuid cb89fd91-d9bb-4bc4-885e-ed1bdfb0c07c))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1839,7 +1839,7 @@
     (property "Datasheet" "" (at 233.045 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3ed543f-9a08-4472-a70a-88b7011b234f))
+    (pin "1" (uuid e095251b-a0de-423e-91dc-b0363785a419))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1874,7 +1874,7 @@
     (property "Datasheet" "~" (at 234.823 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a3c4cbd-485d-4724-a2d8-4b31951bf0c7))
+    (pin "1" (uuid 5333a279-1a3a-41cd-80f2-36c3e438bb60))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1900,7 +1900,7 @@
     (property "Reference" "H3" (at 255.905 85.725 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SxAL" (at 255.905 100.838 0)
+    (property "Value" "Switch_NKK SxAL" (at 255.905 100.838 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "OH_Footprints:SxAL_Toggle_13x13mm" (at 255.905 102.87 0)
@@ -1923,7 +1923,7 @@
       )
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
-          (reference "H3") (unit 1)
+          (reference "MH3") (unit 1)
         )
       )
       (project "ANT SEL PANEL"
@@ -1940,7 +1940,7 @@
     (property "Reference" "#FLG02" (at 273.05 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 278.892 73.406 90)
+    (property "Value" "PWR_FLAG" (at 279.4 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 271.145 73.66 0)
@@ -1949,7 +1949,7 @@
     (property "Datasheet" "~" (at 271.145 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1c76a023-ce25-4b57-aca7-1ae56c625ca9))
+    (pin "1" (uuid 18d76488-e90d-432d-8de4-ba174dafba5d))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -1993,8 +1993,8 @@
     (property "Silkscreen" "" (at 269.875 32.385 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95e7c607-223f-42dc-bfad-5f871cec0e33))
-    (pin "2" (uuid 6605d933-b729-45a2-a14b-ddef493bebcf))
+    (pin "1" (uuid 487064fe-6a80-44f0-9d56-3aafa2515f3a))
+    (pin "2" (uuid 230e2d35-28e1-48eb-aab5-eef1ef9b23b6))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2015,7 +2015,7 @@
   )
 
   (symbol (lib_id "OH_Symbols:LOGO_License_Half_Large") (at 262.255 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2a9f7724-81a2-4fd6-a19d-72ec09ce055c)
     (property "Reference" "LOGO2" (at 262.255 104.14 0)
       (effects (font (size 1.27 1.27)))
@@ -2054,7 +2054,7 @@
     (property "Reference" "#PWR011" (at 274.955 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 266.192 69.596 90)
+    (property "Value" "+5V" (at 265.43 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 271.145 69.85 0)
@@ -2063,7 +2063,7 @@
     (property "Datasheet" "" (at 271.145 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df2f6ed7-8536-47fb-ac68-6fcb74ca25ee))
+    (pin "1" (uuid d57e1422-24c3-42a8-87a6-049b59fc7264))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2083,13 +2083,13 @@
     )
   )
 
-  (symbol (lib_id "OH_Symbols:Molex_2x02_Mini-Fit_Jr.") (at 264.795 52.705 0) (unit 1)
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 264.795 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2cbad5c1-0147-4e4c-a245-e24f3caa650d)
     (property "Reference" "J2" (at 264.795 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Molex 2x02 Mini-Fit Jr." (at 266.065 57.785 0)
+    (property "Value" "Mini-Fit Jr. 2x02" (at 266.065 57.785 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 268.605 67.945 0)
@@ -2153,7 +2153,7 @@
       )
       (project "AV COOL PANEL"
         (path "/de428bbe-e4bb-4bc1-a60e-2bd20b69bb3b"
-          (reference "H2") (unit 1)
+          (reference "MH2") (unit 1)
         )
       )
       (project "ANT SEL PANEL"
@@ -2179,7 +2179,7 @@
     (property "Datasheet" "~" (at 251.968 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2a49c593-b75b-43e5-aa0b-948070e14e04))
+    (pin "1" (uuid 504ba4f1-c4d0-483e-bf72-d5beace26e5d))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2214,7 +2214,7 @@
     (property "Datasheet" "" (at 19.05 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c912b92-77bd-40bf-9ea5-070dd0c1883a))
+    (pin "1" (uuid cfdb4196-f4e4-4f5e-a205-40daa381098d))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2249,7 +2249,7 @@
     (property "Datasheet" "" (at 276.225 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 769b1adb-50ba-4f89-9dab-13ed87cdb429))
+    (pin "1" (uuid 933da318-d45b-41cc-b0fd-b5400cd8e9de))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2293,8 +2293,8 @@
     (property "Silkscreen" "" (at 239.395 27.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b706441a-ab34-499d-9416-2d15475109f0))
-    (pin "2" (uuid c3235eb5-2cd3-42e2-a422-ee7e39248868))
+    (pin "1" (uuid 22d5896a-c08e-416d-ba58-bafb6d21856b))
+    (pin "2" (uuid 6c651cff-2760-44ea-a303-37012be47717))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2314,13 +2314,13 @@
     )
   )
 
-  (symbol (lib_id "OH_Symbols:Molex_2x02_Mini-Fit_Jr.") (at 235.585 52.705 0) (unit 1)
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 235.585 52.705 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63d5b7a2-6998-440d-8685-5c71a1d6d62b)
     (property "Reference" "J1" (at 235.585 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Molex 2x02 Mini-Fit Jr." (at 236.855 57.785 0)
+    (property "Value" "Mini-Fit Jr. 2x02" (at 236.855 57.785 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 239.395 67.945 0)
@@ -2413,7 +2413,7 @@
     (property "Datasheet" "~" (at 251.968 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d3457c87-417e-4b5d-b45f-1556d4094b10))
+    (pin "1" (uuid bb2074cb-775c-467a-bec2-548b4f5bb9a6))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2439,7 +2439,7 @@
     (property "Reference" "#PWR013" (at 264.795 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 266.192 73.406 90)
+    (property "Value" "GND" (at 266.065 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 271.145 73.66 0)
@@ -2448,7 +2448,7 @@
     (property "Datasheet" "" (at 271.145 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a82e426b-78e1-43c8-bc85-42b03685e898))
+    (pin "1" (uuid b88f6ab5-df80-4f2b-b9f8-7ba7d28ca052))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2483,7 +2483,7 @@
     (property "Datasheet" "~" (at 234.823 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e18925d-041c-409b-bd27-0d365c91f667))
+    (pin "1" (uuid b4b4d914-08c1-411d-8cfc-00a3701e7abe))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2518,7 +2518,7 @@
     (property "Datasheet" "" (at 233.045 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 22a23196-6eaa-485f-bc6f-cfe7a041d310))
+    (pin "1" (uuid dc621070-c456-43be-8683-b17aae384db0))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2544,7 +2544,7 @@
     (property "Reference" "#FLG01" (at 273.05 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 278.892 69.596 90)
+    (property "Value" "PWR_FLAG" (at 278.765 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 271.145 69.85 0)
@@ -2553,7 +2553,7 @@
     (property "Datasheet" "~" (at 271.145 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f6c8761-9d37-4733-8c5a-0f955f7dcc87))
+    (pin "1" (uuid 882069d5-e87c-4ea1-a48d-53b22e4d89be))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2588,7 +2588,7 @@
     (property "Datasheet" "" (at 274.955 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5763fcc2-05cb-46f5-bff4-d7f1c302f7f9))
+    (pin "1" (uuid 14231710-bf68-48a8-bb8d-966c369b71c9))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2623,7 +2623,7 @@
     (property "Datasheet" "" (at 227.965 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d0ed96ab-cc79-4370-bdab-7db9612c0d92))
+    (pin "1" (uuid 42fc0739-5aee-4b64-a4fe-7c80055361c8))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2658,7 +2658,7 @@
     (property "Datasheet" "" (at 19.05 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b731bb2-800d-4f58-b84a-36ccb0f17dee))
+    (pin "1" (uuid 7128ed4e-001f-41dc-9be1-cea98b1d7eca))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2693,7 +2693,7 @@
     (property "Datasheet" "" (at 239.395 23.495 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e02435d-e13e-467c-9e81-3eb8934f2d2a))
+    (pin "1" (uuid 3b942cc7-29d4-4499-8d9e-6e57052da17d))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2728,7 +2728,7 @@
     (property "Datasheet" "" (at 263.525 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe2bcae5-3206-4715-978f-5e3e1d8f6a2f))
+    (pin "1" (uuid 223cc546-f373-4a76-91f1-53b195bafc10))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2763,7 +2763,7 @@
     (property "Datasheet" "" (at 19.05 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4cc3d89-e6ef-4284-8e00-bcb33e088025))
+    (pin "1" (uuid 4a1a7ab3-3c32-4ff0-bdaa-1e6f6f50acae))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
@@ -2798,7 +2798,7 @@
     (property "Datasheet" "" (at 257.175 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 021d64d4-8607-48c5-9b97-b315d3e01807))
+    (pin "1" (uuid a4f0ad03-7115-4376-ac8f-3751a82b1c4f))
     (instances
       (project "APU ENG CRANK PANEL"
         (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"

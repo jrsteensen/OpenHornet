@@ -1,20 +1,20 @@
-(footprint "S2AL_Toggle_Silkscreen" (version 20211014) (generator pcbnew)
+(footprint "S2AL_Toggle_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 5FBF1A9E)
   (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "" (at -0.05 9.125) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  (fp_text reference "Ref**" (at 0.254 6.096) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 643d7760-3e41-4cef-bd23-68d206ff4290)
   )
-  (fp_text value "S2AL Toggle" (at -0.075 6.675) (layer "F.SilkS") hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
+  (fp_text value "S2AL Toggle" (at 0 7.62) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2acf0f5d-aa7d-4599-90ff-742ee1263ec8)
   )
-  (fp_text user "2" (at 0.125 3.075) (layer "B.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b6d30806-23a8-41bf-9d98-9a7071034f86)
+  (fp_text user "2" (at -0.254 3.556 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+    (tstamp f48e6e30-f441-404e-8587-f604a947ca2c)
   )
-  (fp_poly (pts
+  (fp_poly
+    (pts
       (xy 0.180394 4.804045)
       (xy 0.22647 4.824138)
       (xy 0.228621 4.825232)
@@ -63,8 +63,11 @@
       (xy 0.102569 4.808415)
       (xy 0.144336 4.799503)
       (xy 0.180394 4.804045)
-    ) (layer "B.SilkS") (width 0.01) (fill solid) (tstamp 763ed442-13e4-4dcf-8979-1b00731ba4c1))
-  (fp_poly (pts
+    )
+
+    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 763ed442-13e4-4dcf-8979-1b00731ba4c1))
+  (fp_poly
+    (pts
       (xy 0.281184 -5.620244)
       (xy 0.450457 -5.610722)
       (xy 0.603262 -5.59425)
@@ -1068,5 +1071,7 @@
       (xy -0.068851 -5.618252)
       (xy 0.104922 -5.62277)
       (xy 0.281184 -5.620244)
-    ) (layer "B.SilkS") (width 0.1) (fill solid) (tstamp 866fb975-3c9f-4aba-8135-aa240f37803f))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 866fb975-3c9f-4aba-8135-aa240f37803f))
 )
