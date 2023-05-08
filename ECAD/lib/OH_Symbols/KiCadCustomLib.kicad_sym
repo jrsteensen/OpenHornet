@@ -16874,7 +16874,7 @@
     (property "Value" "S2_MINI" (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 10.16 1.27 0)
+    (property "Footprint" "OH_Footprints:S2_MINI" (at 10.16 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.wemos.cc/en/latest/s2/s2_mini.html" (at 10.16 1.27 0)
