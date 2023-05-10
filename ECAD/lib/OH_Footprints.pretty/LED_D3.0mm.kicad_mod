@@ -44,4 +44,19 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KICAD_USER_OH_3DMODELS}/LED_D3.0mm_BLUE.step" hide
+    (offset (xyz 0 0 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_USER_OH_3DMODELS}/LED_D3.0mm_RED.step" hide
+    (offset (xyz 0 0 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_USER_OH_3DMODELS}/LED_D3.0mm_YELLOW.step" hide
+    (offset (xyz 0 0 -3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
