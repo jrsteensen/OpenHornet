@@ -7,11 +7,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp df374c57-e896-4c12-93d1-adff1f015e21)
   )
-  (fp_text value "Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" (at 9.906 8.382) (layer "F.SilkS")
+  (fp_text value "Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical" (at 0 11.176) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a25cdf71-ec60-4c2e-991e-a082c1a86a57)
   )
-  (fp_text user "${REFERENCE}" (at 4.572 -3.81) (layer "F.Fab")
+  (fp_text user "BUS IN" (at 9.144 8.382) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2a118ba9-1dce-4023-bae5-83c4cf4a4caf)
+  )
+  (fp_text user "${REFERENCE}" (at 4.572 -3.81) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6ebeba68-41aa-4a00-8cc5-1ec990963da4)
   )
