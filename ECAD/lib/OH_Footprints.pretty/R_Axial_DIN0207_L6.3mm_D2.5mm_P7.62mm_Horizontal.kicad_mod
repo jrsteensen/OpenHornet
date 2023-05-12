@@ -49,7 +49,22 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 694fb7f2-d978-445f-b850-6ab812c4aaa9))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp c14c180f-67b9-4b1d-baa5-a14b9bcc3b3d))
   (pad "2" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 9ccb4d8a-3794-4249-b718-ff82742f5f06))
-  (model "${KICAD_USER_OH_3DMODELS}/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+  (model "${KICAD_USER_OH_3DMODELS}/R_Axial_56.STEP"
+    (offset (xyz -1.25 0 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD_USER_OH_3DMODELS}/R_Axial_150.STEP" hide
+    (offset (xyz -1.25 0 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD_USER_OH_3DMODELS}/R_Axial_560.STEP" hide
+    (offset (xyz -1.25 0 -1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+  (model "${KICAD_USER_OH_3DMODELS}/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
