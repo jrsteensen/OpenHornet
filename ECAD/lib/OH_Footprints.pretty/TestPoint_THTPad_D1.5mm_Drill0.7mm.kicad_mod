@@ -3,7 +3,7 @@
   (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
   (tags "test point THT pad")
   (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "TP1" (at 0 -2.032) (layer "F.SilkS")
+  (fp_text reference "TP1" (at 0 -2.032) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 722a7538-22b0-47fe-9452-3d9e649c88de)
   )
@@ -11,11 +11,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8cd8289a-94c6-4240-a1e2-781efcc3c73d)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.032) (layer "B.SilkS")
+  (fp_text user "${Silkscreen}" (at 0 2.032) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 010121f2-47f9-4a9a-854e-6481dd81dba2)
   )
-  (fp_text user "${REFERENCE}" (at 0 -1.65) (layer "F.Fab") hide
+  (fp_text user "${Silkscreen}" (at 0 -1.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8e440002-40aa-4b33-9f67-a693d89a7636)
   )
