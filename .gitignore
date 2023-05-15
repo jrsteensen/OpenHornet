@@ -1,9 +1,16 @@
-*.bak
+# KiCAD files to ignore.
+*-rescue.dcm
+*-rescue.lib
+*.kicad_prl
 fp-info-cache
+fp-lib-table
+sym-lib-table
+*.bak
 *.kicad_pcb-bak
 *.sch-bak
+*-backups
+
+# Misc files to ignore.
 .DS_Store
 ~*.*
 doxyHtml
-*-rescue.dcm
-*-rescue.lib
