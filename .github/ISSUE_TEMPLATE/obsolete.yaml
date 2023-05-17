@@ -1,0 +1,105 @@
+name: Obsolescence Report
+description: Report a(n) obsolete part(s)
+title: "[Obsolescence]: "
+labels: ["Type: Bug/Obsolesce", "Triage Required"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this obsolescence report! OpenHornet lives on its community contributions and reports!
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Username
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. Noctum#4085
+    validations:
+      required: false
+  - type: textarea
+    id: summary
+    attributes:
+      label: Issue Summary
+      description: Please summarize your issue here. Be as specific as possible.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: applicable-cots-part-number
+    attributes: 
+      label: Applicable COTS Part Number
+      description: What is the Commercial-Off-The-Shelf (COTS) Manufacturer and Part Number?
+      placeholder: ex. 93325A415
+    validations:
+      required: true
+  - type: input
+    id: applicable-oh-part-numbers
+    attributes:
+      label: Applicable OH Part Numbers
+      description: List the part number(s) this issue applies to so we can find where its used in the sim.
+      placeholder: ex. OH02A5-136, OH04A2-1, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: images
+    attributes: 
+      label: Screenshots/Images/Files
+      description: Pictures/Files are worth 1000 words. Take some screen grab of the model, circle things with the snipping tool, put together a quick power point description of the issue, drop in a STEP/F3Z file of a fix you made - you can't put too much information here!
+      placeholder: You can just paste images or files in this field...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Release Version
+      description: What release are you working with?
+      options:
+        - 1.0.0-beta.1
+        - pre-1.0.0-beta.1 (Early Development/Alpha)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Is this a mechanical and/or electrical issue or artwork? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. (You may select more than one.) 
+      multiple: true
+      options:
+        - Mechanical (Structure/Panels/Mechanisms)
+        - Electrical (PCBs/Wiring/etc)
+    validations:
+        required: true
+  - type: dropdown
+    id: end-item
+    attributes:
+      label: Applicable End Item(s)
+      description: What End Item(s) does this issue apply to? 
+      multiple: true
+      options:
+        - Top Level Assembly (TLA)
+        - Upper Instrument Panel (UIP)
+        - Lower Instrument Panel (LIP)
+        - Center Tub (CT)
+        - Left Console (LCON)
+        - Right Console (RCON)
+        - Flight Stick
+        - Throttle
+    validations:
+        required: true
+  - type: checkboxes
+    id: built-to-print
+    attributes:
+      label: Built to print?
+      description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
+      options:
+        - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
+	validations:
+      required: false
+  - type: textarea
+    id: misc
+    attributes: 
+      label: Miscellaneous Info
+      description: Do you have any additional information not previously covered?
+      placeholder: This space would be to provide specific applicable model names and versions, deviations from the OpenHornet build, or provide any information that is not covered elsewhere in this report.
+    validations:
+      required: false
