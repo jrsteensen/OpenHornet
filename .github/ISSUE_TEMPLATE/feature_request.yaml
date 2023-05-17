@@ -1,12 +1,12 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["Type: Bug/Obsolesce", "Triage Required"]
+name: Feature/Enhancement Request
+description: Request a new feature or enhancement
+title: "[FEATURE REQUEST]: "
+labels: ["Type: Enhancement", "Triage Required"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! OpenHornet lives on its community contributions and reports!
+        Thanks for taking the time to fill out this feature request! OpenHornet lives on its community contributions and reports!
   - type: input
     id: contact
     attributes:
@@ -18,25 +18,9 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Bug Summary
+      label: Feature/Enhancement Summary
       description: Please summarize your issue here. Be as specific as possible.
-      placeholder: Tell us what you see!
-    validations:
-      required: true
-  - type: textarea
-    id: expected-results
-    attributes: 
-      label: Expected Results
-      description: What did you expect to happen?
-      placeholder: Be very specific. The more detail, the better we can analyze the issue.
-    validations:
-      required: true
-  - type: textarea
-    id: actual-results
-    attributes: 
-      label: Actual Results
-      description: What actually happened?
-      placeholder: Be very specific. The more detail, the better we can analyze the issue.
+      placeholder: Tell us what you want see!
     validations:
       required: true
   - type: textarea
@@ -47,6 +31,14 @@ body:
       placeholder: You can just paste images or files in this field...
     validations:
       required: false
+  - type: textarea
+    id: justification
+    attributes: 
+      label: Justification
+      description: Why would this improve OpenHornet? 
+      placeholder: Does it give OpenHornet new capabilities, or allow you to build it faster, cheaper, easier, or better?
+    validations:
+      required: true
   - type: input
     id: part-numbers
     attributes:
@@ -92,16 +84,9 @@ body:
         - Right Console (RCON)
         - Flight Stick
         - Throttle
+        - Something else
     validations:
         required: true
-  - type: checkboxes
-    id: built-to-print
-    attributes:
-      label: Built to print?
-      description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
-      options:
-        - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
-          required: false
   - type: textarea
     id: misc
     attributes: 
