@@ -7,11 +7,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1b5bb297-2487-45ad-a924-0a747fd30501)
   )
-  (fp_text value "FROM SIM PWR" (at 1.07 10.16 180) (layer "F.SilkS")
+  (fp_text value "FROM SIM PWR" (at 1.07 10.16 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cdb16dcf-a94f-4776-b986-ceed8149a98b)
   )
-  (fp_text user "${REFERENCE}" (at 1.27 3.81 -90) (layer "F.Fab")
+  (fp_text user "${Silkscreen}" (at 1.27 11.43) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6aef9f7f-a75c-47a9-bc4c-1319715b671c)
+  )
+  (fp_text user "${REFERENCE}" (at 1.27 3.81 -90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ee31aca5-221b-4a0b-812a-6ec96f5cdbfb)
   )
