@@ -43,11 +43,10 @@ body:
     id: images
     attributes: 
       label: Screenshots/Images/Files
-      description: Pictures/Files are worth 1000 words. Take some screen grab of the model, circle things with the snipping tool, put together a quick power point description of the issue, drop in a STEP/F3Z file of a fix you made - you can't put too much information here!
+      description: Pictures/Files are worth 1000 words. Take a screen grab of the manufacturer website showing its obsolete, or from Digikey or Mouser or Octopart.
       placeholder: You can just paste images or files in this field...
     validations:
       required: false
-
   - type: dropdown
     id: version
     attributes:
@@ -93,7 +92,7 @@ body:
       description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
       options:
         - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
-        required: false
+          required: false
   - type: textarea
     id: misc
     attributes: 
