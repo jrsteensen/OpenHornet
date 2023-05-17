@@ -1,4 +1,4 @@
-name: Bug Report
+name: Obsolescence Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["Type: Bug/Obsolesce", "Triage Required"]
@@ -69,11 +69,12 @@ body:
     id: category
     attributes:
       label: Category
-      description: Is this a mechanical and/or electrical issue? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. (You may select more than one.) 
+      description: Is this a mechanical and/or electrical issue or artwork? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. Artwork would be placards, stickers, dataplates or a vector art issue. (You may select more than one.) 
       multiple: true
       options:
-        - Mechanical
-        - Electrical
+        - Mechanical (Structure/Panels/Mechanisms)
+        - Electrical (PCBs/Wiring/etc)
+		- Artwork (Decals)
     validations:
         required: true
   - type: dropdown
