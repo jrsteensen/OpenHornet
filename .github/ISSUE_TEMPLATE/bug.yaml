@@ -101,6 +101,7 @@ body:
       description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
       options:
         - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
+        - label: I am not building this part to the OH print. (List deviations in detail in the Miscellaneous Info text area below.)
           required: false
   - type: textarea
     id: misc
