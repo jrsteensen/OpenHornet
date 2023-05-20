@@ -12,8 +12,6 @@ Please delete options that are not relevant.
 - [ ] Change MCAD (fixed issue with existing MCAD model)
 - [ ] New ECAD (new PCB)
 - [ ] Change ECAD (fixed issue with existing PCB)
-- [ ] New software module (new software module for slave)
-- [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
@@ -34,7 +32,6 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 # Checklist: (Delete non-relevant sections)
 
 ## MCAD:
-- [ ] Model is in SolidWorks 2019 format
 - [ ] Design intent and requirements have been met
 - [ ] Design has been fit checked to ensure no interferences exist
 - [ ] Design has been integrated into Next Higher Assembly (NHA)
