@@ -1,11 +1,11 @@
 (footprint "100SP1_Toggle_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "Ref**" (at 0 9.15) (layer "F.SilkS") hide
+  (fp_text reference "LOGO" (at 0 9.15) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3) italic))
     (tstamp 360a5e37-c739-428f-8df4-0cf872100465)
   )
-  (fp_text value "100SP1 Toggle" (at -0.2 6.9) (layer "F.SilkS") hide
+  (fp_text value "LOGO" (at -0.2 6.9) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3) italic))
     (tstamp 29858051-4b53-429b-9920-d4bca1410f6e)
   )

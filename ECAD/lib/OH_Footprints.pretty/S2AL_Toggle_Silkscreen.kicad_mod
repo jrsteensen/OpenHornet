@@ -1,11 +1,11 @@
 (footprint "S2AL_Toggle_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "Ref**" (at 0.254 6.096) (layer "F.Fab") hide
+  (fp_text reference "LOGO" (at 0.254 6.096) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 643d7760-3e41-4cef-bd23-68d206ff4290)
   )
-  (fp_text value "S2AL Toggle" (at 0 7.62) (layer "F.Fab") hide
+  (fp_text value "LOGO" (at 0 7.62) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2acf0f5d-aa7d-4599-90ff-742ee1263ec8)
   )

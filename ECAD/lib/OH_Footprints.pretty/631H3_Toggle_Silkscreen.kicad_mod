@@ -1,11 +1,11 @@
 (footprint "631H3_Toggle_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "Ref**" (at 0 10.1) (layer "F.SilkS") hide
+  (fp_text reference "LOGO" (at 0 10.1) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 53f22ac0-d2c7-4b88-9144-87ce94fd6630)
   )
-  (fp_text value "631H Toggle" (at 0.075 7.7) (layer "F.SilkS") hide
+  (fp_text value "LOGO" (at 0.075 7.7) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 238ddd98-ab85-45a7-b550-0daaf77145ec)
   )
