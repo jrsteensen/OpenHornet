@@ -57,24 +57,20 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|109537500|59489600|175562c3-e2db-4bd8-90af-7bae7936fb52|b7957437-37f7-41ba-b951-3e60845c67df",
-        "clearance|109537500|59489600|b7957437-37f7-41ba-b951-3e60845c67df|175562c3-e2db-4bd8-90af-7bae7936fb52",
-        "clearance|118110000|89017099|07c04fa0-711c-4e9e-8caa-25da1b94a0f8|db88ff1e-906c-4668-9e27-df42fecd6158",
-        "clearance|118110000|89017099|db88ff1e-906c-4668-9e27-df42fecd6158|07c04fa0-711c-4e9e-8caa-25da1b94a0f8",
-        "clearance|168275000|59489600|98380cd5-4bf2-476e-8147-798c1eada93b|9ca7f495-1168-4df9-bef7-ae6a64106799",
-        "clearance|168275000|59489600|9ca7f495-1168-4df9-bef7-ae6a64106799|98380cd5-4bf2-476e-8147-798c1eada93b",
-        "clearance|227012000|59489600|d77d2679-0ef7-44f3-9ec0-516e0fc10c5f|e94f1d0b-21ab-4550-8def-aa0c43a8459d",
-        "clearance|227012000|59489600|e94f1d0b-21ab-4550-8def-aa0c43a8459d|d77d2679-0ef7-44f3-9ec0-516e0fc10c5f",
-        "hole_clearance|139700000|46964600|0ca99e03-49c8-4c57-b6c0-54e1468af40b|b0c0167f-ab37-4db7-9f69-6bc920e93b01",
-        "hole_clearance|139700000|56489600|0ca99e03-49c8-4c57-b6c0-54e1468af40b|b0c0167f-ab37-4db7-9f69-6bc920e93b01",
-        "hole_clearance|146050000|76492099|042e4e0a-feae-4d40-b5c4-85a0f988abb2|23585858-b4a1-46a2-9867-eeb9c781b9eb",
-        "hole_clearance|146050000|86017099|042e4e0a-feae-4d40-b5c4-85a0f988abb2|23585858-b4a1-46a2-9867-eeb9c781b9eb",
-        "hole_clearance|176530000|76492099|8d4f119c-4aa1-4e1b-b9cc-97154520456f|993f0b53-3b9a-489c-b919-1758feee389a",
-        "hole_clearance|176530000|86017099|8d4f119c-4aa1-4e1b-b9cc-97154520456f|993f0b53-3b9a-489c-b919-1758feee389a",
-        "hole_clearance|196850000|46964600|3dc5183b-e40a-4133-a3ca-17f4a78b05ac|f03ec726-d33c-4648-bc4a-dd2b10000e12",
-        "hole_clearance|196850000|56489600|3dc5183b-e40a-4133-a3ca-17f4a78b05ac|f03ec726-d33c-4648-bc4a-dd2b10000e12",
-        "hole_clearance|79375000|46964600|eb8334ac-55eb-453b-9bfe-01b7004bfe85|d878f712-eb38-48a8-b3b5-94f43e523290",
-        "hole_clearance|79375000|56489600|eb8334ac-55eb-453b-9bfe-01b7004bfe85|d878f712-eb38-48a8-b3b5-94f43e523290"
+        "clearance|109537500|59489600|4a848af3-e88f-47ad-9e62-05956bffcef0|bf85d6e5-2af7-4a3a-8626-63ed2db6b767",
+        "clearance|118110000|89017099|59c1c680-79a6-4049-8a6a-1d5d288f557c|d0debd96-6f8b-4b43-9297-3741bd50a73d",
+        "clearance|168275000|59489600|0c8f902b-165d-4e87-89f5-2f7d68b3ee63|3500688e-17ea-458d-bc24-b6f8adb67d9f",
+        "clearance|227012000|59489600|f083a656-ff53-4bed-9262-715b82844bf3|1bc16349-0d7a-4c76-9684-591eba5ee64d",
+        "hole_clearance|139700000|46964600|135fe9d2-7270-4344-a1b2-bf63c6db6cb1|ec9e920a-0827-40e5-b6a8-884726d3106f",
+        "hole_clearance|139700000|56489600|135fe9d2-7270-4344-a1b2-bf63c6db6cb1|ec9e920a-0827-40e5-b6a8-884726d3106f",
+        "hole_clearance|146050000|76492099|831a4221-ad0f-4589-ac46-314122008e58|3e7eb957-9d8d-445f-bf6f-8d4e9ebc35bd",
+        "hole_clearance|146050000|86017099|831a4221-ad0f-4589-ac46-314122008e58|3e7eb957-9d8d-445f-bf6f-8d4e9ebc35bd",
+        "hole_clearance|176530000|76492099|f9092f77-126f-45eb-aed9-9c934ae86929|901b5b48-1a15-4ad7-816a-542df14df6da",
+        "hole_clearance|176530000|86017099|f9092f77-126f-45eb-aed9-9c934ae86929|901b5b48-1a15-4ad7-816a-542df14df6da",
+        "hole_clearance|196850000|46964600|a412f127-6753-4889-b9db-fdc16b2dd75a|23e8334b-225e-4932-b15a-324cd3b5e61f",
+        "hole_clearance|196850000|56489600|a412f127-6753-4889-b9db-fdc16b2dd75a|23e8334b-225e-4932-b15a-324cd3b5e61f",
+        "hole_clearance|79375000|46964600|42bf2fd4-7c39-457e-bb46-63f6a212cb92|c3e4ace4-37be-4310-a61e-600746c1ab9e",
+        "hole_clearance|79375000|56489600|42bf2fd4-7c39-457e-bb46-63f6a212cb92|c3e4ace4-37be-4310-a61e-600746c1ab9e"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -424,7 +420,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -498,7 +494,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "+5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
