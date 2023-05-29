@@ -22,7 +22,7 @@
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -39,6 +39,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -65,7 +66,7 @@
       37,
       39
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fc3feff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -73,6 +74,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "SELECT JETT PANEL.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 2576,
+          "size_y": 1416
+        }
+      },
+      {
+        "name": "SELECT JETT PANEL.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -2568,
+          "pos_y": -3,
+          "size_x": 2576,
+          "size_y": 1416
+        }
+      }
+    ]
   }
 }
