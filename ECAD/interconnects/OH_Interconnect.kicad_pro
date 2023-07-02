@@ -321,7 +321,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "${KICAD_USER_OH_TEMPLATES}/OH_DWG_TEMPLATE.kicad_wks",
-    "plot_directory": "./",
+    "plot_directory": "../../release/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
