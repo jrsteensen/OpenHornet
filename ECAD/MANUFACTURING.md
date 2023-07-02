@@ -69,7 +69,7 @@ YES!!!!!!!
 ![image](https://user-images.githubusercontent.com/81926396/215981263-53a3a183-a21b-44ff-99a5-7406750414ac.png)
 
 ## Step 6:  Selecting Parts
-By default, JLC will load the parts selected based on the BOM provided as long as the LCSC Part Numbers are correct.  If for any reason, it doesn't recognize a part number, please contact us.  We've worked diligently to ensure everything is correct, but mistakes happen.  If there is an inventory shortage, you can change the part by clicking on it and searching for similar components.  Another option for inventory shortages is to pre-order the parts, see Parts Manager below.
+By default, JLC will load the parts selected based on the BOM provided as long as the LCSC Part Numbers are correct.  If for any reason, it doesn't recognize a part number, please contact us.  We've worked diligently to ensure everything is correct, but mistakes happen.  If there is an inventory shortage, you can change the part by clicking on it and searching for similar components.  Another option for inventory shortages is to pre-order the parts, see pre-ordering parts section in this guide.
 
 ![image](https://user-images.githubusercontent.com/81926396/215982819-4efc6f47-c2b5-4d12-a0c0-544e05f126d5.png)
 
