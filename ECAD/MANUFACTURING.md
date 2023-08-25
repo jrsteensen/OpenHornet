@@ -98,7 +98,7 @@ Use the part number or other information to search for the part.  Parts that JLC
 
 <img width="961" alt="image" src="https://github.com/Arribe/OpenHornet/assets/47125808/d2c7e42c-2dcc-4158-b76d-f7cdd6837b52">
 
-## Step 4: Ender the quantity and click Add to My Part Lib for Assembly
+## Step 4: Enter the quantity and click Add to My Part Lib for Assembly
 
 <img width="1153" alt="image" src="https://github.com/Arribe/OpenHornet/assets/47125808/29d12e07-6ed8-4522-8fdf-a8779e5b3b86">
 
