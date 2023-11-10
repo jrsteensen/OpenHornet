@@ -102,7 +102,7 @@ body:
       options:
         - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
         - label: I am not building this part to the OH print. (List deviations in detail in the Miscellaneous Info text area below.)
-          required: true
+          required: false
   - type: textarea
     id: misc
     attributes: 
