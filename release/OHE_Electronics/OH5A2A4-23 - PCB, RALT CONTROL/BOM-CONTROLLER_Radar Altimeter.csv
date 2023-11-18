@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+MAX487EESA+T,U1,SOIC-8_3.9x4.9mm_P1.27mm,C116539
+120,"R1,R2",R_0805_2012Metric,C17437
+BL IN,"J3,J4",Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical,C293502
+0.1uF,C1,C_0805_2012Metric,C49678
+BUS IN,"J1,J2",Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,C505177
+ProMicro,U0,DIP-24_W15.24mm_Socket,C72120
+POT,J17,PinHeader_1x03_P2.54mm_Vertical,
+BL_DOUT,JP2,PinHeader_1x03_P2.54mm_Vertical,
+BL_DIN,JP1,PinHeader_1x03_P2.54mm_Vertical,
+PUSH,J16,PinHeader_1x02_P2.54mm_Vertical,
+SERVO,J15,PinHeader_1x03_P2.54mm_Vertical,
+RED LED,J14,PinHeader_1x02_P2.54mm_Vertical,
+GRN LED,J13,PinHeader_1x02_P2.54mm_Vertical,
+STEPPER,J5,PinHeader_2x05_P2.54mm_Vertical,

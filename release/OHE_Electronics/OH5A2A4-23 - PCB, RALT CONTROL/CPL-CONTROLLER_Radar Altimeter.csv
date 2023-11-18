@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0805_2012Metric,-90.24524,79.005,90.0,top
+J5,STEPPER,PinHeader_2x05_P2.54mm_Vertical,-58.66424,58.075,180.0,top
+J13,GRN LED,PinHeader_1x02_P2.54mm_Vertical,-89.38924,43.725,0.0,top
+J14,RED LED,PinHeader_1x02_P2.54mm_Vertical,-85.38924,43.725,0.0,top
+J15,SERVO,PinHeader_1x03_P2.54mm_Vertical,-93.38924,42.475,0.0,top
+J16,PUSH,PinHeader_1x02_P2.54mm_Vertical,-83.38924,72.725,0.0,top
+J17,POT,PinHeader_1x03_P2.54mm_Vertical,-65.86424,49.0,90.0,top
+R1,120,R_0805_2012Metric,-83.26024,38.746,-90.0,top
+R2,120,R_0805_2012Metric,-81.10124,38.7225,90.0,top
+U0,ProMicro,DIP-24_W15.24mm_Socket,-71.76424,67.025,0.0,top
+U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,-85.38924,79.0,180.0,top
