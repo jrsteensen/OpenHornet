@@ -6,12 +6,12 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 * [OpenHornet Discord](https://discord.gg/openhornet)
 * [Donate to OpenHornet](https://openhornet.com/#awb-oc__2834)
 
-* If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
+If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
 ## License
+See LICENSE.pdf in this package for more information on our license.
 ![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
 [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-* See LICENSE.pdf in this package for more information on our license.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -75,15 +75,15 @@ OpenHornet Release Package (v...).zip
 * [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
 
 ### OpenHornet MCAD Model
-* These links will allow you to download a local copy of the OH MCAD model, for reference or so you can modify things for your personal pit. If you would like to contribute to the raw MCAD, talk to Noctum in the OH Discord. You will need to prove a basic level of proficiency and be known within the discord community before access will be granted.
-[!NOTE] These links will download the latest & greatest (most likely in development and unstable) MCAD. Always verify fusion parts against release package manufacturing files prior to use, and they are used at the user's own risk.
+These links will allow you to download a local copy of the OH MCAD model, for reference or so you can modify things for your personal pit. If you would like to contribute to the raw MCAD, talk to Noctum in the OH Discord. You will need to prove a basic level of proficiency and be known within the discord community before access will be granted.
+* [!NOTE] These links will download the latest & greatest (most likely in development and unstable) MCAD. Always verify fusion parts against release package manufacturing files prior to use, and they are used at the user's own risk.
 
 * [Top Level](https://a360.co/3SuPQGs) - This is HUGE. Consider downloading individual consoles instead.
-* [Upper Instrument Panel (UIP)](https://a360.co/3LHxMXd) - This is HUGE. Consider downloading individual consoles instead.
-* [Lower Instrument Panel (LIP)](https://a360.co/3SbD7sc) - This is HUGE. Consider downloading individual consoles instead.
-* [Left Console (LC)](https://a360.co/3dBR57I) - This is HUGE. Consider downloading individual consoles instead.
-* [Right Console (RC)](https://a360.co/37pBiWj) - This is HUGE. Consider downloading individual consoles instead.
-* [Center Tub (CT)](https://a360.co/3LKM3mc) - This is HUGE. Consider downloading individual consoles instead.
+* [Upper Instrument Panel (UIP)](https://a360.co/3LHxMXd)
+* [Lower Instrument Panel (LIP)](https://a360.co/3SbD7sc)
+* [Left Console (LC)](https://a360.co/3dBR57I)
+* [Right Console (RC)](https://a360.co/37pBiWj)
+* [Center Tub (CT)](https://a360.co/3LKM3mc)
 
 ### Social Media Links
 * [YouTube](https://www.youtube.com/@OpenHornet)
