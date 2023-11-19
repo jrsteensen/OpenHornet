@@ -20,19 +20,15 @@
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
-* [OpenHornet Website](https://www.openhornet.com)
-* [Donate to OpenHornet](https://openhornet.com/#awb-oc__2834)
-
 If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
 ## Contributing
-Want to contribute? Let's discuss it in Discord or in an issue!
-* [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/wiki/Contributing)
+[Want to contribute?](https://github.com/jrsteensen/OpenHornet/wiki/Contributing) Let's discuss it in Discord or in an issue!
 
 ## Software
 v0.2.0 release is a hardware beta release (i.e. mechanical parts and PCBs.) Software is not yet available, however v0.3.0 will focus on software development.
 * We will rely heavily on community contributions. If you know your way around the Arduino ecosystem, please consider contributing.
-### OpenHornet software
+### OpenHornet Software
 * [OpenHornet GitHub Software Repository](https://github.com/jrsteensen/OpenHornet-Software)
 ### Sim Software Requirements
 * [DCS w/ F/A-18C module](https://www.digitalcombatsimulator.com/en/shop/modules/hornet/)
