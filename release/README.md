@@ -5,11 +5,12 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) 
 ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
 
-[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) 
-[![Website](https://img.shields.io/badge/Website-blue?logo=internetarchive)](https://www.openhornet.com) 
-[![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) 
-[![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) 
-[![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
+[![Donate](https://img.shields.io/badge/donate_to_openhornet-yellow?logo=paypal)](https://openhornet.com/#awb-oc__2834)
+[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=discord)](https://discord.gg/openhornet) 
+[![Website](https://img.shields.io/badge/website-blue?logo=internetarchive)](https://www.openhornet.com) 
+[![YouTube](https://img.shields.io/badge/youtube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) 
+[![Facebook](https://img.shields.io/badge/facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) 
+[![TikTok](https://img.shields.io/badge/tiktok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
 
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) 
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) 
