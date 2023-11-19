@@ -1,5 +1,9 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
+![Static Badge](https://img.shields.io/badge/version-0.2.0-brightgreen) ![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&link=https%3A%2F%2Fdiscord.gg%2Fopenhornet)
+
+![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
+
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
 * [OpenHornet Website](https://www.openhornet.com)
@@ -10,6 +14,7 @@ If you have any questions, visit our Discord server and ask questions. The Disco
 
 ## License
 See LICENSE.pdf in this package for more information on our license.
+
 ![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
 [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
@@ -76,7 +81,8 @@ OpenHornet Release Package (v...).zip
 
 ### OpenHornet MCAD Model
 These links will allow you to download a local copy of the OH MCAD model, for reference or so you can modify things for your personal pit. If you would like to contribute to the raw MCAD, talk to Noctum in the OH Discord. You will need to prove a basic level of proficiency and be known within the discord community before access will be granted.
-* [!NOTE] These links will download the latest & greatest (most likely in development and unstable) MCAD. Always verify fusion parts against release package manufacturing files prior to use, and they are used at the user's own risk.
+> [!NOTE] 
+> These links will download the latest & greatest (most likely in development and unstable) MCAD. Always verify fusion parts against release package manufacturing files prior to use, and they are used at the user's own risk.
 
 * [Top Level](https://a360.co/3SuPQGs) - This is HUGE. Consider downloading individual consoles instead.
 * [Upper Instrument Panel (UIP)](https://a360.co/3LHxMXd)
