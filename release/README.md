@@ -18,9 +18,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
 
-The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
+OpenHornet is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
-If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
+If you have any questions, read this document, visit the resources linked within, and then visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
 ## Contributing
 [Want to contribute?](https://github.com/jrsteensen/OpenHornet/wiki/Contributing) Let's discuss it in Discord or in an issue!
