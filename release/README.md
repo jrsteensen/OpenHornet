@@ -1,8 +1,9 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
-[![Website](https://img.shields.io/badge/OpenHornet_Website-brightgreen)](https://www.openhornet.com) [![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)
-](https://discord.gg/openhornet)
+
+[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/Website-blue)](https://www.openhornet.com) [![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) [![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) [![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
+
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet) ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
 
