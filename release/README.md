@@ -1,10 +1,20 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) [![License](https://img.shields.io/badge/License_CC_BY--NC--SA_4.0?logo=creativecommons&label=blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) 
+[![Static Badge](https://img.shields.io/badge/License-BY--NC--SA_4.0-blue?logo=creativecommons)](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) 
+![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
 
-[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/Website-blue?logo=internetarchive)](https://www.openhornet.com) [![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) [![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) [![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
+[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) 
+[![Website](https://img.shields.io/badge/Website-blue?logo=internetarchive)](https://www.openhornet.com) 
+[![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) 
+[![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) 
+[![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
 
-![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet) ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
+![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) 
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) 
+![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet) 
+![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
