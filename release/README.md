@@ -1,6 +1,6 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) [![Static Badge](https://img.shields.io/badge/License_CC_BY--NC--SA_4.0?logo=creativecommons&label=blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) [![License](https://img.shields.io/badge/License_CC_BY--NC--SA_4.0?logo=creativecommons&label=blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
 
 [![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/Website-blue?logo=internetarchive)](https://www.openhornet.com) [![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) [![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) [![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
 
