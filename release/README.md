@@ -2,50 +2,103 @@
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
 
-Currently, this repo reflects the project in its current state and is not 100% functional, and all items are subject to change.
-
 * [OpenHornet Website](https://www.openhornet.com)
 * [OpenHornet Discord](https://discord.gg/openhornet)
 * [Donate to OpenHornet](https://openhornet.com/#awb-oc__2834)
 
 * If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
-![Overall Screen Grab](https://github.com/jrsteensen/OpenHornet/blob/master/images/Glareshields.2019.10.21.PNG)
-
-## Sim Software Requirements
-* [DCS w/ F/A-18C module](https://www.digitalcombatsimulator.com/en/shop/modules/hornet/)
-* [DCSFlightPanels DCS-BIOS](https://github.com/DCSFlightpanels/dcs-bios)
-
-## Design Software Requirements
-* Mechanical CAD Software Required: Fusion360
-* Electrical CAD Software Required: KiCAD 7
-* Microsoft Office (or compatible)
-
 ## License
 ![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
 [CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* See LICENSE.pdf in this package for more information on our license.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-* [Contributing HOW-TO](CONTRIBUTING.md)
+* [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/wiki/Contributing)
 
-## OpenHornet MCAD Model
+## Software
+v0.2.0 release is a hardware beta release (i.e. mechanical parts and PCBs.) Software is not yet available, however v0.3.0 will focus on software development.
+* We will rely heavily on community contributions. If you know your way around the Arduino ecosystem, please consider contributing.
+### OpenHornet software
+* [OpenHornet GitHub Software Repository](https://github.com/jrsteensen/OpenHornet-Software)
+### Sim Software Requirements
+* [DCS w/ F/A-18C module](https://www.digitalcombatsimulator.com/en/shop/modules/hornet/)
+* [DCS-Skunkworks DCS-BIOS](https://github.com/DCS-Skunkworks/dcs-bios)
 
-Top Level Link: https://a360.co/3SuPQGs
-UIP: https://a360.co/3LHxMXd
-LIP: https://a360.co/3SbD7sc
-LC: https://a360.co/3dBR57I
-RC: https://a360.co/37pBiWj
-CT: https://a360.co/3LKM3mc
+## Supporting OpenHornet
+OpenHornet is created by a community of developers and contributors. OpenHornet has quite a few expenses associated with it that are required to keep this project available to the public and to continue development. Other cockpit plans may cost over $250 USD just for a MDF frame, before you ever get to start building anything! Please support OpenHornet and the countless hours that have gone into developing it.
+* There are two ways to support OpenHornet - purchase a Discord server monthly subscription (preferred) or make a one-time donation on our website.
+  * [Discord Server Subscription](https://discord.com/servers/openhornet-f-a-18c-simpit-392833351238811648)
+    * There are three tiers of subscription available, Basic, Elite, and Ultimate. You can also subscribe via the Server Shop button in the Channel List of the OH Discord Server.
+  * [Donate to OpenHornet via our Website](https://openhornet.com/#awb-oc__2834)
+  
+## References, Information, and How-Tos
+
+### Release Package File Structure
+Displays the typical file structure of this release package with a short explanation of the contents of the file structure. This may not be an exact structure, but is intended to establish the organization thought process behind the release package file structure.
+```
+OpenHornet Release Package (v...).zip
+├── OH1_Upper_Instrument_Panel
+│   ├── manufacturing (Manufacturing files for the top level console, if applicable.)
+│   │   ├── *.3mf (3D printed parts (FDM & Resin), i.e. handles, bezels, etc.)
+│   │   ├── *.svg (Flat parts, i.e. MDF structure, metal plates, etc.)
+│   │   ├── *.dxf (Flat patterns for bent parts)
+│   │   └── *.step (Complex fabricated parts, i.e. ALU shafts with holes drilled in them, etc.)
+|   ├── OH1A2 - ASSY, PANEL, MASTER ARM
+│   │   └── manufacturing (Manufacturing files for this assembly)
+│   │       ├── *.3mf 
+│   │       ├── *.svg
+│   │       ├── *.dxf
+│   │       └── *.step
+|   ├── OH1A...
+│   └── OH1A1-1 - ASSY, UPPER INSTRUMENT PANEL_-_v11.pdf (Drawings for this level of the drawing tree)
+├── OH2_Lower_Instrument_Panel (Same structure as OH1...)
+├── OH3_Center_Tub (Same structure as OH1...)
+├── OH4_Left_Console (Same structure as OH1...)
+├── OH5_Right_Console (Same structure as OH1...)
+├── OHC_Common_Parts (Same structure as OH1... except for OHC part numbers found in the consoles)
+├── OHE_Electronics (Contains all PCB manufacturing and reference files)
+├── OHM_Modifications (Contains optional parts that can be substituted into your build.) 
+├── OH-SPEC_Specifications (Contains specifications on general practices for OH builds.)
+├── *.pdf (Top level drawings)
+├── README.pdf (This file)
+└── LICENSE.pdf (License file for the release package)
+```
+
+### Important Links
+* [OpenHornet Start Here Page](https://openhornet.com/start-here/) - Seriously. Start here.
+* [OpenHornet FAQ](https://openhornet.com/faq/) - You guessed it! The FAQ!
+* [OpenHornet GitHub](https://github.com/jrsteensen/OpenHornet) - OpenHornet's GitHub repository for everything other than MCAD. Where you can find the latest under-development files.
+* [OpenHornet Tutorials](https://openhornet.com/category/tutorials/) - Tutorials for OpenHornet.
+* [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug/enhancement/obsolescence report.
+* [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
+
+### OpenHornet MCAD Model
+* These links will allow you to download a local copy of the OH MCAD model, for reference or so you can modify things for your personal pit. If you would like to contribute to the raw MCAD, talk to Noctum in the OH Discord. You will need to prove a basic level of proficiency and be known within the discord community before access will be granted.
+[!NOTE] These links will download the latest & greatest (most likely in development and unstable) MCAD. Always verify fusion parts against release package manufacturing files prior to use, and they are used at the user's own risk.
+
+* [Top Level](https://a360.co/3SuPQGs) - This is HUGE. Consider downloading individual consoles instead.
+* [Upper Instrument Panel (UIP)](https://a360.co/3LHxMXd) - This is HUGE. Consider downloading individual consoles instead.
+* [Lower Instrument Panel (LIP)](https://a360.co/3SbD7sc) - This is HUGE. Consider downloading individual consoles instead.
+* [Left Console (LC)](https://a360.co/3dBR57I) - This is HUGE. Consider downloading individual consoles instead.
+* [Right Console (RC)](https://a360.co/37pBiWj) - This is HUGE. Consider downloading individual consoles instead.
+* [Center Tub (CT)](https://a360.co/3LKM3mc) - This is HUGE. Consider downloading individual consoles instead.
+
+### Social Media Links
+* [YouTube](https://www.youtube.com/@OpenHornet)
+* [Discord](https://discord.gg/openhornet)
+* [Facebook](https://www.facebook.com/profile.php?id=100092714572837)
+* [TikTok](https://www.tiktok.com/@openhornet7)
 
 ## Authors and Acknowledgment
 
-### CORE DEVELOPMENT TEAM
+### Core Development Team
 * Erik Scott (RandomTroubledMind): _Project Founder, Mechanical Design_
 * John Steensen (Noctum): _Co-Founder, Systems/Mechanical Design Lead_
-* Oscar Arias (Amanuense): _Electrical/Software Design Lead_
+* Oscar Arias (Amanuense): _Electrical/Software Design Lead_ (Retired from OH)
 
-### DEVELOPMENT CONTRIBUTOR TEAM
+### Contributor Team
 * Exprezzo
 * Sandra
 * Ben-F111
@@ -55,7 +108,7 @@ CT: https://a360.co/3LKM3mc
 * Stang
 * \[OCS\] CrazyCanuck
 
-### HONORABLE MENTIONS
+### Honorable Mentions
 * __Logo Design__: NegativeONE
 * __Development Builders/Testers__: Ajmilner,  Arribe VCAW-1, Ben-F111, BlaBlaCZ, bnepethomas, Dave the boss 918, DG, DotDotDotBH, Exprezzo, Higgins, Krikeee, Lazarus, Otso, Rampage2010, Russell, Sandra, Splash, Thib-O, tonyg, TripRodriguez, Yannick
 * __Ultimate Supporters__: Sandra, Higgins
