@@ -1,8 +1,8 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
-![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) [![Static Badge](https://img.shields.io/badge/License_CC_BY--NC--SA_4.0?logo=creativecommons&label=blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
 
-[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/Website-blue)](https://www.openhornet.com) [![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) [![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) [![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
+[![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/Website-blue?logo=internetarchive)](https://www.openhornet.com) [![YouTube](https://img.shields.io/badge/YouTube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) [![Facebook](https://img.shields.io/badge/Facebook-blue?logo=facebook)](https://www.facebook.com/profile.php?id=100092714572837) [![TikTok](https://img.shields.io/badge/TikTok-blue?logo=tiktok)](https://www.tiktok.com/@openhornet7)
 
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet) ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
@@ -14,14 +14,8 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 
 If you have any questions, visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
-## License
-See LICENSE.pdf in this package for more information on our license.
-
-![CC BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "CC BY-NC-SA")
-[CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Want to contribute? Let's discuss it in Discord or in an issue!
 * [Contributing HOW-TO](https://github.com/jrsteensen/OpenHornet/wiki/Contributing)
 
 ## Software
@@ -92,12 +86,6 @@ These links will allow you to download a local copy of the OH MCAD model, for re
 * [Left Console (LC)](https://a360.co/3dBR57I)
 * [Right Console (RC)](https://a360.co/37pBiWj)
 * [Center Tub (CT)](https://a360.co/3LKM3mc)
-
-### Social Media Links
-* [YouTube](https://www.youtube.com/@OpenHornet)
-* [Discord](https://discord.gg/openhornet)
-* [Facebook](https://www.facebook.com/profile.php?id=100092714572837)
-* [TikTok](https://www.tiktok.com/@openhornet7)
 
 ## Authors and Acknowledgment
 
