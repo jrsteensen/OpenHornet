@@ -1,11 +1,9 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 
-![Static Badge](https://img.shields.io/badge/Release-v0.2.0-brightgreen) [![Discord](https://img.shields.io/discord/392833351238811648?logo=discord)](https://discord.gg/openhornet) [![Website](https://img.shields.io/badge/OpenHornet_Website-brightgreen)
-](https://www.openhornet.com)
-
-![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
-
-![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet)] ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/jrsteensen/OpenHornet) ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
+[![Website](https://img.shields.io/badge/OpenHornet_Website-brightgreen)](https://www.openhornet.com) [![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=Discord)
+](https://discord.gg/openhornet)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/jrsteensen/OpenHornet) ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/jrsteensen/OpenHornet) ![GitHub watchers](https://img.shields.io/github/watchers/jrsteensen/OpenHornet) ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
 
 The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
