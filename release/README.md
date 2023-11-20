@@ -70,8 +70,8 @@ OpenHornet Release Package (v...).zip
 ├── OHM_Modifications (Contains optional parts that can be substituted into your build.) 
 ├── OH-SPEC_Specifications (Contains specifications on general practices for OH builds.)
 ├── *.pdf (Top level drawings)
-├── README.pdf (This file)
-└── LICENSE.pdf (License file for the release package)
+├── README.html (This file)
+└── LICENSE.txt (License file for the release package)
 ```
 
 ### Important Links
