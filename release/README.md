@@ -22,6 +22,9 @@ OpenHornet is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a ph
 
 If you have any questions, read this document, visit the resources linked within, and then visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
+## Just want to build an OpenHornet simulator?
+The [OpenHornet Start Here Page](https://openhornet.com/start-here/) will walk you through the process and preparation required to take on this project, before linking you to the release package.
+
 ## Contributing
 [Want to contribute?](https://github.com/jrsteensen/OpenHornet/wiki/Contributing) Let's discuss it in Discord or in an issue!
 
@@ -41,7 +44,7 @@ OpenHornet is created by a community of developers and contributors. OpenHornet 
     * There are three tiers of subscription available, Basic, Elite, and Ultimate. You can also subscribe via the Server Shop button in the Channel List of the OH Discord Server.
   * [Donate to OpenHornet via our Website](https://openhornet.com/#awb-oc__2834)
   
-## References, Information, and How-Tos
+## References and Information
 
 ### Release Package File Structure
 Displays the typical file structure of this release package with a short explanation of the contents of the file structure. This may not be an exact structure, but is intended to establish the organization thought process behind the release package file structure.
