@@ -53,7 +53,7 @@ OpenHornet Release Package (v...).zip
 ├── OH1_Upper_Instrument_Panel
 │   ├── manufacturing (Manufacturing files for the top level console, if applicable.)
 │   │   ├── *.3mf (3D printed parts (FDM & Resin), i.e. handles, bezels, etc.)
-│   │   ├── *.svg (Flat parts, i.e. MDF structure, metal plates, etc.)
+│   │   ├── *.svg (Flat parts, i.e. MDF structure, metal plates, acrylic panels, etc.)
 │   │   ├── *.dxf (Flat patterns for bent parts)
 │   │   └── *.step (Complex fabricated parts, i.e. ALU shafts with holes drilled in them, etc.)
 |   ├── OH1A2 - ASSY, PANEL, MASTER ARM
