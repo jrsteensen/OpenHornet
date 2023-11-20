@@ -49,7 +49,8 @@ OpenHornet
 ├── .gitignore (File that instructs the git repository to ignore certain file types.)
 ├── CODE_OF_CONDUCT.md (Our contributor code of conduct.)
 ├── CONTRIBUTING.md (A file that just redirects you to the contributing wiki entry.)
-├── ISSUE_TEMPLATE.md (The generic repository issue template, in case an issue doesn't fall into one of our three predetermined categories)
+├── ISSUE_TEMPLATE.md (The generic repository issue template, in case an issue doesn't fall into one 
+|                      of our three predetermined categories)
 ├── LICENSE.md (License file for the OpenHornet repository)
 ├── PULL_REQUEST_TEMPLATE.md (The repository pull request template.)
 └── README.md (This file)
