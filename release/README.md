@@ -72,6 +72,7 @@ OpenHornet Release Package (v...).zip
 ├── OHE_Electronics (Contains all PCB manufacturing and reference files)
 ├── OHM_Modifications (Contains optional parts that can be substituted into your build.) 
 ├── OH-SPEC_Specifications (Contains specifications on general practices for OH builds.)
+├── OHT_Tools_and_Jigs (Contains optional tools and jigs for OpenHornet parts.)
 ├── *.pdf (Top level drawings)
 ├── README.html (This file)
 └── LICENSE.txt (License file for the release package)
