@@ -18,7 +18,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/jrsteensen/OpenHornet) 
 
 
-OpenHornet is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS).
+OpenHornet is a F/A-18C OFP 13C Lot 20 1:1 replica simulator, consisting of a physical structure and electrical/software interfaces to a PC to be driven by Digital Combat Simulator (DCS). It was designed for home entertainment purposes only, and should not be used for actual flight training.
 
 If you have any questions, read this document, visit the resources linked within, and then visit our Discord server and ask questions. The Discord server will be an invaluable resource for you as your progress through the journey of your build.
 
@@ -30,7 +30,7 @@ The [OpenHornet Start Here Page](https://openhornet.com/start-here/) will walk y
 
 ## Software
 v0.2.0 release is a hardware beta release (i.e. mechanical parts and PCBs.) Software is not yet available, however v0.3.0 will focus on software development.
-* We will rely heavily on community contributions. If you know your way around the Arduino ecosystem, please consider contributing.
+* We will rely heavily on community contributions. If you know your way around the Arduino/ESP32 ecosystem, please consider contributing.
 ### OpenHornet Software
 * [OpenHornet GitHub Software Repository](https://github.com/jrsteensen/OpenHornet-Software)
 ### Sim Software Requirements
@@ -101,11 +101,10 @@ These links will allow you to download a local copy of the OH MCAD model, for re
 ### Sources of Supply
 OpenHornet uses major US based suppliers and is designed in imperial units of measure, (since the project was primarily designed in the United States and the Hornet is designed in imperial units as well.)
 > [!NOTE] 
-> Many (possibly the majority) of OpenHornet builders have used metric hardware and metric thicknesses of materials just fine. Ask on our discord if you want to link up with our international community to ask specifics!
-> That said, there is no plans for an official OpenHornet plans using metric hardware and materials at this time.
+> Many (possibly the majority) of OpenHornet builders who are outside the US have substituted metric hardware and metric materials successfully. Ask on our discord if you want to link up with our international community to ask specifics! There are no plans for an official OpenHornet variant using metric hardware and materials at this time.
 
 > [!NOTE] 
-> The following list of suppliers is not exhaustive, however the vast majority are sourced from the following suppliers. If you cannot locate a part on there, use your preferred search engine to locate it, and if all else fails, ask on the Discord.
+> The following list of suppliers is not exhaustive, however the vast majority are sourced from the following suppliers. If you cannot locate a part from one of the listed suppliers, use your preferred search engine to locate it. If all else fails, ask on the Discord.
 
 #### Mechanical Suppliers
 * [McMaster-Carr](https://www.mcmaster.com) is the primary source of supply for all mechanical components (fasteners, springs, ball springs, shafts, etc.) for the sim. They were selected strictly for availability and the convenience of the designer. If you only need a few bolts for a structure, it may be (significantly) cheaper to source them elsewhere.
