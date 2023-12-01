@@ -98,6 +98,22 @@ These links will allow you to download a local copy of the OH MCAD model, for re
 * [Right Console (RC)](https://a360.co/37pBiWj)
 * [Center Tub (CT)](https://a360.co/3LKM3mc)
 
+### Sources of Supply
+OpenHornet uses major US based suppliers and is designed in imperial units of measure, (since the project was primarily designed in the United States and the Hornet is designed in imperial units as well.)
+> [!NOTE] 
+> Many (possibly the majority) of OpenHornet builders have used metric hardware and metric thicknesses of materials just fine. Ask on our discord if you want to link up with our international community to ask specifics!
+> That said, there is no plans for an official OpenHornet plans using metric hardware and materials at this time.
+
+> [!NOTE] 
+> The following list of suppliers is not exhaustive, however the vast majority are sourced from the following suppliers. If you cannot locate a part on there, use your preferred search engine to locate it, and if all else fails, ask on the Discord.
+
+#### Mechanical Suppliers
+* [McMaster-Carr](https://www.mcmaster.com) is the primary source of supply for all mechanical components (fasteners, springs, ball springs, shafts, etc.) for the sim. They were selected strictly for availability and the convenience of the designer. If you only need a few bolts for a structure, it may be (significantly) cheaper to source them elsewhere.
+
+#### Electrical Suppliers
+* Electrical components were primarily selected from [Digikey](https://www.digikey.com) and [Mouser](https://www.mouser.com). Compare prices between the two - some items are significantly cheaper at one than the other. If you cannot find an electrical component from one of those two, try entering the part number into [Octopart](https://www.octopart.com) to locate distributors of that part.
+* LCD and similar displays were sourced from [BuyDisplay](https://www.buydisplay.com/). There may be better displays out there, but these were sourced for form factor and affordability.
+
 ## Authors and Acknowledgment
 
 ### Core Development Team
