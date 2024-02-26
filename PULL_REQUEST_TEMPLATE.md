@@ -8,51 +8,41 @@ Addresses # (issue)
 
 Please delete options that are not relevant.
 
-- [ ] New MCAD (new Mechanical Model)
-- [ ] Change MCAD (fixed issue with existing MCAD model)
-- [ ] New ECAD (new PCB)
-- [ ] Change ECAD (fixed issue with existing PCB)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+- [ ] MCAD - New Part (new Mechanical Model)
+- [ ] MCAD - Revision (Revision of an MCAD model)
+- [ ] ECAD - New PCB (A new PCB!)
+- [ ] ECAD - Revision (Revision of a PCB or the interconnect)
+- [ ] Docs - New (A new document that is neither MCAD or ECAD)
+- [ ] Docs - Revision (A revision to an existing document that is neither MCAD or ECAD)
 
 # How Has This Been Tested?
 
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration:
 
-- [ ] Test A
-- [ ] Test B
-
-**Test Configuration**:
-* Firmware version:
-* Hardware:
-* Toolchain:
-* SDK:
+> <Describe how you tested these changes, even if just a virtual fit-check in CAD>
 
 # Checklist: (Delete non-relevant sections)
 
 ## MCAD:
-- [ ] Design intent and requirements have been met
-- [ ] Design has been fit checked to ensure no interferences exist
-- [ ] Design has been integrated into Next Higher Assembly (NHA)
+- [ ] Design intent and requirements have been met?
+- [ ] Design has been fit checked to ensure no interference exists with any other components?
+- [ ] Design has been integrated into Next Higher Assembly (NHA)?
+- [ ] Drawing has been revised, (i.e. Rev - to Rev A) with all changes described in Revision Description Block?
+- [ ] Did the parts list change?
+  - If yes:
+  - [ ] Master Parts List (OH-MPL) update required due to change? (PR will not be accepted without MPL changes integrated.)
+- [ ] Drawing Tree (OH-DWG-TREE) update required due to change? (Mostly just new MCAD parts will require this. PR will not be accepted until Drawing Tree updates are completed.)
+- [ ] Interconnect (OH-Interconnect) update required due to change? (Does this need to plug into another part or assembly electrically? PR will not be accepted until interconnect updates and interconnect BOM is updated.)
 
 ## PCB/ECAD:
-- [ ] Requirements definition
-- [ ] Schematic completed
-- [ ] PCB routed
-- [ ] PCB constrained by physical footprint limitations
-- [ ] PCB critical component location requirements met
-- [ ] Schematic/PCB reviewed
-- [ ] BOM generated
-- [ ] Gerbers generated
-- [ ] MCAD generated
-
-## Software:
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] Requirements definition completed as a note on the schematic?
+- [ ] Schematic completed?
+- [ ] PCB laid out?
+- [ ] PCB routed?
+- [ ] PCB constrained by physical footprint limitations?
+- [ ] PCB critical component location requirements met?
+- [ ] Version number updated on PCB silkscreen, and the PCB and schematic docs?
+- [ ] Schematic/PCB reviewed?
+- [ ] BOM generated?
+- [ ] Gerbers generated?
+- [ ] MCAD generated?
