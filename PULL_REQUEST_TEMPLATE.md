@@ -1,8 +1,11 @@
 # Description
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+> <Replace this text including a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.>
 
 Addresses # (issue)
+
+## Motivation and Context
+> <Replace this text describing why is this change required? What problem does it solve?>
 
 ## Type of change
 
@@ -20,6 +23,9 @@ Please delete options that are not relevant.
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration:
 
 > <Describe how you tested these changes, even if just a virtual fit-check in CAD>
+
+# Screenshots:
+<Paste screenshots of the WAS/IS state. Show us what it was before your changes, and show us what it is now.>
 
 # Checklist: (Delete non-relevant sections)
 
