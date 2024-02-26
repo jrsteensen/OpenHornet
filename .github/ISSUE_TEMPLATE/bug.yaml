@@ -61,8 +61,8 @@ body:
       label: Release Version
       description: What release are you working with?
       options:
-        - 1.0.0-beta.1
-        - pre-1.0.0-beta.1 (Early Development/Alpha)
+        - v0.2.0
+        - pre-v0.2.0 (Early Development/Alpha)
     validations:
       required: true
   - type: dropdown
