@@ -39,6 +39,8 @@ Please describe the tests that you ran to verify your changes. Provide instructi
   - [ ] Master Parts List (OH-MPL) update required due to change? (PR will not be accepted without MPL changes integrated.)
 - [ ] Drawing Tree (OH-DWG-TREE) update required due to change? (Mostly just new MCAD parts will require this. PR will not be accepted until Drawing Tree updates are completed, or an issue is generated detailing what changes need to be made.)
 - [ ] Interconnect (OH-Interconnect) update required due to change? (Does this need to plug into another part or assembly electrically? PR will not be accepted until interconnect updates and interconnect BOM is updated.)
+- [ ] Has the PDF of the drawing been named as the next version and placed in the release folder with the correct filename?
+- [ ] Have all required manufacturing files been generated, named correctly, and placed in the correct location in the release folder?
 
 ## PCB/ECAD:
 - [ ] Requirements definition completed as a note on the schematic?
@@ -52,3 +54,4 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] BOM generated?
 - [ ] Gerbers generated?
 - [ ] MCAD generated?
+- [ ] Has the fabrication files and a PDF of the schematic been copied to the ECAD folder of the release folder?
