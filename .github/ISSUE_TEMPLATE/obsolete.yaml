@@ -51,7 +51,7 @@ body:
     id: version
     attributes:
       label: Release Version
-      description: What release are you working with?
+      description: What release are you building to?
       options:
         - v0.2.0
         - pre-v0.2.0 (Early Development/Alpha)
