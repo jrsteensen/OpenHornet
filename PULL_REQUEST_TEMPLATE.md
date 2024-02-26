@@ -37,7 +37,7 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Did the parts list change?
   - If yes:
   - [ ] Master Parts List (OH-MPL) update required due to change? (PR will not be accepted without MPL changes integrated.)
-- [ ] Drawing Tree (OH-DWG-TREE) update required due to change? (Mostly just new MCAD parts will require this. PR will not be accepted until Drawing Tree updates are completed.)
+- [ ] Drawing Tree (OH-DWG-TREE) update required due to change? (Mostly just new MCAD parts will require this. PR will not be accepted until Drawing Tree updates are completed, or an issue is generated detailing what changes need to be made.)
 - [ ] Interconnect (OH-Interconnect) update required due to change? (Does this need to plug into another part or assembly electrically? PR will not be accepted until interconnect updates and interconnect BOM is updated.)
 
 ## PCB/ECAD:
