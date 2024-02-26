@@ -1,0 +1,15 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,19.812,22.86,180.0,top
+J1,BUS IN,Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,10.16,35.56,90.0,top
+J2,BUS OUT,Molex_Mini-Fit_Jr_5569-06A1_2x03_P4.20mm_Horizontal,10.16,9.525,90.0,top
+J5,AIRSPEED,PinHeader_2x05_P2.54mm_Vertical,25.273,38.1,90.0,top
+J6,ALTIMETER,PinHeader_2x07_P2.54mm_Vertical,58.42,40.64,-90.0,top
+J7,VVI,PinHeader_2x05_P2.54mm_Vertical,66.04,38.1,90.0,top
+J8,RWR_BRT,PinHeader_1x03_P2.54mm_Vertical,66.04,14.224,90.0,top
+J9,SARI_CAGE,PinHeader_1x05_P2.54mm_Vertical,66.167,46.228,90.0,top
+J10,SARI_TEST,PinHeader_1x02_P2.54mm_Vertical,82.55,39.116,90.0,top
+MK1,MH,Arduino_1pin,11.43,2.54,0.0,top
+MK3,MH,Arduino_1pin,93.98,2.54,0.0,top
+MK4,MH,Arduino_1pin,12.7,50.8,0.0,top
+MK4,MH,Arduino_1pin,87.63,50.8,0.0,top
+U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,21.59,26.67,180.0,top

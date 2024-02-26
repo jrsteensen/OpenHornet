@@ -1,0 +1,14 @@
+(version 1)
+
+#Copper constraints for 1/2 inch NPTH for switches
+
+(rule "GND copper constraint for .5in NPTH Pad"
+	(layer B.Cu)
+	(constraint physical_hole_clearance (min 2.65mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && A.Hole_Size_X >= (11mm)"))
+
+(rule "+5v copper constraint for .5in NPTH Pad"
+	(layer F.Cu)
+	(constraint physical_hole_clearance (min 0.5mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical'"))
+

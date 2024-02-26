@@ -1,0 +1,16 @@
+(footprint "100SPX_Toggle_13mm_x_18mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0.025 -9) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3c4e2fb9-a8bb-4d4a-8eda-8429cba158d0)
+  )
+  (fp_text value "100SPX_Toggle_13mm_x_18mm" (at 0.025 -7.6) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7660e69b-4bb6-4874-8928-63ca46f13e71)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.54) (tstamp 596276e7-d617-49f6-b80e-ed1654164646))
+  (pad "" np_thru_hole circle (at 0 9.525) (size 3.572 3.572) (drill 3.572) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.54) (tstamp 70e1a7bc-25e3-4fac-8840-42b1205e0b10))
+)

@@ -1,0 +1,4696 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 955876eb-93fe-4845-a396-a74df8b479e9)
+
+  (paper "A4")
+
+  (title_block
+    (title "GEN TIE PANEL")
+    (date "2023-05-27")
+    (rev "4")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+    (comment 2 "Backlighting - Type A")
+  )
+
+  (lib_symbols
+    (symbol "OH_Symbols:Capacitor_0603_0.1uF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "0.1uF" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 0.635 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C14663" (at 0 -10.795 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 0.635 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Capacitor, Non-polarized, SMD 0603_1608, 0.1uF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Capacitor_0603_0.1uF_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Capacitor_0603_0.1uF_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:Capacitor_Polarized_8x10_1000uF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "1000uF" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "OH_Footprints:CP_Elec_8x10" (at 14.605 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwt-1847810.pdf" (at 32.385 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C445083" (at 5.08 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "UWT0J102MNL1GS" (at 9.525 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Capacitor_Polarized_8x10_1000uF_0_1"
+        (rectangle (start -2.286 0.508) (end 2.286 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Capacitor_Polarized_8x10_1000uF_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:LED_3.0mm_Green" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D1" (at -5.715 0.635 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Green" (at -7.62 -1.27 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "OH_Footprints:LED_D3.0mm" (at 3.81 -11.684 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/445/151031VS06000-3085738.pdf" (at 0 -14.351 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "151031VS06000" (at 0 -8.001 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "PWR STATUS" (at 0 -9.906 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode, 3.0mm, Through-hole, Green" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_3.0mm_Green_0_1"
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy -1.27 1.27)
+            (xy 0 -1.27)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -3.175)
+            (xy 2.159 -4.699)
+            (xy 2.159 -3.937)
+            (xy 2.159 -4.699)
+            (xy 1.397 -4.699)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -1.905)
+            (xy 2.159 -3.429)
+            (xy 2.159 -2.667)
+            (xy 2.159 -3.429)
+            (xy 1.397 -3.429)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_3.0mm_Green_1_1"
+        (pin passive line (at 0 -3.81 90) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 3.81 270) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:LOGO_License_Half_Large" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+      (property "Reference" "LOGO" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LOGO" (at 0 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LOGO_CC-BY-NC-SA_Half_Large" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://creativecommons.org/licenses/by-nc-sa/4.0/" (at 0.635 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CC License, BY-NC-SA, no symbols, large" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LOGO_License_Half_Large_0_0"
+        (text "CC-BY-NC-SA" (at 0 3.81 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LOGO_License_Half_Large_0_1"
+        (rectangle (start 3.81 5.08) (end -3.81 11.43)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LOGO_License_Half_Large_1_0"
+        (text "HALF / LARGE\n" (at 0.635 1.905 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LOGO_License_Half_Large_1_1"
+        (text "LOGO" (at 0 8.255 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+    (symbol "OH_Symbols:LOGO_OpenHornet_Text_Small" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+      (property "Reference" "LOGO" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LOGO" (at 0 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LOGO_OH_Text_Small" (at 0 -6.985 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.openhornet.com" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "37.7mm_5.9mm, Openhornet symbol with Text, Small" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LOGO_OpenHornet_Text_Small_0_1"
+        (rectangle (start 3.81 5.08) (end -3.81 11.43)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LOGO_OpenHornet_Text_Small_1_0"
+        (text "LOGO" (at 0 8.255 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "OPENHORNET\nTEXT / SMALL" (at 0 2.54 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+    (symbol "OH_Symbols:Molex_Mini-Fit_Jr._2x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J2" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Mini-Fit Jr. 2x02" (at 1.27 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 3.81 -15.24 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 1.27 -17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C293502" (at 1.27 -9.525 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "39-28-1043" (at 1.27 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Silkscreen" "BL OUT" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Molex_Mini-Fit_Jr._2x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 3.81 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:MountingHole_6x32_PHS" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+      (property "Reference" "MH" (at 0 3.81 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "6x32 / 4mm" (at 0 -12.065 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:MountingHole_6-32_PHS" (at 1.27 -9.525 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "6-32 PHS Hole with back fill keepout area, 4.3mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_6x32_PHS_0_0"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+        (circle (center 0 0) (radius 2.032)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_6x32_PHS_1_1"
+        (text "⌀6-32 \n4mm" (at 0 -4.572 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+    (symbol "OH_Symbols:Resistor_0603_470Ω" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 0 2.032 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "470" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "OH_Footprints:R_0603_1608Metric" (at 0.635 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811081712_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf" (at 3.175 -10.795 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C23179" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "0603WAF4700T5E" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at 0 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor,, SMD 0603_1608, 0.1uF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Resistor_0603_470Ω_0_1"
+        (rectangle (start 2.54 -1.016) (end -2.54 1.016)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Resistor_0603_470Ω_1_1"
+        (pin passive line (at -3.81 0 0) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
+      (property "Reference" "TP" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0.889 -9.652 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 0.889 -11.938 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 1.778 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at -2.54 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Notes" "" (at -1.651 -8.382 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 -3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 270) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:WS2812B" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 2.54 6.096 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "WS2812B" (at 3.81 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 29.21 -12.065 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 44.45 -13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C2761795" (at 6.985 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "WS2812B" (at 5.08 -6.35 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Silkscreen" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "RGB LED NeoPixel addressable" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RGB LED with integrated controller" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "WS2812B_0_0"
+        (text "RGB" (at 2.286 -4.191 0)
+          (effects (font (size 0.762 0.762)))
+        )
+      )
+      (symbol "WS2812B_0_1"
+        (polyline
+          (pts
+            (xy 1.27 -3.556)
+            (xy 1.778 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.778 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -3.556)
+            (xy 2.667 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -2.54)
+            (xy 1.27 -3.556)
+            (xy 1.27 -3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.524)
+            (xy 1.27 -2.54)
+            (xy 1.27 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.683 -1.016)
+            (xy 3.683 -3.556)
+            (xy 3.683 -4.064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -1.524)
+            (xy 2.667 -1.524)
+            (xy 3.683 -3.556)
+            (xy 4.699 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 5.08 5.08) (end -5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "WS2812B_1_1"
+        (pin power_in line (at 0 7.62 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "DOUT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "VSS" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "DIN" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+  (junction (at 113.665 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 032b4cb9-b3a6-4af2-bc1a-7fbe1c359f65)
+  )
+  (junction (at 113.665 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 053d7077-f548-4a1f-857d-67300fc16561)
+  )
+  (junction (at 229.235 53.975) (diameter 0) (color 0 0 0 0)
+    (uuid 11cf0059-7847-4e97-94dd-3e66c8bd32a9)
+  )
+  (junction (at 83.185 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 17b45010-ca43-4170-9936-9d95d84208e6)
+  )
+  (junction (at 114.3 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 1d4fc307-472c-4d3a-aee4-d63c211d91cc)
+  )
+  (junction (at 57.15 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 267c4348-10cc-49dc-8480-70cc81a69d25)
+  )
+  (junction (at 106.045 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 29b5d4b1-5cf9-4595-9caf-dba818f2d85e)
+  )
+  (junction (at 114.3 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 2bc2b4f6-83b5-402e-a4b3-25bb988f31a4)
+  )
+  (junction (at 60.325 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 2d743cc0-361a-475b-9968-031ab6f24e64)
+  )
+  (junction (at 67.945 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 2ebc413c-7690-47ef-863b-d00394bf2a0d)
+  )
+  (junction (at 152.4 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 3dfb9ac0-f7ab-4723-9275-e66de930e464)
+  )
+  (junction (at 60.325 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 4f225c3a-4e54-4100-89ab-f17adfcc21df)
+  )
+  (junction (at 75.565 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 552a030f-9f60-40dc-8a1a-82136b345ab6)
+  )
+  (junction (at 76.2 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 6c43ae2e-1555-424d-bae5-ff4fdda77d79)
+  )
+  (junction (at 258.445 53.975) (diameter 0) (color 0 0 0 0)
+    (uuid 7525b049-5032-4e09-b19b-960654e67d3a)
+  )
+  (junction (at 76.2 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 7a6f9ec7-01d6-4cdb-96df-4aa76b41eaaf)
+  )
+  (junction (at 95.25 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 845353de-48ad-49ba-b7fc-cbbb29ab7992)
+  )
+  (junction (at 90.805 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 928feeeb-93d7-4eab-81fc-e35de1d7a3d1)
+  )
+  (junction (at 38.1 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 9a5cff89-9922-412f-b260-ecd8bdea5c59)
+  )
+  (junction (at 152.4 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid a378d9bd-14e6-41be-b69d-d7ff6ac1c4ca)
+  )
+  (junction (at 171.45 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid a7ce40df-0647-417e-8212-a17f84343556)
+  )
+  (junction (at 38.1 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid ab674c76-2dff-4c58-a912-bc6f02da20be)
+  )
+  (junction (at 106.045 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid ad48dc3c-2020-4fb9-85fc-a69b3f4bdec2)
+  )
+  (junction (at 98.425 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid ada2e2e4-ae15-4e84-bf46-96a5e52314e7)
+  )
+  (junction (at 67.945 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid c515c4a2-299e-4128-ab20-9c236696ac27)
+  )
+  (junction (at 75.565 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid c6190042-1576-4ff2-90d1-1bed3cde24a2)
+  )
+  (junction (at 98.425 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid c76a03be-7283-49d4-8f61-549b7a478574)
+  )
+  (junction (at 57.15 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid d4da2eb3-6fd8-4278-80d1-cc2f4eb36f14)
+  )
+  (junction (at 83.185 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid e05fc618-db58-4ced-a68e-61833e4cf028)
+  )
+  (junction (at 95.25 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid f1a1bcc6-7385-4094-8760-9f2820947a8b)
+  )
+  (junction (at 90.805 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid f5cb56c2-b315-4cb4-ae8d-958518e3d039)
+  )
+  (junction (at 171.45 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid fd8551e8-803b-4392-b467-570fc69c5a3b)
+  )
+  (junction (at 133.35 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid fdf30436-8c6a-4d42-abf3-7a2c40537914)
+  )
+  (junction (at 133.35 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid ffd9045b-3a4b-4f2b-8ba1-acce430b2b2d)
+  )
+
+  (wire (pts (xy 113.665 178.435) (xy 121.285 178.435))
+    (stroke (width 0) (type default))
+    (uuid 024062f6-607c-4fab-b8a9-ef005e460425)
+  )
+  (wire (pts (xy 229.235 53.975) (xy 231.775 53.975))
+    (stroke (width 0) (type default))
+    (uuid 02fc5b0d-852c-4068-9aee-e7d474ed4104)
+  )
+  (wire (pts (xy 75.565 178.435) (xy 83.185 178.435))
+    (stroke (width 0) (type default))
+    (uuid 04ecc144-57d5-4842-9642-ea6bd04c240a)
+  )
+  (wire (pts (xy 75.565 186.055) (xy 83.185 186.055))
+    (stroke (width 0) (type default))
+    (uuid 083b94e3-b079-422d-821e-d3fdaca4b44d)
+  )
+  (wire (pts (xy 121.92 63.5) (xy 125.73 63.5))
+    (stroke (width 0) (type default))
+    (uuid 08f9b98d-3023-43c5-b1bd-fa70875ba6cc)
+  )
+  (wire (pts (xy 76.2 71.12) (xy 95.25 71.12))
+    (stroke (width 0) (type default))
+    (uuid 0ee6212e-3917-445f-bb91-5c536728c919)
+  )
+  (wire (pts (xy 262.255 29.845) (xy 262.255 32.385))
+    (stroke (width 0) (type default))
+    (uuid 0f48fd2f-eed3-4f3f-a2e4-c2ece819a003)
+  )
+  (wire (pts (xy 98.425 186.055) (xy 106.045 186.055))
+    (stroke (width 0) (type default))
+    (uuid 108d5a68-3652-4f52-9e22-63a1f200d66d)
+  )
+  (wire (pts (xy 19.05 55.88) (xy 38.1 55.88))
+    (stroke (width 0) (type default))
+    (uuid 123ae509-e7e3-4099-831a-916d4c83ed68)
+  )
+  (wire (pts (xy 95.25 71.12) (xy 114.3 71.12))
+    (stroke (width 0) (type default))
+    (uuid 131139b5-6c28-42ec-b45b-c36adde934d4)
+  )
+  (wire (pts (xy 38.1 55.88) (xy 57.15 55.88))
+    (stroke (width 0) (type default))
+    (uuid 132e4bad-0d68-4049-9fb5-42de80f16d45)
+  )
+  (wire (pts (xy 258.445 53.975) (xy 258.445 56.515))
+    (stroke (width 0) (type default))
+    (uuid 15daf24f-62c2-4a5e-b40f-7e1520aafeb7)
+  )
+  (wire (pts (xy 152.4 55.88) (xy 171.45 55.88))
+    (stroke (width 0) (type default))
+    (uuid 17aeeb31-f619-4fe3-a819-f7d9d47885c8)
+  )
+  (wire (pts (xy 90.805 178.435) (xy 98.425 178.435))
+    (stroke (width 0) (type default))
+    (uuid 19128cbd-2319-4574-8997-9e85b5026fea)
+  )
+  (wire (pts (xy 258.445 53.975) (xy 260.985 53.975))
+    (stroke (width 0) (type default))
+    (uuid 239b17a3-05e7-4067-851f-db149b2d808d)
+  )
+  (wire (pts (xy 67.945 178.435) (xy 75.565 178.435))
+    (stroke (width 0) (type default))
+    (uuid 267732d7-65c4-4ed9-b893-a960569ee44e)
+  )
+  (wire (pts (xy 273.685 32.385) (xy 276.225 32.385))
+    (stroke (width 0) (type default))
+    (uuid 28bf7862-5e4a-41e1-954b-cd6227694ec7)
+  )
+  (wire (pts (xy 171.45 55.88) (xy 191.77 55.88))
+    (stroke (width 0) (type default))
+    (uuid 3cbbbd97-1b3b-4996-801d-7e91c6cab15f)
+  )
+  (wire (pts (xy 276.225 53.975) (xy 273.685 53.975))
+    (stroke (width 0) (type default))
+    (uuid 3e700e3b-4531-42b8-9c6c-edf269b4c547)
+  )
+  (wire (pts (xy 114.3 55.88) (xy 133.35 55.88))
+    (stroke (width 0) (type default))
+    (uuid 496cdadc-2ea4-4192-8273-72201c6c68e1)
+  )
+  (wire (pts (xy 152.4 71.12) (xy 171.45 71.12))
+    (stroke (width 0) (type default))
+    (uuid 4e897414-9617-482c-985a-4f6efd230073)
+  )
+  (wire (pts (xy 247.015 51.435) (xy 247.015 53.975))
+    (stroke (width 0) (type default))
+    (uuid 53d90227-76d3-4340-8147-986c121e3943)
+  )
+  (wire (pts (xy 262.255 32.385) (xy 266.065 32.385))
+    (stroke (width 0) (type default))
+    (uuid 54d6b23f-3444-4420-8a3b-7766a7ecdde2)
+  )
+  (wire (pts (xy 231.775 56.515) (xy 229.235 56.515))
+    (stroke (width 0) (type default))
+    (uuid 55fc113c-e05e-41d3-9aee-9aa84e83baa4)
+  )
+  (wire (pts (xy 57.15 71.12) (xy 76.2 71.12))
+    (stroke (width 0) (type default))
+    (uuid 58bd562c-f4a3-4e2c-a84c-4b976f45d5b0)
+  )
+  (wire (pts (xy 24.13 63.5) (xy 30.48 63.5))
+    (stroke (width 0) (type default))
+    (uuid 601edff2-23f1-4687-9a7d-057c1236e48f)
+  )
+  (wire (pts (xy 64.77 63.5) (xy 68.58 63.5))
+    (stroke (width 0) (type default))
+    (uuid 614f87f4-e005-438f-b4d1-524c9b5b6bd3)
+  )
+  (wire (pts (xy 262.255 20.955) (xy 262.255 22.225))
+    (stroke (width 0) (type default))
+    (uuid 6548c415-c371-4751-8472-41f885d39f4a)
+  )
+  (wire (pts (xy 229.235 53.975) (xy 229.235 56.515))
+    (stroke (width 0) (type default))
+    (uuid 66d6d114-e92d-4fc9-b3e6-0bf92096aefe)
+  )
+  (wire (pts (xy 260.985 56.515) (xy 258.445 56.515))
+    (stroke (width 0) (type default))
+    (uuid 693e4fd4-6748-42a6-b27d-66f536122b81)
+  )
+  (wire (pts (xy 133.35 71.12) (xy 152.4 71.12))
+    (stroke (width 0) (type default))
+    (uuid 72300f28-9cd5-4e0d-8735-bdbb29d7b011)
+  )
+  (wire (pts (xy 113.665 186.055) (xy 121.285 186.055))
+    (stroke (width 0) (type default))
+    (uuid 733f82fe-f9c0-46a3-a55a-3138cb392ca1)
+  )
+  (wire (pts (xy 83.82 63.5) (xy 87.63 63.5))
+    (stroke (width 0) (type default))
+    (uuid 79264070-afa0-4cff-bdf4-967bf04623d9)
+  )
+  (wire (pts (xy 276.225 32.385) (xy 276.225 34.925))
+    (stroke (width 0) (type default))
+    (uuid 7f6cff90-ac64-47ea-b497-bd2ab7f8ac78)
+  )
+  (wire (pts (xy 160.02 63.5) (xy 163.83 63.5))
+    (stroke (width 0) (type default))
+    (uuid 8513e808-e87e-45c4-a529-4901c4b6056c)
+  )
+  (wire (pts (xy 114.3 71.12) (xy 133.35 71.12))
+    (stroke (width 0) (type default))
+    (uuid 8ad3cb95-ed1f-4481-b4b1-998fb494aa71)
+  )
+  (wire (pts (xy 106.045 178.435) (xy 113.665 178.435))
+    (stroke (width 0) (type default))
+    (uuid 8c486d74-bcf4-4e48-8922-12e2a60ab7d5)
+  )
+  (wire (pts (xy 45.72 63.5) (xy 49.53 63.5))
+    (stroke (width 0) (type default))
+    (uuid 8ca97db9-b7a0-41cd-bfb1-96a9e12a027a)
+  )
+  (wire (pts (xy 38.1 71.12) (xy 57.15 71.12))
+    (stroke (width 0) (type default))
+    (uuid 95ff4504-67b9-4dcc-be80-0e06d6f4ccc2)
+  )
+  (wire (pts (xy 98.425 178.435) (xy 106.045 178.435))
+    (stroke (width 0) (type default))
+    (uuid 994e6d97-30ed-44c3-8627-a1c667d5f011)
+  )
+  (wire (pts (xy 199.39 63.5) (xy 209.55 63.5))
+    (stroke (width 0) (type default))
+    (uuid 9e2a5e43-7f84-4425-b807-4365bcde269b)
+  )
+  (wire (pts (xy 90.805 186.055) (xy 98.425 186.055))
+    (stroke (width 0) (type default))
+    (uuid a1f1bb5a-8b0a-42d2-bcd2-8986ff381beb)
+  )
+  (wire (pts (xy 229.235 51.435) (xy 229.235 53.975))
+    (stroke (width 0) (type default))
+    (uuid a47c8aae-e235-468a-8665-2b3ab7b89aa2)
+  )
+  (wire (pts (xy 95.25 55.88) (xy 114.3 55.88))
+    (stroke (width 0) (type default))
+    (uuid a5f140c2-16f3-4d23-8770-7c932e4445e7)
+  )
+  (wire (pts (xy 83.185 178.435) (xy 90.805 178.435))
+    (stroke (width 0) (type default))
+    (uuid a6ae14d3-a145-407f-b56d-323216c9b815)
+  )
+  (wire (pts (xy 19.05 71.12) (xy 38.1 71.12))
+    (stroke (width 0) (type default))
+    (uuid a9676d39-79b1-4c19-949d-5815909396f4)
+  )
+  (wire (pts (xy 60.325 186.055) (xy 67.945 186.055))
+    (stroke (width 0) (type default))
+    (uuid b2e95db5-8090-4f49-bcb3-c4015a306e43)
+  )
+  (wire (pts (xy 171.45 71.12) (xy 191.77 71.12))
+    (stroke (width 0) (type default))
+    (uuid ba09d864-5fb2-4461-b1ba-090445c4d60c)
+  )
+  (wire (pts (xy 67.945 186.055) (xy 75.565 186.055))
+    (stroke (width 0) (type default))
+    (uuid c19c09b6-d03b-4b44-aaef-9be508ef3a98)
+  )
+  (wire (pts (xy 48.895 186.055) (xy 60.325 186.055))
+    (stroke (width 0) (type default))
+    (uuid c2de2561-14c4-407e-bfac-fe92a248a5fb)
+  )
+  (wire (pts (xy 57.15 55.88) (xy 76.2 55.88))
+    (stroke (width 0) (type default))
+    (uuid c83d3172-5b56-49b2-8ffa-0af4b01c47fc)
+  )
+  (wire (pts (xy 106.045 186.055) (xy 113.665 186.055))
+    (stroke (width 0) (type default))
+    (uuid d2b6347e-dfe0-4bc3-82ee-81de4ec88549)
+  )
+  (wire (pts (xy 258.445 51.435) (xy 258.445 53.975))
+    (stroke (width 0) (type default))
+    (uuid d9755bcb-57cf-473b-b364-0278b2e58eac)
+  )
+  (wire (pts (xy 140.97 63.5) (xy 144.78 63.5))
+    (stroke (width 0) (type default))
+    (uuid e051ee8d-bb3d-475b-b3c6-1548a4b0082a)
+  )
+  (wire (pts (xy 102.87 63.5) (xy 106.68 63.5))
+    (stroke (width 0) (type default))
+    (uuid e3e91780-982a-4190-b102-9e00e6e893c4)
+  )
+  (wire (pts (xy 83.185 186.055) (xy 90.805 186.055))
+    (stroke (width 0) (type default))
+    (uuid e69b880c-15e6-4e78-a22a-50c27a596598)
+  )
+  (wire (pts (xy 48.895 178.435) (xy 60.325 178.435))
+    (stroke (width 0) (type default))
+    (uuid ef62e955-d7ce-482e-a071-4e42fe44de9f)
+  )
+  (wire (pts (xy 244.475 53.975) (xy 247.015 53.975))
+    (stroke (width 0) (type default))
+    (uuid f0443b7b-e150-4183-a970-3bebec4c1d9d)
+  )
+  (wire (pts (xy 133.35 55.88) (xy 152.4 55.88))
+    (stroke (width 0) (type default))
+    (uuid f217066c-4337-4bde-af0e-4c59283f57ae)
+  )
+  (wire (pts (xy 76.2 55.88) (xy 95.25 55.88))
+    (stroke (width 0) (type default))
+    (uuid f27819b4-729e-41b4-a016-4d1bf644a91c)
+  )
+  (wire (pts (xy 276.225 51.435) (xy 276.225 53.975))
+    (stroke (width 0) (type default))
+    (uuid f4cf538f-63df-4beb-8dab-a71545c1430e)
+  )
+  (wire (pts (xy 179.07 63.5) (xy 184.15 63.5))
+    (stroke (width 0) (type default))
+    (uuid fc46bc5a-87ad-49ed-8d26-360859fd91c3)
+  )
+  (wire (pts (xy 60.325 178.435) (xy 67.945 178.435))
+    (stroke (width 0) (type default))
+    (uuid fe860745-2ead-4040-9cf6-dc1517c387c3)
+  )
+
+  (text_box "SWITCHES"
+    (at 224.155 123.825 0) (size 60.96 20.32)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 29c04f86-5721-4c61-a5e4-d26bfce9f24d)
+  )
+  (text_box "PWR FLAGS"
+    (at 262.255 66.675 0) (size 22.86 19.05)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 6b812b4a-edd9-4be6-941e-c05fa4889cbe)
+  )
+  (text_box "MOUNTING HOLES"
+    (at 224.155 85.725 0) (size 60.96 38.1)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 72194208-d2d2-4ce9-b007-61796d3faf8a)
+  )
+  (text_box "POWER STATUS\nLED"
+    (at 254.635 12.065 0) (size 30.48 27.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 7f6f32ce-6a66-48f3-86db-ab0dba096a59)
+  )
+  (text_box "LOGOS"
+    (at 224.155 144.145 0) (size 60.96 21.59)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid a3718541-82d5-45b5-8f55-b54f1c2bbfcc)
+  )
+  (text_box "NON-POLARIZED CAPACITORS"
+    (at 12.065 165.735 0) (size 165.1 32.385)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid d8a498e9-f253-4b1e-938e-c618e542f128)
+  )
+  (text_box "TEST POINTS"
+    (at 224.155 66.675 0) (size 38.1 19.05)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid e46d38f9-f22a-40b0-9f4c-52acfab01ef3)
+  )
+  (text_box "DECOUPLING\nCAPACITOR"
+    (at 224.155 12.065 0) (size 30.48 27.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid e880188f-4409-42bb-acd5-1265935a7c90)
+  )
+  (text_box "CONNECTORS"
+    (at 224.155 40.005 0) (size 60.96 26.67)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid f85441bf-5db4-436d-ba79-ed07ecf1cbb8)
+  )
+
+  (text "N/A" (at 252.73 134.62 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 51cf4bec-7a0e-404e-8fd2-a5af930a80c4)
+  )
+
+  (global_label "DATA IN" (shape input) (at 244.475 56.515 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 21e7330e-2aff-49e8-87fb-1bf816bc48b1)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 254.6985 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA OUT" (shape output) (at 209.55 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid afc0bfe0-c735-434e-969a-7ce120289857)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 220.8126 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA IN" (shape input) (at 24.13 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b78afe3b-278d-457f-a3d3-3e36d6c7f68e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 13.9065 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "DATA OUT" (shape output) (at 273.685 56.515 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ed5a22ba-6fc9-417d-a463-2479ba87b9fb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 284.9476 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA OUT" (shape output) (at 250.825 75.565 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f0a9a840-df8d-4f08-897b-95c444a0b675)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.0876 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA IN" (shape input) (at 239.395 75.565 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid f1e73f76-8df8-4268-b87b-82e249ec72b3)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 248.9643 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 276.225 51.435 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 02cade4a-52d2-4a7c-adef-20b64c69f2e1)
+    (property "Reference" "#PWR08" (at 276.225 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 276.225 47.625 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 276.225 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 276.225 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a5f04d87-9a75-406b-a69c-b29aa6626b64))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0117") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 38.1 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 041c15a0-1802-42a5-9a01-d300eac18e9a)
+    (property "Reference" "D2" (at 40.64 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 41.91 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 67.31 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 82.55 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 45.085 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 43.18 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 38.1 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fabc76aa-c225-44b4-8e62-e47b22ab0593))
+    (pin "2" (uuid c3c1a782-fceb-4abc-a073-3004d71fb0f8))
+    (pin "3" (uuid 732010d7-552e-40c4-a7df-f20e32fa1cbd))
+    (pin "4" (uuid c9c34d46-6fd5-44dc-97b9-8c8b6b0a04aa))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 19.05 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04964428-ff2d-486c-972d-fa674c916b03)
+    (property "Reference" "#PWR014" (at 19.05 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 19.05 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 19.05 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.05 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aeb9eb27-3423-4449-a4c3-dbf78b3947d2))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 95.25 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 06ce95e5-219f-405e-adb0-1af89dbe614a)
+    (property "Reference" "D5" (at 97.79 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 99.06 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 124.46 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 139.7 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 102.235 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 100.33 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 95.25 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 927b6cfa-9746-405e-8f83-b3629b5a4446))
+    (pin "2" (uuid a3ebaad1-498c-4416-a4fa-f9c60ae9cec2))
+    (pin "3" (uuid 26323448-4b1e-4967-92e6-1d876057fbb0))
+    (pin "4" (uuid 2f904df8-7ab8-427b-a732-9562d83671a0))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 75.565 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 07c6d948-5255-4d49-ab4f-8a910d2d4762)
+    (property "Reference" "C4" (at 76.2 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 76.2 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 76.5302 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 76.2 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 75.565 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 76.2 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 023c4727-a838-4bb5-9a6c-6cf8fe6552d3))
+    (pin "2" (uuid cad13fae-25b7-47fb-be4f-efd98e54565b))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:LOGO_License_Half_Large") (at 268.605 161.925 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 12bd3c6e-df1c-4faa-a0bb-e5dce6ffa359)
+    (property "Reference" "LOGO2" (at 268.605 149.225 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LOGO" (at 268.605 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LOGO_CC-BY-NC-SA_Half_Large" (at 268.605 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://creativecommons.org/licenses/by-nc-sa/4.0/" (at 269.24 168.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Resistor_0603_470Ω") (at 269.875 32.385 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 16380bae-c4af-4a58-81ad-3a0580825dde)
+    (property "Reference" "R1" (at 269.875 30.353 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "470" (at 269.875 32.385 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OH_Footprints:R_0603_1608Metric" (at 270.51 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811081712_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf" (at 273.05 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C23179" (at 269.875 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "0603WAF4700T5E" (at 269.875 38.735 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "" (at 269.875 32.385 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f34903ce-e807-48ac-a470-752d1487c1c7))
+    (pin "2" (uuid ee96f643-284a-44c5-b486-5c2646a7058b))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "R1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 113.665 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1a2fd7df-9f89-48c6-827f-7684f660ef97)
+    (property "Reference" "C9" (at 114.3 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 114.3 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 114.6302 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 114.3 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 113.665 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 114.3 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e7566e08-58d6-46fb-af2b-ec706c4597a2))
+    (pin "2" (uuid 8df75658-7730-43b4-99bd-4b6c0c20a98b))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 83.185 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1d50085d-6be9-4f55-9be5-1c0b19cca5dc)
+    (property "Reference" "C5" (at 83.82 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 83.82 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 84.1502 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 83.82 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 83.185 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 83.82 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7f4673ae-fcef-4796-a497-23b1dd83d12f))
+    (pin "2" (uuid 05ebe37e-c44e-4192-b77a-6341fded4cdf))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 76.2 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1f9dc3cc-0a66-4d4b-8aa0-432fb6a44c29)
+    (property "Reference" "D4" (at 78.74 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 80.01 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 105.41 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 120.65 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 83.185 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 81.28 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 76.2 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 025e3f89-b843-4d0a-9091-5646ab48f987))
+    (pin "2" (uuid 397dabb9-8427-4937-80f4-490c2b2dc5c0))
+    (pin "3" (uuid 38528f0d-8ef3-4a3c-96c7-578116b003d3))
+    (pin "4" (uuid c41141a8-d2b5-46d6-9470-9e3bb82ac397))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 268.605 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 23259c5d-c73a-44d4-89e2-bcf7470fa21d)
+    (property "Reference" "#FLG01" (at 268.605 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 268.605 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0fc16cb4-6280-439a-9926-a566bfc8175e))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#FLG0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 247.015 51.435 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 253fb028-9739-4b9c-9828-57df4a1cc90a)
+    (property "Reference" "#PWR06" (at 247.015 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 247.015 47.625 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 247.015 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 247.015 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4782d83e-abbb-4175-85b7-04669532f065))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 171.45 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 296665b9-57b5-4f4e-a6e5-8e82e604a57a)
+    (property "Reference" "D9" (at 173.99 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 175.26 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 200.66 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 215.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 178.435 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 176.53 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 171.45 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 332416d4-6565-480e-aea9-e87c75e4e157))
+    (pin "2" (uuid c052ab75-bc7f-4746-b2a7-c332152edacb))
+    (pin "3" (uuid f493c41c-09ed-4ab3-8ba7-dc5887536fba))
+    (pin "4" (uuid b10afd1b-526f-4fa6-872f-3679bb32cba7))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:MountingHole_6x32_PHS") (at 264.795 95.885 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2f570727-e460-4ec8-885d-5543a94f9e47)
+    (property "Reference" "MH3" (at 264.795 92.075 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6x32 / 4mm" (at 264.795 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:MountingHole_6-32_PHS" (at 266.065 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 264.795 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "MH3") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 229.235 51.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 32f72b26-7f26-4490-8281-50ea0e800370)
+    (property "Reference" "#PWR05" (at 229.235 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 229.235 47.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 229.235 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 229.235 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 699e71d5-9689-4f77-a2d9-3fc24958349e))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0109") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 276.225 34.925 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 42e6a812-a9c8-480a-b090-5c4056f87ece)
+    (property "Reference" "#PWR04" (at 276.225 41.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 276.225 38.735 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 276.225 34.925 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 276.225 34.925 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8be3583f-d298-4c0f-9792-80f9ca7b618f))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0113") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 19.05 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54d7466e-d9d1-411d-8e39-836223910339)
+    (property "Reference" "#PWR013" (at 19.05 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 19.05 52.324 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 19.05 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.05 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 422f6852-e826-488b-b50c-0dc08bd0eac5))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0107") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 233.045 75.565 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 55efd053-d8d6-44b9-b6f4-d90a2cdb6571)
+    (property "Reference" "#PWR010" (at 233.045 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 233.045 71.755 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 233.045 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 233.045 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e45fef2-f6b8-4619-912c-9253f23f01ce))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 121.285 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5c25110b-36f0-4800-b342-6eab68ba42f1)
+    (property "Reference" "C10" (at 121.92 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 121.92 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 122.2502 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 121.92 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 121.285 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 121.92 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 23a2054a-0281-403b-8d0d-278fdfae4827))
+    (pin "2" (uuid 744adfbc-d336-4994-bbf3-31793ab1f79c))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C10") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C10") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C10") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C10") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 226.695 75.565 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 601ca7de-0fa5-4c9c-87cb-9362f7161fc9)
+    (property "Reference" "#PWR09" (at 226.695 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 226.695 72.009 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.695 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.695 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ea6e6b0f-f1c0-4a2d-bbaf-d2b53d3985a0))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:LOGO_OpenHornet_Text_Small") (at 240.157 161.671 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 6ae5103a-9966-4428-8386-592df42aad91)
+    (property "Reference" "LOGO1" (at 240.157 148.971 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LOGO" (at 240.157 162.306 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LOGO_OH_Text_Small" (at 240.157 168.656 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.openhornet.com" (at 240.157 166.116 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "" (at 240.157 166.116 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 280.035 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 75bf1a01-342f-4e1d-ac32-66986fda43e9)
+    (property "Reference" "#PWR012" (at 280.035 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 280.035 74.295 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4118cde6-7b47-4530-ba52-89dfa07b0d18))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0119") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 239.395 23.495 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7e9e9ecf-8e6c-4f6a-a66e-88fac340d235)
+    (property "Reference" "#PWR02" (at 239.395 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 239.395 19.939 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 239.395 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 239.395 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b7f8a9c6-0bac-4046-b0dc-e530d32bc0da))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 133.35 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8428c583-eb05-4a67-ab92-c82d4ab2a7bd)
+    (property "Reference" "D7" (at 135.89 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 137.16 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 162.56 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 177.8 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 140.335 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 138.43 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 133.35 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0b236265-dadb-46bf-8703-7022a83ce7a6))
+    (pin "2" (uuid cd951170-8ff0-4349-b394-b408b051d773))
+    (pin "3" (uuid e78e4af8-a8c6-4d39-9be7-68d3be3365a1))
+    (pin "4" (uuid eaac00f1-fae2-4aa5-bbc3-5b8ab7152f25))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 60.325 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8584d54c-a1fb-4200-8e38-c36d9b415501)
+    (property "Reference" "C2" (at 60.96 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 60.96 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 61.2902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 60.96 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 60.325 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 60.96 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c29bfe2e-5541-4c46-87fa-fc521e22424e))
+    (pin "2" (uuid 79b3974f-9565-44a6-b60c-25a66a1ca948))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 48.895 178.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 86ca5d0e-5ed0-48ee-8413-a03bcc1177b6)
+    (property "Reference" "#PWR021" (at 48.895 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 48.895 174.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 48.895 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 48.895 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b04d2181-932d-416d-b705-5b7e5228481d))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 67.945 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 89e3ba7b-de70-450f-8c30-efab671bbd69)
+    (property "Reference" "C3" (at 68.58 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 68.58 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 68.9102 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 68.58 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 67.945 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 68.58 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6f65f5b6-3bd9-49c6-8671-ad9425540491))
+    (pin "2" (uuid 77d0fc63-857f-4459-ba33-45cf2b12ef1e))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 250.825 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 8a6abdf2-f301-4cb7-a08c-22ed4c7b189b)
+    (property "Reference" "TP4" (at 250.825 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 251.714 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 251.714 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.825 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP4" (at 248.285 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 249.174 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 6cde781a-5bd9-4edf-8238-d9457570b54c))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "TP4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 239.395 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 92a10238-015a-4d27-a227-4ad65d417776)
+    (property "Reference" "TP3" (at 239.395 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 240.284 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 240.284 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 239.395 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP3" (at 236.855 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 237.744 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 535a2d0a-f05c-4175-9bdf-a0739791c5e4))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "TP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 239.395 31.115 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9c5147fe-6ba5-4c7d-bc89-8779b162db43)
+    (property "Reference" "#PWR03" (at 239.395 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 239.395 34.925 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 239.395 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 239.395 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e3ad99ed-5760-4ff7-b4cf-8f8cd24b7b73))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0112") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 266.065 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9fd7f51d-9b45-4fc6-b96e-4229b1fc17f3)
+    (property "Reference" "J2" (at 266.065 48.895 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mini-Fit Jr. 2x02" (at 267.335 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 269.875 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 267.335 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C293502" (at 267.335 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "39-28-1043" (at 267.335 61.595 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "BL OUT" (at 267.335 51.435 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 997b10e3-4bb2-41c3-9d6a-ea6d9124a491))
+    (pin "2" (uuid 4643e4f1-eb74-4286-8237-fe34abb44bf4))
+    (pin "3" (uuid 15ff67b6-1cde-44f0-a022-b3d5560d89b2))
+    (pin "4" (uuid 385041aa-84e6-429b-87a9-846938eb8222))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:LED_3.0mm_Green") (at 262.255 26.035 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a49b4955-8372-4844-ab98-c5b0f1355630)
+    (property "Reference" "D1" (at 256.54 25.4 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Green" (at 254.635 27.305 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:LED_D3.0mm" (at 266.065 37.719 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/445/151031VS06000-3085738.pdf" (at 262.255 40.386 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "" (at 262.255 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "151031VS06000" (at 262.255 34.036 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "PWR STATUS" (at 262.255 35.941 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a1552c88-ef0e-4843-9241-a73e17c426d7))
+    (pin "2" (uuid 18026c97-af7c-473c-8eca-e1ce48a65687))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 236.855 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aaf0fa9d-a43a-42aa-8fad-855d1442927a)
+    (property "Reference" "J1" (at 236.855 48.895 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mini-Fit Jr. 2x02" (at 238.125 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 240.665 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 238.125 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C293502" (at 238.125 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "39-28-1043" (at 238.125 61.595 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "BL IN" (at 238.125 51.435 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 3ad29046-b563-40ab-bc11-f3bf27f995e6))
+    (pin "2" (uuid 9bcaac9f-6d2a-44be-854c-a7ffd1f9bcb2))
+    (pin "3" (uuid 62f70adf-3acf-4d46-8b79-600fbf59a460))
+    (pin "4" (uuid b31924b3-52d0-460f-98ce-ecd45692d201))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 98.425 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b1509134-65ce-4266-8685-4abbe88602ec)
+    (property "Reference" "C7" (at 99.06 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 99.06 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 99.3902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 99.06 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 98.425 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 99.06 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8bf0acac-b06f-4427-8ce8-4e58c0882cb5))
+    (pin "2" (uuid 183420cf-0576-43a2-a5bd-924ac0c51062))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 48.895 186.055 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b2858407-9c0e-49fd-9edd-cafecd14c4dc)
+    (property "Reference" "#PWR022" (at 48.895 192.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 48.895 189.865 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 48.895 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 48.895 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e38b5f6-2cb3-479b-87ca-ca0ff1b82196))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 258.445 51.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b6868db7-6507-44c3-a65f-21792e45ad5b)
+    (property "Reference" "#PWR07" (at 258.445 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 258.445 47.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 258.445 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 258.445 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 23d10284-60ef-4f17-8639-9af8c590ee67))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0116") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_Polarized_8x10_1000uF") (at 239.395 27.305 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c99fc606-dbc3-4608-8a88-26953609fb1a)
+    (property "Reference" "C1" (at 240.03 24.765 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1000uF" (at 240.03 29.845 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:CP_Elec_8x10" (at 254 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwt-1847810.pdf" (at 271.78 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C445083" (at 244.475 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "UWT0J102MNL1GS" (at 248.92 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "" (at 239.395 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4802ec92-0ebb-4de8-b445-d3d03570cc76))
+    (pin "2" (uuid 913557f6-405e-49d9-9c52-83f713c88578))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 226.695 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid d04eaf08-80c0-4497-8c69-d06591a2eedc)
+    (property "Reference" "TP1" (at 226.695 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 227.584 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 227.584 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.695 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP1" (at 224.155 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 225.044 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 1dae7203-7554-4514-b25c-1734897a87b1))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:MountingHole_6x32_PHS") (at 254.635 95.885 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d8aae8b6-8226-4123-9199-970b7c45079c)
+    (property "Reference" "MH2" (at 254.635 92.075 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6x32 / 4mm" (at 254.635 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:MountingHole_6-32_PHS" (at 255.905 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 254.635 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 152.4 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e2077198-f427-48fb-960c-8780836dd210)
+    (property "Reference" "D8" (at 154.94 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 156.21 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 181.61 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 196.85 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 159.385 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 157.48 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 152.4 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f8aa71fc-eb4e-4ec2-93fb-a0ba6fbae65f))
+    (pin "2" (uuid c7113c4c-3afd-44bc-8411-81b98e1ae247))
+    (pin "3" (uuid 07e5a2af-3d7d-46d0-9daa-5f397106edbb))
+    (pin "4" (uuid 994607a0-3f0e-44e1-b90c-60ecd7087c1b))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 280.035 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e73c108f-dcb4-40e9-88b8-7d4858a01528)
+    (property "Reference" "#FLG02" (at 280.035 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 280.035 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f5b7b141-43a5-4024-9c70-6e2f1fd0af3f))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#FLG0101") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 262.255 20.955 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e82fa9e8-35e3-48d5-ba9b-b4644e3d26e8)
+    (property "Reference" "#PWR01" (at 262.255 24.765 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 262.255 17.399 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 262.255 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 262.255 20.955 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 408ee6fb-223c-4c02-8b23-fbb811b9f1d8))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 106.045 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e88b8159-1355-4dd7-9fd5-113d8e9b7d52)
+    (property "Reference" "C8" (at 106.68 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 106.68 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 107.0102 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 106.68 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 106.045 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 106.68 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 876c32bb-5c21-45bd-92bf-c5a9142c6ca1))
+    (pin "2" (uuid 5c3c86cb-5ed1-4da9-8348-6965005a682a))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 57.15 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea4b9f5c-9699-4c2a-bbd5-2fd40278bc74)
+    (property "Reference" "D3" (at 59.69 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 60.96 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 86.36 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 101.6 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 64.135 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 62.23 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 57.15 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2ad2980b-ddad-4992-a57c-bd904b4c136c))
+    (pin "2" (uuid 33829ee9-bcd6-498e-ae33-bb638a156fe1))
+    (pin "3" (uuid 3c98bf9a-f169-4319-af23-3191aed0bb54))
+    (pin "4" (uuid fe04611c-f596-478b-95de-0aba9accb205))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 268.605 78.105 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ec225251-efb0-42dc-971c-6012cb7dbea5)
+    (property "Reference" "#PWR011" (at 268.605 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 268.605 74.549 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e7fca7f-4326-453a-ae2c-06bfbab6cc7e))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0114") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 233.045 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid ecac968c-13c8-46c8-bbad-f2f191456e30)
+    (property "Reference" "TP2" (at 233.045 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 233.934 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 233.934 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 233.045 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP2" (at 230.505 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 231.394 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 02477413-c0b5-401b-a9bb-53c8a9609e83))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "TP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 114.3 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f84df407-f586-47ad-96d1-79203d11c20b)
+    (property "Reference" "D6" (at 116.84 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 118.11 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 143.51 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 121.285 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 119.38 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 114.3 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 57be0608-49b7-4a5d-9bb1-398ea1223d7b))
+    (pin "2" (uuid 22f513b1-c04e-48de-a2f1-bc8d7552495a))
+    (pin "3" (uuid 261a6534-08a4-45f3-bfb1-ae42fd028a3a))
+    (pin "4" (uuid bc08a0f2-6458-450b-bdd7-063bc7d09556))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 90.805 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fa1684b4-f51c-4e05-9cbf-7aea06f389c4)
+    (property "Reference" "C6" (at 91.44 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 91.44 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 91.7702 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 91.44 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 90.805 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 91.44 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c422f9b8-15ee-4791-a9e3-8089165b0951))
+    (pin "2" (uuid 87105889-4bc4-4841-b731-771b0e059037))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 191.77 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fe3b5255-ae34-431a-9ee0-2ecd80e2c054)
+    (property "Reference" "D9" (at 194.31 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 195.58 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 220.98 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 236.22 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 198.755 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 196.85 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 191.77 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 36ec2698-4349-4eb0-83c1-3bec8705ee0a))
+    (pin "2" (uuid 676fa95b-0e09-4d0e-9287-faab2a77f59e))
+    (pin "3" (uuid db2e986b-681d-4531-a425-363ce165c255))
+    (pin "4" (uuid 233a313f-a87f-49a2-8ff3-faf5cd315531))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "D10") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "D9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:MountingHole_6x32_PHS") (at 244.475 95.885 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fe90d3b7-088e-49a8-8cda-a2deb46b69b0)
+    (property "Reference" "MH1" (at 244.475 92.075 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "6x32 / 4mm" (at 244.475 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:MountingHole_6-32_PHS" (at 245.745 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 244.475 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "GEN TIE PANEL"
+        (path "/955876eb-93fe-4845-a396-a74df8b479e9"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

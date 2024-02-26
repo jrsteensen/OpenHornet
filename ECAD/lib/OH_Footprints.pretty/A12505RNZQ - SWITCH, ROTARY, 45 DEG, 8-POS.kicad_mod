@@ -1,0 +1,15 @@
+(footprint "A12505RNZQ - SWITCH, ROTARY, 45 DEG, 8-POS" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0.025 -9) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3c4e2fb9-a8bb-4d4a-8eda-8429cba158d0)
+  )
+  (fp_text value "A12505RNZQ - SWITCH, ROTARY, 45 DEG, 8-POS" (at 0.025 -7.6) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 7660e69b-4bb6-4874-8928-63ca46f13e71)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 9.8044 9.8044) (drill 9.8044) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.54) (tstamp 596276e7-d617-49f6-b80e-ed1654164646))
+  (pad "" np_thru_hole circle (at 0 9.525) (size 3.175 3.175) (drill 3.175) (layers "F&B.Cu" "*.Mask") (tstamp 70e1a7bc-25e3-4fac-8840-42b1205e0b10))
+)

@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,X/ROLL,JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal,35.024,-25.67,90.0,top
+J2,Y/PITCH,JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal,35.024,-41.67,90.0,top
+J3,Z/AUX,JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal,18.0,-4.0,180.0,top
+J4,TM GRIP,JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal,35.0,-10.0,90.0,top
+J5,AUX I/O,PinHeader_2x07_P2.54mm_Vertical,3.5,-12.5,90.0,top
+Q1,IRLML6402TRPBF,SOT-23,23.0,-3.0,180.0,top
+Q2,IRLML6402TRPBF,SOT-23,29.0,-3.0,180.0,top
+Q3,2N7002,SOT-23,29.0,-7.0,0.0,top
+R1,10k,R_0603_1608Metric,26.0,-3.0,-90.0,top
+R2,33,R_0402_1005Metric,26.0,-6.0,-90.0,top
+SW1,RESET,SMD-SW-4_5.1x5.1,10.0,-20.5,90.0,top
+U1,ProMicro,DIP-24_W15.24mm_Socket,2.004,-42.688,90.0,top

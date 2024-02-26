@@ -1,0 +1,4437 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 96ab8c00-4b6d-4efc-b1d9-a1d395ac9831)
+
+  (paper "A4")
+
+  (title_block
+    (title "LEFT CIRCUIT BREAKER")
+    (date "2023-05-29")
+    (rev "4")
+    (company "www.openhornet.com")
+    (comment 1 "License:  CC BY-NC-SA")
+    (comment 2 "Backlighting - Type A")
+  )
+
+  (lib_symbols
+    (symbol "OH_Symbols:Capacitor_0603_0.1uF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "0.1uF" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 0.9652 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 0.635 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C14663" (at 0 -10.795 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 0.635 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Capacitor, Non-polarized, SMD 0603_1608, 0.1uF" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Capacitor_0603_0.1uF_0_1"
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke (width 0.508) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Capacitor_0603_0.1uF_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:Capacitor_Polarized_8x10_1000uF" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 0.635 2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "1000uF" (at 0.635 -2.54 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "OH_Footprints:CP_Elec_8x10" (at 14.605 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwt-1847810.pdf" (at 32.385 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C445083" (at 5.08 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "UWT0J102MNL1GS" (at 9.525 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "cap capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Polarized capacitor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CP_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Capacitor_Polarized_8x10_1000uF_0_1"
+        (rectangle (start -2.286 0.508) (end 2.286 1.016)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
+          (stroke (width 0) (type default))
+          (fill (type outline))
+        )
+      )
+      (symbol "Capacitor_Polarized_8x10_1000uF_1_1"
+        (pin passive line (at 0 3.81 270) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 2.794)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:LOGO_License_Half_Small" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+      (property "Reference" "LOGO" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LOGO" (at 0 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LOGO_CC-BY-NC-SA_Half_Small" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://creativecommons.org/licenses/by-nc-sa/4.0/" (at 0.635 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "CC License, BY-NC-SA, no symbols, Small" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LOGO_License_Half_Small_0_0"
+        (text "CC-BY-NC-SA" (at 0 3.81 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LOGO_License_Half_Small_0_1"
+        (rectangle (start 3.81 5.08) (end -3.81 11.43)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LOGO_License_Half_Small_1_0"
+        (text "HALF / SMALL\n" (at 0.635 1.905 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "LOGO_License_Half_Small_1_1"
+        (text "LOGO" (at 0 8.255 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+    (symbol "OH_Symbols:LOGO_OpenHornet_Text_Small" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
+      (property "Reference" "LOGO" (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LOGO" (at 0 -0.635 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LOGO_OH_Text_Small" (at 0 -6.985 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.openhornet.com" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at 0 -4.445 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "37.7mm_5.9mm, Openhornet symbol with Text, Small" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LOGO_OpenHornet_Text_Small_0_1"
+        (rectangle (start 3.81 5.08) (end -3.81 11.43)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LOGO_OpenHornet_Text_Small_1_0"
+        (text "LOGO" (at 0 8.255 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "OPENHORNET\nTEXT / SMALL" (at 0 2.54 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+    )
+    (symbol "OH_Symbols:Molex_Mini-Fit_Jr._2x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J2" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "Mini-Fit Jr. 2x02" (at 1.27 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 3.81 -15.24 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 1.27 -17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C293502" (at 1.27 -9.525 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "39-28-1043" (at 1.27 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Silkscreen" "BL OUT" (at 1.27 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_2x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Molex_Mini-Fit_Jr._2x02_1_1"
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 1.27) (end 3.81 -3.81)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (rectangle (start 3.81 -2.413) (end 2.54 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 3.81 0.127) (end 2.54 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 -2.54 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom no) (on_board yes)
+      (property "Reference" "TP" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TestPoint" (at 0.889 -9.652 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 0.889 -11.938 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 1.778 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Silkscreen" "" (at -2.54 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Notes" "" (at -1.651 -8.382 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "ki_keywords" "test point tp" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "test point" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Pin* Test*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "TestPoint_0_1"
+        (circle (center 0 -3.302) (radius 0.762)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "TestPoint_1_1"
+        (pin passive line (at 0 0 270) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "OH_Symbols:WS2812B" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 2.54 6.096 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "WS2812B" (at 3.81 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 29.21 -12.065 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 44.45 -13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "LCSC" "C2761795" (at 6.985 -8.255 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Manufacturer PN" "WS2812B" (at 5.08 -6.35 0) (do_not_autoplace)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Silkscreen" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "RGB LED NeoPixel addressable" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "RGB LED with integrated controller" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "WS2812B_0_0"
+        (text "RGB" (at 2.286 -4.191 0)
+          (effects (font (size 0.762 0.762)))
+        )
+      )
+      (symbol "WS2812B_0_1"
+        (polyline
+          (pts
+            (xy 1.27 -3.556)
+            (xy 1.778 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 1.778 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -3.556)
+            (xy 2.667 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -2.54)
+            (xy 1.27 -3.556)
+            (xy 1.27 -3.048)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.524)
+            (xy 1.27 -2.54)
+            (xy 1.27 -2.032)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.683 -1.016)
+            (xy 3.683 -3.556)
+            (xy 3.683 -4.064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.699 -1.524)
+            (xy 2.667 -1.524)
+            (xy 3.683 -3.556)
+            (xy 4.699 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 5.08 5.08) (end -5.08 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+      )
+      (symbol "WS2812B_1_1"
+        (pin power_in line (at 0 7.62 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 7.62 0 180) (length 2.54)
+          (name "DOUT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "VSS" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -7.62 0 0) (length 2.54)
+          (name "DIN" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+    )
+  )
+
+  (junction (at 69.85 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid 0e5917e5-e861-42d2-8654-43cfccdc9716)
+  )
+  (junction (at 92.075 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 1199d93c-33b1-4c20-9888-d9de719f57c4)
+  )
+  (junction (at 79.375 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 15fc7eb7-acbe-4cde-be28-02da3de29708)
+  )
+  (junction (at 50.8 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 160b57a2-64b3-444d-8572-e90b24269c85)
+  )
+  (junction (at 69.85 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 1aaae7ef-0ce8-4846-855a-6443251c1005)
+  )
+  (junction (at 127 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 1abe5d97-c93f-4a9e-b616-700380179478)
+  )
+  (junction (at 107.95 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid 1c117e7c-e7f4-462e-98da-08fcf3136957)
+  )
+  (junction (at 229.235 53.975) (diameter 0) (color 0 0 0 0)
+    (uuid 1fc4d337-1fa5-4962-b9b8-2d6ad6ae4881)
+  )
+  (junction (at 107.95 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 1ffd707e-0f3a-421a-9ffd-ff40f58add5f)
+  )
+  (junction (at 146.05 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 2619609f-d0b9-4602-bf36-43ea0c2535c1)
+  )
+  (junction (at 85.725 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 28d0e70d-24e5-4146-a7b0-8edbc01da5ab)
+  )
+  (junction (at 117.475 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 31d58382-db7c-4810-ba5b-470c971a3eba)
+  )
+  (junction (at 127 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 349b7835-bb0e-46f2-a71f-f8590e4cc944)
+  )
+  (junction (at 123.825 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 35031885-d3b3-4301-aff3-2eeec6641cbd)
+  )
+  (junction (at 98.425 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 3798db88-2cef-4237-bd96-e787c15846a8)
+  )
+  (junction (at 50.8 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 3972b239-2ad7-41db-967d-2b8f4daa2761)
+  )
+  (junction (at 104.775 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 39d545d2-ab48-4b43-a29a-a1958defd93a)
+  )
+  (junction (at 146.05 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid 3fd02e42-1600-4aa4-989c-becff781296c)
+  )
+  (junction (at 117.475 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 40259144-b29b-44de-b63e-06e9374d3814)
+  )
+  (junction (at 136.525 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 4081633c-a6b5-4df8-9e3f-c9ef2ffc26df)
+  )
+  (junction (at 66.675 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 48a93dba-01f3-444e-b97e-221ab7169d74)
+  )
+  (junction (at 127 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 4ac16a4f-8a60-42b7-b3ab-176814a24574)
+  )
+  (junction (at 107.95 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid 55e5aa01-b5c6-4456-9119-4ae7fd20a915)
+  )
+  (junction (at 88.9 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 5c63c268-1672-49c2-9656-976d7ce1f00a)
+  )
+  (junction (at 98.425 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 60e09e13-fbed-4620-a6b3-ab95fed59c17)
+  )
+  (junction (at 66.675 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 649ffb88-57fa-4dbf-8a27-a18d558e2af2)
+  )
+  (junction (at 79.375 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 6559d447-ed65-4961-bfa9-6d9910565125)
+  )
+  (junction (at 111.125 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 6932d6d9-533d-433c-8423-368d6ca6d8ae)
+  )
+  (junction (at 104.775 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 704a8921-0d72-4431-8997-b19bbdefba0d)
+  )
+  (junction (at 111.125 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid 754a4a68-4a5c-4000-9e1a-7415524d0c49)
+  )
+  (junction (at 146.05 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 7816dfe9-598c-4d8e-9d85-3eaa1ae9b9cc)
+  )
+  (junction (at 130.175 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 87d672ed-a1e9-41e3-b151-fffff15212e0)
+  )
+  (junction (at 88.9 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid 8ca6b2cd-e50f-4da7-80e1-3dd90f25faac)
+  )
+  (junction (at 146.05 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 8cc4729f-0353-4f0d-a04b-dbd053618e59)
+  )
+  (junction (at 123.825 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid 94010a8d-5c15-4af2-a432-c7dbd4bc7553)
+  )
+  (junction (at 88.9 24.13) (diameter 0) (color 0 0 0 0)
+    (uuid a0a230a9-efa7-4ebc-bba5-298c0d9bc3f2)
+  )
+  (junction (at 73.025 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid a76eb62d-c843-4eb6-a258-49596a2b34c3)
+  )
+  (junction (at 60.325 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid aecbec61-4cf2-40aa-aff8-05b4416bdc5f)
+  )
+  (junction (at 69.85 71.12) (diameter 0) (color 0 0 0 0)
+    (uuid b8749dfa-7209-4503-b143-74f77674148b)
+  )
+  (junction (at 258.445 53.975) (diameter 0) (color 0 0 0 0)
+    (uuid bff3eebb-0a32-4ac8-b1ec-a80be3126544)
+  )
+  (junction (at 69.85 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid c343bdc5-568e-4d7b-93ce-8606b2e66db9)
+  )
+  (junction (at 127 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid cd9e6665-f553-4409-9b0f-0eb8a3af8f9c)
+  )
+  (junction (at 107.95 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid d58b01a8-38d1-4ab3-a238-7291e26f68c9)
+  )
+  (junction (at 50.8 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid d79661d0-ae68-48fe-9fac-efe3ccba95ae)
+  )
+  (junction (at 73.025 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid d91c7b2f-1181-4e35-9e1d-4a354e7348f8)
+  )
+  (junction (at 50.8 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid dcb56136-cbf0-4102-8bd1-bcb488cc9d9c)
+  )
+  (junction (at 136.525 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid de2c0595-e75e-423b-b44a-1aaaffba2997)
+  )
+  (junction (at 85.725 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid e59b81b7-79b3-4da9-b853-4575cca0090f)
+  )
+  (junction (at 88.9 39.37) (diameter 0) (color 0 0 0 0)
+    (uuid ed169679-c13f-4267-bfe6-7f464b5f37a2)
+  )
+  (junction (at 92.075 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid eecde2fd-ae33-4ba7-a54f-f7f523569ab1)
+  )
+  (junction (at 130.175 178.435) (diameter 0) (color 0 0 0 0)
+    (uuid f6e291ef-b288-4ce9-919a-be63646deea7)
+  )
+  (junction (at 60.325 186.055) (diameter 0) (color 0 0 0 0)
+    (uuid f9bf7a1c-7892-4dac-b3d0-78c1acb76c58)
+  )
+
+  (wire (pts (xy 88.9 71.12) (xy 107.95 71.12))
+    (stroke (width 0) (type default))
+    (uuid 01d80f53-80b6-4a59-97a5-99f2416e334e)
+  )
+  (wire (pts (xy 134.62 31.75) (xy 138.43 31.75))
+    (stroke (width 0) (type default))
+    (uuid 02b74d86-175e-4276-b703-e854aaebe066)
+  )
+  (wire (pts (xy 229.235 51.435) (xy 229.235 53.975))
+    (stroke (width 0) (type default))
+    (uuid 04e761fc-de00-491b-8a31-97644ae7dfb5)
+  )
+  (wire (pts (xy 50.8 55.88) (xy 69.85 55.88))
+    (stroke (width 0) (type default))
+    (uuid 09a6774d-d979-46fb-91b9-17142b937a2d)
+  )
+  (wire (pts (xy 115.57 31.75) (xy 119.38 31.75))
+    (stroke (width 0) (type default))
+    (uuid 0d28e35a-3d7f-4c75-9018-714602fd143e)
+  )
+  (wire (pts (xy 98.425 186.055) (xy 104.775 186.055))
+    (stroke (width 0) (type default))
+    (uuid 0e5f6b61-3356-4008-a3c0-787ebc712482)
+  )
+  (wire (pts (xy 79.375 186.055) (xy 85.725 186.055))
+    (stroke (width 0) (type default))
+    (uuid 1494ad6b-4ae0-4b45-93c0-df7bfa903f45)
+  )
+  (wire (pts (xy 88.9 39.37) (xy 107.95 39.37))
+    (stroke (width 0) (type default))
+    (uuid 185773b2-e19c-4bcf-8c71-ab97c0c66c43)
+  )
+  (wire (pts (xy 27.94 71.12) (xy 50.8 71.12))
+    (stroke (width 0) (type default))
+    (uuid 1c837d6f-ef64-4586-9595-48d2b60ec32b)
+  )
+  (wire (pts (xy 69.85 24.13) (xy 88.9 24.13))
+    (stroke (width 0) (type default))
+    (uuid 21b60088-8bd3-45a8-8bad-e426388d0d92)
+  )
+  (wire (pts (xy 88.9 24.13) (xy 107.95 24.13))
+    (stroke (width 0) (type default))
+    (uuid 21bf0115-5808-4c64-a348-3e5659781c07)
+  )
+  (wire (pts (xy 58.42 31.75) (xy 62.23 31.75))
+    (stroke (width 0) (type default))
+    (uuid 228185e8-2442-45c4-a738-b6a8c64c4ecf)
+  )
+  (wire (pts (xy 73.025 186.055) (xy 79.375 186.055))
+    (stroke (width 0) (type default))
+    (uuid 29927990-5b52-4289-b005-ff7dfffc1412)
+  )
+  (wire (pts (xy 258.445 53.975) (xy 258.445 56.515))
+    (stroke (width 0) (type default))
+    (uuid 29e90319-3f85-4b20-9fb1-4836db64e1ce)
+  )
+  (wire (pts (xy 19.05 24.13) (xy 50.8 24.13))
+    (stroke (width 0) (type default))
+    (uuid 2cd75a1a-216e-4a39-9afd-e9dcc06f8989)
+  )
+  (wire (pts (xy 134.62 63.5) (xy 138.43 63.5))
+    (stroke (width 0) (type default))
+    (uuid 38f0a5aa-9aa3-4bc7-ade1-e2c9d2308269)
+  )
+  (wire (pts (xy 117.475 186.055) (xy 123.825 186.055))
+    (stroke (width 0) (type default))
+    (uuid 3c042e23-a85b-45af-9027-ea0450f229e1)
+  )
+  (wire (pts (xy 92.075 178.435) (xy 85.725 178.435))
+    (stroke (width 0) (type default))
+    (uuid 3c9b524c-3a07-4d8d-a787-2963e142af7c)
+  )
+  (wire (pts (xy 27.94 55.88) (xy 50.8 55.88))
+    (stroke (width 0) (type default))
+    (uuid 4072a128-930b-44f6-a614-201cd1182e43)
+  )
+  (wire (pts (xy 146.05 71.12) (xy 165.1 71.12))
+    (stroke (width 0) (type default))
+    (uuid 48ce997c-8bfd-446b-be48-044abfd1ccf0)
+  )
+  (wire (pts (xy 77.47 31.75) (xy 81.28 31.75))
+    (stroke (width 0) (type default))
+    (uuid 4967d525-6683-4602-8a3d-6f5f6dc1b542)
+  )
+  (wire (pts (xy 52.705 186.055) (xy 60.325 186.055))
+    (stroke (width 0) (type default))
+    (uuid 4b49f976-8f03-4264-9b1a-2d4439600306)
+  )
+  (wire (pts (xy 88.9 55.88) (xy 107.95 55.88))
+    (stroke (width 0) (type default))
+    (uuid 4e647ff0-579c-4416-84b1-62a831c26987)
+  )
+  (wire (pts (xy 19.05 39.37) (xy 50.8 39.37))
+    (stroke (width 0) (type default))
+    (uuid 4eb66011-2980-4589-95ec-60dceeae52ad)
+  )
+  (wire (pts (xy 66.675 178.435) (xy 60.325 178.435))
+    (stroke (width 0) (type default))
+    (uuid 52530dff-19d7-4006-8e57-b6c4c84552ed)
+  )
+  (wire (pts (xy 69.85 55.88) (xy 88.9 55.88))
+    (stroke (width 0) (type default))
+    (uuid 56e87088-e922-4944-aad7-9124ca76e5ca)
+  )
+  (wire (pts (xy 130.175 178.435) (xy 123.825 178.435))
+    (stroke (width 0) (type default))
+    (uuid 5b90d448-daba-4c30-964a-935f1cd0aa69)
+  )
+  (wire (pts (xy 104.775 178.435) (xy 98.425 178.435))
+    (stroke (width 0) (type default))
+    (uuid 64d8a213-fba4-492b-bbc7-cd71cfe25f74)
+  )
+  (wire (pts (xy 146.05 24.13) (xy 165.1 24.13))
+    (stroke (width 0) (type default))
+    (uuid 65d54745-5fc9-4c22-8332-3a9b47cbce6f)
+  )
+  (wire (pts (xy 77.47 63.5) (xy 81.28 63.5))
+    (stroke (width 0) (type default))
+    (uuid 66a3bf65-82bc-45e7-ad7e-6111f9bd18ba)
+  )
+  (wire (pts (xy 276.225 53.975) (xy 273.685 53.975))
+    (stroke (width 0) (type default))
+    (uuid 6b30efc5-249f-4f17-805a-27e418d42545)
+  )
+  (wire (pts (xy 260.985 56.515) (xy 258.445 56.515))
+    (stroke (width 0) (type default))
+    (uuid 6bbb3973-16df-4328-850b-602e7dd54700)
+  )
+  (wire (pts (xy 123.825 178.435) (xy 117.475 178.435))
+    (stroke (width 0) (type default))
+    (uuid 6c2c2589-67bf-478d-86eb-09c7350439b4)
+  )
+  (wire (pts (xy 107.95 24.13) (xy 127 24.13))
+    (stroke (width 0) (type default))
+    (uuid 6d6eb545-b25d-439d-8837-1416870bdd29)
+  )
+  (wire (pts (xy 136.525 178.435) (xy 130.175 178.435))
+    (stroke (width 0) (type default))
+    (uuid 7026beab-f7c9-434d-a191-b1d1f39fa667)
+  )
+  (wire (pts (xy 60.325 186.055) (xy 66.675 186.055))
+    (stroke (width 0) (type default))
+    (uuid 75b9daf1-fca2-4731-a1b6-9885bc5b164c)
+  )
+  (wire (pts (xy 50.8 39.37) (xy 69.85 39.37))
+    (stroke (width 0) (type default))
+    (uuid 76b8adfd-8780-4c81-87d2-893085819bca)
+  )
+  (wire (pts (xy 146.05 39.37) (xy 165.1 39.37))
+    (stroke (width 0) (type default))
+    (uuid 7d11fb33-3b14-4dd3-87e4-0430b7039fbb)
+  )
+  (wire (pts (xy 58.42 63.5) (xy 62.23 63.5))
+    (stroke (width 0) (type default))
+    (uuid 801aab00-9927-4935-a66c-80de6ec1af08)
+  )
+  (wire (pts (xy 127 55.88) (xy 146.05 55.88))
+    (stroke (width 0) (type default))
+    (uuid 809be97c-7c6a-4e94-9be7-0822f1e4dc28)
+  )
+  (wire (pts (xy 107.95 55.88) (xy 127 55.88))
+    (stroke (width 0) (type default))
+    (uuid 82c9753d-e05d-4367-923b-b02fd8a50765)
+  )
+  (wire (pts (xy 142.875 178.435) (xy 136.525 178.435))
+    (stroke (width 0) (type default))
+    (uuid 85192c74-821a-4953-898e-27e30f181f27)
+  )
+  (wire (pts (xy 85.725 186.055) (xy 92.075 186.055))
+    (stroke (width 0) (type default))
+    (uuid 8cacb875-9c67-4293-8d72-275304353508)
+  )
+  (wire (pts (xy 231.775 56.515) (xy 229.235 56.515))
+    (stroke (width 0) (type default))
+    (uuid 8e1fba2f-c5d0-41a5-8dbd-ebef1a3a94e6)
+  )
+  (wire (pts (xy 85.725 178.435) (xy 79.375 178.435))
+    (stroke (width 0) (type default))
+    (uuid 8f3adae6-a64d-4fbd-93ba-b39dca782c48)
+  )
+  (wire (pts (xy 153.67 31.75) (xy 157.48 31.75))
+    (stroke (width 0) (type default))
+    (uuid 8fd3cf7e-5755-4c77-af65-14fc4942b3c1)
+  )
+  (wire (pts (xy 117.475 178.435) (xy 111.125 178.435))
+    (stroke (width 0) (type default))
+    (uuid 93879cda-ab73-4d7f-997b-c8f830bfcfed)
+  )
+  (wire (pts (xy 96.52 63.5) (xy 100.33 63.5))
+    (stroke (width 0) (type default))
+    (uuid 997b3913-9e78-4e29-9108-79d14f0592b5)
+  )
+  (wire (pts (xy 92.075 186.055) (xy 98.425 186.055))
+    (stroke (width 0) (type default))
+    (uuid 9c5c96a9-06c9-4d11-b03d-a3c45890618b)
+  )
+  (wire (pts (xy 258.445 53.975) (xy 260.985 53.975))
+    (stroke (width 0) (type default))
+    (uuid 9d255b36-7139-4788-ae42-29094f078881)
+  )
+  (wire (pts (xy 69.85 71.12) (xy 88.9 71.12))
+    (stroke (width 0) (type default))
+    (uuid 9f07a676-6ab8-4828-be0b-6e9f333fa558)
+  )
+  (wire (pts (xy 115.57 63.5) (xy 119.38 63.5))
+    (stroke (width 0) (type default))
+    (uuid a0fdf588-ce1d-469c-b4ff-a672ef139172)
+  )
+  (wire (pts (xy 104.775 178.435) (xy 111.125 178.435))
+    (stroke (width 0) (type default))
+    (uuid a6e2778d-806a-4aed-8206-af7102effc4e)
+  )
+  (wire (pts (xy 127 71.12) (xy 146.05 71.12))
+    (stroke (width 0) (type default))
+    (uuid a9aa69ba-81ff-4a15-aafe-9a8e29d4a963)
+  )
+  (wire (pts (xy 276.225 51.435) (xy 276.225 53.975))
+    (stroke (width 0) (type default))
+    (uuid ac330200-4f51-4128-af35-d8cb405e7490)
+  )
+  (wire (pts (xy 52.705 178.435) (xy 60.325 178.435))
+    (stroke (width 0) (type default))
+    (uuid ad26f3d5-b9f1-4c5e-96a5-2d2ce954b636)
+  )
+  (wire (pts (xy 96.52 31.75) (xy 100.33 31.75))
+    (stroke (width 0) (type default))
+    (uuid afbf0c3d-f2b0-4982-8242-97ee7593107a)
+  )
+  (wire (pts (xy 104.775 186.055) (xy 111.125 186.055))
+    (stroke (width 0) (type default))
+    (uuid b02aea6a-30d5-446c-9ae8-746fba84592b)
+  )
+  (wire (pts (xy 107.95 71.12) (xy 127 71.12))
+    (stroke (width 0) (type default))
+    (uuid b7294aa1-6269-4165-8935-b3dc584c9734)
+  )
+  (wire (pts (xy 229.235 53.975) (xy 231.775 53.975))
+    (stroke (width 0) (type default))
+    (uuid b962a603-67a6-47d7-ae35-82449178bbd3)
+  )
+  (wire (pts (xy 69.85 39.37) (xy 88.9 39.37))
+    (stroke (width 0) (type default))
+    (uuid c1cb45ae-f272-41c0-ab62-cf226d02494c)
+  )
+  (wire (pts (xy 107.95 39.37) (xy 127 39.37))
+    (stroke (width 0) (type default))
+    (uuid c2d81fac-bd31-4668-95d1-47f7a7ec29e8)
+  )
+  (wire (pts (xy 79.375 178.435) (xy 73.025 178.435))
+    (stroke (width 0) (type default))
+    (uuid c397af39-bae2-411f-86e6-a91bbf24a8cd)
+  )
+  (wire (pts (xy 127 39.37) (xy 146.05 39.37))
+    (stroke (width 0) (type default))
+    (uuid c4e62255-5a24-449a-ab63-e37a38f601df)
+  )
+  (wire (pts (xy 172.72 63.5) (xy 190.5 63.5))
+    (stroke (width 0) (type default))
+    (uuid c5b22990-b3c7-4611-972d-e224054b9458)
+  )
+  (wire (pts (xy 153.67 63.5) (xy 157.48 63.5))
+    (stroke (width 0) (type default))
+    (uuid c9ec476b-96f5-4668-ab8b-4c23853dc95e)
+  )
+  (wire (pts (xy 123.825 186.055) (xy 130.175 186.055))
+    (stroke (width 0) (type default))
+    (uuid cbfd5dfa-52d4-4433-8148-0b032a34f09b)
+  )
+  (wire (pts (xy 50.8 71.12) (xy 69.85 71.12))
+    (stroke (width 0) (type default))
+    (uuid cfbe4a1d-7a14-4229-b7ab-8251ebb8f29c)
+  )
+  (wire (pts (xy 172.72 31.75) (xy 190.5 31.75))
+    (stroke (width 0) (type default))
+    (uuid d0d26126-59ca-4e22-8268-449bca81dd6a)
+  )
+  (wire (pts (xy 30.48 63.5) (xy 43.18 63.5))
+    (stroke (width 0) (type default))
+    (uuid d1883d75-c4e6-477a-8cf4-aa7d49ebe6b0)
+  )
+  (wire (pts (xy 50.8 24.13) (xy 69.85 24.13))
+    (stroke (width 0) (type default))
+    (uuid d1996492-0449-4cee-a181-7316f9c9d213)
+  )
+  (wire (pts (xy 98.425 178.435) (xy 92.075 178.435))
+    (stroke (width 0) (type default))
+    (uuid d1f82040-aee3-4a30-b185-5097b290a0dd)
+  )
+  (wire (pts (xy 244.475 53.975) (xy 247.015 53.975))
+    (stroke (width 0) (type default))
+    (uuid d2157ab2-c8fd-48b7-a338-7498dda04ca6)
+  )
+  (wire (pts (xy 146.05 55.88) (xy 165.1 55.88))
+    (stroke (width 0) (type default))
+    (uuid d6892c85-2c52-4313-a5bf-1be4d589d3a3)
+  )
+  (wire (pts (xy 258.445 51.435) (xy 258.445 53.975))
+    (stroke (width 0) (type default))
+    (uuid da3c12ec-6cd1-4356-bfb7-7fcf9597c16d)
+  )
+  (wire (pts (xy 136.525 186.055) (xy 142.875 186.055))
+    (stroke (width 0) (type default))
+    (uuid dd5b54ca-4568-4424-8af8-310b7bac3157)
+  )
+  (wire (pts (xy 127 24.13) (xy 146.05 24.13))
+    (stroke (width 0) (type default))
+    (uuid de72d872-12ba-4e78-93ec-74efb5054010)
+  )
+  (wire (pts (xy 66.675 186.055) (xy 73.025 186.055))
+    (stroke (width 0) (type default))
+    (uuid e260c704-3d4d-45ab-be98-ee5a8d9483b1)
+  )
+  (wire (pts (xy 130.175 186.055) (xy 136.525 186.055))
+    (stroke (width 0) (type default))
+    (uuid e7df9849-ac97-457b-8ea5-e2e850b75788)
+  )
+  (wire (pts (xy 28.575 31.75) (xy 43.18 31.75))
+    (stroke (width 0) (type default))
+    (uuid e9031154-af66-4eb4-8dc0-296aa67af20d)
+  )
+  (wire (pts (xy 229.235 53.975) (xy 229.235 56.515))
+    (stroke (width 0) (type default))
+    (uuid f1002984-1c6c-48e6-8393-afbf193ee6c8)
+  )
+  (wire (pts (xy 73.025 178.435) (xy 66.675 178.435))
+    (stroke (width 0) (type default))
+    (uuid f189ae9b-ca7e-4524-a879-c5932f8e6e87)
+  )
+  (wire (pts (xy 247.015 51.435) (xy 247.015 53.975))
+    (stroke (width 0) (type default))
+    (uuid f78435a4-369c-4137-b3e0-3274500e6d27)
+  )
+  (wire (pts (xy 111.125 186.055) (xy 117.475 186.055))
+    (stroke (width 0) (type default))
+    (uuid ff2d7d91-4e64-4a32-8a18-97ad44913a02)
+  )
+
+  (text_box "DECOUPLING\nCAPACITOR"
+    (at 224.155 12.065 0) (size 30.48 27.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 221d7e16-6665-4ad3-93aa-52f733429802)
+  )
+  (text_box "POWER STATUS\nLED"
+    (at 254.635 12.065 0) (size 30.48 27.94)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 293dd67c-c782-463c-8433-3522358f132a)
+  )
+  (text_box "SWITCHES"
+    (at 224.155 118.11 0) (size 60.96 26.035)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 306f1387-669a-428b-bb79-74e3c034e0c1)
+  )
+  (text_box "PWR FLAGS"
+    (at 262.255 66.675 0) (size 22.86 19.05)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 3fbadf1b-7391-4064-b963-5484895ec41e)
+  )
+  (text_box "TEST POINTS"
+    (at 224.155 66.675 0) (size 38.1 19.05)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 4b1bcc9b-784c-4b1b-b932-95c3b866d849)
+  )
+  (text_box "LOGOS"
+    (at 224.155 144.145 0) (size 60.96 21.59)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 870d93c5-485b-46dc-834a-6ec7b28ec651)
+  )
+  (text_box "NON-POLARIZED CAPACITORS"
+    (at 12.065 165.735 0) (size 165.1 32.385)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid 91c1b22d-02ce-4666-95ad-3669b6a27750)
+  )
+  (text_box "MOUNTING HOLES"
+    (at 224.155 85.725 0) (size 60.96 32.385)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid c0455c73-e605-4448-bd0b-197552eec48a)
+  )
+  (text_box "CONNECTORS"
+    (at 224.155 40.005 0) (size 60.96 26.67)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify top))
+    (uuid d4d4f9cd-5fe6-433e-aa65-ce04bbaeecdc)
+  )
+
+  (text "N/A" (at 252.73 132.715 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 047b693c-e450-4623-8338-306e28e059a2)
+  )
+  (text "N/A" (at 252.73 103.505 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 44688fa0-a111-4a16-a5e3-dd7a158a6167)
+  )
+  (text "N/A" (at 267.97 27.94 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7d6d3286-5983-4cc2-a3ea-1411adae66b6)
+  )
+
+  (label "DATA1" (at 30.48 63.5 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3728175e-ac25-4a12-93af-1a7abfa9c231)
+  )
+  (label "DATA1" (at 190.5 31.75 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid feab9a8e-b3e2-4be6-bb2b-f5ec8e9161b4)
+  )
+
+  (global_label "DATA OUT" (shape output) (at 273.685 56.515 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 17c8f25c-6f77-4a33-9433-1259d12f4299)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 284.9476 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA IN" (shape input) (at 244.475 56.515 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 48bacbce-8faa-44d2-8601-0696f9c43416)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 254.6985 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA IN" (shape input) (at 239.395 75.565 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 603cc00a-17bc-485c-af8c-1982035bde8f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 248.9643 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA IN" (shape input) (at 28.575 31.75 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 66274517-8b90-4fe9-9cb5-9f7fce69a54f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 18.3515 31.75 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "DATA OUT" (shape output) (at 250.825 75.565 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7c7ffaee-b743-45e4-91ea-130e719b300c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.0876 75.565 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DATA OUT" (shape output) (at 190.5 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid b48a527f-13cc-4bd6-9d13-cb9b36e3a327)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 201.7626 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 79.375 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 061dd8c3-c3ab-4baa-b567-ac1b0a3895e9)
+    (property "Reference" "C5" (at 80.01 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 80.01 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 80.3402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 80.01 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 79.375 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 80.01 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2d407b12-5619-487a-b6fc-7a12e179b8d4))
+    (pin "2" (uuid 89a2329d-e812-4f3a-8039-5446ad1ac67e))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 146.05 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 07736e75-dd87-40c1-a155-6c78c74bc887)
+    (property "Reference" "D7" (at 148.59 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 149.86 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 175.26 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 190.5 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 153.035 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 151.13 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 146.05 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f293f778-5863-47f8-9dc0-1fb686b59358))
+    (pin "2" (uuid ca56a0de-0c15-4c21-a783-6e00a7089471))
+    (pin "3" (uuid 4481ad01-2603-4055-ad8c-97d3175b253d))
+    (pin "4" (uuid 0f6428fc-af4a-44fb-9e98-51f0b1bdfb9d))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 268.605 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0dc006b9-1e02-476a-b385-8c69d96dad25)
+    (property "Reference" "#FLG01" (at 268.605 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 268.605 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a76eca78-6b0f-4e00-b6fc-c82fdcc96ff8))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#FLG0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 280.035 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0e1f7563-182d-4e6d-87e9-8bf91e9232e0)
+    (property "Reference" "#FLG02" (at 280.035 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 280.035 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b49a65d-3055-4f52-bb6b-e8f6d7939692))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#FLG0101") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 98.425 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 21a969db-363d-4977-bf73-d73df89eb514)
+    (property "Reference" "C8" (at 99.06 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 99.06 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 99.3902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 99.06 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 98.425 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 99.06 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 19c18257-d562-4f2f-aacd-190237feed20))
+    (pin "2" (uuid 8a762aa8-6308-49a5-b62f-3d5c31aa5e69))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 226.695 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 23eb555b-0b06-4463-9106-40241ca94aa8)
+    (property "Reference" "TP1" (at 226.695 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 227.584 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 227.584 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 226.695 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP1" (at 224.155 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 225.044 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 11462e72-cb8d-45c9-8b00-323dd47cdfb2))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "TP1") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 92.075 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2be30f67-b092-4a7f-b5e9-ab0a6fdde3f9)
+    (property "Reference" "C7" (at 92.71 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 92.71 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 93.0402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 92.71 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 92.075 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 92.71 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cde0ddfa-2d25-4e06-acba-19b06c39b7cc))
+    (pin "2" (uuid 456638cd-0516-45e1-a8a9-1061e6abe845))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 88.9 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2c178c32-b788-4cbe-a297-1eb68d8ea6be)
+    (property "Reference" "D4" (at 91.44 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 92.71 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 118.11 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 133.35 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 95.885 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 93.98 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 88.9 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43415702-19de-4724-bf92-0976752b151f))
+    (pin "2" (uuid 3878c36c-51da-43de-b2e9-11c06ce2d9f6))
+    (pin "3" (uuid d57e0c65-3b75-4030-837e-33361972c7a3))
+    (pin "4" (uuid d4321e5e-a18f-4ceb-9fa8-61b944645927))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 247.015 51.435 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2f27412e-1f84-4f23-af89-d09a15958f74)
+    (property "Reference" "#PWR06" (at 247.015 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 247.015 47.625 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 247.015 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 247.015 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e2005d32-06d8-4b09-a172-ec9e2a375563))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 239.395 31.115 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 33e4b155-4b3c-4b95-8732-7c3e4806d788)
+    (property "Reference" "#PWR03" (at 239.395 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 239.395 34.925 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 239.395 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 239.395 31.115 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 59f4bd03-1ab8-49bf-9c00-1474ba4f9ca8))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0112") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 229.235 51.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 357ad64c-e85c-4ba6-b527-ffa1884400ca)
+    (property "Reference" "#PWR05" (at 229.235 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 229.235 47.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 229.235 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 229.235 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dedbd1d3-6f08-4ec0-8823-70a8e501c642))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0109") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 165.1 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 380dd1f1-b9e7-4cbb-a7c1-bb3d423bbaab)
+    (property "Reference" "D8" (at 167.64 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 168.91 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 194.31 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 209.55 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 172.085 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 170.18 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 165.1 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e1e7baf0-9e9e-4dda-8fd2-230b5afbc3df))
+    (pin "2" (uuid 1290727a-6166-4863-a398-9eaf018c3a68))
+    (pin "3" (uuid 343e54b8-4690-4559-98a7-da77678009db))
+    (pin "4" (uuid 2c26d687-03fc-41ad-957e-4e84e0569615))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D14") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 60.325 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3ea4a5ca-41ae-4889-a193-553856e99429)
+    (property "Reference" "C2" (at 60.96 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 60.96 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 61.2902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 60.96 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 60.325 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 60.96 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 221f967f-e1b6-4576-a7ad-0e81f043f54a))
+    (pin "2" (uuid 1abd7e97-f61c-4e36-945c-bf946ac36b5d))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 19.05 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3fdf128c-e967-4bc8-892d-ed45d3e4b288)
+    (property "Reference" "#PWR013" (at 19.05 27.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 19.05 20.574 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 19.05 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.05 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 410913f9-6a34-46f5-97c0-0cf38cdeb838))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0107") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 146.05 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 41b9338e-61b1-4ecc-baa0-ff94c707feee)
+    (property "Reference" "D7" (at 148.59 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 149.86 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 175.26 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 190.5 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 153.035 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 151.13 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 146.05 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b38dfe74-6ff0-4a7f-9c91-522b1a7401a8))
+    (pin "2" (uuid 492ec469-2199-41a0-8f08-14913d3d1ef8))
+    (pin "3" (uuid ba6c8a88-2a46-4d3d-b045-729b5997a339))
+    (pin "4" (uuid 5de32f74-6e02-495b-aa40-03873a1da1ae))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D13") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 85.725 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 49fd4de1-0352-482a-869b-95180e6beec2)
+    (property "Reference" "C6" (at 86.36 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 86.36 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 86.6902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 86.36 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 85.725 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 86.36 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 82835340-4b31-4603-9a44-e078018de822))
+    (pin "2" (uuid f0334c7c-2406-4270-9ec1-41a71262c699))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 66.675 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4c2b483f-9543-4de6-98e8-792bac090a0c)
+    (property "Reference" "C3" (at 67.31 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 67.31 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 67.6402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 67.31 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 66.675 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 67.31 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6c74f2a8-62b0-4114-a2f9-2ce34a3101e4))
+    (pin "2" (uuid 05bc1db6-5295-4f8c-b3d2-05c19e2351c0))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 127 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 50d1a1f9-70a5-44f3-88e3-34e380484be3)
+    (property "Reference" "D6" (at 129.54 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 130.81 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 156.21 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 171.45 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 133.985 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 132.08 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 127 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 994ca9b8-18bd-4989-ae56-bfdea6518325))
+    (pin "2" (uuid 645d23c8-243b-4109-b645-c54c249bdc2a))
+    (pin "3" (uuid 7e4dde37-ad93-4032-aa32-51549a1d677d))
+    (pin "4" (uuid eeea261b-2a29-483a-9522-05452cbb0d63))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 27.94 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 518de4b8-3489-48f8-bfcf-a698a539e276)
+    (property "Reference" "#PWR015" (at 27.94 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 27.94 52.324 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 27.94 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 27.94 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a63775a7-37cb-4efe-91f7-8a1195cffb67))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0105") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 236.855 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 550d0ece-fadb-43a3-a5ad-2abee346a11d)
+    (property "Reference" "J1" (at 236.855 48.895 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mini-Fit Jr. 2x02" (at 238.125 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 240.665 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 238.125 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C293502" (at 238.125 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "39-28-1043" (at 238.125 61.595 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "BL IN" (at 238.125 51.435 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 92acd2e9-7bd4-4fda-a028-617b659b6432))
+    (pin "2" (uuid 446ad0ca-88b6-4a10-93c3-6971fcd96791))
+    (pin "3" (uuid af193e4f-da6c-432b-925e-83e8c497dc1e))
+    (pin "4" (uuid 25d9bd07-0968-4b13-9220-71689237d796))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:LOGO_License_Half_Small") (at 268.605 163.83 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 5c121537-cbe8-4e3a-95fa-46f093c7a750)
+    (property "Reference" "LOGO2" (at 268.605 150.495 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LOGO" (at 268.605 164.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LOGO_CC-BY-NC-SA_Half_Small" (at 268.605 168.275 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://creativecommons.org/licenses/by-nc-sa/4.0/" (at 269.24 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "LOGO2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 233.045 75.565 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5c2d72b4-2055-4c23-944f-49acc0899d2c)
+    (property "Reference" "#PWR010" (at 233.045 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 233.045 71.755 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 233.045 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 233.045 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 86926949-35bf-47ea-ac2a-01f894d78d60))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 165.1 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5feb92c4-a422-4547-bb93-d471fece5837)
+    (property "Reference" "D8" (at 167.64 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 168.91 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 194.31 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 209.55 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 172.085 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 170.18 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 165.1 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a8412a18-77a6-4712-af30-e55ec3a1c19e))
+    (pin "2" (uuid c34627a1-8d2b-4be7-8943-aa2c9dac41a1))
+    (pin "3" (uuid 06e42c08-187b-474b-9937-6d0fe72be0f8))
+    (pin "4" (uuid b7ae1d80-0a11-4d52-803e-957b0da5aa7a))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 27.94 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 67c615a4-8bc5-4f9e-9b5e-a82486acf223)
+    (property "Reference" "#PWR016" (at 27.94 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 27.94 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 27.94 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 27.94 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4b1153ef-50e7-4404-aa8e-bda423207a8a))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 130.175 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6c73996a-8a57-4e6d-8d92-a5b2d3a8a7f4)
+    (property "Reference" "C5" (at 130.81 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 130.81 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 131.1402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 130.81 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 130.175 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 130.81 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e059855c-7d15-4314-8694-24919be16f1a))
+    (pin "2" (uuid 97a7011c-06ce-4c10-b59f-7f9e32ac9871))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C5") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C13") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 276.225 51.435 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ec6ddbb-c7bc-4424-8579-34e6f2951bda)
+    (property "Reference" "#PWR08" (at 276.225 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 276.225 47.625 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 276.225 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 276.225 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ae0d2c5-4474-43ff-92ea-e8ad41769e55))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0117") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 104.775 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74125edb-7c01-4bb1-9297-55f71b24562a)
+    (property "Reference" "C9" (at 105.41 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 105.41 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 105.7402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 105.41 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 104.775 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 105.41 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b5c7cb29-15f5-44ae-bc13-3def597fa209))
+    (pin "2" (uuid 21362574-b407-47cf-9b72-eb34f4edd8e0))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 127 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a66cca1-6ee7-4d5d-ba3b-1979e9522dbd)
+    (property "Reference" "D6" (at 129.54 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 130.81 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 156.21 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 171.45 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 133.985 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 132.08 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 127 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 79ba4b82-ce70-4441-86e9-77ff5f2ff3a8))
+    (pin "2" (uuid 73cadebd-127e-4bfe-843c-d3c6f454b825))
+    (pin "3" (uuid 9bb2dcdf-8950-4c2e-89a9-4e8a38cb363b))
+    (pin "4" (uuid c98c0564-3ee6-4963-962f-24ac415edbfe))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D12") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 226.695 75.565 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7fb663f6-914e-4849-8b6b-7b3465632aef)
+    (property "Reference" "#PWR09" (at 226.695 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 226.695 72.009 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.695 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.695 75.565 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 88a6d0bb-ef62-4c7a-b0cc-06d84bc119cc))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 268.605 78.105 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 834ee0c1-2fb1-429b-8ff8-49db595d5e87)
+    (property "Reference" "#PWR011" (at 268.605 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 268.605 74.549 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 268.605 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0fb9e073-5e46-45ab-8a1f-3f3ce1240078))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0114") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 136.525 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 91247e16-6aff-4881-91ef-511970021c38)
+    (property "Reference" "C6" (at 137.16 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 137.16 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 137.4902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 137.16 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 136.525 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 137.16 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b401f633-72ac-4e7c-9592-ba868922fa6f))
+    (pin "2" (uuid fbbd11e8-288c-4b04-8e10-81eef115b0bf))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 123.825 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9253814e-5cff-44ca-a18f-ad497def8ab1)
+    (property "Reference" "C4" (at 124.46 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 124.46 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 124.7902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 124.46 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 123.825 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 124.46 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f96baf2c-3e6a-4e30-9393-c299bd97e364))
+    (pin "2" (uuid c9bbf19a-3bd7-4448-9bd7-db98aeaf25fc))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C12") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x02") (at 266.065 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9b0e118a-fbd3-443c-bb18-95e853e4c50b)
+    (property "Reference" "J2" (at 266.065 48.895 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Mini-Fit Jr. 2x02" (at 267.335 59.055 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" (at 269.875 69.215 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.molex.com/molex/search/partSearch?query=39281043&pQuery=" (at 267.335 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C293502" (at 267.335 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "39-28-1043" (at 267.335 61.595 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "BL OUT" (at 267.335 51.435 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 6a9e252c-15a6-447a-bf68-58abff996ad2))
+    (pin "2" (uuid 7134b69a-ef97-444a-a576-186a24dd239b))
+    (pin "3" (uuid 81fa641e-bba4-46fa-8f94-6229866d152e))
+    (pin "4" (uuid a48cb9f2-c806-4c62-af8c-45af83302869))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 69.85 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a03322db-567c-4a05-95f4-7f1847d18350)
+    (property "Reference" "D3" (at 72.39 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 73.66 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 99.06 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 114.3 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 76.835 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 74.93 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 69.85 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3596ee31-7386-4921-ad83-c32b8476e187))
+    (pin "2" (uuid 603480cf-c557-4b26-b1e1-42c411dd3551))
+    (pin "3" (uuid bae2ff14-9f03-489b-b168-9010ab6d8df6))
+    (pin "4" (uuid 8c5554e3-f45b-4e0c-ad59-71b6a89579d8))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 258.445 51.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a5083774-25b9-46ee-a64f-43a653feeaeb)
+    (property "Reference" "#PWR07" (at 258.445 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 258.445 47.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 258.445 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 258.445 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c5b4a8f-1c19-4f82-be79-92c421397be1))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0116") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 19.05 39.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b0cefda8-1386-4e14-b6ff-b812fb276229)
+    (property "Reference" "#PWR014" (at 19.05 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 19.05 43.18 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 19.05 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 19.05 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5426bec5-02b2-44b4-9a64-4da30c3c87c1))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0106") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR016") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 111.125 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b5b08055-885c-4b16-83c5-0f9109ce698b)
+    (property "Reference" "C2" (at 111.76 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 111.76 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 112.0902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 111.76 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 111.125 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 111.76 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8793cd60-51e4-4971-90dc-6438563032ae))
+    (pin "2" (uuid 91416345-5fdb-49af-9fb3-e64c742b05ae))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C10") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 280.035 78.105 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b8e351bd-2840-42f7-9341-7200799cd07e)
+    (property "Reference" "#PWR012" (at 280.035 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 280.035 74.295 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 280.035 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 41ec26d7-5ed1-402b-ac19-d4647de05ce8))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0119") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 73.025 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bb4bf808-11f5-40d3-9cdd-54f522785b14)
+    (property "Reference" "C4" (at 73.66 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 73.66 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 73.9902 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 73.66 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 73.025 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 73.66 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b35a804-9ae7-4bfc-a722-09a5b744eade))
+    (pin "2" (uuid 04de3323-cc04-4d36-bc9d-002e8ececaa6))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 52.705 178.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb51c2d1-7f58-43db-bde9-edac639aabbc)
+    (property "Reference" "#PWR021" (at 52.705 182.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 52.705 174.879 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 52.705 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.705 178.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2d2809c5-17b1-4427-8d0f-0c30af06a1f1))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0110") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR019") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 239.395 23.495 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bca00c71-d2cc-4142-a114-8fdce830d1e3)
+    (property "Reference" "#PWR02" (at 239.395 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 239.395 19.939 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 239.395 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 239.395 23.495 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b2818b41-d88e-49bd-adb0-7ed9f064cdfd))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 142.875 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7ff41e5-18b2-44b0-81c9-a803d2de2ff2)
+    (property "Reference" "C7" (at 143.51 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 143.51 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 143.8402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 143.51 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 142.875 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 143.51 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ecc2656b-f729-40ee-a59d-41d29e725b7a))
+    (pin "2" (uuid a957ca85-e881-4fc6-91bb-160425db3a2f))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C15") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 88.9 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d83425e0-be7b-4c75-8ae5-c03b1a807a31)
+    (property "Reference" "D4" (at 91.44 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 92.71 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 118.11 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 95.885 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 93.98 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 88.9 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ecbae396-45d6-4977-b935-657e8fe4a977))
+    (pin "2" (uuid d0192b4b-7bac-484c-9bd9-33d7bf7a58bf))
+    (pin "3" (uuid 4168bfaa-c80c-47b3-8334-7899dd5e9903))
+    (pin "4" (uuid 1cf4b00b-feaf-4727-b524-f0526a248157))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D10") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 50.8 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dbb147f2-b691-4fc6-9afd-669c755090de)
+    (property "Reference" "D2" (at 53.34 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 54.61 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 80.01 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 95.25 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 57.785 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 55.88 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 50.8 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 821c38ce-9cc7-45c4-b648-fd1a25867fca))
+    (pin "2" (uuid cfcd76cb-96c3-44d9-9554-7cad8c9f9410))
+    (pin "3" (uuid c773ba09-9604-4a2c-bf4e-768a5998c651))
+    (pin "4" (uuid e1aa9b7b-1c31-410d-8fb5-603be4fe7055))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_0603_0.1uF") (at 117.475 182.245 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dc19a9b0-f11d-4150-b746-1706f3e248cf)
+    (property "Reference" "C3" (at 118.11 179.705 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0.1uF" (at 118.11 184.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:C_0603_1608Metric" (at 118.4402 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" (at 118.11 188.595 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C14663" (at 117.475 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "CC0603KRX7R9BB104" (at 118.11 191.135 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c54f6c0-686a-4b36-b913-2abd716bc18c))
+    (pin "2" (uuid 3801f817-a604-4049-be8c-e43102747dc8))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C11") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 233.045 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid df3248f8-b8fe-40af-b43d-2865776356a1)
+    (property "Reference" "TP2" (at 231.14 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 233.934 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 233.934 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 233.045 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP2" (at 230.505 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 231.394 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 341e3908-0eb5-4d96-a221-d483c69dcbe2))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "TP2") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "TP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:Capacitor_Polarized_8x10_1000uF") (at 239.395 27.305 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dfe1efe2-8ef5-46df-913d-948eb252280c)
+    (property "Reference" "C1" (at 242.57 25.146 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1000uF" (at 242.57 27.686 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "OH_Footprints:CP_Elec_8x10" (at 254 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.mouser.com/datasheet/2/293/e_uwt-1847810.pdf" (at 271.78 37.465 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C445083" (at 244.475 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "UWT0J102MNL1GS" (at 248.92 33.655 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "" (at 239.395 27.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 67873b68-2940-4f03-aa66-15fbceb329d0))
+    (pin "2" (uuid d51c1a37-ad39-4fdf-8e98-10d3b1465870))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 52.705 186.055 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e0835e31-71c4-4864-974e-a3c763c1fa8c)
+    (property "Reference" "#PWR022" (at 52.705 192.405 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 52.705 189.865 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 52.705 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 52.705 186.055 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 25f5740b-4961-4da5-8347-96811d4ab5af))
+    (instances
+      (project "EXT LT PANEL"
+        (path "/044d4d77-f506-4f3d-8322-3120b978c58e"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "ECM DISP PANEL"
+        (path "/07e6eb65-3d1f-41c4-9b85-dd853dbf10d3"
+          (reference "#PWR0111") (unit 1)
+        )
+      )
+      (project "ELEC PANEL"
+        (path "/37123dea-d7d4-4e6d-82bb-9cae67a2013d"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "#PWR026") (unit 1)
+        )
+      )
+      (project "FCS PANEL"
+        (path "/5e723b0e-38c0-4847-83df-87dfd8929b38"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "COMM PANEL"
+        (path "/80a02f62-a7cb-4db4-ad28-d1047484d910"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "APU ENG CRANK PANEL"
+        (path "/848f572d-432c-4757-85e9-f9b1ed8d6a84"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "SELECT JETT PANEL"
+        (path "/899e8a61-d15b-4e9b-a233-0a80275a8619"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "FUEL PANEL"
+        (path "/d3303fd1-5da4-4d4f-94ce-b532d4fc57bf"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+      (project "ECS PANEL"
+        (path "/d5d00c65-d85d-48b4-89ad-030f64c6cea5"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "ANT SEL PANEL"
+        (path "/de78b833-f85f-49cb-ba7b-2552b7bf10d4"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "HUD PANEL"
+        (path "/e95e5688-6efe-4c36-9e1f-7dee40182fae"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 107.95 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e911d4b5-a7e1-4cdd-bc21-a611cdde0518)
+    (property "Reference" "D5" (at 110.49 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 111.76 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 137.16 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 152.4 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 114.935 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 113.03 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 107.95 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa408824-ac9d-4a99-9b8b-410a2066dd02))
+    (pin "2" (uuid affe76bd-b985-4d81-9c3e-29d56a786af1))
+    (pin "3" (uuid 7ee31b45-323a-4554-9600-79457aabe143))
+    (pin "4" (uuid d69ab625-1364-4919-93bd-fb5cf734e18d))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 69.85 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e931a060-2d6d-4884-b72b-1eb50c00a987)
+    (property "Reference" "D3" (at 72.39 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 73.66 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 99.06 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 114.3 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 76.835 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 74.93 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 69.85 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 88a9ffbb-fd3c-4d49-99ce-88347d36b904))
+    (pin "2" (uuid 94cee8c8-ffc4-47ce-a9d0-6ec2afe3bd9f))
+    (pin "3" (uuid 5d3542ed-4849-4d48-8eb1-c4488261352c))
+    (pin "4" (uuid 5e13279b-9d3c-4483-8668-93f2a7a06342))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 50.8 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f01ff5c1-f7d9-4dbc-a895-42ce838e734b)
+    (property "Reference" "D2" (at 53.34 25.654 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 54.61 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 80.01 43.815 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 95.25 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 57.785 40.005 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 55.88 38.1 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 50.8 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2505d21b-6bf1-4d84-bab1-d396f80da0b0))
+    (pin "2" (uuid 1faa5b36-f0dc-47ea-96b8-a685b97ae603))
+    (pin "3" (uuid e4e83925-21e2-4f5d-96f8-a14d6e425643))
+    (pin "4" (uuid 6d14086f-49d9-48a1-aa20-0c5c1aa8ed80))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 250.825 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f0ce8594-cd20-4ed5-8ab7-cce259b70c32)
+    (property "Reference" "TP4" (at 248.92 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 251.714 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 251.714 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.825 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP4" (at 248.285 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 249.174 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid e40d7756-91cc-4d95-a874-f06281fe8634))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "TP4") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "TP4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:LOGO_OpenHornet_Text_Small") (at 239.395 163.195 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid f22378bc-a296-4bd2-8fcb-7ae35650d06b)
+    (property "Reference" "LOGO1" (at 236.22 149.86 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LOGO" (at 239.395 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LOGO_OH_Text_Small" (at 239.395 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.openhornet.com" (at 239.395 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "" (at 239.395 167.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "LOGO1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:WS2812B") (at 107.95 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f900909c-4a36-4236-aeb7-8460eb683721)
+    (property "Reference" "D5" (at 110.49 57.404 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "WS2812B" (at 111.76 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (at 137.16 75.565 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf" (at 152.4 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2761795" (at 114.935 71.755 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer PN" "WS2812B" (at 113.03 69.85 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Silkscreen" "" (at 107.95 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 837cf06f-556a-4d61-89a0-459e961c8ab4))
+    (pin "2" (uuid 3634a852-1268-459f-ad48-0a9e161b7656))
+    (pin "3" (uuid fcf061fe-1a35-499e-8714-064b061e559a))
+    (pin "4" (uuid 9ceebfbe-1fdd-4a73-b037-8be720977984))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "D11") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "D5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "OH_Symbols:TestPoint") (at 239.395 75.565 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid fd4e42ec-feff-4f86-88f9-fa2757edca0f)
+    (property "Reference" "TP3" (at 237.49 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 240.284 85.217 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "OH_Footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 240.284 87.503 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 239.395 73.787 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Silkscreen" "TP3" (at 236.855 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Notes" "" (at 237.744 83.947 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (pin "1" (uuid 05e0129a-8fc9-44bb-9152-e67c77e289bc))
+    (instances
+      (project "KY-58 PANEL"
+        (path "/3ccd85f0-a81b-445b-a366-d79a6bdc1829"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "LEFT CIRCUIT BREAKER"
+        (path "/96ab8c00-4b6d-4efc-b1d9-a1d395ac9831"
+          (reference "TP3") (unit 1)
+        )
+      )
+      (project "LDG WING FOLD PLACARD"
+        (path "/eba14c7e-858b-4f4b-bc74-d29948dd8336"
+          (reference "TP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

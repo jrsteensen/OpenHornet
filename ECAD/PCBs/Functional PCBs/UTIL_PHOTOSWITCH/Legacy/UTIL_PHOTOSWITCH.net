@@ -1,0 +1,234 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\util_photoswitch\util_photoswitch.sch) 
+    (date "9/7/2021 08:24:08") 
+    (tool "Eeschema (5.1.9)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source UTIL_PHOTOSWITCH.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value OPB615) 
+      (footprint "KiCAD Libraries:OPB61x") 
+      (datasheet https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf) 
+      (libsource 
+        (lib KiCadCustomLib) 
+        (part OPB615) 
+        (description "Photointerrupter infrared LED with photo IC, OPB615, switch")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6137815A)) 
+    (comp 
+      (ref R1) 
+      (value 220) 
+      (footprint Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal) 
+      (datasheet https://www.seielect.com/catalog/sei-cf_cfm.pdf) 
+      (fields 
+        (field 
+          (name PN) CFM14JA220R)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61379427)) 
+    (comp 
+      (ref J1) 
+      (value Conn_01x03_Male) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x03_Male) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61379D88)) 
+    (comp 
+      (ref H1) 
+      (value MountingHole) 
+      (footprint MountingHole:MountingHole_2.5mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61385E95))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x03_Male) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib KiCadCustomLib) 
+      (part OPB615) 
+      (description "Photointerrupter infrared LED with photo IC, OPB615, switch") 
+      (docs https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheets/OPB615-625-665.pdf) 
+      (footprints 
+        (fp Kodenshi?LG206D*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) OPB615) 
+        (field 
+          (name Footprint) "KiCAD Libraries:OPB61x")) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name VCC) 
+          (type power_in)) 
+        (pin 
+          (num 4) 
+          (name VOUT) 
+          (type openCol)) 
+        (pin 
+          (num 5) 
+          (name GND) 
+          (type power_in)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole)))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical KiCadCustomLib) 
+      (uri C:/GitHub/OpenHornet/ECAD/lib/KiCAD_Libraries/KiCadCustomLib.lib)) 
+    (library 
+      (logical Mechanical) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(J1-Pad2)") 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name "Net-(R1-Pad1)") 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name +5V) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 4) 
+      (name GND) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 3)))))

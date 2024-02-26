@@ -1,0 +1,788 @@
+(export 
+  (version D) 
+  (design 
+    (source /Users/peterthomas/Documents/GitHub/bne-arduino-flight-simulator-interfaces/PCBs/Caution_lights_panel/Caution_Light_Panel.sch) 
+    (date "Sunday, 21 June 2020 at 06:28:20 am") 
+    (tool "Eeschema (5.1.5-0-10_14)") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "Caution Lights Panel") 
+        (company "F/A-18C SimPit") 
+        (rev -) 
+        (date 2017-12-27) 
+        (source PCB, CAUTION LIGHTS PANEL.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref J1) 
+      (value LedCathode) 
+      (footprint PT_Library_v001:Molex_1x04_P2.54mm_Vertical) 
+      (fields 
+        (field 
+          (name PN) 22-29-2041)) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x04_Male) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A446184)) 
+    (comp 
+      (ref MK1) 
+      (value Mounting_Hole) 
+      (footprint Mounting_Holes:MountingHole_2.5mm) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A4461A1)) 
+    (comp 
+      (ref MK3) 
+      (value Mounting_Hole) 
+      (footprint Mounting_Holes:MountingHole_2.5mm) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A4461A2)) 
+    (comp 
+      (ref MK2) 
+      (value Mounting_Hole) 
+      (footprint Mounting_Holes:MountingHole_2.5mm) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A4461A3)) 
+    (comp 
+      (ref D1) 
+      (value 0,0) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (datasheet http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.1.pdf) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449697)) 
+    (comp 
+      (ref D7) 
+      (value 0,1) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (datasheet http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.1.pdf) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449936)) 
+    (comp 
+      (ref D13) 
+      (value 0,2) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (datasheet http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.1.pdf) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44998A)) 
+    (comp 
+      (ref D18) 
+      (value 0,3) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (datasheet http://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S63AT%20Series_V1.1.pdf) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449A1E)) 
+    (comp 
+      (ref D2) 
+      (value 1,0) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449BEE)) 
+    (comp 
+      (ref D8) 
+      (value 1,1) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449BF5)) 
+    (comp 
+      (ref D14) 
+      (value 1,2) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449BFC)) 
+    (comp 
+      (ref D19) 
+      (value 1.3) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A449C03)) 
+    (comp 
+      (ref D3) 
+      (value 2,0) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A472)) 
+    (comp 
+      (ref D9) 
+      (value 2,1) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A479)) 
+    (comp 
+      (ref D15) 
+      (value 2,2) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A480)) 
+    (comp 
+      (ref D20) 
+      (value 2,3) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A487)) 
+    (comp 
+      (ref D4) 
+      (value 3,0) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A81E)) 
+    (comp 
+      (ref D10) 
+      (value 3,1) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A825)) 
+    (comp 
+      (ref D16) 
+      (value 3,2) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A82C)) 
+    (comp 
+      (ref D21) 
+      (value 3,3) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44A833)) 
+    (comp 
+      (ref D23) 
+      (value 1.4) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44AF66)) 
+    (comp 
+      (ref D27) 
+      (value 1.5) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44AF6D)) 
+    (comp 
+      (ref D24) 
+      (value 2,4) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44AF82)) 
+    (comp 
+      (ref D28) 
+      (value 2,5) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A44AF89)) 
+    (comp 
+      (ref D22) 
+      (value 0.4) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8C0540)) 
+    (comp 
+      (ref D26) 
+      (value 0.5) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8C05CD)) 
+    (comp 
+      (ref D25) 
+      (value 3,4) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8C065B)) 
+    (comp 
+      (ref D29) 
+      (value 3,5) 
+      (footprint LED_THT:LED_D3.0mm_FlatTop) 
+      (fields 
+        (field 
+          (name PN) IN-S63AT5UW)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8C06EC)) 
+    (comp 
+      (ref MK4) 
+      (value Mounting_Hole) 
+      (footprint Mounting_Holes:MountingHole_2.5mm) 
+      (libsource 
+        (lib Mechanical) 
+        (part MountingHole) 
+        (description "Mounting Hole without connection")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5A8C39AB)) 
+    (comp 
+      (ref J2) 
+      (value LEDAnnode) 
+      (footprint PT_Library_v001:Molex_1x06_P2.54mm_Vertical) 
+      (fields 
+        (field 
+          (name PN) 22-29-2041)) 
+      (libsource 
+        (lib Connector) 
+        (part Conn_01x06_Male) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5EE4016B))) 
+  (libparts 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x04_Male) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector) 
+      (part Conn_01x06_Male) 
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x06_Male)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Mechanical) 
+      (part MountingHole) 
+      (description "Mounting Hole without connection") 
+      (docs ~) 
+      (footprints 
+        (fp MountingHole*)) 
+      (fields 
+        (field 
+          (name Reference) H) 
+        (field 
+          (name Value) MountingHole)))) 
+  (libraries 
+    (library 
+      (logical Connector) 
+      (uri "/Library/Application Support/kicad/library/Connector.lib")) 
+    (library 
+      (logical Device) 
+      (uri "/Library/Application Support/kicad/library/Device.lib")) 
+    (library 
+      (logical Mechanical) 
+      (uri "/Library/Application Support/kicad/library/Mechanical.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name /Dig0) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref D26) 
+        (pin 1)) 
+      (node 
+        (ref D22) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1)) 
+      (node 
+        (ref D18) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name /Dig1) 
+      (node 
+        (ref D23) 
+        (pin 1)) 
+      (node 
+        (ref D27) 
+        (pin 1)) 
+      (node 
+        (ref D19) 
+        (pin 1)) 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 3) 
+      (name /Dig2) 
+      (node 
+        (ref D3) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref D20) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D24) 
+        (pin 1)) 
+      (node 
+        (ref D28) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name /Dig3) 
+      (node 
+        (ref D21) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref D4) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 1)) 
+      (node 
+        (ref D29) 
+        (pin 1)) 
+      (node 
+        (ref D25) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name /SegDP) 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name /SegA) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref D8) 
+        (pin 2)) 
+      (node 
+        (ref D7) 
+        (pin 2)) 
+      (node 
+        (ref D9) 
+        (pin 2)) 
+      (node 
+        (ref D10) 
+        (pin 2))) 
+    (net 
+      (code 7) 
+      (name /SegB) 
+      (node 
+        (ref D15) 
+        (pin 2)) 
+      (node 
+        (ref D16) 
+        (pin 2)) 
+      (node 
+        (ref D13) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 3)) 
+      (node 
+        (ref D14) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name /SegC) 
+      (node 
+        (ref D21) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 4)) 
+      (node 
+        (ref D20) 
+        (pin 2)) 
+      (node 
+        (ref D19) 
+        (pin 2)) 
+      (node 
+        (ref D18) 
+        (pin 2))) 
+    (net 
+      (code 9) 
+      (name /SegD) 
+      (node 
+        (ref D23) 
+        (pin 2)) 
+      (node 
+        (ref D24) 
+        (pin 2)) 
+      (node 
+        (ref D22) 
+        (pin 2)) 
+      (node 
+        (ref J2) 
+        (pin 5)) 
+      (node 
+        (ref D25) 
+        (pin 2))) 
+    (net 
+      (code 10) 
+      (name /SegE) 
+      (node 
+        (ref J2) 
+        (pin 6)) 
+      (node 
+        (ref D26) 
+        (pin 2)) 
+      (node 
+        (ref D27) 
+        (pin 2)) 
+      (node 
+        (ref D28) 
+        (pin 2)) 
+      (node 
+        (ref D29) 
+        (pin 2)))))

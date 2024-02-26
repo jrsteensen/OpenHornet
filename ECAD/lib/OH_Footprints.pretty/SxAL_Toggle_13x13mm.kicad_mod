@@ -1,0 +1,14 @@
+(footprint "SxAL_Toggle_13x13mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "Ref**" (at 0.025 -9.05) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 86d6ab30-ad7b-4eec-8186-01eb481c706d)
+  )
+  (fp_text value "SxAL_Toggle_13x13mm" (at 0 -7.5) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp da252f57-c50b-4ad9-879f-5c81e7cb4926)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.5) (tstamp f2b08119-c48a-4fd4-a507-8e99c7eb0640))
+)

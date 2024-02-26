@@ -1,0 +1,14 @@
+(footprint "631HX_Toggle_13mm_x_13mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "LOGO" (at 0.025 -8.775) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 43f18be8-3ab5-4b05-aeed-49fedee3fc09)
+  )
+  (fp_text value "LOGO" (at 0.025 -7.3) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 516244a9-c168-49a1-ac9e-d234c7a300bd)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 12.7 12.7) (drill 12.7) (layers "F&B.Cu" "*.Mask")
+    (clearance 0.54) (tstamp 383367bb-5361-4871-8162-46b4da7cfcf2))
+)

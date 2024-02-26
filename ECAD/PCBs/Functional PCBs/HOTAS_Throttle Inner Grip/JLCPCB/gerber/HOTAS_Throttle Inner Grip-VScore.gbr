@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.1*%
+%TF.CreationDate,2024-02-25T12:21:47-07:00*%
+%TF.ProjectId,HOTAS_Throttle Inner Grip,484f5441-535f-4546-9872-6f74746c6520,1.1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Other,Comment*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.1) date 2024-02-25 12:21:47*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.150000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H4*%
+X88000000Y-102000000D02*
+G75*
+G03*
+X88000000Y-102000000I-3000000J0D01*
+G01*
+%TO.C,H1*%
+X108000000Y-117000000D02*
+G75*
+G03*
+X108000000Y-117000000I-3000000J0D01*
+G01*
+%TD*%
+M02*

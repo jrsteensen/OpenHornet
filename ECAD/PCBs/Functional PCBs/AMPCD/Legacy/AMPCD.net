@@ -1,0 +1,2776 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\GitHub\OpenHornet\ECAD\PCBs\OH_Specific\Functional\ampcd_button_board\ampcd_button_board.sch) 
+    (date "8/28/2021 17:11:20") 
+    (tool "Eeschema (5.1.9)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "AMPCD BUTTON BOARD") 
+        (company OPENHORNET.COM) 
+        (rev 1) 
+        (date 2021-08-21) 
+        (source PCB, AMPCD.sch) 
+        (comment 
+          (number 1) 
+          (value "CC BY-NC-SA")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref R14) 
+      (value 270) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25099)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041EDA2)) 
+    (comp 
+      (ref D10) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041ED8B)) 
+    (comp 
+      (ref D9) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041ED83)) 
+    (comp 
+      (ref R13) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604172BC)) 
+    (comp 
+      (ref D8) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604172B5)) 
+    (comp 
+      (ref D7) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604172AD)) 
+    (comp 
+      (ref D6) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604172A5)) 
+    (comp 
+      (ref D5) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041729D)) 
+    (comp 
+      (ref R12) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041164A)) 
+    (comp 
+      (ref D4) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60411643)) 
+    (comp 
+      (ref D3) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041163B)) 
+    (comp 
+      (ref D2) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60411633)) 
+    (comp 
+      (ref D1) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6041162B)) 
+    (comp 
+      (ref R16) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603F259F)) 
+    (comp 
+      (ref D16) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603F2598)) 
+    (comp 
+      (ref D15) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603F2590)) 
+    (comp 
+      (ref D14) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603F2588)) 
+    (comp 
+      (ref R15) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603EEB8B)) 
+    (comp 
+      (ref D13) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603EEB84)) 
+    (comp 
+      (ref D12) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603EEB7C)) 
+    (comp 
+      (ref D11) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603EEB74)) 
+    (comp 
+      (ref R9) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613CC909)) 
+    (comp 
+      (ref R8) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613CC478)) 
+    (comp 
+      (ref SW21) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613BE64F)) 
+    (comp 
+      (ref SW20) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613B95F2)) 
+    (comp 
+      (ref SW28) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6136780C)) 
+    (comp 
+      (ref SW27) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 613627ED)) 
+    (comp 
+      (ref R11) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6135438E)) 
+    (comp 
+      (ref R10) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61353E59)) 
+    (comp 
+      (ref SW14) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612F8A74)) 
+    (comp 
+      (ref SW13) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612F35F6)) 
+    (comp 
+      (ref R7) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612F28E3)) 
+    (comp 
+      (ref R6) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612F245E)) 
+    (comp 
+      (ref SW7) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6126204C)) 
+    (comp 
+      (ref R5) 
+      (value 150) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25082)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6125FAE5)) 
+    (comp 
+      (ref SW6) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6125A70B)) 
+    (comp 
+      (ref J1) 
+      (value Conn_01x06) 
+      (footprint Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical) 
+      (datasheet https://www.molex.com/pdm_docs/sd/022292061_sd.pdf) 
+      (fields 
+        (field 
+          (name PN) 22292061)) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x06) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60478F6B)) 
+    (comp 
+      (ref C4) 
+      (value 47uF) 
+      (footprint Capacitor_SMD:C_1206_3216Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C96123) 
+        (field 
+          (name PN) CL31A476MPHNNNE)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604C63F9)) 
+    (comp 
+      (ref C3) 
+      (value 47uF) 
+      (footprint Capacitor_SMD:C_1206_3216Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C96123) 
+        (field 
+          (name PN) CL31A476MPHNNNE)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604C60F0)) 
+    (comp 
+      (ref C2) 
+      (value 47uF) 
+      (footprint Capacitor_SMD:C_1206_3216Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C96123) 
+        (field 
+          (name PN) CL31A476MPHNNNE)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604C5BBD)) 
+    (comp 
+      (ref R3) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25804)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604C588D)) 
+    (comp 
+      (ref R2) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25804)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 604C567A)) 
+    (comp 
+      (ref R1) 
+      (value 10K) 
+      (footprint Resistor_SMD:R_0603_1608Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25804)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6047E9B3)) 
+    (comp 
+      (ref R4) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 603219DF)) 
+    (comp 
+      (ref SW18) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608B6C71)) 
+    (comp 
+      (ref SW26) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0EA7A)) 
+    (comp 
+      (ref SW25) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0EA1D)) 
+    (comp 
+      (ref SW24) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0EA10)) 
+    (comp 
+      (ref SW23) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0EA03)) 
+    (comp 
+      (ref SW22) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60B0D21A)) 
+    (comp 
+      (ref SW19) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608B6CCE)) 
+    (comp 
+      (ref SW17) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608B6C64)) 
+    (comp 
+      (ref SW16) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608B6C57)) 
+    (comp 
+      (ref SW15) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 608B5598)) 
+    (comp 
+      (ref SW12) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60651374)) 
+    (comp 
+      (ref SW11) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60651313)) 
+    (comp 
+      (ref SW10) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 60651306)) 
+    (comp 
+      (ref SW9) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 606512F9)) 
+    (comp 
+      (ref SW8) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6064FD64)) 
+    (comp 
+      (ref SW5) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 601F6D47)) 
+    (comp 
+      (ref SW4) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD6F758)) 
+    (comp 
+      (ref SW3) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD6EBC7)) 
+    (comp 
+      (ref SW2) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FD6DCCE)) 
+    (comp 
+      (ref SW1) 
+      (value TL1240GQ) 
+      (footprint "KiCAD Libraries:TL1240GQ") 
+      (datasheet http://spec_sheets.e-switch.com/specs/P010362.pdf) 
+      (fields 
+        (field 
+          (name "ALT Datasheet") https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr) 
+        (field 
+          (name "ALT PN") LS601-CG) 
+        (field 
+          (name PN) TL1240GQ)) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push_LED) 
+        (description "Push button switch with LED, generic")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FC2C4BB)) 
+    (comp 
+      (ref U1) 
+      (value TCA9554PWR) 
+      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C477924)) 
+      (libsource 
+        (lib Interface_Expansion) 
+        (part TCA9554PW) 
+        (description "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5BC68220)) 
+    (comp 
+      (ref C1) 
+      (value 47uF) 
+      (footprint Capacitor_SMD:C_1206_3216Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C96123) 
+        (field 
+          (name PN) CL31A476MPHNNNE)) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5DB2DF4E)) 
+    (comp 
+      (ref U3) 
+      (value TCA9554PWR) 
+      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C477924)) 
+      (libsource 
+        (lib Interface_Expansion) 
+        (part TCA9554PW) 
+        (description "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FB7FF40)) 
+    (comp 
+      (ref U4) 
+      (value TCA9554PWR) 
+      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C477924)) 
+      (libsource 
+        (lib Interface_Expansion) 
+        (part TCA9554PW) 
+        (description "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FB7F29F)) 
+    (comp 
+      (ref U2) 
+      (value TCA9554PWR) 
+      (footprint Package_SO:TSSOP-16_4.4x5mm_P0.65mm) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C477924)) 
+      (libsource 
+        (lib Interface_Expansion) 
+        (part TCA9554PW) 
+        (description "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 5FB7E676)) 
+    (comp 
+      (ref R18) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CA3)) 
+    (comp 
+      (ref D24) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CAF)) 
+    (comp 
+      (ref D23) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CBB)) 
+    (comp 
+      (ref D22) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CC7)) 
+    (comp 
+      (ref D21) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CD3)) 
+    (comp 
+      (ref R17) 
+      (value 33) 
+      (footprint Resistor_SMD:R_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C25105)) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CDE)) 
+    (comp 
+      (ref D20) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CEA)) 
+    (comp 
+      (ref D19) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0CF6)) 
+    (comp 
+      (ref D18) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0D02)) 
+    (comp 
+      (ref D17) 
+      (value LED) 
+      (footprint LED_SMD:LED_0402_1005Metric) 
+      (datasheet https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf) 
+      (fields 
+        (field 
+          (name LCSC) C130723) 
+        (field 
+          (name PN) FC-F1005UGK-520M5)) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 612B0D0E))) 
+  (libparts 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x06) 
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x06)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Interface_Expansion) 
+      (part TCA9554PW) 
+      (description "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16") 
+      (docs http://www.ti.com/lit/ds/symlink/tca9554.pdf) 
+      (footprints 
+        (fp TSSOP*4.4x5mm*P0.65mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) TCA9554PW) 
+        (field 
+          (name Footprint) Package_SO:TSSOP-16_4.4x5mm_P0.65mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name A0) 
+          (type input)) 
+        (pin 
+          (num 2) 
+          (name A1) 
+          (type input)) 
+        (pin 
+          (num 3) 
+          (name A2) 
+          (type input)) 
+        (pin 
+          (num 4) 
+          (name P0) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name P1) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name P2) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name P3) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 9) 
+          (name P4) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name P5) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name P6) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name P7) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name ~INT~) 
+          (type openCol)) 
+        (pin 
+          (num 14) 
+          (name SCL) 
+          (type input)) 
+        (pin 
+          (num 15) 
+          (name SDA) 
+          (type BiDi)) 
+        (pin 
+          (num 16) 
+          (name VDD) 
+          (type power_in)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_Push_LED) 
+      (description "Push button switch with LED, generic") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push_LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name A) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical Interface_Expansion) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Interface_Expansion.lib")) 
+    (library 
+      (logical Switch) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name GND) 
+      (node 
+        (ref U2) 
+        (pin 3)) 
+      (node 
+        (ref SW28) 
+        (pin 2)) 
+      (node 
+        (ref SW24) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 8)) 
+      (node 
+        (ref R7) 
+        (pin 1)) 
+      (node 
+        (ref SW14) 
+        (pin 2)) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref SW20) 
+        (pin 2)) 
+      (node 
+        (ref SW21) 
+        (pin 2)) 
+      (node 
+        (ref R10) 
+        (pin 1)) 
+      (node 
+        (ref R11) 
+        (pin 1)) 
+      (node 
+        (ref SW27) 
+        (pin 2)) 
+      (node 
+        (ref R18) 
+        (pin 2)) 
+      (node 
+        (ref R17) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 8)) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref SW13) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 8)) 
+      (node 
+        (ref U4) 
+        (pin 3)) 
+      (node 
+        (ref SW18) 
+        (pin 2)) 
+      (node 
+        (ref SW25) 
+        (pin 2)) 
+      (node 
+        (ref J1) 
+        (pin 6)) 
+      (node 
+        (ref SW26) 
+        (pin 2)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref SW6) 
+        (pin 2)) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref R13) 
+        (pin 2)) 
+      (node 
+        (ref R16) 
+        (pin 2)) 
+      (node 
+        (ref R15) 
+        (pin 2)) 
+      (node 
+        (ref R8) 
+        (pin 1)) 
+      (node 
+        (ref R9) 
+        (pin 1)) 
+      (node 
+        (ref SW7) 
+        (pin 2)) 
+      (node 
+        (ref R14) 
+        (pin 2)) 
+      (node 
+        (ref R12) 
+        (pin 2)) 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref SW22) 
+        (pin 2)) 
+      (node 
+        (ref SW12) 
+        (pin 2)) 
+      (node 
+        (ref SW9) 
+        (pin 2)) 
+      (node 
+        (ref SW15) 
+        (pin 2)) 
+      (node 
+        (ref SW10) 
+        (pin 2)) 
+      (node 
+        (ref SW23) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref SW17) 
+        (pin 2)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref SW16) 
+        (pin 2)) 
+      (node 
+        (ref SW3) 
+        (pin 2)) 
+      (node 
+        (ref SW5) 
+        (pin 2)) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref SW4) 
+        (pin 2)) 
+      (node 
+        (ref SW11) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref SW8) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 3)) 
+      (node 
+        (ref SW19) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name "Net-(SW5-Pad4)") 
+      (node 
+        (ref SW5) 
+        (pin 4)) 
+      (node 
+        (ref SW6) 
+        (pin 3))) 
+    (net 
+      (code 3) 
+      (name /U1P2) 
+      (node 
+        (ref SW3) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 6))) 
+    (net 
+      (code 4) 
+      (name "Net-(SW3-Pad4)") 
+      (node 
+        (ref SW3) 
+        (pin 4)) 
+      (node 
+        (ref SW4) 
+        (pin 3))) 
+    (net 
+      (code 5) 
+      (name "Net-(R6-Pad2)") 
+      (node 
+        (ref SW8) 
+        (pin 3)) 
+      (node 
+        (ref R6) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(SW8-Pad4)") 
+      (node 
+        (ref SW8) 
+        (pin 4)) 
+      (node 
+        (ref SW9) 
+        (pin 3))) 
+    (net 
+      (code 7) 
+      (name /U1P1) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5))) 
+    (net 
+      (code 8) 
+      (name /U1P4) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref SW5) 
+        (pin 1))) 
+    (net 
+      (code 9) 
+      (name "Net-(R5-Pad2)") 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref SW5) 
+        (pin 3))) 
+    (net 
+      (code 10) 
+      (name /U1P3) 
+      (node 
+        (ref SW4) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 7))) 
+    (net 
+      (code 11) 
+      (name +5V) 
+      (node 
+        (ref U4) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 16)) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 2)) 
+      (node 
+        (ref U2) 
+        (pin 16)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 16)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 12) 
+      (name "Net-(SW2-Pad4)") 
+      (node 
+        (ref SW3) 
+        (pin 3)) 
+      (node 
+        (ref SW2) 
+        (pin 4))) 
+    (net 
+      (code 13) 
+      (name /U1P0) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref SW1) 
+        (pin 1))) 
+    (net 
+      (code 14) 
+      (name "Net-(R4-Pad2)") 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref SW1) 
+        (pin 3))) 
+    (net 
+      (code 15) 
+      (name "Net-(SW1-Pad4)") 
+      (node 
+        (ref SW1) 
+        (pin 4)) 
+      (node 
+        (ref SW2) 
+        (pin 3))) 
+    (net 
+      (code 16) 
+      (name "Net-(U1-Pad12)") 
+      (node 
+        (ref U1) 
+        (pin 12))) 
+    (net 
+      (code 17) 
+      (name /U3P4) 
+      (node 
+        (ref SW19) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 9))) 
+    (net 
+      (code 18) 
+      (name "Net-(R9-Pad2)") 
+      (node 
+        (ref SW19) 
+        (pin 3)) 
+      (node 
+        (ref R9) 
+        (pin 2))) 
+    (net 
+      (code 19) 
+      (name /U3P2) 
+      (node 
+        (ref U3) 
+        (pin 6)) 
+      (node 
+        (ref SW17) 
+        (pin 1))) 
+    (net 
+      (code 20) 
+      (name "Net-(SW17-Pad4)") 
+      (node 
+        (ref SW17) 
+        (pin 4)) 
+      (node 
+        (ref SW18) 
+        (pin 3))) 
+    (net 
+      (code 21) 
+      (name /U3P1) 
+      (node 
+        (ref SW16) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 5))) 
+    (net 
+      (code 22) 
+      (name "Net-(SW24-Pad4)") 
+      (node 
+        (ref SW25) 
+        (pin 3)) 
+      (node 
+        (ref SW24) 
+        (pin 4))) 
+    (net 
+      (code 23) 
+      (name "Net-(SW22-Pad4)") 
+      (node 
+        (ref SW22) 
+        (pin 4)) 
+      (node 
+        (ref SW23) 
+        (pin 3))) 
+    (net 
+      (code 24) 
+      (name "Net-(SW23-Pad4)") 
+      (node 
+        (ref SW24) 
+        (pin 3)) 
+      (node 
+        (ref SW23) 
+        (pin 4))) 
+    (net 
+      (code 25) 
+      (name "Net-(R10-Pad2)") 
+      (node 
+        (ref SW22) 
+        (pin 3)) 
+      (node 
+        (ref R10) 
+        (pin 2))) 
+    (net 
+      (code 26) 
+      (name "Net-(R7-Pad2)") 
+      (node 
+        (ref R7) 
+        (pin 2)) 
+      (node 
+        (ref SW12) 
+        (pin 3))) 
+    (net 
+      (code 27) 
+      (name "Net-(SW10-Pad3)") 
+      (node 
+        (ref SW9) 
+        (pin 4)) 
+      (node 
+        (ref SW10) 
+        (pin 3))) 
+    (net 
+      (code 28) 
+      (name "Net-(SW10-Pad4)") 
+      (node 
+        (ref SW10) 
+        (pin 4)) 
+      (node 
+        (ref SW11) 
+        (pin 3))) 
+    (net 
+      (code 29) 
+      (name "Net-(SW16-Pad4)") 
+      (node 
+        (ref SW16) 
+        (pin 4)) 
+      (node 
+        (ref SW17) 
+        (pin 3))) 
+    (net 
+      (code 30) 
+      (name /U3P0) 
+      (node 
+        (ref SW15) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 4))) 
+    (net 
+      (code 31) 
+      (name "Net-(R8-Pad2)") 
+      (node 
+        (ref R8) 
+        (pin 2)) 
+      (node 
+        (ref SW15) 
+        (pin 3))) 
+    (net 
+      (code 32) 
+      (name "Net-(SW15-Pad4)") 
+      (node 
+        (ref SW15) 
+        (pin 4)) 
+      (node 
+        (ref SW16) 
+        (pin 3))) 
+    (net 
+      (code 33) 
+      (name "Net-(U3-Pad12)") 
+      (node 
+        (ref U3) 
+        (pin 12))) 
+    (net 
+      (code 34) 
+      (name "Net-(U2-Pad12)") 
+      (node 
+        (ref U2) 
+        (pin 12))) 
+    (net 
+      (code 35) 
+      (name "Net-(U4-Pad12)") 
+      (node 
+        (ref U4) 
+        (pin 12))) 
+    (net 
+      (code 36) 
+      (name "Net-(D24-Pad1)") 
+      (node 
+        (ref D24) 
+        (pin 1)) 
+      (node 
+        (ref R18) 
+        (pin 1))) 
+    (net 
+      (code 37) 
+      (name "Net-(D23-Pad1)") 
+      (node 
+        (ref D23) 
+        (pin 1)) 
+      (node 
+        (ref D24) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name "Net-(D22-Pad1)") 
+      (node 
+        (ref D23) 
+        (pin 2)) 
+      (node 
+        (ref D22) 
+        (pin 1))) 
+    (net 
+      (code 39) 
+      (name "Net-(D21-Pad1)") 
+      (node 
+        (ref D22) 
+        (pin 2)) 
+      (node 
+        (ref D21) 
+        (pin 1))) 
+    (net 
+      (code 40) 
+      (name "Net-(D20-Pad1)") 
+      (node 
+        (ref R17) 
+        (pin 1)) 
+      (node 
+        (ref D20) 
+        (pin 1))) 
+    (net 
+      (code 41) 
+      (name "Net-(D19-Pad1)") 
+      (node 
+        (ref D19) 
+        (pin 1)) 
+      (node 
+        (ref D20) 
+        (pin 2))) 
+    (net 
+      (code 42) 
+      (name "Net-(D18-Pad1)") 
+      (node 
+        (ref D18) 
+        (pin 1)) 
+      (node 
+        (ref D19) 
+        (pin 2))) 
+    (net 
+      (code 43) 
+      (name "Net-(D17-Pad1)") 
+      (node 
+        (ref D17) 
+        (pin 1)) 
+      (node 
+        (ref D18) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name VCC) 
+      (node 
+        (ref D11) 
+        (pin 2)) 
+      (node 
+        (ref D14) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 2)) 
+      (node 
+        (ref D9) 
+        (pin 2)) 
+      (node 
+        (ref SW21) 
+        (pin 4)) 
+      (node 
+        (ref J1) 
+        (pin 1)) 
+      (node 
+        (ref SW28) 
+        (pin 4)) 
+      (node 
+        (ref SW4) 
+        (pin 4)) 
+      (node 
+        (ref SW7) 
+        (pin 4)) 
+      (node 
+        (ref SW11) 
+        (pin 4)) 
+      (node 
+        (ref D17) 
+        (pin 2)) 
+      (node 
+        (ref D21) 
+        (pin 2)) 
+      (node 
+        (ref SW25) 
+        (pin 4)) 
+      (node 
+        (ref SW18) 
+        (pin 4)) 
+      (node 
+        (ref SW14) 
+        (pin 4)) 
+      (node 
+        (ref D5) 
+        (pin 2))) 
+    (net 
+      (code 45) 
+      (name /U4P1) 
+      (node 
+        (ref SW23) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 5))) 
+    (net 
+      (code 46) 
+      (name /U4P0) 
+      (node 
+        (ref U4) 
+        (pin 4)) 
+      (node 
+        (ref SW22) 
+        (pin 1))) 
+    (net 
+      (code 47) 
+      (name /U4P2) 
+      (node 
+        (ref U4) 
+        (pin 6)) 
+      (node 
+        (ref SW24) 
+        (pin 1))) 
+    (net 
+      (code 48) 
+      (name /U4P3) 
+      (node 
+        (ref U4) 
+        (pin 7)) 
+      (node 
+        (ref SW25) 
+        (pin 1))) 
+    (net 
+      (code 49) 
+      (name /U4P4) 
+      (node 
+        (ref U4) 
+        (pin 9)) 
+      (node 
+        (ref SW26) 
+        (pin 1))) 
+    (net 
+      (code 50) 
+      (name /U2P5) 
+      (node 
+        (ref SW13) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 10))) 
+    (net 
+      (code 51) 
+      (name /U2P6) 
+      (node 
+        (ref SW14) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 11))) 
+    (net 
+      (code 52) 
+      (name /U3P6) 
+      (node 
+        (ref SW21) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 11))) 
+    (net 
+      (code 53) 
+      (name IRQ) 
+      (node 
+        (ref J1) 
+        (pin 5)) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref U3) 
+        (pin 13)) 
+      (node 
+        (ref U4) 
+        (pin 13)) 
+      (node 
+        (ref U2) 
+        (pin 13)) 
+      (node 
+        (ref U1) 
+        (pin 13))) 
+    (net 
+      (code 54) 
+      (name SCL) 
+      (node 
+        (ref J1) 
+        (pin 4)) 
+      (node 
+        (ref U1) 
+        (pin 14)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 14)) 
+      (node 
+        (ref U2) 
+        (pin 14)) 
+      (node 
+        (ref U3) 
+        (pin 14))) 
+    (net 
+      (code 55) 
+      (name SDA) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 15)) 
+      (node 
+        (ref U3) 
+        (pin 15)) 
+      (node 
+        (ref J1) 
+        (pin 3)) 
+      (node 
+        (ref U2) 
+        (pin 15)) 
+      (node 
+        (ref U1) 
+        (pin 15))) 
+    (net 
+      (code 56) 
+      (name /U2P4) 
+      (node 
+        (ref U2) 
+        (pin 9)) 
+      (node 
+        (ref SW12) 
+        (pin 1))) 
+    (net 
+      (code 57) 
+      (name /U2P0) 
+      (node 
+        (ref SW8) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 4))) 
+    (net 
+      (code 58) 
+      (name /U2P1) 
+      (node 
+        (ref U2) 
+        (pin 5)) 
+      (node 
+        (ref SW9) 
+        (pin 1))) 
+    (net 
+      (code 59) 
+      (name /U2P2) 
+      (node 
+        (ref U2) 
+        (pin 6)) 
+      (node 
+        (ref SW10) 
+        (pin 1))) 
+    (net 
+      (code 60) 
+      (name /U2P3) 
+      (node 
+        (ref SW11) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 7))) 
+    (net 
+      (code 61) 
+      (name "Net-(SW27-Pad4)") 
+      (node 
+        (ref SW27) 
+        (pin 4)) 
+      (node 
+        (ref SW28) 
+        (pin 3))) 
+    (net 
+      (code 62) 
+      (name /U4P6) 
+      (node 
+        (ref U4) 
+        (pin 11)) 
+      (node 
+        (ref SW28) 
+        (pin 1))) 
+    (net 
+      (code 63) 
+      (name /U4P5) 
+      (node 
+        (ref U4) 
+        (pin 10)) 
+      (node 
+        (ref SW27) 
+        (pin 1))) 
+    (net 
+      (code 64) 
+      (name "Net-(SW26-Pad4)") 
+      (node 
+        (ref SW26) 
+        (pin 4)) 
+      (node 
+        (ref SW27) 
+        (pin 3))) 
+    (net 
+      (code 65) 
+      (name "Net-(R11-Pad2)") 
+      (node 
+        (ref R11) 
+        (pin 2)) 
+      (node 
+        (ref SW26) 
+        (pin 3))) 
+    (net 
+      (code 66) 
+      (name "Net-(SW20-Pad4)") 
+      (node 
+        (ref SW21) 
+        (pin 3)) 
+      (node 
+        (ref SW20) 
+        (pin 4))) 
+    (net 
+      (code 67) 
+      (name /U3P5) 
+      (node 
+        (ref SW20) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 10))) 
+    (net 
+      (code 68) 
+      (name "Net-(SW19-Pad4)") 
+      (node 
+        (ref SW19) 
+        (pin 4)) 
+      (node 
+        (ref SW20) 
+        (pin 3))) 
+    (net 
+      (code 69) 
+      (name "Net-(SW13-Pad4)") 
+      (node 
+        (ref SW13) 
+        (pin 4)) 
+      (node 
+        (ref SW14) 
+        (pin 3))) 
+    (net 
+      (code 70) 
+      (name "Net-(SW12-Pad4)") 
+      (node 
+        (ref SW12) 
+        (pin 4)) 
+      (node 
+        (ref SW13) 
+        (pin 3))) 
+    (net 
+      (code 71) 
+      (name /U1P6) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref SW7) 
+        (pin 1))) 
+    (net 
+      (code 72) 
+      (name "Net-(D2-Pad1)") 
+      (node 
+        (ref D2) 
+        (pin 1)) 
+      (node 
+        (ref D3) 
+        (pin 2))) 
+    (net 
+      (code 73) 
+      (name "Net-(D6-Pad1)") 
+      (node 
+        (ref D6) 
+        (pin 1)) 
+      (node 
+        (ref D7) 
+        (pin 2))) 
+    (net 
+      (code 74) 
+      (name "Net-(D5-Pad1)") 
+      (node 
+        (ref D6) 
+        (pin 2)) 
+      (node 
+        (ref D5) 
+        (pin 1))) 
+    (net 
+      (code 75) 
+      (name "Net-(D4-Pad1)") 
+      (node 
+        (ref R12) 
+        (pin 1)) 
+      (node 
+        (ref D4) 
+        (pin 1))) 
+    (net 
+      (code 76) 
+      (name "Net-(D3-Pad1)") 
+      (node 
+        (ref D4) 
+        (pin 2)) 
+      (node 
+        (ref D3) 
+        (pin 1))) 
+    (net 
+      (code 77) 
+      (name "Net-(D1-Pad1)") 
+      (node 
+        (ref D2) 
+        (pin 2)) 
+      (node 
+        (ref D1) 
+        (pin 1))) 
+    (net 
+      (code 78) 
+      (name "Net-(D10-Pad1)") 
+      (node 
+        (ref R14) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 1))) 
+    (net 
+      (code 79) 
+      (name "Net-(D10-Pad2)") 
+      (node 
+        (ref D9) 
+        (pin 1)) 
+      (node 
+        (ref D10) 
+        (pin 2))) 
+    (net 
+      (code 80) 
+      (name "Net-(D8-Pad1)") 
+      (node 
+        (ref D8) 
+        (pin 1)) 
+      (node 
+        (ref R13) 
+        (pin 1))) 
+    (net 
+      (code 81) 
+      (name "Net-(D7-Pad1)") 
+      (node 
+        (ref D8) 
+        (pin 2)) 
+      (node 
+        (ref D7) 
+        (pin 1))) 
+    (net 
+      (code 82) 
+      (name "Net-(D16-Pad1)") 
+      (node 
+        (ref D16) 
+        (pin 1)) 
+      (node 
+        (ref R16) 
+        (pin 1))) 
+    (net 
+      (code 83) 
+      (name "Net-(D15-Pad1)") 
+      (node 
+        (ref D15) 
+        (pin 1)) 
+      (node 
+        (ref D16) 
+        (pin 2))) 
+    (net 
+      (code 84) 
+      (name "Net-(D14-Pad1)") 
+      (node 
+        (ref D14) 
+        (pin 1)) 
+      (node 
+        (ref D15) 
+        (pin 2))) 
+    (net 
+      (code 85) 
+      (name "Net-(D13-Pad1)") 
+      (node 
+        (ref R15) 
+        (pin 1)) 
+      (node 
+        (ref D13) 
+        (pin 1))) 
+    (net 
+      (code 86) 
+      (name "Net-(D12-Pad1)") 
+      (node 
+        (ref D13) 
+        (pin 2)) 
+      (node 
+        (ref D12) 
+        (pin 1))) 
+    (net 
+      (code 87) 
+      (name "Net-(D11-Pad1)") 
+      (node 
+        (ref D12) 
+        (pin 2)) 
+      (node 
+        (ref D11) 
+        (pin 1))) 
+    (net 
+      (code 88) 
+      (name /U3P3) 
+      (node 
+        (ref SW18) 
+        (pin 1)) 
+      (node 
+        (ref U3) 
+        (pin 7))) 
+    (net 
+      (code 89) 
+      (name "Net-(SW6-Pad4)") 
+      (node 
+        (ref SW6) 
+        (pin 4)) 
+      (node 
+        (ref SW7) 
+        (pin 3))) 
+    (net 
+      (code 90) 
+      (name /U1P5) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref SW6) 
+        (pin 1)))))
