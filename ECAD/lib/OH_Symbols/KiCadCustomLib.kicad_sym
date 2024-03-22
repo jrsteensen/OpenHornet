@@ -53369,7 +53369,8 @@
 			)
 		)
 	)
-	(symbol "UFCOptionDigit_V2"
+
+	(symbol "UFCOptionDigit_V3"
 		(pin_names
 			(offset 1.016)
 		)
@@ -53428,7 +53429,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "UFCOptionDigit_V2_0_0"
+		(symbol "UFCOptionDigit_V3_0_0"
 			(rectangle
 				(start -46.99 16.51)
 				(end 46.99 -17.78)
@@ -54955,7 +54956,7 @@
 				)
 			)
 		)
-		(symbol "UFCOptionDigit_V2_0_1"
+		(symbol "UFCOptionDigit_V3_0_1"
 			(polyline
 				(pts
 					(xy -45.085 -7.62) (xy -45.085 -1.905)
@@ -57421,7 +57422,7 @@
 				)
 			)
 		)
-		(symbol "UFCOptionDigit_V2_1_0"
+		(symbol "UFCOptionDigit_V3_1_0"
 			(text "C5 -> DIG5"
 				(at -35.56 -12.7 0)
 				(effects
