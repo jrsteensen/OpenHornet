@@ -20,7 +20,7 @@ For further clarification, the abbreviations used in file names are explained be
 - **Pointer Line Right Side**: This is the 2D mask for the right side of the pointer line (white)
 - **It is only used on knob**: OHC0003-A-4RUDGB3
 ### MASK_PN_PLF.svg
-- **Pointer Line Front**: This is the 2D mask for the front pointer line, it is the same as MASK_PN_PL (white)
+- **Pointer Line Right Side**: This is the 2D mask for the front pointer line, it is the same as MASK_PN_PL (white)
 - **It is only used on knob**: OHC0003-A-4RUDGB3
 ### MASK_PN_IL.svg
 - **Indica Left**: This is the 2D mask for the left indica (black)
