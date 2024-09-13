@@ -8,10 +8,10 @@ All modifications made to the parts inside the "mods" folder are documented in t
 ### _MODIFICATIONS.md Template
 ```
 # <TITLE OF MODIFICATION>
-Author: <Name and discord username i.e. John Steensen (Noctum)>
-Contributed on: <date>
-Derived from: v<release number, i.e. 0.2.0)
-Original Assembly: <List OH part number of the original assembly.>
+- **Author:** <Name and discord username i.e. John Steensen (Noctum)>
+- **Contributed on:** <date>
+- **Derived from:** v<release number, i.e. 0.2.0)
+- **Original Assembly:** <List OH part number of the original assembly.>
 
 ## Summary
 <Describe the change and why>
