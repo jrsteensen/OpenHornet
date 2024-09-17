@@ -14,7 +14,7 @@ This folder provides modifications for integrating the Winwing MIP into the Open
 
 ## Character of this mod
 
-To integrate the Winwing MIP into OpenHornet, several design choices have to be made. This is due to the fact that the Winwing MFD bezels are larger and that the Winwing HUD panel comes with the HDG and CRS know directly attached to it. The existing solutions by the community follow different design choices. The following table provides an overview of this mod and the other Winwing integration mod by Nick, to help you decide which one to pick.
+To integrate the Winwing MIP into OpenHornet, several design choices have to be made. This is due to the fact that the Winwing MFD bezels are larger and that the Winwing HUD panel comes with the HDG and CRS knobs directly attached to it. The existing solutions by the community follow different design choices. The following table provides an overview of this mod and the other Winwing integration mod by Nick, to help you decide which one to pick.
 
 
 |                        | Ulukaiis mod (this mod) | Nicks mod |
