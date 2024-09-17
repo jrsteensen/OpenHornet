@@ -4,7 +4,7 @@ This folder provides modifications for integrating the Winwing MIP into the UIP 
 - Folder V1: Last release. Not continued
 - Folder V2: Current development build.
 
-[Assembly preview](release/OHM_Modifications/OH1 Winwing MIP Integration by Ulukaii/images/assembly.png)
+[Assembly preview](images/assembly.png)
 
 # OH1 Modification for Winwing integration
 - **Author:** J Schumacher (Ulukaii) 
