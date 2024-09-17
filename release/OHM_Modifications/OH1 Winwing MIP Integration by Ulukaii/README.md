@@ -62,13 +62,14 @@ The integration positions the Winwing UFC and HUD panels as closely as possible 
 <img src="images/assembly.png" alt="Assembly preview" width="50%"/>
 
 Due to the Winwing MFD screen encasings, the face plate can't use six screws on the outboard longeron. However, the assembly provides new / alternative securing. The main holding bracket is firmly secured using M5 screws and six heat inserts: 
+
 <img src="images/main_holder.png" alt="Main holder" width="50%"/>
 
 The lower central brackets are modified to support and secure the main holding bracket:
-<img src="images/mfastening.png" alt="Fastening" width="50%"/>
+<img src="images/fastening.png" alt="Fastening" width="50%"/>
 
 The BIT box is open on the lower side, providing (some) access to the extra buttons on the Winwing UFC:
-<img src="images/mfastening.png" alt="Fastening" width="50%"/>
+<img src="images/button_access.png" alt="Button access" width="50%"/>
 
 Use at your own risk. Have fun!
 
