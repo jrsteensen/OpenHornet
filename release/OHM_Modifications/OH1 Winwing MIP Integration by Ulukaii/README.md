@@ -44,12 +44,12 @@ To integrate the Winwing MIP into OpenHornet, several design choices have to be 
 1. Winwing MIP including three MFDs, three screens, UFC and HUD panel
 2. 8 M3 screws, 42mm. Length depends on your face plate thickness
 3. 8 M3 hex nuts (usually included in your MIP)
-4. 6 M5 screws, 12mm, to fasten the UFC to the UFC mount (OH1WW-02)
-5. 6 M5 screws, 12mm, to fasten the UFC mount to the face plate
-6. 7 M5 heat inserts for the UFC mount
-7. 2 M5 screws, 12mm, to fasten the UFC box upper (OH1WW-04) to the face plate
-8. 1 M5 screw , 30mm, to fasten the UFC box upper (OH1WW-04) to the UFC box lower (OH1WW-03)
-9. 1 M6 heat insert, to fasten the UFC box upper (OH1WW-04) to the UFC box lower (OH1WW-03)
+4. 6 M5 screws, 12mm, to fasten the UFC to the UFC mount (FDM_OH1WW-02)
+5. 6 M5 screws, 12mm, to fasten the UFC mount to the face plate (ACRL_OH1A1-12_MOD_A)
+6. 6 M5 heat inserts for the UFC mount
+7. 2 M5 screws, 12mm, to fasten the HUD BIT box (FDM_OH1A8A4-10) to the face plate
+8. 1 M5 screw , 30mm, to fasten the HUD BIT box (FDM_OH1A8A4-10) to the UFC box lower (OH1WW-02)
+9. 1 M5 heat insert, to fasten the HUD BIT box (FDM_OH1A8A4-10) to the UFC box lower (OH1WW-02)
 10. 4 M5 screws, 20mm, to fasten the AMPCD to the AMPCD box
 
 ## Additional required mechanical changes to the OH parts
