@@ -1,25 +1,27 @@
-# Winwing MIP Integration by Ulukaii
+# OH1 Modification for Winwing integration
+- **Author:** J Schumacher (Ulukaii) 
+- **Contributed on:** Sep 18, 2024 
+- **Derived from:** v0.3.0
+- **Original Assembly:** OH1, OH2A3
 
-This folder provides modifications for integrating the Winwing MIP into the UIP and LIP.
+## Summary
+This folder provides modifications for integrating the Winwing MIP into the OpenHornet upper and lower instrument panel (UIP and LIP). It is aimed at builders who intend to do a full Winwing MIP integration, including HUD panel. The parts provided herein are designed with 3D printability in mind. 
 - Folder V1: Last release. Not continued
 - Folder V2: Current development build.
 
 <img src="images/assembly2.png" alt="Assembly preview" width="50%"/>
 
-# OH1 Modification for Winwing integration
-- **Author:** J Schumacher (Ulukaii) 
-- **Contributed on:** Sep 22, 2024 
-- **Derived from:** v0.3.0
-- **Original Assembly:** OH1, OH2A3
 
-## Summary
-This folder provides modifications for integrating the Winwing MIP into the OpenHornet upper and lower instrument panel (UIP and LIP). It is aimed at builders who intend to do a full Winwing MIP integration, including HUD panel. The parts provided herein are designed with 3D printability in mind. The following table provides an overview of this mod and the other Winwing integration mod by Nick.
+## Character of this mod
+
+To integrate the Winwing MIP into OpenHornet, several design choices have to be made. This is due to the fact that the Winwing MFD bezels are larger and that the Winwing HUD panel comes with the HDG and CRS know directly attached to it. The existing solutions by the community follow different design choices. The following table provides an overview of this mod and the other Winwing integration mod by Nick, to help you decide which one to pick.
+
 
 |                        | Ulukaiis mod (this mod) | Nicks mod |
 |------------------------|---|---|
-| Idea                   | Reasonable effort integration w/ only 7 modified parts | High fidelity integration with customized eyebrow panels |
-| Resulting architecture | MFD screens extend further downwards by 1.5 cm compared to OH spec | MFD screens extend further upwards, EWI panels are customized and reduced in size |
-| MFD screens            | Winwing as-is | Winwing, without encasing |
+| Idea                   | Reasonable effort integration w/ only 7 modified parts. No custom PCBs required | High fidelity integration with customized eyebrow panels. Requires custom PCBs |
+| Resulting architecture | MFD screens extend further downwards by 1.5 cm compared to OH spec | MFD screens extend further upwards, EWI panels are reduced in size and custom design |
+| MFD screens            | Winwing as-is | Winwing, encasing removed |
 | UFC                    | Winwing    | Winwing    |
 | EWIs                   | OpenHornet | Custom     |
 | HUD panel              | Winwing    | OpenHornet |
@@ -53,6 +55,24 @@ This folder provides modifications for integrating the Winwing MIP into the Open
 ## Additional required mechanical changes to the OH parts
 1. To fit the Winwing DUs, you will need to perform small cuts into the outboard UIP longerons. You will see it when you start integrating it
 2. The DU encasing will also intersect with the glareshield. You will need to provide the required cuts for these.
+
+## Feature overview
+
+The integration positions the Winwing UFC and HUD panels as closely as possible to the OH-specified position:
+<img src="images/assembly.png" alt="Assembly preview" width="50%"/>
+
+Due to the Winwing MFD screen encasings, the face plate can't use six screws on the outboard longeron. However, the assembly provides new / alternative securing. The main holding bracket is firmly secured using M5 screws and six heat inserts: 
+<img src="images/main_holder.png" alt="Main holder" width="50%"/>
+
+The lower central brackets are modified to support and secure the main holding bracket:
+<img src="images/mfastening.png" alt="Fastening" width="50%"/>
+
+The BIT box is open on the lower side, providing (some) access to the extra buttons on the Winwing UFC:
+<img src="images/mfastening.png" alt="Fastening" width="50%"/>
+
+Use at your own risk. Have fun!
+
+
 
 
 
