@@ -1,8 +1,10 @@
-##Winwing MIP Integration by Ulukaii
+# Winwing MIP Integration by Ulukaii
 
 This folder provides modifications for integrating the Winwing MIP into the UIP and LIP.
 - Folder V1: Last release. Not continued
 - Folder V2: Current development build.
+
+[Assembly preview](https://github.com/eHanseJoerg/OpenHornet/blob/a55e6b99d116ba33e9d6276b55942bbc5388ec4e/release/OHM_Modifications/OH1%20Winwing%20MIP%20Integration%20by%20Ulukaii/images/assembly.png)
 
 # OH1 Modification for Winwing integration
 - **Author:** J Schumacher (Ulukaii) 
