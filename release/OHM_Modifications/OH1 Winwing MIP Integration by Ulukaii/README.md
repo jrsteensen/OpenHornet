@@ -19,7 +19,7 @@ To integrate the Winwing MIP into OpenHornet, several design choices have to be 
 
 |                        | Ulukaiis mod (this mod) | Nicks mod |
 |------------------------|---|---|
-| Idea                   | Reasonable effort integration w/ only 7 modified parts. No custom PCBs required | High fidelity integration with customized eyebrow panels. Requires custom PCBs |
+| Idea                   | Reasonable effort integration w/ only 8 modified parts. No custom PCBs required | High fidelity integration with customized eyebrow panels. Requires custom PCBs |
 | Resulting architecture | MFD screens extend further downwards by 1.5 cm compared to OH spec | MFD screens extend further upwards, EWI panels are reduced in size and custom design |
 | MFD screens            | Winwing as-is | Winwing, encasing removed |
 | UFC                    | Winwing    | Winwing    |
@@ -38,6 +38,7 @@ To integrate the Winwing MIP into OpenHornet, several design choices have to be 
 5. FDM_OH2A3A1-10_MOD_A: this is a modified holder for the AMPCD without the HDG / CRS knobs and with positioniing of the AMPCD harmonized with the UIP Winwing installation
 6. FDM_OH1A1-23: this is a modified HUD panel aft support (NO AVAILABLE YET)
 7. FDM_OH1A1-26: this is a modified MFD panel lower support (you need to print two of them)
+8. FDM_OH!A1-22: this is a modified version of the display pressure foot. Instead of pressing the display, it is now an additional fastening position for the face plate.
 
 
 ## Additional required COTS parts list
