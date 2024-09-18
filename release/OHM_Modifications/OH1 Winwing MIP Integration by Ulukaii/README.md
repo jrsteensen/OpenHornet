@@ -53,8 +53,9 @@ To integrate the Winwing MIP into OpenHornet, several design choices have to be 
 10. 4 M5 screws, 20mm, to fasten the AMPCD to the AMPCD box
 
 ## Additional required mechanical changes to the OH parts
-1. To fit the Winwing DUs, you will need to perform small cuts into the outboard UIP longerons. You will see it when you start integrating it
-2. The DU encasing will also intersect with the glareshield. You will need to provide the required cuts for these.
+1. To fit the Winwing DUs, you will need to perform small cutouts into the outboard UIP longerons. The exact size depends on the thickness of your material. You will see it when you start integrating it
+<img src="images/longeron_cutouts.png" alt="Longeron cutouts" width="50%"/>
+2. The upper outward corner of the DU will intersect with the acrylic glareshield. You will need to provide some cutouts for these corners as well. 
 
 ## Feature overview
 
