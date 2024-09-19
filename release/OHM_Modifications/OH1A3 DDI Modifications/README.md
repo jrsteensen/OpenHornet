@@ -1,7 +1,3 @@
-##DDI modifications
-
-This folder provides modifications for the manufacturing of the DDI.
-
 # OH1A3 DDI Modifications
 - **Author:** John Steensen (Noctum) & Higgins-OH
 - **Contributed on:** Nov 20, 2023 
