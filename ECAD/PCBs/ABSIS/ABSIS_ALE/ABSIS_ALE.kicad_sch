@@ -3381,146 +3381,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM7805_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM7805_TO220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM7805_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM7805_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:MIC5219-5.0YM5"
 			(pin_names
 				(offset 0.254)
@@ -4472,18 +4332,6 @@
 		(uuid "b50e5a19-d3e7-43bf-8152-e1db1200fa88")
 	)
 	(junction
-		(at 320.04 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b96ec044-41db-407b-a527-bee5ae16f0af")
-	)
-	(junction
-		(at 330.2 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba31e157-8d34-448b-9aaf-7f31190822b9")
-	)
-	(junction
 		(at 200.66 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4506,12 +4354,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7c8b389-07ae-4f70-9aec-80b0bbb34322")
-	)
-	(junction
-		(at 340.36 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0144189-25cb-4112-bcd4-d58d7030e5be")
 	)
 	(junction
 		(at 212.09 118.11)
@@ -4647,16 +4489,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 140.97) (xy 330.2 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f1e5df-4d88-49dd-8a5f-c9723355046e")
-	)
-	(wire
-		(pts
 			(xy 224.79 43.18) (xy 226.06 43.18)
 		)
 		(stroke
@@ -4747,16 +4579,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 128.27) (xy 340.36 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd44da8-80dd-465d-b230-e6403dbdad3b")
-	)
-	(wire
-		(pts
 			(xy 229.87 118.11) (xy 229.87 115.57)
 		)
 		(stroke
@@ -4827,16 +4649,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 138.43) (xy 340.36 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6a4374-3d0a-4bd0-a1d4-1145c15a0e49")
-	)
-	(wire
-		(pts
 			(xy 208.915 29.21) (xy 206.375 29.21)
 		)
 		(stroke
@@ -4897,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 140.97) (xy 330.2 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "303b4e55-4899-4fee-8344-470832783f36")
-	)
-	(wire
-		(pts
 			(xy 200.66 149.86) (xy 200.66 151.13)
 		)
 		(stroke
@@ -4934,26 +4736,6 @@
 			(type default)
 		)
 		(uuid "364e34d7-f0a6-47c8-9077-f6854cf9aa8d")
-	)
-	(wire
-		(pts
-			(xy 330.2 140.97) (xy 330.2 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e72b8b-f495-42a6-869e-b070b3edd172")
-	)
-	(wire
-		(pts
-			(xy 317.5 128.27) (xy 320.04 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6d5248-d28b-4787-8685-e5ff4559463b")
 	)
 	(wire
 		(pts
@@ -4994,16 +4776,6 @@
 			(type default)
 		)
 		(uuid "43d754fc-3c2d-4144-b3a4-13da41b18c47")
-	)
-	(wire
-		(pts
-			(xy 330.2 140.97) (xy 330.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1bf56c-b050-42c4-a934-ed0453e26415")
 	)
 	(wire
 		(pts
@@ -5417,16 +5189,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 128.27) (xy 340.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d418dde-1367-41a1-bcf7-56dd65d23187")
-	)
-	(wire
-		(pts
 			(xy 96.52 130.81) (xy 95.25 130.81)
 		)
 		(stroke
@@ -5444,16 +5206,6 @@
 			(type default)
 		)
 		(uuid "a7f088cd-1b86-47bb-a8e6-ee5997d27a73")
-	)
-	(wire
-		(pts
-			(xy 320.04 128.27) (xy 322.58 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8812f8d-41c7-426a-97f2-732cc364c045")
 	)
 	(wire
 		(pts
@@ -5707,16 +5459,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 128.27) (xy 320.04 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27dc395-24a3-427a-a861-95ae1ba4d927")
-	)
-	(wire
-		(pts
 			(xy 95.25 154.305) (xy 102.235 154.305)
 		)
 		(stroke
@@ -5854,26 +5596,6 @@
 			(type default)
 		)
 		(uuid "e6ff06a4-3de9-4e9b-acb3-00f61a431079")
-	)
-	(wire
-		(pts
-			(xy 320.04 138.43) (xy 320.04 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7a3c2d6-8398-4967-9bae-ea0a379a22e7")
-	)
-	(wire
-		(pts
-			(xy 340.36 128.27) (xy 342.9 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ea6742-8bde-4cb9-93fd-6c74ca63524e")
 	)
 	(wire
 		(pts
@@ -6296,17 +6018,6 @@
 		)
 		(uuid "0a73bae2-8c35-47ed-a4be-635e7d15f4b8")
 	)
-	(label "VCC"
-		(at 342.9 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f533fe1-5620-499b-8b78-c3e367fb0a9e")
-	)
 	(label "BUS-A"
 		(at 223.52 154.94 0)
 		(fields_autoplaced yes)
@@ -6647,17 +6358,6 @@
 			(justify left bottom)
 		)
 		(uuid "917eb264-6d51-49f1-81e6-c439d8b05771")
-	)
-	(label "Vin(+12V)"
-		(at 317.5 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92ec7909-cb8a-4101-ace1-9a75e1dbd2d2")
 	)
 	(label "~{D10_A10}"
 		(at 208.28 67.31 0)
@@ -9883,71 +9583,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09228063-4e0e-40c0-805d-28427b89da4f")
-		(property "Reference" "#PWR02"
-			(at 330.2 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 330.2 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e4ff87-8945-4b62-b4c1-6ae131ea2df5")
-		)
-		(instances
-			(project "ABSIS_ALE"
-				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 238.76 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10231,166 +9866,6 @@
 			(project ""
 				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OH_Symbols:Capacitor_0805_0.1uF")
-		(at 320.04 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c33a188-50b2-4f26-ba19-c8fdb0ec411f")
-		(property "Reference" "C?"
-			(at 319.405 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.33uF"
-			(at 319.405 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OH_Footprints:C_0805_2012Metric"
-			(at 319.0748 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 319.405 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 320.04 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 320.04 146.939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "CC0805KRX7R9BB104"
-			(at 319.405 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77ca05aa-6b62-45b5-b9b6-f2fc39a26c9f")
-		)
-		(pin "2"
-			(uuid "933da1cb-2827-4874-8600-5304c14e6ade")
-		)
-		(instances
-			(project "ABSIS_ALE"
-				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 330.2 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4551b136-b64c-4484-848f-e312989a6a5f")
-		(property "Reference" "U?"
-			(at 330.2 122.2205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM7805_TO220"
-			(at 330.2 124.6448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 330.2 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 330.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 330.2 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d909bd2f-65ec-4142-8e09-8002c15b9065")
-		)
-		(pin "1"
-			(uuid "82e663f8-d814-4c7a-9477-8372d694b4f5")
-		)
-		(pin "2"
-			(uuid "ba98b4c7-cc49-4b1a-b238-86abbbf8272e")
-		)
-		(instances
-			(project ""
-				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
-					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -10880,93 +10355,6 @@
 			(project ""
 				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OH_Symbols:Capacitor_0805_0.1uF")
-		(at 340.36 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aff84eb2-c0f3-4862-b0a9-397b84f0e6b2")
-		(property "Reference" "C?"
-			(at 340.995 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 340.995 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OH_Footprints:C_0805_2012Metric"
-			(at 341.3252 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 340.995 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 340.36 146.939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "CC0805KRX7R9BB104"
-			(at 340.995 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8eaf768-5abb-432d-9184-48867217e3c9")
-		)
-		(pin "2"
-			(uuid "25b69e2e-c704-49e4-ad2a-35da16c243cb")
-		)
-		(instances
-			(project "ABSIS_ALE"
-				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
-					(reference "C?")
 					(unit 1)
 				)
 			)
