@@ -148,6 +148,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -4278,7 +4423,7 @@
 		(uuid "54bd4c66-eafd-4d91-87e2-654cba26b3de")
 	)
 	(junction
-		(at 191.77 105.41)
+		(at 190.5 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f708db-4745-4a26-b8c8-59a34906e5c0")
@@ -4294,6 +4439,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60228082-1e23-4bbd-891b-8847c82ea6f0")
+	)
+	(junction
+		(at 187.96 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b3edf79-b811-4958-a2b2-17fa05121474")
 	)
 	(junction
 		(at 193.04 105.41)
@@ -4360,12 +4511,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e99c1632-2ff2-4cf0-8611-2d50a8977597")
-	)
-	(junction
-		(at 189.23 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb7cddd7-5886-4c25-9493-be5215056cd3")
 	)
 	(junction
 		(at 201.93 118.11)
@@ -4439,7 +4584,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 115.57) (xy 189.23 118.11)
+			(xy 187.96 115.57) (xy 187.96 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4449,7 +4594,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 191.77 105.41)
+			(xy 187.96 105.41) (xy 190.5 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4569,6 +4714,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 105.41) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e9bad-83bf-4afd-b8bd-7daa4ebc4a4a")
+	)
+	(wire
+		(pts
 			(xy 168.91 25.4) (xy 170.815 25.4)
 		)
 		(stroke
@@ -4616,16 +4771,6 @@
 			(type default)
 		)
 		(uuid "2455ff62-6e1a-49ff-8e59-aa3a23644364")
-	)
-	(wire
-		(pts
-			(xy 187.96 105.41) (xy 189.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "287266c9-46f4-4741-bbcf-8d0596214649")
 	)
 	(wire
 		(pts
@@ -4909,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 105.41) (xy 189.23 107.95)
+			(xy 187.96 105.41) (xy 187.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4979,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 107.95) (xy 191.77 107.95)
+			(xy 194.31 107.95) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5209,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 191.77 105.41)
+			(xy 190.5 107.95) (xy 190.5 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5299,7 +5444,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 118.11) (xy 201.93 118.11)
+			(xy 176.53 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdc6466-e920-47a3-be80-ea57d07a8c4f")
+	)
+	(wire
+		(pts
+			(xy 187.96 118.11) (xy 201.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5329,7 +5484,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 105.41) (xy 193.04 105.41)
+			(xy 190.5 105.41) (xy 193.04 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5619,7 +5774,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 105.41) (xy 180.34 105.41)
+			(xy 167.64 105.41) (xy 168.91 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6196,7 @@
 		(uuid "169bd16a-8422-4458-8596-61c7735e9bb8")
 	)
 	(label "Vin(+12V)"
-		(at 179.07 105.41 180)
+		(at 167.64 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9496,7 +9651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 111.76 0)
+		(at 187.96 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9504,7 +9659,7 @@
 		(dnp no)
 		(uuid "05431e91-2ac2-48a4-8f33-2b94371a46cb")
 		(property "Reference" "C2"
-			(at 186.9186 110.116 0)
+			(at 185.6486 110.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9668,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 186.9186 112.5403 0)
+			(at 185.6486 112.5403 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +9677,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 190.1952 115.57 0)
+			(at 188.9252 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +9686,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
-			(at 189.23 111.76 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9695,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 111.76 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9704,7 @@
 			)
 		)
 		(property "LCSC" "C15850"
-			(at 189.23 111.76 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +9713,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CL21A106KAYNNNE"
-			(at 189.23 111.76 0)
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +9948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28c5fd8c-334c-4403-986b-e7d40b095950")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 235.839 121.0253 90)
 			(effects
 				(font
@@ -9865,7 +10020,7 @@
 		(instances
 			(project ""
 				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10093,7 +10248,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 184.15 105.41 90)
+		(at 172.72 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10102,7 +10257,7 @@
 		(fields_autoplaced yes)
 		(uuid "840efbd2-e81f-452a-98c0-74664ab01660")
 		(property "Reference" "F1"
-			(at 184.15 99.8685 90)
+			(at 172.72 99.8685 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +10265,7 @@
 			)
 		)
 		(property "Value" "500mA"
-			(at 184.15 102.2928 90)
+			(at 172.72 102.2928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10273,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 189.23 104.14 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,7 +10283,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401031726_LUTE-0805L020-15XR_C7472558.pdf"
-			(at 184.15 105.41 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10137,7 +10292,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 184.15 105.41 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10301,7 @@
 			)
 		)
 		(property "LCSC" "C7472558"
-			(at 184.15 105.41 90)
+			(at 172.72 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10310,7 @@
 			)
 		)
 		(property "Manufacturer PN" "0805L020/15XR"
-			(at 184.15 105.41 90)
+			(at 172.72 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,6 +10862,93 @@
 			(project ""
 				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 182.88 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaf6621d-9a44-452d-b0dd-ff1435224fdb")
+		(property "Reference" "D1"
+			(at 183.1975 99.9955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "600mV@1A"
+			(at 183.1975 102.4198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer PN" "1N5819WS"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15e521f9-2a82-4dec-ab24-cf783f748cf7")
+		)
+		(pin "2"
+			(uuid "0a2d1390-428a-4191-8987-274187029205")
+		)
+		(instances
+			(project ""
+				(path "/033779dd-769d-40f0-a337-a3f830befbfb"
+					(reference "D1")
 					(unit 1)
 				)
 			)
