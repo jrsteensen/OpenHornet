@@ -28,7 +28,7 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 
 ## Design Software Requirements
 * Mechanical CAD Software Required: Fusion360
-* Electrical CAD Software Required: KiCAD 7
+* Electrical CAD Software Required: KiCAD 8
 * Microsoft Office (or compatible)
 
 ## Contributing
@@ -77,8 +77,8 @@ These links will allow you to download a local copy of the OH MCAD model, for re
 * [Center Tub (CT)](https://a360.co/3LKM3mc)
 
 ### Branches
-* Master branch is the stable release branch.
-* vX.X.X is the latest working branch that will become the next release. It may or may not be functional as is.
+* `master` branch is the stable release branch which represents the last release.
+* `develop` is the latest working branch that will become the next release. It may or may not be functional as is.
 
 ## Authors and Acknowledgment
 
