@@ -1,0 +1,22 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0805_2012Metric,73.533,40.767,90.0,top
+C2,0.1uF,C_0805_2012Metric,50.546,40.386,90.0,top
+C3,0.1uF,C_0805_2012Metric,27.686,40.513,90.0,top
+J1,Mini-Fit Jr. 2x04,Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical,65.99,11.25,0.0,top
+J2,Mini-Fit Jr. 2x03,Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,68.97,26.46,0.0,top
+J3,Mini-Fit Jr. 2x03,Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,46.11,26.46,0.0,top
+J4,Mini-Fit Jr. 2x03,Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,23.25,26.46,0.0,top
+J5,PinHeader_2x11,PinHeader_2x11_P2.54mm_Vertical,5.63,31.74,0.0,top
+P1,Power,PinHeader_1x08_P2.54mm_Vertical,26.035,2.54,270.0,bottom
+P2,Analog,PinHeader_1x08_P2.54mm_Vertical,48.891201,2.54,270.0,bottom
+P3,Analog,PinHeader_1x08_P2.54mm_Vertical,71.755,2.54,270.0,bottom
+P4,Digital,PinHeader_2x18_P2.54mm_Vertical,84.455,29.21,180.0,bottom
+P5,PWM,PinHeader_1x10_P2.54mm_Vertical,19.431,50.8,270.0,bottom
+P6,PWM,PinHeader_1x08_P2.54mm_Vertical,43.815,50.8,270.0,bottom
+P7,Communication,PinHeader_1x08_P2.54mm_Vertical,66.675,50.8,270.0,bottom
+R1,120,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,68.961,37.211,180.0,top
+R2,120,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,46.101,37.211,180.0,top
+R3,120,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,23.241,37.211,180.0,top
+U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,68.961,42.291,-90.0,top
+U2,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,46.101,42.291,-90.0,top
+U3,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,23.241,42.291,-90.0,top
