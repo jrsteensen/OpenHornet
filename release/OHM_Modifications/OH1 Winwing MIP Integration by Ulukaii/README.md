@@ -94,6 +94,11 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 ## Known issues
 - Outboard fastening of the face plate should be improved
 
+## Further links
+ - Openhornet.com
+ - https://github.com/eHanseJoerg/OpenHornet/tree/develop/release (author OH repo)
+ - https://makerworld.com/de/models/650441 (Makerworld repo for ease of access)
+
 
 
 
