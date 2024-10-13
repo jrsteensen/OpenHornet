@@ -41,8 +41,8 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 
 |                        | Ulukaiis mod (this mod) | Nicks mod |
 |------------------------|---|---|
-| Idea                   | Reasonable effort integration w/ only 8 modified parts. No custom PCBs required | High fidelity integration with customized eyebrow panels. Requires custom PCBs |
-| Resulting architecture | MFD screens extend further downwards by 1.5 cm compared to OH spec | MFD screens extend further upwards, EWI panels are reduced in size and custom design |
+| Idea                   | Reasonable effort integration w/ only 10 modified parts. No custom PCBs required. Using Winwing HUD panel. | High effort integration with customized eyebrow panels. Requires custom PCBs |
+| Resulting architecture | MFD screens extend further downwards by 1.5 cm compared to OH spec | MFD screens extend further upwards, EWI panels are reduced in size and custom PCB design required. However, outer UIP dimensions are preserved. More accurate positioning of HDG and CRS knob. |
 | MFD screens            | Winwing as-is | Winwing, encasing removed |
 | UFC                    | Winwing    | Winwing    |
 | EWIs                   | OpenHornet | Custom     |
