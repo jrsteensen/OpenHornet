@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -39,7 +39,6 @@
       9,
       10,
       11,
-      12,
       13,
       15,
       16,
@@ -64,8 +63,14 @@
       36,
       40
     ],
-    "visible_layers": "ffffbff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcfbff_ffffffff",
+    "zone_display_mode": 1
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "UFC_Main.kicad_prl",
