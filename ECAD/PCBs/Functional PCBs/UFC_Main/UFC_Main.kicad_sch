@@ -13778,6 +13778,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:BSS214NW"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS214NW"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V Vds, 1.5A Id, N-Channel MOSFET, SOT-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS214NW_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS214NW_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:BSS84"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -41250,7 +41545,7 @@
 				)
 			)
 		)
-		(property "Value" "ME2328-G"
+		(property "Value" "SKML5203"
 			(at 709.295 62.4111 90)
 			(effects
 				(font
@@ -41269,7 +41564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/68741/si2301cd.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001131004_Shikues-SKML5203_C475707.pdf"
 			(at 709.295 67.945 0)
 			(effects
 				(font
@@ -41279,7 +41574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 4A 65mΩ@10V,4A 1.3V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
 			(at 709.295 67.945 0)
 			(effects
 				(font
@@ -41288,7 +41583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C709746"
+		(property "LCSC" "C475707"
 			(at 709.295 67.945 90)
 			(effects
 				(font
@@ -41297,7 +41592,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ME2328-G"
+		(property "PN" "SKML5203"
 			(at 709.295 67.945 90)
 			(effects
 				(font
@@ -44615,7 +44910,7 @@
 				)
 			)
 		)
-		(property "Value" "ME2328-G"
+		(property "Value" "SKML5203"
 			(at 721.995 62.4111 90)
 			(effects
 				(font
@@ -44634,7 +44929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/68741/si2301cd.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001131004_Shikues-SKML5203_C475707.pdf"
 			(at 721.995 67.945 0)
 			(effects
 				(font
@@ -44644,7 +44939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 4A 65mΩ@10V,4A 1.3V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
 			(at 721.995 67.945 0)
 			(effects
 				(font
@@ -44653,7 +44948,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C709746"
+		(property "LCSC" "C475707"
 			(at 721.995 67.945 90)
 			(effects
 				(font
@@ -44662,7 +44957,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ME2328-G"
+		(property "PN" "SKML5203"
 			(at 721.995 67.945 90)
 			(effects
 				(font
@@ -45979,18 +46274,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS84")
+		(lib_id "Transistor_FET:BSS214NW")
 		(at 713.105 81.915 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36667f24-bd07-49f0-bd48-375b06c87ded")
 		(property "Reference" "Q8"
-			(at 718.312 81.2713 0)
+			(at 718.82 83.1851 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45999,7 +46292,7 @@
 			)
 		)
 		(property "Value" "ME2328-G"
-			(at 718.312 83.1923 0)
+			(at 718.82 80.6451 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46007,8 +46300,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 718.185 80.01 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 718.185 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46018,8 +46311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/68741/si2301cd.pdf"
-			(at 713.105 81.915 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241236_MATSUKI-ME2328-G_C709746.pdf"
+			(at 718.185 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46028,7 +46321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "105V 1.5A 230mΩ@10V,1.5A 1.3W 2V@250uA 1 N-Channel SOT-23 MOSFETs ROHS"
 			(at 713.105 81.915 0)
 			(effects
 				(font
@@ -48640,7 +48933,7 @@
 				)
 			)
 		)
-		(property "Value" "ME2328-G"
+		(property "Value" "SKML5203"
 			(at 709.295 31.9311 90)
 			(effects
 				(font
@@ -48659,7 +48952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/68741/si2301cd.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2001131004_Shikues-SKML5203_C475707.pdf"
 			(at 709.295 37.465 0)
 			(effects
 				(font
@@ -48669,7 +48962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 4A 65mΩ@10V,4A 1.3V@250uA 1 Piece P-Channel SOT-23 MOSFETs ROHS"
 			(at 709.295 37.465 0)
 			(effects
 				(font
@@ -48678,7 +48971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C709746"
+		(property "LCSC" "C475707"
 			(at 709.295 37.465 90)
 			(effects
 				(font
@@ -48687,7 +48980,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ME2328-G"
+		(property "PN" "SKML5203"
 			(at 709.295 37.465 90)
 			(effects
 				(font
@@ -54137,7 +54430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS84")
+		(lib_id "Transistor_FET:BSS214NW")
 		(at 688.975 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -54161,7 +54454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 690.88 50.8 0)
 			(effects
 				(font
@@ -54172,8 +54465,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/68741/si2301cd.pdf"
-			(at 688.975 55.88 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241236_MATSUKI-ME2328-G_C709746.pdf"
+			(at 692.785 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54182,7 +54475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "105V 1.5A 230mΩ@10V,1.5A 1.3W 2V@250uA 1 N-Channel SOT-23 MOSFETs ROHS"
 			(at 688.975 55.88 0)
 			(effects
 				(font
