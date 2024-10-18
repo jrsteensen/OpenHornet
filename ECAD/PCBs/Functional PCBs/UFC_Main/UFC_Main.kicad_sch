@@ -27673,7 +27673,7 @@
 		)
 		(uuid "f712308f-440c-448e-959a-43a3b8854605")
 	)
-	(text "ADDR\nGND: 1001000\nVDD: 1001001\nSDA: 1001010\nSCL: 1001011"
+	(text "ADDR\nGND: 1001000 (0x48)\nVDD: 1001001 (0x49)\nSDA: 1001010 (0x4A)\nSCL: 1001011 (0x4B)"
 		(exclude_from_sim no)
 		(at 231.902 278.384 0)
 		(effects
