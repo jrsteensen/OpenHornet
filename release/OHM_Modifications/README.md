@@ -5,7 +5,7 @@ All parts inside the "mods" folder are modifications of the original OpenHornet 
 ## Documentation
 All modifications made to the parts inside the "mods" folder are documented in the `README.md` file inside every folder.
 
-### _MODIFICATIONS.md Template
+### README.md Template
 ```
 # <TITLE OF MODIFICATION>
 - **Author:** <Name and discord username i.e. John Steensen (Noctum)>
