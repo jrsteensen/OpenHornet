@@ -1,0 +1,11415 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc51d895-468c-433d-8010-664ac54eca60")
+	(paper "User" 409.194 224.688)
+	(lib_symbols
+		(symbol "ABSIS_Pro_Micro-rescue:ATMEGA32U4OUTFAKES-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -15.24 38.1 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ATMEGA32U4OUTFAKES-SparkFun_Pro_Micro-eagle-import"
+				(at -15.24 -43.18 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ATMEGA32U4OUTFAKES-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -15.24 -40.64) (xy 15.24 -40.64)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 38.1) (xy -15.24 -40.64)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -40.64) (xy 15.24 38.1)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 38.1) (xy -15.24 38.1)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A0"
+					(at 30.48 34.798 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A1"
+					(at 30.48 32.258 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A2"
+					(at 30.48 29.718 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A3"
+					(at 30.48 27.178 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A4"
+					(at 30.48 24.638 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "A5"
+					(at 30.48 22.098 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D0"
+					(at 30.48 11.938 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D1"
+					(at 30.48 9.398 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D10#"
+					(at 30.48 -13.462 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D11#"
+					(at 30.48 -16.002 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D12/A10"
+					(at 30.48 -18.542 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D13#"
+					(at 30.48 -21.082 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D14/RX LED"
+					(at 30.48 -23.622 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D15"
+					(at 30.48 -26.162 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D16"
+					(at 30.48 -28.702 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D17"
+					(at 30.48 -31.242 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D2"
+					(at 30.48 6.858 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D3#"
+					(at 30.48 4.318 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D4/A6"
+					(at 30.48 1.778 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D5#"
+					(at 30.48 -0.762 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D6#/A7"
+					(at 30.48 -3.302 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D7"
+					(at 30.48 -5.842 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D8"
+					(at 30.48 -8.382 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "D9#/A8"
+					(at 30.48 -10.922 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "TX LED"
+					(at 30.48 -36.322 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "PE6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "PB2(MOSI)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -30.48 180)
+					(length 2.54)
+					(name "PB0(SS)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 35.56 0)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 33.02 0)
+					(length 2.54)
+					(name "VCC@14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -30.48 0)
+					(length 2.54)
+					(name "GND@15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "PD0(SCL)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "PD1(SDA)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "UVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "PD2(RX)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "PD3(TX)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -35.56 180)
+					(length 2.54)
+					(name "PD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(name "GND@23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "AVCC@24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "PD4(ADC8)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "PD6(ADC9)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "PD7(ADC10)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "PB4(ADC11)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "PB5(ADC12)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "PB6(ADC13)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "PC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "PE2/~{HWB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 30.48 0)
+					(length 2.54)
+					(name "VCC@34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -35.56 0)
+					(length 2.54)
+					(name "GND@35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 35.56 180)
+					(length 2.54)
+					(name "PF7(ADC7)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 33.02 180)
+					(length 2.54)
+					(name "PF6(ADC6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 30.48 180)
+					(length 2.54)
+					(name "PF5(ADC5)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "PF4(ADC4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "PF1(ADC1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "PF0(ADC0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -38.1 0)
+					(length 2.54)
+					(name "GND@43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 25.4 0)
+					(length 2.54)
+					(name "AVCC@44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "UGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "UCAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "PB3(MISO)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -25.4 180)
+					(length 2.54)
+					(name "PB1(SCK)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 2.921 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CAP0603-CAP-SparkFun_Pro_Micro-eagle-import"
+				(at 1.524 -2.159 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP0603-CAP-SparkFun_Pro_Micro-eagle-import_1_0"
+				(rectangle
+					(start -2.032 0.508)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 1.524)
+					(end 2.032 2.032)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.032)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:CAP_POL1206-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CAP_POL1206-SparkFun_Pro_Micro-eagle-import"
+				(at 1.016 -4.191 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_POL1206-SparkFun_Pro_Micro-eagle-import_1_0"
+				(rectangle
+					(start -2.2352 0.6604)
+					(end -1.3462 0.7874)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.8542 0.2794)
+					(end -1.7272 1.1684)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid -1.2939 -1.2289)
+					(end -2.4638 -1.8288)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.4892 -1.8542)
+					(mid 1.3167 -1.2157)
+					(end 0 -0.9906)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:CRYSTAL5X3-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 2.54 1.016 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "CRYSTAL5X3-SparkFun_Pro_Micro-eagle-import"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRYSTAL5X3-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.778) (xy -1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.524) (xy 0.381 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 1.524) (xy -0.381 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 -1.524) (xy 0.381 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.524) (xy -0.381 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -2.159 -1.143 0)
+					(effects
+						(font
+							(size 0.7112 0.7112)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "2"
+					(at 1.524 -1.143 0)
+					(effects
+						(font
+							(size 0.7112 0.7112)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:DIODESOD-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 0.4826 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DIODESOD-SparkFun_Pro_Micro-eagle-import"
+				(at 2.54 -2.3114 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DIODESOD-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:FIDUCIALUFIDUCIAL-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FIDUCIALUFIDUCIAL-SparkFun_Pro_Micro-eagle-import"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIDUCIALUFIDUCIAL-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -0.762 0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:FRAME-LETTER-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "FRAME-LETTER-SparkFun_Pro_Micro-eagle-import"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FRAME-LETTER-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 248.92 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 185.42) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 185.42) (xy 248.92 185.42)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 248.92 185.42) (xy 248.92 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FRAME-LETTER-SparkFun_Pro_Micro-eagle-import_2_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 71.12 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 71.12 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 22.86) (xy 0 35.56)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 0) (xy 101.6 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 5.08) (xy 71.12 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 71.12 5.08) (xy 87.63 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 15.24) (xy 0 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 87.63 15.24) (xy 87.63 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 5.08) (xy 101.6 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 15.24) (xy 87.63 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 15.24) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text ">DRAWING_NAME"
+					(at 15.494 17.78 0)
+					(effects
+						(font
+							(size 2.7432 2.7432)
+						)
+						(justify left bottom)
+					)
+				)
+				(text ">LAST_DATE_TIME"
+					(at 12.7 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text ">SHEET"
+					(at 86.36 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Attribution Share-Alike 3.0 License"
+					(at 2.54 27.94 0)
+					(effects
+						(font
+							(size 1.6256 1.6256)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Date:"
+					(at 1.27 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Design by:"
+					(at 1.27 11.43 0)
+					(effects
+						(font
+							(size 2.159 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "http://creativecommons.org/licenses/by-sa/3.0"
+					(at 2.54 24.13 0)
+					(effects
+						(font
+							(size 1.6256 1.6256)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Released under the Creative Commons"
+					(at 2.54 31.75 0)
+					(effects
+						(font
+							(size 1.6256 1.6256)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "REV:"
+					(at 88.9 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "Sheet:"
+					(at 72.39 1.27 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "TITLE:"
+					(at 1.524 17.78 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-SparkFun_Pro_Micro-eagle-import"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:LED0603-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.556 -4.572 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LED0603-SparkFun_Pro_Micro-eagle-import"
+				(at 5.715 -4.572 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED0603-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 -2.159) (xy -3.048 -1.27) (xy -2.54 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -3.302) (xy -2.921 -2.413) (xy -2.413 -2.921)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:LOGO-SFENEW-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "LOGO-SFENEW-SparkFun_Pro_Micro-eagle-import"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO-SFENEW-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SFE"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.6256 1.6256)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:LOGO-SFESK-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "LOGO-SFESK-SparkFun_Pro_Micro-eagle-import"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO-SFESK-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "SFE"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.6256 1.6256)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:M12PTH-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 16.002 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "M12PTH-SparkFun_Pro_Micro-eagle-import"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M12PTH-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 6.35 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -15.24) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -12.7) (xy 5.08 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 12.7) (xy 5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -17.78) (xy 0 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -17.78) (xy 6.35 15.24)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 -15.24 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -10.16 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:PTCSMD-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 3.048 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PTCSMD-SparkFun_Pro_Micro-eagle-import"
+				(at -3.302 -5.08 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTCSMD-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import"
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:SOLDERJUMPERNC-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SJ"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SOLDERJUMPERNC-SparkFun_Pro_Micro-eagle-import"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SOLDERJUMPERNC-SparkFun_Pro_Micro-eagle-import_1_0"
+				(arc
+					(start -0.381 1.2446)
+					(mid -1.6005 0)
+					(end -0.381 -1.2446)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.651 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.651 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.381 -1.2446)
+					(mid 1.6005 0)
+					(end 0.381 1.2446)
+					(stroke
+						(width 0.0254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:USB-ABIN&OUT-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "USB-ABIN&OUT-SparkFun_Pro_Micro-eagle-import"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB-ABIN&OUT-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.35) (xy -2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "USBAB"
+					(at 1.27 -6.096 900)
+					(effects
+						(font
+							(size 2.159 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "D+1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "D-1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "USBID"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "ID1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:VCC-SparkFun_Pro_Micro-eagle-import"
+			(power)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC-SparkFun_Pro_Micro-eagle-import"
+				(at -1.016 3.556 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ABSIS_Pro_Micro-rescue:V_REG_LDOSMD-SparkFun_Pro_Micro-eagle-import"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 9.144 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "V_REG_LDOSMD-SparkFun_Pro_Micro-eagle-import"
+				(at -7.62 -11.43 0)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "V_REG_LDOSMD-SparkFun_Pro_Micro-eagle-import_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 187.96 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2110c77a-dcfb-4112-83ff-9422382894ee")
+	)
+	(junction
+		(at 104.14 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f56ab4c-0e86-4466-ada7-98b9ad699fc0")
+	)
+	(junction
+		(at 187.96 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "308e1af0-83bf-4294-9df5-0986862b3036")
+	)
+	(junction
+		(at 187.96 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ed2c9a-28c9-4d44-9e53-c85d7ed2445f")
+	)
+	(junction
+		(at 132.08 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bd63578-d8d5-4137-b6f1-2d970b221f1b")
+	)
+	(junction
+		(at 187.96 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "550b25f9-8f94-41b4-a901-77d4a6ebdbd4")
+	)
+	(junction
+		(at 185.42 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "589da92e-2893-4301-a0a7-68bfa59830fc")
+	)
+	(junction
+		(at 68.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "599e01cc-e646-44db-9d14-c82e98c38a18")
+	)
+	(junction
+		(at 185.42 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "664fa723-0004-465a-84e9-0662ef8ef125")
+	)
+	(junction
+		(at 187.96 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aa41ec7-fb64-4587-9416-b9854159a4da")
+	)
+	(junction
+		(at 119.38 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "776a1c84-1a0d-4591-b9d7-2c1a7f4ca76c")
+	)
+	(junction
+		(at 187.96 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84bed87f-075c-4bca-99a0-fa9d5ff3f2b9")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94228bb7-08c0-4425-aaf6-d55597ff4757")
+	)
+	(junction
+		(at 78.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca38e18d-28e0-4a11-bcbc-b5579bf55fe8")
+	)
+	(junction
+		(at 187.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9ea47e-da5f-4ced-9993-f488e9cf6ed6")
+	)
+	(junction
+		(at 111.76 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd4286aa-25a2-45aa-99a4-6ade8ed59c44")
+	)
+	(junction
+		(at 172.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de48adec-e677-4cd0-85ef-dca4b2d79f17")
+	)
+	(junction
+		(at 187.96 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96a8221-6094-46ed-aa90-d1c2f9c214b6")
+	)
+	(no_connect
+		(at 233.68 58.42)
+		(uuid "086de7a4-3c53-4c79-a9b6-adf7311e4d1a")
+	)
+	(no_connect
+		(at 233.68 55.88)
+		(uuid "0e390f07-8c41-45f7-9f17-91c67da7d947")
+	)
+	(no_connect
+		(at 233.68 99.06)
+		(uuid "345e40cb-0e0c-4b0e-8e2f-8013aa53d4ba")
+	)
+	(no_connect
+		(at 233.68 101.6)
+		(uuid "5cbab88b-a7aa-4d36-8390-b2430a354c98")
+	)
+	(no_connect
+		(at 233.68 96.52)
+		(uuid "b204cbbd-80cf-49d6-8c08-dbe41a585419")
+	)
+	(no_connect
+		(at 99.06 53.34)
+		(uuid "fb4ff5f0-367d-4433-872d-69d06c94b513")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020b7943-b8dc-43b9-9b24-d2353208cb7c")
+	)
+	(wire
+		(pts
+			(xy 236.22 104.14) (xy 236.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03722aab-665f-4935-ab4e-c345ddc909fd")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c906e6-0d68-4b74-a4e7-e2b760097924")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cfc7f9-6e33-4d18-b7f3-392363b9d412")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075b20e1-44a9-4016-9a37-73342cbe1cba")
+	)
+	(wire
+		(pts
+			(xy 180.34 30.48) (xy 180.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089d0c6b-3eb1-4d17-bb9e-6669e65a2595")
+	)
+	(wire
+		(pts
+			(xy 132.08 58.42) (xy 132.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a439fcb-6dce-4858-9504-2970f8dde39e")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2ca7b5-3346-45f7-a700-80d8845d6259")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d906584-0a0d-4ee0-8e37-ee44ac7c4d3d")
+	)
+	(wire
+		(pts
+			(xy 175.26 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100cdc1a-2197-4b84-bf38-c427fd4ee75a")
+	)
+	(wire
+		(pts
+			(xy 36.83 38.1) (xy 44.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1043a6e0-3b1b-4aee-948c-ecfb26f0a05b")
+	)
+	(wire
+		(pts
+			(xy 190.5 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13aafd80-9fd4-4981-9fa5-f01c56e45a39")
+	)
+	(wire
+		(pts
+			(xy 175.26 71.12) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14698832-0cb5-4a5f-ae16-2b21b0beae32")
+	)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c607a8c-7943-48e1-887e-44fd207cf4fa")
+	)
+	(wire
+		(pts
+			(xy 190.5 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0c5177-7188-4432-9331-254b4e0ab16f")
+	)
+	(wire
+		(pts
+			(xy 226.06 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20b72b13-97dc-4574-b04f-1413c7fcc87f")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2156fa62-32a5-44a3-bd18-783fe8ee54a1")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219ab5a8-8839-498e-a53a-72301fb4aec9")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26940efb-8eb2-46af-8648-dd133988aefd")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2927385b-b296-4282-ac05-dc16fdce8514")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcad617-d829-45b8-8e38-8f2efc10605e")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c18006d-fecd-4131-b1ac-04528892225e")
+	)
+	(wire
+		(pts
+			(xy 96.52 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3d657f-4513-45f2-bd91-2806daf210c3")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d97f62b-ded8-43d4-b378-694152064f0d")
+	)
+	(wire
+		(pts
+			(xy 226.06 116.84) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eaa6991-1f1b-43ac-9214-5341b268ddaf")
+	)
+	(wire
+		(pts
+			(xy 228.6 142.24) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3061a1e7-b93f-4fde-a63b-aa306de0c80a")
+	)
+	(wire
+		(pts
+			(xy 134.62 111.76) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3113a205-8320-4467-9acb-172635f56008")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.26) (xy 76.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ca73b3-7396-4d21-abcd-5e182c2620bb")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ede503-9271-4d8d-8baa-f7f8a94cc200")
+	)
+	(wire
+		(pts
+			(xy 190.5 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37224968-5adf-481d-8b22-f544520c3af1")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 48.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3774c621-9bec-4a0c-b063-5ce719ab8bcf")
+	)
+	(wire
+		(pts
+			(xy 139.7 127) (xy 160.02 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389e944f-81a9-4023-aa1b-ecd254cfbf7b")
+	)
+	(wire
+		(pts
+			(xy 132.08 43.18) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395617a2-5b3a-4af8-8fc5-c35da4890d17")
+	)
+	(wire
+		(pts
+			(xy 238.76 142.24) (xy 238.76 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae46950-ead6-4dbf-a85b-243e5791b30d")
+	)
+	(wire
+		(pts
+			(xy 96.52 114.3) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405d3cb6-ce39-40a1-83b6-987d3d95605d")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a2e9a6-44ee-40fb-a1b4-6f11fb0851d3")
+	)
+	(wire
+		(pts
+			(xy 66.04 121.92) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c5623f-a31f-4a0b-9656-d373f2344de4")
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76) (xy 233.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4441cd85-6cbd-4c5d-af93-6e38e6f69825")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 233.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4693bbb3-3405-4b82-8450-de9b9fbaf7d2")
+	)
+	(wire
+		(pts
+			(xy 132.08 43.18) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4707f3c9-0452-411d-8929-a96a4598f5c8")
+	)
+	(wire
+		(pts
+			(xy 154.94 121.92) (xy 160.02 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478767de-fe28-4274-b3b9-ad226324275f")
+	)
+	(wire
+		(pts
+			(xy 175.26 58.42) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e722d2-7bb8-4abc-93cb-04bc6765ef5a")
+	)
+	(wire
+		(pts
+			(xy 226.06 88.9) (xy 233.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c70e197-702a-445e-b75c-d0811695df46")
+	)
+	(wire
+		(pts
+			(xy 180.34 43.18) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfd5ee5-ecab-4a5d-ab4d-fc07d8511ea9")
+	)
+	(wire
+		(pts
+			(xy 134.62 121.92) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9e6b3a-e920-45b1-b7be-388971cd5762")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5c7472-85a1-4e41-9e49-0b5cd35df83d")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514fc894-2035-48c6-9d69-f60a58cdc172")
+	)
+	(wire
+		(pts
+			(xy 154.94 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526f7895-00be-4c4b-ae56-caa636e875c4")
+	)
+	(wire
+		(pts
+			(xy 187.96 53.34) (xy 187.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5311fa54-c3e7-449c-a0fe-81d322a2811e")
+	)
+	(wire
+		(pts
+			(xy 226.06 91.44) (xy 233.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539eb353-6737-407e-a0f9-c4fac64054e3")
+	)
+	(wire
+		(pts
+			(xy 54.61 38.1) (xy 60.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588e6be2-a7dd-4f51-8089-461c15179594")
+	)
+	(wire
+		(pts
+			(xy 185.42 96.52) (xy 182.88 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a246602-0151-43fe-b220-cc40cc7eb876")
+	)
+	(wire
+		(pts
+			(xy 226.06 109.22) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a90fc1c-1195-4fa3-87cb-7df7765d0f0e")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c79e592-db5a-4381-a092-b86de901289d")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604cd7ce-cf57-496c-8009-51d95ff2580b")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "660d8ad9-67dd-450f-8154-1b582f6ba4dd")
+	)
+	(wire
+		(pts
+			(xy 66.04 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6894bf2c-fe91-4c29-901e-93a43d59d043")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695e490b-d76b-48ec-b983-c3b6221b6ac1")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bebca5-9b94-450c-8a16-c7f6a6862ab7")
+	)
+	(wire
+		(pts
+			(xy 119.38 45.72) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a77eae0-35d9-4b51-a11a-183908ab78db")
+	)
+	(wire
+		(pts
+			(xy 96.52 109.22) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b573f33-a260-4740-9a31-c28f636dc860")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b76e07c-fc47-4515-88f4-470448008bf6")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c522154-d54a-48e8-b771-ae9070580510")
+	)
+	(wire
+		(pts
+			(xy 142.24 121.92) (xy 144.78 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d5e2294-3356-4e06-baee-012a00c4b0cc")
+	)
+	(wire
+		(pts
+			(xy 190.5 58.42) (xy 175.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6b4cda-361a-4b35-9f03-e0765ca3a4b9")
+	)
+	(wire
+		(pts
+			(xy 226.06 50.8) (xy 233.68 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716b7287-5086-4ebd-a416-5680e0390747")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723ed3ed-403d-4982-a9bd-065250ee2d38")
+	)
+	(wire
+		(pts
+			(xy 170.18 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72db7fb1-7673-4a6e-841a-275e14dd2656")
+	)
+	(wire
+		(pts
+			(xy 226.06 86.36) (xy 233.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730dfeb1-b6d1-421a-9468-09eea729f16a")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74cc54d1-7eb2-4ccf-9225-21b24b01e50a")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7747ed6f-629d-4b2d-9585-a30c943e6513")
+	)
+	(wire
+		(pts
+			(xy 226.06 96.52) (xy 233.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a465a1d-210e-4311-a5b4-93c9028bc6ff")
+	)
+	(wire
+		(pts
+			(xy 24.13 38.1) (xy 16.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad0f7bd-34d9-4499-9976-4bdc1742cf3a")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 86.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afb3b1e-26ef-47a2-bbef-7a695f7987e8")
+	)
+	(wire
+		(pts
+			(xy 157.48 58.42) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3a1a34-8a19-4f77-865e-2f831cd5e78e")
+	)
+	(wire
+		(pts
+			(xy 134.62 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c019ced-f565-43a8-a793-1142e156a41f")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb45d39-09fc-45a7-9e38-44e3af9357b7")
+	)
+	(wire
+		(pts
+			(xy 228.6 132.08) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3bf02a-ee9b-489e-a138-57ca2263a408")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 76.2 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8196a41f-5766-4d01-9955-9dd5e4d992c4")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ff4210-5e8a-49cf-a556-713a970da2f1")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 187.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e523050-3157-4248-afd5-eb330bc7c86b")
+	)
+	(wire
+		(pts
+			(xy 119.38 43.18) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ba9453-628a-4c3e-9554-1fa455e54943")
+	)
+	(wire
+		(pts
+			(xy 96.52 111.76) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94451d2e-7e03-4db2-b8b3-36441634332c")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c56fbb-22d0-420d-b646-912f9d70bfe4")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98dd185e-c48a-4422-a26e-373dc9f624dd")
+	)
+	(wire
+		(pts
+			(xy 66.04 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b00015e-1cc1-48b6-84ed-5c37de455362")
+	)
+	(wire
+		(pts
+			(xy 190.5 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a021e637-b539-4c0d-966e-59ac85c6a41c")
+	)
+	(wire
+		(pts
+			(xy 190.5 78.74) (xy 185.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a377a63c-591b-4603-b429-f1fd39528e9e")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45052fb-1070-4075-8e8b-fddb9fe707a2")
+	)
+	(wire
+		(pts
+			(xy 180.34 73.66) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a464e907-28d0-4d96-9bd3-903f61a0de6a")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a487b69e-415a-4aa5-807b-f86c60cfd96e")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54b2ec4-975a-4709-b4ca-66da2f340d42")
+	)
+	(wire
+		(pts
+			(xy 226.06 76.2) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d823e1-fd38-4a9e-8fec-43a7b9bdbf29")
+	)
+	(wire
+		(pts
+			(xy 190.5 53.34) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa433046-7ad9-4f15-8798-7f3b3af985f4")
+	)
+	(wire
+		(pts
+			(xy 226.06 106.68) (xy 233.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab591cbd-f2e3-4e13-afd0-530c7c2810a4")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 236.22 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace12979-6744-4df2-8927-1a47f5718e50")
+	)
+	(wire
+		(pts
+			(xy 236.22 116.84) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea68169-594e-49d7-acf1-7d9318abcff6")
+	)
+	(wire
+		(pts
+			(xy 104.14 55.88) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b052922e-316f-49b5-bd2d-ac2ea1177b73")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 187.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19d4447-31a7-4985-95e9-a4a012b7d6ba")
+	)
+	(wire
+		(pts
+			(xy 238.76 132.08) (xy 238.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34b407b-8297-4fad-a06c-279f78d62ee8")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4737e56-3d49-4079-8255-282c22754668")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68e6cfc-6cfc-4be2-9626-31e14a0970a3")
+	)
+	(wire
+		(pts
+			(xy 187.96 50.8) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77b2135-03d9-404b-8500-7993b5d3e829")
+	)
+	(wire
+		(pts
+			(xy 226.06 71.12) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a8310d-5946-4b55-b559-59f40b02f582")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 119.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9883f97-f052-4d49-9c3b-9096d0fae035")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2d60b5-b5ac-44b0-ad00-524a2126b24a")
+	)
+	(wire
+		(pts
+			(xy 190.5 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb553f8a-99ec-481e-868e-0cc3b9235412")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be32a190-0e88-4393-91fe-f6939056b483")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7c4b84-9cd5-4094-ad54-807e9216351f")
+	)
+	(wire
+		(pts
+			(xy 139.7 121.92) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c208dd1d-1062-47b9-ab4d-a62dc219394b")
+	)
+	(wire
+		(pts
+			(xy 96.52 124.46) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2abd8f9-37ad-41a0-8c4c-fac3eb977fc4")
+	)
+	(wire
+		(pts
+			(xy 68.58 38.1) (xy 66.04 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f80b97-9140-41ca-887e-030974f874c6")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4eb97f7-ef61-4dd1-ac8b-cac951d9370f")
+	)
+	(wire
+		(pts
+			(xy 190.5 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fd2fba-36eb-46c9-a5d3-004541824bae")
+	)
+	(wire
+		(pts
+			(xy 78.74 53.34) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c552c176-7036-4014-ab37-e459dd766b6c")
+	)
+	(wire
+		(pts
+			(xy 238.76 116.84) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6e9a83-55ff-4b6a-97d8-ee1c90710e63")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda3b0c2-3077-4420-a94c-7a98875d91cc")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 86.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef49474-ca19-4e84-b235-262257d8902b")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a06a2d-f37a-41cc-9e2d-f8af782d3630")
+	)
+	(wire
+		(pts
+			(xy 66.04 124.46) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b815e1-aa75-440b-b368-f4f271f13d6e")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3348a47-5b24-459a-826c-32878d6eee65")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 187.96 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47f2798-b639-4d7a-8a86-f3d9bdbb6680")
+	)
+	(wire
+		(pts
+			(xy 185.42 91.44) (xy 182.88 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c9382d-c548-449e-b69b-4fd9eb6edef0")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db706129-67c5-487e-a162-57a30ee408ef")
+	)
+	(wire
+		(pts
+			(xy 190.5 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbb50eb-2995-4885-973a-40abcb79eee4")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0577b2e-c215-44c1-b794-b1ce34b6dbc0")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13045fb-7df0-409d-a16e-053bd9e32e1c")
+	)
+	(wire
+		(pts
+			(xy 226.06 55.88) (xy 233.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e7c83b-0a5c-4c3c-a911-cb6a2e6c0868")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d5db3e-7100-4b87-9aa2-3f3e76487388")
+	)
+	(wire
+		(pts
+			(xy 226.06 99.06) (xy 233.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d5a8c7-57e6-4e9c-8769-7cd2422fdf2f")
+	)
+	(wire
+		(pts
+			(xy 226.06 81.28) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e503a509-1411-422b-9512-e528c0cd023d")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d0c6fd-259a-4928-a018-e2ea1a7f07ce")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.22) (xy 73.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91c2233-7b13-4c4c-ac15-c190f828ddb4")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 233.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf0151b-42d6-45e5-970b-a09e80d8cac5")
+	)
+	(wire
+		(pts
+			(xy 226.06 48.26) (xy 233.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba7d35e-f2a5-436c-a787-1814f82e30fb")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 233.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebaf9685-2b77-4ef9-9f2d-962101757f30")
+	)
+	(wire
+		(pts
+			(xy 226.06 73.66) (xy 233.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd0b4e7-1c75-4091-9631-ded5df0d73df")
+	)
+	(wire
+		(pts
+			(xy 226.06 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa945ae-b8e7-4560-ac74-2564d04b1089")
+	)
+	(wire
+		(pts
+			(xy 96.52 132.08) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f028916a-3474-4855-99d3-793fa4fe4ea7")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 104.14 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06e13a6-f4b5-4596-91a1-d9798399efb1")
+	)
+	(wire
+		(pts
+			(xy 190.5 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22c2c7f-80a1-4390-9745-c6c482a79cf2")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 73.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4fb7cc3-d9d6-4264-aa99-b060513a2b81")
+	)
+	(wire
+		(pts
+			(xy 96.52 129.54) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58a124c-163e-459d-97c7-b8ad6fbc7037")
+	)
+	(wire
+		(pts
+			(xy 66.04 116.84) (xy 73.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f778f1a4-e65d-45ed-9c80-47f64159367a")
+	)
+	(wire
+		(pts
+			(xy 190.5 55.88) (xy 187.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91e78f7-4a19-40da-bdab-217fd3bd7630")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3e415a-566a-4ed0-a2fc-0caa5e7e3dd7")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 187.96 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb539d3-7ca7-4865-8711-2f44528657a7")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef582e5-3e4f-459b-93fe-0d8bbd14a31b")
+	)
+	(wire
+		(pts
+			(xy 96.52 127) (xy 86.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe83b9c-ff64-43a8-a9c8-86736aa640d1")
+	)
+	(text "Original Arduino Mini Design by Team Arduino"
+		(exclude_from_sim no)
+		(at 194.564 191.008 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "00605d95-08dc-44a9-9eb3-effa4b756f92")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 246.38 55.88 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "0599128e-d25d-43eb-ad5c-562a8570fe1c")
+	)
+	(text "ABSIS Pro Micro Design by OpenHornet Project"
+		(exclude_from_sim no)
+		(at 194.564 193.548 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7cd45f-c598-483e-9fb9-bfcce0d2ce36")
+	)
+	(text "Pro Micro Design by Spark Fun Electronics"
+		(exclude_from_sim no)
+		(at 194.564 196.088 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "171cdf39-b955-4d27-a116-9bd14510eb93")
+	)
+	(text "Updated QFN package on 32U4 to be 1:1"
+		(exclude_from_sim no)
+		(at 279.4 48.26 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4f746d-03dc-4a9a-bea3-13c084af56a2")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 251.46 101.6 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "336d5cae-66cb-4b9e-8531-36c3fbed5f1e")
+	)
+	(text "Changes on v1.4:\nAdded reverse protection diode to RAW to prevent backflow from Vusb to the raw power line"
+		(exclude_from_sim no)
+		(at 279.4 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3716f551-5372-48f8-a731-2e22a69e8b08")
+	)
+	(text "Short for USB Power"
+		(exclude_from_sim no)
+		(at 40.64 30.48 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "3af8b339-c63d-404e-944a-b9584fce78cc")
+	)
+	(text "Updated package on USB micro B (2 new pads)"
+		(exclude_from_sim no)
+		(at 279.4 40.64 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c443023-f88e-4188-a35a-00c82e758780")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 251.46 99.06 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "4da36ba6-11d2-4ba5-a62d-7be50b23f6f9")
+	)
+	(text "Updated symbol of 32U4 in schematic (switched MISO and SS placement)"
+		(exclude_from_sim no)
+		(at 279.4 50.8 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e78b743-b0d5-474d-b792-4261a0d55159")
+	)
+	(text "Board is marked with combination of"
+		(exclude_from_sim no)
+		(at 73.66 81.28 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "59b97d0a-c466-42fd-b3c7-6cdc32cbb15b")
+	)
+	(text "Changes on v1.3:"
+		(exclude_from_sim no)
+		(at 279.4 45.72 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "61e26896-8c00-4cbe-b08d-96157e731686")
+	)
+	(text "Max Voltage Input: 16VDC"
+		(exclude_from_sim no)
+		(at 81.28 68.58 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "8152a56b-3502-49ad-a9f8-ca5d2abbdbda")
+	)
+	(text "Routed directly inward or outward from each leg on the IC"
+		(exclude_from_sim no)
+		(at 279.4 55.88 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "8690d771-9a1c-45a8-9214-7c06397136bd")
+	)
+	(text "Max Current Output: 500mA"
+		(exclude_from_sim no)
+		(at 81.28 71.12 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b4d753a-dac6-4295-8a6d-029b0ca91fce")
+	)
+	(text "resonator frequency and regulator voltage."
+		(exclude_from_sim no)
+		(at 68.58 83.82 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fa3452f-706b-4303-a913-00b65a2a542a")
+	)
+	(text "Changes on v1.2:"
+		(exclude_from_sim no)
+		(at 279.4 38.1 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eff6717-0ce9-46ec-b00a-7b14fa71ff8e")
+	)
+	(text "Change to 500mA regulator"
+		(exclude_from_sim no)
+		(at 279.4 27.94 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "b40eeedc-2a63-4701-a90f-780519bd00c3")
+	)
+	(text "Added fuse and diode protection"
+		(exclude_from_sim no)
+		(at 279.4 30.48 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc17d18c-deb7-49fa-885b-b15d2bf968c7")
+	)
+	(text "Changes on v1.1:"
+		(exclude_from_sim no)
+		(at 279.4 22.86 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8d75af6-dbc2-461c-a1bb-a5a65d2a9b74")
+	)
+	(text "v1"
+		(exclude_from_sim no)
+		(at 266.7 195.58 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbe268ef-c628-44c3-923b-0f9efce75673")
+	)
+	(text "Renamed SS net to D14 (from D17)"
+		(exclude_from_sim no)
+		(at 279.4 53.34 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce34c3a7-0875-494d-bc73-5c69cf041961")
+	)
+	(text "Changed LEDs to be tied to VCC"
+		(exclude_from_sim no)
+		(at 279.4 33.02 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfb1f5b7-554d-4cb9-8f5f-968a4f825461")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 246.38 58.42 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "d094cefc-3d39-44ee-96a1-3b2b88bc1394")
+	)
+	(text "Not used"
+		(exclude_from_sim no)
+		(at 251.46 96.52 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "d294ccf5-66ac-4e36-8adb-8ba8147fed97")
+	)
+	(text "Added two small squares of tRestrict to keep the ground plane away from the sides of IC legs"
+		(exclude_from_sim no)
+		(at 279.4 58.42 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "d995cb43-4ec6-43b1-9cf4-7f6cc0ee2b97")
+	)
+	(text "VCC = 5V or 3.3V Output"
+		(exclude_from_sim no)
+		(at 81.28 66.04 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9b6a487-fb56-49ba-a651-fa588ab3215d")
+	)
+	(text "Corrected silk on D14"
+		(exclude_from_sim no)
+		(at 279.4 25.4 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed775c65-c695-474e-a0af-d97c45285f58")
+	)
+	(label "A1"
+		(at 228.6 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "003b7a83-ccf1-4fb7-a8f8-85e8c327043d")
+	)
+	(label "D7"
+		(at 228.6 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "05f7f3c2-98aa-4c60-93c1-11f10909dac2")
+	)
+	(label "MOSI"
+		(at 228.6 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "0615411c-1a87-4c1d-bb68-7c4e1c63d7c2")
+	)
+	(label "MISO"
+		(at 228.6 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "084bb8e7-1d5b-49f9-bbcb-9483c0d63d15")
+	)
+	(label "AREF"
+		(at 175.26 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "0da5cd02-c1fa-4356-9cac-352d3fe84f86")
+	)
+	(label "GND"
+		(at 104.14 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "1155a3cc-dbf0-434f-8939-d47cb7a768ec")
+	)
+	(label "A4"
+		(at 228.6 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "123542d1-5dcd-422d-b92b-a0830a12ff36")
+	)
+	(label "D8"
+		(at 68.58 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "123dcd6d-7d8f-4ed6-9dc3-4fbbb4821424")
+	)
+	(label "D5"
+		(at 68.58 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "12e18a39-cf23-4ee4-a53b-4f855e13bdb0")
+	)
+	(label "A1"
+		(at 86.36 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "157abb44-4c9b-4c2c-b789-13bdcd4a351d")
+	)
+	(label "D10"
+		(at 228.6 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "196dc058-a06d-4b18-9db5-1474b165ae54")
+	)
+	(label "RESET"
+		(at 86.36 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cd4500d-a68a-4f62-aaca-a341b7a3e503")
+	)
+	(label "D11"
+		(at 228.6 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "2189f0fb-1252-4e07-baf3-f63db8f02c11")
+	)
+	(label "GND"
+		(at 81.28 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "28950c7f-afae-43d2-838a-6161c09420ac")
+	)
+	(label "TXO"
+		(at 228.6 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cdb35a8-ce9f-4fdf-bf38-ed8e2e0c1207")
+	)
+	(label "A0"
+		(at 86.36 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "311e38ad-83a2-470e-ac94-c926910c93a9")
+	)
+	(label "RAW"
+		(at 33.02 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "315df303-a6ac-4e1d-9b21-83147a7c92aa")
+	)
+	(label "D4"
+		(at 228.6 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "3389c903-d3b1-40f2-88d9-76d33623029a")
+	)
+	(label "UVCC"
+		(at 157.48 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "351f7ddb-9993-4d3f-82f5-3fe9542993d3")
+	)
+	(label "GND"
+		(at 68.58 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "35cbea8a-7269-4958-84a1-a6f4e1a1311c")
+	)
+	(label "MOSI"
+		(at 86.36 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "37531a1e-523e-4f57-8ea3-3fd8c37ebc53")
+	)
+	(label "D2"
+		(at 228.6 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b97d8b2-a582-4aea-a74b-1a3b9f5934fe")
+	)
+	(label "GND"
+		(at 175.26 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cb8ffeb-b790-4813-a803-172b5b796ac9")
+	)
+	(label "A5"
+		(at 228.6 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ef1b36c-da78-405f-9df5-7e395dbdd1ab")
+	)
+	(label "D8"
+		(at 228.6 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "440183e7-e78f-4773-be14-5dbdedcc26a9")
+	)
+	(label "D2"
+		(at 68.58 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "452118b2-46d7-407f-8a0c-71b4ce2d44e6")
+	)
+	(label "A0"
+		(at 228.6 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "48555355-1a08-424e-9a49-5bb09809b798")
+	)
+	(label "SCK"
+		(at 86.36 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee3a199-e344-4b86-b99e-f944f87f1e6d")
+	)
+	(label "D6"
+		(at 68.58 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "52c4897e-f0a2-465d-99d3-228d07a7e6a4")
+	)
+	(label "D9"
+		(at 228.6 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "58439b0c-af59-41aa-9fe1-dddf6b5edab6")
+	)
+	(label "D10"
+		(at 86.36 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "5941284c-ee5f-4234-829b-3910befc0cfb")
+	)
+	(label "D-"
+		(at 157.48 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "61538cf8-6b7d-4b5d-9ae6-2f46c1158b63")
+	)
+	(label "VCC"
+		(at 99.06 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "66078d64-32ed-4f35-b6ef-92d0347f7b76")
+	)
+	(label "GND"
+		(at 68.58 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "66961641-445c-4aaa-bf59-02f19a380a6a")
+	)
+	(label "UVCC"
+		(at 187.96 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68733f58-f3e3-4472-9242-f0d22d83104a")
+	)
+	(label "GND"
+		(at 86.36 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c425b35-8985-4142-af66-9bf7cac72123")
+	)
+	(label "D4"
+		(at 68.58 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f0aaf2b-3178-4e50-be61-2b01ba4e3065")
+	)
+	(label "RXI"
+		(at 68.58 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fe24a4a-8d7b-4459-b74b-d10af648311b")
+	)
+	(label "UVCC"
+		(at 190.5 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "80d23df8-5952-4c33-93b0-c22d493f06df")
+	)
+	(label "D14"
+		(at 228.6 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "87a6e0a0-5bc5-46ae-b18c-5a128bd106af")
+	)
+	(label "A3"
+		(at 86.36 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "8817505e-2011-448e-8fb8-4852f3f675e2")
+	)
+	(label "GND"
+		(at 134.62 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "88947b32-72f8-4dff-ab68-7bb38505fa4f")
+	)
+	(label "D6"
+		(at 228.6 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c8f2e8c-1e37-441a-954a-52ddcbc2ad1e")
+	)
+	(label "D-"
+		(at 185.42 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "9077f5dc-c1b0-4ccd-9ecc-3351fcd17ccf")
+	)
+	(label "D13"
+		(at 228.6 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "952f7c6d-2611-4c8a-9bac-6c4592a5a0eb")
+	)
+	(label "VCC"
+		(at 228.6 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "975dcf3c-54f7-4fb8-9d44-c5ad9a8af99c")
+	)
+	(label "A2"
+		(at 228.6 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e52001c-2492-40d4-b4f4-2f72939ab47e")
+	)
+	(label "GND"
+		(at 157.48 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f9556d-66e5-4aa3-a3ed-a692c224648b")
+	)
+	(label "D7"
+		(at 68.58 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "af4b38fe-0dac-45a9-a685-d63dc8345213")
+	)
+	(label "GND"
+		(at 175.26 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3bf4231-6c2c-47d7-b667-d66d7fa212d1")
+	)
+	(label "RESET"
+		(at 180.34 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "befdedc3-b116-4cc4-9a29-f2edffb6e42c")
+	)
+	(label "VCC"
+		(at 238.76 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf997cbe-e6b2-4c4c-95dc-6cbd4ca2c334")
+	)
+	(label "D9"
+		(at 68.58 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf03a68c-b308-4dc1-87e1-12d9ebc3d21b")
+	)
+	(label "VCC"
+		(at 86.36 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf47745c-93c4-4fb5-959e-dfc8d7ac9341")
+	)
+	(label "D+"
+		(at 185.42 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0241493-45c4-42bf-81f2-56051b57ec84")
+	)
+	(label "A3"
+		(at 228.6 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d18b9443-1f20-4754-9f54-7e76aa448954")
+	)
+	(label "GND"
+		(at 190.5 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45bc05f-deb1-4ec7-a748-aacc3ad51062")
+	)
+	(label "A2"
+		(at 86.36 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d48fd83c-0d45-4c86-b07b-01c4bb6269ff")
+	)
+	(label "D3"
+		(at 228.6 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5de8935-6151-41ae-bdc0-883ad929f277")
+	)
+	(label "D3"
+		(at 68.58 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6423ce7-035c-4dd8-a88b-ddfb56ba90f5")
+	)
+	(label "GND"
+		(at 119.38 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "d69f2aed-6689-440c-8046-55e0964be958")
+	)
+	(label "RAW"
+		(at 86.36 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "db4459d8-cc80-46eb-be83-b346158b826d")
+	)
+	(label "UVCC"
+		(at 157.48 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd60ac8c-33c7-44f0-8b57-d1594b24238b")
+	)
+	(label "GND"
+		(at 157.48 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2d28702-7b5f-4d4a-8df8-aaf34035bfc9")
+	)
+	(label "SCK"
+		(at 228.6 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d00774-ff8b-45fe-8b8a-eb8f17566e54")
+	)
+	(label "UVCC"
+		(at 16.51 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f3b325-7575-4fc9-aee3-7327d823e0d6")
+	)
+	(label "D5"
+		(at 228.6 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9e9d2ab-4eab-4753-b7e9-bfacfba10c56")
+	)
+	(label "GND"
+		(at 111.76 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "edc43c43-f50e-4ecb-99b8-4823462a7ba2")
+	)
+	(label "D+"
+		(at 157.48 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "eff61c37-c6ba-4b52-8d20-a214310c536e")
+	)
+	(label "TXO"
+		(at 68.58 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "f325a580-0bde-4c15-b656-79926c0c82ae")
+	)
+	(label "VCC"
+		(at 180.34 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7983433-cc76-4f5b-b0b5-1c4a1785a356")
+	)
+	(label "GND"
+		(at 132.08 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7ab6891-9ce8-41ed-8986-d3027d84325c")
+	)
+	(label "D12"
+		(at 228.6 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "f852fc05-2d7c-4e43-94bd-d39f9872dec4")
+	)
+	(label "MISO"
+		(at 86.36 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd0b2858-c387-4232-a509-24d72d97e6f1")
+	)
+	(label "RXI"
+		(at 228.6 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdafd39c-e191-4ee7-a827-341f511fee51")
+	)
+	(label "VCC"
+		(at 190.5 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+			(justify left bottom)
+		)
+		(uuid "fef965c2-ef7f-4b35-a990-2e82caf5b704")
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 238.76 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000138dfe6")
+		(property "Reference" "R6"
+			(at 240.2586 120.65 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330"
+			(at 235.458 120.65 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-RES"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810132111_YAGEO-RC0603FR-07330RL_C105881.pdf"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105881"
+			(at 238.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0139415-af9d-40dd-ad3a-3f1aa7392758")
+		)
+		(pin "2"
+			(uuid "a7d33f21-22f0-4e0d-9a56-df32d38f0880")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CRYSTAL5X3-SparkFun_Pro_Micro-eagle-import")
+		(at 185.42 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000031b2028")
+		(property "Reference" "Y1"
+			(at 183.896 88.392 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "16MHz"
+			(at 181.102 100.33 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:CRYSTAL-SMD-5X3"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_TAE-Zhejiang-Abel-Elec-TXM16M0004503LDCDO00T_C362491.pdf"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,3.2x5mm"
+			(at 185.42 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C362491"
+			(at 185.42 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd2bdc6-5170-4445-b8d8-2223ade1b3ba")
+		)
+		(pin "3"
+			(uuid "be80ce8a-fa57-4827-8ec8-534db94740ab")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 111.76 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000a51d459")
+		(property "Reference" "C3"
+			(at 113.284 47.879 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 113.284 52.959 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1592"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f729b063-1260-4570-b42b-9fcd59a35245")
+		)
+		(pin "2"
+			(uuid "5416a00c-0146-49b4-bb14-fab0edf9d0ef")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:FIDUCIALUFIDUCIAL-SparkFun_Pro_Micro-eagle-import")
+		(at 266.7 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000b60073d")
+		(property "Reference" "JP3"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIALUFIDUCIAL"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:MICRO-FIDUCIAL"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:DIODESOD-SparkFun_Pro_Micro-eagle-import")
+		(at 63.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000cade672")
+		(property "Reference" "D1"
+			(at 66.04 37.6174 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448WX-TP"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:SOD-323"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2109061630_YONGYUTAI-1N4448WS_C2892573.pdf"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2892573"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "255c1824-fb3e-4c0e-9d5d-24e38db921a2")
+		)
+		(pin "2"
+			(uuid "88ad1b9e-1f95-45cf-8caf-20e0bde1994c")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 180.34 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00000f3c4881")
+		(property "Reference" "R4"
+			(at 178.8414 41.91 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 183.642 41.91 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-RES"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101934_YAGEO-RC0603FR-0710KL_C98220.pdf"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 180.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54977d0e-fceb-4d71-a54d-cc15da183647")
+		)
+		(pin "2"
+			(uuid "9eac0bb0-7bfd-4141-98f2-468d66758592")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 167.64 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000012c122fd")
+		(property "Reference" "#GND010"
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85ac3d9-c6f0-4337-8da3-729903455dbc")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:ATMEGA32U4OUTFAKES-SparkFun_Pro_Micro-eagle-import")
+		(at 208.28 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00001377f3c2")
+		(property "Reference" "U3"
+			(at 194.31 42.164 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ATMEGA32U4"
+			(at 193.04 124.46 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:QFN-44-NOPAD_1_1-OUTFAKES"
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf"
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "QFN44"
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C112161"
+			(at 208.28 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51448a66-4eaa-4992-8950-767b8df27a0f")
+		)
+		(pin "10"
+			(uuid "0e42563c-d873-4ea7-9bde-6b051f1dd895")
+		)
+		(pin "11"
+			(uuid "180ec7c8-6eb1-4869-8b00-3c112ce192e0")
+		)
+		(pin "12"
+			(uuid "add55e1d-d25d-4d03-8ccb-9529f9e00dd6")
+		)
+		(pin "13"
+			(uuid "af7360a6-4a0f-49f2-9a86-bae7be7c240b")
+		)
+		(pin "14"
+			(uuid "7b742bae-47f7-4c6a-8306-8bb2883c0090")
+		)
+		(pin "15"
+			(uuid "9a33d66c-7c6c-4d25-9548-9c543662a3d2")
+		)
+		(pin "16"
+			(uuid "1083132c-764c-4aed-9032-56551c27b99f")
+		)
+		(pin "17"
+			(uuid "2831f58e-52dd-4fb2-a5d7-a27c2c0db886")
+		)
+		(pin "18"
+			(uuid "b9199614-e044-4c96-a5a1-610a41518d30")
+		)
+		(pin "19"
+			(uuid "7c49624f-b5d9-497c-8614-09f1803756bb")
+		)
+		(pin "2"
+			(uuid "d2f27cd3-4f67-4254-aa18-2e9fab9487f8")
+		)
+		(pin "20"
+			(uuid "3f906799-a44c-45db-85f1-5fca808fe563")
+		)
+		(pin "21"
+			(uuid "91391898-00f8-4774-9935-7794fa83b822")
+		)
+		(pin "22"
+			(uuid "b4cbb4ea-b30a-415a-9ed8-f069ec3dc69e")
+		)
+		(pin "23"
+			(uuid "bc8eaa11-da39-497f-933a-ee26af5063c0")
+		)
+		(pin "24"
+			(uuid "f8bb02e9-aa81-4a18-a503-24322fa78699")
+		)
+		(pin "25"
+			(uuid "17b9cdf2-e312-4e30-bb1a-ce017d48ef71")
+		)
+		(pin "26"
+			(uuid "82ea144a-d8b6-4d7b-a894-60b93d93b6e4")
+		)
+		(pin "27"
+			(uuid "1f672a67-3f90-4128-8f02-fb94c7cd9e64")
+		)
+		(pin "28"
+			(uuid "8e28bb5d-7c66-4a4a-a8cd-113ad6c0732c")
+		)
+		(pin "29"
+			(uuid "dbaf7d50-dfe2-420a-ae04-2ad93a63c3d1")
+		)
+		(pin "3"
+			(uuid "f45a1c62-4174-42df-a400-e9c4dc0d85a4")
+		)
+		(pin "30"
+			(uuid "9ff7b4f4-1a43-4b6d-9f77-1fe6817c2c89")
+		)
+		(pin "31"
+			(uuid "7c29e8fd-f3ba-4d2b-89a2-088c2c98dfd8")
+		)
+		(pin "32"
+			(uuid "0b9a50ec-c29b-43da-a979-de45b733a236")
+		)
+		(pin "33"
+			(uuid "af599660-0cb2-4506-b69b-0394ffe9f6ac")
+		)
+		(pin "34"
+			(uuid "c76b2f65-3b38-4fd8-ae1b-f4651970176f")
+		)
+		(pin "35"
+			(uuid "1616062c-6016-4bd7-afb5-2a7ba18602ac")
+		)
+		(pin "36"
+			(uuid "1c8b4bf0-0447-4bcc-972e-b789beb325d0")
+		)
+		(pin "37"
+			(uuid "66426695-3c1f-423a-8f13-9c3c88a7846d")
+		)
+		(pin "38"
+			(uuid "89573516-57f6-43b2-9b57-b99ba0f53ab8")
+		)
+		(pin "39"
+			(uuid "08bfb4c4-0e10-44bc-a9d1-61827cef664d")
+		)
+		(pin "4"
+			(uuid "efb714e8-2b05-4dda-9c68-090c8a75b752")
+		)
+		(pin "40"
+			(uuid "30fc2bd2-06c1-4d86-999e-8b07eb7a2b81")
+		)
+		(pin "41"
+			(uuid "ded88e33-31d5-47cb-b373-77d2592ef6fe")
+		)
+		(pin "42"
+			(uuid "afcb0be5-f290-4210-874f-4fe4b529cc06")
+		)
+		(pin "43"
+			(uuid "b75996c8-6f30-4169-9378-dbadf5af44cc")
+		)
+		(pin "44"
+			(uuid "fdea0f10-a1cf-49c6-994c-c4b4697d2de2")
+		)
+		(pin "5"
+			(uuid "a641e040-2d32-4a77-9cf4-1cb853304b6b")
+		)
+		(pin "6"
+			(uuid "22fb99a3-2343-4563-8d1a-8ffcde2567ff")
+		)
+		(pin "7"
+			(uuid "a19d214a-643a-4a4f-8e0b-04304f726c57")
+		)
+		(pin "8"
+			(uuid "851922cf-ff36-4cdf-b7d3-6b5ff9dc8d8b")
+		)
+		(pin "9"
+			(uuid "5d78e904-8937-42a6-a789-82db335b560e")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 149.86 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000015cd18ef")
+		(property "Reference" "R2"
+			(at 145.796 112.522 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "22"
+			(at 151.13 112.522 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-RES"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0602"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 149.86 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bbe5b9b-929a-47a0-bc45-058fff1fff3a")
+		)
+		(pin "2"
+			(uuid "0ac75f40-69dc-4152-86e9-953c690bd0df")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:LED0603-SparkFun_Pro_Micro-eagle-import")
+		(at 132.08 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00001997b8bf")
+		(property "Reference" "D2"
+			(at 135.636 65.532 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Red"
+			(at 137.795 65.532 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:LED-0603"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0603R1_C84263.pdf"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 132.08 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84263"
+			(at 132.08 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "20ef8a1f-64ce-4bd3-bb26-ea620ad90cae")
+		)
+		(pin "C"
+			(uuid "eaea53fa-6597-4ff1-97eb-53c8831015a7")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 177.8 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00001a664d53")
+		(property "Reference" "C8"
+			(at 174.498 90.551 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22pF"
+			(at 172.466 87.884 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-CAP"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006181136_KEMET-C0603C220J5GACAUTO_C599692.pdf"
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 177.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C599692"
+			(at 177.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c0a5720-2398-4cd4-ae5b-be7e4dcab717")
+		)
+		(pin "2"
+			(uuid "994417d0-3a35-4322-b555-f2204774935b")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 137.16 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000021137572")
+		(property "Reference" "#GND07"
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31d2a4a0-2eac-4f48-9864-cc310338aaa9")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP_POL1206-SparkFun_Pro_Micro-eagle-import")
+		(at 104.14 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000222dab49")
+		(property "Reference" "C2"
+			(at 105.156 47.625 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 105.156 52.451 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810252220_KEMET-T491A106K016AT_C110055.pdf"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "CASE-A-3216"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C110055"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "82042388-c0a8-43e3-b466-ea8f5c6d9bcb")
+		)
+		(pin "C"
+			(uuid "001e85e7-a283-4222-a6af-5b03b65e5586")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 111.76 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00003890f70b")
+		(property "Reference" "#GND04"
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ada97d3-494c-4851-bca4-39e9157405e1")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 149.86 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000395386cb")
+		(property "Reference" "R3"
+			(at 146.05 120.142 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "22"
+			(at 151.13 120.142 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-RES"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF220JT5E_C23345.pdf"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 149.86 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed139bb-bf1c-460b-b87a-c39b952eac1f")
+		)
+		(pin "2"
+			(uuid "0b8790b3-fd31-4859-ba7e-192146d7138d")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 132.08 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000420ec5c7")
+		(property "Reference" "R1"
+			(at 130.5814 54.61 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 135.382 54.61 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0603FR-071KL_C22548.html"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0602"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22548"
+			(at 132.08 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "743c97ba-6ef1-48af-bfdf-3db85fe36c5b")
+		)
+		(pin "2"
+			(uuid "f68c7cdc-273f-41f4-b295-9ccae84b9235")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 187.96 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004877c9e2")
+		(property "Reference" "#GND012"
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2cc9a8-8299-4605-aa65-6b4db9cc615d")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 157.48 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00004f4a95f0")
+		(property "Reference" "C6"
+			(at 158.496 83.693 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1uF"
+			(at 158.496 88.519 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-CAP"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1592"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c64dd64-9aa8-44ee-85be-c9d8593c85d0")
+		)
+		(pin "2"
+			(uuid "c761d3a3-85f3-4c71-b3e1-df2c17b21608")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:V_REG_LDOSMD-SparkFun_Pro_Micro-eagle-import")
+		(at 91.44 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000059493513")
+		(property "Reference" "U1"
+			(at 83.82 39.116 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MIC5219"
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1806090830_Microchip-Tech-MIC5219-5-0YM5-TR_C144182.pdf"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5"
+			(at 91.44 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C144182"
+			(at 88.2633 60.7374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7845ac4-2b58-49c2-9c80-28e7fb1091ac")
+		)
+		(pin "2"
+			(uuid "9a4c8d3b-7c56-423f-9931-16cb22f731ae")
+		)
+		(pin "3"
+			(uuid "a9ca731c-9102-412d-bc1a-621b714c5756")
+		)
+		(pin "4"
+			(uuid "4bba73a6-f35c-4c9c-acbf-afa4a23330e1")
+		)
+		(pin "5"
+			(uuid "09ddb7cb-0fcb-4550-8b43-4c5939073cb8")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:VCC-SparkFun_Pro_Micro-eagle-import")
+		(at 238.76 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000637b3a6a")
+		(property "Reference" "#P+05"
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 239.776 145.796 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b0cfc1-9fe1-48c0-9d0a-4e89895c7e4b")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#P+05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:VCC-SparkFun_Pro_Micro-eagle-import")
+		(at 228.6 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00006a081b6e")
+		(property "Reference" "#P+04"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 229.616 145.796 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea113ac5-19dc-4d57-9645-d582ec920d96")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#P+04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:LED0603-SparkFun_Pro_Micro-eagle-import")
+		(at 228.6 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000071bafa1f")
+		(property "Reference" "D3"
+			(at 234.442 136.906 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "Green"
+			(at 224.917 134.874 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:LED-0603"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Yongyu-Photoelectric-SZYY0603YG_C434423.pdf"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 228.6 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C434423"
+			(at 228.6 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "7ff6b077-3f33-4caf-8c3a-2c5b469c10dc")
+		)
+		(pin "C"
+			(uuid "192c5d98-f442-498d-b2a3-649d200559a4")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP_POL1206-SparkFun_Pro_Micro-eagle-import")
+		(at 68.58 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00007d85cfc1")
+		(property "Reference" "C1"
+			(at 69.596 47.625 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10uF"
+			(at 69.596 52.451 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810252220_KEMET-T491A106K016AT_C110055.pdf"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "CASE-A-3216"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C110055"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "7c598f3a-e07b-4c5d-ab0f-5455737c5924")
+		)
+		(pin "C"
+			(uuid "624be4aa-1fda-4eac-9ddf-47b4c6a4883e")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:USB-ABIN&OUT-SparkFun_Pro_Micro-eagle-import")
+		(at 129.54 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00008679bb61")
+		(property "Reference" "USB1"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZX62-AB-5PA(31)"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:USB-AB-MICRO-SMD-V03-IN&OUT"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2106062334_HRS-Hirose-ZX62-AB-5PA-31_C2692071.pdf"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2692071"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "D+1"
+			(uuid "26003d95-df28-48a6-9ec5-12aec5551786")
+		)
+		(pin "D-1"
+			(uuid "236a4d41-71ad-4fbf-a358-c418ce1d5d02")
+		)
+		(pin "GND1"
+			(uuid "ed23cb05-0480-48bd-a906-a952228e5d4d")
+		)
+		(pin "ID1"
+			(uuid "baafc18b-2156-4331-9f56-c10d7649a213")
+		)
+		(pin "VBUS1"
+			(uuid "add295eb-8ade-463f-be7b-c4639ed765fb")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "USB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 119.38 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000088676885")
+		(property "Reference" "C4"
+			(at 120.396 48.133 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 120.396 52.451 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C696360"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c645f3a-cbf7-44aa-9983-ad36312bc39a")
+		)
+		(pin "2"
+			(uuid "71151ab1-b89d-4571-96ba-13536757a68a")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:LOGO-SFESK-SparkFun_Pro_Micro-eagle-import")
+		(at 269.24 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000089e33a62")
+		(property "Reference" "JP4"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGO-SFESK"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:SFE-LOGO-FLAME"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 119.38 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00008da2bb24")
+		(property "Reference" "#GND05"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21e412ed-c89e-47ce-aca0-1c34ee88fb62")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:RESISTOR0603-RES-SparkFun_Pro_Micro-eagle-import")
+		(at 228.6 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a0406511")
+		(property "Reference" "R5"
+			(at 230.0986 120.65 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "330"
+			(at 225.298 120.65 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-RES"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810132111_YAGEO-RC0603FR-07330RL_C105881.pdf"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105881"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fb6aef6-8992-421e-93ac-1b2a7de9943d")
+		)
+		(pin "2"
+			(uuid "ab9f548c-1252-4596-8da1-a43f7fd72071")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:M12PTH-SparkFun_Pro_Micro-eagle-import")
+		(at 106.68 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a21e5090")
+		(property "Reference" "JP2"
+			(at 106.68 137.922 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M12PTH"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:1X12"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b05831b-b77c-4bac-99c0-5d3076ce872e")
+		)
+		(pin "10"
+			(uuid "bf751844-b8ae-470d-b10f-9ed959b6a3ce")
+		)
+		(pin "11"
+			(uuid "b0b05d88-10e7-4917-a63a-2f4b249d5898")
+		)
+		(pin "12"
+			(uuid "39387b8a-ca54-4f8e-a391-f1f84e0a1b90")
+		)
+		(pin "2"
+			(uuid "43310b2b-79bb-4159-824e-0b77e2ddd4bb")
+		)
+		(pin "3"
+			(uuid "d5a4ee98-cefd-4a5d-81ff-60c8c981a320")
+		)
+		(pin "4"
+			(uuid "fb34bd95-b160-49df-adb0-2fad155278d5")
+		)
+		(pin "5"
+			(uuid "f0870a0f-c7b7-4159-9d3d-bac9a4f64bd1")
+		)
+		(pin "6"
+			(uuid "f04bb974-a483-49bb-a156-40962de33e5e")
+		)
+		(pin "7"
+			(uuid "bb8bd0bf-bf74-4e1f-ae5c-a986ab53d8f8")
+		)
+		(pin "8"
+			(uuid "68c1a232-b88d-4693-b7b5-32b71533ff22")
+		)
+		(pin "9"
+			(uuid "520e73ac-2c6f-4eef-b1c0-09337d1b42b8")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 76.2 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000a606055f")
+		(property "Reference" "#GND02"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fadd1d5-e9cd-4401-8be3-c128ef52ca15")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:LOGO-SFENEW-SparkFun_Pro_Micro-eagle-import")
+		(at 269.24 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000abbf7e6d")
+		(property "Reference" "JP5"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGO-SFENEW"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:SFE-NEW-WEBLOGO"
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 175.26 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000ac59532d")
+		(property "Reference" "C7"
+			(at 176.276 63.373 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 176.276 68.199 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-CAP"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C696360"
+			(at 175.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f3f75be-8f63-460b-baee-87f402dde773")
+		)
+		(pin "2"
+			(uuid "634e7ac1-d5e8-489a-b0d3-2acec1584800")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:M12PTH-SparkFun_Pro_Micro-eagle-import")
+		(at 55.88 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000adc4b3b7")
+		(property "Reference" "JP1"
+			(at 55.88 103.378 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M12PTH"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:1X12"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "044675bb-f187-47e9-9c32-e42c4300d5b0")
+		)
+		(pin "10"
+			(uuid "7f8361a0-2807-459b-a9d8-a114e232bd6a")
+		)
+		(pin "11"
+			(uuid "820b29c9-03fa-427e-85c5-f6123d5684a7")
+		)
+		(pin "12"
+			(uuid "31ef6946-dd2f-4729-bfe6-6dfab3698077")
+		)
+		(pin "2"
+			(uuid "685090ed-48a7-4b4b-be64-027ebc985123")
+		)
+		(pin "3"
+			(uuid "ad9760e2-5fb7-485d-9a94-66fe7004659e")
+		)
+		(pin "4"
+			(uuid "6871dd77-2ea7-4b86-874c-0facf383d133")
+		)
+		(pin "5"
+			(uuid "f950306f-f079-471b-bf18-0ff6984f1b69")
+		)
+		(pin "6"
+			(uuid "40bc0114-bc9d-439b-85ab-87eb2bdb8ecc")
+		)
+		(pin "7"
+			(uuid "5057dca4-31f3-4a39-9b2a-4046894516fe")
+		)
+		(pin "8"
+			(uuid "ee350803-366b-42ff-a2c4-862789d3bc86")
+		)
+		(pin "9"
+			(uuid "b8944426-69ce-4afd-a111-3b92842873b0")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:FIDUCIALUFIDUCIAL-SparkFun_Pro_Micro-eagle-import")
+		(at 271.78 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000bafa783c")
+		(property "Reference" "JP6"
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FIDUCIALUFIDUCIAL"
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:MICRO-FIDUCIAL"
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:PTCSMD-SparkFun_Pro_Micro-eagle-import")
+		(at 29.21 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000beac822b")
+		(property "Reference" "F1"
+			(at 26.67 35.052 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "500mA"
+			(at 25.908 43.18 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:PTC-1206"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136341"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8814fa27-661f-4457-8286-12e20c066bfd")
+		)
+		(pin "2"
+			(uuid "fdec031b-9ee6-419d-a94a-ee5c4c496b79")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 175.26 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000c2693486")
+		(property "Reference" "#GND011"
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80e44b28-b8d3-4024-823b-7a193efe3a59")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:SOLDERJUMPERNC-SparkFun_Pro_Micro-eagle-import")
+		(at 49.53 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000c5d67005")
+		(property "Reference" "SJ1"
+			(at 46.99 35.56 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SOLDERJUMPERNC"
+			(at 36.068 42.926 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:SJ_2S"
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dee29ab1-5676-4b49-8861-25d1f4e7baea")
+		)
+		(pin "2"
+			(uuid "3db419e8-d602-4053-ab7f-cf291d378340")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "SJ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:FRAME-LETTER-SparkFun_Pro_Micro-eagle-import")
+		(at 175.26 203.2 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000cc96be8f")
+		(property "Reference" "FRAME1"
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FRAME-LETTER"
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:CREATIVE_COMMONS"
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "FRAME1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 177.8 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000d14d4bf0")
+		(property "Reference" "C9"
+			(at 174.498 96.012 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22pF"
+			(at 171.958 99.06 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-CAP"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006181136_KEMET-C0603C220J5GACAUTO_C599692.pdf"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 177.8 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C599692"
+			(at 177.8 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37874fce-f148-4ba9-961a-32b15b60978a")
+		)
+		(pin "2"
+			(uuid "7808e6d2-57f1-4e1e-8674-26e1f1ecdd80")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 132.08 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000d1df28fe")
+		(property "Reference" "#GND06"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4bab3c-7073-41bd-800b-cc92d9b93e5e")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:LED0603-SparkFun_Pro_Micro-eagle-import")
+		(at 238.76 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000daf7250d")
+		(property "Reference" "D4"
+			(at 244.602 136.906 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "Yellow"
+			(at 235.077 134.874 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:LED-0603"
+			(at 238.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141223_Everlight-Elec-19-217-Y5C-AP1Q2-3T_C74343.pdf"
+			(at 238.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 238.76 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C74343"
+			(at 238.76 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "bfb4840c-d4fb-425d-9992-6024e3f09b49")
+		)
+		(pin "C"
+			(uuid "4193df0a-da58-4b25-bb83-40e134ea3fc6")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:CAP0603-CAP-SparkFun_Pro_Micro-eagle-import")
+		(at 157.48 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000e0ebcd02")
+		(property "Reference" "C5"
+			(at 158.496 63.373 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "1uF"
+			(at 158.496 68.199 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:0603-CAP"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1592"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312a09f5-bf3f-4737-ac26-c192a892e686")
+		)
+		(pin "2"
+			(uuid "1e3d55f5-68a2-4096-8e23-89591b5a2357")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 104.14 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000f212c7de")
+		(property "Reference" "#GND03"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7514d0fd-d790-42e5-b78a-d2c33702b7eb")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 157.48 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000f6847280")
+		(property "Reference" "#GND09"
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6e4ba17-8afe-4bbe-8e38-202d36c03e7d")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 157.48 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000fd0a31a1")
+		(property "Reference" "#GND08"
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8c83c43-ea2b-40d5-993b-40a442d9e08e")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:GND-SparkFun_Pro_Micro-eagle-import")
+		(at 68.58 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000fd501343")
+		(property "Reference" "#GND01"
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ba12cb6-cd5c-4d8c-8467-4fbdfe713df5")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5830cb-0025-42de-8191-a715123d7878")
+		(property "Reference" "#PWR04"
+			(at 187.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 187.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c50df85c-90a3-4b53-acf8-85a73b43a825")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.08 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a7a51b1-5538-4ade-81e7-37ef9cdfbf56")
+		(property "Reference" "#PWR01"
+			(at 132.08 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.08 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c839547-3454-4c2f-b214-b486f24554f0")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 157.48 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af3f9d31-a8fa-4c0a-b360-d1358051ac5e")
+		(property "Reference" "#PWR02"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a47f239-5d82-4f1f-bdac-71dceb0dc435")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 180.34 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee827541-ad18-49b9-bbe9-7c3c51c1304e")
+		(property "Reference" "#PWR03"
+			(at 180.34 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c07c873c-5982-40d0-a2ee-11dfffd94168")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABSIS_Pro_Micro-rescue:DIODESOD-SparkFun_Pro_Micro-eagle-import")
+		(at 45.72 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f635d31e-90bc-4d33-9f38-305542622ca1")
+		(property "Reference" "D5"
+			(at 48.26 47.7774 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1N4448WX-TP"
+			(at 39.37 45.72 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SparkFun_Pro_Micro:SOD-323"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2109061630_YONGYUTAI-1N4448WS_C2892573.pdf"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2892573"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfbbf068-21b2-478c-8672-1da4d819ed4a")
+		)
+		(pin "2"
+			(uuid "230b8563-bb93-43d9-ad37-288b50678cd9")
+		)
+		(instances
+			(project "ABSIS_Pro_Micro"
+				(path "/cc51d895-468c-433d-8010-664ac54eca60"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
