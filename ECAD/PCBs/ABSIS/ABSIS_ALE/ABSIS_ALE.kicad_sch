@@ -4562,6 +4562,17 @@
 		)
 		(uuid "c2646fa0-fde1-45c5-8eb3-157cf3768458")
 	)
+	(text "please close solder jumper as following:\nJP3: Arduino is powered by the raw pin directly with +12V (for Arduinos with stable voltage regulation inside)\nJP1 + JP2: Arduino is powered by the VCC pin over the voltage regulator (for Arduinos with bad voltage regulation inside)"
+		(exclude_from_sim no)
+		(at 13.716 21.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d17207b6-d447-4f1c-b2f1-050177f16367")
+	)
 	(text_box "SPARKFUN PRO MICRO\n5V/16Hz"
 		(exclude_from_sim no)
 		(at 157.48 12.7 0)
