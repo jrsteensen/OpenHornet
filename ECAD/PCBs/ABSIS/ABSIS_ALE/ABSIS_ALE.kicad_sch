@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "ABSIS ALE (ALmost Everything)")
-		(date "2024-09-20")
-		(rev "4.0.0")
+		(date "2025-09-23")
+		(rev "5.0.0")
 		(company "www.openhornet.com")
 		(comment 1 "License:  CC BY-NC-SA")
 	)
@@ -8669,7 +8669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "LCSC" "C14663"
 			(at 187.96 116.459 0)
 			(effects
 				(font
@@ -9722,7 +9722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"
 			(at 191.135 155.194 0)
 			(effects
 				(font
@@ -9800,7 +9800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OH_Footprints:C_0805_2012Metric"
 			(at 197.8152 151.13 0)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
 			(at 242.57 158.75 0)
 			(effects
 				(font
@@ -10040,6 +10040,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105575"
 			(at 242.57 158.75 0)
 			(effects
 				(font
@@ -10244,6 +10253,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86083"
+			(at 223.52 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500mA"
+		(property "Value" "200mA"
 			(at 169.926 153.924 90)
 			(effects
 				(font
@@ -10603,7 +10621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OH_Footprints:C_0805_2012Metric"
 			(at 230.8352 152.654 0)
 			(effects
 				(font
@@ -10612,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407081117_YAGEO-CC0603KRX5R6BB105_C106214.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
 			(at 230.505 155.194 0)
 			(effects
 				(font
@@ -10630,7 +10648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106214"
+		(property "LCSC" "C15850"
 			(at 229.87 159.639 0)
 			(effects
 				(font
@@ -11032,7 +11050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -11042,6 +11060,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141685"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -11160,7 +11187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "OH_Footprints:C_0805_2012Metric"
 			(at 235.2548 151.13 0)
 			(effects
 				(font

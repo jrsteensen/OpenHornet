@@ -1,9 +1,15 @@
-Comment,Designator,Footprint,LCSC
-MAX487EESA+T,U1,SOIC-8_3.9x4.9mm_P1.27mm,C116539
-PinHeader_2x06,"J3,J4",PinHeader_2x06_P2.54mm_Vertical,C124388
-1N5819WS,D1,D_SOD-323_HandSoldering,C191023
-PinHeader_1x06,J5,PinHeader_1x06_P2.54mm_Vertical,C37208
-0.1uF,C1,C_0805_2012Metric,C49678
-Mini-Fit Jr. 2x03,"J1,J2",Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,C505177
-PinHeader_2x02,J6,PinHeader_2x02_P2.54mm_Vertical,C66690
-ProMicro_5V/16Hz,XU1,DIP-24_W15.24mm_Socket,
+Reference;Value;Datasheet;Footprint;Qty;DNP;LCSC
+C1,C5;0.1uF;https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf;OH_Footprints:C_0805_2012Metric;2;;C14663
+C2,C3,C4;10uF;https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf;OH_Footprints:C_0805_2012Metric;3;;C15850
+D1;600mV@1A;https://www.lcsc.com/datasheet/lcsc_datasheet_2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf;Diode_SMD:D_SOD-323_HandSoldering;1;;C191023
+F1;200mA;https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401031726_LUTE-0805L020-15XR_C7472558.pdf;Fuse:Fuse_0805_2012Metric;1;;C7472558
+J1,J2;Mini-Fit Jr. 2x03;https://datasheet.lcsc.com/lcsc/2005291105_MOLEX-39299062_C505177.pdf;OH_Footprints:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical;2;;C505177
+J3,J4;PinHeader_2x06;https://datasheet.lcsc.com/lcsc/1810241611_Ckmtw-Shenzhen-Cankemeng-B-2100S12P-B110_C124388.pdf;OH_Footprints:PinHeader_2x06_P2.54mm_Vertical;2;;C124388
+J5;PinHeader_1x06;https://datasheet.lcsc.com/lcsc/1810312320_BOOMELE-Boom-Precision-Elec-C37208_C37208.pdf;OH_Footprints:PinHeader_1x06_P2.54mm_Vertical;1;;C37208
+J6;PinHeader_2x02;https://jlcpcb.com/partdetail/boomele_boom_Precision_elec-C66690/C66690;OH_Footprints:PinHeader_2x02_P2.54mm_Vertical;1;;C66690
+L1;10uH;https://www.lcsc.com/datasheet/lcsc_datasheet_2410121333_Murata-Electronics-LQM18FN100M00D_C86083.pdf;Inductor_SMD:L_0603_1608Metric;1;;C86083
+R1;105k;https://www.lcsc.com/datasheet/C98220.pdf;Resistor_SMD:R_0603_1608Metric;1;;C141685
+R2;20k;https://www.lcsc.com/datasheet/C98220.pdf;Resistor_SMD:R_0603_1608Metric;1;;C105575
+U1;MAX487EESA+T;https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX487EESA-T_C116539.pdf;OH_Footprints:SOIC-8_3.9x4.9mm_P1.27mm;1;;C116539
+U2;TPS560200;http://www.ti.com/lit/ds/symlink/tps560200.pdf;Package_TO_SOT_SMD:SOT-23-5;1;;C83671
+XU1;ProMicro_5V/16Hz;https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ATMega32U4.pdf;OH_Footprints:DIP-24_W15.24mm_Socket;1;;
