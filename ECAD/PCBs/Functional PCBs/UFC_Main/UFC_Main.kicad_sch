@@ -28078,8 +28078,8 @@
 	)
 	(text_box "5V BUS PWR SUPPLY SWITCH/BYPASS"
 		(exclude_from_sim no)
-		(at 668.02 26.035 0)
-		(size 82.55 67.31)
+		(at 665.48 24.13 0)
+		(size 87.63 69.215)
 		(stroke
 			(width 0)
 			(type default)
@@ -28135,7 +28135,7 @@
 	)
 	(text_box "SCRATCHPAD\nBACKLIGHT"
 		(exclude_from_sim no)
-		(at 300.99 43.815 0)
+		(at 298.45 43.18 0)
 		(size 46.99 34.29)
 		(stroke
 			(width 0)
@@ -47346,7 +47346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ME2328-G"
+		(property "Value" "SI2302"
 			(at 718.82 80.6451 0)
 			(effects
 				(font
@@ -47355,7 +47355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "OH_Footprints:SOT-23"
 			(at 718.185 83.82 0)
 			(effects
 				(font
@@ -47366,7 +47366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241236_MATSUKI-ME2328-G_C709746.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YONGYUTAI-SI2302/C2891732"
 			(at 718.185 85.725 0)
 			(effects
 				(font
@@ -47376,7 +47376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "105V 1.5A 230mΩ@10V,1.5A 1.3W 2V@250uA 1 N-Channel SOT-23 MOSFETs ROHS"
+		(property "Description" "1V@250uA 1W 20V 300pF 3A 4nC@4.5V 65mΩ@2.5V 80pF N-Channel SOT-23 MOSFETs ROHS"
 			(at 713.105 81.915 0)
 			(effects
 				(font
@@ -47385,7 +47385,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C709746"
+		(property "LCSC" "C2891732"
 			(at 713.105 81.915 90)
 			(effects
 				(font
@@ -47394,7 +47394,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ME2328-G"
+		(property "PN" "SI2302"
 			(at 713.105 81.915 90)
 			(effects
 				(font
@@ -47403,7 +47403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "ME2328-G"
+		(property "Manufacturer PN" "SI2302"
 			(at 713.105 81.915 0)
 			(effects
 				(font
@@ -55785,7 +55785,7 @@
 				)
 			)
 		)
-		(property "Value" "ME2328-G"
+		(property "Value" "SI2302"
 			(at 688.975 50.3461 90)
 			(effects
 				(font
@@ -55793,7 +55793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+		(property "Footprint" "OH_Footprints:SOT-23"
 			(at 690.88 50.8 0)
 			(effects
 				(font
@@ -55804,7 +55804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241236_MATSUKI-ME2328-G_C709746.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YONGYUTAI-SI2302/C2891732"
 			(at 692.785 50.8 0)
 			(effects
 				(font
@@ -55814,7 +55814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "105V 1.5A 230mΩ@10V,1.5A 1.3W 2V@250uA 1 N-Channel SOT-23 MOSFETs ROHS"
+		(property "Description" "120pF 1V@250uA 1W 20V 300pF 3A 4nC@4.5V 65mΩ@2.5V 80pF N-Channel SOT-23 MOSFETs ROHS"
 			(at 688.975 55.88 0)
 			(effects
 				(font
@@ -55823,7 +55823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C709746"
+		(property "LCSC" " C2891732"
 			(at 688.975 55.88 90)
 			(effects
 				(font
@@ -55832,7 +55832,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "ME2328-G"
+		(property "PN" " SI2302"
 			(at 688.975 55.88 90)
 			(effects
 				(font
@@ -55841,7 +55841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "ME2328-G"
+		(property "Manufacturer PN" " SI2302"
 			(at 688.975 55.88 0)
 			(effects
 				(font
@@ -60542,7 +60542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_MR.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
 			(at 728.345 69.85 0)
 			(effects
 				(font
@@ -60560,7 +60560,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C327804"
+		(property "LCSC" "C25741"
 			(at 728.345 69.85 0)
 			(effects
 				(font
@@ -60569,7 +60569,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "MR04X104 JTL"
+		(property "PN" "0402WGF1003TCE"
 			(at 728.345 69.85 0)
 			(effects
 				(font
@@ -60578,7 +60578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "MR04X104 JTL"
+		(property "Manufacturer PN" "0402WGF1003TCE"
 			(at 728.345 69.85 0)
 			(effects
 				(font
@@ -65738,7 +65738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_MR.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
 			(at 709.295 50.165 0)
 			(effects
 				(font
@@ -65756,7 +65756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C327804"
+		(property "LCSC" "C25741"
 			(at 709.295 50.165 0)
 			(effects
 				(font
@@ -65765,7 +65765,7 @@
 				(hide yes)
 			)
 		)
-		(property "PN" "MR04X104 JTL"
+		(property "PN" "0402WGF1003TCE"
 			(at 709.295 50.165 0)
 			(effects
 				(font
@@ -65774,7 +65774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer PN" "MR04X104 JTL"
+		(property "Manufacturer PN" "0402WGF1003TCE"
 			(at 709.295 50.165 0)
 			(effects
 				(font
