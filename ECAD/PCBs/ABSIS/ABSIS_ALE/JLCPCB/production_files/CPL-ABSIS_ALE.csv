@@ -1,4 +1,13 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,0.1uF,C_0805_2012Metric,14.1689,20.1848,90.0,top
-D1,1N5819WS,D_SOD-323_HandSoldering,30.5,46.45,180.0,top
-U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,11.5,25.0,180.0,top
+Designator ,Val,Package,Mid X ,Mid Y ,Rotation ,Layer 
+C1,0.1uF,C_0805_2012Metric,14.1689,20.1848,90,top
+C2,10uF,C_0805_2012Metric,8.19,53.81,90,top
+C3,10uF,C_0805_2012Metric,26.69,53.31,90,top
+C4,10uF,C_0805_2012Metric,24.19,53.31,90,top
+C5,0.1uF,C_0805_2012Metric,14.19,53.81,90,top
+D1,600mV@1A,D_SOD-323_HandSoldering,1.69,49.31,-90,top
+F1,200mA,Fuse_0805_2012Metric,4.19,49.31,-90,top
+L1,10uH,L_0603_1608Metric,22.19,53.81,-90,top
+R1,105k,R_0603_1608Metric,19.19,50.81,180,top
+R2,20k,R_0603_1608Metric,15.69,50.81,180,top
+U1,MAX487EESA+T,SOIC-8_3.9x4.9mm_P1.27mm,11.5,25,180,top
+U2,TPS560200,SOT-23-5,17.69,53.81,180,top
