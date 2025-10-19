@@ -1,13 +1,14 @@
-# OH1 Modification for Winwing integration
+# OH1 and OH2 Modification for Winwing integration, V3
 - **Author:** J Schumacher (Ulukaii) 
-- **Contributed on:** Oct 13, 2024 
+- **Contributed on:** Oct 19, 2025 
 - **Derived from:** v0.3.0
-- **Original Assembly:** OH1, OH2A3
+- **Original Assembly:** OH1, OH2
 
 ## Summary
 This folder provides modifications for integrating the Winwing MIP into the OpenHornet upper and lower instrument panel (UIP and LIP). It is aimed at builders who intend to do a full Winwing MIP integration, including HUD panel. The parts provided herein are designed with 3D printability in mind. 
-- Folder V1: Previous release. Not continued
-- Folder V2: Current stable build.
+- Folder V1: Previous release. 
+- Folder V2: Previous release. 
+- Folder V3: Current stable build.
 
 <img src="images/assembly2.png" alt="Assembly preview" width="50%"/>
 
@@ -30,7 +31,11 @@ The lower central brackets are modified to support and secure the main holding b
 The BIT box is open on the lower side, providing (some) access to the extra buttons on the Winwing UFC:
 <img src="images/button_access.png" alt="Button access" width="50%"/>
 
-Use at your own risk. OpenHornet license terms apply. Have fun!
+V3 update Oct 2025: For the LIP, a new AMPCD mount and face plate is available. This custom AMPCD mount ensures a snug fit with the UIP. The AMPCD is still removable without removing the UIP. Construction has been redesigned to allow full disassembly from the front - no more hidden screws.
+<img src="images/ampcd_mount_v3.jpeg" alt="Assembly preview" width="50%"/>
+
+
+Below / behind the AMPCd, a large storage box is implemented, which allows to store kneeboard, keyboard, mice, VR dongles etc. Depending on your printer size, dovetail cuts are needed for printing 
 
 
 
