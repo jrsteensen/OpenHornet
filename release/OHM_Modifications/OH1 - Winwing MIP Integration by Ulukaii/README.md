@@ -92,12 +92,22 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 
 
 ## How to assemble
+
+LIP:
+1. Install the "Upper Central Pedestal Face Mounting Brackets" L / R to your structure. Each requires two heat inserts, don't forget them!
+2. Install the "Upper Central Pedestal Face + Box" to the structure by using the brackets 
+3. Install the AMPCD mount
+4. Install the DisplayHoldingBrackets to the Display (not to the mount!)
+5. Attach the cables to the display
+6. Install the display onto the AMPCD mount. Four M4 flat head screws will hold the display holding brackets from the side
+<img src="images/ampcd_mount_instr.jpg" alt="AMPCD mount" width="50%"/>
+
+UIP:
 1. Prepare the UIP frame: remove the old face plate (if any) and install the modified OH1A1-25 (central bracket) and OH1A1-19 (WW MFD lower supports).
-2. Assemble the whole MIP to the face plate, including left and right DDIs.
-3. Take the assembly and mount it to your prepared UIP structure
-4. Connect cables
-5. Install the UFC box cover (OH1WW02) by sliding it in from above
-6. Install the UFC HUD Bit box and cover.
+2. Prepare the face plate: Assemble the whole MIP to the face plate, including left and right DDIs. You might want to connect the cables now
+3. Join the UIP frame and the face plate.
+4. Install the UFC box cover (OH1WW02) by sliding it in from above
+5. Install the UFC HUD Bit box and cover.
 
 
 ## Known issues
