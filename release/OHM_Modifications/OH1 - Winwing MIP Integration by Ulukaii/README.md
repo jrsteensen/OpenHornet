@@ -100,7 +100,7 @@ LIP:
 4. Install the DisplayHoldingBrackets to the Display (not to the mount!)
 5. Attach the cables to the display
 6. Install the display onto the AMPCD mount. Four M4 flat head screws will hold the display holding brackets from the side
-<img src="images/ampcd_mount_instr.png" alt="AMPCD mount" width="50%"/>
+<img src="images/AMPCD_mount_instr.png" alt="AMPCD mount" width="50%"/>
 
 UIP:
 1. Prepare the UIP frame: remove the old face plate (if any) and install the modified OH1A1-25 (central bracket) and OH1A1-19 (WW MFD lower supports).
