@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'FDM_OH2A1-17-B Storage Box Cover.step',
-/* time_stamp */ '2025-10-19T21:21:40+02:00',
+/* name */ 'FDM_OH2A1-17-MOD-B Storage Box Cover.step',
+/* time_stamp */ '2025-12-09T20:21:31+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -503,18 +503,19 @@ SOLID_ANGLE_UNIT()
 #451=PRODUCT_DEFINITION_SHAPE('',$,#454);
 #452=SHAPE_REPRESENTATION('',(#288),#444);
 #453=PRODUCT_DEFINITION_CONTEXT('part definition',#458,'design');
-#454=PRODUCT_DEFINITION('FDM_OH2A1-17-B Storage Box Cover',
-'FDM_OH2A1-17-B Storage Box Cover',#455,#453);
+#454=PRODUCT_DEFINITION('FDM_OH2A1-17-MOD-B Storage Box Cover',
+'FDM_OH2A1-17-MOD-B Storage Box Cover',#455,#453);
 #455=PRODUCT_DEFINITION_FORMATION('',$,#460);
 #456=PRODUCT_RELATED_PRODUCT_CATEGORY(
-'FDM_OH2A1-17-B Storage Box Cover','FDM_OH2A1-17-B Storage Box Cover',(#460));
+'FDM_OH2A1-17-MOD-B Storage Box Cover',
+'FDM_OH2A1-17-MOD-B Storage Box Cover',(#460));
 #457=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#458);
 #458=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #459=PRODUCT_CONTEXT('part definition',#458,'mechanical');
-#460=PRODUCT('FDM_OH2A1-17-B Storage Box Cover',
-'FDM_OH2A1-17-B Storage Box Cover',$,(#459));
+#460=PRODUCT('FDM_OH2A1-17-MOD-B Storage Box Cover',
+'FDM_OH2A1-17-MOD-B Storage Box Cover',$,(#459));
 #461=PRESENTATION_STYLE_ASSIGNMENT((#462));
 #462=SURFACE_STYLE_USAGE(.BOTH.,#463);
 #463=SURFACE_SIDE_STYLE('',(#464));

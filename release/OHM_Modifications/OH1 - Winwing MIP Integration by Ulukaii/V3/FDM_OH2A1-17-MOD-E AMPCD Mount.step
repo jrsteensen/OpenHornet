@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'FDM_=H2A1-17-MOD-E AMPCD Mount.step',
-/* time_stamp */ '2025-10-20T09:17:19+02:00',
+/* name */ 'FDM_OH2A1-17-MOD-E AMPCD Mount.step',
+/* time_stamp */ '2025-12-09T20:23:33+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -3507,17 +3507,18 @@ SOLID_ANGLE_UNIT()
 #3429=PRODUCT_DEFINITION_SHAPE('',$,#3432);
 #3430=SHAPE_REPRESENTATION('',(#2106),#3422);
 #3431=PRODUCT_DEFINITION_CONTEXT('part definition',#3436,'design');
-#3432=PRODUCT_DEFINITION('DisplayHoldingBox','DisplayHoldingBox',#3433,
-#3431);
+#3432=PRODUCT_DEFINITION('FDM_OH2A1-17-MOD-E AMPCD Mount',
+'FDM_OH2A1-17-MOD-E AMPCD Mount',#3433,#3431);
 #3433=PRODUCT_DEFINITION_FORMATION('',$,#3438);
-#3434=PRODUCT_RELATED_PRODUCT_CATEGORY('DisplayHoldingBox',
-'DisplayHoldingBox',(#3438));
+#3434=PRODUCT_RELATED_PRODUCT_CATEGORY('FDM_OH2A1-17-MOD-E AMPCD Mount',
+'FDM_OH2A1-17-MOD-E AMPCD Mount',(#3438));
 #3435=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#3436);
 #3436=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3437=PRODUCT_CONTEXT('part definition',#3436,'mechanical');
-#3438=PRODUCT('DisplayHoldingBox','DisplayHoldingBox',$,(#3437));
+#3438=PRODUCT('FDM_OH2A1-17-MOD-E AMPCD Mount',
+'FDM_OH2A1-17-MOD-E AMPCD Mount',$,(#3437));
 #3439=PRESENTATION_STYLE_ASSIGNMENT((#3441));
 #3440=PRESENTATION_STYLE_ASSIGNMENT((#3442));
 #3441=SURFACE_STYLE_USAGE(.BOTH.,#3443);

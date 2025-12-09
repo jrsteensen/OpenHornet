@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'FDM_OH2A1-17-MOD-E DisplayHoldingBracket_1.step',
-/* time_stamp */ '2025-10-22T00:36:56+02:00',
+/* name */ 'FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1.step',
+/* time_stamp */ '2025-12-09T20:23:00+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -775,17 +775,19 @@ SOLID_ANGLE_UNIT()
 #719=PRODUCT_DEFINITION_SHAPE('',$,#722);
 #720=SHAPE_REPRESENTATION('',(#430),#712);
 #721=PRODUCT_DEFINITION_CONTEXT('part definition',#726,'design');
-#722=PRODUCT_DEFINITION('DisplayHoldingBracket','DisplayHoldingBracket',
-#723,#721);
+#722=PRODUCT_DEFINITION('FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',
+'FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',#723,#721);
 #723=PRODUCT_DEFINITION_FORMATION('',$,#728);
-#724=PRODUCT_RELATED_PRODUCT_CATEGORY('DisplayHoldingBracket',
-'DisplayHoldingBracket',(#728));
+#724=PRODUCT_RELATED_PRODUCT_CATEGORY(
+'FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',
+'FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',(#728));
 #725=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#726);
 #726=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #727=PRODUCT_CONTEXT('part definition',#726,'mechanical');
-#728=PRODUCT('DisplayHoldingBracket','DisplayHoldingBracket',$,(#727));
+#728=PRODUCT('FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',
+'FDM_OH2A1-17-MOD-F DisplayHoldingBracket_1',$,(#727));
 #729=PRESENTATION_STYLE_ASSIGNMENT((#730));
 #730=SURFACE_STYLE_USAGE(.BOTH.,#731);
 #731=SURFACE_SIDE_STYLE('',(#732));
