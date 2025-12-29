@@ -67,6 +67,7 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 6. FDM_OH1A1-23: this is a modified HUD panel aft support 
 7. FDM_OH1A1-19: this is a modified MFD panel lower support (you need to print two of them)
 8. FDM_OH!A1-22: this is a modified version of the display pressure foot. Instead of pressing the display, it is now an additional fastening position for the face plate.
+9. FDM_.125_OH1A1_10_UIP_MOD_A LEFT GLARESHIELD and FDM_.125_OH1A1_29_UIP_MOD_A RIGHT GLARESHIELD: replace the ABS glareshields. This version has a cutout and a blister for the upper outward corner of the Winwing DU.
 
 
 ## Additional required COTS parts list (diff to OH)
