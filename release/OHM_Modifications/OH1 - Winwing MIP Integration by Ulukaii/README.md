@@ -1,6 +1,7 @@
 # OH1 and OH2 Modification for Winwing integration, V3
 - **Author:** J Schumacher (Ulukaii) 
-- **Contributed on:** Oct 19, 2025 
+- **Contributors:** Spruce, Breith, Reaper021 
+- **Contributed on:** Dec 28, 2025 
 - **Derived from:** v0.3.0
 - **Original Assembly:** OH1, OH2
 
@@ -34,12 +35,8 @@ The BIT box is open on the lower side, providing (some) access to the extra butt
 <img src="images/button_access.png" alt="Button access" width="50%"/>
 
 
-V3 update Oct 2025: For the LIP, a new AMPCD mount and face plate is available. This custom AMPCD mount ensures a snug fit with the UIP. The AMPCD is still removable without removing the UIP. Construction has been redesigned to allow full disassembly from the front - no more hidden screws.
-
+As of V3, the improved AMPCD mount ensures a snug fit with the UIP. The AMPCD is still removable without removing the UIP. Construction has been redesigned to allow full disassembly from the front - no more hidden screws. Below / behind the AMPCD, a large storage box is implemented, which allows to store kneeboard, keyboard, mice, VR dongles etc. Depending on your printer size, dovetail cuts are needed for printing. 
 <img src="images/ampcd_mount_v3.jpeg" alt="Assembly preview" width="50%"/>
-
-
-Below / behind the AMPCd, a large storage box is implemented, which allows to store kneeboard, keyboard, mice, VR dongles etc. Depending on your printer size, dovetail cuts are needed for printing 
 
 
 
@@ -70,6 +67,7 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 6. FDM_OH1A1-23: this is a modified HUD panel aft support 
 7. FDM_OH1A1-19: this is a modified MFD panel lower support (you need to print two of them)
 8. FDM_OH!A1-22: this is a modified version of the display pressure foot. Instead of pressing the display, it is now an additional fastening position for the face plate.
+9. FDM_.125_OH1A1_10_UIP_MOD_A LEFT GLARESHIELD and FDM_.125_OH1A1_29_UIP_MOD_A RIGHT GLARESHIELD: replace the ABS glareshields. This version has a cutout and a blister for the upper outward corner of the Winwing DU.
 
 
 ## Additional required COTS parts list (diff to OH)
@@ -86,9 +84,16 @@ To integrate the Winwing MIP into OpenHornet, several design choices had to be m
 
 
 ## Additional required mechanical changes to the OH parts
-1. To fit the Winwing DUs, you will need to perform small cutouts into the outboard UIP longerons. The exact size depends on the thickness of your material. You will see it when you start integrating it
+1. To fit the Winwing DUs, you will need to perform small cutouts into the outboard UIP longerons. The exact size depends on the thickness of your material. You will see it when you start integrating it. Thanks to fellow builder Breith for the pictures. 
 <img src="images/longeron_cutouts.jpg" alt="Longeron cutouts" width="50%"/>
-2. The upper outward corner of the DU will intersect with the ABS glareshield. You will need to provide some cutouts for these corners as well. 
+<img src="images/longeron_cutouts2.jpg" alt="Longeron cutouts" width="50%"/>
+<img src="images/longeron_cutouts3.jpg" alt="Longeron cutouts" width="50%"/>
+<img src="images/longeron_cutouts4.jpg" alt="Longeron cutouts" width="50%"/>
+
+2. The upper outward corner of the DU will intersect with the ABS glareshield. You will need to either perform some cutouts into your existing ABS glareshields, or you can FDM-print the glareshields provided in this mod, which feature a blister:
+FDM_.125_OH1A1-10_UIP_MOD_A LEFT GLARESHIELD v0.step
+FDM_.125_OH1A1-29_MOD_A UIP RIGHT GLARESHIELD v0.step
+<img src="glareshield-with-blisters.png" alt="Image of Glareshield with blister" width="50%"/>
 
 
 ## How to assemble
