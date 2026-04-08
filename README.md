@@ -99,9 +99,9 @@ These links will allow you to download a local copy of the OH MCAD model, for re
 
 ### Honorable Mentions
 * __Logo Design__: NegativeONE
-* __Development Builders/Testers__: Ajmilner,  Arribe VCAW-1, Ben-F111, BlaBlaCZ, bnepethomas, Dave the boss 918, DG, DotDotDotBH, Exprezzo, Higgins, Krikeee, Lazarus, Otso, Rampage2010, Russell, Sandra, Splash, Thib-O, tonyg, TripRodriguez, Yannick
-* __Ultimate Supporters__: Sandra, Higgins, Chaps, [OCS] CrazyCanuck, Arribe VCAW-1, FL370Pilot, CorgiStyle, Swaney409, DenzilLee, ssgcline, Tyler | "Soapbox" - F-15E
-* __Elite Supporters__: thib_o54, ChrisTiger#001, Nodar, Matt
+* __Development Builders/Testers__: Ajmilner,  Arribe VCAW-1, Ben-F111, BlaBlaCZ, bnepethomas, Dave the boss 918, DG, DotDotDotBH, Exprezzo, Higgins, Krikeee, Lazarus, Otso, Rampage2010, Russell, Sandra, Splash, Thib-O, tonyg, TripRodriguez, Yannick, Neox, Ullukai
+* __Ultimate Supporters__: Sandra, Higgins, Chaps, [OCS] CrazyCanuck, Arribe VCAW-1, FL370Pilot, CorgiStyle, Swaney409, DenzilLee, ssgcline, Tyler | "Soapbox" - F-15E, RickH, AdamA, bob =), aesellars, Nick, PrivatePirate, Howling-Ape, papiplanes
+* __Elite Supporters__: thib_o54, ChrisTiger#001, Nodar, Matt, Bill C, annerajb, Wargle T Eagle, Gnoni, Lefty, Reaper021, Murtle, gengispala, PatOPat, mattgw86, EinLama, Maddox, hunstone, Nodar, Ulukaii, Radek 41Sqn RAFAIR, mojito555, ChrisTiger#001
 * __Donators__: AJMilner, bnepethomas, Carbine, Crosshairs, Exprezzo, Goutch, Higgins, hrnet940, hunstone, icemarkom, jcstreek, jkkicks, kika, Nik S, Rampage2010, Russell, Sandra, SrSosio, Swaney409, Tekadept + many more…
 * __Inactive Dev Contributors__: Balz Reber (Balse), Magic_Man, Bullant, Gaberun24, Damien022, Baago, Caviar4, NegativeONE, Ravell
 * **Subject Matter Expert**: FlyNavy75, Sixtigers, USMARINE108, Luft101, Lex
