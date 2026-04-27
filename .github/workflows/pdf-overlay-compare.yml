@@ -66,11 +66,14 @@ jobs:
           print(f"Added PDFs   : {added}")
           print(f"Deleted PDFs : {deleted}")
 
-          # Write outputs
+          # Write outputs – use EOF delimiter for JSON arrays (multiline-safe)
           with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
-              gh_out.write(f"added={json.dumps(added)}\n")
-              gh_out.write(f"deleted={json.dumps(deleted)}\n")
-              gh_out.write(f"has_pairs={'true' if added and deleted else 'false'}\n")
+              gh_out.write(f"added<<GH_EOF\n{json.dumps(added)}\nGH_EOF\n")
+              gh_out.write(f"deleted<<GH_EOF\n{json.dumps(deleted)}\nGH_EOF\n")
+              # has_pdf_changes: true when ANY PDF was added or removed
+              gh_out.write(f"has_pdf_changes={'true' if (added or deleted) else 'false'}\n")
+              # has_pairs: true when BOTH added and deleted PDFs exist (potential pairs)
+              gh_out.write(f"has_pairs={'true' if (added and deleted) else 'false'}\n")
           PYEOF
 
       # -----------------------------------------------------------------------
@@ -257,39 +260,50 @@ jobs:
       # 7. Post or update PR comment
       # -----------------------------------------------------------------------
       - name: Post or update PR comment
-        if: always() && steps.detect.outputs.has_pairs != ''
+        if: always() && steps.detect.outputs.has_pdf_changes == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
           REPO: ${{ github.repository }}
           RUN_ID: ${{ github.run_id }}
           MANIFEST: ${{ steps.pair.outputs.manifest }}
+          HAS_PDF_CHANGES: ${{ steps.detect.outputs.has_pdf_changes }}
           HAS_PAIRS: ${{ steps.detect.outputs.has_pairs }}
           HAS_VALID_PAIRS: ${{ steps.pair.outputs.has_valid_pairs }}
         run: |
           python3 - <<'PYEOF'
-          import json, os, urllib.request, urllib.error
+          import json, os, sys, urllib.request, urllib.error
 
           token          = os.environ["GH_TOKEN"]
           repo           = os.environ["REPO"]
           pr             = os.environ["PR_NUMBER"]
           run_id         = os.environ["RUN_ID"]
           manifest_path  = os.environ.get("MANIFEST", "")
+          has_pdf_changes = os.environ.get("HAS_PDF_CHANGES", "false") == "true"
           has_pairs      = os.environ.get("HAS_PAIRS", "false") == "true"
           has_valid      = os.environ.get("HAS_VALID_PAIRS", "false") == "true"
 
           MARKER = "<!-- pdf-overlay-compare -->"
           run_url = f"https://github.com/{repo}/actions/runs/{run_id}"
 
-          # Build comment body
+          # Build comment body – distinguish four cases:
+          #  1. has_pdf_changes=false  → step condition prevents reaching here
+          #  2. has_pairs=false        → PDFs added or deleted, but not both
+          #  3. has_pairs=true, manifest has skipped/no generated → all ambiguous
+          #  4. generated non-empty   → at least one comparison produced
           if not has_pairs:
+              # Case 2: PDF changes exist but only additions or only deletions
               body = (
                   f"{MARKER}\n"
                   "### 📄 PDF Overlay Compare\n\n"
-                  "No matching added+deleted PDF pairs found in this PR – nothing to compare.\n\n"
+                  "PDF file(s) were changed in this PR, but no matching add+delete "
+                  "pair was found (only additions **or** only deletions detected). "
+                  "A comparison is only generated when both an old and a new version "
+                  "of a drawing are present in the same PR.\n\n"
                   f"[Workflow run]({run_url})"
               )
           else:
+              # Case 3 or 4: pairing was attempted – read manifest for details
               manifest = {}
               if manifest_path and os.path.exists(manifest_path):
                   with open(manifest_path) as f:
@@ -305,7 +319,11 @@ jobs:
               ]
 
               if generated:
-                  lines.append(f"**{len(generated)} comparison PDF(s) generated** and uploaded as artifact `pdf-overlay-compare`.")
+                  # Case 4: at least one comparison PDF produced
+                  lines.append(
+                      f"**{len(generated)} comparison PDF(s) generated** and uploaded "
+                      "as artifact `pdf-overlay-compare`."
+                  )
                   lines.append("")
                   lines.append("| Key | Old file | New file | Output |")
                   lines.append("|-----|----------|----------|--------|")
@@ -313,7 +331,11 @@ jobs:
                       lines.append(f"| `{g['key']}` | `{g['old']}` | `{g['new']}` | `{g['output']}` |")
                   lines.append("")
               else:
-                  lines.append("No unambiguous PDF pairs were found – no comparisons generated.")
+                  # Case 3: candidates found but all were ambiguous or unresolvable
+                  lines.append(
+                      "Added **and** deleted PDFs were detected, but no unambiguous "
+                      "1-old/1-new pair could be formed – no comparison was generated."
+                  )
                   lines.append("")
 
               if skipped:

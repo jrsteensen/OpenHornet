@@ -138,9 +138,8 @@ def generate_overlay_pdf(
         if i < old_count:
             old_gray = render_page_grayscale(old_doc[i], dpi)
         else:
-            # Use same size as new page
+            # Use same dimensions as the corresponding new page
             ref = new_doc[i]
-            mat = fitz.Matrix(dpi / 72, dpi / 72)
             w = int(ref.rect.width * dpi / 72)
             h = int(ref.rect.height * dpi / 72)
             old_gray = Image.new("L", (w, h), 255)
@@ -148,6 +147,7 @@ def generate_overlay_pdf(
         if i < new_count:
             new_gray = render_page_grayscale(new_doc[i], dpi)
         else:
+            # Use same dimensions as the corresponding old page
             ref = old_doc[i]
             w = int(ref.rect.width * dpi / 72)
             h = int(ref.rect.height * dpi / 72)
