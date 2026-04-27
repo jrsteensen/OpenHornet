@@ -77,10 +77,11 @@ Multi-page documents are handled automatically.  If the page counts differ, the 
 
 ## GitHub Actions integration
 
-The companion workflow `.github/workflows/pdf-overlay-compare.yml` runs automatically on pull requests that include at least one added **and** one deleted PDF.  It:
+The companion workflow `.github/workflows/pdf-overlay-compare.yml` runs automatically on pull requests that include any PDF additions or deletions.  It:
 
 1. Detects added/deleted PDFs using the GitHub API.
-2. Pairs them by their **matching key** (everything before the first `_` in the filename).
-3. Skips any key where the match is ambiguous (not exactly 1 old + 1 new).
-4. Runs this script for each unambiguous pair.
-5. Uploads the results as a workflow artifact and posts/updates a PR comment.
+2. Posts or updates a PR comment when PDF changes are present.
+3. Pairs PDFs by their **matching key** (everything before the first `_` in the filename).
+4. Skips any key where a comparison cannot be made, including ambiguous matches (not exactly 1 old + 1 new).
+5. Runs this script for each unambiguous added/deleted pair.
+6. Uploads generated comparison PDFs as a workflow artifact when at least one comparison is produced.
