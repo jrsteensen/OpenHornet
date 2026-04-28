@@ -227,7 +227,16 @@ jobs:
           PYEOF
 
       # -----------------------------------------------------------------------
-      # 4. Install Python dependencies
+      # 4a. Set up Python (3.11 ensures manylinux wheels are available for PyMuPDF)
+      # -----------------------------------------------------------------------
+      - name: Set up Python
+        if: steps.pair.outputs.has_valid_pairs == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # -----------------------------------------------------------------------
+      # 4b. Install Python dependencies
       # -----------------------------------------------------------------------
       - name: Install Python dependencies
         if: steps.pair.outputs.has_valid_pairs == 'true'

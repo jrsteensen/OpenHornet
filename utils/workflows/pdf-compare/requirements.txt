@@ -1,2 +1,4 @@
-pymupdf==1.23.0
+# Require pre-built wheels only; avoids source-build failures on ubuntu-latest runners.
+--only-binary=:all:
+PyMuPDF==1.24.14
 Pillow==12.2.0
