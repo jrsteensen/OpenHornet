@@ -15,12 +15,14 @@ jobs:
 
     steps:
       # -----------------------------------------------------------------------
-      # 1. Check out the PR head with enough history to read the base SHA
+      # 1. Check out the PR head (shallow + blobless for speed).
+      #    The base SHA is fetched on-demand in step 3 via a targeted fetch.
       # -----------------------------------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
+          filter: blob:none
 
       # -----------------------------------------------------------------------
       # 2. Collect added and deleted PDFs in this PR
@@ -94,6 +96,16 @@ jobs:
           added   = json.loads(os.environ["ADDED"])
           deleted = json.loads(os.environ["DELETED"])
           base_sha = os.environ["BASE_SHA"]
+
+          # Fetch the base commit so that git show <base_sha>:<path> works.
+          # The initial checkout is shallow (fetch-depth: 1), so the base commit
+          # is not present locally yet; a targeted single-depth fetch retrieves it.
+          fetch = subprocess.run(
+              ["git", "fetch", "--depth=1", "origin", base_sha],
+              capture_output=True,
+          )
+          if fetch.returncode != 0:
+              print(f"[WARN] git fetch for base SHA failed: {fetch.stderr.decode().strip()}")
 
           def make_key(path: str) -> str:
               """Key = filename stem up to (but not including) the first '_'."""
