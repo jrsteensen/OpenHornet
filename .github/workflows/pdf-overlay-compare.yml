@@ -1,0 +1,463 @@
+name: PDF Overlay Compare
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  pdf-overlay-compare:
+    name: Generate PDF Overlay Comparisons
+    runs-on: ubuntu-latest
+
+    steps:
+      # -----------------------------------------------------------------------
+      # 1. Check out the PR head (shallow + blobless for speed).
+      #    The base SHA is fetched on-demand in step 3 via a targeted fetch.
+      # -----------------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          filter: blob:none
+
+      # -----------------------------------------------------------------------
+      # 2. Collect added and deleted PDFs in this PR
+      # -----------------------------------------------------------------------
+      - name: Detect added and deleted PDFs
+        id: detect
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, subprocess, sys, urllib.request, urllib.parse
+
+          token   = os.environ["GH_TOKEN"]
+          repo    = os.environ["REPO"]
+          pr      = os.environ["PR_NUMBER"]
+
+          # Fetch all changed files (paginated)
+          added, deleted = [], []
+          page = 1
+          while True:
+              url = f"https://api.github.com/repos/{repo}/pulls/{pr}/files?per_page=100&page={page}"
+              req = urllib.request.Request(url, headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+                  "X-GitHub-Api-Version": "2022-11-28",
+              })
+              with urllib.request.urlopen(req) as resp:
+                  files = json.loads(resp.read())
+              if not files:
+                  break
+              for f in files:
+                  fname = f["filename"]
+                  status = f["status"]
+                  if fname.lower().endswith(".pdf"):
+                      if status == "added":
+                          added.append(fname)
+                      elif status == "removed":
+                          deleted.append(fname)
+              page += 1
+
+          print(f"Added PDFs   : {added}")
+          print(f"Deleted PDFs : {deleted}")
+
+          # Write outputs – use EOF delimiter for JSON arrays (multiline-safe)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
+              gh_out.write(f"added<<GH_EOF\n{json.dumps(added)}\nGH_EOF\n")
+              gh_out.write(f"deleted<<GH_EOF\n{json.dumps(deleted)}\nGH_EOF\n")
+              # has_pdf_changes: true when ANY PDF was added or removed
+              gh_out.write(f"has_pdf_changes={'true' if (added or deleted) else 'false'}\n")
+              # has_pairs: true when BOTH added and deleted PDFs exist (potential pairs)
+              gh_out.write(f"has_pairs={'true' if (added and deleted) else 'false'}\n")
+          PYEOF
+
+      # -----------------------------------------------------------------------
+      # 3. Pair PDFs by key (leading alphanumeric+hyphen token of the basename,
+      #    e.g. "OH4A1A1-1" from both "OH4A1A1-1_ASSY_..._A.pdf" and the
+      #    malformed "OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf")
+      #    and extract old PDFs from the base SHA
+      # -----------------------------------------------------------------------
+      - name: Pair PDFs and extract old versions
+        id: pair
+        if: steps.detect.outputs.has_pairs == 'true'
+        env:
+          ADDED: ${{ steps.detect.outputs.added }}
+          DELETED: ${{ steps.detect.outputs.deleted }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, pathlib, re, subprocess, sys
+
+          added   = json.loads(os.environ["ADDED"])
+          deleted = json.loads(os.environ["DELETED"])
+          base_sha = os.environ["BASE_SHA"]
+
+          # Fetch the base commit so that git show <base_sha>:<path> works.
+          # The initial checkout is shallow (fetch-depth: 1), so the base commit
+          # is not present locally yet; a targeted single-depth fetch retrieves it.
+          fetch = subprocess.run(
+              ["git", "fetch", "--depth=1", "origin", base_sha],
+              capture_output=True,
+          )
+          if fetch.returncode != 0:
+              print(f"[WARN] git fetch for base SHA failed: {fetch.stderr.decode().strip()}")
+
+          def make_key(path: str) -> str:
+              """Key = leading alphanumeric+hyphen token of the filename stem.
+
+              Handles both well-formed names where the separator is '_':
+                  OH4A1A1-1_ASSY_LEFT_CONSOLE_STRUCTURE_v7_A.pdf  →  OH4A1A1-1
+              and malformed names that use any other separator (space, dash, comma…):
+                  OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf  →  OH4A1A1-1
+
+              If the stem begins with a character outside [A-Za-z0-9-] (e.g. a
+              special character), the full stem is returned as a fallback key and
+              a warning is emitted.  This path should not occur for OpenHornet PDFs.
+              """
+              stem = pathlib.Path(path).stem          # strip directory and .pdf
+              m = re.match(r'^([A-Za-z0-9-]+)', stem)
+              if not m:
+                  print(f"[WARN] Could not extract part-number key from stem '{stem}'; using full stem as fallback key.")
+                  return stem
+              return m.group(1)
+
+          def is_malformed(path: str, key: str) -> bool:
+              """Return True if the character immediately after the key in the stem
+              is not '_' (i.e. the filename does not follow the expected convention).
+              A bare key with no suffix (stem == key) is considered well-formed.
+              When make_key() falls back to returning the full stem, after='' so
+              is_malformed() correctly returns False for that degenerate case."""
+              stem = pathlib.Path(path).stem
+              after = stem[len(key):]
+              return bool(after) and not after.startswith('_')
+
+          # Group by key
+          from collections import defaultdict
+          added_by_key   = defaultdict(list)
+          deleted_by_key = defaultdict(list)
+
+          for p in added:
+              added_by_key[make_key(p)].append(p)
+          for p in deleted:
+              deleted_by_key[make_key(p)].append(p)
+
+          all_keys    = set(added_by_key) | set(deleted_by_key)
+          pairs       = []   # list of {key, old_path, new_path, old_tmp, malformed_new}
+          skipped     = []   # list of {key, reason, added, deleted, malformed_added}
+
+          work_dir = pathlib.Path("_pdf_compare_work")
+          work_dir.mkdir(exist_ok=True)
+
+          for key in sorted(all_keys):
+              a_list = added_by_key.get(key, [])
+              d_list = deleted_by_key.get(key, [])
+
+              if len(a_list) != 1 or len(d_list) != 1:
+                  reason = f"{len(d_list)} removed, {len(a_list)} added"
+                  print(f"[SKIP] key='{key}' – ambiguous ({reason})")
+                  malformed_added = [p for p in a_list if is_malformed(p, key)]
+                  if malformed_added:
+                      print(f"  [WARN] Malformed added filename(s): {malformed_added}")
+                  skipped.append({
+                      "key": key,
+                      "reason": reason,
+                      "added": a_list,
+                      "deleted": d_list,
+                      "malformed_added": malformed_added,
+                  })
+                  continue
+
+              new_path = a_list[0]
+              old_path = d_list[0]
+
+              malformed_new = is_malformed(new_path, key)
+              if malformed_new:
+                  print(f"[WARN] Added file has malformed name: '{new_path}'")
+
+              # Extract old PDF from base SHA
+              safe_name = re.sub(r"[^\w\-.]", "_", key) + "_OLD.pdf"
+              old_tmp   = str(work_dir / safe_name)
+
+              result = subprocess.run(
+                  ["git", "show", f"{base_sha}:{old_path}"],
+                  capture_output=True,
+              )
+              if result.returncode != 0:
+                  print(f"[WARN] Could not extract old PDF for key '{key}': {result.stderr.decode().strip()}")
+                  skipped.append({
+                      "key": key,
+                      "reason": "could not extract old PDF from base SHA",
+                      "added": a_list,
+                      "deleted": d_list,
+                      "malformed_added": [new_path] if malformed_new else [],
+                  })
+                  continue
+
+              with open(old_tmp, "wb") as f:
+                  f.write(result.stdout)
+
+              pairs.append({
+                  "key": key,
+                  "old_path": old_path,
+                  "new_path": new_path,
+                  "old_tmp":  old_tmp,
+                  "malformed_new": malformed_new,
+              })
+              print(f"[PAIR] key='{key}' | old='{old_path}' new='{new_path}'")
+
+          print(f"\nPairs found : {len(pairs)}")
+          print(f"Skipped     : {len(skipped)}")
+
+          manifest = {"pairs": pairs, "skipped": skipped}
+          manifest_path = str(work_dir / "manifest.json")
+          with open(manifest_path, "w") as f:
+              json.dump(manifest, f, indent=2)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
+              gh_out.write(f"manifest={manifest_path}\n")
+              gh_out.write(f"has_valid_pairs={'true' if pairs else 'false'}\n")
+              gh_out.write(f"work_dir={str(work_dir)}\n")
+          PYEOF
+
+      # -----------------------------------------------------------------------
+      # 4. Install Python dependencies
+      # -----------------------------------------------------------------------
+      - name: Install Python dependencies
+        if: steps.pair.outputs.has_valid_pairs == 'true'
+        run: python3 -m pip install -r utils/workflows/pdf-compare/requirements.txt
+
+      # -----------------------------------------------------------------------
+      # 5. Generate overlay PDFs
+      # -----------------------------------------------------------------------
+      - name: Generate overlay comparison PDFs
+        id: generate
+        if: steps.pair.outputs.has_valid_pairs == 'true'
+        env:
+          MANIFEST: ${{ steps.pair.outputs.manifest }}
+          WORK_DIR: ${{ steps.pair.outputs.work_dir }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, pathlib, re, subprocess, sys
+          from datetime import datetime, timezone
+
+          manifest_path = os.environ["MANIFEST"]
+          work_dir      = pathlib.Path(os.environ["WORK_DIR"])
+          script        = "utils/workflows/pdf-compare/overlay_compare.py"
+
+          with open(manifest_path) as f:
+              manifest = json.load(f)
+
+          date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
+          out_dir  = work_dir / "output"
+          out_dir.mkdir(exist_ok=True)
+
+          generated = []
+
+          for pair in manifest["pairs"]:
+              key      = pair["key"]
+              old_tmp  = pair["old_tmp"]
+              new_path = pair["new_path"]
+
+              # Sanitise key for filename (keep alphanumeric, spaces, hyphens, commas, dots)
+              safe_key = re.sub(r"[^\w\s\-.,]", "_", key).strip()
+              out_name = f"{safe_key}_comp_{date_str}.pdf"
+              out_path = str(out_dir / out_name)
+
+              print(f"\nGenerating: {out_name}")
+              result = subprocess.run(
+                  [sys.executable, script, old_tmp, new_path, out_path, "--dpi", "200"],
+                  capture_output=False,
+              )
+              if result.returncode != 0:
+                  print(f"[ERROR] overlay_compare.py failed for key '{key}'", file=sys.stderr)
+                  sys.exit(1)
+
+              generated.append({"key": key, "output": out_name, "old": pair["old_path"], "new": pair["new_path"], "malformed_new": pair.get("malformed_new", False)})
+
+          # Persist generated list back to manifest
+          manifest["generated"] = generated
+          with open(manifest_path, "w") as f:
+              json.dump(manifest, f, indent=2)
+
+          print(f"\nGenerated {len(generated)} comparison PDF(s) in {out_dir}/")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
+              gh_out.write(f"output_dir={str(out_dir)}\n")
+          PYEOF
+
+      # -----------------------------------------------------------------------
+      # 6. Upload artifacts
+      # -----------------------------------------------------------------------
+      - name: Upload comparison PDFs
+        if: steps.pair.outputs.has_valid_pairs == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: pdf-overlay-compare
+          path: ${{ steps.pair.outputs.work_dir }}/output/*.pdf
+          if-no-files-found: warn
+
+      # -----------------------------------------------------------------------
+      # 7. Post or update PR comment
+      # -----------------------------------------------------------------------
+      - name: Post or update PR comment
+        if: always() && steps.detect.outputs.has_pdf_changes == 'true' && github.event.pull_request.head.repo.fork == false
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          MANIFEST: ${{ steps.pair.outputs.manifest }}
+          HAS_PDF_CHANGES: ${{ steps.detect.outputs.has_pdf_changes }}
+          HAS_PAIRS: ${{ steps.detect.outputs.has_pairs }}
+          HAS_VALID_PAIRS: ${{ steps.pair.outputs.has_valid_pairs }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, sys, urllib.request, urllib.error
+
+          token          = os.environ["GH_TOKEN"]
+          repo           = os.environ["REPO"]
+          pr             = os.environ["PR_NUMBER"]
+          run_id         = os.environ["RUN_ID"]
+          manifest_path  = os.environ.get("MANIFEST", "")
+          has_pdf_changes = os.environ.get("HAS_PDF_CHANGES", "false") == "true"
+          has_pairs      = os.environ.get("HAS_PAIRS", "false") == "true"
+          has_valid      = os.environ.get("HAS_VALID_PAIRS", "false") == "true"
+
+          MARKER = "<!-- pdf-overlay-compare -->"
+          run_url = f"https://github.com/{repo}/actions/runs/{run_id}"
+
+          # Build comment body – distinguish four cases:
+          #  1. has_pdf_changes=false  → step condition prevents reaching here
+          #  2. has_pairs=false        → PDFs added or deleted, but not both
+          #  3. has_pairs=true, manifest has skipped/no generated → all ambiguous
+          #  4. generated non-empty   → at least one comparison produced
+          if not has_pairs:
+              # Case 2: PDF changes exist but only additions or only deletions
+              body = (
+                  f"{MARKER}\n"
+                  "### 📄 PDF Overlay Compare\n\n"
+                  "PDF file(s) were changed in this PR, but no matching add+delete "
+                  "pair was found (only additions **or** only deletions detected). "
+                  "A comparison is only generated when both an old and a new version "
+                  "of a drawing are present in the same PR.\n\n"
+                  f"[Workflow run]({run_url})"
+              )
+          else:
+              # Case 3 or 4: pairing was attempted – read manifest for details
+              manifest = {}
+              if manifest_path and os.path.exists(manifest_path):
+                  with open(manifest_path) as f:
+                      manifest = json.load(f)
+
+              generated = manifest.get("generated", [])
+              skipped   = manifest.get("skipped", [])
+
+              lines = [
+                  f"{MARKER}",
+                  "### 📄 PDF Overlay Compare",
+                  "",
+              ]
+
+              if generated:
+                  # Case 4: at least one comparison PDF produced
+                  lines.append(
+                      f"**{len(generated)} comparison PDF(s) generated** and uploaded "
+                      "as artifact `pdf-overlay-compare`."
+                  )
+                  lines.append("")
+                  lines.append("| Key | Old file | New file | Output |")
+                  lines.append("|-----|----------|----------|--------|")
+                  any_malformed = any(g.get("malformed_new") for g in generated)
+                  for g in generated:
+                      new_cell = f"`{g['new']}`" + (" ⚠️" if g.get("malformed_new") else "")
+                      lines.append(f"| `{g['key']}` | `{g['old']}` | {new_cell} | `{g['output']}` |")
+                  lines.append("")
+                  if any_malformed:
+                      lines.append("⚠️ = added filename does not follow the `NAME_DESCRIPTION_REV.pdf` convention.")
+                      lines.append("")
+              else:
+                  # Case 3: candidates found but all were ambiguous or unresolvable
+                  lines.append(
+                      "Added **and** deleted PDFs were detected, but no unambiguous "
+                      "1-old/1-new pair could be formed – no comparison was generated."
+                  )
+                  lines.append("")
+
+              if skipped:
+                  lines.append(f"**{len(skipped)} key(s) skipped** (ambiguous or unresolvable):")
+                  lines.append("")
+                  for s in skipped:
+                      key    = s["key"]
+                      reason = s["reason"]
+                      adds   = ", ".join(f"`{p}`" for p in s.get("added", []))
+                      dels   = ", ".join(f"`{p}`" for p in s.get("deleted", []))
+                      malformed = s.get("malformed_added", [])
+                      lines.append(f"- **`{key}`** – {reason}")
+                      if dels:
+                          lines.append(f"  - Removed: {dels}")
+                      if adds:
+                          lines.append(f"  - Added: {adds}")
+                      if malformed:
+                          mf_list = ", ".join(f"`{p}`" for p in malformed)
+                          lines.append(f"  - ⚠️ Malformed filename(s): {mf_list}")
+                  lines.append("")
+
+              lines.append(f"[View workflow run]({run_url})")
+              body = "\n".join(lines)
+
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "Content-Type": "application/json",
+          }
+
+          # Find existing comment with marker
+          existing_id = None
+          try:
+              page = 1
+              while True:
+                  url = f"https://api.github.com/repos/{repo}/issues/{pr}/comments?per_page=100&page={page}"
+                  req = urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req) as resp:
+                      comments = json.loads(resp.read())
+                  if not comments:
+                      break
+                  for c in comments:
+                      if MARKER in c.get("body", ""):
+                          existing_id = c["id"]
+                          break
+                  if existing_id:
+                      break
+                  page += 1
+          except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+              print(f"Warning: could not list PR comments – {exc}. Skipping comment step.")
+              sys.exit(0)
+
+          payload = json.dumps({"body": body}).encode()
+
+          try:
+              if existing_id:
+                  url = f"https://api.github.com/repos/{repo}/issues/comments/{existing_id}"
+                  req = urllib.request.Request(url, data=payload, headers=headers, method="PATCH")
+                  action = "Updated"
+              else:
+                  url = f"https://api.github.com/repos/{repo}/issues/{pr}/comments"
+                  req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
+                  action = "Posted"
+
+              with urllib.request.urlopen(req) as resp:
+                  result = json.loads(resp.read())
+
+              print(f"{action} PR comment: {result['html_url']}")
+          except (urllib.error.HTTPError, urllib.error.URLError) as exc:
+              print(f"Warning: could not post/update PR comment – {exc}. Skipping.")
+              sys.exit(0)
+          PYEOF
