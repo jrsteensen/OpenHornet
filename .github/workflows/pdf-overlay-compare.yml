@@ -79,7 +79,9 @@ jobs:
           PYEOF
 
       # -----------------------------------------------------------------------
-      # 3. Pair PDFs by key (everything before the first '_' in the basename)
+      # 3. Pair PDFs by key (leading alphanumeric+hyphen token of the basename,
+      #    e.g. "OH4A1A1-1" from both "OH4A1A1-1_ASSY_..._A.pdf" and the
+      #    malformed "OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf")
       #    and extract old PDFs from the base SHA
       # -----------------------------------------------------------------------
       - name: Pair PDFs and extract old versions
@@ -108,10 +110,24 @@ jobs:
               print(f"[WARN] git fetch for base SHA failed: {fetch.stderr.decode().strip()}")
 
           def make_key(path: str) -> str:
-              """Key = filename stem up to (but not including) the first '_'."""
-              name = pathlib.Path(path).stem          # strip directory and .pdf
-              parts = name.split("_", 1)
-              return parts[0]                          # everything before first _
+              """Key = leading alphanumeric+hyphen token of the filename stem.
+
+              Handles both well-formed names where the separator is '_':
+                  OH4A1A1-1_ASSY_LEFT_CONSOLE_STRUCTURE_v7_A.pdf  →  OH4A1A1-1
+              and malformed names that use any other separator (space, dash, comma…):
+                  OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf  →  OH4A1A1-1
+              """
+              stem = pathlib.Path(path).stem          # strip directory and .pdf
+              m = re.match(r'^([A-Za-z0-9-]+)', stem)
+              return m.group(1) if m else stem
+
+          def is_malformed(path: str, key: str) -> bool:
+              """Return True if the character immediately after the key in the stem
+              is not '_' (i.e. the filename does not follow the expected convention).
+              A bare key with no suffix (stem == key) is considered well-formed."""
+              stem = pathlib.Path(path).stem
+              after = stem[len(key):]
+              return bool(after) and not after.startswith('_')
 
           # Group by key
           from collections import defaultdict
@@ -124,8 +140,8 @@ jobs:
               deleted_by_key[make_key(p)].append(p)
 
           all_keys    = set(added_by_key) | set(deleted_by_key)
-          pairs       = []   # list of {key, old_path, new_path, old_tmp}
-          skipped     = []   # list of {key, reason, added, deleted}
+          pairs       = []   # list of {key, old_path, new_path, old_tmp, malformed_new}
+          skipped     = []   # list of {key, reason, added, deleted, malformed_added}
 
           work_dir = pathlib.Path("_pdf_compare_work")
           work_dir.mkdir(exist_ok=True)
@@ -137,16 +153,24 @@ jobs:
               if len(a_list) != 1 or len(d_list) != 1:
                   reason = f"{len(d_list)} removed, {len(a_list)} added"
                   print(f"[SKIP] key='{key}' – ambiguous ({reason})")
+                  malformed_added = [p for p in a_list if is_malformed(p, key)]
+                  if malformed_added:
+                      print(f"  [WARN] Malformed added filename(s): {malformed_added}")
                   skipped.append({
                       "key": key,
                       "reason": reason,
                       "added": a_list,
                       "deleted": d_list,
+                      "malformed_added": malformed_added,
                   })
                   continue
 
               new_path = a_list[0]
               old_path = d_list[0]
+
+              malformed_new = is_malformed(new_path, key)
+              if malformed_new:
+                  print(f"[WARN] Added file has malformed name: '{new_path}'")
 
               # Extract old PDF from base SHA
               safe_name = re.sub(r"[^\w\-.]", "_", key) + "_OLD.pdf"
@@ -163,6 +187,7 @@ jobs:
                       "reason": "could not extract old PDF from base SHA",
                       "added": a_list,
                       "deleted": d_list,
+                      "malformed_added": [new_path] if malformed_new else [],
                   })
                   continue
 
@@ -174,6 +199,7 @@ jobs:
                   "old_path": old_path,
                   "new_path": new_path,
                   "old_tmp":  old_tmp,
+                  "malformed_new": malformed_new,
               })
               print(f"[PAIR] key='{key}' | old='{old_path}' new='{new_path}'")
 
@@ -244,7 +270,7 @@ jobs:
                   print(f"[ERROR] overlay_compare.py failed for key '{key}'", file=sys.stderr)
                   sys.exit(1)
 
-              generated.append({"key": key, "output": out_name, "old": pair["old_path"], "new": pair["new_path"]})
+              generated.append({"key": key, "output": out_name, "old": pair["old_path"], "new": pair["new_path"], "malformed_new": pair.get("malformed_new", False)})
 
           # Persist generated list back to manifest
           manifest["generated"] = generated
@@ -339,9 +365,14 @@ jobs:
                   lines.append("")
                   lines.append("| Key | Old file | New file | Output |")
                   lines.append("|-----|----------|----------|--------|")
+                  any_malformed = any(g.get("malformed_new") for g in generated)
                   for g in generated:
-                      lines.append(f"| `{g['key']}` | `{g['old']}` | `{g['new']}` | `{g['output']}` |")
+                      new_cell = f"`{g['new']}`" + (" ⚠️" if g.get("malformed_new") else "")
+                      lines.append(f"| `{g['key']}` | `{g['old']}` | {new_cell} | `{g['output']}` |")
                   lines.append("")
+                  if any_malformed:
+                      lines.append("⚠️ = added filename does not follow the `NAME_DESCRIPTION_REV.pdf` convention.")
+                      lines.append("")
               else:
                   # Case 3: candidates found but all were ambiguous or unresolvable
                   lines.append(
@@ -358,11 +389,15 @@ jobs:
                       reason = s["reason"]
                       adds   = ", ".join(f"`{p}`" for p in s.get("added", []))
                       dels   = ", ".join(f"`{p}`" for p in s.get("deleted", []))
+                      malformed = s.get("malformed_added", [])
                       lines.append(f"- **`{key}`** – {reason}")
                       if dels:
                           lines.append(f"  - Removed: {dels}")
                       if adds:
                           lines.append(f"  - Added: {adds}")
+                      if malformed:
+                          mf_list = ", ".join(f"`{p}`" for p in malformed)
+                          lines.append(f"  - ⚠️ Malformed filename(s): {mf_list}")
                   lines.append("")
 
               lines.append(f"[View workflow run]({run_url})")
