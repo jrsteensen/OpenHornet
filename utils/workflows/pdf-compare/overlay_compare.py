@@ -112,8 +112,10 @@ def overlay_pages(
     return result.convert("RGB")
 
 
-_LABEL_STRIP_HEIGHT = 28  # points – height of the WAS/OLD / IS/NEW footer strip
-_LABEL_FONT_SIZE = 8      # points
+_LABEL_STRIP_HEIGHT = 28       # points -- height of the WAS/OLD / IS/NEW footer strip
+_LABEL_FONT_SIZE = 8           # points
+_LABEL_VERTICAL_PADDING = 2    # points -- vertical gap between label lines and strip top
+_LABEL_HORIZONTAL_MARGIN = 4   # points -- left margin for label text
 
 
 def _add_label_strip(
@@ -143,10 +145,10 @@ def _add_label_strip(
         width=0.5,
     )
 
-    margin = 4  # points from the left edge
+    margin = _LABEL_HORIZONTAL_MARGIN
 
     # WAS/OLD label in red (first line)
-    was_baseline = strip_top + _LABEL_FONT_SIZE + 2
+    was_baseline = strip_top + _LABEL_FONT_SIZE + _LABEL_VERTICAL_PADDING
     page.insert_text(
         fitz.Point(margin, was_baseline),
         f"WAS/OLD: {old_name}",
@@ -155,7 +157,7 @@ def _add_label_strip(
     )
 
     # IS/NEW label in green (second line)
-    is_baseline = was_baseline + _LABEL_FONT_SIZE + 2
+    is_baseline = was_baseline + _LABEL_FONT_SIZE + _LABEL_VERTICAL_PADDING
     page.insert_text(
         fitz.Point(margin, is_baseline),
         f"IS/NEW: {new_name}",
