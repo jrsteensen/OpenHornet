@@ -112,6 +112,58 @@ def overlay_pages(
     return result.convert("RGB")
 
 
+_LABEL_STRIP_HEIGHT = 28  # points – height of the WAS/OLD / IS/NEW footer strip
+_LABEL_FONT_SIZE = 8      # points
+
+
+def _add_label_strip(
+    page: "fitz.Page",
+    img_height: float,
+    old_name: str,
+    new_name: str,
+) -> None:
+    """
+    Draw a footer strip below the composite image on *page* containing:
+      - WAS/OLD: <old_name>  (red)
+      - IS/NEW:  <new_name>  (green)
+    The strip starts at *img_height* and extends to the bottom of the page.
+    """
+    page_width = page.rect.width
+    strip_top = img_height
+
+    # Light-grey background for the strip
+    strip_rect = fitz.Rect(0, strip_top, page_width, page.rect.height)
+    page.draw_rect(strip_rect, color=None, fill=(0.93, 0.93, 0.93))
+
+    # Separator line between the image and the strip
+    page.draw_line(
+        fitz.Point(0, strip_top),
+        fitz.Point(page_width, strip_top),
+        color=(0.5, 0.5, 0.5),
+        width=0.5,
+    )
+
+    margin = 4  # points from the left edge
+
+    # WAS/OLD label in red (first line)
+    was_baseline = strip_top + _LABEL_FONT_SIZE + 2
+    page.insert_text(
+        fitz.Point(margin, was_baseline),
+        f"WAS/OLD: {old_name}",
+        fontsize=_LABEL_FONT_SIZE,
+        color=(0.75, 0, 0),
+    )
+
+    # IS/NEW label in green (second line)
+    is_baseline = was_baseline + _LABEL_FONT_SIZE + 2
+    page.insert_text(
+        fitz.Point(margin, is_baseline),
+        f"IS/NEW: {new_name}",
+        fontsize=_LABEL_FONT_SIZE,
+        color=(0, 0.55, 0),
+    )
+
+
 def generate_overlay_pdf(
     old_pdf_path: str,
     new_pdf_path: str,
@@ -130,6 +182,9 @@ def generate_overlay_pdf(
     old_count = len(old_doc)
     new_count = len(new_doc)
     page_count = max(old_count, new_count)
+
+    old_name = Path(old_pdf_path).name
+    new_name = Path(new_pdf_path).name
 
     out_doc = fitz.open()
 
@@ -161,8 +216,12 @@ def generate_overlay_pdf(
         img_bytes = buf.getvalue()
         img_rect = fitz.Rect(0, 0, composite.width * 72 / dpi, composite.height * 72 / dpi)
 
-        out_page = out_doc.new_page(width=img_rect.width, height=img_rect.height)
+        # Extend page height to accommodate the WAS/OLD / IS/NEW label strip
+        page_height = img_rect.height + _LABEL_STRIP_HEIGHT
+        out_page = out_doc.new_page(width=img_rect.width, height=page_height)
         out_page.insert_image(img_rect, stream=img_bytes, keep_proportion=False)
+
+        _add_label_strip(out_page, img_rect.height, old_name, new_name)
 
     out_doc.save(output_path, garbage=4, deflate=True)
     out_doc.close()
