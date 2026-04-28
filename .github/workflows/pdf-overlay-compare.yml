@@ -116,15 +116,24 @@ jobs:
                   OH4A1A1-1_ASSY_LEFT_CONSOLE_STRUCTURE_v7_A.pdf  →  OH4A1A1-1
               and malformed names that use any other separator (space, dash, comma…):
                   OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf  →  OH4A1A1-1
+
+              If the stem begins with a character outside [A-Za-z0-9-] (e.g. a
+              special character), the full stem is returned as a fallback key and
+              a warning is emitted.  This path should not occur for OpenHornet PDFs.
               """
               stem = pathlib.Path(path).stem          # strip directory and .pdf
               m = re.match(r'^([A-Za-z0-9-]+)', stem)
-              return m.group(1) if m else stem
+              if not m:
+                  print(f"[WARN] Could not extract part-number key from stem '{stem}'; using full stem as fallback key.")
+                  return stem
+              return m.group(1)
 
           def is_malformed(path: str, key: str) -> bool:
               """Return True if the character immediately after the key in the stem
               is not '_' (i.e. the filename does not follow the expected convention).
-              A bare key with no suffix (stem == key) is considered well-formed."""
+              A bare key with no suffix (stem == key) is considered well-formed.
+              When make_key() falls back to returning the full stem, after='' so
+              is_malformed() correctly returns False for that degenerate case."""
               stem = pathlib.Path(path).stem
               after = stem[len(key):]
               return bool(after) and not after.startswith('_')
