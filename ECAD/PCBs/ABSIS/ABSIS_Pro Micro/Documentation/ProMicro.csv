@@ -1,0 +1,53 @@
+Name,Power,GND,Control,Arduino,Port,ADC,PWM,Serial,Ext Interrupt,PC Interrupt,Misc,Misc2,1
+Right,,,,,,,,,,,,,1
+RAW,RAW,,,,,,,,,,,,1
+GND,,GND,,,,,,,,,,,1
+RST,,,Reset,,,,,,,,,,1
+VCC,VCC,,,,,,,,,,,,1
+A3,,,,A3,PF4,ADC4,,,,,TCK,,1
+A2,,,,A2,PF5,ADC5,,,,,TMS,,1
+A1,,,,A1,PF6,ADC6,,,,,TDO,,1
+A0,,,,A0,PF7,ADC7,,,,,TDI,,1
+15,,,,D15,PB1,,,SCK,,PCINT1,,,1
+14,,,,D14,PB3,,,MISO,,PCINT3,PD0,,1
+16,,,,D16,PB2,,,MOSI,,PCINT2,PDI,,1
+10,,,,D10/A10,PB6,ADC13,16-bit,,,PCINT6,OC1B,OC4B,1
+Right,,,,,,,,,,,,,1
+TX_LED,,,,D14,PB0,,,SS,,,,,1
+RX_LED,,,,,PD5,,,,,,,,1
+TX_LED,,,,D17,PB0,,,SS,,,,,1
+Left,,,,,,,,,,,,,1
+TX_LED,,,,D14,PB0,,,SS,,,,,1
+RX_LED,,,,,PD5,,,,,,,,1
+TX_LED,,,,D17,PB0,,,SS,,,,,1
+Left,,,,,,,,,,,,,1
+TXO,,,,D1 ,PD3,,,TX1,INT3,,,,1
+RXI,,,,D0 ,PD2,,,RX1,INT2,,,,1
+GND,,GND,,,,,,,,,,,1
+GND,,GND,,,,,,,,,,,1
+2,,,,D2,PD1,,,SDA,INT1,,,,1
+3,,,,D3,PD0,,8-bit,SCL,INT0,,OC0B,,1
+4,,,,D4/A6,PD4,ADC8,,,,,ICP1,,1
+5,,,,D5,PC6,,10-bit (HS),,,,OC3A,OCA4,1
+6,,,,D6/A7,PD7,ADC10,10-bit (HS),,,,OC4D,TO,1
+7,,,,D7,PE6,,,,INT6,,AIN0,,1
+8,,,,D8/A8,PB4,ADC11,,,,PCINT4,,,1
+9,,,,D9/A9,PB5,ADC12,16-bit,,,PCINT5,OC1A,OC4B,1
+,,,,,,,,,,,,,1
+,,,,,,,,,,,,,1
+,,,,,,,,,,,,,1
+Text,,,,,,,,,,,,,
+Power,RAW: 5V-16V,VCC: 5V at 500mA,,,,,,,,,,,
+LEDs,Power: Red,RX:Green,TX:Yellow,To use TX in the Arduino IDE use TXLED1 or TXLED0,,,,,,,,,
+LEDs,Power: Red,RX: Yellow,TX: Green,To use TX in the Arduino IDE use TXLED1 or TXLED0,,,,,,,,,
+MicroB,,,,,,,,,,,,,
+PWM,The Arduino IDE renders all PWM pins as 8-bit,,,,,,,,,,,,
+Pro Micro (Dev-12640),16MHz/5V,,,,,,,,,,,,
+J1,Connect VCC to USB (bypass regulator),,,,,,,,,,,,
+USB,HID enabled,VID: 0x1B4F,PID: 0x9205; 0x9206,,,,,,,,,,
+Reset,Doubletap the reset 'button' to stay in bootloader mode for 8 seconds,,,,,,,,,,,,
+Serial,Use Serial for the USB connection,Use Serial1 for the hardware serial connection,,,,,,,,,,,
+Extras,,,,,,,,,,,,,
+ATMega32U4,Logo,Legend,,,,,,,,,,,
+microB,,,,,,,,,,,,,
+EOF,,,,,,,,,,,,,
