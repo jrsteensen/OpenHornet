@@ -61,6 +61,7 @@ body:
       label: Release Version
       description: What release are you building to?
       options:
+        - v0.3.0
         - v0.2.0
         - pre-v0.2.0 (Early Development/Alpha)
     validations:
