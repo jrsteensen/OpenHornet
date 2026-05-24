@@ -1,0 +1,48 @@
+# Doxyfile for OpenHornet hardware documentation
+
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "OpenHornet Hardware Documentation"
+PROJECT_NUMBER         = $(PROJECT_VERSION)
+PROJECT_BRIEF          = "Generated documentation for OpenHornet hardware reference material."
+PROJECT_LOGO           = _doxygen/img/logos/oh_horiz.svg
+
+OUTPUT_DIRECTORY       =
+CREATE_SUBDIRS         = NO
+ALLOW_UNICODE_NAMES    = NO
+OUTPUT_LANGUAGE        = English
+
+MARKDOWN_SUPPORT       = YES
+TOC_INCLUDE_HEADINGS   = 3
+AUTOLINK_SUPPORT       = YES
+
+INPUT                  = ../docs \
+                         ../README.md
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          = *.md \
+                         *.dox \
+                         *.txt
+RECURSIVE              = YES
+EXCLUDE                = ../docs/html \
+                         ../docs/_doxygen
+IMAGE_PATH             = ../images \
+                         ../docs
+USE_MDFILE_AS_MAINPAGE = ../README.md
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_HEADER            = _doxygen/css/header.html
+HTML_EXTRA_STYLESHEET  = _doxygen/css/doxygen-awesome.css \
+                         _doxygen/css/doxygen-awesome-sidebar-only.css \
+                         _doxygen/css/doxygen-awesome-sidebar-only-darkmode-toggle.css \
+                         _doxygen/css/custom.css
+HTML_EXTRA_FILES       = _doxygen/css/doxygen-awesome-darkmode-toggle.js \
+                         _doxygen/css/doxygen-awesome-fragment-copy-button.js \
+                         _doxygen/css/doxygen-awesome-paragraph-link.js \
+                         _doxygen/css/doxygen-awesome-interactive-toc.js \
+                         _doxygen/css/doxygen-awesome-tabs.js
+GENERATE_TREEVIEW      = YES
+SEARCHENGINE           = YES
+
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+HAVE_DOT               = YES
