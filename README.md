@@ -5,7 +5,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/jrsteensen/OpenHornet) 
 ![GitHub all releases](https://img.shields.io/github/downloads/jrsteensen/OpenHornet/total)
 
-[![Donate](https://img.shields.io/badge/donate_to_openhornet-yellow?logo=paypal)](https://openhornet.com/#awb-oc__2834)
+[![Donate](https://img.shields.io/badge/donate_to_openhornet-yellow?logo=paypal)](https://www.openhornet.com/donate.html)
 [![Discord](https://img.shields.io/discord/392833351238811648?logo=discord&label=discord)](https://discord.gg/openhornet) 
 [![Website](https://img.shields.io/badge/website-blue?logo=internetarchive)](https://www.openhornet.com) 
 [![YouTube](https://img.shields.io/badge/youtube-blue?logo=youtube)](https://www.youtube.com/@OpenHornet) 
@@ -60,7 +60,7 @@ OpenHornet
 * [OpenHornet Start Here Page](https://openhornet.com/start-here/) - Seriously. Start here.
 * [OpenHornet FAQ](https://openhornet.com/faq/) - You guessed it! The FAQ!
 * [OpenHornet GitHub](https://github.com/jrsteensen/OpenHornet) - OpenHornet's GitHub repository for everything other than MCAD. Where you can find the latest under-development files.
-* [OpenHornet Tutorials](https://openhornet.com/category/tutorials/) - Tutorials for OpenHornet.
+* [OpenHornet Tutorials](https://github.com/jrsteensen/OpenHornet/tree/master/docs/tutorials) - Tutorials for OpenHornet.
 * [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug/enhancement/obsolescence report.
 * [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
 
