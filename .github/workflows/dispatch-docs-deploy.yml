@@ -25,8 +25,8 @@ jobs:
           SOURCE_SHA: ${{ github.sha }}
         run: |
           if [ -z "${DOCS_DEPLOY_DISPATCH_TOKEN}" ]; then
-            echo "::error::DOCS_DEPLOY_DISPATCH_TOKEN is required to trigger jrsteensen/OpenHornet-Docs."
-            exit 1
+            echo "::warning::DOCS_DEPLOY_DISPATCH_TOKEN is not set; skipping Cloudflare docs dispatch."
+            exit 0
           fi
 
           payload="$(jq -n \
