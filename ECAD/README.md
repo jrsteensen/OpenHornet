@@ -1,7 +1,7 @@
 ![OH logo](https://github.com/jrsteensen/OpenHornet/blob/master/images/Logo/open_hornet_horizontal_final.png)
 * [OpenHornet Website](https://www.openhornet.com)
 * [OpenHornet Discord](https://discord.gg/G5PA5ju)
-* [Donate to OpenHornet](https://www.openhornet.com/campaigns/donate/)
+* [Donate to OpenHornet](https://www.openhornet.com/donate.html)
 
 
 # **ECAD DIRECTORY INFORMATION**
