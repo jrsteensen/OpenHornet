@@ -60,6 +60,7 @@ OpenHornet
 * [OpenHornet Start Here Page](https://openhornet.com/start-here/) - Seriously. Start here.
 * [OpenHornet FAQ](https://openhornet.com/faq/) - You guessed it! The FAQ!
 * [OpenHornet GitHub](https://github.com/jrsteensen/OpenHornet) - OpenHornet's GitHub repository for everything other than MCAD. Where you can find the latest under-development files.
+* [OpenHornet Hardware Documentation](https://docs.openhornet.com/hardware/) - Generated hardware documentation, tutorials, and reference material.
 * [OpenHornet Tutorials](https://github.com/jrsteensen/OpenHornet/tree/master/docs/tutorials) - Tutorials for OpenHornet.
 * [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug/enhancement/obsolescence report.
 * [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
