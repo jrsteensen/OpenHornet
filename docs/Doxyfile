@@ -1,9 +1,9 @@
 # Doxyfile for OpenHornet hardware documentation
 
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "OpenHornet Hardware Documentation"
+PROJECT_NAME           = "Hardware Documentation"
 PROJECT_NUMBER         = $(PROJECT_VERSION)
-PROJECT_BRIEF          = "Generated documentation for OpenHornet hardware reference material."
+PROJECT_BRIEF          =
 PROJECT_LOGO           = _doxygen/img/logos/oh_horiz.svg
 
 OUTPUT_DIRECTORY       =
@@ -41,6 +41,8 @@ HTML_EXTRA_FILES       = _doxygen/css/doxygen-awesome-darkmode-toggle.js \
                          _doxygen/css/doxygen-awesome-interactive-toc.js \
                          _doxygen/css/doxygen-awesome-tabs.js
 GENERATE_TREEVIEW      = YES
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
 SEARCHENGINE           = YES
 
 GENERATE_LATEX         = NO
