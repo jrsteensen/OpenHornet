@@ -1,4 +1,4 @@
-# 360° Travel Modification of Gauge Steppers
+# Modify Gauge Steppers for 360° Travel
 
 > Originally published on OpenHornet.com on 2023-10-29.  
 > Submitted by OpenHornet Dev Tester/Builder **Krikeee**.

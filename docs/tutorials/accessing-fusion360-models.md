@@ -1,4 +1,4 @@
-# Downloading and Importing OpenHornet Fusion 360 Models
+# Download and Import Fusion 360 Models
 
 ![Autodesk Fusion 360 logo](images/fusion360-logo.png)
 

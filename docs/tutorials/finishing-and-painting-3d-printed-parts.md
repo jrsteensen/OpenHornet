@@ -1,4 +1,4 @@
-# Finishing and Painting 3D Printed Parts
+# Finish and Paint 3D Printed Parts
 
 This tutorial combines the OpenHornet finish specification with the finishing workflow for printed parts. Use it when preparing visible cockpit parts, knobs, buttons, indicators, and printed assemblies for their final paint and protective clear coat.
 

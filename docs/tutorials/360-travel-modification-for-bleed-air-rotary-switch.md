@@ -1,4 +1,4 @@
-# 360° Travel Modification for Bleed Air Rotary Switch
+# Modify Bleed Air Switch for 360° Travel
 
 > Submitted by OpenHornet Contributor Randy “Exprezzo” Henrion.  
 > Originally posted by Noctum on July 8, 2023.
