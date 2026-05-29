@@ -137,441 +137,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CDSOT23-SM712_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -0.762 21.844 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CDSOT23-SM712"
-				(at -7.112 19.304 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P230X117-3N"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://uk.rs-online.com/web/p/products/7673728"
-				(at 16.51 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "TVS Diode Dual Bi-Dir 7/12V 30KV SOT23 Bourns CDSOT23-SM712 Dual Bi-Directional TVS Diode, 400W peak, 3-Pin SOT-23"
-				(at 0.254 23.876 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.17"
-				(at 16.51 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CDSOT23-SM712"
-				(at 16.51 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "652-CDSOT23-SM712"
-				(at 16.51 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-SM712?qs=FuI%252BOVLl4%2FLTY%2FGQ265RLA%3D%3D"
-				(at 16.51 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "CDSOT23-SM712"
-				(at 16.51 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdsot23-sm712/bourns?utm_currency=USD&region=nac"
-				(at 16.51 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "CDSOT23-SM712_1_0_1"
-				(polyline
-					(pts
-						(xy -3.81 3.302) (xy -1.27 3.302) (xy -1.27 3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.302) (xy -3.81 2.794) (xy -3.556 2.794) (xy -3.556 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0.762) (xy -2.54 3.302) (xy -1.27 0.762) (xy -3.81 0.762) (xy -3.81 0.762) (xy -3.81 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.794) (xy -1.27 -2.794) (xy -1.27 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.794) (xy -3.81 -3.302) (xy -3.556 -3.302) (xy -3.556 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.302) (xy -2.54 5.08) (xy 2.54 5.08) (xy 2.54 3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.794) (xy -2.54 3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.286) (xy -1.27 -2.286) (xy -1.27 -2.794) (xy -1.27 -2.794) (xy -1.27 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.302) (xy -1.27 3.81) (xy -1.524 3.81) (xy -1.524 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.254) (xy -2.54 -2.794) (xy -3.81 -0.254) (xy -1.27 -0.254) (xy -1.27 -0.254) (xy -1.27 -0.254)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.302) (xy 3.81 3.302) (xy 3.81 3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.302) (xy 1.27 2.794) (xy 1.524 2.794) (xy 1.524 2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.762) (xy 2.54 3.302) (xy 3.81 0.762) (xy 1.27 0.762) (xy 1.27 0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.794) (xy 3.81 -2.794) (xy 3.81 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.794) (xy 1.27 -3.302) (xy 1.524 -3.302) (xy 1.524 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.794) (xy 2.54 3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -2.286) (xy 3.81 -2.286) (xy 3.81 -2.794) (xy 3.81 -2.794) (xy 3.81 -2.794)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.302) (xy 3.81 3.81) (xy 3.556 3.81) (xy 3.556 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -0.254) (xy 2.54 -2.794) (xy 1.27 -0.254) (xy 3.81 -0.254) (xy 3.81 -0.254) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CDSOT23-SM712_1_1_1"
-				(pin passive line
-					(at -2.54 -7.62 90)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -7.62 90)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Screw_Terminal_01x01"
 			(pin_names
 				(offset 1.016)
@@ -3010,6 +2575,1033 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OH Symbols:CDSOT23-SM712"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -0.762 21.844 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CDSOT23-SM712"
+				(at -7.112 19.304 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "OH_Footprints:CDSOT23-SM712"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/7673728"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "TVS Diode Dual Bi-Dir 7/12V 30KV SOT23 Bourns CDSOT23-SM712 Dual Bi-Directional TVS Diode, 400W peak, 3-Pin SOT-23"
+				(at 0.254 23.876 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.17"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CDSOT23-SM712"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "652-CDSOT23-SM712"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-SM712?qs=FuI%252BOVLl4%2FLTY%2FGQ265RLA%3D%3D"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "CDSOT23-SM712"
+				(at 16.51 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdsot23-sm712/bourns?utm_currency=USD&region=nac"
+				(at 16.51 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "CDSOT23-SM712_0_1"
+				(polyline
+					(pts
+						(xy -3.81 3.302) (xy -1.27 3.302) (xy -1.27 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.302) (xy -3.81 2.794) (xy -3.556 2.794) (xy -3.556 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.762) (xy -2.54 3.302) (xy -1.27 0.762) (xy -3.81 0.762) (xy -3.81 0.762) (xy -3.81 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.794) (xy -1.27 -2.794) (xy -1.27 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.794) (xy -3.81 -3.302) (xy -3.556 -3.302) (xy -3.556 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 3.302) (xy -2.54 5.08) (xy 2.54 5.08) (xy 2.54 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.794) (xy -2.54 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.27 -2.286) (xy -1.27 -2.794) (xy -1.27 -2.794) (xy -1.27 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.302) (xy -1.27 3.81) (xy -1.524 3.81) (xy -1.524 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.254) (xy -2.54 -2.794) (xy -3.81 -0.254) (xy -1.27 -0.254) (xy -1.27 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.302) (xy 3.81 3.302) (xy 3.81 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.302) (xy 1.27 2.794) (xy 1.524 2.794) (xy 1.524 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 2.54 3.302) (xy 3.81 0.762) (xy 1.27 0.762) (xy 1.27 0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.794) (xy 3.81 -2.794) (xy 3.81 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.794) (xy 1.27 -3.302) (xy 1.524 -3.302) (xy 1.524 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.794) (xy 2.54 3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -2.286) (xy 3.81 -2.286) (xy 3.81 -2.794) (xy 3.81 -2.794) (xy 3.81 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.302) (xy 3.81 3.81) (xy 3.556 3.81) (xy 3.556 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.254) (xy 2.54 -2.794) (xy 1.27 -0.254) (xy 3.81 -0.254) (xy 3.81 -0.254) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CDSOT23-SM712_1_1"
+				(pin passive line
+					(at -2.54 -7.62 90)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OH Symbols:SS54"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SS54"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "OH_Footprints:SS54"
+				(at 12.7 -93.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1903042030_MDD-Jiangsu-Yutai-Elec-SS54_C16103.pdf"
+				(at 12.7 -193.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "2.62"
+				(at 12.7 -393.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "MDD"
+				(at 12.7 -493.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SS54"
+				(at 12.7 -593.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 12.7 -693.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 12.7 -793.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 12.7 -893.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 12.7 -993.65 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "SS54_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -1.524) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.524) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OH Symbols:THVD1410DR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "THVD1410DR"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "OH_Footprints:THVD1410DR"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/THVD1410"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "3.3-V to 5-V RS-485 transceiver with +/-18-kV IEC ESD protection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.75"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "THVD1410DR"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "595-THVD1410DR"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1410DR?qs=chTDxNqvsylen%252BY7bN3dRQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" "THVD1410DR"
+				(at 21.59 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/thvd1410dr/texas-instruments?region=nac"
+				(at 21.59 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "THVD1410DR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "DE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OH_Symbols:Jumper_Solder_2_Open"
 			(pin_names
 				(offset 0)
@@ -4971,598 +5563,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SS54:SS54"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 12.7 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SS54"
-				(at 12.7 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DIONM7959X262N"
-				(at 12.7 -93.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1903042030_MDD-Jiangsu-Yutai-Elec-SS54_C16103.pdf"
-				(at 12.7 -193.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "2.62"
-				(at 12.7 -393.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "MDD"
-				(at 12.7 -493.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SS54"
-				(at 12.7 -593.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 12.7 -693.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 12.7 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -893.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -993.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "SS54_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.604 -1.524) (xy 6.604 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 8.636 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 6.604 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.636 1.524) (xy 8.636 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 15.24 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "THVD1410DR:THVD1410DR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "THVD1410DR"
-				(at 21.59 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P600X175-8N"
-				(at 21.59 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/THVD1410"
-				(at 21.59 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "3.3-V to 5-V RS-485 transceiver with +/-18-kV IEC ESD protection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "1.75"
-				(at 21.59 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 21.59 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "THVD1410DR"
-				(at 21.59 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "595-THVD1410DR"
-				(at 21.59 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1410DR?qs=chTDxNqvsylen%252BY7bN3dRQ%3D%3D"
-				(at 21.59 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "THVD1410DR"
-				(at 21.59 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/thvd1410dr/texas-instruments?region=nac"
-				(at 21.59 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "THVD1410DR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "~{RE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "DE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_names
@@ -6234,7 +6234,7 @@
 	)
 	(text "ACTIVE HIGH"
 		(exclude_from_sim no)
-		(at 183.2587 164.856 0)
+		(at 182.88 165.1 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6322,7 +6322,7 @@
 	)
 	(text "ACTIVE LOW"
 		(exclude_from_sim no)
-		(at 183.0047 162.316 0)
+		(at 182.88 162.56 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -6413,7 +6413,7 @@
 	)
 	(text_box "ABSIS BUS #3"
 		(exclude_from_sim no)
-		(at 177.1627 132.725 0)
+		(at 177.165 132.08 0)
 		(size 139.0964 55.88)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -6578,7 +6578,7 @@
 		(uuid "00184cc7-9f59-4e12-aad6-35376f15f263")
 	)
 	(junction
-		(at 254.6327 179.08)
+		(at 254 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "076068af-bb53-408a-8694-049cf8eddd1a")
@@ -6608,7 +6608,7 @@
 		(uuid "1b08a4f9-0356-4734-aecf-50a68e10fd52")
 	)
 	(junction
-		(at 193.6727 165.11)
+		(at 193.04 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b4daffe-a5ac-473b-9054-1adb5a57ee92")
@@ -6620,13 +6620,13 @@
 		(uuid "2f32d5e9-19cd-4a5d-b739-694b27c2721c")
 	)
 	(junction
-		(at 193.6727 160.03)
+		(at 193.04 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35e1a0d4-3120-4039-9a76-6d64ee72ba16")
 	)
 	(junction
-		(at 285.1127 166.38)
+		(at 284.48 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36fedfe4-d834-46a4-9a82-84bb6998134d")
@@ -6656,7 +6656,7 @@
 		(uuid "5818a0b4-121f-405c-9243-f48c3c7863ac")
 	)
 	(junction
-		(at 193.6727 162.57)
+		(at 193.04 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59708a6b-d9bd-4cfd-90de-4ae8b704908d")
@@ -6704,13 +6704,13 @@
 		(uuid "7316ac62-0d9d-45f5-ab58-f0128c68ad32")
 	)
 	(junction
-		(at 254.6327 147.33)
+		(at 254 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "772cdc81-4661-4d88-95d6-1b1aa8110045")
 	)
 	(junction
-		(at 290.1927 161.3)
+		(at 289.56 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dad579e-1d63-42d7-a65f-5ca2468c1a0e")
@@ -6734,7 +6734,7 @@
 		(uuid "9eb5e779-675b-4512-88ce-49672433ad02")
 	)
 	(junction
-		(at 290.1927 166.38)
+		(at 289.56 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4559e88-3edc-4f30-8c29-f87cfeeb2e15")
@@ -6770,7 +6770,7 @@
 		(uuid "dbf1c45a-df6c-4ea4-97d2-fc5f28d73418")
 	)
 	(junction
-		(at 225.4227 160.03)
+		(at 224.79 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fb9c8d-b742-4920-8288-8e3350552a26")
@@ -6788,7 +6788,7 @@
 		(uuid "ed21ac23-fafe-48e3-b5a4-f0676df7ad1a")
 	)
 	(junction
-		(at 285.1127 161.3)
+		(at 284.48 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f532ab83-67fb-40e0-aa65-a68d8fb672f8")
@@ -7035,7 +7035,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.7427 162.57) (xy 245.7427 147.33)
+			(xy 245.11 162.56) (xy 245.11 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.9427 160.03) (xy 193.6727 160.03)
+			(xy 194.31 160.02) (xy 193.04 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7175,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.6327 147.33) (xy 285.1127 147.33)
+			(xy 254 147.32) (xy 284.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7215,7 +7215,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 166.38) (xy 278.7627 166.38)
+			(xy 284.48 166.37) (xy 278.13 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7265,7 +7265,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 161.3) (xy 290.1927 161.3)
+			(xy 284.48 161.29) (xy 289.56 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7345,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.9427 162.57) (xy 193.6727 162.57)
+			(xy 194.31 162.56) (xy 193.04 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7395,7 +7395,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.3427 167.65) (xy 220.3427 177.81)
+			(xy 219.71 167.64) (xy 219.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7415,7 +7415,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.6327 147.33) (xy 254.6327 160.03)
+			(xy 254 147.32) (xy 254 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7425,7 +7425,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.4227 160.03) (xy 225.4227 166.38)
+			(xy 224.79 160.02) (xy 224.79 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7455,7 +7455,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.4227 160.03) (xy 225.4227 147.33)
+			(xy 224.79 160.02) (xy 224.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7615,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6727 176.54) (xy 193.6727 177.81)
+			(xy 193.04 176.53) (xy 193.04 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7655,7 +7655,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6727 162.57) (xy 193.6727 165.11)
+			(xy 193.04 162.56) (xy 193.04 165.1)
 		)
 		(stroke
 			(width 0)
@@ -7675,7 +7675,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.9427 167.65) (xy 192.4027 167.65)
+			(xy 194.31 167.64) (xy 191.77 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7715,7 +7715,7 @@
 	)
 	(wire
 		(pts
-			(xy 225.4227 174) (xy 225.4227 177.81)
+			(xy 224.79 173.99) (xy 224.79 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7755,7 +7755,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.6327 167.65) (xy 254.6327 179.08)
+			(xy 254 167.64) (xy 254 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7885,7 +7885,7 @@
 	)
 	(wire
 		(pts
-			(xy 254.6327 179.08) (xy 285.1127 179.08)
+			(xy 254 179.07) (xy 284.48 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7985,7 +7985,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.3427 160.03) (xy 225.4227 160.03)
+			(xy 219.71 160.02) (xy 224.79 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8005,7 +8005,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.7427 165.11) (xy 245.7427 179.08)
+			(xy 245.11 165.1) (xy 245.11 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8025,7 +8025,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6727 165.11) (xy 193.6727 168.92)
+			(xy 193.04 165.1) (xy 193.04 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8085,7 +8085,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.9427 165.11) (xy 193.6727 165.11)
+			(xy 194.31 165.1) (xy 193.04 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +8135,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.1927 166.38) (xy 296.5427 166.38)
+			(xy 289.56 166.37) (xy 295.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8195,7 +8195,7 @@
 	)
 	(wire
 		(pts
-			(xy 253.3627 147.33) (xy 254.6327 147.33)
+			(xy 252.73 147.32) (xy 254 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8255,7 +8255,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.4027 162.57) (xy 193.6727 162.57)
+			(xy 191.77 162.56) (xy 193.04 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8275,7 +8275,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 161.3) (xy 278.7627 161.3)
+			(xy 284.48 161.29) (xy 278.13 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8285,7 +8285,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.1927 161.3) (xy 296.5427 161.3)
+			(xy 289.56 161.29) (xy 295.91 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8365,7 +8365,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.3427 165.11) (xy 245.7427 165.11)
+			(xy 219.71 165.1) (xy 245.11 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8445,7 +8445,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.4027 160.03) (xy 193.6727 160.03)
+			(xy 191.77 160.02) (xy 193.04 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8655,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 166.38) (xy 285.1127 179.08)
+			(xy 284.48 166.37) (xy 284.48 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8665,7 +8665,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6727 160.03) (xy 193.6727 156.22)
+			(xy 193.04 160.02) (xy 193.04 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8705,7 +8705,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.6727 147.33) (xy 193.6727 148.6)
+			(xy 193.04 147.32) (xy 193.04 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8775,7 +8775,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.3427 162.57) (xy 245.7427 162.57)
+			(xy 219.71 162.56) (xy 245.11 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8865,7 +8865,7 @@
 	)
 	(wire
 		(pts
-			(xy 253.3627 179.08) (xy 254.6327 179.08)
+			(xy 252.73 179.07) (xy 254 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9125,7 +9125,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 166.38) (xy 290.1927 166.38)
+			(xy 284.48 166.37) (xy 289.56 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9135,7 +9135,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.1127 147.33) (xy 285.1127 161.3)
+			(xy 284.48 147.32) (xy 284.48 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9344,7 +9344,7 @@
 		(uuid "3269b92b-0c2a-4d66-a56b-9ccb873a5881")
 	)
 	(label "BUS3-A"
-		(at 306.0992 140.8836 0)
+		(at 306.07 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9634,7 +9634,7 @@
 		(uuid "6d36b325-2643-4390-8f2e-f3c58a6e39ef")
 	)
 	(label "+3.3V_SUPPLY"
-		(at 293.3992 145.9636 180)
+		(at 293.37 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9814,7 +9814,7 @@
 		(uuid "8b5fdbf9-3aa1-4b3d-8979-2e7cbbdddace")
 	)
 	(label "4(**)"
-		(at 192.4027 162.57 180)
+		(at 191.77 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9844,7 +9844,7 @@
 		(uuid "92e03c5a-6837-4d51-9c60-638f262c4eeb")
 	)
 	(label "15(Rx3)"
-		(at 192.4027 160.03 180)
+		(at 191.77 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9854,7 +9854,7 @@
 		(uuid "956a61f0-b193-4d0b-8457-3d81fb8e2996")
 	)
 	(label "14(Tx3)"
-		(at 192.4027 167.65 180)
+		(at 191.77 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9984,7 +9984,7 @@
 		(uuid "b592dd95-6ce1-44b4-9503-a6802a193955")
 	)
 	(label "BUS3-B"
-		(at 306.0992 143.4236 0)
+		(at 306.07 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10094,7 +10094,7 @@
 		(uuid "c00dafed-ff2d-4dbb-8fb0-2c22545c3b20")
 	)
 	(label "BUS3-B"
-		(at 296.5427 161.3 0)
+		(at 295.91 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10394,7 +10394,7 @@
 		(uuid "e737c0d7-218e-4437-9d21-9b17a77c7913")
 	)
 	(label "BUS3-A"
-		(at 296.5427 166.38 0)
+		(at 295.91 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10444,7 +10444,7 @@
 		(uuid "f12c2d87-1b94-4335-aeed-1eba44d234e0")
 	)
 	(label "+12V_SUPPLY"
-		(at 293.3992 140.8836 180)
+		(at 293.37 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10474,7 +10474,7 @@
 		(uuid "f74e6e6c-49cf-419a-9624-49e7468c4a74")
 	)
 	(label "+5V_SUPPLY"
-		(at 293.3992 143.4236 180)
+		(at 293.37 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12971,7 +12971,7 @@
 	)
 	(symbol
 		(lib_id "OH_Symbols:Molex_Mini-Fit_Jr._2x03")
-		(at 299.7492 143.4236 0)
+		(at 299.72 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12981,7 +12981,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005faa5146")
 		(property "Reference" "J4"
-			(at 299.7492 135.4226 0)
+			(at 299.72 135.509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12991,7 +12991,7 @@
 			)
 		)
 		(property "Value" "Mini-Fit Jr. 2x03"
-			(at 299.7492 149.1386 0)
+			(at 299.72 149.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13001,7 +13001,7 @@
 			)
 		)
 		(property "Footprint" "OH_Footprints:Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical"
-			(at 299.7238 157.4698 0)
+			(at 299.6946 157.5562 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13012,7 +13012,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2005291105_MOLEX-39299062_C505177.pdf"
-			(at 299.7238 155.133 0)
+			(at 299.6946 155.2194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13023,7 +13023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.7492 143.4236 0)
+			(at 299.72 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13034,7 +13034,7 @@
 			)
 		)
 		(property "PN" "039299067"
-			(at 299.7492 143.4236 0)
+			(at 299.72 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13045,7 +13045,7 @@
 			)
 		)
 		(property "LCSC" "C505177"
-			(at 299.7238 152.6184 0)
+			(at 299.6946 152.7048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13056,7 +13056,7 @@
 			)
 		)
 		(property "Manufacturer PN" "39-29-9062"
-			(at 299.7492 151.0436 0)
+			(at 299.72 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13066,7 +13066,7 @@
 			)
 		)
 		(property "Silkscreen" "BUS #3"
-			(at 299.7492 137.3276 0)
+			(at 299.72 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13875,7 +13875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.0992 145.9636 90)
+		(at 306.07 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13885,7 +13885,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fb0a7db")
 		(property "Reference" "#PWR013"
-			(at 312.4492 145.9636 0)
+			(at 312.42 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13896,7 +13896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 310.9252 145.9636 90)
+			(at 310.896 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13906,7 +13906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.0992 145.9636 0)
+			(at 306.07 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13916,7 +13916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.0992 145.9636 0)
+			(at 306.07 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13926,7 +13926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.0992 145.9636 0)
+			(at 306.07 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14154,7 +14154,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.6727 152.41 0)
+		(at 193.04 152.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14165,7 +14165,7 @@
 		(dnp no)
 		(uuid "0896f4c9-320d-492a-8e52-7612f7ffda3d")
 		(property "Reference" "R12"
-			(at 191.8947 151.2416 0)
+			(at 191.262 151.2316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14176,7 +14176,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 191.8947 153.553 0)
+			(at 191.262 153.543 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14187,7 +14187,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 195.4507 152.41 90)
+			(at 194.818 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14198,7 +14198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C140868.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWU1VfR1dYUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVdZVldSQk8GEwkK"
-			(at 193.6727 152.41 0)
+			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,7 +14209,7 @@
 			)
 		)
 		(property "Description" "±1% 125mW"
-			(at 186.3067 155.458 0)
+			(at 185.674 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14219,7 +14219,7 @@
 			)
 		)
 		(property "LCSC" "C140868"
-			(at 193.6727 152.41 0)
+			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14230,7 @@
 			)
 		)
 		(property "Manufacturer PN" "AC0805FR-0710KL"
-			(at 193.6727 152.41 0)
+			(at 193.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14407,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 225.4227 170.19 180)
+		(at 224.79 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14418,7 +14418,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a195461-1018-4719-a95a-6de95004505b")
 		(property "Reference" "C3"
-			(at 229.2327 167.6499 0)
+			(at 228.6 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14429,7 +14429,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 229.2327 170.1899 0)
+			(at 228.6 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14440,7 +14440,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 224.4575 166.38 0)
+			(at 223.8248 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +14451,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 225.4227 170.19 0)
+			(at 224.79 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +14462,7 @@
 			)
 		)
 		(property "Description" "X7R ±10% 50V"
-			(at 229.2327 172.7299 0)
+			(at 228.6 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14473,7 +14473,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CC0805KRX7R9BB104"
-			(at 225.4227 170.19 0)
+			(at 224.79 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +14484,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 225.4227 170.19 0)
+			(at 224.79 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14510,8 +14510,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CDSOT23-SM712_1")
-		(lib_id "CDSOT23-SM712:CDSOT23-SM712")
+		(lib_id "OH Symbols:CDSOT23-SM712")
 		(at 269.24 106.68 90)
 		(unit 1)
 		(body_style 1)
@@ -14541,7 +14540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDSOT23-SM712:CDSOT23-SM712"
+		(property "Footprint" "OH_Footprints:CDSOT23-SM712"
 			(at 364.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14553,7 +14552,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C404012.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWVFxQR1BWVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1VaUl1eWQkaCgg%3D"
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7673728"
 			(at 464.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14566,7 +14565,7 @@
 			)
 		)
 		(property "Description" "ESD 12VWM 7VWM 26VC 14VC"
-			(at 268.478 100.33 90)
+			(at 268.732 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14588,6 +14587,90 @@
 		)
 		(property "Manufacturer PN" "CDSOT23-SM712"
 			(at 864.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Height" "1.17"
+			(at 664.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 764.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOT23-SM712"
+			(at 864.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-CDSOT23-SM712"
+			(at 964.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-SM712?qs=FuI%252BOVLl4%2FLTY%2FGQ265RLA%3D%3D"
+			(at 1064.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CDSOT23-SM712"
+			(at 1164.16 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdsot23-sm712/bourns?utm_currency=USD&region=nac"
+			(at 1264.16 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14849,7 +14932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "THVD1410DR:THVD1410DR")
+		(lib_id "OH Symbols:THVD1410DR")
 		(at 199.39 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -14861,7 +14944,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da25c96-eabe-4ca9-b77c-c564baa10d15")
 		(property "Reference" "IC1"
-			(at 212.09 35.56 0)
+			(at 212.09 36.4955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14871,7 +14954,7 @@
 			)
 		)
 		(property "Value" "THVD1410DR"
-			(at 212.09 38.1 0)
+			(at 212.09 38.9198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14880,7 +14963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THVD1410DR:THVD1410DR"
+		(property "Footprint" "OH_Footprints:THVD1410DR"
 			(at 220.98 138.1 0)
 			(hide yes)
 			(show_name no)
@@ -14892,7 +14975,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1410.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1778506322792&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fthvd1410"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/THVD1410"
 			(at 220.98 238.1 0)
 			(hide yes)
 			(show_name no)
@@ -14928,6 +15011,90 @@
 		)
 		(property "Manufacturer PN" "THVD1410DR"
 			(at 220.98 638.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Height" "1.75"
+			(at 220.98 438.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 220.98 538.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "THVD1410DR"
+			(at 220.98 638.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-THVD1410DR"
+			(at 220.98 738.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1410DR?qs=chTDxNqvsylen%252BY7bN3dRQ%3D%3D"
+			(at 220.98 838.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "THVD1410DR"
+			(at 220.98 938.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/thvd1410dr/texas-instruments?region=nac"
+			(at 220.98 1038.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15406,7 +15573,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.6727 177.81 0)
+		(at 193.04 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15416,7 +15583,7 @@
 		(dnp no)
 		(uuid "3fe8ed41-0e77-4324-9218-de11938431ed")
 		(property "Reference" "#PWR024"
-			(at 193.6727 184.16 0)
+			(at 193.04 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15427,7 +15594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.6727 181.62 0)
+			(at 193.04 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15437,7 +15604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.6727 177.81 0)
+			(at 193.04 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15447,7 +15614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.6727 177.81 0)
+			(at 193.04 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15457,7 +15624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.6727 177.81 0)
+			(at 193.04 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15581,8 +15748,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CDSOT23-SM712_1")
-		(lib_id "CDSOT23-SM712:CDSOT23-SM712")
+		(lib_id "OH Symbols:CDSOT23-SM712")
 		(at 270.51 46.99 90)
 		(unit 1)
 		(body_style 1)
@@ -15612,7 +15778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDSOT23-SM712:CDSOT23-SM712"
+		(property "Footprint" "OH_Footprints:CDSOT23-SM712"
 			(at 365.43 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15624,7 +15790,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C404012.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWVFxQR1BWVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1VaUl1eWQkaCgg%3D"
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7673728"
 			(at 465.43 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15637,7 +15803,7 @@
 			)
 		)
 		(property "Description" "ESD 12VWM 7VWM 26VC 14VC"
-			(at 268.986 40.64 90)
+			(at 269.494 41.148 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15669,6 +15835,90 @@
 				(justify left top)
 			)
 		)
+		(property "Height" "1.17"
+			(at 665.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 765.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOT23-SM712"
+			(at 865.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-CDSOT23-SM712"
+			(at 965.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-SM712?qs=FuI%252BOVLl4%2FLTY%2FGQ265RLA%3D%3D"
+			(at 1065.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CDSOT23-SM712"
+			(at 1165.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdsot23-sm712/bourns?utm_currency=USD&region=nac"
+			(at 1265.43 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "3"
 			(uuid "11afc7f5-4b87-40c8-a105-a0d808e57102")
 		)
@@ -15689,7 +15939,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 290.1927 166.38 180)
+		(at 289.56 166.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15699,7 +15949,7 @@
 		(dnp no)
 		(uuid "56980840-3df1-4c7c-95fc-b08fb9bea3d7")
 		(property "Reference" "TP16"
-			(at 287.9067 171.9426 0)
+			(at 287.274 171.9326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15710,7 +15960,7 @@
 			)
 		)
 		(property "Value" "TP-B1A"
-			(at 287.1447 174.254 0)
+			(at 286.512 174.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15721,7 +15971,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 285.1127 166.38 0)
+			(at 284.48 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15732,7 +15982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.1127 166.38 0)
+			(at 284.48 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15743,7 +15993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290.1927 166.38 0)
+			(at 289.56 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16112,7 +16362,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.3427 177.81 0)
+		(at 219.71 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16122,7 +16372,7 @@
 		(dnp no)
 		(uuid "6256daee-989c-468c-b488-e852757e3895")
 		(property "Reference" "#PWR018"
-			(at 220.3427 184.16 0)
+			(at 219.71 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16133,7 +16383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.3427 181.62 0)
+			(at 219.71 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16143,7 +16393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.3427 177.81 0)
+			(at 219.71 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16153,7 +16403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.3427 177.81 0)
+			(at 219.71 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16163,7 +16413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.3427 177.81 0)
+			(at 219.71 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16187,7 +16437,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 225.4227 177.81 0)
+		(at 224.79 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16197,7 +16447,7 @@
 		(dnp no)
 		(uuid "6e67a005-616f-4252-a462-90a44e4a17dd")
 		(property "Reference" "#PWR019"
-			(at 225.4227 184.16 0)
+			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16208,7 +16458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.4227 181.62 0)
+			(at 224.79 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16218,7 +16468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.4227 177.81 0)
+			(at 224.79 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16228,7 +16478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.4227 177.81 0)
+			(at 224.79 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16238,7 +16488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 225.4227 177.81 0)
+			(at 224.79 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16337,7 +16587,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254.6327 163.84 0)
+		(at 254 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16347,7 +16597,7 @@
 		(dnp no)
 		(uuid "714d2047-0100-41e1-b1bc-fdf293acc3ea")
 		(property "Reference" "R15"
-			(at 254.8867 167.6246 0)
+			(at 254.254 167.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16358,7 +16608,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 254.8867 169.936 0)
+			(at 254.254 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16369,7 +16619,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 252.8547 163.84 90)
+			(at 252.222 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16380,7 +16630,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C844816.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWU1VfR1dYUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVdZVldSQk8GEwkK"
-			(at 254.6327 163.84 0)
+			(at 254 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16391,7 +16641,7 @@
 			)
 		)
 		(property "Description" "±1% 125mW"
-			(at 260.9827 171.841 0)
+			(at 260.35 171.831 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16401,7 +16651,7 @@
 			)
 		)
 		(property "LCSC" "C844816"
-			(at 254.6327 163.84 0)
+			(at 254 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16412,7 +16662,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CRCW0805120RFKEA"
-			(at 254.6327 163.84 0)
+			(at 254 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16808,7 +17058,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 193.6727 147.33 0)
+		(at 193.04 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16818,7 +17068,7 @@
 		(dnp no)
 		(uuid "8772a8c9-2493-421f-8a04-1e0c35e109d5")
 		(property "Reference" "#PWR015"
-			(at 193.6727 151.14 0)
+			(at 193.04 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16829,7 +17079,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 193.6727 143.52 0)
+			(at 193.04 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16839,7 +17089,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.6727 147.33 0)
+			(at 193.04 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16849,7 +17099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.6727 147.33 0)
+			(at 193.04 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16859,7 +17109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.6727 147.33 0)
+			(at 193.04 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17239,7 +17489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "THVD1410DR:THVD1410DR")
+		(lib_id "OH Symbols:THVD1410DR")
 		(at 198.12 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -17251,7 +17501,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5cfdc04-5363-4714-85b3-f1b656dd8c34")
 		(property "Reference" "IC2"
-			(at 210.82 95.25 0)
+			(at 210.82 96.1855 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17261,7 +17511,7 @@
 			)
 		)
 		(property "Value" "THVD1410DR"
-			(at 210.82 97.79 0)
+			(at 210.82 98.6098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17270,7 +17520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THVD1410DR:THVD1410DR"
+		(property "Footprint" "OH_Footprints:THVD1410DR"
 			(at 219.71 197.79 0)
 			(hide yes)
 			(show_name no)
@@ -17282,7 +17532,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1410.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1778506322792&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fthvd1410"
+		(property "Datasheet" "http://www.ti.com/lit/gpn/THVD1410"
 			(at 219.71 297.79 0)
 			(hide yes)
 			(show_name no)
@@ -17318,6 +17568,90 @@
 		)
 		(property "Manufacturer PN" "THVD1410DR"
 			(at 219.71 697.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Height" "1.75"
+			(at 219.71 497.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 219.71 597.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "THVD1410DR"
+			(at 219.71 697.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-THVD1410DR"
+			(at 219.71 797.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1410DR?qs=chTDxNqvsylen%252BY7bN3dRQ%3D%3D"
+			(at 219.71 897.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "THVD1410DR"
+			(at 219.71 997.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/thvd1410dr/texas-instruments?region=nac"
+			(at 219.71 1097.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17551,7 +17885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 249.5527 147.33 90)
+		(at 248.92 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17561,7 +17895,7 @@
 		(dnp no)
 		(uuid "af776dde-9e6e-43d2-8249-08261a6b8f90")
 		(property "Reference" "R13"
-			(at 249.5527 140.218 90)
+			(at 248.92 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17571,7 +17905,7 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 249.5527 142.758 90)
+			(at 248.92 142.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17581,7 +17915,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 249.5527 149.108 90)
+			(at 248.92 149.098 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +17926,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 249.5527 147.33 0)
+			(at 248.92 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,7 +17937,7 @@
 			)
 		)
 		(property "Description" "±1% 500mW"
-			(at 249.5527 145.044 90)
+			(at 248.92 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17613,7 +17947,7 @@
 			)
 		)
 		(property "LCSC" "C844598"
-			(at 249.5527 147.33 90)
+			(at 248.92 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17624,7 +17958,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CRCW080510R0FKEAHP"
-			(at 249.5527 147.33 90)
+			(at 248.92 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17651,7 +17985,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.6727 172.73 0)
+		(at 193.04 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17661,7 +17995,7 @@
 		(dnp no)
 		(uuid "b2dd5f16-4915-4bcf-a850-c2726c0f455c")
 		(property "Reference" "R3"
-			(at 195.4507 171.5616 0)
+			(at 194.818 171.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17672,7 +18006,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 195.4507 173.873 0)
+			(at 194.818 173.863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17683,7 +18017,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 191.8947 172.73 90)
+			(at 191.262 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17694,7 +18028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C140868.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.3.xh&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWU1VfR1dYUTsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVdZVldSQk8GEwkK"
-			(at 193.6727 172.73 0)
+			(at 193.04 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17705,7 +18039,7 @@
 			)
 		)
 		(property "Description" "±1% 125mW"
-			(at 201.0387 175.778 0)
+			(at 200.406 175.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17715,7 +18049,7 @@
 			)
 		)
 		(property "LCSC" "C140868"
-			(at 193.6727 172.73 0)
+			(at 193.04 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17726,7 +18060,7 @@
 			)
 		)
 		(property "Manufacturer PN" "AC0805FR-0710KL"
-			(at 193.6727 172.73 0)
+			(at 193.04 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17752,9 +18086,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CDSOT23-SM712_1")
-		(lib_id "CDSOT23-SM712:CDSOT23-SM712")
-		(at 271.1427 163.84 90)
+		(lib_id "OH Symbols:CDSOT23-SM712")
+		(at 270.51 163.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17764,7 +18097,7 @@
 		(dnp no)
 		(uuid "b903b077-e29e-4819-9a5f-0b8b99fff16a")
 		(property "Reference" "D3"
-			(at 271.3967 152.664 90)
+			(at 270.764 152.654 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17774,7 +18107,7 @@
 			)
 		)
 		(property "Value" "CDSOT23-SM712"
-			(at 271.3967 155.204 90)
+			(at 270.764 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17783,8 +18116,8 @@
 				)
 			)
 		)
-		(property "Footprint" "CDSOT23-SM712:CDSOT23-SM712"
-			(at 366.0627 147.33 0)
+		(property "Footprint" "OH_Footprints:CDSOT23-SM712"
+			(at 365.43 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,8 +18128,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C404012.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QVANA1IAQ1NcXlYHTgJWBlQDElJXVVwDFFlXAVEFRwcxVlNRT1RWVFxQR1BWVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slT1VaUl1eWQkaCgg%3D"
-			(at 466.0627 147.33 0)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7673728"
+			(at 465.43 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17808,7 +18141,7 @@
 			)
 		)
 		(property "Description" "ESD 12VWM 7VWM 26VC 14VC"
-			(at 269.6187 157.49 90)
+			(at 269.1153 157.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17818,7 +18151,7 @@
 			)
 		)
 		(property "LCSC" "C404012"
-			(at 271.1427 163.84 90)
+			(at 270.51 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17829,7 +18162,91 @@
 			)
 		)
 		(property "Manufacturer PN" "CDSOT23-SM712"
-			(at 866.0627 147.33 0)
+			(at 865.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Height" "1.17"
+			(at 665.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 765.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CDSOT23-SM712"
+			(at 865.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "652-CDSOT23-SM712"
+			(at 965.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CDSOT23-SM712?qs=FuI%252BOVLl4%2FLTY%2FGQ265RLA%3D%3D"
+			(at 1065.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "CDSOT23-SM712"
+			(at 1165.43 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cdsot23-sm712/bourns?utm_currency=USD&region=nac"
+			(at 1265.43 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17859,8 +18276,8 @@
 		)
 	)
 	(symbol
-		(lib_id "THVD1410DR:THVD1410DR")
-		(at 194.9427 160.03 0)
+		(lib_id "OH Symbols:THVD1410DR")
+		(at 194.31 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17871,7 +18288,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc037209-cb23-43c2-aba0-979f79949b4e")
 		(property "Reference" "IC3"
-			(at 207.6427 152.41 0)
+			(at 207.01 153.3355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17881,7 +18298,7 @@
 			)
 		)
 		(property "Value" "THVD1410DR"
-			(at 207.6427 154.95 0)
+			(at 207.01 155.7598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17890,8 +18307,8 @@
 				)
 			)
 		)
-		(property "Footprint" "THVD1410DR:THVD1410DR"
-			(at 216.5327 254.95 0)
+		(property "Footprint" "OH_Footprints:THVD1410DR"
+			(at 215.9 254.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17902,8 +18319,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/thvd1410.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1778506322792&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fthvd1410"
-			(at 216.5327 354.95 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/THVD1410"
+			(at 215.9 354.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17915,7 +18332,7 @@
 			)
 		)
 		(property "Description" "3.3-V to 5-V RS-485 transceiver with +/-18-kV IEC ESD protection"
-			(at 194.9427 160.03 0)
+			(at 194.31 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17926,7 +18343,7 @@
 			)
 		)
 		(property "LCSC" "C2671345"
-			(at 194.9427 160.03 0)
+			(at 194.31 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17937,7 +18354,91 @@
 			)
 		)
 		(property "Manufacturer PN" "THVD1410DR"
-			(at 216.5327 754.95 0)
+			(at 215.9 754.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Height" "1.75"
+			(at 215.9 554.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 215.9 654.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "THVD1410DR"
+			(at 215.9 754.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-THVD1410DR"
+			(at 215.9 854.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1410DR?qs=chTDxNqvsylen%252BY7bN3dRQ%3D%3D"
+			(at 215.9 954.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "THVD1410DR"
+			(at 215.9 1054.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/thvd1410dr/texas-instruments?region=nac"
+			(at 215.9 1154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18286,7 +18787,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 225.4227 147.33 0)
+		(at 224.79 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18296,7 +18797,7 @@
 		(dnp no)
 		(uuid "d5b9c3c4-4e9f-4d4c-9693-e8130c1a899f")
 		(property "Reference" "#PWR07"
-			(at 225.4227 151.14 0)
+			(at 224.79 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18307,7 +18808,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 225.4227 143.774 0)
+			(at 224.79 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18317,7 +18818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.4227 147.33 0)
+			(at 224.79 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18327,7 +18828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.4227 147.33 0)
+			(at 224.79 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18337,7 +18838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 225.4227 147.33 0)
+			(at 224.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18714,7 +19215,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 290.1927 161.3 0)
+		(at 289.56 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18724,7 +19225,7 @@
 		(dnp no)
 		(uuid "df52d8af-4910-4ebd-956d-e3672068bf2d")
 		(property "Reference" "TP15"
-			(at 287.9067 154.188 0)
+			(at 287.274 154.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18735,7 +19236,7 @@
 			)
 		)
 		(property "Value" "TP-B1B"
-			(at 286.8907 156.22 0)
+			(at 286.258 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18746,7 +19247,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 295.2727 161.3 0)
+			(at 294.64 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18757,7 +19258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.2727 161.3 0)
+			(at 294.64 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18768,7 +19269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 290.1927 161.3 0)
+			(at 289.56 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19091,7 +19592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SS54:SS54")
+		(lib_id "OH Symbols:SS54")
 		(at 332.74 46.99 270)
 		(mirror x)
 		(unit 1)
@@ -19124,7 +19625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SS54:SS54"
+		(property "Footprint" "OH_Footprints:SS54"
 			(at 239.09 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -19182,6 +19683,90 @@
 				(justify left top)
 			)
 		)
+		(property "Height" "2.62"
+			(at -60.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "MDD"
+			(at -160.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SS54"
+			(at -260.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -360.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -460.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -560.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -660.91 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
 		(pin "2"
 			(uuid "c35c4b74-000e-4de9-a936-6dc032ddbccf")
 		)
@@ -19199,7 +19784,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 249.5527 179.08 90)
+		(at 248.92 179.07 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19210,7 +19795,7 @@
 		(dnp no)
 		(uuid "f1713170-0d64-427c-ad9c-4fe2d5065dae")
 		(property "Reference" "R14"
-			(at 249.5527 186.192 90)
+			(at 248.92 186.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19220,7 +19805,7 @@
 			)
 		)
 		(property "Value" "10Ω"
-			(at 249.5527 183.652 90)
+			(at 248.92 183.642 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19230,7 +19815,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 249.5527 177.302 90)
+			(at 248.92 177.292 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19241,7 +19826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20043/crcwhpe3.pdf"
-			(at 249.5527 179.08 0)
+			(at 248.92 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19252,7 +19837,7 @@
 			)
 		)
 		(property "Description" "±1% 500mW"
-			(at 249.5527 181.366 90)
+			(at 248.92 181.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19262,7 +19847,7 @@
 			)
 		)
 		(property "LCSC" "C844598"
-			(at 249.5527 179.08 90)
+			(at 248.92 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19273,7 +19858,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CRCW080510R0FKEAHP"
-			(at 249.5527 179.08 90)
+			(at 248.92 179.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19300,7 +19885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.9827 163.84 270)
+		(at 260.35 163.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19310,7 +19895,7 @@
 		(dnp no)
 		(uuid "f48a617f-b925-4202-98de-b800b118b2ef")
 		(property "Reference" "#PWR020"
-			(at 254.6327 163.84 0)
+			(at 254 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19321,7 +19906,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.2047 161.3 90)
+			(at 258.572 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19331,7 +19916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.9827 163.84 0)
+			(at 260.35 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19341,7 +19926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.9827 163.84 0)
+			(at 260.35 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19351,7 +19936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.9827 163.84 0)
+			(at 260.35 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
