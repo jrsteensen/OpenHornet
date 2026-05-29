@@ -1,0 +1,19 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,"C1,C2,C3",C_0805_2012Metric,C49678,3
+10kΩ,"R1,R12,R2,R3,R7,R8",R_0805_2012Metric,C140868,6
+10Ω,"R10,R13,R14,R4,R5,R9",R_0805_2012Metric,C844598,6
+120Ω,"R11,R15,R6",R_0805_2012Metric,C844816,3
+CDSOT23-SM712,"D1,D2,D3",CDSOT23-SM712,C404012,3
+Mini-Fit Jr. 2x03,"J2,J3,J4",Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,C505177,3
+Mini-Fit Jr. 2x04,J1,Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical,C587470,1
+SS54,D4,SS54,C22452,1
+THVD1410DR,"IC1,IC2,IC3",THVD1410DR,C2671345,3
+Screw_Terminal_01x01,J6,TerminalBlock_MetzConnect_360272_1x01_Horizontal_ScrewM2.6,,1
+PinHeader_2x11,J5,PinHeader_2x11_P2.54mm_Vertical,,1
+Digital,P4,PinHeader_2x18_P2.54mm_Vertical,,1
+Power,P1,PinHeader_1x08_P2.54mm_Vertical,,1
+Analog,P3,PinHeader_1x08_P2.54mm_Vertical,,1
+PWM,P5,PinHeader_1x10_P2.54mm_Vertical,,1
+PWM,P6,PinHeader_1x08_P2.54mm_Vertical,,1
+Communication,P7,PinHeader_1x08_P2.54mm_Vertical,,1
+Analog,P2,PinHeader_1x08_P2.54mm_Vertical,,1
