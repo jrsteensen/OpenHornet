@@ -6221,7 +6221,7 @@
 		)
 		(uuid "47dcb1e3-72a0-4294-a419-2c39d2d5185d")
 	)
-	(text "TODO:\n\nMOVE SYMBOLS TO OH LIBRARIES\nPOINT AFFECTED SYMBOLS/FOOTPRINTS/STEP AT OH LIBRARIES\n\nPCB:\nROTATE MOLEX CONNECTOR TO MINIMIZE RS485 STUB LENGTH\nADD 2 VIAs EACH TO VCC AND GND ON THE TRANSCEIVER\nCHECK SILKSCREEN, ADJUST AS REQUIRED"
+	(text "TODO:\n\nX MOVE SYMBOLS TO OH LIBRARIES\nX POINT AFFECTED SYMBOLS/FOOTPRINTS/STEP AT OH LIBRARIES\n\nPCB:\nMINIMIZE RS485 STUB LENGTH BY TUNING A/B TRACES\nADD 2 VIAs EACH TO VCC AND GND ON THE TRANSCEIVER\nX CHECK SILKSCREEN, ADJUST AS REQUIRED\nX ADD RS485 SHIELD DRAIN SCREW TERMINAL\nGENERATE STEP FILE\nGENERATE SCHEMATIC PDF\nGENERATE JLCPCB PACKAGE\nCOPY MFG AND PDF TO RELEASE FOLDER"
 		(exclude_from_sim no)
 		(at 147.828 193.294 0)
 		(effects
@@ -6570,12 +6570,6 @@
 			(justify left top)
 		)
 		(uuid "fd203cc6-3ca1-4c18-8150-9e0ed6358d1e")
-	)
-	(junction
-		(at 229.87 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00184cc7-9f59-4e12-aad6-35376f15f263")
 	)
 	(junction
 		(at 254 179.07)
@@ -7145,7 +7139,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 107.95) (xy 246.38 107.95)
+			(xy 223.52 107.95) (xy 246.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7315,7 +7309,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 115.57) (xy 229.87 120.65)
+			(xy 229.87 116.84) (xy 229.87 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7492,6 +7486,16 @@
 			(type default)
 		)
 		(uuid "3667d277-4f7c-4faf-b9ba-8b1a5e96bbbc")
+	)
+	(wire
+		(pts
+			(xy 229.87 102.87) (xy 229.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f6998a-784c-4e7c-8fa2-463537165b2e")
 	)
 	(wire
 		(pts
@@ -8455,16 +8459,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 102.87) (xy 229.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5698d53-5ca8-4ced-a7cf-6ec73bba2554")
-	)
-	(wire
-		(pts
 			(xy 223.52 105.41) (xy 246.38 105.41)
 		)
 		(stroke
@@ -8542,16 +8536,6 @@
 			(type default)
 		)
 		(uuid "c0d4df99-6a86-4b05-a326-3e62c3dda32b")
-	)
-	(wire
-		(pts
-			(xy 223.52 107.95) (xy 229.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18da225-8860-4343-b62a-8bb3c6fbe382")
 	)
 	(wire
 		(pts
@@ -16689,7 +16673,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 229.87 111.76 180)
+		(at 229.87 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16699,7 +16683,7 @@
 		(dnp no)
 		(uuid "76d40484-d92b-4562-917c-a7165865b174")
 		(property "Reference" "C2"
-			(at 230.632 114.554 0)
+			(at 230.632 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16710,7 +16694,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 230.632 117.094 0)
+			(at 230.632 118.364 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16721,7 +16705,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 228.9048 107.95 0)
+			(at 228.9048 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16732,7 +16716,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CChttps://datasheet.lcsc.com/szlcsc/YAGEO-https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf"
-			(at 229.87 111.76 0)
+			(at 229.87 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16743,7 +16727,7 @@
 			)
 		)
 		(property "Description" "X7R ±10% 50V"
-			(at 230.632 119.634 0)
+			(at 230.632 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16754,7 +16738,7 @@
 			)
 		)
 		(property "Manufacturer PN" "CC0805KRX7R9BB104"
-			(at 229.87 111.76 0)
+			(at 229.87 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16765,7 +16749,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 229.87 111.76 0)
+			(at 229.87 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18893,7 +18877,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650073_THR"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_360272_1x01_Horizontal_ScrewM2.6"
 			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18904,7 +18888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74650073R.pdf"
+		(property "Datasheet" "https://www.metz-connect.com/externalfiles/360272/863849.PDF"
 			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18915,7 +18899,7 @@
 				)
 			)
 		)
-		(property "Description" "M3 screw terminal"
+		(property "Description" "TERM BLOCK 1POS SIDE ENTRY"
 			(at 144.78 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -18926,8 +18910,8 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "74650073R"
-			(at 152.654 66.294 90)
+		(property "Manufacturer PN" "  360272"
+			(at 149.86 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
