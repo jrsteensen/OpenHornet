@@ -5845,7 +5845,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "XU"
-			(at 0 28.194 0)
+			(at 0 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5855,7 +5855,7 @@
 			)
 		)
 		(property "Value" "ProMicro_5V/16Hz"
-			(at -0.127 -21.336 0)
+			(at -0.254 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5865,7 +5865,7 @@
 			)
 		)
 		(property "Footprint" "OH_Footprints:DIP-24_W15.24mm_Socket"
-			(at -0.127 -30.607 0)
+			(at -0.254 -24.511 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ATMega32U4.pdf"
-			(at -0.127 -27.559 0)
+			(at -0.254 -21.463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5886,8 +5886,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "SPARKFUN PRO MICRO ATMEGA32U4 5V/16Hz"
+			(at 0 17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5908,8 +5908,19 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "Pro Micro - 5V/16MHz"
-			(at -0.127 -24.257 0)
+		(property "Manufacturer PN" "DEV-12640"
+			(at -0.254 -18.161 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "sparkfun pro micro atmega32u4 atmega aruduino"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -5932,8 +5943,8 @@
 		)
 		(symbol "Controller_Pro_Micro_0_1"
 			(rectangle
-				(start -12.7 26.035)
-				(end 12.7 -19.05)
+				(start -11.43 16.002)
+				(end 11.43 -15.875)
 				(stroke
 					(width 0)
 					(type default)
@@ -5945,7 +5956,7 @@
 		)
 		(symbol "Controller_Pro_Micro_1_1"
 			(pin bidirectional line
-				(at -17.78 24.13 0)
+				(at -16.51 13.97 0)
 				(length 5.08)
 				(name "TX0/D1"
 					(effects
@@ -5963,7 +5974,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -16.51 11.43 0)
 				(length 5.08)
 				(name "RX1/D0"
 					(effects
@@ -5981,7 +5992,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 16.51 0)
+				(at -16.51 8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -5999,7 +6010,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 12.7 0)
+				(at -16.51 6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6017,7 +6028,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 8.89 0)
+				(at -16.51 3.81 0)
 				(length 5.08)
 				(name "SDA/D2"
 					(effects
@@ -6035,7 +6046,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at -16.51 1.27 0)
 				(length 5.08)
 				(name "~{SCL/D3}"
 					(effects
@@ -6053,7 +6064,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
+				(at -16.51 -1.27 0)
 				(length 5.08)
 				(name "D4/A6"
 					(effects
@@ -6071,7 +6082,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -16.51 -3.81 0)
 				(length 5.08)
 				(name "~{D5}"
 					(effects
@@ -6089,7 +6100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -6.35 0)
+				(at -16.51 -6.35 0)
 				(length 5.08)
 				(name "~{D6/A7}"
 					(effects
@@ -6107,7 +6118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -16.51 -8.89 0)
 				(length 5.08)
 				(name "D7"
 					(effects
@@ -6125,7 +6136,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -13.97 0)
+				(at -16.51 -11.43 0)
 				(length 5.08)
 				(name "D8/A8"
 					(effects
@@ -6143,7 +6154,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -17.78 0)
+				(at -16.51 -13.97 0)
 				(length 5.08)
 				(name "~{D9/A9}"
 					(effects
@@ -6161,7 +6172,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 16.51 -13.97 180)
 				(length 5.08)
 				(name "~{D10/A10}"
 					(effects
@@ -6179,7 +6190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -13.97 180)
+				(at 16.51 -11.43 180)
 				(length 5.08)
 				(name "D16/MOSI"
 					(effects
@@ -6197,7 +6208,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 16.51 -8.89 180)
 				(length 5.08)
 				(name "D14/MISO"
 					(effects
@@ -6215,7 +6226,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -6.35 180)
+				(at 16.51 -6.35 180)
 				(length 5.08)
 				(name "D15/SCK"
 					(effects
@@ -6233,7 +6244,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 16.51 -3.81 180)
 				(length 5.08)
 				(name "A0"
 					(effects
@@ -6251,7 +6262,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 1.27 180)
+				(at 16.51 -1.27 180)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -6269,7 +6280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 16.51 1.27 180)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -6287,7 +6298,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 8.89 180)
+				(at 16.51 3.81 180)
 				(length 5.08)
 				(name "A3"
 					(effects
@@ -6305,7 +6316,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 12.7 180)
+				(at 16.51 6.35 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -6323,7 +6334,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 16.51 180)
+				(at 16.51 8.89 180)
 				(length 5.08)
 				(name "RST"
 					(effects
@@ -6341,7 +6352,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 20.32 180)
+				(at 16.51 11.43 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6359,7 +6370,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 24.13 180)
+				(at 16.51 13.97 180)
 				(length 5.08)
 				(name "RAW"
 					(effects
