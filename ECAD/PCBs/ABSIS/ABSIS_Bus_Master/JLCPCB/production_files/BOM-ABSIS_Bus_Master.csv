@@ -1,14 +1,17 @@
-Comment,Designator,Footprint,LCSC
-MAX487EESA+T,"U1,U2,U3",SOIC-8_3.9x4.9mm_P1.27mm,C116539
-120,"R1,R2,R3",R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C17437
-0.1uF,"C1,C2,C3",C_0805_2012Metric,C49678
-Mini-Fit Jr. 2x03,"J2,J3,J4",Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,C505177
-Mini-Fit Jr. 2x04,J1,Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical,C587470
-PinHeader_2x11,J5,PinHeader_2x11_P2.54mm_Vertical,
-Digital,P4,PinHeader_2x18_P2.54mm_Vertical,
-Power,P1,PinHeader_1x08_P2.54mm_Vertical,
-Analog,P3,PinHeader_1x08_P2.54mm_Vertical,
-PWM,P5,PinHeader_1x10_P2.54mm_Vertical,
-PWM,P6,PinHeader_1x08_P2.54mm_Vertical,
-Communication,P7,PinHeader_1x08_P2.54mm_Vertical,
-Analog,P2,PinHeader_1x08_P2.54mm_Vertical,
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,"C1,C2,C3",C_0805_2012Metric,C49678,3
+10kΩ,"R1,R12,R2,R3,R7,R8",R_0805_2012Metric,C140868,6
+10Ω,"R10,R13,R14,R4,R5,R9",R_0805_2012Metric,C844598,6
+120Ω,"R11,R15,R6",R_0805_2012Metric,C844816,3
+CDSOT23-SM712,"D1,D2,D3",CDSOT23-SM712,C404012,3
+Mini-Fit Jr. 2x03,"J2,J3,J4",Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical,C505177,3
+Mini-Fit Jr. 2x04,J1,Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical,C587470,1
+S3MB,D4,D_SMB,C47524,1
+THVD1410DR,"IC1,IC2,IC3",THVD1410DR,C2671345,3
+Digital,P4,PinHeader_2x18_P2.54mm_Vertical,,1
+Power,P1,PinHeader_1x08_P2.54mm_Vertical,,1
+Analog,P3,PinHeader_1x08_P2.54mm_Vertical,,1
+PWM,P5,PinHeader_1x10_P2.54mm_Vertical,,1
+PWM,P6,PinHeader_1x08_P2.54mm_Vertical,,1
+Communication,P7,PinHeader_1x08_P2.54mm_Vertical,,1
+Analog,P2,PinHeader_1x08_P2.54mm_Vertical,,1
