@@ -1,10 +1,10 @@
 # Board and change review record
 
-The content below is required by the proposed framework; its storage format MAY be adapted to existing project documentation. Create a completed record beside the board's documentation or in its PR with durable evidence links. Do not commit an empty copy merely to check a box.
+The content below is required by the adopted framework; its storage format MAY be adapted to existing project documentation. Create a completed record beside the board's documentation or in its PR with durable evidence links. Do not commit an empty copy merely to check a box.
 
 ## Identity and scope
 
-Record board/part number, revision, assembly variant, baseline and final commits/hashes, linked task/PR, intended assembly and change rationale. Identify validated baseline evidence or state unknown. Classify new/significant/minor and justify the classification.
+Record board/part number, revision, assembly variant, baseline and final commits/hashes, linked task/PR, intended assembly and change rationale. Identify validated baseline evidence or state unknown. Classify new/significant/minor and justify the classification. Record the task branch used for design mutations and confirm that no hardware changes were made directly on the default branch.
 
 ## Requirements and design inputs
 
@@ -16,7 +16,11 @@ Record interface revisions and exact pin maps; power/load/return budgets; USB so
 
 ## Tool and check evidence
 
-Record KiCad and Konnect versions/capabilities, resolved libraries and variables, significant operations, ERC/DRC reports and exit status, zone-refill/save evidence, schematic parity, unrouted result, rule severities/exclusions, rendered review and mechanical fit evidence. Clearly identify checks that did not run.
+Record the exact KiCad and `kicad-cli` versions; Konnect upstream, version and executable/source; Codex version/model when AI assistance is used; execution OS/environment; resolved OpenHornet library variables/paths; and the result/date of the required toolchain smoke test. Identify whether the session was read-only Audit mode or interactive Design mode and note any non-default MCP approval configuration relevant to the work.
+
+Record significant semantic operations, ERC/DRC reports and exit status, zone-refill/save evidence, schematic parity, unrouted result, rule severities/exclusions, rendered review and mechanical fit evidence. For PCB work, identify the live KiCad/IPC document used. For schematic work, record the visual review method and native KiCad review checkpoint. Clearly identify checks that did not run.
+
+For shared-library changes, identify every affected project checked and confirm the active KiCad library mappings resolved to the same repository revision as the design under review.
 
 ## Deviations
 
@@ -26,7 +30,7 @@ Record KiCad and Konnect versions/capabilities, resolved libraries and variables
 
 ## Manufacturing and prototype
 
-Link the reviewed package manifest/hashes, CAM review, BOM/CPL reconciliation, supplier placement review and order configuration. Record prototype identity, assembly substitutions/rework, firmware and bench setup. Attach test procedure, numerical acceptance criteria, measurements and failures/corrections.
+Link the reviewed package manifest/hashes, CAM review, BOM/CPL reconciliation, supplier placement review and order configuration. Record the JLCPCB availability recheck date for required SMD parts and any approved sourcing deviation. Record prototype identity, assembly substitutions/rework, firmware and bench setup. Attach test procedure, numerical acceptance criteria, measurements and failures/corrections.
 
 ## Acceptance
 
