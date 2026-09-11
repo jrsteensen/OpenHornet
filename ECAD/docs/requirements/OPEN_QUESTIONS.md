@@ -4,7 +4,11 @@ The decision tables below contain items still unresolved after the baseline and 
 
 ## Confirmed manufacturing policy
 
-The owner has selected JLCPCB for PCB fabrication and all fitted SMD procurement/assembly, DigiKey or Mouser for through-hole sourcing, JLCPCB-compatible manufacturing packages, and cost-conscious design. See MFG-012 through MFG-016 in [MANUFACTURING.md](MANUFACTURING.md). Q-01 concerns applicable service/profile values and source conflicts, not an undecided manufacturer.
+The owner has selected JLCPCB for PCB fabrication and all fitted SMD procurement/assembly, DigiKey or Mouser as default through-hole sources with documented alternatives permitted, JLCPCB-compatible manufacturing packages, and cost-conscious design. See MFG-012 through MFG-017 in [MANUFACTURING.md](MANUFACTURING.md). Q-01 concerns applicable service/profile values and source conflicts, not an undecided manufacturer.
+
+## Confirmed adoption and authority
+
+PR #1255 merge activates the framework for new designs and changed portions, without retroactive blanket redesign or qualification. Already-open PRs document gaps and disposition. Anyone authorized by GitHub repository permissions may merge subject to repository controls; merge does not confer engineering qualification. Development hardware may merge before physical qualification with disclosed status and provisional outputs. Only John Steensen may accept a very minor change as fully qualified without a new prototype, with a recorded QUAL-010 decision. These decisions resolve Q-12; the ID is retained below for traceability.
 
 ## Confirmed ALE+ decisions
 
@@ -39,7 +43,7 @@ Resolved by the owner on 2026-09-11: ALE+ replaces ALE plus the relay module; bu
 | Q-09 | Identify approved board/release baselines and associated physical test records; decide active status of Type B ECS, ABSIS_MPC, legacy templates and custom Pro Micro. | Record ALE+ v8 test evidence, final 8.0.1 cosmetic delta and legacy ALE/relay installation transition; successor intent is already confirmed. MPC PCB has no footprints; custom Pro Micro is incomplete. Historical planning names/part numbers differ from current release packages. A file's presence does not establish supported status. |
 | Q-10 | Establish reviewed library/MPN equivalence policy and disposition existing mappings/exceptions, including IFEI and UTIL_PHOTOSWITCH case-split sources and inherited ignored DRC categories. | Six shared symbol files plus legacy/cache/local assets; absolute interconnect library path; schematic/PCB/metadata inconsistencies; existing per-item exclusions. No global waiver list or complete approved-parts list was found. |
 | Q-11 | Identify approved Konnect upstream/version and verify its actual KiCad 10 operation coverage; select the reproducible validation/export toolchain and evidence-retention location. | No repository Konnect configuration or installed KiCad validation tools in this review environment. Official KiCad IPC/CLI capabilities can guide the workflow but do not establish Konnect support. |
-| Q-12 | Name human design/release authority and approve this framework's new process gates and deviation handling. | Existing PR checklists require schematic/PCB review and outputs, but do not establish the five separate evidence states. |
+| Q-12 (resolved) | Owner confirmed adoption, GitHub-based merge authority and pre-qualification development merges; very-minor-change qualification without a new prototype is reserved to John Steensen. | GOV-010/011 and QUAL-010 record the decision. Identify the responsible engineering reviewer and explicit acceptance per board; no automatic engineering approval follows from merge permission. |
 
 ## Proposed adoption order
 

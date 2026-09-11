@@ -10,7 +10,7 @@ Record board/part number, revision, assembly variant, baseline and final commits
 
 | Requirement ID / topic | Applicable? | Design decision and evidence | Reviewer / status |
 | --- | --- | --- | --- |
-| Applicable GOV, FLOW, SCH, CMP, LIB, IF, BUS, PWR, USB, PI, PCB, MECH, VAL, MFG, QUAL, REL IDs | Yes or N/A with rationale | Source/datasheet/calculation/report reference | Pending/pass/fail |
+| Applicable GOV, FLOW, SCH, CMP, LIB, IF, BUS, PWR, USB, PI, PCB, MECH, VAL, MFG, MIG, QUAL, REL IDs | Yes or N/A with rationale | Source/datasheet/calculation/report reference | Pending/pass/fail |
 
 Record interface revisions and exact pin maps; power/load/return budgets; USB source-state table; cable/node/termination assumptions; fabrication profile; mechanical drawing revision; component equivalence/DNP lists; firmware dependencies. Reference open-question IDs and record board-specific decisions where project-wide values remain TBD.
 
@@ -30,4 +30,4 @@ Link the reviewed package manifest/hashes, CAM review, BOM/CPL reconciliation, s
 
 ## Acceptance
 
-Report each state separately: **CAD-valid; electrically reviewed; manufacturable; prototype validated; release-qualified**. For each, record pending/pass/fail/N/A with basis, exact scope, reviewer and date. Record owner release acceptance only when actually given.
+Report each state separately: **CAD-valid; electrically reviewed; manufacturable; prototype validated; release-qualified**. For each, record pending/pass/fail/N/A with basis, exact scope, reviewer and date. Record owner release acceptance only when actually given. For QUAL-010, record John Steensen’s explicit no-new-prototype qualification decision and carried-forward evidence. Record development merge status separately from qualification.

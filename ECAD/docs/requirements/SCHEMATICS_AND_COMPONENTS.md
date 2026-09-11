@@ -15,7 +15,7 @@ Recurring implementations use project and standard KiCad libraries, `Manufacture
 
 ## Components and qualification
 
-Component selection MUST follow MFG-013/014/016/017 in [MANUFACTURING.md](MANUFACTURING.md): all fitted SMD parts available for JLCPCB procurement/assembly, through-hole parts sourced from DigiKey or Mouser, the largest available JLCPCB assembly stock selected among suitable SMD candidates, and cost assessed alongside technical suitability. Record exact MPN and distributor/JLCPCB identifiers separately; an approved electrical equivalent still needs sourcing and assembly eligibility checks.
+Component selection MUST follow MFG-013/014/016/017 in [MANUFACTURING.md](MANUFACTURING.md): all SMD parts fitted directly to OH PCBs purchased through and assembled by JLCPCB, through-hole parts defaulting to DigiKey or Mouser with documented other suppliers permitted, the largest available JLCPCB assembly stock selected among suitable SMD candidates, and cost assessed alongside technical suitability. Record exact MPN and distributor/JLCPCB identifiers separately; an approved electrical equivalent still needs sourcing and assembly eligibility checks.
 
 
 - **CMP-001:** Electrical choices MUST be checked against authoritative manufacturer datasheets for the exact selected device. Record document revision/URL and relevant pages or tables. Supplier listings MAY locate a part but do not override its datasheet. Unavailable or ambiguous data remains an unresolved qualification item.

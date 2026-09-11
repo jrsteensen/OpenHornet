@@ -1,12 +1,14 @@
 # OpenHornet ECAD requirements
 
-Status: **draft framework for owner review**. Baseline inspected: `master` at `c259a65a1759801a2affea817fd99f6a14f1e1fe` (2026-09-10 review). This PR does not qualify any hardware.
+Status: **effective when PR #1255 is merged into the default branch; draft until that merge**. Baseline inspected: `master` at `c259a65a1759801a2affea817fd99f6a14f1e1fe` (2026-09-10 review). This PR does not qualify any hardware.
 
 The canonical path is **`ECAD/docs/requirements/`**, matching the existing uppercase `ECAD` tree. The requested lowercase spelling is not a second directory: creating both would collide on common Windows/macOS filesystems. No hardware tree is renamed.
 
 ## Authority and requirement language
 
-On adoption, the requirements in this directory are normative for ECAD contributions, subject to the scope and status below. During this draft, they are proposed for adoption, not a claim of pre-existing policy.
+Merging PR #1255 adopts the normative requirements for new designs and changed portions of existing designs, including affected interfaces and dependencies. Existing released boards retain their historical status; adoption does not retroactively qualify them or require wholesale redesign. Cosmetic maintenance does not trigger unrelated migration or repeat physical qualification. Already-open hardware PRs document applicable gaps and their disposition. See GOV-010/011 for scope and authority.
+
+Descriptions of process rules as “new policy proposed for adoption” identify their origin in this PR; they become effective on adoption. Individually unresolved technical choices marked Proposed/TBD remain pending until separately resolved. During this draft, the framework does not claim to be pre-existing policy.
 
 - **MUST / MUST NOT**: mandatory conditions within the stated scope.
 - **SHOULD / SHOULD NOT**: expected practice; document the engineering reason for a different approach.
