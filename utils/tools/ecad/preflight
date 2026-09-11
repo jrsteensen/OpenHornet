@@ -1,0 +1,178 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mode="${1:-audit}"
+case "$mode" in
+  audit|design) ;;
+  *) echo "usage: $0 [audit|design]" >&2; exit 2 ;;
+esac
+
+repo_root="$(git rev-parse --show-toplevel 2>/dev/null || true)"
+if [[ -z "$repo_root" ]]; then
+  echo "FAIL  not inside a Git repository" >&2
+  exit 1
+fi
+cd "$repo_root"
+
+failures=0
+ok()   { printf 'OK    %s\n' "$*"; }
+warn() { printf 'WARN  %s\n' "$*"; }
+fail() { printf 'FAIL  %s\n' "$*"; failures=$((failures + 1)); }
+
+printf 'OpenHornet ECAD preflight (%s)\n' "$mode"
+printf 'repo:   %s\n' "$repo_root"
+printf 'branch: %s\n\n' "$(git branch --show-current)"
+
+for cmd in git kicad-cli codex konnect python3; do
+  if command -v "$cmd" >/dev/null 2>&1; then
+    ok "$cmd: $(command -v "$cmd")"
+  else
+    fail "$cmd not found on PATH"
+  fi
+done
+
+if command -v kicad-cli >/dev/null 2>&1; then
+  printf '      KiCad:   %s\n' "$(kicad-cli version 2>/dev/null || true)"
+fi
+if command -v codex >/dev/null 2>&1; then
+  printf '      Codex:   %s\n' "$(codex --version 2>/dev/null || true)"
+fi
+if command -v konnect >/dev/null 2>&1; then
+  printf '      Konnect: %s\n' "$(konnect --version 2>/dev/null || true)"
+fi
+
+branch="$(git branch --show-current)"
+if [[ "$mode" == "design" ]]; then
+  if [[ -z "$branch" ]]; then
+    fail "Design mode requires a named task branch; detached HEAD is not allowed"
+  elif [[ "$branch" == "master" || "$branch" == "main" ]]; then
+    fail "Design mode is not allowed on the default branch ($branch)"
+  else
+    ok "Design branch: $branch"
+  fi
+
+  if [[ -n "$(git status --porcelain)" ]]; then
+    if [[ "${OH_ALLOW_DIRTY:-0}" == "1" ]]; then
+      warn "working tree is dirty; OH_ALLOW_DIRTY=1 explicitly permits resuming this scoped task"
+    else
+      fail "working tree is dirty; commit/stash unrelated work, or set OH_ALLOW_DIRTY=1 only to resume intentional scoped ECAD work"
+    fi
+  else
+    ok "working tree clean"
+  fi
+else
+  if [[ -n "$(git status --porcelain)" ]]; then
+    warn "working tree is dirty; audit results must distinguish pre-existing changes"
+  else
+    ok "working tree clean"
+  fi
+fi
+
+if command -v codex >/dev/null 2>&1; then
+  if codex mcp list 2>/dev/null | grep -Eq '^konnect[[:space:]]'; then
+    ok "Codex MCP registration: konnect"
+  else
+    fail "Konnect is not listed by 'codex mcp list'"
+  fi
+fi
+
+if command -v konnect >/dev/null 2>&1; then
+  if konnect status --client codex >/dev/null 2>&1; then
+    ok "Konnect Codex skills/status"
+  else
+    fail "'konnect status --client codex' failed"
+  fi
+fi
+
+lib_root="$repo_root/ECAD/lib"
+for path in \
+  "$lib_root/OH_3DModels" \
+  "$lib_root/OH_Footprints.pretty" \
+  "$lib_root/OH_Symbols" \
+  "$lib_root/OH_Templates" \
+  "$lib_root/OH_Symbols/ABSIS.kicad_sym" \
+  "$lib_root/OH_Symbols/Arduino Pro Mini 5v.kicad_sym" \
+  "$lib_root/OH_Symbols/KiCadCustomLib.kicad_sym" \
+  "$lib_root/OH_Symbols/OH_Interconnect.kicad_sym" \
+  "$lib_root/OH_Symbols/OH_Symbols.kicad_sym" \
+  "$lib_root/OH_Symbols/OpenHornet.kicad_sym"; do
+  if [[ -e "$path" ]]; then
+    :
+  else
+    fail "missing OpenHornet library target: $path"
+  fi
+done
+if (( failures == 0 )); then
+  ok "OpenHornet shared library targets exist"
+fi
+
+# On Linux, verify KiCad's configured OpenHornet path variables point at this checkout.
+# Other platforms are not failed here; TOOLCHAIN.md requires equivalent manual verification.
+if [[ "$(uname -s)" == "Linux" ]] && command -v kicad-cli >/dev/null 2>&1; then
+  kver="$(kicad-cli version 2>/dev/null | head -1)"
+  kseries="$(sed -nE 's/^([0-9]+\.[0-9]+).*/\1/p' <<<"$kver")"
+  cfg="$HOME/.config/kicad/${kseries}/kicad_common.json"
+  if [[ -n "$kseries" && -f "$cfg" ]]; then
+    if python3 - "$cfg" "$repo_root" <<'PY'
+import json, sys
+from pathlib import Path
+cfg = Path(sys.argv[1])
+root = Path(sys.argv[2]).resolve()
+data = json.loads(cfg.read_text())
+vars_ = data.get("environment", {}).get("vars", {})
+expected = {
+    "KICAD_USER_OH_3DMODELS": root / "ECAD/lib/OH_3DModels",
+    "KICAD_USER_OH_FOOTPRINTS": root / "ECAD/lib",
+    "KICAD_USER_OH_SYMBOLS": root / "ECAD/lib/OH_Symbols",
+    "KICAD_USER_OH_TEMPLATES": root / "ECAD/lib/OH_Templates",
+}
+bad = False
+for name, target in expected.items():
+    actual = vars_.get(name)
+    if actual is None:
+        print(f"MISSING {name}")
+        bad = True
+        continue
+    try:
+        same = Path(actual).resolve() == target.resolve()
+    except Exception:
+        same = False
+    print(f"{name}={actual}")
+    if not same:
+        print(f"EXPECTED {target}")
+        bad = True
+raise SystemExit(1 if bad else 0)
+PY
+    then
+      ok "KiCad OpenHornet path variables resolve to this checkout"
+    else
+      fail "KiCad OpenHornet path variables do not all resolve to this checkout"
+    fi
+  else
+    if [[ "$mode" == "design" ]]; then
+      fail "cannot verify KiCad path variables; config not found at $cfg"
+    else
+      warn "cannot verify KiCad path variables; config not found at $cfg"
+    fi
+  fi
+fi
+
+if [[ -S /tmp/kicad/api.sock ]]; then
+  ok "KiCad IPC socket present (/tmp/kicad/api.sock)"
+else
+  warn "KiCad IPC socket not present; acceptable for schematic-only/read-only work, but live PCB mutation requires KiCad with API enabled"
+fi
+
+settings="$HOME/.local/bin/settings.json"
+if [[ -f "$settings" ]] && grep -Eq '"eager_toolsets"[[:space:]]*:[[:space:]]*true' "$settings"; then
+  ok "Konnect eager_toolsets enabled (needed by the validated Codex 0.154.0 reference stack)"
+else
+  warn "Konnect eager_toolsets=true not detected at $settings; verify current Codex can refresh dynamic MCP tool schemas"
+fi
+
+printf '\n'
+if (( failures > 0 )); then
+  printf 'PREFLIGHT FAILED: %d issue(s) must be resolved before %s mode.\n' "$failures" "$mode" >&2
+  exit 1
+fi
+printf 'PREFLIGHT OK: %s mode prerequisites satisfied.\n' "$mode"
