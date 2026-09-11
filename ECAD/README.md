@@ -6,6 +6,8 @@
 
 # **ECAD DIRECTORY INFORMATION**
 
+Engineering contributors and agents: start with the [ECAD design requirements framework](docs/requirements/README.md). It distinguishes repository evidence, proposed policy, unresolved decisions and hardware qualification states.
+
 The purpose of this guide is to help enable the end-user to successfully accomplish the following:  
 *   1:  Facilitate navigation of the file structure.
 *   2:  Provide clarification regarding the manufacturing process of PCB's related to OpenHornet using JLCPCB.com
