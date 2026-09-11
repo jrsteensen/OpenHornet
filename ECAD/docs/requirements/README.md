@@ -35,6 +35,7 @@ The master baseline is supplemented by the pending ALE+ successor and owner conf
 | [REVIEW_RECORD.md](REVIEW_RECORD.md) | Board/change review record outline | Normative required content; flexible format |
 | [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md) | Evidence, generations and identified conflicts | Informative |
 | [BOARD_INVENTORY.md](BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
+| [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) | Issue-backed derivative-board migration scope, status and evidence rules | Normative requirements; matrix informative |
 | [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Pending ALE+ successor, confirmed power/part/revision intent and transition evidence | Informative |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Grouped unresolved owner decisions | Informative; proposed choices remain pending |
 

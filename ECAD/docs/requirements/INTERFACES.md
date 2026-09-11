@@ -1,5 +1,7 @@
 # ABSIS architecture, interconnects and communications
 
+Applicable derivative-board refresh work MUST also follow [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md), including board-specific transceiver direction control, firmware and termination review.
+
 ## Basis and discovered architecture
 
 The pending ALE+ replaces ALE and its separate relay module by owner direction; see the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Existing connector mappings below describe the inspected master boards. Verify ALE+ pinouts, output control and harness/firmware transition explicitly before asserting drop-in compatibility.

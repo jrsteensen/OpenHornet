@@ -14,6 +14,10 @@ No PCB, schematic, project, library, manufacturing output or workbook is changed
 
 The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) reviews PR #1233 at its pinned head and records owner confirmation on 2026-09-11: ALE+ replaces ALE and the separate relay module; 7.5 V nominal / 7.3 V actual buck output; SS34 D2; planned 8.0.1 formatting/silkscreen revision. The master counts below remain a historical baseline, not a complete description of pending architecture.
 
+## Issue-backed migration intent
+
+[ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) maps issue #1220 and related failure reports to affected boards. The older power/RS-485 circuits listed there are pending intentional migration, not equally preferred design alternatives. Master/Mega implementation has merged; ALE+ is pending; tracker checkboxes and qualification status are separate.
+
 ## Evidence map
 
 Paths below are relative to the repository root unless linked. Board source locations are fully linked in the board inventory.
@@ -103,7 +107,7 @@ Explicit fabrication exceptions include ATX four layers/2 oz per layer, Backligh
 | F-01: ALE Relay layer conflict | Schematic note specifies four layers; PCB layer table and released Gerber ZIP have only top/bottom copper | Legacy maintenance/fabrication disposition only; ALE+ successor is four-layer. See Q-01 and [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) |
 | F-02: Mega release instruction conflicts with CAD/CAM | `release/OHE_Electronics/ABSIS002-10 - PCB, ABSIS_MEGA/Important Manufacturing Instructions.txt` says four layers; current Mega PCB and released ZIP have two | Potential misplaced instruction; do not infer intent without owner disposition, Q-01 |
 | F-03: Master manufacturing note absent | Refresh PR says note added; current Master production directory and release package have no such note. PCB and checked ZIP have four copper layers | Resolve exact manufacturing profile/document placement, Q-01 |
-| F-04: Refresh incomplete across families | Master/Mega and pending ALE+ use THVD1410; master still contains older ALE/HID/selected MAX487 controllers | ALE+ is the intended ALE/relay successor; other controller families and mixed-generation support remain Q-02/Q-09 |
+| F-04: Refresh incomplete across families | Master/Mega and pending ALE+ use THVD1410; master still contains older ALE/HID/selected MAX487 controllers | ALE+ is the intended ALE/relay successor; issue #1220 establishes migration scope for derivative controllers. See ABSIS_MIGRATION.md; tested limits and qualification remain Q-02/Q-09 |
 | F-05: RS-485 note error and bias terminology | Master/Mega note gives low threshold as `.8VCC`; TI datasheet section 7.4 states 0.8 V. Logic pull networks differ from PR's external-bias description | Correct notes in a separately scoped hardware/docs follow-up; do not encode wrong threshold or presumed bias, Q-02 |
 | F-06: Divergent USB restrictions | ALE/DDI controller module-fuse/jumper instructions, Standby Mega removal, Mega note mentions programming “Pro Micro,” UFC source-selection modes | Module-specific power analysis and corrected instructions needed, Q-04 |
 | F-07: Cable text lags released specification | Interconnect Type A/E generic 16 AWG text versus OH-SPEC-002 A twisted pair | Newer explicit cable specification wins; synchronize later, Q-03 |

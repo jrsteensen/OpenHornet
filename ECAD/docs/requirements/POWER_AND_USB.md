@@ -8,6 +8,8 @@ Observed: ATX rails and connector assignments, ALE/HID Master diode paths, Mega/
 
 The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) adds the intended ALE/relay successor: TPS563300 buck supply at owner-confirmed **7.5 V nominal / 7.3 V actual**, with **SS34 D2**. These facts are settled design intent, not open component/voltage choices. Do not confuse the buck output with RAW voltage after the diode or treat the observed voltage as a guaranteed range. USB source-state and reverse-current review remain applicable; reduced backfeed is not complete USB isolation.
 
+Issue-backed derivative power scope is defined in [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md). Include Standby regulator-overheating issue #1195 even though #1220 lists that board only for RS-485. The reported field workaround is not an approved power-interface standard.
+
 ## Distribution and protection
 
 - **PWR-001:** For each rail, document its source, nominal/tolerance/transient range, each load and worst-case simultaneous demand, downstream pass-through demand, inrush, fault current and return path. Reconcile current totals against the actual assembly and firmware modes. Empty workbook cells MUST NOT be interpreted as zero current.

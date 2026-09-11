@@ -12,6 +12,8 @@ Widths/drills below are **mm**, rounded only to remove floating-point representa
 
 **B69: ABSIS_ALE+** is an additional branch-specific PCB/project candidate in PR #1233, not part of the 68-file master count. See the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) for pinned schematic/PCB/project paths, observed four-layer construction, parts and confirmed 7.5 V nominal / 7.3 V actual supply, SS34 selection and planned 8.0.1 revision. Its intended function replaces B01 and B02. Reported v8 prototype testing and the pending cosmetic revision are tracked separately from release qualification.
 
+See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 update scope and implementation status of affected boards. The baseline entries below retain historical observations; they do not override that migration direction.
+
 ## PCB sources
 
 ### B01: ABSIS_ALE
