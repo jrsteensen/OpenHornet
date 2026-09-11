@@ -14,6 +14,8 @@ The repository has released packages, older implementations and explicitly untes
 - **QUAL-006:** Verify thermal and voltage-drop behavior at intended sustained and peak loads in the representative enclosure. Verify mechanical fit, access, optical alignment and moving-part clearance on the physical prototype.
 - **QUAL-007:** A human engineer MUST review the results and unresolved deviations before assigning **prototype validated**. Record tested limits and unsupported configurations. Component ESD ratings do not establish system ESD qualification; Q-06 defines the remaining environmental/test targets.
 
+ALE+ provides a specific evidence-transfer case: PR #1233 reports tested v8 articles; the owner confirms planned 8.0.1 schematic-formatting/silkscreen cleanup with circuit/layout locked. Apply QUAL-008/010 to the final delta and test records as described in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md); do not confuse this with the untested custom Pro Micro.
+
 ## Changes to existing boards
 
 - **QUAL-008:** Identify the last validated revision and its evidence. Assess each change against interfaces, ratings, power paths, component behavior, layout/return currents, firmware, manufacturing and mechanical fit. Record which evidence remains applicable and why.

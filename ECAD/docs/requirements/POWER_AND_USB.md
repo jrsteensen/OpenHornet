@@ -4,6 +4,10 @@
 
 Observed: ATX rails and connector assignments, ALE/HID Master diode paths, Mega/Bus Master refresh, UFC JP1–JP3 source selection, custom Pro Micro TPS2116 design, distributed LED bulk capacitors and shared ground zones. The existing power workbooks are incomplete estimates, not verified load limits. Requirements below are **new project policy proposed for adoption**, grounded in engineering analysis and these repeated source-selection risks. See [inventory](ARCHITECTURE_INVENTORY.md) and Q-04 through Q-07 in [open questions](OPEN_QUESTIONS.md).
 
+## ALE+ board-specific basis
+
+The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) adds the intended ALE/relay successor: TPS563300 buck supply at owner-confirmed **7.5 V nominal / 7.3 V actual**, with **SS34 D2**. These facts are settled design intent, not open component/voltage choices. Do not confuse the buck output with RAW voltage after the diode or treat the observed voltage as a guaranteed range. USB source-state and reverse-current review remain applicable; reduced backfeed is not complete USB isolation.
+
 ## Distribution and protection
 
 - **PWR-001:** For each rail, document its source, nominal/tolerance/transient range, each load and worst-case simultaneous demand, downstream pass-through demand, inrush, fault current and return path. Reconcile current totals against the actual assembly and firmware modes. Empty workbook cells MUST NOT be interpreted as zero current.
@@ -17,7 +21,7 @@ Observed: ATX rails and connector assignments, ALE/HID Master diode paths, Mega/
 
 - **USB-001:** Every USB-capable board MUST document USB-only, external-only, both-on, both-off, attachment/removal and failed/missing-source states. Trace current through regulators, diodes, load switches, jumpers, protection structures and module internals in both directions. Include phantom power through signal pins and the host/hub.
 - **USB-002:** A board MUST NOT be declared safe for simultaneous USB and external power without analysis of the complete source-selection circuit and measured verification. A series diode on RAW/VIN can block one path; it does not inherently isolate USB VBUS, regulate 12 V to 5 V, or prove a third-party module cannot backfeed.
-- **USB-003:** Preserve applicable assembly/programming restrictions until superseded by a reviewed and physically tested design. ALE and DDI/AMPCD controller notes describe removing a Pro Micro fuse and keeping its jumper open; the Standby Controller calls for removing the Mega before USB programming. Do not generalize either instruction to every module variant. Verify the exact module circuit before applying a modification.
+- **USB-003:** Preserve applicable assembly/programming restrictions until superseded by a reviewed and physically tested design. Legacy ALE and DDI/AMPCD controller notes describe removing a Pro Micro fuse and keeping its jumper open; the Standby Controller calls for removing the Mega before USB programming. Do not generalize either instruction to every module variant. Verify the exact module circuit before applying a modification.
 - **USB-004:** Record allowed jumper combinations, source priority, voltage-drop effects and reverse-current limits. UFC's JP1/JP2/JP3 modes are board-specific; the custom ABSIS Pro Micro's proposed RAW-priority mux is not yet a qualified replacement. Q-04 tracks the future standard.
 - **USB-005:** For onboard USB, verify exact connector pin mapping, USB role, D+/D− continuity, protection, VBUS sensing, connector shield treatment and applicable USB-C CC configuration. Determine differential routing targets from the supported USB mode and selected stackup; no generic width or impedance value is imposed here.
 - **USB-006:** Host PCIe USB-card advice in the interconnect is an installation convention, not electrical protection. Prototype tests MUST measure unexpected host/hub VBUS sourcing and source-transition behavior using a controlled setup.

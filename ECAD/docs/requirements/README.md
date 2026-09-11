@@ -17,6 +17,8 @@ On adoption, the requirements in this directory are normative for ECAD contribut
 
 Each normative document identifies its basis. Requirements have stable IDs for review evidence and deviations. Keep IDs stable when editing wording; retire rather than reuse deleted IDs. An inventory value becomes normative only through an explicit requirement and scope. New engineering process requirements are identified as newly proposed project policy, not attributed to old boards.
 
+The master baseline is supplemented by the pending ALE+ successor and owner confirmations recorded in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Baseline file counts remain unchanged; the supplement is explicitly branch-specific.
+
 ## Reading order
 
 | Document | Purpose | Status on adoption |
@@ -33,6 +35,7 @@ Each normative document identifies its basis. Requirements have stable IDs for r
 | [REVIEW_RECORD.md](REVIEW_RECORD.md) | Board/change review record outline | Normative required content; flexible format |
 | [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md) | Evidence, generations and identified conflicts | Informative |
 | [BOARD_INVENTORY.md](BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
+| [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Pending ALE+ successor, confirmed power/part/revision intent and transition evidence | Informative |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Grouped unresolved owner decisions | Informative; proposed choices remain pending |
 
 ## Start a board change

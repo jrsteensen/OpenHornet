@@ -8,9 +8,15 @@ Method: structured read-only extraction of top-level schematic instances/notes/s
 
 Widths/drills below are **mm**, rounded only to remove floating-point representation noise. Project minima are separate from Default net-class settings and actual geometry. Footprint counts include logos/holes/mechanical items. Rail lists are selected net names, not proof of equivalent or regulated domains. Supporting evidence and identified conflicts are in [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md).
 
+## Pending successor outside the master snapshot
+
+**B69: ABSIS_ALE+** is an additional branch-specific PCB/project candidate in PR #1233, not part of the 68-file master count. See the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) for pinned schematic/PCB/project paths, observed four-layer construction, parts and confirmed 7.5 V nominal / 7.3 V actual supply, SS34 selection and planned 8.0.1 revision. Its intended function replaces B01 and B02. Reported v8 prototype testing and the pending cosmetic revision are tracked separately from release qualification.
+
 ## PCB sources
 
 ### B01: ABSIS_ALE
+
+- Lifecycle: intended to be replaced by ALE+ (B69); retained here as master-baseline and installed-hardware evidence.
 
 - Function: General Pro Micro I/O node with RS-485 in/out.
 - Sources: [PCB](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pro).
@@ -24,6 +30,8 @@ Widths/drills below are **mm**, rounded only to remove floating-point representa
 - Mechanical footprint evidence: MountingHole_3.2mm_M3_DIN965 ×4.
 
 ### B02: ABSIS_ALE Relay Module
+
+- Lifecycle: intended to be replaced by ALE+ (B69); retained here as master-baseline and installed-hardware evidence.
 
 - Function: ALE accessory with two selectable-voltage MOSFET output channels.
 - Sources: [PCB](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pro).
