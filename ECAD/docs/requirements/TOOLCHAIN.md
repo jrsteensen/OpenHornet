@@ -59,6 +59,22 @@ git switch -c pcb/<short-task-name>
 
 Do not let Astra, KiCad, another agent or a human concurrently write the same project. Preserve one mutation owner at a time. Unrelated local changes must be committed, stashed or moved before ECAD work begins.
 
+## Repository launch utilities
+
+The repository includes executable wrappers under [`utils/tools/ecad/`](../../../utils/tools/ecad/):
+
+```bash
+utils/tools/ecad/preflight audit
+utils/tools/ecad/astra-audit
+
+utils/tools/ecad/preflight design
+utils/tools/ecad/astra-design
+```
+
+`preflight design` refuses `master`/`main` and detached HEAD, checks Codex/Konnect/MCP availability, verifies shared library targets and, on the validated Linux environment, confirms KiCad's `KICAD_USER_OH_*` variables point at the active checkout. It also refuses an already-dirty design tree unless `OH_ALLOW_DIRTY=1` explicitly acknowledges that the operator is resuming intentional scoped work. Do not use that override to hide unrelated changes.
+
+The wrappers default to `gpt-6-astra`; `OH_ASTRA_MODEL` may override the model identifier after the replacement model/toolchain has passed the required smoke test.
+
 ## Codex and Konnect configuration
 
 Install the Konnect Codex guidance and register the server with Codex:
