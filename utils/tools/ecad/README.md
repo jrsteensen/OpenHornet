@@ -25,3 +25,20 @@ OH_ALLOW_DIRTY=1 utils/tools/ecad/astra-design
 ```
 
 Do not use `OH_ALLOW_DIRTY=1` to hide unrelated local work.
+
+## Validated Fedora desktop workflow
+
+The 2026-09-11 roci reference setup also passed a read-only smoke test through the ChatGPT Desktop/Codex GUI using the same `~/.codex/config.toml` Konnect MCP registration as the CLI. For OpenHornet ECAD work, open the canonical checkout as a **Local** project, not a Codex-managed worktree, until shared KiCad library mappings are project-relative.
+
+The Konnect `schematic-viewer` required two process-local compatibility settings on Fedora 44 KDE/Wayland:
+
+```bash
+export GDK_BACKEND=x11
+export WEBKIT_DISABLE_DMABUF_RENDERER=1
+```
+
+The validated roci installation keeps those variables in a wrapper at `~/.local/bin/schematic-viewer` and preserves the upstream viewer binary as `~/.local/bin/schematic-viewer.real`. Do not export these variables globally.
+
+Konnect 0.11.1 dark theme applies a CSS filter to the rendered SVG and was visibly blurry when zoomed under the validated WebKitGTK path. Light theme retained crisp vector rendering and is the recommended viewer mode for this reference environment.
+
+The desktop application is optional. CLI Astra/Codex plus Konnect, KiCad, and the repository launch utilities remain the reproducible fallback and should continue to work independently of desktop UI state.
