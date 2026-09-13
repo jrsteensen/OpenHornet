@@ -5814,18 +5814,6 @@
 		)
 		(uuid "ea59c63f-1f5a-4b0c-adff-d552bff54e3b")
 	)
-	(text "* If the board is powered through the RAW pin the VCC pin can be used as an output.\n* 7.3V is programmed to cater for the drop on the Schottky diode thus the voltage to\n   the RAW pin of Pro-Micro is approximately 7V"
-		(exclude_from_sim no)
-		(at 544.322 157.988 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-				(thickness 0.2223)
-			)
-			(justify left)
-		)
-		(uuid "f82189a5-0d34-4b60-97b2-c399789103ba")
-	)
 	(text_box "RELAY CHANNEL 2"
 		(exclude_from_sim no)
 		(at 191.135 163.195 0)
