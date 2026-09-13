@@ -2617,7 +2617,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky_Filled"
+		(symbol "Device:D_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2640,7 +2640,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky_Filled"
+			(property "Value" "D_Filled"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2672,7 +2672,7 @@
 					)
 				)
 			)
-			(property "Description" "Schottky diode, filled shape"
+			(property "Description" "Diode, filled shape"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2683,7 +2683,29 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2705,10 +2727,10 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_Filled_0_1"
+			(symbol "D_Filled_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2743,7 +2765,7 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_Filled_1_1"
+			(symbol "D_Filled_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -17955,7 +17977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Filled")
+		(lib_id "Device:D_Filled")
 		(at 393.7 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -17967,7 +17989,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ab8637-b9f3-45a0-aa43-9e84280a2f83")
 		(property "Reference" "D2"
-			(at 393.3825 17.78 0)
+			(at 393.7 18.7155 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17976,8 +17998,8 @@
 				)
 			)
 		)
-		(property "Value" "SS34"
-			(at 393.3825 20.32 0)
+		(property "Value" "S3MB"
+			(at 393.7 21.1398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17998,19 +18020,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/MDD-Jiangsu-Yutai-Elec-SS34_C13762.pdf"
-			(at 406.4 217.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Schottky Barrier Diodes (SBD) SMA(DO-214AC) RoHS"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C47524.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QgMIUFNeEwUNV1dQFVgIUVVXFlcNBV1eEgJfVldQFgcxVlNeTlJdU11SR1NYUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 393.7 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18021,7 +18031,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "Description" "3 A, 1000 V"
 			(at 393.7 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18032,7 +18042,18 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "SS34"
+		(property "LCSC" "C47524"
+			(at 393.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "S3MB"
 			(at 393.7 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -18111,6 +18132,28 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 393.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 393.7 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 393.7 24.13 0)
 			(hide yes)
 			(show_name no)
