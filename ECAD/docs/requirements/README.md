@@ -40,7 +40,7 @@ The master baseline is supplemented by the ALE+ successor and current owner-conf
 | [BOARD_INVENTORY.md](../reference/BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
 | [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) | Rules for performing scoped circuit migrations | Normative |
 | [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Current owner-confirmed ALE+ design decisions | Informative |
-| [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Accepted owner decisions and remaining shield proposal | Decision record; Q-03 proposal pending |
+| [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Accepted owner decisions | Decision record; Q-01 through Q-13 resolved |
 
 ## Start a board change
 
@@ -50,6 +50,6 @@ Numerical defaults in KiCad, old production files, tool examples and component h
 
 ## Owner decisions and practical scope
 
-The 2026-09-14 discussion establishes the profiles, power targets, supported modules, practical acceptance and file-lifecycle rules recorded in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). Q-03's detachable shield arrangement remains proposed. S3MB is the accepted ALE+ D2. Implementation defects belong in repository issues/PRs; this folder is not an issue backlog.
+The 2026-09-14 discussion establishes the profiles, power targets, supported modules, practical acceptance and file-lifecycle rules recorded in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). Q-03 approves Master-end-only shield bonding and detachable two-position JST SM drain connections with one contact populated per half. S3MB is the accepted ALE+ D2. Implementation defects belong in repository issues/PRs; this folder is not an issue backlog.
 
 Historical static inventories are retained under `ECAD/docs/reference/` as dated evidence. They do not override current owner decisions or establish current support status. No formal retrospective qualification campaign is required for successfully used existing boards.
