@@ -1,0 +1,86 @@
+
+(rules PCB ABSIS_Backlight_Controller
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 58)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.9)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/+5V_SUPPLY" GND +5V +3V3 +5VD "/+12V_SUPPLY" "/52(SCK)" "/53(SS)"
+    "/50(MISO)" "/51(MOSI)" /48 /49 /46 /47 /44 /45
+    /42 /43 /40 /41 /38 /39 /36 /37
+    /34 /35 /32 /33 /30 /31 /28 /29
+    /26 /27 /24 /25 /22 /23 /Reset /IOREF
+    "Net-(P2-Pad1)" /A0 /A1 /A2 /A3 /A4 /A5 /A6
+    /A7 /A8 /A9 /A10 /A11 /A12 /A13 /A14
+    /A15 /SCL /SDA /AREF "/13(**)" "/12(**)" "/11(**)" "/10(**)"
+    "/9(**)" "/8(**)" "/7(**)" "/6(**)" "/5(**)" "/4(**)" "/3(**)" "/2(**)"
+    "/1(Tx0)" "/0(Rx0)" "/14(Tx3)" "/15(Rx3)" "/16(Tx2)" "/17(Rx2)" "/18(Tx1)" "/19(Rx1)"
+    "/20(SDA)" "/21(SCL)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
