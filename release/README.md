@@ -83,7 +83,7 @@ OpenHornet Release Package (v...).zip
 * [OpenHornet FAQ](https://openhornet.com/faq/) - You guessed it! The FAQ!
 * [OpenHornet GitHub](https://github.com/jrsteensen/OpenHornet) - OpenHornet's GitHub repository for everything other than MCAD. Where you can find the latest under-development files.
 * [OpenHornet Tutorials](https://github.com/jrsteensen/OpenHornet/tree/master/docs/tutorials) - Tutorials for OpenHornet.
-* [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug/enhancement/obsolescence report.
+* [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug, enhancement, obsolescence, or maintenance issue.
 * [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
 
 ### OpenHornet MCAD Model
