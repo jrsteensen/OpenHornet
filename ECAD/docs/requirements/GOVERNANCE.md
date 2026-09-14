@@ -2,7 +2,7 @@
 
 ## Basis
 
-Existing evidence: [ECAD guide](../../README.md), [manufacturing guide](../../MANUFACTURING.md), [repository PR template](../../../PULL_REQUEST_TEMPLATE.md), board notes and the released OH-SPEC-002 cable specification. The explicit authority hierarchy, requirement IDs, deviations and five qualification states below are **new project policy proposed for adoption in this PR**, justified by source/output conflicts in [the inventory](ARCHITECTURE_INVENTORY.md).
+Existing evidence: [ECAD guide](../../README.md), [manufacturing guide](../../MANUFACTURING.md), [repository PR template](../../../PULL_REQUEST_TEMPLATE.md), board notes and the released OH-SPEC-002 cable specification. The explicit authority hierarchy, requirement IDs, deviations and five qualification states below are **adopted project policy under PR #1255**, justified by source/output conflicts in [the inventory](ARCHITECTURE_INVENTORY.md).
 
 ## Requirements
 
@@ -15,7 +15,7 @@ Existing evidence: [ECAD guide](../../README.md), [manufacturing guide](../../MA
 - **GOV-007:** An intentional deviation MUST record requirement ID, exact revision and scope, technical reason, risk/mitigation, verification evidence, approving human engineer and review/expiry trigger. Unapproved deviations remain pending. Approving a deviation does not turn it into a project-wide standard.
 - **GOV-008:** A significant change includes changes to connectivity, parts/packages/ratings, interfaces, power or protection, critical placement, return paths, routing constraints, board stack/outline or assembly variants. Production-output changes are significant when they alter electrical, mechanical, assembly or functional behavior; regeneration or cosmetic changes alone do not establish significance. Pure documentation edits do not require hardware ERC/DRC unless they alter a design instruction or expose a conflict requiring subsequent hardware disposition. Record why a change is classified as minor.
 
-- **GOV-010:** Adoption occurs when PR #1255 merges into the default branch. Apply requirements to new designs and changed portions of existing designs, including affected dependencies. Preserve historical release status without automatic retroactive qualification or wholesale redesign. Cosmetic maintenance MUST NOT trigger unrelated migration. Already-open hardware PRs MUST identify applicable gaps and record their disposition.
+- **GOV-010:** PR #1255 adopted this framework on 2026-09-11 when it merged into the default branch. Apply requirements to new designs and changed portions of existing designs, including affected dependencies. Preserve historical release status without automatic retroactive qualification or wholesale redesign. Cosmetic maintenance MUST NOT trigger unrelated migration. Already-open hardware PRs MUST identify applicable gaps and record their disposition.
 - **GOV-011:** Anyone with GitHub permission to merge in this repository MAY merge PRs subject to repository controls and applicable review requirements. John Steensen is currently the sole person performing merges; this does not restrict future authorized repository mergers. Merge permission and merge action MUST NOT imply engineering approval, prototype validation or release qualification. Record the responsible human engineering reviewer and explicit acceptance separately. Only John Steensen may accept a very minor change as fully qualified without a new physical prototype under QUAL-010; that authority is not inherited through GitHub permissions.
 
 ## Qualification vocabulary
@@ -31,3 +31,7 @@ Track these states separately for an exact revision and assembly variant. Each s
 | **Release-qualified** | All applicable preceding evidence complete, deviations accepted, documentation/output consistency established and owner/design authority release acceptance recorded | Any untested configuration, environment or later revision |
 
 **GOV-009:** Report pending, passed, failed or not applicable with rationale for each state. A limited exception can be accepted only with its documented scope; do not describe an excluded-violation result as an unqualified clean check. Significant revisions invalidate affected evidence until repeated or justified by documented carryover analysis.
+
+## Requirement maintenance
+
+- **GOV-012:** When a later reviewed change supersedes a recorded design decision, update its normative references, informative supplements and open-question status together. Record the old and new evidence with dates and exact revisions. If source, outputs and prior decisions disagree, identify the conflict and affected gates; neither a stale owner-intent statement nor a merged artifact alone resolves it. Keep historical inventory counts explicitly scoped to their original snapshot.

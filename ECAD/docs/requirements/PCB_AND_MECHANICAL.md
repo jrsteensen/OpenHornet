@@ -2,7 +2,7 @@
 
 ## Basis
 
-Observed sources include project JSON rules, routed widths/vias, copper zones, Edge.Cuts, fastener/keepout footprints, drawing templates and explicit manufacturing notes. [BOARD_INVENTORY.md](BOARD_INVENTORY.md) records board-specific values. Applying verified fabrication constraints and mechanical fit checks is **new project policy proposed for adoption**; it does not establish one numerical rule set for all boards.
+Observed sources include project JSON rules, routed widths/vias, copper zones, Edge.Cuts, fastener/keepout footprints, drawing templates and explicit manufacturing notes. [BOARD_INVENTORY.md](BOARD_INVENTORY.md) records board-specific values. Applying verified fabrication constraints and mechanical fit checks is **adopted project policy under PR #1255**; it does not establish one numerical rule set for all boards.
 
 ## Constraints and fabrication profile
 

@@ -2,7 +2,7 @@
 
 ## Basis
 
-The [existing manufacturing guide](../../MANUFACTURING.md) recommends JLCPCB, usually two layers, 1.6 mm board thickness and usually top-side SMD assembly. It explicitly defers to board-specific instructions. ATX and Backlight Controller specify copper/layer exceptions; UFC Main and Function Select require both-side SMD assembly. The older generation guide already requires outputs to be regenerated after PCB changes. Reproducibility and explicit acceptance below are **new project policy proposed for adoption**.
+The [existing manufacturing guide](../../MANUFACTURING.md) recommends JLCPCB, usually two layers, 1.6 mm board thickness and usually top-side SMD assembly. It explicitly defers to board-specific instructions. ATX and Backlight Controller specify copper/layer exceptions; UFC Main and Function Select require both-side SMD assembly. The older generation guide already requires outputs to be regenerated after PCB changes. Reproducibility and explicit acceptance below are **adopted project policy under PR #1255**.
 
 ## Owner-directed manufacturing and sourcing policy
 
@@ -37,3 +37,7 @@ Purchased MCU modules, displays and other complete assemblies MAY come from othe
 ## Prototype order versus release
 
 A manufacturable prototype may be ordered after human review and documented acceptance of prototype limitations. This is not release qualification. Manufacturing review MUST state which exact package was reviewed, remaining supplier questions and any assembly deviations. Hardware release requires [QUALIFICATION.md](QUALIFICATION.md).
+
+## Exact assembly identity
+
+- **MFG-018:** For each fitted reference, identify the exact approved part and assembly responsibility consistently across the reviewed source and output set. A missing JLCPCB identifier for a required direct-fit SMD component is an unresolved assembly mapping, not an instruction to hand-fit or omit it. Resolve schematic/PCB/BOM disagreement before approving an order, even if the package geometry is unchanged. A released directory or prior successful export does not waive this requirement. See VAL-009 and Q-13 for the ALE+ D2 example.

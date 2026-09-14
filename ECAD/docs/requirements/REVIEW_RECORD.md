@@ -16,11 +16,11 @@ Record interface revisions and exact pin maps; power/load/return budgets; USB so
 
 ## Tool and check evidence
 
-Record the exact KiCad and `kicad-cli` versions; Konnect upstream, version and executable/source; Codex version/model when AI assistance is used; execution OS/environment; resolved OpenHornet library variables/paths; and the result/date of the required toolchain smoke test. Identify whether the session was read-only Audit mode or interactive Design mode and note any non-default MCP approval configuration relevant to the work.
+Record the exact KiCad and `kicad-cli` versions; Konnect upstream, version and executable/source; Codex version/model when AI assistance is used; execution OS/environment; resolved OpenHornet library variables/paths; and the result/date of the required toolchain smoke test. Distinguish read-only connectivity evidence from exercised mutation capabilities (FLOW-020); for a static documentation review, record the live toolchain as not used. Identify whether the session was read-only Audit mode or interactive Design mode and note any non-default MCP approval configuration relevant to the work.
 
 Record significant semantic operations, ERC/DRC reports and exit status, zone-refill/save evidence, schematic parity, unrouted result, rule severities/exclusions, rendered review and mechanical fit evidence. For PCB work, identify the live KiCad/IPC document used. For schematic work, record the visual review method and native KiCad review checkpoint. Clearly identify checks that did not run.
 
-For shared-library changes, identify every affected project checked and confirm the active KiCad library mappings resolved to the same repository revision as the design under review.
+Record final-integration applicability under VAL-010 and part-field reconciliation under VAL-009/MFG-018. For shared-library changes, identify every affected project checked and confirm the active KiCad library mappings resolved to the same repository revision as the design under review.
 
 ## Deviations
 

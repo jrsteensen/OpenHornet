@@ -8,7 +8,7 @@ The canonical path is **`ECAD/docs/requirements/`**, matching the existing upper
 
 Merge of PR #1255 adopted the normative requirements for new designs and changed portions of existing designs, including affected interfaces and dependencies. Existing released boards retain their historical status; adoption does not retroactively qualify them or require wholesale redesign. Cosmetic maintenance does not trigger unrelated migration or repeat physical qualification. Already-open hardware PRs document applicable gaps and their disposition. See GOV-010/011 for scope and authority.
 
-Text describing process rules as newly proposed policy records their historical origin in PR #1255; adopted requirements are now effective. Individually unresolved technical choices marked Proposed/TBD remain pending until separately resolved.
+Requirements adopted by PR #1255 are effective; amendments proposed in a later PR take effect when accepted and merged. Individually unresolved technical choices marked Proposed/TBD remain pending until separately resolved.
 
 - **MUST / MUST NOT**: mandatory conditions within the stated scope.
 - **SHOULD / SHOULD NOT**: expected practice; document the engineering reason for a different approach.
@@ -19,7 +19,7 @@ Text describing process rules as newly proposed policy records their historical 
 
 Each normative document identifies its basis. Requirements have stable IDs for review evidence and deviations. Keep IDs stable when editing wording; retire rather than reuse deleted IDs. An inventory value becomes normative only through an explicit requirement and scope.
 
-The master baseline is supplemented by the pending ALE+ successor and owner confirmations recorded in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Baseline file counts remain a historical snapshot; supplements and later reviews explicitly identify their scope.
+The master baseline is supplemented by the merged ALE+ successor, historical owner confirmations and current source/output conflicts recorded in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Baseline file counts remain a historical snapshot; supplements and later reviews explicitly identify their scope.
 
 ## Reading order
 
@@ -39,7 +39,7 @@ The master baseline is supplemented by the pending ALE+ successor and owner conf
 | [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md) | Evidence, generations and identified conflicts | Informative |
 | [BOARD_INVENTORY.md](BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
 | [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) | Issue-backed derivative-board migration scope, status and evidence rules | Normative requirements; matrix informative |
-| [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Pending ALE+ successor, confirmed power/part/revision intent and transition evidence | Informative |
+| [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Merged ALE+ successor, dated decisions, source/output conflicts and transition evidence | Informative |
 | [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Grouped unresolved owner decisions and retained resolved items | Informative; proposed choices remain pending |
 
 ## Start a board change
@@ -47,3 +47,7 @@ The master baseline is supplemented by the pending ALE+ successor and owner conf
 Read governance, workflow, the toolchain reference when using AI/Konnect, the applicable technical documents, and the board's inventory entry. Establish the actual board revision and connected hardware before editing. Use [REVIEW_RECORD.md](REVIEW_RECORD.md) to capture applicable requirement IDs, evidence and unresolved items. Inventory entries are a baseline snapshot; recheck the current source when using them.
 
 Numerical defaults in KiCad, old production files, tool examples and component headline ratings are not automatically OpenHornet electrical or fabrication limits. Do not use the oldest or most permissive value to settle a conflict. Keep the affected gate pending until its inputs are resolved.
+
+## Latest requirements review
+
+The 2026-09-14 review reconciles merged PR #1233 and the current #1220 migration scope. See [REVIEW_2026-09-14.md](REVIEW_2026-09-14.md) for evidence, changes and limitations. ALE+ D2 differs between the schematic, PCB metadata and released BOM; Q-13 records the unresolved reconciliation. Historical SS34 confirmation and a cosmetic-only revision description MUST NOT conceal that discrepancy or establish qualification of 8.0.1.

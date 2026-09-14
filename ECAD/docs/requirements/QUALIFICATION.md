@@ -2,7 +2,7 @@
 
 ## Basis
 
-The repository has released packages, older implementations and explicitly untested development work together. The following verification and release process is **new project policy proposed for adoption**, required by the owner-directed workflow. It prevents “merged,” “DRC passed” and “works on one setup” from being treated as equivalent.
+The repository has released packages, older implementations and explicitly untested development work together. The following verification and release process is **adopted project policy under PR #1255**, required by the owner-directed workflow. It prevents “merged,” “DRC passed” and “works on one setup” from being treated as equivalent.
 
 ## New boards
 
@@ -14,7 +14,7 @@ The repository has released packages, older implementations and explicitly untes
 - **QUAL-006:** Verify thermal and voltage-drop behavior at intended sustained and peak loads in the representative enclosure. Verify mechanical fit, access, optical alignment and moving-part clearance on the physical prototype.
 - **QUAL-007:** A human engineer MUST review the results and unresolved deviations before assigning **prototype validated**. Record tested limits and unsupported configurations. Component ESD ratings do not establish system ESD qualification; Q-06 defines the remaining environmental/test targets.
 
-ALE+ provides a specific evidence-transfer case: PR #1233 reports tested v8 articles; the owner confirms planned 8.0.1 schematic-formatting/silkscreen cleanup with circuit/layout locked. Apply QUAL-008/010 to the final delta and test records as described in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md); do not confuse this with the untested custom Pro Micro.
+ALE+ provides a specific evidence-transfer case: PR #1233 reports tested v8 articles, but the merged 8.0.1 schematic changes D2 to S3MB while PCB metadata and released BOM retain SS34. The PR also retains a cosmetic-only test description. Resolve Q-13 and identify the diode fitted to the tested articles before applying QUAL-008/010. A power-path component change is not cosmetic; assess its actual electrical impact and applicable retesting under QUAL-009. See the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md).
 
 ## Changes to existing boards
 
@@ -32,4 +32,4 @@ A development hardware PR MAY merge after human review before a physical prototy
 - **REL-001:** Release qualification requires separately completed CAD-valid, electrically reviewed, manufacturable and prototype-validated evidence for the exact release revision/variant, plus explicit human design-authority acceptance. For a very minor revision, applicable physical evidence may be carried forward only through John Steensen’s recorded QUAL-010 decision; full qualification MUST NOT be inferred from a merge. Unknown or failed required evidence blocks the release-qualified label.
 - **REL-002:** Verify schematic/PCB identity, version markings, BOM/CPL, CAM, mechanical exports, interconnect/BOM and installation instructions as one release package. Preserve deviations and qualification records with traceable links. Inventory and power/interface documentation MUST be updated when their facts change.
 - **REL-003:** Fixes identified during bring-up MUST be incorporated into source and retested to the necessary scope. Record rework, wire modifications and substitutions on prototype hardware; do not qualify unmodified production files using an undocumented reworked prototype.
-- **REL-004:** Owner approval of this requirements PR does not qualify existing boards or authorize their redesign. After adoption, establish explicit baseline records and prioritize the conflicts in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
+- **REL-004:** Adoption or amendment of this framework does not qualify existing boards or authorize their redesign. Establish explicit baseline records and prioritize the conflicts in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).

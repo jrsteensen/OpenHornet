@@ -2,7 +2,7 @@
 
 ## Basis
 
-Recurring implementations use project and standard KiCad libraries, `Manufacturer PN` and `LCSC` fields, Arduino module symbols, WS2812 variants, and connector metadata. DDI/AMPCD manufacturing instructions explicitly distinguish `PCA9554PWR` from unspecified PCA9554 packages. New verification rules below are **project policy proposed for adoption**, based on electrical engineering practice and the mapping/documentation inconsistencies in [the inventory](ARCHITECTURE_INVENTORY.md).
+Recurring implementations use project and standard KiCad libraries, `Manufacturer PN` and `LCSC` fields, Arduino module symbols, WS2812 variants, and connector metadata. DDI/AMPCD manufacturing instructions explicitly distinguish `PCA9554PWR` from unspecified PCA9554 packages. New verification rules below are **adopted project policy under PR #1255**, based on electrical engineering practice and the mapping/documentation inconsistencies in [the inventory](ARCHITECTURE_INVENTORY.md).
 
 ## Schematic requirements
 
@@ -12,6 +12,8 @@ Recurring implementations use project and standard KiCad libraries, `Manufacture
 - **SCH-004:** Verify MCU/module pin allocation against firmware, boot/reset/programming behavior and peripheral conflicts. For I2C, account for address straps, all pull-ups, bus voltage and interrupt topology. For SPI, verify chip selects, shared-line behavior and voltage compatibility. Do not treat a local logic bus as an ABSIS RS-485 connection.
 - **SCH-005:** Annotate jumper defaults, mutually exclusive options, DNP parts, polarity, endpoint termination and programming restrictions on the schematic and assembly instructions. Check every supported configuration, including accidental bridge combinations that create conflicting supplies.
 - **SCH-006:** Externally accessible connectors MUST identify reference, function and a traceable pinout. Never derive connectivity solely from a connector family name, wire color, drawing position or AI memory.
+
+- **SCH-007:** Engineering drawing notes on schematics and PCB fabrication/assembly drawings MUST use ALL CAPS. Preserve case-sensitive identifiers, URLs, exact MPNs, net names and units where changing case would alter their meaning. This applies to drawing notes, not narrative Markdown documentation. Notes MUST describe the exact revision and supported configurations; do not copy component headline ratings as assembly limits or claim qualification without evidence.
 
 ## Components and qualification
 
@@ -32,3 +34,5 @@ Component selection MUST follow MFG-013/014/016/017 in [MANUFACTURING.md](MANUFA
 - **LIB-003:** Resolve library tables and environment variables on a clean checkout. Prefer project-relative or documented portable library paths. New absolute workstation paths MUST NOT be introduced. Check both embedded instances and their intended source libraries before any library update.
 - **LIB-004:** Changes to shared symbols, footprints or pad definitions MUST list all affected consumers and assess their schematic/PCB and manufacturing impact. A library replacement MUST NOT silently update an already validated board.
 - **LIB-005:** Manufacturing metadata MUST agree across schematic, PCB, BOM and distributor mapping. Keep part value, MPN, supplier code, assembly side, DNP and quantity separate. Report inconsistent fields rather than selecting whichever is convenient.
+
+- **LIB-006:** Before merging a shared-library change, recheck affected consumers against the current target branch. Distinguish changing a library definition from updating embedded schematic/PCB instances; neither implies the other occurred. Record which instances intentionally remain at their prior definition. A Git merge without conflicts does not establish electrical or package compatibility. Consolidation or renaming requires a scoped mapping of old/new library IDs and dependent paths, with clean-checkout resolution and applicable consumer checks; this requirement does not authorize consolidation during unrelated board work.

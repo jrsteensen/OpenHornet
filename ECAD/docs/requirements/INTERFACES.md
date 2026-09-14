@@ -4,7 +4,7 @@ Applicable derivative-board refresh work MUST also follow [ABSIS_MIGRATION.md](A
 
 ## Basis and discovered architecture
 
-The pending ALE+ replaces ALE and its separate relay module by owner direction; see the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Existing connector mappings below describe the inspected master boards. Verify ALE+ pinouts, output control and harness/firmware transition explicitly before asserting drop-in compatibility.
+The ALE+ merged in PR #1233 replaces ALE and its separate relay module by owner direction; see the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Existing connector mappings below describe the inspected master boards. Verify ALE+ pinouts, output control and harness/firmware transition explicitly before asserting drop-in compatibility.
 
 Observed sources: [architecture inventory](ARCHITECTURE_INVENTORY.md), [board inventory](BOARD_INVENTORY.md), [interconnect root](../../interconnects/OH_Interconnect.kicad_sch), and [OH-SPEC-002 revision A](../../../release/OH-SPEC_Specifications/OH-SPEC-002%20-%20ABSIS%20CABLES_A_v2.pdf).
 

@@ -2,13 +2,13 @@
 
 ## Basis
 
-Observed: ATX rails and connector assignments, ALE/HID Master diode paths, Mega/Bus Master refresh, UFC JP1–JP3 source selection, custom Pro Micro TPS2116 design, distributed LED bulk capacitors and shared ground zones. The existing power workbooks are incomplete estimates, not verified load limits. Requirements below are **new project policy proposed for adoption**, grounded in engineering analysis and these repeated source-selection risks. See [inventory](ARCHITECTURE_INVENTORY.md) and Q-04 through Q-07 in [open questions](OPEN_QUESTIONS.md).
+Observed: ATX rails and connector assignments, ALE/HID Master diode paths, Mega/Bus Master refresh, UFC JP1–JP3 source selection, custom Pro Micro TPS2116 design, distributed LED bulk capacitors and shared ground zones. The existing power workbooks are incomplete estimates, not verified load limits. Requirements below are **adopted project policy under PR #1255**, grounded in engineering analysis and these repeated source-selection risks. See [inventory](ARCHITECTURE_INVENTORY.md) and Q-04 through Q-07 in [open questions](OPEN_QUESTIONS.md).
 
 ## ALE+ board-specific basis
 
-The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) adds the intended ALE/relay successor: TPS563300 buck supply at owner-confirmed **7.5 V nominal / 7.3 V actual**, with **SS34 D2**. These facts are settled design intent, not open component/voltage choices. Do not confuse the buck output with RAW voltage after the diode or treat the observed voltage as a guaranteed range. USB source-state and reverse-current review remain applicable; reduced backfeed is not complete USB isolation.
+The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) adds the intended ALE/relay successor: TPS563300 buck supply at owner-confirmed **7.5 V nominal / 7.3 V actual**, with a **D2 identity conflict tracked in Q-13**: the merged schematic specifies S3MB/C47524, while PCB metadata and released BOM still identify SS34. The earlier SS34 confirmation is historical; resolve the actual assembly and evidence before manufacturing acceptance. Do not confuse the buck output with RAW voltage after the diode or treat the observed voltage as a guaranteed range. USB source-state and reverse-current review remain applicable; reduced backfeed is not complete USB isolation.
 
-Issue-backed derivative power scope is defined in [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md). Include Standby regulator-overheating issue #1195 even though #1220 lists that board only for RS-485. The reported field workaround is not an approved power-interface standard.
+Issue-backed derivative power scope is defined in [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md). Include Standby regulator-overheating issue #1195 as now explicitly included in #1220's power scope, and review the Backlight Controller Mega VIN/power path without assuming a redesign is required. The reported field workaround is not an approved power-interface standard.
 
 ## Distribution and protection
 

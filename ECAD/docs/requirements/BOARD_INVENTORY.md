@@ -8,9 +8,13 @@ Method: structured read-only extraction of top-level schematic instances/notes/s
 
 Widths/drills below are **mm**, rounded only to remove floating-point representation noise. Project minima are separate from Default net-class settings and actual geometry. Footprint counts include logos/holes/mechanical items. Rail lists are selected net names, not proof of equivalent or regulated domains. Supporting evidence and identified conflicts are in [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md).
 
-## Pending successor outside the master snapshot
+## Historical paths and current lifecycle
 
-**B69: ABSIS_ALE+** is an additional branch-specific PCB/project candidate in PR #1233, not part of the 68-file master count. See the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) for pinned schematic/PCB/project paths, observed four-layer construction, parts and confirmed 7.5 V nominal / 7.3 V actual supply, SS34 selection and planned 8.0.1 revision. Its intended function replaces B01 and B02. Reported v8 prototype testing and the pending cosmetic revision are tracked separately from release qualification.
+The detailed entries below retain the original snapshot, including old paths and observations. PR #1233 later moved ALE, Relay Module and HID Bus Master into `zz_OBSOLETE_*` directories and marked MPC/Pro Micro in development. Use [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) and [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) for the 2026-09-14 update. Historical facts are not present support or qualification claims. Source links below are pinned to the original inventory commit where appropriate.
+
+## Successor added after the historical snapshot
+
+**B69: ABSIS_ALE+** was outside the original 68-file snapshot and subsequently merged in PR #1233 on 2026-09-13. See [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) for revision 8.0.1 evidence and the current D2/source/BOM conflict (Q-13). It replaces B01/B02; HID Bus Master is also obsolete. Reported v8 testing does not establish qualification of a different D2 assembly.
 
 See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 update scope and implementation status of affected boards. The baseline entries below retain historical observations; they do not override that migration direction.
 
@@ -21,7 +25,7 @@ See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 u
 - Lifecycle: intended to be replaced by ALE+ (B69); retained here as master-baseline and installed-hardware evidence.
 
 - Function: General Pro Micro I/O node with RS-485 in/out.
-- Sources: [PCB](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pro).
+- Sources: [PCB](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pcb); [schematic](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch); [project](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_pro).
 - Observed PCB revision: `3`; copper layers: F.Cu, B.Cu; thickness: 1.6; 17 embedded footprints.
 - Repeated/functional parts: Mini-Fit Jr. 2x03 ×2; PinHeader_2x06 ×2; 0.1uF ×1; MAX487EESA+T ×1; ProMicro_5V/16Hz ×1; RST ×1; 1N5819WS ×1; PinHeader_1x06 ×1; PinHeader_2x02 ×1.
 - Connector footprint families: Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical ×2; PinHeader_2x06_P2.54mm_Vertical ×2; PinHeader_1x06_P2.54mm_Vertical ×1; PinHeader_2x02_P2.54mm_Vertical ×1.
@@ -36,7 +40,7 @@ See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 u
 - Lifecycle: intended to be replaced by ALE+ (B69); retained here as master-baseline and installed-hardware evidence.
 
 - Function: ALE accessory with two selectable-voltage MOSFET output channels.
-- Sources: [PCB](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pro).
+- Sources: [PCB](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pcb); [schematic](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_sch); [project](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_pro).
 - Observed PCB revision: `2`; copper layers: F.Cu, B.Cu; thickness: 1.6; 24 embedded footprints.
 - Repeated/functional parts: 10k ×6; PinHeader_1x03 ×4; IRLML6402TRPBF ×2; JST_PH_01x02 ×2; IRFB3206PBF ×2; PinSocket_Long_1x06 ×1; PinSocket_Long_2x16 ×1.
 - Connector footprint families: PinSocket_1x06_P2.54mm_Vertical ×1; PinSocket_2x16_P2.54mm_Vertical ×1; JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical ×2; PinHeader_1x03_P2.54mm_Vertical ×4.
@@ -101,7 +105,7 @@ See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 u
 ### B07: ABSIS_HID Bus Master
 
 - Function: Pro Micro USB/HID to one terminated RS-485 channel.
-- Sources: [PCB](../../PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_pro).
+- Sources: [PCB](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_pcb); [schematic](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_sch); [project](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_pro).
 - Observed PCB revision: `4`; copper layers: F.Cu, B.Cu; thickness: 1.6; 20 embedded footprints.
 - Repeated/functional parts: TestPoint ×6; MAX487EESA+T ×1; 120 ×1; 0.1uF ×1; Molex_Mini-Fit_Jr._2x04 ×1; Mini-Fit Jr. 2x03 ×1; ProMicro_5V/16Hz ×1; 1N5819WS ×1.
 - Connector footprint families: Molex_Mini-Fit_Jr_5566-08A2_2x04_P4.20mm_Vertical ×1; Molex_Mini-Fit_Jr_5566-06A2_2x03_P4.20mm_Vertical ×1.
@@ -127,7 +131,7 @@ See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 u
 ### B09: ABSIS_MPC
 
 - Function: Incomplete project; intended function not established from empty PCB.
-- Sources: [PCB](../../PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_pro).
+- Sources: [PCB](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_pcb); [schematic](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch); [project](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_pro).
 - Observed PCB revision: `not stated`; copper layers: F.Cu, B.Cu; thickness: 1.6; 0 embedded footprints.
 - Repeated/functional parts: .
 - Connector footprint families: none placed.
@@ -179,7 +183,7 @@ See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 u
 ### B13: ABSIS_Pro_Micro
 
 - Function: Development ATmega32U4 replacement module with USB-C and RAW-priority power mux.
-- Sources: [PCB](../../PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_pcb); [schematic](../../PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_sch); [project](../../PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_pro).
+- Sources: [PCB](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_pcb); [schematic](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_sch); [project](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_pro).
 - Observed PCB revision: `not stated`; copper layers: F.Cu, In1.Cu, In2.Cu, B.Cu; thickness: 1.6; 7 embedded footprints.
 - Repeated/functional parts: FIDUCIALUFIDUCIAL ×2; M12PTH ×2; 2171790001 ×1; ~ ×1.
 - Connector footprint families: PinHeader_1x06_P2.00mm_Vertical ×1; PinHeader_1x12_P2.54mm_Vertical ×2.
@@ -909,19 +913,19 @@ This includes the six-sheet interconnect hierarchy, current board schematics and
 
 | Schematic | Revision | Direct symbol instances / child sheets |
 | --- | --- | --- |
-| [PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch](../../PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch) | 3 | 40 / 0 |
-| [PCBs/ABSIS/ABSIS_ALE Relay Module/ABSIS_ALE Relay Module.kicad_sch](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_sch) | 2 | 38 / 0 |
+| [PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE/ABSIS_ALE.kicad_sch) | 3 | 40 / 0 |
+| [PCBs/ABSIS/ABSIS_ALE Relay Module/ABSIS_ALE Relay Module.kicad_sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/ABSIS_ALE%20Relay%20Module.kicad_sch) | 2 | 38 / 0 |
 | [PCBs/ABSIS/ABSIS_ATX Power Supply Unit/ABSIS_ATX Power Supply Unit.kicad_sch](../../PCBs/ABSIS/ABSIS_ATX%20Power%20Supply%20Unit/ABSIS_ATX%20Power%20Supply%20Unit.kicad_sch) | 6 | 86 / 0 |
 | [PCBs/ABSIS/ABSIS_Backlight Controller/ABSIS_Backlight Controller.kicad_sch](../../PCBs/ABSIS/ABSIS_Backlight%20Controller/ABSIS_Backlight%20Controller.kicad_sch) | 7 | 82 / 0 |
 | [PCBs/ABSIS/ABSIS_Bus_Master/ABSIS_Bus_Master.kicad_sch](../../PCBs/ABSIS/ABSIS_Bus_Master/ABSIS_Bus_Master.kicad_sch) | 6.0.0 | 96 / 0 |
 | [PCBs/ABSIS/ABSIS_Bus_Master/legacy/ABSIS_Bus_Master.kicad_sch](../../PCBs/ABSIS/ABSIS_Bus_Master/legacy/ABSIS_Bus_Master.kicad_sch) | 5.0.0 | 72 / 0 |
-| [PCBs/ABSIS/ABSIS_HID Bus Master/ABSIS_HID Bus Master.kicad_sch](../../PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_sch) | 4 | 38 / 0 |
+| [PCBs/ABSIS/ABSIS_HID Bus Master/ABSIS_HID Bus Master.kicad_sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_HID%20Bus%20Master/ABSIS_HID%20Bus%20Master.kicad_sch) | 4 | 38 / 0 |
 | [PCBs/ABSIS/ABSIS_Hall Sensor/ABSIS_Hall Sensor.kicad_sch](../../PCBs/ABSIS/ABSIS_Hall%20Sensor/ABSIS_Hall%20Sensor.kicad_sch) | 4 | 18 / 0 |
-| [PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch](../../PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch) | 1 | 321 / 0 |
+| [PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_MPC/ABSIS_MPC.kicad_sch) | 1 | 321 / 0 |
 | [PCBs/ABSIS/ABSIS_Mega/ABSIS_Mega.kicad_sch](../../PCBs/ABSIS/ABSIS_Mega/ABSIS_Mega.kicad_sch) | 3.0.0 | 68 / 0 |
 | [PCBs/ABSIS/ABSIS_Mega/legacy/ABSIS_Mega.kicad_sch](../../PCBs/ABSIS/ABSIS_Mega/legacy/ABSIS_Mega.kicad_sch) | 2 | 59 / 0 |
 | [PCBs/ABSIS/ABSIS_Pit Management System/ABSIS_Pit Management System.kicad_sch](../../PCBs/ABSIS/ABSIS_Pit%20Management%20System/ABSIS_Pit%20Management%20System.kicad_sch) | 1 | 32 / 0 |
-| [PCBs/ABSIS/ABSIS_Pro Micro/ABSIS_Pro_Micro.kicad_sch](../../PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_sch) | not stated | 68 / 0 |
+| [PCBs/ABSIS/ABSIS_Pro Micro/ABSIS_Pro_Micro.kicad_sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_Pro%20Micro/ABSIS_Pro_Micro.kicad_sch) | not stated | 68 / 0 |
 | [PCBs/Backlight PCBs/Backlighting_Type A/ANT SEL PANEL/ANT SEL PANEL.kicad_sch](../../PCBs/Backlight%20PCBs/Backlighting_Type%20A/ANT%20SEL%20PANEL/ANT%20SEL%20PANEL.kicad_sch) | 4 | 61 / 0 |
 | [PCBs/Backlight PCBs/Backlighting_Type A/APU ENG CRANK PANEL/APU ENG CRANK PANEL.kicad_sch](../../PCBs/Backlight%20PCBs/Backlighting_Type%20A/APU%20ENG%20CRANK%20PANEL/APU%20ENG%20CRANK%20PANEL.kicad_sch) | 4 | 68 / 0 |
 | [PCBs/Backlight PCBs/Backlighting_Type A/AV COOL PANEL/AV COOL PANEL.kicad_sch](../../PCBs/Backlight%20PCBs/Backlighting_Type%20A/AV%20COOL%20PANEL/AV%20COOL%20PANEL.kicad_sch) | 4 | 45 / 0 |
@@ -987,11 +991,11 @@ Legacy `.pro`/cache/rescue/BOM artifacts in these directories are historical dep
 
 | Source | Components | Title / revision |
 | --- | --- | --- |
-| [PCBs/ABSIS/ABSIS_ALE/Legacy/ABSIS_ALE.sch](../../PCBs/ABSIS/ABSIS_ALE/Legacy/ABSIS_ALE.sch) | 38 | Title "ABSIS ALE (ALmost Everything)"; Rev "1" |
-| [PCBs/ABSIS/ABSIS_ALE Relay Module/Legacy/ABSIS_ALE Relay Module.sch](../../PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/Legacy/ABSIS_ALE%20Relay%20Module.sch) | 36 | Title "ABSIS Nano 2.5 Relay Module"; Rev "1" |
+| [PCBs/ABSIS/ABSIS_ALE/Legacy/ABSIS_ALE.sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE/Legacy/ABSIS_ALE.sch) | 38 | Title "ABSIS ALE (ALmost Everything)"; Rev "1" |
+| [PCBs/ABSIS/ABSIS_ALE Relay Module/Legacy/ABSIS_ALE Relay Module.sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_ALE%20Relay%20Module/Legacy/ABSIS_ALE%20Relay%20Module.sch) | 36 | Title "ABSIS Nano 2.5 Relay Module"; Rev "1" |
 | [PCBs/ABSIS/ABSIS_ATX Power Supply Unit/Legacy/ABSIS_ATX Power Supply Unit.sch](../../PCBs/ABSIS/ABSIS_ATX%20Power%20Supply%20Unit/Legacy/ABSIS_ATX%20Power%20Supply%20Unit.sch) | 84 | Title "ABSIS ATX Power Board"; Rev "2" |
 | [PCBs/ABSIS/ABSIS_Backlight Controller/Legacy/ABSIS_Backlight Controller.sch](../../PCBs/ABSIS/ABSIS_Backlight%20Controller/Legacy/ABSIS_Backlight%20Controller.sch) | 81 | Title "ABSIS Backlighting Controller"; Rev "2" |
-| [PCBs/ABSIS/ABSIS_HID Bus Master/Legacy/ABSIS_HID Bus Master.sch](../../PCBs/ABSIS/ABSIS_HID%20Bus%20Master/Legacy/ABSIS_HID%20Bus%20Master.sch) | 37 | Title "ABSIS RS485 Bus Master"; Rev "2" |
+| [PCBs/ABSIS/ABSIS_HID Bus Master/Legacy/ABSIS_HID Bus Master.sch](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/ECAD/PCBs/ABSIS/ABSIS_HID%20Bus%20Master/Legacy/ABSIS_HID%20Bus%20Master.sch) | 37 | Title "ABSIS RS485 Bus Master"; Rev "2" |
 | [PCBs/ABSIS/ABSIS_Hall Sensor/Legacy/ABSIS_Hall Sensor.sch](../../PCBs/ABSIS/ABSIS_Hall%20Sensor/Legacy/ABSIS_Hall%20Sensor.sch) | 18 | Title "ABSIS HALL SENSOR"; Rev "2" |
 | [PCBs/ABSIS/ABSIS_Pit Management System/Legacy/ABSIS_Pit Management System.sch](../../PCBs/ABSIS/ABSIS_Pit%20Management%20System/Legacy/ABSIS_Pit%20Management%20System.sch) | 32 | Title "ABSIS PIT MANAGEMENT SYSTEM"; Rev "1" |
 | [PCBs/Backlight PCBs/Backlighting_Type A/ANT SEL PANEL/Legacy/ANT SEL PANEL.sch](../../PCBs/Backlight%20PCBs/Backlighting_Type%20A/ANT%20SEL%20PANEL/Legacy/ANT%20SEL%20PANEL.sch) | 23 | Title ""; Rev "" |
