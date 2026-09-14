@@ -51,9 +51,7 @@ OpenHornet
 ├── utils (Contains fonts or other similar required resources for development)
 ├── .gitignore (File that instructs the git repository to ignore certain file types.)
 ├── CODE_OF_CONDUCT.md (Our contributor code of conduct.)
-├── CONTRIBUTING.md (A file that just redirects you to the contributing wiki entry.)
-├── ISSUE_TEMPLATE.md (The generic repository issue template, in case an issue doesn't fall into one 
-|                      of our three predetermined categories)
+├── CONTRIBUTING.md (Repository contribution and issue-reporting guidance.)
 ├── LICENSE.md (License file for the OpenHornet repository)
 ├── PULL_REQUEST_TEMPLATE.md (The repository pull request template.)
 └── README.md (This file)
@@ -65,7 +63,7 @@ OpenHornet
 * [OpenHornet GitHub](https://github.com/jrsteensen/OpenHornet) - OpenHornet's GitHub repository for everything other than MCAD. Where you can find the latest under-development files.
 * [OpenHornet Hardware Documentation](https://docs.openhornet.com/hardware/) - Generated hardware documentation, tutorials, and reference material.
 * [OpenHornet Tutorials](https://github.com/jrsteensen/OpenHornet/tree/master/docs/tutorials) - Tutorials for OpenHornet.
-* [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug/enhancement/obsolescence report.
+* [OpenHornet Issues](https://github.com/jrsteensen/OpenHornet/issues) - Go here to file a bug, enhancement, obsolescence, or maintenance issue.
 * [OpenHornet Authorized Vendors](https://openhornet.com/openhornet-authorized-vendors/) - These are vendors who are licensed to sell OpenHornet parts and assemblies. By purchasing from them, you also support OpenHornet as well!
 
 ### OpenHornet MCAD Model

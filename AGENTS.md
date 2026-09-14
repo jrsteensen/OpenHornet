@@ -6,6 +6,19 @@ Read applicable repository instructions and preserve unrelated work. Keep change
 
 Read-only analysis MAY run on the default branch. Any AI-assisted design mutation MUST run on a dedicated task branch with a clean or intentionally scoped working tree. Do not create hardware changes directly on the default branch.
 
+## Issue tracking
+
+Use the repository issue forms and keep issue type separate from repository category.
+
+- **Bug** — Something in the current design, documentation or build is incorrect or broken.
+- **Enhancement** — A new capability or intentional design change is proposed.
+- **Obsolescence** — A purchased component is unavailable, end-of-life or requires a supply-driven replacement.
+- **Maintenance** — The desired design already exists, but repository artifacts require synchronization, migration, cleanup, consolidation, regeneration, replacement or standardization.
+
+Apply the corresponding `Type: ...` label. Apply `Category: MCAD` to mechanical work and `Category: ECAD` to PCBs, KiCad libraries, interconnects and wiring; do not create or apply a separate interconnect category. Use repository milestones flexibly to identify the most appropriate target release. Do not retain `Triage Required` after an authorized maintainer has reviewed and classified the issue.
+
+When creating or substantially revising an issue, identify the affected parts/files/assemblies, current state, desired state, required work and objective acceptance criteria where applicable. Link related issues and pull requests.
+
 ## ECAD work
 
 The normative ECAD requirements are indexed at [ECAD/docs/requirements/README.md](ECAD/docs/requirements/README.md). Read that index, [the workflow](ECAD/docs/requirements/WORKFLOW.md), the [Astra/Konnect toolchain reference](ECAD/docs/requirements/TOOLCHAIN.md) and applicable technical requirements **before** changing schematics, PCB layouts, interconnects, libraries, BOMs or manufacturing outputs. Use the actual uppercase `ECAD` path; do not create a case-colliding `ecad` tree. Respect Proposed/TBD distinctions.
