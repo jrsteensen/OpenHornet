@@ -1,0 +1,159 @@
+name: Maintenance / Cleanup
+description: Track repository cleanup, synchronization, migration, standardization, regeneration, or replacement work
+title: "[Maintenance]: "
+labels: ["Type: Maintenance", "Triage Required"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when the desired design or behavior already exists, but OpenHornet files need to be synchronized, migrated, cleaned up, standardized, regenerated, or updated.
+
+        If something is currently incorrect or broken, use Bug Report.
+        If you are proposing new functionality or a new design, use Feature / Enhancement Request.
+        If a purchased component is obsolete or unavailable, use Obsolescence Report.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Discord Username
+      description: How can we contact you if additional information is required?
+      placeholder: ex. Noctum
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Maintenance Summary
+      description: What needs to be updated, synchronized, cleaned up, standardized, regenerated, or replaced?
+      placeholder: Describe the maintenance action and why it is required.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which repository areas are affected? Select all that apply. Interconnect and wiring work falls under ECAD / Electrical.
+      multiple: true
+      options:
+        - MCAD / Mechanical
+        - ECAD / Electrical
+        - Artwork
+        - Drawings / Documentation
+        - Repository / Tooling / CI
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: affected-items
+    attributes:
+      label: Affected Parts / Files / Assemblies
+      description: Identify applicable OpenHornet part numbers, assemblies, PCB names, library symbols, drawings, files, or directories.
+      placeholder: |
+        Examples:
+        - ABSIS ALE+
+        - ABSIS Mega
+        - OH_Interconnect
+        - Top-level MCAD pit assemblies
+        - ECAD/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-state
+    attributes:
+      label: Current State
+      description: Describe what currently exists and why it is outdated, inconsistent, duplicated, or otherwise requires maintenance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-state
+    attributes:
+      label: Desired State
+      description: Describe what the repository should look like when this maintenance action is complete.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Required Work
+      description: Provide a checklist of known work where possible.
+      placeholder: |
+        - [ ] Replace ...
+        - [ ] Update ...
+        - [ ] Remove ...
+        - [ ] Verify ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Completion / Acceptance Criteria
+      description: How will completion be verified?
+      placeholder: Describe searches, reviews, ERC/DRC checks, regenerated outputs, build checks, or other objective verification.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Applicable Version / Branch
+      options:
+        - Current master / next release
+        - v0.3.0
+        - v0.2.0
+        - Older release
+        - Not release-specific
+    validations:
+      required: true
+
+  - type: dropdown
+    id: end-item
+    attributes:
+      label: Applicable End Item(s)
+      description: Which end items are affected? Select all that apply.
+      multiple: true
+      options:
+        - Top Level Assembly (TLA)
+        - Upper Instrument Panel (UIP)
+        - Lower Instrument Panel (LIP)
+        - Center Tub (CT)
+        - Left Console (LCON)
+        - Right Console (RCON)
+        - Flight Stick
+        - Throttle
+        - Multiple / Repository-wide
+        - Not end-item-specific
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related Issues / PRs
+      description: Link issues, pull requests, requirements, or design changes that caused or depend on this work.
+      placeholder: "#1220, #1229, PR #..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Screenshots / Images / Files
+      description: Add screenshots, diagrams, files, or other references that help define the work.
+    validations:
+      required: false
+
+  - type: textarea
+    id: misc
+    attributes:
+      label: Additional Information
+      description: Add anything not covered above.
+    validations:
+      required: false

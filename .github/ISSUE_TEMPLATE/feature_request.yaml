@@ -1,80 +1,96 @@
-name: Feature/Enhancement Request
-description: Request a new feature or enhancement
-title: "[FEATURE REQUEST]: "
+name: Feature / Enhancement Request
+description: Propose a new capability or intentional improvement to OpenHornet
+title: "[Enhancement]: "
 labels: ["Type: Enhancement", "Triage Required"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request! OpenHornet lives on its community contributions and reports!
+        Use this form to propose new functionality or an intentional change to an OpenHornet design.
+
+        If something is currently incorrect or broken, use Bug Report.
+        If an existing design is being synchronized, migrated, cleaned up, or standardized, use Maintenance / Cleanup.
+        If a purchased component is obsolete or unavailable, use Obsolescence Report.
+
   - type: input
     id: contact
     attributes:
       label: Discord Username
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. Noctum#4085
+      description: How can we contact you if additional information is required?
+      placeholder: ex. Noctum
     validations:
       required: false
+
   - type: textarea
     id: summary
     attributes:
-      label: Feature/Enhancement Summary
-      description: Please summarize your issue here. Be as specific as possible.
-      placeholder: Tell us what you want see!
+      label: Feature / Enhancement Summary
+      description: What new capability or intentional change are you proposing?
+      placeholder: Describe the desired improvement.
     validations:
       required: true
-  - type: textarea
-    id: images
-    attributes: 
-      label: Screenshots/Images/Files
-      description: Pictures/Files are worth 1000 words. Take some screen grab of the model, circle things with the snipping tool, put together a quick power point description of the issue, drop in a STEP/F3Z file of a fix you made - you can't put too much information here!
-      placeholder: You can just paste images or files in this field...
-    validations:
-      required: false
+
   - type: textarea
     id: justification
-    attributes: 
-      label: Justification
-      description: Why would this improve OpenHornet? 
-      placeholder: Does it give OpenHornet new capabilities, or allow you to build it faster, cheaper, easier, or better?
-    validations:
-      required: true
-  - type: input
-    id: part-numbers
     attributes:
-      label: Applicable Part Numbers
-      description: List the part number(s) this issue applies to.
-      placeholder: ex. OH02A5-136, OH04A2-1, etc.
+      label: Justification
+      description: Why would this improve OpenHornet?
+      placeholder: Explain whether it improves capability, fidelity, reliability, manufacturability, cost, usability, or maintainability.
     validations:
       required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the preferred implementation, if known, along with alternatives or tradeoffs considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: affected-items
+    attributes:
+      label: Affected Parts / Files / Assemblies
+      description: List applicable part numbers, assemblies, PCB names, drawings, files, or directories. Enter Not yet known if the scope has not been determined.
+      placeholder: ex. OH02A5-136, ABSIS_ALE+, ECAD/..., MCAD/..., or Not yet known
+    validations:
+      required: false
+
   - type: dropdown
     id: version
     attributes:
-      label: Release Version
-      description: What release are you building to?
+      label: Applicable Version / Branch
+      description: Which release or development branch would receive this change?
       options:
+        - Current master / next release
         - v0.3.0
         - v0.2.0
-        - pre-v0.2.0 (Early Development/Alpha)
+        - Older release
+        - Not release-specific
     validations:
       required: true
+
   - type: dropdown
     id: category
     attributes:
       label: Category
-      description: Is this a mechanical and/or electrical issue or artwork? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. Artwork would be placards, stickers, dataplates or a vector art issue. (You may select more than one.) 
+      description: Which repository areas are affected? Select all that apply.
       multiple: true
       options:
-        - Mechanical (Structure/Panels/Mechanisms)
-        - Electrical (PCBs/Wiring/etc)
-        - Artwork (Decals)
+        - MCAD / Mechanical
+        - ECAD / Electrical
+        - Artwork
+        - Drawings / Documentation
+        - Repository / Tooling / CI
+        - Other
     validations:
-        required: true
+      required: true
+
   - type: dropdown
     id: end-item
     attributes:
       label: Applicable End Item(s)
-      description: What End Item(s) does this issue apply to? 
+      description: Which end items are affected? Select all that apply.
       multiple: true
       options:
         - Top Level Assembly (TLA)
@@ -85,14 +101,33 @@ body:
         - Right Console (RCON)
         - Flight Stick
         - Throttle
-        - Something else
+        - Multiple / Repository-wide
+        - Not end-item-specific
+        - Other
     validations:
-        required: true
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this enhancement to be considered complete?
+      placeholder: Describe measurable design, build, test, documentation, or review outcomes.
+    validations:
+      required: false
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Screenshots / Images / Files
+      description: Add sketches, annotated screenshots, photos, CAD files, references, or other supporting material.
+    validations:
+      required: false
+
   - type: textarea
     id: misc
-    attributes: 
-      label: Miscellaneous Info
-      description: Do you have any additional information not previously covered?
-      placeholder: This space would be to provide specific applicable model names and versions, deviations from the OpenHornet build, or provide any information that is not covered elsewhere in this report.
+    attributes:
+      label: Additional Information
+      description: Link related issues, pull requests, requirements, or discussions and add anything not covered above.
     validations:
       required: false
