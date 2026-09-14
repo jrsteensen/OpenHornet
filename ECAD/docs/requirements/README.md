@@ -19,13 +19,13 @@ Requirements adopted by PR #1255 are effective; amendments proposed in a later P
 
 Each normative document identifies its basis. Requirements have stable IDs for review evidence and deviations. Keep IDs stable when editing wording; retire rather than reuse deleted IDs. An inventory value becomes normative only through an explicit requirement and scope.
 
-The master baseline is supplemented by the merged ALE+ successor, historical owner confirmations and current source/output conflicts recorded in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Baseline file counts remain a historical snapshot; supplements and later reviews explicitly identify their scope.
+The master baseline is supplemented by the ALE+ successor and current owner-confirmed decisions recorded in the [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md). Baseline file counts remain a historical snapshot; supplements and later reviews explicitly identify their scope.
 
 ## Reading order
 
 | Document | Purpose | Status |
 | --- | --- | --- |
-| [GOVERNANCE.md](GOVERNANCE.md) | Authority, change scope, deviations, qualification states | Normative |
+| [GOVERNANCE.md](GOVERNANCE.md) | Authority, change scope, deviations, practical acceptance | Normative |
 | [WORKFLOW.md](WORKFLOW.md) | Astra/Codex, Konnect, KiCad 10, safe edits and evidence | Normative |
 | [TOOLCHAIN.md](TOOLCHAIN.md) | Known-good Astra/Konnect/KiCad implementation, operator modes and smoke tests | Operational reference supporting WORKFLOW |
 | [SCHEMATICS_AND_COMPONENTS.md](SCHEMATICS_AND_COMPONENTS.md) | Schematics, datasheets, exact MPNs, symbols and footprints | Normative |
@@ -35,12 +35,12 @@ The master baseline is supplemented by the merged ALE+ successor, historical own
 | [VALIDATION.md](VALIDATION.md) | ERC, DRC, parity, exclusions and review | Normative |
 | [MANUFACTURING.md](MANUFACTURING.md) | CAM, BOM/CPL, assembly and release artifacts | Normative |
 | [QUALIFICATION.md](QUALIFICATION.md) | Bring-up, regression, human acceptance and release | Normative |
-| [REVIEW_RECORD.md](REVIEW_RECORD.md) | Board/change review record outline | Normative required content; flexible format |
-| [ARCHITECTURE_INVENTORY.md](ARCHITECTURE_INVENTORY.md) | Evidence, generations and identified conflicts | Informative |
-| [BOARD_INVENTORY.md](BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
-| [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) | Issue-backed derivative-board migration scope, status and evidence rules | Normative requirements; matrix informative |
-| [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Merged ALE+ successor, dated decisions, source/output conflicts and transition evidence | Informative |
-| [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Grouped unresolved owner decisions and retained resolved items | Informative; proposed choices remain pending |
+| [REVIEW_RECORD.md](REVIEW_RECORD.md) | Short change/build review record | Proportional PR evidence |
+| [ARCHITECTURE_INVENTORY.md](../reference/ARCHITECTURE_INVENTORY.md) | Evidence, generations and identified conflicts | Informative |
+| [BOARD_INVENTORY.md](../reference/BOARD_INVENTORY.md) | Every PCB/project, source paths and observed constraints | Informative |
+| [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) | Rules for performing scoped circuit migrations | Normative |
+| [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) | Current owner-confirmed ALE+ design decisions | Informative |
+| [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md) | Accepted owner decisions and remaining shield proposal | Decision record; Q-03 proposal pending |
 
 ## Start a board change
 
@@ -48,6 +48,8 @@ Read governance, workflow, the toolchain reference when using AI/Konnect, the ap
 
 Numerical defaults in KiCad, old production files, tool examples and component headline ratings are not automatically OpenHornet electrical or fabrication limits. Do not use the oldest or most permissive value to settle a conflict. Keep the affected gate pending until its inputs are resolved.
 
-## Latest requirements review
+## Owner decisions and practical scope
 
-The 2026-09-14 review reconciles merged PR #1233 and the current #1220 migration scope. See [REVIEW_2026-09-14.md](REVIEW_2026-09-14.md) for evidence, changes and limitations. ALE+ D2 differs between the schematic, PCB metadata and released BOM; Q-13 records the unresolved reconciliation. Historical SS34 confirmation and a cosmetic-only revision description MUST NOT conceal that discrepancy or establish qualification of 8.0.1.
+The 2026-09-14 discussion establishes the profiles, power targets, supported modules, practical acceptance and file-lifecycle rules recorded in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md). Q-03's detachable shield arrangement remains proposed. S3MB is the accepted ALE+ D2. Implementation defects belong in repository issues/PRs; this folder is not an issue backlog.
+
+Historical static inventories are retained under `ECAD/docs/reference/` as dated evidence. They do not override current owner decisions or establish current support status. No formal retrospective qualification campaign is required for successfully used existing boards.

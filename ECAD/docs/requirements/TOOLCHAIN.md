@@ -190,7 +190,7 @@ The 2026-09-11 reference smoke test used current ABSIS Mega and successfully rep
 9. Route against approved netclasses, fabrication constraints and electrical calculations. Do not substitute generic Konnect example widths/clearances for project requirements.
 10. Refill zones, save the reviewed state and run DRC, schematic parity and unrouted checks as applicable. Disposition findings without suppressing them merely to obtain a clean report.
 11. Generate BOM/CPL/Gerber/drill/STEP/PDF and other required outputs only from the validated saved state. Reconcile source, BOM, placement and CAM results.
-12. Record tool versions, relevant operations, checks, results, deviations and qualification state in the hardware PR/review record. Human approval and prototype qualification remain separate gates.
+12. Record tool versions, relevant operations, checks, results, deviations and qualification state in the hardware PR/review record. Record maintainer review and actual build/use evidence under QUALIFICATION.md.
 
 ## Stop conditions
 

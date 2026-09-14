@@ -2,7 +2,7 @@
 
 ## Basis
 
-Recurring implementations use project and standard KiCad libraries, `Manufacturer PN` and `LCSC` fields, Arduino module symbols, WS2812 variants, and connector metadata. DDI/AMPCD manufacturing instructions explicitly distinguish `PCA9554PWR` from unspecified PCA9554 packages. New verification rules below are **adopted project policy under PR #1255**, based on electrical engineering practice and the mapping/documentation inconsistencies in [the inventory](ARCHITECTURE_INVENTORY.md).
+Recurring implementations use project and standard KiCad libraries, `Manufacturer PN` and `LCSC` fields, Arduino module symbols, WS2812 variants, and connector metadata. DDI/AMPCD manufacturing instructions explicitly distinguish `PCA9554PWR` from unspecified PCA9554 packages. New verification rules below are **adopted project policy under PR #1255**, based on electrical engineering practice and the mapping/documentation inconsistencies in [the inventory](../reference/ARCHITECTURE_INVENTORY.md).
 
 ## Schematic requirements
 
@@ -36,3 +36,8 @@ Component selection MUST follow MFG-013/014/016/017 in [MANUFACTURING.md](MANUFA
 - **LIB-005:** Manufacturing metadata MUST agree across schematic, PCB, BOM and distributor mapping. Keep part value, MPN, supplier code, assembly side, DNP and quantity separate. Report inconsistent fields rather than selecting whichever is convenient.
 
 - **LIB-006:** Before merging a shared-library change, recheck affected consumers against the current target branch. Distinguish changing a library definition from updating embedded schematic/PCB instances; neither implies the other occurred. Record which instances intentionally remain at their prior definition. A Git merge without conflicts does not establish electrical or package compatibility. Consolidation or renaming requires a scoped mapping of old/new library IDs and dependent paths, with clean-checkout resolution and applicable consumer checks; this requirement does not authorize consolidation during unrelated board work.
+
+## Supported modules and LEDs
+
+- **CMP-007:** The normal purchased controller modules are SparkFun Pro Micro 5 V/16 MHz and Arduino Mega 2560 Rev3. Preserve the explicitly identified 3.3 V Pro Mini exception for the throttle inner grip; it is not interchangeable with a 5 V Pro Micro. Other module variants require an explicitly reviewed application. Identify relevant vendor/revision and power-circuit differences under CMP-006.
+- **CMP-008:** No single LED type is mandated across panels. Select the exact variant for optical, electrical, mechanical and sourcing requirements. Follow PI-001/003/007 for decoupling and load behavior; judge lighting in the intended panel, without inventing a universal photometric or analog-accuracy threshold.

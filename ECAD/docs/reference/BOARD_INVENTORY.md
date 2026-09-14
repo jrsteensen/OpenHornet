@@ -1,3 +1,5 @@
+> Archived static audit evidence. Historical observations and findings below are not a current defect tracker or normative requirements. Use repository issues for active corrective work.
+
 # Board and project inventory
 
 **Informative baseline evidence, not requirements or validation results.** Snapshot: `c259a65a1759801a2affea817fd99f6a14f1e1fe`.
@@ -10,13 +12,13 @@ Widths/drills below are **mm**, rounded only to remove floating-point representa
 
 ## Historical paths and current lifecycle
 
-The detailed entries below retain the original snapshot, including old paths and observations. PR #1233 later moved ALE, Relay Module and HID Bus Master into `zz_OBSOLETE_*` directories and marked MPC/Pro Micro in development. Use [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) and [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) for the 2026-09-14 update. Historical facts are not present support or qualification claims. Source links below are pinned to the original inventory commit where appropriate.
+The detailed entries below retain the original snapshot, including old paths and observations. PR #1233 later moved ALE, Relay Module and HID Bus Master into `zz_OBSOLETE_*` directories and marked MPC/Pro Micro in development. Use [ABSIS_MIGRATION.md](../requirements/ABSIS_MIGRATION.md) and [ALE_PLUS_SUPPLEMENT.md](../requirements/ALE_PLUS_SUPPLEMENT.md) for the 2026-09-14 update. Historical facts are not present support or qualification claims. Source links below are pinned to the original inventory commit where appropriate.
 
 ## Successor added after the historical snapshot
 
-**B69: ABSIS_ALE+** was outside the original 68-file snapshot and subsequently merged in PR #1233 on 2026-09-13. See [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) for revision 8.0.1 evidence and the current D2/source/BOM conflict (Q-13). It replaces B01/B02; HID Bus Master is also obsolete. Reported v8 testing does not establish qualification of a different D2 assembly.
+**B69: ABSIS_ALE+** was outside the original 68-file snapshot and subsequently merged in PR #1233 on 2026-09-13. See [ALE_PLUS_SUPPLEMENT.md](../requirements/ALE_PLUS_SUPPLEMENT.md) for revision 8.0.1 evidence and the current D2/source/BOM conflict (Q-13). It replaces B01/B02; HID Bus Master is also obsolete. Reported v8 testing does not establish qualification of a different D2 assembly.
 
-See [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) for the issue-backed power/RS-485 update scope and implementation status of affected boards. The baseline entries below retain historical observations; they do not override that migration direction.
+See [ABSIS_MIGRATION.md](../requirements/ABSIS_MIGRATION.md) for the issue-backed power/RS-485 update scope and implementation status of affected boards. The baseline entries below retain historical observations; they do not override that migration direction.
 
 ## PCB sources
 

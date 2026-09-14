@@ -1,10 +1,12 @@
+> Archived static audit evidence. Historical observations and findings below are not a current defect tracker or normative requirements. Use repository issues for active corrective work.
+
 # Architecture evidence and findings
 
 **Informative review, not an electrical audit certificate.** Baseline: `master` at `c259a65a1759801a2affea817fd99f6a14f1e1fe`, reviewed 2026-09-10. [BOARD_INVENTORY.md](BOARD_INVENTORY.md) enumerates every PCB and modern/legacy schematic candidate with exact source paths, observed parts, connectors, rails, constraints and mechanical footprint evidence.
 
 ## Historical paths and current lifecycle
 
-The detailed entries below retain the original snapshot, including old paths and observations. PR #1233 later moved ALE, Relay Module and HID Bus Master into `zz_OBSOLETE_*` directories and marked MPC/Pro Micro in development. Use [ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) and [ALE_PLUS_SUPPLEMENT.md](ALE_PLUS_SUPPLEMENT.md) for the 2026-09-14 update. Historical facts are not present support or qualification claims. Source links below are pinned to the original inventory commit where appropriate.
+The detailed entries below retain the original snapshot, including old paths and observations. PR #1233 later moved ALE, Relay Module and HID Bus Master into `zz_OBSOLETE_*` directories and marked MPC/Pro Micro in development. Use [ABSIS_MIGRATION.md](../requirements/ABSIS_MIGRATION.md) and [ALE_PLUS_SUPPLEMENT.md](../requirements/ALE_PLUS_SUPPLEMENT.md) for the 2026-09-14 update. Historical facts are not present support or qualification claims. Source links below are pinned to the original inventory commit where appropriate.
 
 ## Scope and method
 
@@ -16,11 +18,11 @@ No PCB, schematic, project, library, manufacturing output or workbook is changed
 
 ## Pending successor supplement
 
-The [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md), updated 2026-09-14, records merged PR #1233, the historical 7.5 V nominal / 7.3 V actual buck intent and current D2/source/output conflict (Q-13). The original 2026-09-11 SS34/cosmetic-only statements no longer unambiguously describe merged revision 8.0.1. Counts and detailed findings below remain the historical baseline.
+The [ALE+ supplement](../requirements/ALE_PLUS_SUPPLEMENT.md), updated 2026-09-14, records merged PR #1233, the historical 7.5 V nominal / 7.3 V actual buck intent and current D2/source/output conflict (Q-13). The original 2026-09-11 SS34/cosmetic-only statements no longer unambiguously describe merged revision 8.0.1. Counts and detailed findings below remain the historical baseline.
 
 ## Issue-backed migration intent
 
-[ABSIS_MIGRATION.md](ABSIS_MIGRATION.md) maps issue #1220 and related failure reports to affected boards. The older power/RS-485 circuits listed there are pending intentional migration, not equally preferred design alternatives. Master/Mega and ALE+ implementation have merged; HID is obsolete and Backlight Controller power review is tracked; tracker checkboxes and qualification status are separate.
+[ABSIS_MIGRATION.md](../requirements/ABSIS_MIGRATION.md) maps issue #1220 and related failure reports to affected boards. The older power/RS-485 circuits listed there are pending intentional migration, not equally preferred design alternatives. Master/Mega and ALE+ implementation have merged; HID is obsolete and Backlight Controller power review is tracked; tracker checkboxes and qualification status are separate.
 
 ## Evidence map
 
@@ -47,7 +49,7 @@ Paths below are relative to the repository root unless linked. Board source loca
 | Distributed power | ATX breakout supplies +12 V, +5 V, +3.3 V plus standby/control; Mini-Fit Jr. distribution, separate backlight feeds and auxiliary XT60 interfaces | Repeated intentional architecture; allowable rail currents/source combinations remain unresolved |
 | ABSIS I/O | ALE and Mega modules with power + A/B on six-pin connectors; incoming/outgoing bus through nodes; local headers connect controls | Repeated interface mapping, not a guarantee that all named modules are compatible |
 | Refreshed RS-485 | Master v6.0.0 and Mega v3.0.0: THVD1410DR, CDSOT23-SM712, two 10 Ω line resistors, 0.1 µF bypass, 10 kΩ logic pulls; master 120 Ω terminators | Intentional 2026 refresh. Candidate basis for new work; physical qualification and mixed-generation limits need records |
-| ALE+ successor (merged #1233) | Integrated I/O and two output channels; THVD1410/SM712 refresh; buck supply and four-layer PCB | Owner-confirmed replacement for ALE plus relay; see [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) for source and test-evidence scope |
+| ALE+ successor (merged #1233) | Integrated I/O and two output channels; THVD1410/SM712 refresh; buck supply and four-layer PCB | Owner-confirmed replacement for ALE plus relay; see [ALE+ supplement](../requirements/ALE_PLUS_SUPPLEMENT.md) for source and test-evidence scope |
 | Older RS-485 | ALE, HID Master and several instrument controllers use MAX487EESA+T and a local 0.1 µF capacitor | Still present in current directories; not automatically the preferred new design |
 | USB | Purchased Pro Micro/Mega modules and hubs; direct USB controllers alongside RS-485; UFC source selection; custom Pro Micro USB-C development | Multiple power generations and board-specific programming restrictions |
 | Backlighting | WS2812B, WS2812B-Mini and WS2812B-2020; usually Mini-Fit Jr. DIN/DOUT chain with parallel +5 V/GND pass-through | Repeated architecture, package-specific electrical/optical behavior. Not RS-485 or analog PWM wiring merely because MCU pins are PWM-capable |
@@ -72,7 +74,7 @@ This establishes subsystem relationships and named endpoint instructions, **not*
 
 ## Connector and pinout conventions
 
-See the exact observed bus maps in [INTERFACES.md](INTERFACES.md). Recurring families include Mini-Fit Jr. 4.20 mm power/bus connectors, 2.54 mm headers/sockets and Harwin M20 harness housings, JST PH local sensor/accessory connectors, JST SM panel-to-panel cable pairs, Molex KK-254 controls and USB/module connectors. XT60, Hirose, DIN and audio/load connectors appear in specific assemblies and are not generic replacements.
+See the exact observed bus maps in [INTERFACES.md](../requirements/INTERFACES.md). Recurring families include Mini-Fit Jr. 4.20 mm power/bus connectors, 2.54 mm headers/sockets and Harwin M20 harness housings, JST PH local sensor/accessory connectors, JST SM panel-to-panel cable pairs, Molex KK-254 controls and USB/module connectors. XT60, Hirose, DIN and audio/load connectors appear in specific assemblies and are not generic replacements.
 
 Root interconnect notes place JST SM female-contact jacks nearest ABSIS and male-contact plugs toward the separate panel. The cable specification provides the detailed Type A/B/C/D/E/F/G/H/J housing and crimp selections. These are stronger evidence than a generic connector symbol, but every exact contact/gauge and mating view still needs verification.
 
@@ -108,7 +110,7 @@ Explicit fabrication exceptions include ATX four layers/2 oz per layer, Backligh
 
 | Finding | Evidence | Interpretation / action |
 | --- | --- | --- |
-| F-01: ALE Relay layer conflict | Schematic note specifies four layers; PCB layer table and released Gerber ZIP have only top/bottom copper | Legacy maintenance/fabrication disposition only; ALE+ successor is four-layer. See Q-01 and [ALE+ supplement](ALE_PLUS_SUPPLEMENT.md) |
+| F-01: ALE Relay layer conflict | Schematic note specifies four layers; PCB layer table and released Gerber ZIP have only top/bottom copper | Legacy maintenance/fabrication disposition only; ALE+ successor is four-layer. See Q-01 and [ALE+ supplement](../requirements/ALE_PLUS_SUPPLEMENT.md) |
 | F-02: Mega release instruction conflicts with CAD/CAM | `release/OHE_Electronics/ABSIS002-10 - PCB, ABSIS_MEGA/Important Manufacturing Instructions.txt` says four layers; current Mega PCB and released ZIP have two | Potential misplaced instruction; do not infer intent without owner disposition, Q-01 |
 | F-03: Master manufacturing note absent | Refresh PR says note added; current Master production directory and release package have no such note. PCB and checked ZIP have four copper layers | Resolve exact manufacturing profile/document placement, Q-01 |
 | F-04: Refresh incomplete across families | Master/Mega and merged ALE+ use THVD1410; obsolete ALE/HID and selected active controllers retain MAX487 | ALE+ is the intended ALE/relay successor; issue #1220 establishes migration scope for derivative controllers. See ABSIS_MIGRATION.md; tested limits and qualification remain Q-02/Q-09 |
@@ -124,4 +126,4 @@ Authoritative external checks: [TI THVD14xx datasheet revision E](https://www.ti
 
 ## Proposed policy versus discovered standards
 
-Discovered standards worth preserving within scope are the recurring connector pin maps, released twisted-pair cable requirement, separate RS-485/backlight topology, explicit board-specific manufacturing instructions, and the intentional THVD1410 refresh direction. Policy subsequently adopted by PR #1255 comprises semantic editing preference, stable requirement IDs, reproducible validation/evidence, exact part/pad verification, controlled deviations, source/CAM traceability and separate physical/release gates. Numerical budgets, environmental limits and unresolved architecture choices remain in [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md).
+Discovered standards worth preserving within scope are the recurring connector pin maps, released twisted-pair cable requirement, separate RS-485/backlight topology, explicit board-specific manufacturing instructions, and the intentional THVD1410 refresh direction. Policy subsequently adopted by PR #1255 comprises semantic editing preference, stable requirement IDs, reproducible validation/evidence, exact part/pad verification, controlled deviations, source/CAM traceability and separate physical/release gates. Numerical budgets, environmental limits and unresolved architecture choices remain in [OPEN_QUESTIONS.md](../requirements/OPEN_QUESTIONS.md).
