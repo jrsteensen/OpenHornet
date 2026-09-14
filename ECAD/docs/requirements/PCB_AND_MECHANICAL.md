@@ -2,11 +2,11 @@
 
 ## Basis
 
-Observed sources include project JSON rules, routed widths/vias, copper zones, Edge.Cuts, fastener/keepout footprints, drawing templates and explicit manufacturing notes. [BOARD_INVENTORY.md](BOARD_INVENTORY.md) records board-specific values. Applying verified fabrication constraints and mechanical fit checks is **new project policy proposed for adoption**; it does not establish one numerical rule set for all boards.
+Observed sources include project JSON rules, routed widths/vias, copper zones, Edge.Cuts, fastener/keepout footprints, drawing templates and explicit manufacturing notes. [BOARD_INVENTORY.md](../reference/BOARD_INVENTORY.md) records board-specific values. Applying verified fabrication constraints and mechanical fit checks is **adopted project policy under PR #1255**; it does not establish one numerical rule set for all boards.
 
 ## Constraints and fabrication profile
 
-- **PCB-001:** Before routing, define a board-specific fabrication profile: supplier/process, material, layer count/order, dielectric and copper thicknesses, finished board thickness/tolerance, finish, minimum trace/space, drill/annular ring, hole/edge clearances, mask/paste and assembly limits. Use current JLCPCB requirements for the selected service under MFG-012; satisfy both vendor capabilities and stricter electrical/mechanical needs. Resolve applicable Q-01 values before manufacturing approval.
+- **PCB-001:** Before routing, define a board-specific fabrication profile: supplier/process, material, layer count/order, dielectric and copper thicknesses, finished board thickness/tolerance, finish, minimum trace/space, drill/annular ring, hole/edge clearances, mask/paste and assembly limits. Use current JLCPCB requirements for the selected service under MFG-012; satisfy both vendor capabilities and stricter electrical/mechanical needs. Use the accepted starting profiles below and confirm the selected JLCPCB service supports the actual order.
 - **PCB-002:** Encode applicable constraints in the `.kicad_pro` and active project `.kicad_dru`, including net-class assignments. Confirm that rules actually load and match the intended objects; a loose `.kicad_dru` in the directory is not proof it is active. Document any checks not expressible in KiCad.
 - **PCB-003:** Distinguish minimum constraints, routing defaults, preferred widths and actual routed geometry. An unused net class or zero project minimum MUST NOT be interpreted as an electrical/fabrication standard. Verify clearances and widths at pads, neck-downs, copper islands and zone connections, not only long track segments.
 - **PCB-004:** Net classes MUST reflect the required current/voltage/signal behavior of their assigned nets. Determine width and via capacity from actual copper, temperature/drop budget and manufacturer capability. Do not copy numerical values merely to match an old board or achieve clean DRC.
@@ -22,22 +22,23 @@ Observed sources include project JSON rules, routed widths/vias, copper zones, E
 - **MECH-005:** Optical/mechanical variants MUST be assessed in the assembled panel: legend alignment, LED direction, light leakage, display orientation, button travel, gauge zero sensor and magnet/sensor alignment. A fit or optical change is significant even if the netlist is unchanged.
 - **MECH-006:** Account for soldering, rework, connector insertion force, strain relief and access to programming/reset/test points. Preserve the interconnect's UTIL_PHOTOSWITCH direct-solder requirement and zero-sense wheel clearance for that assembly unless intentionally revised.
 
-- **MECH-007:** Define accessible measurement points for each supply/return domain and the signals needed by the bring-up plan, including RS-485 A/B and enable where fitted, reset/programming, and relevant analog references. A labeled connector pin MAY serve as a test point if it remains safely accessible in the assembled configuration. Record omitted access and how the function will be verified.
-- **MECH-008:** Test-point placement MUST permit the intended probe/fixture without shorting adjacent conductors or removing required protection. Identify points in the schematic and test procedure; check access after connectors, modules and panels are installed. Pad dimensions and mandatory coverage by board class remain Q-08.
+- **MECH-007:** New designs MUST provide accessible test points for nets reasonably expected to need future diagnosis: supply/return domains, reset/programming, communication, relevant enables/control and analog references. Dedicated labeled pads are preferred where otherwise inaccessible; an accessible labeled connector pin may serve the same purpose. Review assembled access and document meaningful omissions rather than adding a pad to every net blindly.
+- **MECH-008:** Test-point placement MUST permit the intended probe/fixture without shorting adjacent conductors or removing required protection. Identify points in the schematic and test procedure; check access after connectors, modules and panels are installed.
 
-## Observed numerical conventions, not new global limits
+## Accepted fabrication and routing baseline
 
-| Evidence | Observed value | Interpretation |
-| --- | --- | --- |
-| Many ABSIS projects | Default clearance 0.2 mm; track default 0.25 mm | Routing baseline only; actual routed power tracks are wider |
-| Older ALE/Mega family | 0.6/0.4 mm via diameter/drill | Observed geometry, not universal capacity |
-| Refreshed Bus Master/Mega | 0.6/0.3 mm default and used vias | Intentional-generation evidence; still board-specific |
-| Many Type A backlights, e.g. ANT SEL | +5 V width 0.75 mm, via 1.5/0.75 mm; GND width 0.5 mm | Named-class settings, not verified downstream current limits |
-| Selected project copper-edge minima | 0.025–0.75 mm across examples in inventory | Inconsistent and sometimes permissive; no common minimum inferred |
-| Sixteen Type A project custom-rule files | B.Cu NPTH clearance 2.65 mm where hole X ≥ 11 mm; F.Cu NPTH clearance 0.5 mm | Repeated mechanical rule for switch/fastener clearance; conditions and layer scope matter |
-| ATX manufacturing notes | Four layers, 2 oz each | Explicit ATX-specific fabrication requirement |
-| Backlight Controller manufacturing notes | Two layers, 2 oz each | Explicit controller-specific fabrication requirement |
+Owner accepted these starting profiles on 2026-09-14 after static inspection of all 69 PCB files at default-branch commit `da4eb6f2b41abe8ab530cbf7a97319dbaa41371b`: 63 two-layer, six four-layer, all specifying 1.6 mm. The count includes historical/development boards and is not a count of qualified products.
 
-**PCB-008:** Existing applicable switch/fastener clearance rules MUST be preserved or intentionally revised with a mechanical justification and fit check. The repeated Type A NPTH rules are scoped to their matching projects; do not generalize them to every hole or board.
+| Profile | Layers | Copper | Intended starting use |
+| --- | --- | --- | --- |
+| General | 2 | 1 oz each side | Ordinary controllers, interfaces and panel backlighting |
+| Higher-current | 2 | 2 oz each side | Backlight Controller and justified higher-current designs |
+| Four-layer | 4 | Explicitly defined on every layer | ALE+, Bus Master and designs needing additional routing/reference planes |
+| Power distribution | 4 | 2 oz every layer | Existing ATX requirement |
 
-**PCB-007:** Board-specific layer/copper instructions MUST be reconciled with CAD and CAM. The ALE Relay's four-layer note versus two-layer PCB remains Q-01; neither is silently selected here. Historical supplier defaults and unverified custom rules MUST NOT settle the conflict.
+- **PCB-007:** Reconcile each board's actual layer/copper requirements, CAD, CAM and order settings. The profiles do not override stricter board-specific requirements or authorize changes to an existing stackup merely to fit a default.
+- **PCB-008:** Preserve applicable switch/fastener clearances or intentionally revise them with mechanical justification and fit checks. Board-specific rules do not become universal hole clearances.
+- **PCB-009:** Default to FR-4, 1.6 mm thickness and lead-free HASL. Use ENIG when component assembly or other reviewed functional needs require it. Specify actual tolerances and compatible service options; four-layer inner copper MUST be explicit rather than left at supplier defaults. Current ALE+/Bus Master CAD records approximately 1 oz on each layer; recheck the actual board profile when ordering.
+- **PCB-010:** Starting routing targets are 0.25 mm signal tracks, 0.20 mm ordinary copper clearance and 0.50 mm copper-to-routed-edge clearance. Prefer 0.8/0.4 mm via diameter/drill; 0.6/0.3 mm MAY be used for space constraints. These are starting targets, not automatic power ampacity, package-pad geometry or universal minima. Use stricter electrical/mechanical/vendor limits where applicable; document local fine-pitch or process exceptions. V-scoring needs its own edge profile.
+
+[JLCPCB capabilities](https://jlcpcb.com/capabilities/pcb-capabilities) were checked on 2026-09-14. Capabilities and service combinations must be rechecked for each selected profile; no present-day vendor limit is permanently frozen here.

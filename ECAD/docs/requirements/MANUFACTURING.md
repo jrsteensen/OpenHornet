@@ -2,7 +2,7 @@
 
 ## Basis
 
-The [existing manufacturing guide](../../MANUFACTURING.md) recommends JLCPCB, usually two layers, 1.6 mm board thickness and usually top-side SMD assembly. It explicitly defers to board-specific instructions. ATX and Backlight Controller specify copper/layer exceptions; UFC Main and Function Select require both-side SMD assembly. The older generation guide already requires outputs to be regenerated after PCB changes. Reproducibility and explicit acceptance below are **new project policy proposed for adoption**.
+The [existing manufacturing guide](../../MANUFACTURING.md) recommends JLCPCB, usually two layers, 1.6 mm board thickness and usually top-side SMD assembly. It explicitly defers to board-specific instructions. ATX and Backlight Controller specify copper/layer exceptions; UFC Main and Function Select require both-side SMD assembly. The older generation guide already requires outputs to be regenerated after PCB changes. Reproducibility and explicit acceptance below are **adopted project policy under PR #1255**.
 
 ## Owner-directed manufacturing and sourcing policy
 
@@ -37,3 +37,12 @@ Purchased MCU modules, displays and other complete assemblies MAY come from othe
 ## Prototype order versus release
 
 A manufacturable prototype may be ordered after human review and documented acceptance of prototype limitations. This is not release qualification. Manufacturing review MUST state which exact package was reviewed, remaining supplier questions and any assembly deviations. Hardware release requires [QUALIFICATION.md](QUALIFICATION.md).
+
+## Exact assembly identity
+
+- **MFG-018:** For each fitted reference, identify the exact approved part and assembly responsibility consistently across the reviewed source and output set. A missing JLCPCB identifier for a required direct-fit SMD component is an unresolved assembly mapping, not an instruction to hand-fit or omit it. Resolve schematic/PCB/BOM disagreement before approving an order, even if the package geometry is unchanged. A released directory or prior successful export does not waive this requirement.
+
+## Assembly cost and appearance
+
+- **MFG-019:** Prefer single-sided SMD assembly. Double-sided SMD assembly is permitted when required by function, placement or mechanical constraints, but document the reason and consider its substantial cost increase. All fitted direct-fit SMD parts remain assigned to JLCPCB assembly on their actual side; the preference never authorizes omitted parts or builder SMD assembly.
+- **MFG-020:** Specify black solder mask and white silkscreen. Confirm compatibility with the selected copper/stackup/assembly service. If unavailable, resolve the profile or obtain an explicit deviation rather than silently changing color.

@@ -2,7 +2,7 @@
 
 ## Basis
 
-Owner-directed workflow and [KiCad 10 CLI](https://docs.kicad.org/10.0/en/cli/cli.html), plus existing project exclusions and ignored rule categories. These gates and evidence requirements are **new project policy proposed for adoption**. This documentation PR did not run ERC/DRC and does not certify the current boards.
+Owner-directed workflow and [KiCad 10 CLI](https://docs.kicad.org/10.0/en/cli/cli.html), plus existing project exclusions and ignored rule categories. These gates and evidence requirements are **adopted project policy under PR #1255**. Adopting these requirements did not run ERC/DRC or certify the current boards.
 
 ## Required checks
 
@@ -30,7 +30,7 @@ kicad-cli pcb drc --format json --severity-all --schematic-parity \
   --output "$report_dir/drc.json" "$board_file"
 ```
 
-The DRC command above refills in memory and does not save the board. Save the final refill through KiCad before output generation, or intentionally use the supported `--save-board` option and review the resulting diff. Preserve the same source/rule state for final reports and exports. Excluded findings can make an all-severity report nonzero; disposition them explicitly, without claiming the run was clean.
+The DRC command above refills in memory and does not save the board. Save the final refill through KiCad before output generation, or intentionally use the supported `--save-board` option and review the resulting diff. Preserve the same source/rule state for final reports and exports. `--save-board` is a mutation, not an audit operation. AI use remains subject to FLOW-003's approved semantic write boundary; the CLI example does not authorize an alternate write path. Excluded findings can make an all-severity report nonzero; disposition them explicitly, without claiming the run was clean.
 
 ## Check matrix
 
@@ -42,3 +42,8 @@ The DRC command above refills in memory and does not save the board. Save the fi
 | Harness/interface change | Full affected hierarchy ERC plus endpoint pin mapping, continuity, ratings and connected-board review |
 | Manufacturing/BOM/CPL change | Source identity, exact MPN/variant reconciliation and actual output/supplier-placement review |
 | Documentation-only framework | Path/link/Markdown checks, consistency review and proof ECAD sources remain unchanged |
+
+## Metadata and final integration
+
+- **VAL-009:** Independently reconcile exact part identities and supplier fields across schematic, PCB, master BOM and supplier BOM. Include legacy field aliases such as `Manufacturer PN` and `Manufacturer_Part_Number`; conflicting nonempty values require disposition. Do not assume ERC/DRC or schematic parity checks every procurement field. Footprint names and geometry alone do not identify the assembled part.
+- **VAL-010:** Before manufacturing approval or release qualification, verify that reviewed evidence still applies to the final integrated source and resolved libraries. If a rebase, conflict resolution, shared-library update or later edit changes an input to a check, repeat that check and affected output review. An unrelated documentation-only change need not trigger hardware testing. Record unchanged source hashes or a bounded impact analysis when carrying results forward.
