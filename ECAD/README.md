@@ -6,10 +6,12 @@
 
 # **ECAD DIRECTORY INFORMATION**
 
+Engineering contributors and agents: start with the [ECAD design requirements framework](docs/requirements/README.md). AI-assisted contributors should also read the [Astra/Konnect/KiCad toolchain guide](docs/requirements/TOOLCHAIN.md). The framework distinguishes repository evidence, approved policy, unresolved decisions and hardware qualification states.
+
 The purpose of this guide is to help enable the end-user to successfully accomplish the following:  
 *   1:  Facilitate navigation of the file structure.
 *   2:  Provide clarification regarding the manufacturing process of PCB's related to OpenHornet using JLCPCB.com
-*   3:  How to install the latest version of KiCad and set up libraries associated with OpenHornet. _(optional, required only if you wish to contribute.)_
+*   3:  How to install the current project KiCad baseline and set up libraries associated with OpenHornet. _(optional, required only if you wish to contribute.)_
 
  _Note:  Manufacturing files have been generated accordinging to JLCPCB.com guidelines.  If choosing a different PCB Manufacturer, make sure to research their formatting standards and modify the necessary manufacturing files accordingly. And if you choose to manufacture them yourself, best of luck!_
 
@@ -50,8 +52,8 @@ At the moment, all manufacturing files have been standardized to allow for fabri
 *Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
 
 Before we begin, it is assumed that you have:
-*  1:  Downloaded the latest version of KiCad _(currently KiCad 7.0.2)_ and have it installed on your computer.  
-*  2:  Cloned the OpenHornet repository
+*  1:  Installed KiCad 10.x. The current validated AI-assisted reference environment uses KiCad 10.0.6; record and smoke-test newer versions before design mutation as described in [TOOLCHAIN.md](docs/requirements/TOOLCHAIN.md).
+*  2:  Cloned the OpenHornet repository.
 
 ### STEP ONE:  Configure Paths & Create Environmental Variables
 Open up a new or previous project in KiCad.  For this example, I'll be using the MASTER ARM PANEL.  In the Top Menu: Navigate to Preferences --> Configure Paths
@@ -64,7 +66,7 @@ Create 4 new variables with the following Names and paths:
 *  3:  KICAD_USER_OH_SYMBOLS
 *  4:  KICAD_USER_OH_TEMPLATES
 
-The paths can be anywhere so long as it points to your Open Hornet directory.  _Make sure the OH_FOOTPRINTS variable points to the \ECAD\lib folder and **NOT** \ECAD\lib\OH_FOOTPRINTS.PRETTY_.
+The paths can be anywhere so long as they point to the OpenHornet checkout being edited. _Make sure the OH_FOOTPRINTS variable points to the `ECAD/lib` folder and **NOT** `ECAD/lib/OH_Footprints.pretty`._ If you use Git worktrees, do not let KiCad resolve libraries from a different checkout/revision than the PCB or schematic being edited.
 
 ![tempsnip](https://user-images.githubusercontent.com/81926396/229943906-2367341a-c5ae-477b-9768-69fd16b918ba.png)
 
@@ -74,21 +76,27 @@ With the project window open, navigate to Preferences --> Manage Symbol Librarie
 
 ![image3](https://user-images.githubusercontent.com/81926396/229941950-e31f977d-aa23-40ff-ae82-249697b228db.png)
 
-When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions" ensuring that the environmental variable that you just created is being referenced.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to KiCad 6.  The library format will say "Legacy" if its outdated, and "KiCad" if it's compatible. If you have a fresh install, you can skip this step._
+When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions" ensuring that the environmental variable that you just created is being referenced.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to the modern KiCad format. The library format will say "Legacy" if it is outdated and "KiCad" if it is compatible. If you have a fresh install, you can skip this step._
 
-Next, click on the folder icon near the bottom left and navigate to  _\ECAD\lib\OH_Symbols_ and add the four kicad_sym files located in the folder.  This will automatically populate the fields with the information.  Alternatively, you click on the "+" icon to add a new row and manually enter the information for your libraries.  
+Next, click on the folder icon near the bottom left and navigate to `ECAD/lib/OH_Symbols` and add the **six current shared `.kicad_sym` files**:
 
-Finally, check the Library Path to make sure your environmental variable was adopted.
+* `ABSIS.kicad_sym`
+* `Arduino Pro Mini 5v.kicad_sym`
+* `KiCadCustomLib.kicad_sym`
+* `OH_Interconnect.kicad_sym`
+* `OH_Symbols.kicad_sym`
+* `OpenHornet.kicad_sym`
 
+This will automatically populate the fields with the information. Alternatively, click on the "+" icon to add a new row and manually enter the information for your libraries. Finally, check the Library Path to make sure your environmental variable was adopted.
 
 ![image4](https://user-images.githubusercontent.com/81926396/229943598-6e0ad0c5-3246-46d9-a987-4752934cada0.png)
 
-Do the same thing for the footprint Libraries:
+Do the same thing for the footprint library, adding `ECAD/lib/OH_Footprints.pretty` with nickname `OH_Footprints`. The path should resolve as `${KICAD_USER_OH_FOOTPRINTS}/OH_Footprints.pretty`.
 
 ![image5](https://user-images.githubusercontent.com/81926396/229943449-f02c92c1-1529-4c4c-b9b3-f9b39ffe311b.png)
 
 ### STEP THREE:  Add ***KiCAD JLCPCB tools*** Plugin (Optional)
-Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB.
+Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a plugin that allows you to search the JLCPCB parts database, assign LCSC article numbers to your parts, and generate production files for JLCPCB. This plugin is optional and is not a substitute for the OpenHornet sourcing/manufacturing requirements or the approved Astra/Konnect workflow.
 
 *  1: Click **"Plugin and Content Manager"**
 *  2: When the dialog box opens, click on **"Manage"**
@@ -99,6 +107,6 @@ Bouni @ https://github.com/bouni/kicad-jlcpcb-tools has developed a great plugin
 
 ![image](https://user-images.githubusercontent.com/81926396/217127559-052fe26c-a70d-4acf-93be-c1f66102bf7e.png)
 
-### Congratulations. That's all you have to do.  The 3D models that are associated with the footprints will automatically be linked as long as the OH_Footprints are used.  
+### Congratulations. That's all you have to do for the shared OpenHornet library mapping.  The 3D models that are associated with the footprints will automatically be linked as long as the OH_Footprints are used.  
 
-
+AI-assisted contributors should continue with [TOOLCHAIN.md](docs/requirements/TOOLCHAIN.md) before making hardware changes.

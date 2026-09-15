@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+"$script_dir/preflight" design
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+model="${OH_ASTRA_MODEL:-gpt-6-astra}"
+echo
+echo "Launching OpenHornet Astra Design mode: model=$model, approval=on-request, sandbox=workspace-write"
+echo "Keep one mutation owner at a time; PCB work requires live KiCad IPC when the operation needs it."
+exec codex -m "$model" -a on-request -s workspace-write "$@"

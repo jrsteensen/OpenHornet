@@ -1,88 +1,107 @@
 name: Bug Report
-description: File a bug report
+description: Report something incorrect or broken in the current OpenHornet design, documentation, or build
 title: "[Bug]: "
-labels: ["Type: Bug/Obsolesce", "Triage Required"]
+labels: ["Type: Bug", "Triage Required"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! OpenHornet lives on its community contributions and reports!
+        Use this form when something in the current OpenHornet design, documentation, or build is incorrect or broken.
+
+        For repository synchronization, migration, cleanup, or standardization work, use Maintenance / Cleanup.
+        For a new capability or intentional design change, use Feature / Enhancement Request.
+        For an unavailable or end-of-life purchased component, use Obsolescence Report.
+
   - type: input
     id: contact
     attributes:
       label: Discord Username
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. Noctum#4085
+      description: How can we contact you if additional information is required?
+      placeholder: ex. Noctum
     validations:
       required: false
+
   - type: textarea
     id: summary
     attributes:
       label: Bug Summary
-      description: Please summarize your issue here. Be as specific as possible.
-      placeholder: Tell us what you see!
+      description: Summarize the problem and identify where it occurs.
+      placeholder: Describe what is incorrect or broken.
     validations:
       required: true
+
   - type: textarea
     id: expected-results
-    attributes: 
+    attributes:
       label: Expected Results
-      description: What did you expect to happen?
-      placeholder: Be very specific. The more detail, the better we can analyze the issue.
+      description: What should happen or what should the design show?
     validations:
       required: true
+
   - type: textarea
     id: actual-results
-    attributes: 
+    attributes:
       label: Actual Results
-      description: What actually happened?
-      placeholder: Be very specific. The more detail, the better we can analyze the issue.
+      description: What actually happens or what does the current design show?
     validations:
       required: true
+
   - type: textarea
-    id: images
-    attributes: 
-      label: Screenshots/Images/Files
-      description: Pictures/Files are worth 1000 words. Take some screen grab of the model, circle things with the snipping tool, put together a quick power point description of the issue, drop in a STEP/F3Z file of a fix you made - you can't put too much information here!
-      placeholder: You can just paste images or files in this field...
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce or locate the problem, including applicable files, assemblies, sheets, or build steps.
+      placeholder: |
+        1. Open or build ...
+        2. Inspect or operate ...
+        3. Observe ...
     validations:
       required: false
-  - type: input
-    id: part-numbers
+
+  - type: textarea
+    id: affected-items
     attributes:
-      label: Applicable Part Numbers
-      description: List the part number(s) this issue applies to.
-      placeholder: ex. OH02A5-136, OH04A2-1, etc.
+      label: Affected Parts / Files / Assemblies
+      description: List applicable OpenHornet part numbers, assemblies, PCB names, drawings, files, or directories.
+      placeholder: ex. OH02A5-136, ABSIS_ALE+, ECAD/..., or MCAD/...
     validations:
       required: true
+
   - type: dropdown
     id: version
     attributes:
-      label: Release Version
-      description: What release are you building to?
+      label: Applicable Version / Branch
+      description: Which release or development branch is affected?
       options:
+        - Current master / next release
         - v0.3.0
         - v0.2.0
-        - pre-v0.2.0 (Early Development/Alpha)
+        - Older release
+        - Not release-specific
     validations:
       required: true
+
   - type: dropdown
     id: category
     attributes:
       label: Category
-      description: Is this a mechanical and/or electrical issue or artwork? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. Artwork would be placards, stickers, dataplates or a vector art issue. (You may select more than one.) 
+      description: Which repository areas are affected? Select all that apply.
       multiple: true
       options:
-        - Mechanical (Structure/Panels/Mechanisms)
-        - Electrical (PCBs/Wiring/etc)
-        - Artwork (Decals)
+        - MCAD / Mechanical
+        - ECAD / Electrical
+        - Artwork
+        - Drawings / Documentation
+        - Repository / Tooling / CI
+        - Other
     validations:
-        required: true
+      required: true
+
   - type: dropdown
     id: end-item
     attributes:
       label: Applicable End Item(s)
-      description: What End Item(s) does this issue apply to? 
+      description: Which end items are affected? Select all that apply.
       multiple: true
       options:
         - Top Level Assembly (TLA)
@@ -93,22 +112,33 @@ body:
         - Right Console (RCON)
         - Flight Stick
         - Throttle
+        - Multiple / Repository-wide
+        - Not end-item-specific
+        - Other
     validations:
-        required: true
+      required: true
+
   - type: checkboxes
     id: built-to-print
     attributes:
-      label: Built to print?
-      description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
+      label: Built to Print?
+      description: If this was found during a physical build, select the statement that applies and describe any deviations below.
       options:
-        - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
-        - label: I am not building this part to the OH print. (List deviations in detail in the Miscellaneous Info text area below.)
-          required: false
+        - label: I built or attempted to build the part to the OpenHornet print without deviations.
+        - label: I deviated from the OpenHornet print and have documented the deviations below.
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Screenshots / Images / Files
+      description: Add annotated screenshots, photos, drawings, CAD exports, logs, or other evidence that helps explain the problem.
+    validations:
+      required: false
+
   - type: textarea
     id: misc
-    attributes: 
-      label: Miscellaneous Info
-      description: Do you have any additional information not previously covered?
-      placeholder: This space would be to provide specific applicable model names and versions, deviations from the OpenHornet build, or provide any information that is not covered elsewhere in this report.
+    attributes:
+      label: Additional Information
+      description: Include model or software versions, build deviations, related issues or PRs, and anything not covered above.
     validations:
       required: false

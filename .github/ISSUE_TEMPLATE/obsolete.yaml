@@ -1,79 +1,140 @@
 name: Obsolescence Report
-description: Report a(n) obsolete part(s)
+description: Report an unavailable or end-of-life purchased component
 title: "[Obsolescence]: "
-labels: ["Type: Bug/Obsolesce", "Triage Required"]
+labels: ["Type: Obsolescence", "Triage Required"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this obsolescence report! OpenHornet lives on its community contributions and reports!
+        Use this form when a purchased component is unavailable, end-of-life, or otherwise needs a supply-driven replacement.
+
+        If the current design is incorrect or broken for another reason, use Bug Report.
+        If you are proposing a new capability, use Feature / Enhancement Request.
+        If the replacement design already exists and dependent files only need updating, use Maintenance / Cleanup.
+
   - type: input
     id: contact
     attributes:
       label: Discord Username
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. Noctum#4085
+      description: How can we contact you if additional information is required?
+      placeholder: ex. Noctum
     validations:
       required: false
+
   - type: textarea
     id: summary
     attributes:
-      label: Issue Summary
-      description: Please summarize your issue here. Be as specific as possible.
-      placeholder: Tell us what you see!
+      label: Obsolescence Summary
+      description: Summarize the availability or lifecycle problem and its impact.
     validations:
       required: true
+
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      description: Who manufactures the affected component?
+      placeholder: ex. Omron
+    validations:
+      required: true
+
   - type: input
     id: applicable-cots-part-number
-    attributes: 
-      label: Applicable COTS Part Number
-      description: What is the Commercial-Off-The-Shelf (COTS) Manufacturer and Part Number?
-      placeholder: ex. 93325A415
-    validations:
-      required: true
-  - type: input
-    id: applicable-oh-part-numbers
     attributes:
-      label: Applicable OH Part Numbers
-      description: List the part number(s) this issue applies to so we can find where its used in the sim.
-      placeholder: ex. OH02A5-136, OH04A2-1, etc.
+      label: COTS Manufacturer Part Number
+      description: Enter the exact manufacturer part number of the affected commercial item.
+      placeholder: ex. B3F-4055
     validations:
       required: true
+
   - type: textarea
-    id: images
-    attributes: 
-      label: Screenshots/Images/Files
-      description: Pictures/Files are worth 1000 words. Take a screen grab of the manufacturer website showing its obsolete, or from Digikey or Mouser or Octopart.
-      placeholder: You can just paste images or files in this field...
+    id: evidence
+    attributes:
+      label: Obsolescence / Availability Evidence
+      description: Link manufacturer notices, authorized distributor listings, lifecycle data, or other evidence.
+      placeholder: Include URLs, screenshots, dates checked, and known remaining stock where available.
     validations:
-      required: false
+      required: true
+
+  - type: textarea
+    id: applicable-oh-items
+    attributes:
+      label: Affected OpenHornet Parts / Files / Assemblies
+      description: Identify every known OpenHornet part, assembly, BOM, PCB, drawing, file, or directory that uses this component.
+      placeholder: ex. OH02A5-136, ABSIS_ALE+, ECAD/..., or MCAD/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-replacements
+    attributes:
+      label: Proposed Replacement(s)
+      description: List candidate manufacturer part numbers, suppliers, availability, and relevant technical differences. Enter Unknown if no replacement has been identified.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: replacement-type
+    attributes:
+      label: Replacement Scope
+      description: How much design change is expected?
+      options:
+        - Drop-in replacement
+        - Minor design change
+        - Major redesign required
+        - Replacement scope unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: physical-test
+    attributes:
+      label: Physical Test Status
+      description: Has a proposed replacement been physically tested?
+      options:
+        - Tested and passed
+        - Tested with unresolved issues
+        - Testing in progress
+        - Not tested
+        - No replacement identified
+    validations:
+      required: true
+
   - type: dropdown
     id: version
     attributes:
-      label: Release Version
-      description: What release are you building to?
+      label: Applicable Version / Branch
+      description: Which release or development branch is affected?
       options:
+        - Current master / next release
         - v0.3.0
         - v0.2.0
-        - pre-v0.2.0 (Early Development/Alpha)
+        - Older release
+        - Not release-specific
     validations:
       required: true
+
   - type: dropdown
     id: category
     attributes:
       label: Category
-      description: Is this a mechanical and/or electrical issue or artwork? Mechanical being physical parts like structure, seat, mechanisms, etc. Electrical would be PCBs, wiring, etc. (You may select more than one.) 
+      description: Which repository areas are affected? Select all that apply.
       multiple: true
       options:
-        - Mechanical (Structure/Panels/Mechanisms)
-        - Electrical (PCBs/Wiring/etc)
+        - MCAD / Mechanical
+        - ECAD / Electrical
+        - Artwork
+        - Drawings / Documentation
+        - Repository / Tooling / CI
+        - Other
     validations:
-        required: true
+      required: true
+
   - type: dropdown
     id: end-item
     attributes:
       label: Applicable End Item(s)
-      description: What End Item(s) does this issue apply to? 
+      description: Which end items are affected? Select all that apply.
       multiple: true
       options:
         - Top Level Assembly (TLA)
@@ -84,21 +145,24 @@ body:
         - Right Console (RCON)
         - Flight Stick
         - Throttle
+        - Multiple / Repository-wide
+        - Not end-item-specific
+        - Other
     validations:
-        required: true
-  - type: checkboxes
-    id: built-to-print
+      required: true
+
+  - type: textarea
+    id: images
     attributes:
-      label: Built to print?
-      description: Did you build this part to the relevant drawing, using parts specified by OpenHornet? (It's okay if you didn't, just describe how you deviated in the Miscellaneous Info text area below.)
-      options:
-        - label: I built (or attempted to build) the part to the OpenHornet print without any deviations.
-          required: false
+      label: Screenshots / Images / Files
+      description: Add lifecycle notices, distributor screenshots, datasheets, photos, or other supporting material.
+    validations:
+      required: false
+
   - type: textarea
     id: misc
-    attributes: 
-      label: Miscellaneous Info
-      description: Do you have any additional information not previously covered?
-      placeholder: This space would be to provide specific applicable model names and versions, deviations from the OpenHornet build, or provide any information that is not covered elsewhere in this report.
+    attributes:
+      label: Additional Information
+      description: Include sourcing constraints, design risks, related issues or PRs, and anything not covered above.
     validations:
       required: false
