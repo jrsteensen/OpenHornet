@@ -7899,6 +7899,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C47524"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04032004-d0cf-450a-8283-e3079802e7ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/d3ab8637-b9f3-45a0-aa43-9e84280a2f83")
 		(sheetname "/")
 		(sheetfile "ABSIS ALE+ (V8).kicad_sch")
