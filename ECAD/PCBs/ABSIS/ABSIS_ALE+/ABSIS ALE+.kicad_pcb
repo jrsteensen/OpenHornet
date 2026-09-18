@@ -7762,7 +7762,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "S3MB"
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -7775,7 +7775,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/MDD-Jiangsu-Yutai-Elec-SS34_C13762.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C47524.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=QgMIUFNeEwUNV1dQFVgIUVVXFlcNBV1eEgJfVldQFgcxVlNeTlJdU11SR1NYUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -7788,7 +7788,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Schottky Barrier Diodes (SBD) SMA(DO-214AC) RoHS"
+		(property "Description" "3 A, 1000 V"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -7829,7 +7829,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SS34"
+		(property "Manufacturer_Part_Number" "S3MB"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7891,6 +7891,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "42c2da24-180d-4390-9ef3-9ae5bf39c17d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C47524"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04032004-d0cf-450a-8283-e3079802e7ff")
 			(effects
 				(font
 					(size 1 1)
@@ -11930,7 +11944,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SOTFL50P160X60-8N"
+		(property "Value" "TPS563300DRLR"
 			(at 5.5938 -1.8436 90)
 			(layer "B.Fab")
 			(hide yes)
