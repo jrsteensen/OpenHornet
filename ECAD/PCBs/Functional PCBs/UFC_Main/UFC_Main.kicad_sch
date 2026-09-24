@@ -5140,7 +5140,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KiCadCustomLib:S2_MINI"
+		(symbol "KiCadCustomLib:S3_MINI"
 			(pin_names
 				(offset 1.016)
 			)
@@ -5159,7 +5159,7 @@
 					)
 				)
 			)
-			(property "Value" "S2_MINI"
+			(property "Value" "S3_MINI"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5169,7 +5169,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "OH_Footprints:S2_MINI"
 				(at 10.16 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5180,7 +5180,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.wemos.cc/en/latest/s2/s2_mini.html"
+			(property "Datasheet" "https://www.wemos.cc/en/latest/s3/s3_mini.html"
 				(at 10.16 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5191,7 +5191,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "MODULE, IC, ESP32-S3 WI-FI/BLE SOC DEV BOARD, 4MB FLASH, 2MB PSRAM, USB-C, MINI FORM FACTOR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5202,7 +5202,7 @@
 					)
 				)
 			)
-			(symbol "S2_MINI_0_0"
+			(symbol "S3_MINI_0_0"
 				(pin input line
 					(at -15.24 -1.27 0)
 					(length 2.54)
@@ -5224,7 +5224,7 @@
 				(pin bidirectional line
 					(at -15.24 -3.81 0)
 					(length 2.54)
-					(name "IO3"
+					(name "IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5242,7 +5242,7 @@
 				(pin bidirectional line
 					(at -15.24 -6.35 0)
 					(length 2.54)
-					(name "IO5"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5260,7 +5260,7 @@
 				(pin bidirectional line
 					(at -15.24 -8.89 0)
 					(length 2.54)
-					(name "IO7/SCK"
+					(name "IO12/SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5278,7 +5278,7 @@
 				(pin bidirectional line
 					(at -15.24 -11.43 0)
 					(length 2.54)
-					(name "IO9/MISO"
+					(name "IO13/MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5314,7 +5314,7 @@
 				(pin bidirectional line
 					(at -15.24 -16.51 0)
 					(length 2.54)
-					(name "IO12"
+					(name "IO10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5368,7 +5368,7 @@
 				(pin bidirectional line
 					(at -15.24 -26.67 0)
 					(length 2.54)
-					(name "IO2"
+					(name "IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5386,7 +5386,7 @@
 				(pin bidirectional line
 					(at -15.24 -29.21 0)
 					(length 2.54)
-					(name "IO4"
+					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5422,7 +5422,7 @@
 				(pin bidirectional line
 					(at -15.24 -34.29 0)
 					(length 2.54)
-					(name "IO8"
+					(name "IO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5494,7 +5494,7 @@
 				(pin bidirectional line
 					(at 13.97 -1.27 180)
 					(length 2.54)
-					(name "IO40"
+					(name "IO33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5512,7 +5512,7 @@
 				(pin bidirectional line
 					(at 13.97 -3.81 180)
 					(length 2.54)
-					(name "IO38"
+					(name "IO37"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5530,7 +5530,7 @@
 				(pin bidirectional line
 					(at 13.97 -6.35 180)
 					(length 2.54)
-					(name "IO36"
+					(name "IO38"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5584,7 +5584,7 @@
 				(pin bidirectional line
 					(at 13.97 -13.97 180)
 					(length 2.54)
-					(name "IO17/DAC1"
+					(name "IO17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5638,7 +5638,7 @@
 				(pin bidirectional line
 					(at 13.97 -24.13 180)
 					(length 2.54)
-					(name "IO39"
+					(name "IO43/TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5656,7 +5656,7 @@
 				(pin bidirectional line
 					(at 13.97 -26.67 180)
 					(length 2.54)
-					(name "IO37"
+					(name "IO44/TX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5674,7 +5674,7 @@
 				(pin bidirectional line
 					(at 13.97 -29.21 180)
 					(length 2.54)
-					(name "IO35/SCL"
+					(name "IO36/SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 				(pin bidirectional line
 					(at 13.97 -31.75 180)
 					(length 2.54)
-					(name "IO33/SDA"
+					(name "IO35/SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5710,7 +5710,7 @@
 				(pin bidirectional line
 					(at 13.97 -34.29 180)
 					(length 2.54)
-					(name "IO18/DAC2"
+					(name "IO18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5780,13 +5780,13 @@
 					)
 				)
 			)
-			(symbol "S2_MINI_0_1"
+			(symbol "S3_MINI_1_1"
 				(rectangle
 					(start -12.7 0)
 					(end 11.43 -43.18)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
@@ -14441,7 +14441,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+			(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 				(at 1.524 -9.652 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14464,7 +14464,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C965555"
+			(property "LCSC" "C52917434"
 				(at 5.842 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14475,7 +14475,7 @@
 					)
 				)
 			)
-			(property "Manufacturer PN" "WS2812B-2020"
+			(property "Manufacturer PN" "WS2812B-2020-V6"
 				(at 9.398 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42028,7 +42028,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCadCustomLib:S2_MINI")
+		(lib_id "KiCadCustomLib:S3_MINI")
 		(at 819.15 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -42048,7 +42048,7 @@
 				)
 			)
 		)
-		(property "Value" "S2_MINI"
+		(property "Value" "S3_MINI"
 			(at 818.515 18.1864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42069,7 +42069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.wemos.cc/en/latest/s2/s2_mini.html"
+		(property "Datasheet" "https://www.wemos.cc/en/latest/s3/s3_mini.html"
 			(at 829.31 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -42080,7 +42080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MODULE, IC, ESP32-S3 WI-FI/BLE SOC DEV BOARD, 4MB FLASH, 2MB PSRAM, USB-C, MINI FORM FACTOR"
 			(at 819.15 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -44475,7 +44475,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 499.999 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -44487,7 +44487,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 498.475 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -44498,7 +44498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 504.317 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -44509,7 +44509,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 507.873 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -44933,7 +44933,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 614.299 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -44945,7 +44945,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 612.775 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -44956,7 +44956,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 618.617 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -44967,7 +44967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 622.173 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -45316,7 +45316,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 519.049 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -45328,7 +45328,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 517.525 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -45339,7 +45339,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 523.367 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -45350,7 +45350,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 526.923 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -45444,7 +45444,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 558.419 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -45456,7 +45456,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 556.895 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -45467,7 +45467,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 562.737 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -45478,7 +45478,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 566.293 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -45572,7 +45572,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 595.884 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -45584,7 +45584,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 594.36 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -45595,7 +45595,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 600.202 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -45606,7 +45606,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 603.758 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -45853,7 +45853,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 557.784 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -45865,7 +45865,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 556.26 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -45876,7 +45876,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 562.102 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -45887,7 +45887,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 565.658 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -46056,7 +46056,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 520.954 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -46068,7 +46068,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 519.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -46079,7 +46079,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 525.272 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -46090,7 +46090,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 528.828 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -46184,7 +46184,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 501.269 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -46196,7 +46196,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 499.745 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -46207,7 +46207,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 505.587 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -46218,7 +46218,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 509.143 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -46312,7 +46312,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 519.049 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -46324,7 +46324,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 517.525 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -46335,7 +46335,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 523.367 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -46346,7 +46346,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 526.923 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -46429,7 +46429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "OH_Footprints:VSSOP-10_3x3mm_P0.5mm"
 			(at 184.15 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -47363,7 +47363,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 538.734 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -47375,7 +47375,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 537.21 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -47386,7 +47386,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 543.052 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -47397,7 +47397,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 546.608 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -48071,7 +48071,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 578.104 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -48083,7 +48083,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 576.58 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -48094,7 +48094,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 582.422 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -48105,7 +48105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 585.978 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -48274,7 +48274,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 520.319 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -48286,7 +48286,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 518.795 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -48297,7 +48297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 524.637 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -48308,7 +48308,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 528.193 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -48517,7 +48517,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 557.784 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -48529,7 +48529,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 556.26 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -48540,7 +48540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 562.102 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -48551,7 +48551,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 565.658 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -48645,7 +48645,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 540.004 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -48657,7 +48657,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 538.48 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -48668,7 +48668,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 544.322 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -48679,7 +48679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 547.878 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -48773,7 +48773,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 520.954 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -48785,7 +48785,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 519.43 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -48796,7 +48796,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 525.272 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -48807,7 +48807,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 528.828 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -48901,7 +48901,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 501.904 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -48913,7 +48913,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 500.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -48924,7 +48924,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 506.222 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -48935,7 +48935,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 509.778 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -49309,7 +49309,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 594.614 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -49321,7 +49321,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 593.09 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -49332,7 +49332,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 598.932 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -49343,7 +49343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 602.488 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -49670,7 +49670,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 559.054 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -49682,7 +49682,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 557.53 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -49693,7 +49693,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 563.372 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -49704,7 +49704,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 566.928 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -50130,7 +50130,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 537.464 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -50142,7 +50142,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 535.94 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -50153,7 +50153,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 541.782 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -50164,7 +50164,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 545.338 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -50258,7 +50258,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 498.729 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -50270,7 +50270,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 497.205 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -50281,7 +50281,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 503.047 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -50292,7 +50292,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 506.603 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -50386,7 +50386,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 482.219 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -50398,7 +50398,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 480.695 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -50409,7 +50409,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 486.537 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -50420,7 +50420,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 490.093 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -51202,7 +51202,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 557.149 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -51214,7 +51214,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 555.625 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -51225,7 +51225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 561.467 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -51236,7 +51236,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 565.023 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -51330,7 +51330,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 578.104 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -51342,7 +51342,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 576.58 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -51353,7 +51353,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 582.422 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -51364,7 +51364,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 585.978 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -51593,7 +51593,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 614.299 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -51605,7 +51605,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 612.775 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -51616,7 +51616,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 618.617 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -51627,7 +51627,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 622.173 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -51956,7 +51956,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 575.564 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -51968,7 +51968,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 574.04 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -51979,7 +51979,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 579.882 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -51990,7 +51990,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 583.438 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -52159,7 +52159,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 482.219 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -52171,7 +52171,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 480.695 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -52182,7 +52182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 486.537 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -52193,7 +52193,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 490.093 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -52524,7 +52524,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 500.634 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -52536,7 +52536,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 499.11 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -52547,7 +52547,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 504.952 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -52558,7 +52558,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 508.508 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -52727,7 +52727,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 576.834 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -52739,7 +52739,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 575.31 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -52750,7 +52750,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 581.152 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -52761,7 +52761,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 584.708 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -53354,7 +53354,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 594.614 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -53366,7 +53366,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 593.09 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -53377,7 +53377,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 598.932 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -53388,7 +53388,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 602.488 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -53482,7 +53482,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 576.834 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -53494,7 +53494,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 575.31 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -53505,7 +53505,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 581.152 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -53516,7 +53516,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 584.708 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -53938,7 +53938,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 576.199 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -53950,7 +53950,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 574.675 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -53961,7 +53961,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 580.517 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -53972,7 +53972,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 584.073 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -55697,7 +55697,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 613.664 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -55709,7 +55709,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 612.14 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -55720,7 +55720,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 617.982 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -55731,7 +55731,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 621.538 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -55978,7 +55978,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 538.099 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -55990,7 +55990,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 536.575 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -56001,7 +56001,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 542.417 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -56012,7 +56012,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 545.973 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -56106,7 +56106,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 575.564 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -56118,7 +56118,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 574.04 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -56129,7 +56129,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 579.882 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -56140,7 +56140,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 583.438 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -56234,7 +56234,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 501.904 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -56246,7 +56246,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 500.38 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -56257,7 +56257,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 506.222 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -56268,7 +56268,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 509.778 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -56686,7 +56686,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 615.569 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -56698,7 +56698,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 614.045 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -56709,7 +56709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 619.887 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -56720,7 +56720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 623.443 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -57934,7 +57934,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 499.364 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -57946,7 +57946,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 497.84 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -57957,7 +57957,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 503.682 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -57968,7 +57968,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 507.238 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -58174,7 +58174,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 596.519 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -58186,7 +58186,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 594.995 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -58197,7 +58197,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 600.837 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -58208,7 +58208,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 604.393 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -58302,7 +58302,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 595.249 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -58314,7 +58314,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 593.725 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -58325,7 +58325,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 599.567 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -58336,7 +58336,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 603.123 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -58511,7 +58511,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 593.979 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -58523,7 +58523,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 592.455 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -58534,7 +58534,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 598.297 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -58545,7 +58545,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 601.853 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -59046,7 +59046,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 556.514 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -59058,7 +59058,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 554.99 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -59069,7 +59069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 560.832 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -59080,7 +59080,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 564.388 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -59249,7 +59249,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 557.149 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -59261,7 +59261,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 555.625 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -59272,7 +59272,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 561.467 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -59283,7 +59283,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 565.023 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -60583,7 +60583,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 615.569 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -60595,7 +60595,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 614.045 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -60606,7 +60606,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 619.887 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -60617,7 +60617,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 623.443 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -60711,7 +60711,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 517.779 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -60723,7 +60723,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 516.255 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -60734,7 +60734,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 522.097 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -60745,7 +60745,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 525.653 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -60941,7 +60941,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C2891732"
+		(property "LCSC" "C2891732"
 			(at 688.975 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -60952,7 +60952,7 @@
 				)
 			)
 		)
-		(property "PN" " SI2302"
+		(property "PN" "SI2302"
 			(at 688.975 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -60963,7 +60963,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" " SI2302"
+		(property "Manufacturer PN" "SI2302"
 			(at 688.975 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -61118,7 +61118,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 616.204 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -61130,7 +61130,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 614.68 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -61141,7 +61141,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 620.522 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -61152,7 +61152,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 624.078 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -61539,7 +61539,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 482.854 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -61551,7 +61551,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 481.33 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -61562,7 +61562,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 487.172 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -61573,7 +61573,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 490.728 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -61667,7 +61667,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 536.829 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -61679,7 +61679,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 535.305 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -61690,7 +61690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 541.147 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -61701,7 +61701,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 544.703 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -61795,7 +61795,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 501.269 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -61807,7 +61807,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 499.745 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -61818,7 +61818,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 505.587 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -61829,7 +61829,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 509.143 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -62138,7 +62138,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 499.364 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -62150,7 +62150,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 497.84 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -62161,7 +62161,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 503.682 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -62172,7 +62172,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 507.238 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -62266,7 +62266,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 481.584 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -62278,7 +62278,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 480.06 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -62289,7 +62289,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 485.902 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -62300,7 +62300,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 489.458 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -62562,7 +62562,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 596.519 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -62574,7 +62574,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 594.995 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -62585,7 +62585,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 600.837 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -62596,7 +62596,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 604.393 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -62768,7 +62768,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 519.684 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -62780,7 +62780,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 518.16 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -62791,7 +62791,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 524.002 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -62802,7 +62802,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 527.558 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -63128,7 +63128,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 539.369 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -63140,7 +63140,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 537.845 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -63151,7 +63151,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 543.687 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -63162,7 +63162,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 547.243 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -63715,7 +63715,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 501.269 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -63727,7 +63727,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 499.745 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -63738,7 +63738,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 505.587 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -63749,7 +63749,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 509.143 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -63958,7 +63958,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 539.369 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -63970,7 +63970,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 537.845 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -63981,7 +63981,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 543.687 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -63992,7 +63992,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 547.243 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -64471,7 +64471,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 500.634 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -64483,7 +64483,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 499.11 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -64494,7 +64494,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 504.952 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -64505,7 +64505,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 508.508 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -64809,7 +64809,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 577.469 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -64821,7 +64821,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 575.945 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -64832,7 +64832,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 581.787 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -64843,7 +64843,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 585.343 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -65191,7 +65191,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 538.099 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -65203,7 +65203,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 536.575 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -65214,7 +65214,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 542.417 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -65225,7 +65225,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 545.973 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -65694,7 +65694,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 577.469 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -65706,7 +65706,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 575.945 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -65717,7 +65717,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 581.787 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -65728,7 +65728,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 585.343 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -65903,7 +65903,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 559.054 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -65915,7 +65915,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 557.53 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -65926,7 +65926,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 563.372 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -65937,7 +65937,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 566.928 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -66031,7 +66031,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 597.154 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -66043,7 +66043,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 595.63 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -66054,7 +66054,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 601.472 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -66065,7 +66065,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 605.028 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -66159,7 +66159,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 576.199 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -66171,7 +66171,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 574.675 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -66182,7 +66182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 580.517 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -66193,7 +66193,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 584.073 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -67496,7 +67496,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 537.464 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -67508,7 +67508,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 535.94 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -67519,7 +67519,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 541.782 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -67530,7 +67530,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 545.338 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -67624,7 +67624,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 539.369 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -67636,7 +67636,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 537.845 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -67647,7 +67647,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 543.687 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -67658,7 +67658,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 547.243 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -67752,7 +67752,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 597.154 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -67764,7 +67764,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 595.63 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -67775,7 +67775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 601.472 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -67786,7 +67786,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 605.028 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -67880,7 +67880,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 577.469 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -67892,7 +67892,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 575.945 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -67903,7 +67903,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 581.787 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -67914,7 +67914,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 585.343 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -68008,7 +68008,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 480.314 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -68020,7 +68020,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 478.79 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -68031,7 +68031,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 484.632 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -68042,7 +68042,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 488.188 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -68136,7 +68136,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 519.684 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -68148,7 +68148,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 518.16 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -68159,7 +68159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 524.002 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -68170,7 +68170,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 527.558 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -68513,7 +68513,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 558.419 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -68525,7 +68525,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 556.895 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -68536,7 +68536,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 562.737 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -68547,7 +68547,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 566.293 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -68892,7 +68892,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 520.319 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -68904,7 +68904,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 518.795 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -68915,7 +68915,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 524.637 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -68926,7 +68926,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 528.193 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -69020,7 +69020,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 632.079 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -69032,7 +69032,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 630.555 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -69043,7 +69043,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 636.397 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -69054,7 +69054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 639.953 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -69148,7 +69148,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 480.314 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -69160,7 +69160,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 478.79 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -69171,7 +69171,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 484.632 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -69182,7 +69182,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 488.188 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -69276,7 +69276,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 616.204 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -69288,7 +69288,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 614.68 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -69299,7 +69299,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 620.522 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -69310,7 +69310,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 624.078 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -69520,7 +69520,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 481.584 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -69532,7 +69532,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 480.06 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -69543,7 +69543,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 485.902 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -69554,7 +69554,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 489.458 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -70501,7 +70501,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 614.934 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -70513,7 +70513,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 613.41 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -70524,7 +70524,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 619.252 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -70535,7 +70535,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 622.808 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -70629,7 +70629,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 479.679 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -70641,7 +70641,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 478.155 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -70652,7 +70652,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 483.997 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -70663,7 +70663,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 487.553 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -70757,7 +70757,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 574.929 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -70769,7 +70769,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 573.405 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -70780,7 +70780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 579.247 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -70791,7 +70791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 582.803 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -70885,7 +70885,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 558.419 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -70897,7 +70897,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 556.895 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -70908,7 +70908,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 562.737 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -70919,7 +70919,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 566.293 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -71092,7 +71092,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 480.949 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -71104,7 +71104,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 479.425 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -71115,7 +71115,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 485.267 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -71126,7 +71126,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 488.823 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -71628,7 +71628,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 499.999 340.487 0)
 			(hide yes)
 			(show_name no)
@@ -71640,7 +71640,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 498.475 330.835 0)
 			(hide yes)
 			(show_name no)
@@ -71651,7 +71651,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 504.317 343.027 0)
 			(hide yes)
 			(show_name no)
@@ -71662,7 +71662,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 507.873 344.805 0)
 			(hide yes)
 			(show_name no)
@@ -71756,7 +71756,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 540.004 60.452 0)
 			(hide yes)
 			(show_name no)
@@ -71768,7 +71768,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 538.48 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -71779,7 +71779,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 544.322 62.992 0)
 			(hide yes)
 			(show_name no)
@@ -71790,7 +71790,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 547.878 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -71884,7 +71884,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 613.029 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -71896,7 +71896,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 611.505 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -71907,7 +71907,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 617.347 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -71918,7 +71918,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 620.903 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -72126,7 +72126,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 556.514 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -72138,7 +72138,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 554.99 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -72149,7 +72149,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 560.832 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -72160,7 +72160,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 564.388 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -72254,7 +72254,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 482.219 164.592 0)
 			(hide yes)
 			(show_name no)
@@ -72266,7 +72266,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 480.695 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -72277,7 +72277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 486.537 167.132 0)
 			(hide yes)
 			(show_name no)
@@ -72288,7 +72288,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 490.093 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -72382,7 +72382,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 555.879 447.167 0)
 			(hide yes)
 			(show_name no)
@@ -72394,7 +72394,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 554.355 437.515 0)
 			(hide yes)
 			(show_name no)
@@ -72405,7 +72405,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 560.197 449.707 0)
 			(hide yes)
 			(show_name no)
@@ -72416,7 +72416,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 563.753 451.485 0)
 			(hide yes)
 			(show_name no)
@@ -72510,7 +72510,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 482.854 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -72522,7 +72522,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 481.33 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -72533,7 +72533,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 487.172 97.282 0)
 			(hide yes)
 			(show_name no)
@@ -72544,7 +72544,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 490.728 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -73528,7 +73528,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 518.414 411.607 0)
 			(hide yes)
 			(show_name no)
@@ -73540,7 +73540,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 516.89 401.955 0)
 			(hide yes)
 			(show_name no)
@@ -73551,7 +73551,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 522.732 414.147 0)
 			(hide yes)
 			(show_name no)
@@ -73562,7 +73562,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 526.288 415.925 0)
 			(hide yes)
 			(show_name no)
@@ -73809,7 +73809,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 614.934 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -73821,7 +73821,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 613.41 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -73832,7 +73832,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 619.252 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -73843,7 +73843,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 622.808 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -73937,7 +73937,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 520.319 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -73949,7 +73949,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 518.795 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -73960,7 +73960,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 524.637 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -73971,7 +73971,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 528.193 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -74295,7 +74295,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 613.664 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -74307,7 +74307,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 612.14 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -74318,7 +74318,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 617.982 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -74329,7 +74329,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 621.538 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -74423,7 +74423,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 518.414 376.047 0)
 			(hide yes)
 			(show_name no)
@@ -74435,7 +74435,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 516.89 366.395 0)
 			(hide yes)
 			(show_name no)
@@ -74446,7 +74446,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 522.732 378.587 0)
 			(hide yes)
 			(show_name no)
@@ -74457,7 +74457,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 526.288 380.365 0)
 			(hide yes)
 			(show_name no)
@@ -74686,7 +74686,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 615.569 198.882 0)
 			(hide yes)
 			(show_name no)
@@ -74698,7 +74698,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 614.045 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -74709,7 +74709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 619.887 201.422 0)
 			(hide yes)
 			(show_name no)
@@ -74720,7 +74720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 623.443 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -75117,7 +75117,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 596.519 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -75129,7 +75129,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 594.995 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -75140,7 +75140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 600.837 132.842 0)
 			(hide yes)
 			(show_name no)
@@ -75151,7 +75151,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 604.393 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -75560,7 +75560,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 595.249 305.562 0)
 			(hide yes)
 			(show_name no)
@@ -75572,7 +75572,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 593.725 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -75583,7 +75583,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 599.567 308.102 0)
 			(hide yes)
 			(show_name no)
@@ -75594,7 +75594,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 603.123 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -75900,7 +75900,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 538.734 234.442 0)
 			(hide yes)
 			(show_name no)
@@ -75912,7 +75912,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 537.21 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -75923,7 +75923,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 543.052 236.982 0)
 			(hide yes)
 			(show_name no)
@@ -75934,7 +75934,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 546.608 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -76377,7 +76377,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 595.884 270.002 0)
 			(hide yes)
 			(show_name no)
@@ -76389,7 +76389,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller, 2 x 2mm"
 			(at 594.36 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -76400,7 +76400,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 600.202 272.542 0)
 			(hide yes)
 			(show_name no)
@@ -76411,7 +76411,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 603.758 274.32 0)
 			(hide yes)
 			(show_name no)

@@ -41789,7 +41789,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_Worldsemi-WS2812B-B-W_C114586.pdf"
+		(property "Datasheet" "https://www.peace-corp.co.jp/data/WS2812B-V6_V1.4_EN.pdf"
 			(at 44.45 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41811,7 +41811,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2761795"
+		(property "LCSC" "C52941391"
 			(at 6.985 -8.255 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41822,7 +41822,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B"
+		(property "Manufacturer PN" "WS2812B-B-V6"
 			(at 5.08 -6.35 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -42091,7 +42091,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/pdfDocs/WS2812B-2020_V10_EN_181106150240761.pdf"
+		(property "Datasheet" "https://files.waveshare.com/wiki/common/WS2812_0807.pdf"
 			(at 1.524 -9.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42114,7 +42114,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965555"
+		(property "LCSC" "C52917434"
 			(at 5.842 -12.192 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42125,7 +42125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-2020"
+		(property "Manufacturer PN" "WS2812B-2020-V6"
 			(at 9.398 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42384,7 +42384,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "http://www.world-semi.com/DownLoadFile/112"
+		(property "Datasheet" "https://www.tme.eu/Document/0ec02cd91c26984528fd69f9a2c14af9/WS2812B-MINI-V6_V1.2_EN.pdf"
 			(at 1.409 -11.3818 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42407,7 +42407,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C527089"
+		(property "LCSC" "C52941386"
 			(at 1.27 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42419,7 +42419,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer PN" "WS2812B-Mini"
+		(property "Manufacturer PN" "WS2812B-MINI-V6"
 			(at 8.636 -14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42452,6 +42452,17 @@
 			)
 		)
 		(symbol "WS2812B-Mini_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -42534,17 +42545,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 5.08)
-				(end -5.08 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
