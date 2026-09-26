@@ -203,6 +203,7 @@
       "track_widths": [
         0.0,
         0.2032,
+        0.25,
         0.3048,
         0.508,
         0.635,
@@ -663,7 +664,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "${KICAD_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks",
@@ -684,7 +685,7 @@
         "uuid": "90801baf-c3c5-4643-9dee-a3d06555aba9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "IC3-4,R15-16",
     "variants": []
   },
   "sheets": [
