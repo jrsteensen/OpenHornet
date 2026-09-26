@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "DDI/AMPCD CONTROLLER")
-		(date "2022-11-05")
-		(rev "4")
+		(date "2026-09-26")
+		(rev "5")
 		(company "OpenHornet")
 		(comment 1 "CC BY-NC-SA")
 	)
@@ -2736,6 +2736,104 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Fiducial_1"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID1"
+				(at 2.54 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 2.54 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_1_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -7300,6 +7398,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OH_Symbols:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID1"
+				(at 2.54 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 2.54 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "OH_Symbols:IRLML6402"
 			(pin_names
 				(hide yes)
@@ -10151,14 +10347,14 @@
 		)
 		(uuid "015f6615-37d4-4939-afac-181791da27df")
 	)
-	(text "MOUNTING HOLES"
+	(text "FIDUCIALS"
 		(exclude_from_sim no)
-		(at 196.85 68.58 0)
+		(at 205.232 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "074d7367-ca5c-4615-be93-44b22ab080d1")
 	)
@@ -10360,9 +10556,9 @@
 		)
 		(uuid "cce08d73-0f76-471c-acf2-07447524861d")
 	)
-	(text "1) RS485 BUS TERMINATION: DO NOT INSTALL J2 (BUS OUT) CONNECTOR \n   AND ADD A 120Ω THRU-HOLE RESISTOR ACROSS PINS 4&5 OF J2(BUS OUT) ON \n   LAST ABSIS ALE OF RS485 BUS.\n\n2) FOR ARDUINO PRO MICRO PROGRAMMING VIA USB: MAY BE PROGRAMMED IN-CIRCUIT.\n\n3) THE RAW POWER PIN ON THE PRO MICRO AND +12V_SUPPLY ARE TIED TOGETHER.\n   IF THE PRO MICRO BOARD IS POWERED VIA USB, THE VOLTAGE AT THIS PIN IS ABOUT 4.8V\n\n4) THIS PCB IS DESIGNED TO CONTROL BOTH THE DDI AND AMPCD:\n   A) FOR CONNECTION TO DDI, CONNECT BRT SW TO J4, CONT TO J5, AND TOP ROTARY TO J6.\n   B) FOR CONNECTION TO AMPCD, CONNECT CRS TO J4, HDG TO J5, AND TOP ROTARY TO J7.\n\n5) WARNING: J6 OR J7 MAY ONLY BE USED ONE AT A TIME.\n\n6) IF PCB IS POWERED VIA ABSIS BUS (I.E. PRO-MICRO IS POWERED VIA RAW PIN INSTEAD \n   OF USB) THEN DESOLDER/REMOVE F1 FUSE ON PRO-MICRO AND ENSURE JP1 JUMPER ON \n   PRO-MICRO IS NOT BRIDGED/SOLDERED. FAILURE TO DO SO WILL RESULT IN POWER FROM\n   ON BOARD VOLTAGE REGULATOR BACKFEEDING THE USB POWER LINE.\n\n   CAUTION: AFTER THIS MODIFICATION, THE PRO-MICRO CAN ONLY BE POWERED VIA THE RAW\n   PIN. USB POWER WILL NOT BE AVAILABLE TO THE PRO-MICRO."
+	(text "1) RS485 BUS TERMINATION: DO NOT INSTALL J2 (BUS OUT) CONNECTOR \n   AND ADD A 120Ω THRU-HOLE RESISTOR ACROSS PINS 4&5 OF J2(BUS OUT) ON \n   LAST ABSIS ALE OF RS485 BUS.\n\n2) FOR ARDUINO PRO MICRO PROGRAMMING VIA USB: MAY BE PROGRAMMED IN-CIRCUIT.\n\n3) THE RAW POWER PIN ON THE PRO MICRO AND Vin(+7.3V) ARE TIED TOGETHER.\n   IF THE PRO MICRO BOARD IS POWERED VIA USB, THE VOLTAGE AT THIS PIN IS ABOUT 4.8V\n   (needs to be tested in circuit)\n\n4) THIS PCB IS DESIGNED TO CONTROL BOTH THE DDI AND AMPCD:\n   A) FOR CONNECTION TO DDI, CONNECT BRT SW TO J4, CONT TO J5, AND TOP ROTARY TO J6.\n   B) FOR CONNECTION TO AMPCD, CONNECT CRS TO J4, HDG TO J5, AND TOP ROTARY TO J7.\n\n5) WARNING: J6 OR J7 MAY ONLY BE USED ONE AT A TIME.\n\n6) IF PCB IS POWERED VIA ABSIS BUS (I.E. PRO-MICRO IS POWERED VIA RAW PIN INSTEAD \n   OF USB) THEN DESOLDER/REMOVE F1 FUSE ON PRO-MICRO AND ENSURE JP1 JUMPER ON \n   PRO-MICRO IS NOT BRIDGED/SOLDERED. FAILURE TO DO SO WILL RESULT IN POWER FROM\n   ON BOARD VOLTAGE REGULATOR BACKFEEDING THE USB POWER LINE.\n\n   CAUTION: AFTER THIS MODIFICATION, THE PRO-MICRO CAN ONLY BE POWERED VIA THE RAW\n   PIN. USB POWER WILL NOT BE AVAILABLE TO THE PRO-MICRO.\n\n7) WARNING: DO NOT POWER THIS CIRCUIT FROM Vin(+7.3V) OR VCC SEPARATELY. DAMAGE WILL OCCUR!"
 		(exclude_from_sim no)
-		(at 13.97 62.865 0)
+		(at 13.97 68.834 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11699,7 +11895,7 @@
 		)
 		(uuid "0505cc25-170c-4a98-8187-3a82291b1d4a")
 	)
-	(label "BUS_N"
+	(label "BUS-B"
 		(at 223.52 100.33 0)
 		(effects
 			(font
@@ -11799,7 +11995,7 @@
 		)
 		(uuid "1ec3e71b-bf37-4dbe-8e26-020f71533720")
 	)
-	(label "BUS_N"
+	(label "BUS-B"
 		(at 256.54 124.46 0)
 		(effects
 			(font
@@ -11829,7 +12025,7 @@
 		)
 		(uuid "2607e4ba-0e9b-4d78-8926-c6fe9eb8baf7")
 	)
-	(label "BUS_P"
+	(label "BUS-A"
 		(at 223.52 97.79 0)
 		(effects
 			(font
@@ -12019,7 +12215,7 @@
 		)
 		(uuid "99dc4b35-8d80-4a5e-bd7b-410573df50e8")
 	)
-	(label "BUS_N"
+	(label "BUS-B"
 		(at 257.81 100.33 0)
 		(effects
 			(font
@@ -12099,7 +12295,7 @@
 		)
 		(uuid "b28f1ebb-e143-4eb4-bc88-95c6bbe7a229")
 	)
-	(label "BUS_P"
+	(label "BUS-A"
 		(at 257.81 97.79 0)
 		(effects
 			(font
@@ -12109,7 +12305,7 @@
 		)
 		(uuid "b2b5e5e5-a461-442a-aed1-4de8bc250d3d")
 	)
-	(label "BUS_P"
+	(label "BUS-A"
 		(at 256.54 129.54 0)
 		(effects
 			(font
@@ -17489,6 +17685,82 @@
 		)
 	)
 	(symbol
+		(lib_id "OH_Symbols:Fiducial")
+		(at 198.12 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb439f4-bd1f-4cf0-ab23-b55bf7ac6b4e")
+		(property "Reference" "FID2"
+			(at 200.66 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 200.66 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 198.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CONTROLLER_AMPCD DDI"
+				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OH_Symbols:1812L300_24SLER")
 		(at 43.18 104.14 0)
 		(unit 1)
@@ -18336,6 +18608,82 @@
 			(project "CONTROLLER_AMPCD DDI"
 				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OH_Symbols:Fiducial")
+		(at 198.12 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b04df9a-d818-46cf-ac25-1272f3bd2a5b")
+		(property "Reference" "FID3"
+			(at 200.66 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 200.66 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 198.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CONTROLLER_AMPCD DDI"
+				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -20406,6 +20754,83 @@
 			(project "CONTROLLER_AMPCD DDI"
 				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Fiducial_1")
+		(lib_id "OH_Symbols:Fiducial")
+		(at 198.12 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e192acec-af3f-4ed1-8c91-7bd350edc459")
+		(property "Reference" "FID1"
+			(at 200.66 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 200.66 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 198.12 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 198.12 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CONTROLLER_AMPCD DDI"
+				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
