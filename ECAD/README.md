@@ -45,26 +45,32 @@ At the moment, all manufacturing files have been standardized to allow for fabri
 
 ***For details on the JLCPCB manufacturing process, please see the "MANUFACTURING.MD" located in the ECAD folder or CLICK THE LINK BELOW***
 
-  [JLCPCB MANUFACTURING PROCESS & FAQ](MANUFACTURING.MD)
+  [JLCPCB MANUFACTURING PROCESS & FAQ](MANUFACTURING.md)
 
 ## **Installation of KiCad and OpenHornet Libraries _(OPTIONAL)_**
 
-*Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute.  See [CONTRIBUTING.MD](https://github.com/jrsteensen/OpenHornet/blob/v1.0.0-beta1/CONTRIBUTING.md) for more details.*
+*Installation of KiCad and OpenHornet Libraries is only required if you choose to contribute. See [CONTRIBUTING.md](../CONTRIBUTING.md) for more details.*
 
 Before we begin, it is assumed that you have:
 *  1:  Installed KiCad 10.x. The current validated AI-assisted reference environment uses KiCad 10.0.6; record and smoke-test newer versions before design mutation as described in [TOOLCHAIN.md](docs/requirements/TOOLCHAIN.md).
 *  2:  Cloned the OpenHornet repository.
 
 ### STEP ONE:  Configure Paths & Create Environmental Variables
+
+**Windows shortcut:** initialize KiCad 10 with its built-in libraries, then close KiCad and double-click [`Setup-OpenHornetKiCad.bat`](../utils/tools/ecad/Setup-OpenHornetKiCad.bat). The [complete setup script](docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) configures all four paths, registers all six shared symbol libraries and `OH_Footprints`, and repairs existing shared entries in project library tables. It backs up every changed file and supports a preview with `-WhatIf`. After it succeeds, reopen KiCad; Steps One and Two below are the manual alternative.
+
 Open up a new or previous project in KiCad.  For this example, I'll be using the MASTER ARM PANEL.  In the Top Menu: Navigate to Preferences --> Configure Paths
 
 ![image1](https://user-images.githubusercontent.com/81926396/215698270-9f4a21c0-954a-4cf2-9666-c6913cf2d084.png)
 
-Create 4 new variables with the following Names and paths:
-*  1:  KICAD_USER_OH_3DMODELS
-*  2:  KICAD_USER_OH_FOOTPRINTS
-*  3:  KICAD_USER_OH_SYMBOLS
-*  4:  KICAD_USER_OH_TEMPLATES
+Create these four variables using absolute paths within your OpenHornet checkout:
+
+| Variable | Repository folder |
+| --- | --- |
+| `KICAD_USER_OH_3DMODELS` | `ECAD/lib/OH_3DModels` |
+| `KICAD_USER_OH_FOOTPRINTS` | `ECAD/lib` |
+| `KICAD_USER_OH_SYMBOLS` | `ECAD/lib/OH_Symbols` |
+| `KICAD_USER_OH_TEMPLATES` | `ECAD/lib/OH_Templates` |
 
 The paths can be anywhere so long as they point to the OpenHornet checkout being edited. _Make sure the OH_FOOTPRINTS variable points to the `ECAD/lib` folder and **NOT** `ECAD/lib/OH_Footprints.pretty`._ If you use Git worktrees, do not let KiCad resolve libraries from a different checkout/revision than the PCB or schematic being edited.
 
@@ -76,18 +82,22 @@ With the project window open, navigate to Preferences --> Manage Symbol Librarie
 
 ![image3](https://user-images.githubusercontent.com/81926396/229941950-e31f977d-aa23-40ff-ae82-249697b228db.png)
 
-When the Symbol Libraries window opens, make sure you are in the **"Global Libraries"** tab and then check the bottom for a section called "Path Substitutions" ensuring that the environmental variable that you just created is being referenced.  _If you're using a previous version of KiCad or have older libraries still installed, click "Migrate Libraries" after selecting them to transition them to the modern KiCad format. The library format will say "Legacy" if it is outdated and "KiCad" if it is compatible. If you have a fresh install, you can skip this step._
+In **Global Libraries**, add or edit the six shared libraries below. Use library format **KiCad** for each entry. The library paths use the variable configured above:
 
-Next, click on the folder icon near the bottom left and navigate to `ECAD/lib/OH_Symbols` and add the **six current shared `.kicad_sym` files**:
+| Nickname | Library Path |
+| --- | --- |
+| `ABSIS` | `${KICAD_USER_OH_SYMBOLS}/ABSIS.kicad_sym` |
+| `Arduino Pro Mini 5v` | `${KICAD_USER_OH_SYMBOLS}/Arduino Pro Mini 5v.kicad_sym` |
+| `KiCadCustomLib` | `${KICAD_USER_OH_SYMBOLS}/KiCadCustomLib.kicad_symdir` |
+| `OH_Interconnect` | `${KICAD_USER_OH_SYMBOLS}/OH_Interconnect.kicad_symdir` |
+| `OH_Symbols` | `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir` |
+| `OpenHornet` | `${KICAD_USER_OH_SYMBOLS}/OpenHornet.kicad_symdir` |
 
-* `ABSIS.kicad_sym`
-* `Arduino Pro Mini 5v.kicad_sym`
-* `KiCadCustomLib.kicad_sym`
-* `OH_Interconnect.kicad_sym`
-* `OH_Symbols.kicad_sym`
-* `OpenHornet.kicad_sym`
+**Existing users:** change the paths for `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` from packed `.kicad_sym` files to their `.kicad_symdir` folders, using the exact nicknames in the table. Register each folder as one library, rather than adding its individual files. Check **Project Specific Libraries** for overriding entries with the same nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed files.
 
-This will automatically populate the fields with the information. Alternatively, click on the "+" icon to add a new row and manually enter the information for your libraries. Finally, check the Library Path to make sure your environmental variable was adopted.
+Use the exact underscore nicknames `OH_Symbols` and `OH_Interconnect`, as shown in the table; do not substitute spaces. If a schematic still contains a library ID using a spaced nickname, correct its library reference through KiCad's symbol remapping tools. Changing a library-table nickname alone does not rewrite IDs embedded in schematics.
+
+See [symbol library setup, Windows conversion and verification](docs/SYMBOL_LIBRARIES.md). Contributors pulling the converted folder only need to update their library mapping. The screenshots below illustrate the dialogs; use the paths in this table for KiCad 10.
 
 ![image4](https://user-images.githubusercontent.com/81926396/229943598-6e0ad0c5-3246-46d9-a987-4752934cada0.png)
 

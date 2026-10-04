@@ -30,7 +30,7 @@ Paths below are relative to the repository root unless linked. Board source loca
 
 | Evidence | Findings and relevance |
 | --- | --- |
-| [ECAD/README.md](../../README.md), [ECAD/MANUFACTURING.md](../../MANUFACTURING.md), [ECAD/REVIEW.md](../../REVIEW.md) | KiCad source, JLCPCB output structure and supplier preference, 1.6 mm default thickness, usually two layers/top SMD; board-specific exceptions; preview tooling has dependency limitations. KiCad 7.0.2 setup text is historical, not the intended new KiCad 10 baseline. |
+| [ECAD/README.md](../../README.md), [ECAD/MANUFACTURING.md](../../MANUFACTURING.md), [ECAD/REVIEW.md](../../REVIEW.md) | KiCad source, JLCPCB output structure and supplier preference, 1.6 mm default thickness, usually two layers/top SMD; board-specific exceptions; preview tooling has dependency limitations. Use the current KiCad 10 setup instructions. |
 | [PR template](../../../PULL_REQUEST_TEMPLATE.md) | Existing expectation of schematic requirements notes, review, version changes, constrained mechanics, BOM/Gerbers/MCAD and release copies. These support, but do not already implement, the new qualification gates. |
 | [Cable specification A v2](https://github.com/jrsteensen/OpenHornet/blob/c259a65a1759801a2affea817fd99f6a14f1e1fe/release/OH-SPEC_Specifications/OH-SPEC-002%20-%20ABSIS%20CABLES_A_v2.pdf) | Explicit 2025-11-02 revision changes Type A/E data conductors to 24–16 AWG twisted stranded pair; four power/return conductors remain 16 AWG. Exact cable/housing/contact families. Text and rendered sheet reviewed. |
 | [Interconnect root](../../interconnects/OH_Interconnect.kicad_sch) and its five child sheets | Assembly/cable references, connector variants and mates, voltage/signal naming, subsystem topology and termination notes. Older generic-wire notes conflict with the later cable specification. |
@@ -57,7 +57,7 @@ Paths below are relative to the repository root unless linked. Board source loca
 | Instruments/HOTAS/UFC | Steppers/servos, optical zero sensors, magnetic SPI sensors, I2C muxes/ADCs/expanders, display controllers and keyboard scanning | Several distinct functional families; their ratings and local-bus rules are not global ABSIS specifications |
 | Templates and placeholders | Nano and Mega shield templates, Type B ECS alternative, footprint-empty MPC PCB, partly placed custom Pro Micro | Historical/development candidates; active support and validation unknown |
 
-Older `.sch/.pro` formats and KiCad 6/7-era modern files coexist with later 8/9/10-era formats. File-format recency and title-block dates do not alone establish architectural authority. In particular the refreshed Master PCB retains a 2024 title date while the schematic has a 2026 date. The update history and component topology are stronger evidence of intent.
+Legacy `.sch/.pro` files and multiple generations of modern files coexist. Use KiCad 10 for current work. File-format recency and title-block dates do not alone establish architectural authority. In particular the refreshed Master PCB retains a 2024 title date while the schematic has a 2026 date. The update history and component topology are stronger evidence of intent.
 
 ## Interconnect hierarchy and topology evidence
 

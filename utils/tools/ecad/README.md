@@ -1,4 +1,19 @@
-# OpenHornet ECAD Astra launch utilities
+# OpenHornet ECAD utilities
+
+## Windows KiCad 10 setup
+
+After installing KiCad 10, initialize its built-in symbol and footprint libraries and close all KiCad applications. In a complete OpenHornet checkout, double-click `Setup-OpenHornetKiCad.bat`. It runs `Set-OpenHornetKiCadPaths.ps1`, shows the results and pauses before closing. Reopen KiCad after setup succeeds.
+
+The PowerShell utility configures all four `KICAD_USER_OH_*` paths (symbols, footprints, 3D models and drawing templates), registers all six shared symbol libraries and `OH_Footprints`, and repairs existing shared-library entries in project tables under `ECAD`. It requires PowerShell 5.1 or newer. For a preview or direct execution from the repository root:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1 -WhatIf
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1
+```
+
+The script preserves unrelated preferences and library entries. It backs up every changed file in the KiCad configuration folder with a restore manifest, checks for concurrent changes and attempts rollback if a later write fails. It supports `-Checkout` and `-ConfigDirectory`, detects external environment overrides and makes no changes when setup already matches. Project mapping repairs appear in `git diff`; review them before committing. See the [setup guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) for configuration discovery, restore instructions and verification. No administrator rights, Codex or Konnect are required.
+
+## Astra launch utilities
 
 These wrappers implement the operator modes defined by `ECAD/docs/requirements/TOOLCHAIN.md`.
 
@@ -10,6 +25,8 @@ These wrappers implement the operator modes defined by `ECAD/docs/requirements/T
 `OH_ASTRA_MODEL` may override the default `gpt-6-astra` model identifier. The launchers do not install, update or reconfigure Codex, Konnect or KiCad; follow `TOOLCHAIN.md` for setup and smoke tests.
 
 On the validated Fedora reference environment, `preflight` also verifies KiCad's `KICAD_USER_OH_*` variables resolve to the current Git checkout. This intentionally prevents a Git worktree from silently using libraries from another checkout. Other platforms must perform equivalent library-resolution verification until that check is made portable.
+
+The shared-library check requires nonempty `OH_Symbols.kicad_symdir`, `KiCadCustomLib.kicad_symdir`, `OH_Interconnect.kicad_symdir` and `OpenHornet.kicad_symdir` directories. Retained packed comparison copies do not satisfy these checks. `ABSIS` and `Arduino Pro Mini 5v` remain packed libraries. Use KiCad 10 and follow the [symbol library mapping and verification guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md) after pulling the migration.
 
 ## CLI usage
 
