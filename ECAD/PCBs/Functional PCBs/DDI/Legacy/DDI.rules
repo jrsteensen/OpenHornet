@@ -1,0 +1,39 @@
+#
+# Rules file created by ELECTRA V8.10
+# 
+unit um
+rule pcb (width 250) (clearance 200.1)
+rule pcb  (clearance 200.1 (type pin_pin))
+rule pcb  (clearance 200.1 (type pin_via))
+rule pcb  (clearance 200.1 (type pin_wire))
+rule pcb  (clearance 200.1 (type pin_smd))
+rule pcb  (clearance 200.1 (type pin_area))
+rule pcb  (clearance 200.1 (type via_via))
+rule pcb  (clearance 200.1 (type via_wire))
+rule pcb  (clearance 200.1 (type via_smd))
+rule pcb  (clearance 200.1 (type via_area))
+rule pcb  (clearance 200.1 (type wire_wire))
+rule pcb  (clearance 200.1 (type wire_smd))
+rule pcb  (clearance 200.1 (type wire_area))
+rule pcb  (clearance 50 (type smd_smd))
+rule pcb  (clearance 200.1 (type smd_area))
+setr samenet_checking 1
+setr droute_style 45
+setr tune_corner_style 1
+define (class kicad_default VCC SDA SCL Net-(U4-Pad12) Net-(U4-Pad11) Net-(U4-Pad10) Net-(U3-Pad12) Net-(U3-Pad11) Net-(U3-Pad10) Net-(U2-Pad12) Net-(U2-Pad11) Net-(U2-Pad10) Net-(U1-Pad12) Net-(U1-Pad11) Net-(U1-Pad10) Net-(SW7-Pad4) Net-(SW6-Pad4) Net-(SW4-Pad4) Net-(SW2-Pad4) Net-(SW19-Pad4) Net-(SW17-Pad4) Net-(SW16-Pad4) Net-(SW14-Pad4) Net-(SW12-Pad4) Net-(SW11-Pad4) Net-(SW10-Pad3) Net-(SW1-Pad4) Net-(R9-Pad2) Net-(R8-Pad2) Net-(R7-Pad2) Net-(R6-Pad2) Net-(R5-Pad2) Net-(R4-Pad2) Net-(R11-Pad2) Net-(R10-Pad2) Net-(D8-Pad1) Net-(D7-Pad1) Net-(D6-Pad1) Net-(D5-Pad1) Net-(D4-Pad1) Net-(D32-Pad1) Net-(D31-Pad1) Net-(D30-Pad1) Net-(D3-Pad1) Net-(D29-Pad1) Net-(D28-Pad1) Net-(D27-Pad1) Net-(D26-Pad1) Net-(D25-Pad1) Net-(D24-Pad1) Net-(D23-Pad1) Net-(D22-Pad1) Net-(D21-Pad1) Net-(D20-Pad1) Net-(D2-Pad1) Net-(D19-Pad1) Net-(D18-Pad1) Net-(D17-Pad1) Net-(D16-Pad1) Net-(D15-Pad1) Net-(D14-Pad1) Net-(D13-Pad1) Net-(D12-Pad1) Net-(D11-Pad1) Net-(D10-Pad2) Net-(D10-Pad1) Net-(D1-Pad1) IRQ GND /U4P4 /U4P3 /U4P2 /U4P1 /U4P0 /U3P4 /U3P3 /U3P2 /U3P1 /U3P0 /U2P4 /U2P3 /U2P2 /U2P1 /U2P0 /U1P4 /U1P3 /U1P2 /U1P1 /U1P0 +5V )
+rule class kicad_default (clearance 200.1 (type pin_pin))
+rule class kicad_default (clearance 200.1 (type pin_via))
+rule class kicad_default (clearance 200.1 (type pin_wire))
+rule class kicad_default (clearance 200.1 (type pin_smd))
+rule class kicad_default (clearance 200.1 (type pin_area))
+rule class kicad_default (clearance 200.1 (type via_via))
+rule class kicad_default (clearance 200.1 (type via_wire))
+rule class kicad_default (clearance 200.1 (type via_smd))
+rule class kicad_default (clearance 200.1 (type via_area))
+rule class kicad_default (clearance 127 (type wire_wire))
+rule class kicad_default (clearance 200.1 (type wire_smd))
+rule class kicad_default (clearance 200.1 (type wire_area))
+rule class kicad_default (clearance 200.1 (type smd_smd))
+rule class kicad_default (clearance 200.1 (type smd_area))
+circuit class kicad_default (use_via Via[0-1]_800:400_um)
+

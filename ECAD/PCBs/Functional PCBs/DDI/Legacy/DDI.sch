@@ -1,0 +1,2233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "DDI Button Board"
+Date "2020-11-13"
+Rev "1"
+Comp "OPENHORNET.COM"
+Comment1 "CC BY-NC-SA"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 950  3000 0    50   Input ~ 0
+SDA
+Text GLabel 950  2900 0    50   Input ~ 0
+SCL
+Text GLabel 950  3100 0    50   Input ~ 0
+IRQ
+NoConn ~ 1750 3600
+$Comp
+L power:GND #PWR015
+U 1 1 5BC784F5
+P 1350 3800
+F 0 "#PWR015" H 1350 3550 50  0001 C CNN
+F 1 "GND" H 1355 3627 50  0000 C CNN
+F 2 "" H 1350 3800 50  0001 C CNN
+F 3 "" H 1350 3800 50  0001 C CNN
+	1    1350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5BC7855D
+P 1350 2700
+F 0 "#PWR06" H 1350 2550 50  0001 C CNN
+F 1 "+5V" H 1365 2873 50  0000 C CNN
+F 2 "" H 1350 2700 50  0001 C CNN
+F 3 "" H 1350 2700 50  0001 C CNN
+	1    1350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5BC7FC79
+P 650 3750
+F 0 "#PWR014" H 650 3500 50  0001 C CNN
+F 1 "GND" H 655 3577 50  0000 C CNN
+F 2 "" H 650 3750 50  0001 C CNN
+F 3 "" H 650 3750 50  0001 C CNN
+	1    650  3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 3000 0    50   Input ~ 0
+SDA
+Text GLabel 5700 2900 0    50   Input ~ 0
+SCL
+Text GLabel 5700 3100 0    50   Input ~ 0
+IRQ
+NoConn ~ 6500 3600
+$Comp
+L power:GND #PWR026
+U 1 1 5BC7FEC1
+P 6100 3800
+F 0 "#PWR026" H 6100 3550 50  0001 C CNN
+F 1 "GND" H 6105 3627 50  0000 C CNN
+F 2 "" H 6100 3800 50  0001 C CNN
+F 3 "" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 5BC7FEC7
+P 6100 2700
+F 0 "#PWR016" H 6100 2550 50  0001 C CNN
+F 1 "+5V" H 6115 2873 50  0000 C CNN
+F 2 "" H 6100 2700 50  0001 C CNN
+F 3 "" H 6100 2700 50  0001 C CNN
+	1    6100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR020
+U 1 1 5BC7FECF
+P 5400 3300
+F 0 "#PWR020" H 5400 3150 50  0001 C CNN
+F 1 "+5V" H 5415 3473 50  0000 C CNN
+F 2 "" H 5400 3300 50  0001 C CNN
+F 3 "" H 5400 3300 50  0001 C CNN
+	1    5400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5BC7FED5
+P 5400 3750
+F 0 "#PWR025" H 5400 3500 50  0001 C CNN
+F 1 "GND" H 5405 3577 50  0000 C CNN
+F 2 "" H 5400 3750 50  0001 C CNN
+F 3 "" H 5400 3750 50  0001 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  4700 0    50   Input ~ 0
+SDA
+Text GLabel 950  4600 0    50   Input ~ 0
+SCL
+Text GLabel 950  4800 0    50   Input ~ 0
+IRQ
+NoConn ~ 1750 5300
+$Comp
+L power:GND #PWR037
+U 1 1 5BC822C2
+P 1350 5500
+F 0 "#PWR037" H 1350 5250 50  0001 C CNN
+F 1 "GND" H 1355 5327 50  0000 C CNN
+F 2 "" H 1350 5500 50  0001 C CNN
+F 3 "" H 1350 5500 50  0001 C CNN
+	1    1350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR027
+U 1 1 5BC822C8
+P 1350 4400
+F 0 "#PWR027" H 1350 4250 50  0001 C CNN
+F 1 "+5V" H 1365 4573 50  0000 C CNN
+F 2 "" H 1350 4400 50  0001 C CNN
+F 3 "" H 1350 4400 50  0001 C CNN
+	1    1350 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR031
+U 1 1 5BC822D0
+P 650 5000
+F 0 "#PWR031" H 650 4850 50  0001 C CNN
+F 1 "+5V" H 665 5173 50  0000 C CNN
+F 2 "" H 650 5000 50  0001 C CNN
+F 3 "" H 650 5000 50  0001 C CNN
+	1    650  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 5BC822D6
+P 650 5450
+F 0 "#PWR036" H 650 5200 50  0001 C CNN
+F 1 "GND" H 655 5277 50  0000 C CNN
+F 2 "" H 650 5450 50  0001 C CNN
+F 3 "" H 650 5450 50  0001 C CNN
+	1    650  5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 4700 0    50   Input ~ 0
+SDA
+Text GLabel 5700 4600 0    50   Input ~ 0
+SCL
+Text GLabel 5700 4800 0    50   Input ~ 0
+IRQ
+NoConn ~ 6500 5300
+$Comp
+L power:GND #PWR048
+U 1 1 5BC8232F
+P 6100 5500
+F 0 "#PWR048" H 6100 5250 50  0001 C CNN
+F 1 "GND" H 6105 5327 50  0000 C CNN
+F 2 "" H 6100 5500 50  0001 C CNN
+F 3 "" H 6100 5500 50  0001 C CNN
+	1    6100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR038
+U 1 1 5BC82335
+P 6100 4400
+F 0 "#PWR038" H 6100 4250 50  0001 C CNN
+F 1 "+5V" H 6115 4573 50  0000 C CNN
+F 2 "" H 6100 4400 50  0001 C CNN
+F 3 "" H 6100 4400 50  0001 C CNN
+	1    6100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR042
+U 1 1 5BC8233D
+P 5400 5000
+F 0 "#PWR042" H 5400 4850 50  0001 C CNN
+F 1 "+5V" H 5415 5173 50  0000 C CNN
+F 2 "" H 5400 5000 50  0001 C CNN
+F 3 "" H 5400 5000 50  0001 C CNN
+	1    5400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5BC82343
+P 5400 5450
+F 0 "#PWR047" H 5400 5200 50  0001 C CNN
+F 1 "GND" H 5405 5277 50  0000 C CNN
+F 2 "" H 5400 5450 50  0001 C CNN
+F 3 "" H 5400 5450 50  0001 C CNN
+	1    5400 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3400 650  3400
+Wire Wire Line
+	650  3400 650  3500
+Wire Wire Line
+	950  3500 650  3500
+Connection ~ 650  3500
+Wire Wire Line
+	650  3500 650  3600
+Wire Wire Line
+	950  3600 650  3600
+Connection ~ 650  3600
+Wire Wire Line
+	650  3600 650  3750
+Wire Wire Line
+	950  5100 650  5100
+Wire Wire Line
+	650  5100 650  5000
+Wire Wire Line
+	950  5200 650  5200
+Wire Wire Line
+	650  5200 650  5300
+Wire Wire Line
+	950  5300 650  5300
+Connection ~ 650  5300
+Wire Wire Line
+	650  5300 650  5450
+Wire Wire Line
+	5700 3500 5400 3500
+Wire Wire Line
+	5400 3500 5400 3300
+Wire Wire Line
+	5700 3400 5500 3400
+Wire Wire Line
+	5500 3400 5500 3600
+Wire Wire Line
+	5500 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 3750
+Wire Wire Line
+	5700 3600 5500 3600
+Connection ~ 5500 3600
+Wire Wire Line
+	5700 5100 5400 5100
+Wire Wire Line
+	5400 5100 5400 5000
+Wire Wire Line
+	5700 5200 5400 5200
+Wire Wire Line
+	5400 5200 5400 5100
+Connection ~ 5400 5100
+Wire Wire Line
+	5700 5300 5400 5300
+Wire Wire Line
+	5400 5300 5400 5450
+NoConn ~ 1750 3500
+NoConn ~ 1750 3400
+NoConn ~ 6500 3500
+NoConn ~ 6500 3400
+NoConn ~ 6500 5100
+NoConn ~ 6500 5200
+NoConn ~ 1750 5100
+NoConn ~ 1750 5200
+$Comp
+L Interface_Expansion:TCA9554PW U2
+U 1 1 5FB7E676
+P 6100 3200
+F 0 "U2" H 5750 3850 50  0000 C CNN
+F 1 "TCA9554PWR" H 5750 3750 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7050 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H 6200 3100 50  0001 C CNN
+F 4 "C477924" H 6100 3200 50  0001 C CNN "LCSC"
+	1    6100 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:TCA9554PW U4
+U 1 1 5FB7F29F
+P 6100 4900
+F 0 "U4" H 5750 5550 50  0000 C CNN
+F 1 "TCA9554PWR" H 5750 5450 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7050 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H 6200 4800 50  0001 C CNN
+F 4 "C477924" H 6100 4900 50  0001 C CNN "LCSC"
+	1    6100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_Expansion:TCA9554PW U3
+U 1 1 5FB7FF40
+P 1350 4900
+F 0 "U3" H 1000 5550 50  0000 C CNN
+F 1 "TCA9554PWR" H 1000 5450 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2300 4350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H 1450 4800 50  0001 C CNN
+F 4 "C477924" H 1350 4900 50  0001 C CNN "LCSC"
+	1    1350 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5DB2DF4E
+P 2850 1900
+F 0 "C1" H 2950 1950 50  0000 L CNN
+F 1 "47uF" H 2950 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2888 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 2850 1900 50  0001 C CNN
+F 4 "CL31A476MPHNNNE" H 2850 1900 50  0001 C CNN "PN"
+F 5 "C96123" H 2850 1900 50  0001 C CNN "LCSC"
+	1    2850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FC06B5F
+P 3850 2050
+F 0 "#PWR04" H 3850 1800 50  0001 C CNN
+F 1 "GND" H 3855 1877 50  0000 C CNN
+F 2 "" H 3850 2050 50  0001 C CNN
+F 3 "" H 3850 2050 50  0001 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FC06E31
+P 3850 1750
+F 0 "#PWR03" H 3850 1600 50  0001 C CNN
+F 1 "+5V" H 3865 1923 50  0000 C CNN
+F 2 "" H 3850 1750 50  0001 C CNN
+F 3 "" H 3850 1750 50  0001 C CNN
+	1    3850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1750 3850 1800
+Connection ~ 3850 1800
+Wire Wire Line
+	3850 1800 4050 1800
+Wire Wire Line
+	3850 2050 3850 2000
+Connection ~ 3850 2000
+Wire Wire Line
+	3850 2000 4050 2000
+$Comp
+L Interface_Expansion:TCA9554PW U1
+U 1 1 5BC68220
+P 1350 3200
+F 0 "U1" H 1000 3850 50  0000 C CNN
+F 1 "TCA9554PWR" H 1000 3750 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 2300 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001050532_Texas-Instruments-TCA9554PWR_C477924.pdf" H 1450 3100 50  0001 C CNN
+F 4 "C477924" H 1350 3200 50  0001 C CNN "LCSC"
+	1    1350 3200
+	1    0    0    -1  
+$EndComp
+Text Notes 2800 1600 0    50   ~ 0
+IC BYPASS CAPS
+Wire Notes Line
+	2750 1500 4350 1500
+Wire Notes Line
+	4350 1500 4350 2300
+Wire Notes Line
+	4350 2300 2750 2300
+Wire Notes Line
+	2750 2300 2750 1500
+Text Notes 2800 2250 0    39   ~ 0
+PLACE EACH CAP AS CLOSE TO \nRESPECTIVE IC AS POSSIBLE.
+$Comp
+L Switch:SW_Push_LED SW1
+U 1 1 5FC2C4BB
+P 2800 3100
+F 0 "SW1" H 2800 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 2800 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 2640 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2640 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 2800 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 2800 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 2800 3100 50  0001 C CNN "ALT Datasheet"
+	1    2800 3100
+	1    0    0    -1  
+$EndComp
+Text Label 1750 2900 0    50   ~ 0
+U1P0
+Text Label 1750 3000 0    50   ~ 0
+U1P1
+Text Label 1750 3100 0    50   ~ 0
+U1P2
+Text Label 1750 3200 0    50   ~ 0
+U1P3
+Text Label 1750 3300 0    50   ~ 0
+U1P4
+$Comp
+L Switch:SW_Push_LED SW2
+U 1 1 5FD6DCCE
+P 3750 3100
+F 0 "SW2" H 3750 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 3750 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 3590 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3590 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 3750 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 3750 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 3750 3100 50  0001 C CNN "ALT Datasheet"
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW3
+U 1 1 5FD6EBC7
+P 4700 3100
+F 0 "SW3" H 4700 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 4700 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 4540 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4540 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 4700 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 4700 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 4700 3100 50  0001 C CNN "ALT Datasheet"
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW4
+U 1 1 5FD6F758
+P 2800 3650
+F 0 "SW4" H 2800 4035 50  0000 C CNN
+F 1 "TL1240GQ" H 2800 3944 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 2640 3870 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2640 3870 50  0001 C CNN
+F 4 "TL1240GQ" H 2800 3650 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 2800 3650 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 2800 3650 50  0001 C CNN "ALT Datasheet"
+	1    2800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FDC00DE
+P 3000 3000
+F 0 "#PWR07" H 3000 2750 50  0001 C CNN
+F 1 "GND" V 3000 2800 50  0000 C CNN
+F 2 "" H 3000 3000 50  0001 C CNN
+F 3 "" H 3000 3000 50  0001 C CNN
+	1    3000 3000
+	0    -1   -1   0   
+$EndComp
+Text Label 2600 3000 2    50   ~ 0
+U1P0
+Text Label 3550 3000 2    50   ~ 0
+U1P1
+Text Label 4500 3000 2    50   ~ 0
+U1P2
+$Comp
+L power:GND #PWR08
+U 1 1 601F6321
+P 3950 3000
+F 0 "#PWR08" H 3950 2750 50  0001 C CNN
+F 1 "GND" V 3950 2800 50  0000 C CNN
+F 2 "" H 3950 3000 50  0001 C CNN
+F 3 "" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 601F659D
+P 4900 3000
+F 0 "#PWR09" H 4900 2750 50  0001 C CNN
+F 1 "GND" V 4900 2800 50  0000 C CNN
+F 2 "" H 4900 3000 50  0001 C CNN
+F 3 "" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 601F690B
+P 3000 3550
+F 0 "#PWR012" H 3000 3300 50  0001 C CNN
+F 1 "GND" V 3000 3350 50  0000 C CNN
+F 2 "" H 3000 3550 50  0001 C CNN
+F 3 "" H 3000 3550 50  0001 C CNN
+	1    3000 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW5
+U 1 1 601F6D47
+P 3750 3650
+F 0 "SW5" H 3750 4035 50  0000 C CNN
+F 1 "TL1240GQ" H 3750 3944 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 3590 3870 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3590 3870 50  0001 C CNN
+F 4 "TL1240GQ" H 3750 3650 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 3750 3650 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 3750 3650 50  0001 C CNN "ALT Datasheet"
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+Text Label 3550 3550 2    50   ~ 0
+U1P4
+$Comp
+L power:GND #PWR013
+U 1 1 601FDB87
+P 3950 3550
+F 0 "#PWR013" H 3950 3300 50  0001 C CNN
+F 1 "GND" V 3950 3350 50  0000 C CNN
+F 2 "" H 3950 3550 50  0001 C CNN
+F 3 "" H 3950 3550 50  0001 C CNN
+	1    3950 3550
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	550  4050 550  2450
+Text Label 6500 2900 0    50   ~ 0
+U2P0
+Text Label 6500 3000 0    50   ~ 0
+U2P1
+Text Label 6500 3100 0    50   ~ 0
+U2P2
+Text Label 6500 3200 0    50   ~ 0
+U2P3
+Text Label 6500 3300 0    50   ~ 0
+U2P4
+$Comp
+L Switch:SW_Push_LED SW6
+U 1 1 6064FD64
+P 7500 3100
+F 0 "SW6" H 7500 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 7500 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 7340 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7340 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 7500 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 7500 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 7500 3100 50  0001 C CNN "ALT Datasheet"
+	1    7500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW7
+U 1 1 606512F9
+P 8450 3100
+F 0 "SW7" H 8450 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 8450 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 8290 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8290 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 8450 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 8450 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 8450 3100 50  0001 C CNN "ALT Datasheet"
+	1    8450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW8
+U 1 1 60651306
+P 9400 3100
+F 0 "SW8" H 9400 3485 50  0000 C CNN
+F 1 "TL1240GQ" H 9400 3394 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 9240 3320 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 9240 3320 50  0001 C CNN
+F 4 "TL1240GQ" H 9400 3100 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 9400 3100 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 9400 3100 50  0001 C CNN "ALT Datasheet"
+	1    9400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW9
+U 1 1 60651313
+P 7500 3650
+F 0 "SW9" H 7500 4035 50  0000 C CNN
+F 1 "TL1240GQ" H 7500 3944 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 7340 3870 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7340 3870 50  0001 C CNN
+F 4 "TL1240GQ" H 7500 3650 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 7500 3650 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 7500 3650 50  0001 C CNN "ALT Datasheet"
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6065131D
+P 7700 3000
+F 0 "#PWR017" H 7700 2750 50  0001 C CNN
+F 1 "GND" V 7700 2800 50  0000 C CNN
+F 2 "" H 7700 3000 50  0001 C CNN
+F 3 "" H 7700 3000 50  0001 C CNN
+	1    7700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 60651353
+P 8650 3000
+F 0 "#PWR018" H 8650 2750 50  0001 C CNN
+F 1 "GND" V 8650 2800 50  0000 C CNN
+F 2 "" H 8650 3000 50  0001 C CNN
+F 3 "" H 8650 3000 50  0001 C CNN
+	1    8650 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 6065135D
+P 9600 3000
+F 0 "#PWR019" H 9600 2750 50  0001 C CNN
+F 1 "GND" V 9600 2800 50  0000 C CNN
+F 2 "" H 9600 3000 50  0001 C CNN
+F 3 "" H 9600 3000 50  0001 C CNN
+	1    9600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 60651367
+P 7700 3550
+F 0 "#PWR023" H 7700 3300 50  0001 C CNN
+F 1 "GND" V 7700 3350 50  0000 C CNN
+F 2 "" H 7700 3550 50  0001 C CNN
+F 3 "" H 7700 3550 50  0001 C CNN
+	1    7700 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW10
+U 1 1 60651374
+P 8450 3650
+F 0 "SW10" H 8450 4035 50  0000 C CNN
+F 1 "TL1240GQ" H 8450 3944 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 8290 3870 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8290 3870 50  0001 C CNN
+F 4 "TL1240GQ" H 8450 3650 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 8450 3650 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 8450 3650 50  0001 C CNN "ALT Datasheet"
+	1    8450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 60651389
+P 8650 3550
+F 0 "#PWR024" H 8650 3300 50  0001 C CNN
+F 1 "GND" V 8650 3350 50  0000 C CNN
+F 2 "" H 8650 3550 50  0001 C CNN
+F 3 "" H 8650 3550 50  0001 C CNN
+	1    8650 3550
+	0    -1   -1   0   
+$EndComp
+Text Label 7300 3000 2    50   ~ 0
+U2P0
+Text Label 8250 3000 2    50   ~ 0
+U2P1
+Text Label 9200 3000 2    50   ~ 0
+U2P2
+Text Label 7300 3550 2    50   ~ 0
+U2P3
+Text Label 8250 3550 2    50   ~ 0
+U2P4
+Wire Notes Line
+	5300 4050 5300 2450
+Text Label 1750 4600 0    50   ~ 0
+U3P0
+Text Label 1750 4700 0    50   ~ 0
+U3P1
+Text Label 1750 4800 0    50   ~ 0
+U3P2
+Text Label 1750 4900 0    50   ~ 0
+U3P3
+Text Label 1750 5000 0    50   ~ 0
+U3P4
+$Comp
+L Switch:SW_Push_LED SW11
+U 1 1 608B5598
+P 2700 4800
+F 0 "SW11" H 2700 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 2700 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 2540 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2540 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 2700 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 2700 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 2700 4800 50  0001 C CNN "ALT Datasheet"
+	1    2700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW12
+U 1 1 608B6C57
+P 3650 4800
+F 0 "SW12" H 3650 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 3650 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 3490 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3490 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 3650 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 3650 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 3650 4800 50  0001 C CNN "ALT Datasheet"
+	1    3650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW13
+U 1 1 608B6C64
+P 4600 4800
+F 0 "SW13" H 4600 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 4600 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 4440 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 4440 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 4600 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 4600 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 4600 4800 50  0001 C CNN "ALT Datasheet"
+	1    4600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 608B6C7B
+P 2900 4700
+F 0 "#PWR028" H 2900 4450 50  0001 C CNN
+F 1 "GND" V 2900 4500 50  0000 C CNN
+F 2 "" H 2900 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0001 C CNN
+	1    2900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 608B6CAD
+P 3850 4700
+F 0 "#PWR029" H 3850 4450 50  0001 C CNN
+F 1 "GND" V 3850 4500 50  0000 C CNN
+F 2 "" H 3850 4700 50  0001 C CNN
+F 3 "" H 3850 4700 50  0001 C CNN
+	1    3850 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 608B6CB7
+P 4800 4700
+F 0 "#PWR030" H 4800 4450 50  0001 C CNN
+F 1 "GND" V 4800 4500 50  0000 C CNN
+F 2 "" H 4800 4700 50  0001 C CNN
+F 3 "" H 4800 4700 50  0001 C CNN
+	1    4800 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW15
+U 1 1 608B6CCE
+P 3650 5350
+F 0 "SW15" H 3650 5735 50  0000 C CNN
+F 1 "TL1240GQ" H 3650 5644 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 3490 5570 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 3490 5570 50  0001 C CNN
+F 4 "TL1240GQ" H 3650 5350 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 3650 5350 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 3650 5350 50  0001 C CNN "ALT Datasheet"
+	1    3650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 608B6CE2
+P 3850 5250
+F 0 "#PWR035" H 3850 5000 50  0001 C CNN
+F 1 "GND" V 3850 5050 50  0000 C CNN
+F 2 "" H 3850 5250 50  0001 C CNN
+F 3 "" H 3850 5250 50  0001 C CNN
+	1    3850 5250
+	0    -1   -1   0   
+$EndComp
+Text Label 2500 4700 2    50   ~ 0
+U3P0
+Text Label 3450 4700 2    50   ~ 0
+U3P1
+Text Label 4400 4700 2    50   ~ 0
+U3P2
+Text Label 2500 5250 2    50   ~ 0
+U3P3
+Text Label 3450 5250 2    50   ~ 0
+U3P4
+Text Label 6500 4600 0    50   ~ 0
+U4P0
+Text Label 6500 4700 0    50   ~ 0
+U4P1
+Text Label 6500 4800 0    50   ~ 0
+U4P2
+Text Label 6500 4900 0    50   ~ 0
+U4P3
+Text Label 6500 5000 0    50   ~ 0
+U4P4
+$Comp
+L Switch:SW_Push_LED SW16
+U 1 1 60B0D21A
+P 7400 4800
+F 0 "SW16" H 7400 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 7400 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 7240 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7240 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 7400 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 7400 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 7400 4800 50  0001 C CNN "ALT Datasheet"
+	1    7400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW17
+U 1 1 60B0EA03
+P 8350 4800
+F 0 "SW17" H 8350 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 8350 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 8190 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8190 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 8350 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 8350 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 8350 4800 50  0001 C CNN "ALT Datasheet"
+	1    8350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW18
+U 1 1 60B0EA10
+P 9300 4800
+F 0 "SW18" H 9300 5185 50  0000 C CNN
+F 1 "TL1240GQ" H 9300 5094 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 9140 5020 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 9140 5020 50  0001 C CNN
+F 4 "TL1240GQ" H 9300 4800 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 9300 4800 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 9300 4800 50  0001 C CNN "ALT Datasheet"
+	1    9300 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW19
+U 1 1 60B0EA1D
+P 7400 5350
+F 0 "SW19" H 7400 5735 50  0000 C CNN
+F 1 "TL1240GQ" H 7400 5644 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 7240 5570 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 7240 5570 50  0001 C CNN
+F 4 "TL1240GQ" H 7400 5350 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 7400 5350 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 7400 5350 50  0001 C CNN "ALT Datasheet"
+	1    7400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 60B0EA27
+P 7600 4700
+F 0 "#PWR039" H 7600 4450 50  0001 C CNN
+F 1 "GND" V 7600 4500 50  0000 C CNN
+F 2 "" H 7600 4700 50  0001 C CNN
+F 3 "" H 7600 4700 50  0001 C CNN
+	1    7600 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 60B0EA59
+P 8550 4700
+F 0 "#PWR040" H 8550 4450 50  0001 C CNN
+F 1 "GND" V 8550 4500 50  0000 C CNN
+F 2 "" H 8550 4700 50  0001 C CNN
+F 3 "" H 8550 4700 50  0001 C CNN
+	1    8550 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 60B0EA63
+P 9500 4700
+F 0 "#PWR041" H 9500 4450 50  0001 C CNN
+F 1 "GND" V 9500 4500 50  0000 C CNN
+F 2 "" H 9500 4700 50  0001 C CNN
+F 3 "" H 9500 4700 50  0001 C CNN
+	1    9500 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 60B0EA6D
+P 7600 5250
+F 0 "#PWR045" H 7600 5000 50  0001 C CNN
+F 1 "GND" V 7600 5050 50  0000 C CNN
+F 2 "" H 7600 5250 50  0001 C CNN
+F 3 "" H 7600 5250 50  0001 C CNN
+	1    7600 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW20
+U 1 1 60B0EA7A
+P 8350 5350
+F 0 "SW20" H 8350 5735 50  0000 C CNN
+F 1 "TL1240GQ" H 8350 5644 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 8190 5570 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 8190 5570 50  0001 C CNN
+F 4 "TL1240GQ" H 8350 5350 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 8350 5350 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 8350 5350 50  0001 C CNN "ALT Datasheet"
+	1    8350 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 60B0EA8E
+P 8550 5250
+F 0 "#PWR046" H 8550 5000 50  0001 C CNN
+F 1 "GND" V 8550 5050 50  0000 C CNN
+F 2 "" H 8550 5250 50  0001 C CNN
+F 3 "" H 8550 5250 50  0001 C CNN
+	1    8550 5250
+	0    -1   -1   0   
+$EndComp
+Text Label 7200 4700 2    50   ~ 0
+U4P0
+Text Label 8150 4700 2    50   ~ 0
+U4P1
+Text Label 9100 4700 2    50   ~ 0
+U4P2
+Text Label 7200 5250 2    50   ~ 0
+U4P3
+Text Label 8150 5250 2    50   ~ 0
+U4P4
+Text Notes 4150 2600 0    98   ~ 0
+TOP BUTTONS
+Text Notes 8550 2600 0    98   ~ 0
+RIGHT BUTTONS
+Wire Notes Line
+	8500 2650 8500 2450
+Text Notes 3650 4300 0    98   ~ 0
+BOTTOM BUTTONS
+Wire Notes Line
+	3600 4150 3600 4350
+Text Notes 8650 4300 0    98   ~ 0
+LEFT BUTTONS
+Wire Notes Line
+	8600 4350 8600 4150
+$Comp
+L Mechanical:MountingHole MK1
+U 1 1 5A3EB27C
+P 4600 1850
+F 0 "MK1" H 4600 2050 50  0000 C CNN
+F 1 "MH" H 4600 1975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 4600 1850 50  0001 C CNN
+F 3 "" H 4600 1850 50  0001 C CNN
+	1    4600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK2
+U 1 1 5A3ECA9A
+P 4850 1850
+F 0 "MK2" H 4850 2050 50  0000 C CNN
+F 1 "MH" H 4850 1975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 4850 1850 50  0001 C CNN
+F 3 "" H 4850 1850 50  0001 C CNN
+	1    4850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK3
+U 1 1 5A3ECC02
+P 5100 1850
+F 0 "MK3" H 5100 2050 50  0000 C CNN
+F 1 "MH" H 5100 1975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5100 1850 50  0001 C CNN
+F 3 "" H 5100 1850 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MK4
+U 1 1 5A3ECD67
+P 5350 1850
+F 0 "MK4" H 5350 2050 50  0000 C CNN
+F 1 "MH" H 5350 1975 50  0000 C CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4" H 5350 1850 50  0001 C CNN
+F 3 "" H 5350 1850 50  0001 C CNN
+	1    5350 1850
+	1    0    0    -1  
+$EndComp
+Text Notes 450  650  0    100  ~ 0
+NOTES: (UNLESS OTHERWISE SPECIFIED)
+Text Notes 500  800  0    50   ~ 0
+1) XXXX
+Text Notes 2150 2600 0    50   ~ 0
+010032
+$Comp
+L power:GND #PWR010
+U 1 1 616F18DC
+P 2300 3350
+F 0 "#PWR010" H 2300 3100 50  0001 C CNN
+F 1 "GND" V 2300 3150 50  0000 C CNN
+F 2 "" H 2300 3350 50  0001 C CNN
+F 3 "" H 2300 3350 50  0001 C CNN
+	1    2300 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR011
+U 1 1 60246B6E
+P 4900 3350
+F 0 "#PWR011" H 4900 3200 50  0001 C CNN
+F 1 "VCC" V 4915 3478 50  0000 L CNN
+F 2 "" H 4900 3350 50  0001 C CNN
+F 3 "" H 4900 3350 50  0001 C CNN
+	1    4900 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 608B6CC1
+P 2900 5250
+F 0 "#PWR034" H 2900 5000 50  0001 C CNN
+F 1 "GND" V 2900 5050 50  0000 C CNN
+F 2 "" H 2900 5250 50  0001 C CNN
+F 3 "" H 2900 5250 50  0001 C CNN
+	1    2900 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_LED SW14
+U 1 1 608B6C71
+P 2700 5350
+F 0 "SW14" H 2700 5735 50  0000 C CNN
+F 1 "TL1240GQ" H 2700 5644 50  0000 C CNN
+F 2 "KiCAD Libraries:TL1240GQ" H 2540 5570 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010362.pdf" H 2540 5570 50  0001 C CNN
+F 4 "TL1240GQ" H 2700 5350 50  0001 C CNN "PN"
+F 5 "LS601-CG" H 2700 5350 50  0001 C CNN "ALT PN"
+F 6 "https://www.alibaba.com/product-detail/6mm-momentary-dip-6x6-illuminated-tact_60755685240.html?spm=a2700.wholesale.deiletai6.3.3615ec45cdCdkr" H 2700 5350 50  0001 C CNN "ALT Datasheet"
+	1    2700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3100 3950 3100
+Wire Wire Line
+	3550 3100 3000 3100
+$Comp
+L Device:R R4
+U 1 1 603219DF
+P 2450 3100
+F 0 "R4" V 2350 3100 50  0000 C CNN
+F 1 "150" V 2450 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2380 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 2450 3100 50  0001 C CNN
+F 4 "C25082" V 2450 3100 50  0001 C CNN "LCSC"
+	1    2450 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60322567
+P 2450 3650
+F 0 "R5" V 2350 3650 50  0000 C CNN
+F 1 "270" V 2450 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2380 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 2450 3650 50  0001 C CNN
+F 4 "C25099" V 2450 3650 50  0001 C CNN "LCSC"
+	1    2450 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 3100 2300 3350
+Connection ~ 2300 3350
+Wire Wire Line
+	2300 3350 2300 3650
+Wire Wire Line
+	4900 3100 4900 3350
+Wire Wire Line
+	4900 3650 3950 3650
+Connection ~ 4900 3350
+Wire Wire Line
+	4900 3350 4900 3650
+Wire Wire Line
+	3000 3650 3550 3650
+Wire Notes Line
+	5200 2450 5200 4050
+Wire Notes Line
+	550  2450 5200 2450
+Wire Notes Line
+	550  4050 5200 4050
+Wire Notes Line
+	4100 2450 4100 2650
+Wire Notes Line
+	4100 2650 5200 2650
+$Comp
+L power:GND #PWR021
+U 1 1 6035B774
+P 7000 3350
+F 0 "#PWR021" H 7000 3100 50  0001 C CNN
+F 1 "GND" V 7000 3150 50  0000 C CNN
+F 2 "" H 7000 3350 50  0001 C CNN
+F 3 "" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6035B77B
+P 7150 3100
+F 0 "R6" V 7050 3100 50  0000 C CNN
+F 1 "150" V 7150 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 3100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 7150 3100 50  0001 C CNN
+F 4 "C25082" V 7150 3100 50  0001 C CNN "LCSC"
+	1    7150 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6035B782
+P 7150 3650
+F 0 "R7" V 7050 3650 50  0000 C CNN
+F 1 "270" V 7150 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 7150 3650 50  0001 C CNN
+F 4 "C25099" V 7150 3650 50  0001 C CNN "LCSC"
+	1    7150 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 3100 7000 3350
+Connection ~ 7000 3350
+Wire Wire Line
+	7000 3350 7000 3650
+$Comp
+L power:VCC #PWR022
+U 1 1 6036080C
+P 9600 3350
+F 0 "#PWR022" H 9600 3200 50  0001 C CNN
+F 1 "VCC" V 9615 3478 50  0000 L CNN
+F 2 "" H 9600 3350 50  0001 C CNN
+F 3 "" H 9600 3350 50  0001 C CNN
+	1    9600 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 3100 9600 3350
+Wire Wire Line
+	9600 3650 8650 3650
+Connection ~ 9600 3350
+Wire Wire Line
+	9600 3350 9600 3650
+Wire Wire Line
+	8250 3650 7700 3650
+Wire Wire Line
+	7700 3100 8250 3100
+Wire Wire Line
+	8650 3100 9200 3100
+Text Label 2600 3550 2    50   ~ 0
+U1P3
+Wire Notes Line
+	9900 4050 9900 2450
+Wire Notes Line
+	5300 2450 9900 2450
+Wire Notes Line
+	5300 4050 9900 4050
+$Comp
+L power:GND #PWR032
+U 1 1 60390A6B
+P 2200 5050
+F 0 "#PWR032" H 2200 4800 50  0001 C CNN
+F 1 "GND" V 2200 4850 50  0000 C CNN
+F 2 "" H 2200 5050 50  0001 C CNN
+F 3 "" H 2200 5050 50  0001 C CNN
+	1    2200 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 60390A72
+P 2350 4800
+F 0 "R8" V 2250 4800 50  0000 C CNN
+F 1 "150" V 2350 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 4800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 2350 4800 50  0001 C CNN
+F 4 "C25082" V 2350 4800 50  0001 C CNN "LCSC"
+	1    2350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60390A79
+P 2350 5350
+F 0 "R9" V 2250 5350 50  0000 C CNN
+F 1 "270" V 2350 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 2350 5350 50  0001 C CNN
+F 4 "C25099" V 2350 5350 50  0001 C CNN "LCSC"
+	1    2350 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 4800 2200 5050
+Connection ~ 2200 5050
+Wire Wire Line
+	2200 5050 2200 5350
+$Comp
+L power:VCC #PWR033
+U 1 1 60393A05
+P 4800 5050
+F 0 "#PWR033" H 4800 4900 50  0001 C CNN
+F 1 "VCC" V 4815 5178 50  0000 L CNN
+F 2 "" H 4800 5050 50  0001 C CNN
+F 3 "" H 4800 5050 50  0001 C CNN
+	1    4800 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 4800 4800 5050
+Wire Wire Line
+	4800 5350 3850 5350
+Connection ~ 4800 5050
+Wire Wire Line
+	4800 5050 4800 5350
+Wire Wire Line
+	3450 5350 2900 5350
+Wire Wire Line
+	2900 4800 3450 4800
+Wire Wire Line
+	3850 4800 4400 4800
+Wire Notes Line
+	550  4150 5200 4150
+$Comp
+L power:VCC #PWR044
+U 1 1 603B789F
+P 9500 5050
+F 0 "#PWR044" H 9500 4900 50  0001 C CNN
+F 1 "VCC" V 9515 5178 50  0000 L CNN
+F 2 "" H 9500 5050 50  0001 C CNN
+F 3 "" H 9500 5050 50  0001 C CNN
+	1    9500 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 4800 9500 5050
+Wire Wire Line
+	9500 5350 8550 5350
+Connection ~ 9500 5050
+Wire Wire Line
+	9500 5050 9500 5350
+$Comp
+L power:GND #PWR043
+U 1 1 603BA6D4
+P 6900 5050
+F 0 "#PWR043" H 6900 4800 50  0001 C CNN
+F 1 "GND" V 6900 4850 50  0000 C CNN
+F 2 "" H 6900 5050 50  0001 C CNN
+F 3 "" H 6900 5050 50  0001 C CNN
+	1    6900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 603BA6DB
+P 7050 4800
+F 0 "R10" V 6950 4800 50  0000 C CNN
+F 1 "150" V 7050 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6980 4800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 7050 4800 50  0001 C CNN
+F 4 "C25082" V 7050 4800 50  0001 C CNN "LCSC"
+	1    7050 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 603BA6E2
+P 7050 5350
+F 0 "R11" V 6950 5350 50  0000 C CNN
+F 1 "270" V 7050 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6980 5350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 7050 5350 50  0001 C CNN
+F 4 "C25099" V 7050 5350 50  0001 C CNN "LCSC"
+	1    7050 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 4800 6900 5050
+Connection ~ 6900 5050
+Wire Wire Line
+	6900 5050 6900 5350
+Wire Wire Line
+	7600 4800 8150 4800
+Wire Wire Line
+	8550 4800 9100 4800
+Wire Wire Line
+	8150 5350 7600 5350
+Wire Notes Line
+	9900 5750 9900 4150
+Wire Notes Line
+	5300 4150 9900 4150
+Wire Notes Line
+	8500 2650 9900 2650
+Wire Notes Line
+	8600 4350 9900 4350
+Wire Notes Line
+	3600 4350 5200 4350
+$Comp
+L power:GND #PWR05
+U 1 1 6047E981
+P 1600 2100
+F 0 "#PWR05" H 1600 1850 50  0001 C CNN
+F 1 "GND" H 1605 1927 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  1800 0    50   Input ~ 0
+SCL
+Text GLabel 900  1900 0    50   Input ~ 0
+IRQ
+Text GLabel 900  1700 0    50   Input ~ 0
+SDA
+$Comp
+L power:+5V #PWR01
+U 1 1 6047E98A
+P 850 1300
+F 0 "#PWR01" H 850 1150 50  0001 C CNN
+F 1 "+5V" H 865 1473 50  0000 C CNN
+F 2 "" H 850 1300 50  0001 C CNN
+F 3 "" H 850 1300 50  0001 C CNN
+	1    850  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2000 1600 2100
+Wire Wire Line
+	1450 1700 1450 1600
+Wire Wire Line
+	1700 1300 1700 1600
+Wire Wire Line
+	1200 1600 1200 1800
+Wire Wire Line
+	950  1600 950  1900
+Wire Wire Line
+	950  1900 900  1900
+Connection ~ 950  1900
+Wire Wire Line
+	1200 1800 900  1800
+Connection ~ 1200 1800
+Wire Wire Line
+	1450 1700 900  1700
+Connection ~ 1450 1700
+Wire Wire Line
+	850  1300 950  1300
+$Comp
+L Device:R R1
+U 1 1 6047E9B3
+P 950 1450
+F 0 "R1" H 1000 1450 50  0000 L CNN
+F 1 "10K" V 950 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 950 1450 50  0001 C CNN
+F 4 "C25804" H 950 1450 50  0001 C CNN "LCSC"
+	1    950  1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 950  1300
+Wire Wire Line
+	1600 2000 1850 2000
+Wire Wire Line
+	950  1900 1850 1900
+Wire Wire Line
+	1200 1800 1850 1800
+Wire Wire Line
+	1450 1700 1850 1700
+Wire Wire Line
+	1850 1600 1700 1600
+Wire Wire Line
+	1850 1500 1800 1500
+$Comp
+L power:VCC #PWR02
+U 1 1 604AB9A8
+P 1800 1300
+F 0 "#PWR02" H 1800 1150 50  0001 C CNN
+F 1 "VCC" H 1815 1473 50  0000 C CNN
+F 2 "" H 1800 1300 50  0001 C CNN
+F 3 "" H 1800 1300 50  0001 C CNN
+	1    1800 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1300 1800 1500
+Text Notes 2150 1500 0    49   ~ 0
++12V PWM
+Text Notes 2150 1600 0    49   ~ 0
++5V
+Text Notes 2150 1700 0    49   ~ 0
+SDA
+Text Notes 2150 1800 0    49   ~ 0
+SCL
+Text Notes 2150 1900 0    49   ~ 0
+IRQ
+Text Notes 2150 2000 0    49   ~ 0
+GND
+Wire Wire Line
+	950  1300 1200 1300
+$Comp
+L Device:R R2
+U 1 1 604C567A
+P 1200 1450
+F 0 "R2" H 1250 1450 50  0000 L CNN
+F 1 "10K" V 1200 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1130 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1200 1450 50  0001 C CNN
+F 4 "C25804" H 1200 1450 50  0001 C CNN "LCSC"
+	1    1200 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 1300
+Wire Wire Line
+	1200 1300 1450 1300
+$Comp
+L Device:R R3
+U 1 1 604C588D
+P 1450 1450
+F 0 "R3" H 1500 1450 50  0000 L CNN
+F 1 "10K" V 1450 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811062009_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" H 1450 1450 50  0001 C CNN
+F 4 "C25804" H 1450 1450 50  0001 C CNN "LCSC"
+	1    1450 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 1300
+Wire Wire Line
+	1450 1300 1700 1300
+Wire Wire Line
+	2850 1800 3250 1800
+Wire Wire Line
+	2850 2000 3250 2000
+$Comp
+L Device:C_Small C2
+U 1 1 604C5BBD
+P 3250 1900
+F 0 "C2" H 3350 1950 50  0000 L CNN
+F 1 "47uF" H 3350 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3288 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 3250 1900 50  0001 C CNN
+F 4 "CL31A476MPHNNNE" H 3250 1900 50  0001 C CNN "PN"
+F 5 "C96123" H 3250 1900 50  0001 C CNN "LCSC"
+	1    3250 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 1800
+Wire Wire Line
+	3250 1800 3650 1800
+Connection ~ 3250 2000
+Wire Wire Line
+	3250 2000 3650 2000
+$Comp
+L Device:C_Small C3
+U 1 1 604C60F0
+P 3650 1900
+F 0 "C3" H 3750 1950 50  0000 L CNN
+F 1 "47uF" H 3750 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3688 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 3650 1900 50  0001 C CNN
+F 4 "CL31A476MPHNNNE" H 3650 1900 50  0001 C CNN "PN"
+F 5 "C96123" H 3650 1900 50  0001 C CNN "LCSC"
+	1    3650 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 1800
+Wire Wire Line
+	3650 1800 3850 1800
+Connection ~ 3650 2000
+Wire Wire Line
+	3650 2000 3850 2000
+$Comp
+L Device:C_Small C4
+U 1 1 604C63F9
+P 4050 1900
+F 0 "C4" H 4150 1950 50  0000 L CNN
+F 1 "47uF" H 4150 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4088 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf" H 4050 1900 50  0001 C CNN
+F 4 "CL31A476MPHNNNE" H 4050 1900 50  0001 C CNN "PN"
+F 5 "C96123" H 4050 1900 50  0001 C CNN "LCSC"
+	1    4050 1900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	650  1050 650  2350
+Wire Notes Line
+	650  2350 2600 2350
+Wire Notes Line
+	2600 2350 2600 1050
+Wire Notes Line
+	2600 1050 650  1050
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 60478F6B
+P 2050 1700
+F 0 "J1" H 2050 2150 50  0000 C CNN
+F 1 "Conn_01x06" H 2050 2050 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical" H 2050 1700 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022292061_sd.pdf" H 2050 1700 50  0001 C CNN
+F 4 "22292061" H 2050 1700 50  0001 C CNN "PN"
+	1    2050 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 1100 6100 0    98   ~ 0
+MODE SW BL LED
+Wire Wire Line
+	2500 6800 2500 6950
+Connection ~ 2500 6800
+Wire Wire Line
+	2600 6800 2500 6800
+$Comp
+L power:GND #PWR050
+U 1 1 60443FC5
+P 2600 6800
+F 0 "#PWR050" H 2600 6550 50  0001 C CNN
+F 1 "GND" V 2600 6600 50  0000 C CNN
+F 2 "" H 2600 6800 50  0001 C CNN
+F 3 "" H 2600 6800 50  0001 C CNN
+	1    2600 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 6800 1000 6600
+Connection ~ 1000 6800
+$Comp
+L power:VCC #PWR049
+U 1 1 6043D967
+P 900 6800
+F 0 "#PWR049" H 900 6650 50  0001 C CNN
+F 1 "VCC" V 915 6927 50  0000 L CNN
+F 2 "" H 900 6800 50  0001 C CNN
+F 3 "" H 900 6800 50  0001 C CNN
+	1    900  6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 6800 900  6800
+Wire Wire Line
+	1000 6950 1000 6800
+Connection ~ 1000 6950
+Wire Wire Line
+	1000 6600 1000 6250
+Connection ~ 1000 6600
+Wire Wire Line
+	1000 7300 1000 6950
+Wire Wire Line
+	2500 6950 2500 7300
+Connection ~ 2500 6950
+Wire Wire Line
+	2500 6600 2500 6800
+Connection ~ 2500 6600
+Wire Wire Line
+	2500 6250 2500 6600
+Text Notes 4750 6300 0    98   ~ 0
+CONT BL LED
+Text Notes 3200 6750 0    98   ~ 0
+BRT BL LED
+$Comp
+L Device:R R15
+U 1 1 6041EDA2
+P 1750 7300
+F 0 "R15" V 1650 7300 50  0000 C CNN
+F 1 "270" V 1750 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1680 7300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 1750 7300 50  0001 C CNN
+F 4 "C25099" V 1750 7300 50  0001 C CNN "LCSC"
+	1    1750 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D14
+U 1 1 6041ED8B
+P 1450 7300
+F 0 "D14" V 1397 7378 50  0000 L CNN
+F 1 "LED" V 1488 7378 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1450 7300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1450 7300 50  0001 C CNN
+F 4 "C130723" V 1450 7300 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1450 7300 50  0001 C CNN "PN"
+	1    1450 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D13
+U 1 1 6041ED83
+P 1150 7300
+F 0 "D13" V 1097 7378 50  0000 L CNN
+F 1 "LED" V 1188 7378 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1150 7300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1150 7300 50  0001 C CNN
+F 4 "C130723" V 1150 7300 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1150 7300 50  0001 C CNN "PN"
+	1    1150 7300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 6041ADB1
+P 2350 6950
+F 0 "R14" V 2250 6950 50  0000 C CNN
+F 1 "33" V 2350 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf" H 2350 6950 50  0001 C CNN
+F 4 "C25105" V 2350 6950 50  0001 C CNN "LCSC"
+	1    2350 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D12
+U 1 1 6041ADAA
+P 2050 6950
+F 0 "D12" V 1997 7028 50  0000 L CNN
+F 1 "LED" V 2088 7028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 2050 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 2050 6950 50  0001 C CNN
+F 4 "C130723" V 2050 6950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 2050 6950 50  0001 C CNN "PN"
+	1    2050 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 6041ADA2
+P 1750 6950
+F 0 "D11" V 1697 7028 50  0000 L CNN
+F 1 "LED" V 1788 7028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1750 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1750 6950 50  0001 C CNN
+F 4 "C130723" V 1750 6950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1750 6950 50  0001 C CNN "PN"
+	1    1750 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 6041AD9A
+P 1450 6950
+F 0 "D10" V 1397 7028 50  0000 L CNN
+F 1 "LED" V 1488 7028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1450 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1450 6950 50  0001 C CNN
+F 4 "C130723" V 1450 6950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1450 6950 50  0001 C CNN "PN"
+	1    1450 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 6041AD92
+P 1150 6950
+F 0 "D9" V 1097 7028 50  0000 L CNN
+F 1 "LED" V 1188 7028 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1150 6950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1150 6950 50  0001 C CNN
+F 4 "C130723" V 1150 6950 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1150 6950 50  0001 C CNN "PN"
+	1    1150 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 604172BC
+P 2350 6600
+F 0 "R13" V 2250 6600 50  0000 C CNN
+F 1 "33" V 2350 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf" H 2350 6600 50  0001 C CNN
+F 4 "C25105" V 2350 6600 50  0001 C CNN "LCSC"
+	1    2350 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D8
+U 1 1 604172B5
+P 2050 6600
+F 0 "D8" V 1997 6678 50  0000 L CNN
+F 1 "LED" V 2088 6678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 2050 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 2050 6600 50  0001 C CNN
+F 4 "C130723" V 2050 6600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 2050 6600 50  0001 C CNN "PN"
+	1    2050 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D7
+U 1 1 604172AD
+P 1750 6600
+F 0 "D7" V 1697 6678 50  0000 L CNN
+F 1 "LED" V 1788 6678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1750 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1750 6600 50  0001 C CNN
+F 4 "C130723" V 1750 6600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1750 6600 50  0001 C CNN "PN"
+	1    1750 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 604172A5
+P 1450 6600
+F 0 "D6" V 1397 6678 50  0000 L CNN
+F 1 "LED" V 1488 6678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1450 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1450 6600 50  0001 C CNN
+F 4 "C130723" V 1450 6600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1450 6600 50  0001 C CNN "PN"
+	1    1450 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 6041729D
+P 1150 6600
+F 0 "D5" V 1097 6678 50  0000 L CNN
+F 1 "LED" V 1188 6678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1150 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1150 6600 50  0001 C CNN
+F 4 "C130723" V 1150 6600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1150 6600 50  0001 C CNN "PN"
+	1    1150 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 6041164A
+P 2350 6250
+F 0 "R12" V 2250 6250 50  0000 C CNN
+F 1 "33" V 2350 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2001TCE_C4109.pdf" H 2350 6250 50  0001 C CNN
+F 4 "C25105" V 2350 6250 50  0001 C CNN "LCSC"
+	1    2350 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 60411643
+P 2050 6250
+F 0 "D4" V 1997 6328 50  0000 L CNN
+F 1 "LED" V 2088 6328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 2050 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 2050 6250 50  0001 C CNN
+F 4 "C130723" V 2050 6250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 2050 6250 50  0001 C CNN "PN"
+	1    2050 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 6041163B
+P 1750 6250
+F 0 "D3" V 1697 6328 50  0000 L CNN
+F 1 "LED" V 1788 6328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1750 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1750 6250 50  0001 C CNN
+F 4 "C130723" V 1750 6250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1750 6250 50  0001 C CNN "PN"
+	1    1750 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60411633
+P 1450 6250
+F 0 "D2" V 1397 6328 50  0000 L CNN
+F 1 "LED" V 1488 6328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1450 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1450 6250 50  0001 C CNN
+F 4 "C130723" V 1450 6250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1450 6250 50  0001 C CNN "PN"
+	1    1450 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6041162B
+P 1150 6250
+F 0 "D1" V 1097 6328 50  0000 L CNN
+F 1 "LED" V 1188 6328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1150 6250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 1150 6250 50  0001 C CNN
+F 4 "C130723" V 1150 6250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 1150 6250 50  0001 C CNN "PN"
+	1    1150 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR053
+U 1 1 6040DFF0
+P 4550 6800
+F 0 "#PWR053" H 4550 6650 50  0001 C CNN
+F 1 "VCC" V 4565 6927 50  0000 L CNN
+F 2 "" H 4550 6800 50  0001 C CNN
+F 3 "" H 4550 6800 50  0001 C CNN
+	1    4550 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 6800 4550 6800
+Wire Wire Line
+	5950 6800 5850 6800
+$Comp
+L power:GND #PWR054
+U 1 1 6040DFE8
+P 5950 6800
+F 0 "#PWR054" H 5950 6550 50  0001 C CNN
+F 1 "GND" V 5950 6600 50  0000 C CNN
+F 2 "" H 5950 6800 50  0001 C CNN
+F 3 "" H 5950 6800 50  0001 C CNN
+	1    5950 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 6800 5850 7150
+Connection ~ 5850 6800
+Wire Wire Line
+	5850 7150 5550 7150
+Wire Wire Line
+	5850 6450 5850 6800
+Wire Wire Line
+	4650 6800 4650 7150
+Connection ~ 4650 6800
+Wire Wire Line
+	4650 6450 4650 6800
+$Comp
+L Device:R R21
+U 1 1 6040DFDB
+P 5400 7150
+F 0 "R21" V 5300 7150 50  0000 C CNN
+F 1 "270" V 5400 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5330 7150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 5400 7150 50  0001 C CNN
+F 4 "C25099" V 5400 7150 50  0001 C CNN "LCSC"
+	1    5400 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D32
+U 1 1 6040DFD4
+P 5100 7150
+F 0 "D32" V 5047 7228 50  0000 L CNN
+F 1 "LED" V 5138 7228 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5100 7150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5100 7150 50  0001 C CNN
+F 4 "C130723" V 5100 7150 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5100 7150 50  0001 C CNN "PN"
+	1    5100 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D31
+U 1 1 6040DFCC
+P 4800 7150
+F 0 "D31" V 4747 7228 50  0000 L CNN
+F 1 "LED" V 4838 7228 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 4800 7150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 4800 7150 50  0001 C CNN
+F 4 "C130723" V 4800 7150 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 4800 7150 50  0001 C CNN "PN"
+	1    4800 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 6040DFC4
+P 5700 6800
+F 0 "R20" V 5600 6800 50  0000 C CNN
+F 1 "150" V 5700 6800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5630 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 5700 6800 50  0001 C CNN
+F 4 "C25082" V 5700 6800 50  0001 C CNN "LCSC"
+	1    5700 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D30
+U 1 1 6040DFBD
+P 5400 6800
+F 0 "D30" V 5347 6878 50  0000 L CNN
+F 1 "LED" V 5438 6878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5400 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5400 6800 50  0001 C CNN
+F 4 "C130723" V 5400 6800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5400 6800 50  0001 C CNN "PN"
+	1    5400 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D29
+U 1 1 6040DFB5
+P 5100 6800
+F 0 "D29" V 5047 6878 50  0000 L CNN
+F 1 "LED" V 5138 6878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5100 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5100 6800 50  0001 C CNN
+F 4 "C130723" V 5100 6800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5100 6800 50  0001 C CNN "PN"
+	1    5100 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D28
+U 1 1 6040DFAD
+P 4800 6800
+F 0 "D28" V 4747 6878 50  0000 L CNN
+F 1 "LED" V 4838 6878 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 4800 6800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 4800 6800 50  0001 C CNN
+F 4 "C130723" V 4800 6800 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 4800 6800 50  0001 C CNN "PN"
+	1    4800 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 6040DFA5
+P 5700 6450
+F 0 "R19" V 5600 6450 50  0000 C CNN
+F 1 "150" V 5700 6450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5630 6450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 5700 6450 50  0001 C CNN
+F 4 "C25082" V 5700 6450 50  0001 C CNN "LCSC"
+	1    5700 6450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D27
+U 1 1 6040DF9E
+P 5400 6450
+F 0 "D27" V 5347 6528 50  0000 L CNN
+F 1 "LED" V 5438 6528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5400 6450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5400 6450 50  0001 C CNN
+F 4 "C130723" V 5400 6450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5400 6450 50  0001 C CNN "PN"
+	1    5400 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D26
+U 1 1 6040DF96
+P 5100 6450
+F 0 "D26" V 5047 6528 50  0000 L CNN
+F 1 "LED" V 5138 6528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 5100 6450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 5100 6450 50  0001 C CNN
+F 4 "C130723" V 5100 6450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 5100 6450 50  0001 C CNN "PN"
+	1    5100 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D25
+U 1 1 6040DF8E
+P 4800 6450
+F 0 "D25" V 4747 6528 50  0000 L CNN
+F 1 "LED" V 4838 6528 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 4800 6450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 4800 6450 50  0001 C CNN
+F 4 "C130723" V 4800 6450 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 4800 6450 50  0001 C CNN "PN"
+	1    4800 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR051
+U 1 1 60407CC5
+P 2950 7250
+F 0 "#PWR051" H 2950 7100 50  0001 C CNN
+F 1 "VCC" V 2965 7377 50  0000 L CNN
+F 2 "" H 2950 7250 50  0001 C CNN
+F 3 "" H 2950 7250 50  0001 C CNN
+	1    2950 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 7250 2950 7250
+Wire Wire Line
+	4350 7250 4250 7250
+$Comp
+L power:GND #PWR052
+U 1 1 603FED4D
+P 4350 7250
+F 0 "#PWR052" H 4350 7000 50  0001 C CNN
+F 1 "GND" V 4350 7050 50  0000 C CNN
+F 2 "" H 4350 7250 50  0001 C CNN
+F 3 "" H 4350 7250 50  0001 C CNN
+	1    4350 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 7250 4250 7600
+Connection ~ 4250 7250
+Wire Wire Line
+	4250 7600 3950 7600
+Wire Wire Line
+	4250 6900 4250 7250
+Wire Wire Line
+	3050 7250 3050 7600
+Connection ~ 3050 7250
+Wire Wire Line
+	3050 6900 3050 7250
+$Comp
+L Device:R R18
+U 1 1 603F56A7
+P 3800 7600
+F 0 "R18" V 3700 7600 50  0000 C CNN
+F 1 "270" V 3800 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3730 7600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF2700TCE_C25099.pdf" H 3800 7600 50  0001 C CNN
+F 4 "C25099" V 3800 7600 50  0001 C CNN "LCSC"
+	1    3800 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D24
+U 1 1 603F56A0
+P 3500 7600
+F 0 "D24" V 3447 7678 50  0000 L CNN
+F 1 "LED" V 3538 7678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3500 7600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3500 7600 50  0001 C CNN
+F 4 "C130723" V 3500 7600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3500 7600 50  0001 C CNN "PN"
+	1    3500 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D23
+U 1 1 603F5698
+P 3200 7600
+F 0 "D23" V 3147 7678 50  0000 L CNN
+F 1 "LED" V 3238 7678 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3200 7600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3200 7600 50  0001 C CNN
+F 4 "C130723" V 3200 7600 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3200 7600 50  0001 C CNN "PN"
+	1    3200 7600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 603F259F
+P 4100 7250
+F 0 "R17" V 4000 7250 50  0000 C CNN
+F 1 "150" V 4100 7250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4030 7250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 4100 7250 50  0001 C CNN
+F 4 "C25082" V 4100 7250 50  0001 C CNN "LCSC"
+	1    4100 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 603F2598
+P 3800 7250
+F 0 "D22" V 3747 7328 50  0000 L CNN
+F 1 "LED" V 3838 7328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3800 7250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3800 7250 50  0001 C CNN
+F 4 "C130723" V 3800 7250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3800 7250 50  0001 C CNN "PN"
+	1    3800 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D21
+U 1 1 603F2590
+P 3500 7250
+F 0 "D21" V 3447 7328 50  0000 L CNN
+F 1 "LED" V 3538 7328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3500 7250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3500 7250 50  0001 C CNN
+F 4 "C130723" V 3500 7250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3500 7250 50  0001 C CNN "PN"
+	1    3500 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D20
+U 1 1 603F2588
+P 3200 7250
+F 0 "D20" V 3147 7328 50  0000 L CNN
+F 1 "LED" V 3238 7328 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3200 7250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3200 7250 50  0001 C CNN
+F 4 "C130723" V 3200 7250 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3200 7250 50  0001 C CNN "PN"
+	1    3200 7250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 603EEB8B
+P 4100 6900
+F 0 "R16" V 4000 6900 50  0000 C CNN
+F 1 "150" V 4100 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4030 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1500TCE_C25082.pdf" H 4100 6900 50  0001 C CNN
+F 4 "C25082" V 4100 6900 50  0001 C CNN "LCSC"
+	1    4100 6900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D19
+U 1 1 603EEB84
+P 3800 6900
+F 0 "D19" V 3747 6978 50  0000 L CNN
+F 1 "LED" V 3838 6978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3800 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3800 6900 50  0001 C CNN
+F 4 "C130723" V 3800 6900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3800 6900 50  0001 C CNN "PN"
+	1    3800 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D18
+U 1 1 603EEB7C
+P 3500 6900
+F 0 "D18" V 3447 6978 50  0000 L CNN
+F 1 "LED" V 3538 6978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3500 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3500 6900 50  0001 C CNN
+F 4 "C130723" V 3500 6900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3500 6900 50  0001 C CNN "PN"
+	1    3500 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 603EEB74
+P 3200 6900
+F 0 "D17" V 3147 6978 50  0000 L CNN
+F 1 "LED" V 3238 6978 50  0000 L CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3200 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-F1005UGK-520M5_C130723.pdf" H 3200 6900 50  0001 C CNN
+F 4 "C130723" V 3200 6900 50  0001 C CNN "LCSC"
+F 5 "FC-F1005UGK-520M5" V 3200 6900 50  0001 C CNN "PN"
+	1    3200 6900
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	5300 5750 9900 5750
+Wire Notes Line
+	550  5750 5200 5750
+Wire Notes Line
+	5200 5750 5200 4150
+Wire Notes Line
+	5300 5750 5300 4150
+Wire Notes Line
+	550  5750 550  4150
+$Comp
+L power:+5V #PWR0101
+U 1 1 605CEC27
+P 5850 1700
+F 0 "#PWR0101" H 5850 1550 50  0001 C CNN
+F 1 "+5V" V 5850 1900 50  0000 C CNN
+F 2 "" H 5850 1700 50  0001 C CNN
+F 3 "" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 605CF1D8
+P 5850 1850
+F 0 "#PWR0102" H 5850 1700 50  0001 C CNN
+F 1 "VCC" V 5850 2000 50  0000 L CNN
+F 2 "" H 5850 1850 50  0001 C CNN
+F 3 "" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 605CFD46
+P 5850 2000
+F 0 "#PWR0103" H 5850 1750 50  0001 C CNN
+F 1 "GND" V 5850 1800 50  0000 C CNN
+F 2 "" H 5850 2000 50  0001 C CNN
+F 3 "" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 605D11AE
+P 5850 1700
+F 0 "#FLG0101" H 5850 1775 50  0001 C CNN
+F 1 "PWR_FLAG" V 5850 1828 50  0000 L CNN
+F 2 "" H 5850 1700 50  0001 C CNN
+F 3 "~" H 5850 1700 50  0001 C CNN
+	1    5850 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 605D2570
+P 5850 1850
+F 0 "#FLG0102" H 5850 1925 50  0001 C CNN
+F 1 "PWR_FLAG" V 5850 1978 50  0000 L CNN
+F 2 "" H 5850 1850 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 605D273A
+P 5850 2000
+F 0 "#FLG0103" H 5850 2075 50  0001 C CNN
+F 1 "PWR_FLAG" V 5850 2128 50  0000 L CNN
+F 2 "" H 5850 2000 50  0001 C CNN
+F 3 "~" H 5850 2000 50  0001 C CNN
+	1    5850 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 7300 2500 7300
+$EndSCHEMATC
