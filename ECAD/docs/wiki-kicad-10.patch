@@ -22,11 +22,11 @@ diff --git a/Contributing.md b/Contributing.md
 -- Use the project-supported KiCad version identified by the repository.
 -- Configure and use the OpenHornet KiCad libraries.
 +- Use KiCad 10, the project-supported major version.
-+- Configure and use the OpenHornet KiCad libraries. Map `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` to their respective `${KICAD_USER_OH_SYMBOLS}/<nickname>.kicad_symdir` folders, preserving all nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed libraries. See the [setup and migration guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md).
++- Configure and use the OpenHornet KiCad libraries. Map `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` to their respective `${KICAD_USER_OH_SYMBOLS}/<nickname>.kicad_symdir` folders, using the canonical nicknames (including underscores). `ABSIS` and `Arduino Pro Mini 5v` remain packed libraries. See the [setup and migration guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md).
  - Update shared libraries only when required and include all affected references in the same contribution.
  - Confirm the issue requirements and affected PCBs, libraries, interconnect sheets, and outputs before beginning work.
 
-@@ -284,7 +284,7 @@
+@@ -284,10 +284,34 @@
 
  ### ECAD
 
@@ -35,6 +35,33 @@ diff --git a/Contributing.md b/Contributing.md
  - [OpenHornet KiCad configuration and library instructions](https://github.com/jrsteensen/OpenHornet/tree/master/ECAD#installation-of-kicad-and-openhornet-libraries-optional)
 
  Before changing a PCB or schematic, review the applicable OpenHornet ECAD requirements and confirm that the local KiCad libraries resolve to the same repository checkout and revision being edited.
+
++
++#### KiCad 10 symbol library setup
++
++After pulling the library migration, set `KICAD_USER_OH_SYMBOLS` in **Preferences → Configure Paths** to the absolute path of `ECAD/lib/OH_Symbols` in your checkout, for example `C:\GitHub\OpenHornet\ECAD\lib\OH_Symbols` on Windows. Keep all OpenHornet path variables pointed at the same checkout and revision.
++
++In **Preferences → Manage Symbol Libraries**, add or edit these rows using library format **KiCad**:
++
++| Nickname | Library Path |
++| --- | --- |
++| `OH_Symbols` | `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir` |
++| `KiCadCustomLib` | `${KICAD_USER_OH_SYMBOLS}/KiCadCustomLib.kicad_symdir` |
++| `OH_Interconnect` | `${KICAD_USER_OH_SYMBOLS}/OH_Interconnect.kicad_symdir` |
++| `OpenHornet` | `${KICAD_USER_OH_SYMBOLS}/OpenHornet.kicad_symdir` |
++| `ABSIS` | `${KICAD_USER_OH_SYMBOLS}/ABSIS.kicad_sym` |
++| `Arduino Pro Mini 5v` | `${KICAD_USER_OH_SYMBOLS}/Arduino Pro Mini 5v.kicad_sym` |
++
++Register each `.kicad_symdir` folder as one library. The four converted packed originals have been removed; `ABSIS` and `Arduino Pro Mini 5v` remain packed. Contributors pulling this migration only need to update the mappings, not run the conversion again. Footprint, 3D-model and template mappings are unchanged.
++
++Use the exact underscore nicknames `OH_Symbols` and `OH_Interconnect`. Check **Project Specific Libraries** for entries that override the global mappings. If a schematic contains a spaced nickname, correct its library reference through native KiCad symbol remapping; changing a library-table nickname alone does not rewrite schematic symbol IDs.
++
++If a library is not found, check the expanded absolute path in the error and confirm that the converted folder exists in that checkout. Browse the library in Symbol Editor and try placing a symbol, then undo. Test **Tools → Update Symbols from Library** on a disposable project copy; an existing schematic can display its cached symbols even when the external library is unavailable.
++
++See the [setup, Windows conversion, verification and troubleshooting guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md) and [ECAD preflight instructions](https://github.com/jrsteensen/OpenHornet/blob/master/utils/tools/ecad/README.md). Symbol consolidation into `OH_Symbols` and the associated schematic library-ID remapping will be handled in a separate PR; `OH_Interconnect` remains separate.
++
+ ## GitHub Operations and Standards
+
 diff --git a/_Sidebar.md b/_Sidebar.md
 --- a/_Sidebar.md
 +++ b/_Sidebar.md
