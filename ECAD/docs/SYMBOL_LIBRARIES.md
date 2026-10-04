@@ -89,14 +89,6 @@ See the official [KiCad 10 unpacked-library documentation](https://docs.kicad.or
 
 This migration changes storage format and library paths while preserving library nicknames and symbol IDs. A separate PR will move symbols actually used by the project from `KiCadCustomLib`, `OpenHornet`, `ABSIS` and `Arduino Pro Mini 5v` into `OH_Symbols`. That PR must also update every affected schematic symbol's library ID to `OH_Symbols:<name>`, resolving name collisions and derived-symbol dependencies while preserving connectivity, pin definitions and instance fields. `OH_Interconnect` remains a separate library.
 
-## Synchronize the GitHub wiki after merge
+## GitHub wiki
 
-GitHub stores the wiki in a separate Git repository. The accompanying [wiki patch](wiki-kicad-10.patch) keeps its proposed updates reviewable with this migration. After this PR is merged, a maintainer can apply it from a current `OpenHornet.wiki` checkout:
-
-```bash
-git apply --check /path/to/OpenHornet/ECAD/docs/wiki-kicad-10.patch
-git apply /path/to/OpenHornet/ECAD/docs/wiki-kicad-10.patch
-git diff
-```
-
-Review, commit and push the wiki changes separately. The patch updates the contributing instructions, links the library guide from the sidebar and replaces the obsolete manufacturing page's software requirement with KiCad 10.
+The [contributing instructions](https://github.com/jrsteensen/OpenHornet/wiki/Contributing#kicad-10-symbol-library-setup), wiki sidebar and [historical manufacturing page](https://github.com/jrsteensen/OpenHornet/wiki/Generating-ECAD-Manufacturing-Files-(OBSOLETE)) have been updated for this migration. GitHub stores the wiki in a separate Git repository; keep its setup guidance and links aligned with this guide when changing the shared libraries.
