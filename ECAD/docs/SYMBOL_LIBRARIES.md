@@ -6,18 +6,40 @@ Use **KiCad 10** for OpenHornet ECAD work. `OH_Symbols`, `KiCadCustomLib`, `OH_I
 
 ### Windows path setup script
 
-Windows users can install or update **all four** OpenHornet path variables with [`Set-OpenHornetKiCadPaths.ps1`](../../utils/tools/ecad/Set-OpenHornetKiCadPaths.ps1): symbols, footprints, 3D models and drawing templates. Launch KiCad 10 once and finish its initial setup, then close all KiCad applications. Open PowerShell in your complete OpenHornet checkout and run:
+Windows users can configure all shared OpenHornet paths and libraries with [`Set-OpenHornetKiCadPaths.ps1`](../../utils/tools/ecad/Set-OpenHornetKiCadPaths.ps1). The setup includes:
+
+- All four path variables: symbols, footprints, 3D models and drawing templates.
+- All six global symbol libraries: `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect`, `OpenHornet`, `ABSIS` and `Arduino Pro Mini 5v`.
+- The global `OH_Footprints` footprint library.
+- Repairs to existing entries with those exact nicknames in project library tables under `ECAD`, including old packed-library paths. Other entries are preserved.
+
+Install **KiCad 10** and pull a complete OpenHornet checkout. Launch KiCad once, finish its initial setup and initialize the built-in symbol and footprint libraries, then close all KiCad applications. Double-click [`utils\tools\ecad\Setup-OpenHornetKiCad.bat`](../../utils/tools/ecad/Setup-OpenHornetKiCad.bat) in your checkout. It runs the setup and leaves its results visible. Reopen KiCad when setup reports success; no manual OpenHornet library registration is required.
+
+Alternatively, open PowerShell in your checkout and run:
 
 ```powershell
+# Optional preview: changes are listed without writing files.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1 -WhatIf
+
+# Apply the complete OpenHornet setup.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1
 ```
 
-The first command previews the changes. The second saves them in KiCad 10's `kicad_common.json` and prints the backup filename. The execution-policy option applies only to that PowerShell process. No administrator rights are needed. The script detects the checkout from its own location, validates the shared library directories, preserves other preferences and does nothing when all four variables already match. `KICAD_USER_OH_FOOTPRINTS` points to `ECAD/lib`, so the footprint library path can append `OH_Footprints.pretty`.
+The execution-policy option applies only to that PowerShell process. No administrator rights, Codex or Konnect are needed. The script detects the checkout from its own location, validates the shared library directories and preserves unrelated preferences and library rows. It enables the shared entries, sets their format to **KiCad** and clears stale plugin options. Repeating it makes no changes when all paths and mappings already match. `KICAD_USER_OH_FOOTPRINTS` points to `ECAD/lib`, so the footprint library path can append `OH_Footprints.pretty`.
 
-The default configuration directory is `%APPDATA%\kicad\10.0`; `KICAD_CONFIG_HOME`, if set, supplies the base directory with `10.0` appended. For a custom configuration or another checkout, use `-ConfigDirectory "D:\KiCadSettings\10.0"` or `-Checkout "D:\Git\OpenHornet"`. If Windows or a launcher defines an OpenHornet variable pointing elsewhere, the script stops because that external value would override KiCad's preference. Correct or remove that override, reopen PowerShell and retry.
+The default configuration directory is `%APPDATA%\kicad\10.0`; `KICAD_CONFIG_HOME`, if set, supplies the base directory with `10.0` appended. For a custom configuration or another checkout, use `-ConfigDirectory "D:\KiCadSettings\10.0"` or `-Checkout "D:\Git\OpenHornet"`. If Windows or a launcher defines an OpenHornet variable pointing elsewhere, the script stops because that external value would override KiCad's preference. Correct or remove that override, reopen PowerShell and retry. Missing initialized global library tables, malformed settings or tables, duplicate nicknames and unsupported table versions also stop setup before settings are changed.
 
-To restore the original preferences, close KiCad and copy the printed `.bak` file over `kicad_common.json`. After setup, reopen KiCad and check **Preferences → Configure Paths**, then register or update the symbol and footprint libraries below. Setting path variables does not register libraries or change schematic symbol IDs.
+Every changed file is backed up byte for byte in the printed `openhornet-backup-...` directory under the KiCad configuration folder. Its `restore-manifest.json` lists each backup and its original path, including any project library tables. If a later write fails, the script attempts to restore earlier writes and reports any recovery failures. To restore a successful setup, close KiCad and copy each backup over its corresponding original file. For example, in PowerShell, using the printed backup directory:
+
+```powershell
+$ohBackup = "C:\Users\YOUR_NAME\AppData\Roaming\kicad\10.0\openhornet-backup-TIMESTAMP-ID"
+$ohFiles = Get-Content -LiteralPath (Join-Path $ohBackup 'restore-manifest.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+foreach ($ohFile in $ohFiles) {
+    Copy-Item -LiteralPath $ohFile.Backup -Destination $ohFile.Original -Force
+}
+```
+
+Project table repairs appear in `git diff`; review those mapping changes before committing. The script configures exact existing library nicknames and does not remap schematic symbol IDs. Use the manual instructions below for other operating systems or troubleshooting, then follow the verification steps to check symbols, footprints and 3D models in KiCad.
 
 ### Manual path and library setup
 

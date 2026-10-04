@@ -1,15 +1,17 @@
 # OpenHornet ECAD utilities
 
-## Windows KiCad 10 path setup
+## Windows KiCad 10 setup
 
-`Set-OpenHornetKiCadPaths.ps1` installs or updates all four `KICAD_USER_OH_*` variables in KiCad 10 preferences: symbols, footprints, 3D models and drawing templates. It requires PowerShell 5.1 or newer, a complete checkout, initialized KiCad 10 preferences and all KiCad applications closed. From the repository root:
+After installing KiCad 10, initialize its built-in symbol and footprint libraries and close all KiCad applications. In a complete OpenHornet checkout, double-click `Setup-OpenHornetKiCad.bat`. It runs `Set-OpenHornetKiCadPaths.ps1`, shows the results and pauses before closing. Reopen KiCad after setup succeeds.
+
+The PowerShell utility configures all four `KICAD_USER_OH_*` paths (symbols, footprints, 3D models and drawing templates), registers all six shared symbol libraries and `OH_Footprints`, and repairs existing shared-library entries in project tables under `ECAD`. It requires PowerShell 5.1 or newer. For a preview or direct execution from the repository root:
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1 -WhatIf
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1
 ```
 
-The script preserves other preferences, saves a backup before replacing the settings file, supports `-Checkout` and `-ConfigDirectory`, and detects external environment overrides. Repeating it with the same paths makes no changes. See the [setup guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) for configuration discovery, restore instructions and the separate symbol/footprint registration steps. It does not require Codex or Konnect.
+The script preserves unrelated preferences and library entries. It backs up every changed file in the KiCad configuration folder with a restore manifest, checks for concurrent changes and attempts rollback if a later write fails. It supports `-Checkout` and `-ConfigDirectory`, detects external environment overrides and makes no changes when setup already matches. Project mapping repairs appear in `git diff`; review them before committing. See the [setup guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) for configuration discovery, restore instructions and verification. No administrator rights, Codex or Konnect are required.
 
 ## Astra launch utilities
 
