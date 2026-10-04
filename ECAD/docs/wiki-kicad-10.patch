@@ -1,0 +1,48 @@
+diff --git a/Generating-ECAD-Manufacturing-Files-(OBSOLETE).md b/Generating-ECAD-Manufacturing-Files-(OBSOLETE).md
+--- a/Generating-ECAD-Manufacturing-Files-(OBSOLETE).md
++++ b/Generating-ECAD-Manufacturing-Files-(OBSOLETE).md
+@@ -1,7 +1,9 @@
+ # THIS PAGE IS OBSOLETE.
+ 
++Use **KiCad 10** and the current [ECAD setup](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/README.md), [manufacturing requirements](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/requirements/MANUFACTURING.md) and [validation guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/requirements/VALIDATION.md). The historical procedure and screenshots below are retained for reference.
++
+ ## Requirements:
+-KiCAD 5.1.0 or above
++KiCad 10
+ 
+ ## Prerequisite:
+ Make sure that the PCB you intend to create manufacturing files for is finished and reviewed. Every time there are changes on the PCB, the manufacturing files have to be re-generated.
+diff --git a/Contributing.md b/Contributing.md
+--- a/Contributing.md
++++ b/Contributing.md
+@@ -257,8 +257,8 @@
+ 
+ - Complete the [OpenHornet Contributor Application](https://openhornet.com/contributor-application/).
+ - Read the applicable requirements under [`ECAD/docs/requirements`](https://github.com/jrsteensen/OpenHornet/tree/master/ECAD/docs/requirements).
+-- Use the project-supported KiCad version identified by the repository.
+-- Configure and use the OpenHornet KiCad libraries.
++- Use KiCad 10, the project-supported major version.
++- Configure and use the OpenHornet KiCad libraries. Map `OH_Symbols` to `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir`, preserving the nickname `OH_Symbols`. See the [setup and migration guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md).
+ - Update shared libraries only when required and include all affected references in the same contribution.
+ - Confirm the issue requirements and affected PCBs, libraries, interconnect sheets, and outputs before beginning work.
+ 
+@@ -284,7 +284,7 @@
+ 
+ ### ECAD
+ 
+-- [KiCad](https://www.kicad.org/download/) using the project-supported version identified in the repository
++- [KiCad 10](https://www.kicad.org/download/)
+ - [OpenHornet KiCad configuration and library instructions](https://github.com/jrsteensen/OpenHornet/tree/master/ECAD#installation-of-kicad-and-openhornet-libraries-optional)
+ 
+ Before changing a PCB or schematic, review the applicable OpenHornet ECAD requirements and confirm that the local KiCad libraries resolve to the same repository checkout and revision being edited.
+diff --git a/_Sidebar.md b/_Sidebar.md
+--- a/_Sidebar.md
++++ b/_Sidebar.md
+@@ -11,6 +11,7 @@
+ - [Release Lifecycle & Preparation](https://github.com/jrsteensen/OpenHornet/wiki/OpenHornet-Releases)
+ 
+ ### Electronics
++- [KiCad 10 Library Setup](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md)
+ - Design Reference
+     - [3D Component Library](ECAD-3D-Components-Library)
+     - [Wiring/Interconnect Spec/Practices](Wiring-Interconnect-Specification-and-Practices)

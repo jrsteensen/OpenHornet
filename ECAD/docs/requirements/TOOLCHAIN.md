@@ -40,6 +40,8 @@ The current shared library setup uses these KiCad path variables:
 
 The current shared symbol libraries are `ABSIS`, `Arduino Pro Mini 5v`, `KiCadCustomLib`, `OH_Interconnect`, `OH_Symbols` and `OpenHornet`. The shared footprint library is `OH_Footprints`, resolving to `${KICAD_USER_OH_FOOTPRINTS}/OH_Footprints.pretty`.
 
+`OH_Symbols` resolves to `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir`, an unpacked KiCad 10 library with one file per symbol. Keep the nickname `OH_Symbols` and register the directory as a single library. The other five symbol libraries remain packed `.kicad_sym` files. Check project-specific tables for entries that override the global mapping. See [symbol library setup and migration](../SYMBOL_LIBRARIES.md) for Windows commands and verification.
+
 Before an AI-assisted editing session, confirm that every variable resolves to the **same repository revision being edited**. This is especially important with Git worktrees. A board in one worktree MUST NOT silently resolve symbols, footprints, 3D models or templates from another checkout/revision.
 
 Until library paths are made reliably project-relative, the default OpenHornet AI workflow is a task branch in the canonical checkout. A separate worktree MAY be used only when the KiCad path variables are deliberately repointed to that worktree and verified before opening or editing the design.

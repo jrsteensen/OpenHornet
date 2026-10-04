@@ -31,7 +31,7 @@ The OpenHornet Project is a F/A-18C OFP 13C Lot 20 1:1 Replica Simulator, consis
 
 ## Design Software Requirements
 * Mechanical CAD Software Required: Fusion360
-* Electrical CAD Software Required: KiCAD 8
+* Electrical CAD Software Required: KiCad 10
 * Microsoft Office (or compatible)
 
 ## Contributing
