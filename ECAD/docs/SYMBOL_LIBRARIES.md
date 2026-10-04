@@ -4,6 +4,23 @@ Use **KiCad 10** for OpenHornet ECAD work. `OH_Symbols`, `KiCadCustomLib`, `OH_I
 
 ## Configure your checkout
 
+### Windows path setup script
+
+Windows users can install or update **all four** OpenHornet path variables with [`Set-OpenHornetKiCadPaths.ps1`](../../utils/tools/ecad/Set-OpenHornetKiCadPaths.ps1): symbols, footprints, 3D models and drawing templates. Launch KiCad 10 once and finish its initial setup, then close all KiCad applications. Open PowerShell in your complete OpenHornet checkout and run:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1 -WhatIf
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1
+```
+
+The first command previews the changes. The second saves them in KiCad 10's `kicad_common.json` and prints the backup filename. The execution-policy option applies only to that PowerShell process. No administrator rights are needed. The script detects the checkout from its own location, validates the shared library directories, preserves other preferences and does nothing when all four variables already match. `KICAD_USER_OH_FOOTPRINTS` points to `ECAD/lib`, so the footprint library path can append `OH_Footprints.pretty`.
+
+The default configuration directory is `%APPDATA%\kicad\10.0`; `KICAD_CONFIG_HOME`, if set, supplies the base directory with `10.0` appended. For a custom configuration or another checkout, use `-ConfigDirectory "D:\KiCadSettings\10.0"` or `-Checkout "D:\Git\OpenHornet"`. If Windows or a launcher defines an OpenHornet variable pointing elsewhere, the script stops because that external value would override KiCad's preference. Correct or remove that override, reopen PowerShell and retry.
+
+To restore the original preferences, close KiCad and copy the printed `.bak` file over `kicad_common.json`. After setup, reopen KiCad and check **Preferences → Configure Paths**, then register or update the symbol and footprint libraries below. Setting path variables does not register libraries or change schematic symbol IDs.
+
+### Manual path and library setup
+
 After pulling this migration, open **Preferences → Configure Paths** and set `KICAD_USER_OH_SYMBOLS` to the absolute path of `ECAD/lib/OH_Symbols` in your checkout. For example, `C:\GitHub\OpenHornet\ECAD\lib\OH_Symbols` on Windows. Keep all OpenHornet paths pointed at the same checkout; see the [complete setup guide](../README.md#step-one--configure-paths--create-environmental-variables).
 
 Open **Preferences → Manage Symbol Libraries** and edit the existing rows, or add any that are missing. Use library format **KiCad**:
@@ -24,6 +41,8 @@ Use the exact underscore nicknames `OH_Symbols` and `OH_Interconnect`; do not su
 If KiCad reports that a library is not found, check the expanded absolute path in the error. For example, run `Test-Path "C:\GitHub\OpenHornet\ECAD\lib\OH_Symbols\OH_Interconnect.kicad_symdir" -PathType Container` in PowerShell, using the path shown in your error. If it is false, correct the library path or the `KICAD_USER_OH_SYMBOLS` checkout location, or pull the converted files into that checkout. Browse to the actual library folder in the library manager to avoid path typos.
 
 `ABSIS` and `Arduino Pro Mini 5v` retain their existing `.kicad_sym` paths. Footprint, 3D-model and template mappings are unchanged. Packed copies of the four converted libraries, if still present during the transition, are comparison copies; make symbol edits in their unpacked libraries only. Contributors pulling the converted folders do not need to run the conversion again.
+
+In **Preferences → Manage Footprint Libraries**, register `OH_Footprints` with library format **KiCad** and path `${KICAD_USER_OH_FOOTPRINTS}/OH_Footprints.pretty`. Its model references use `KICAD_USER_OH_3DMODELS`; check a representative footprint in the 3D viewer. Drawing-sheet references use `KICAD_USER_OH_TEMPLATES`. See the complete setup guide for the four-variable table.
 
 Older checkouts without these unpacked folders require their original packed-library paths. Recheck the mappings when switching between repository revisions.
 

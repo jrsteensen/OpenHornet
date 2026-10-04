@@ -1,4 +1,17 @@
-# OpenHornet ECAD Astra launch utilities
+# OpenHornet ECAD utilities
+
+## Windows KiCad 10 path setup
+
+`Set-OpenHornetKiCadPaths.ps1` installs or updates all four `KICAD_USER_OH_*` variables in KiCad 10 preferences: symbols, footprints, 3D models and drawing templates. It requires PowerShell 5.1 or newer, a complete checkout, initialized KiCad 10 preferences and all KiCad applications closed. From the repository root:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1 -WhatIf
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-OpenHornetKiCadPaths.ps1
+```
+
+The script preserves other preferences, saves a backup before replacing the settings file, supports `-Checkout` and `-ConfigDirectory`, and detects external environment overrides. Repeating it with the same paths makes no changes. See the [setup guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) for configuration discovery, restore instructions and the separate symbol/footprint registration steps. It does not require Codex or Konnect.
+
+## Astra launch utilities
 
 These wrappers implement the operator modes defined by `ECAD/docs/requirements/TOOLCHAIN.md`.
 

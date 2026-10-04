@@ -56,6 +56,9 @@ Before we begin, it is assumed that you have:
 *  2:  Cloned the OpenHornet repository.
 
 ### STEP ONE:  Configure Paths & Create Environmental Variables
+
+**Windows shortcut:** close KiCad and use the [PowerShell path setup script](docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) to install or update all four variables below. It backs up KiCad 10 preferences and supports a preview with `-WhatIf`. Continue with Step Two to register the symbol and footprint libraries.
+
 Open up a new or previous project in KiCad.  For this example, I'll be using the MASTER ARM PANEL.  In the Top Menu: Navigate to Preferences --> Configure Paths
 
 ![image1](https://user-images.githubusercontent.com/81926396/215698270-9f4a21c0-954a-4cf2-9666-c6913cf2d084.png)
