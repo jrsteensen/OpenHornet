@@ -19,6 +19,10 @@ Open **Preferences → Manage Symbol Libraries** and edit the existing rows, or 
 
 Register each unpacked folder as one library. Do not register its individual symbol files or the containing `ECAD/lib/OH_Symbols` folder. Keep every nickname unchanged so existing IDs such as `OH_Symbols:THVD1410DR` and `KiCadCustomLib:S3_MINI` continue to resolve. Check the **Project Specific Libraries** tab too: an existing project entry with the same nickname takes precedence over the global entry and must point at the same library.
 
+Preserve existing alternate nicknames as well as the canonical names above. ABSIS Mega, for example, uses both `OH Symbols:...` and `OH_Symbols:...`. Both nicknames must resolve to `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir`; add the missing alias rather than renaming the only entry. An existing `OH Interconnect` entry can coexist with `OH_Interconnect`, both resolving to `${KICAD_USER_OH_SYMBOLS}/OH_Interconnect.kicad_symdir`. Nickname normalization and schematic-ID remapping belong in a separately reviewed change.
+
+If KiCad reports that a library is not found, check the expanded absolute path in the error. For example, run `Test-Path "C:\GitHub\OpenHornet\ECAD\lib\OH_Symbols\OH_Interconnect.kicad_symdir" -PathType Container` in PowerShell, using the path shown in your error. If it is false, correct the library path or the `KICAD_USER_OH_SYMBOLS` checkout location, or pull the converted files into that checkout. Browse to the actual library folder in the library manager to avoid path typos.
+
 `ABSIS` and `Arduino Pro Mini 5v` retain their existing `.kicad_sym` paths. Footprint, 3D-model and template mappings are unchanged. Packed copies of the four converted libraries, if still present during the transition, are comparison copies; make symbol edits in their unpacked libraries only. Contributors pulling the converted folders do not need to run the conversion again.
 
 Older checkouts without these unpacked folders require their original packed-library paths. Recheck the mappings when switching between repository revisions.

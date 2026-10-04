@@ -92,6 +92,8 @@ In **Global Libraries**, add or edit the six shared libraries below. Use library
 
 **Existing users:** change the paths for `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` from packed `.kicad_sym` files to their `.kicad_symdir` folders, keeping every nickname unchanged. Register each folder as one library, rather than adding its individual files. Check **Project Specific Libraries** for overriding entries with the same nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed files.
 
+Some schematics use alternate nicknames. For example, ABSIS Mega contains both `OH Symbols:...` and `OH_Symbols:...` references. Keep an existing `OH Symbols` entry and add `OH_Symbols` if missing, with both pointing to `OH_Symbols.kicad_symdir`. Likewise, retain any existing `OH Interconnect` entry while providing the canonical `OH_Interconnect` entry, both pointing to `OH_Interconnect.kicad_symdir`. Changing storage format does not remap schematic library IDs.
+
 See [symbol library setup, Windows conversion and verification](docs/SYMBOL_LIBRARIES.md). Contributors pulling the converted folder only need to update their library mapping. The screenshots below illustrate the dialogs; use the paths in this table for KiCad 10.
 
 ![image4](https://user-images.githubusercontent.com/81926396/229943598-6e0ad0c5-3246-46d9-a987-4752934cada0.png)
