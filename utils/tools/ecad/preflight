@@ -91,22 +91,21 @@ for path in \
   "$lib_root/OH_Symbols" \
   "$lib_root/OH_Templates" \
   "$lib_root/OH_Symbols/ABSIS.kicad_sym" \
-  "$lib_root/OH_Symbols/Arduino Pro Mini 5v.kicad_sym" \
-  "$lib_root/OH_Symbols/KiCadCustomLib.kicad_sym" \
-  "$lib_root/OH_Symbols/OH_Interconnect.kicad_sym" \
-  "$lib_root/OH_Symbols/OpenHornet.kicad_sym"; do
+  "$lib_root/OH_Symbols/Arduino Pro Mini 5v.kicad_sym"; do
   if [[ -e "$path" ]]; then
     :
   else
     fail "missing OpenHornet library target: $path"
   fi
 done
-symbol_dir="$lib_root/OH_Symbols/OH_Symbols.kicad_symdir"
-if [[ ! -d "$symbol_dir" ]]; then
-  fail "missing unpacked OpenHornet symbol library: $symbol_dir"
-elif ! compgen -G "$symbol_dir/*.kicad_sym" >/dev/null; then
-  fail "unpacked OpenHornet symbol library contains no .kicad_sym files: $symbol_dir"
-fi
+for library in OH_Symbols KiCadCustomLib OH_Interconnect OpenHornet; do
+  symbol_dir="$lib_root/OH_Symbols/$library.kicad_symdir"
+  if [[ ! -d "$symbol_dir" ]]; then
+    fail "missing unpacked OpenHornet symbol library: $symbol_dir"
+  elif ! compgen -G "$symbol_dir/*.kicad_sym" >/dev/null; then
+    fail "unpacked OpenHornet symbol library contains no .kicad_sym files: $symbol_dir"
+  fi
+done
 if (( failures == 0 )); then
   ok "OpenHornet shared library targets exist"
 fi

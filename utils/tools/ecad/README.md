@@ -11,7 +11,7 @@ These wrappers implement the operator modes defined by `ECAD/docs/requirements/T
 
 On the validated Fedora reference environment, `preflight` also verifies KiCad's `KICAD_USER_OH_*` variables resolve to the current Git checkout. This intentionally prevents a Git worktree from silently using libraries from another checkout. Other platforms must perform equivalent library-resolution verification until that check is made portable.
 
-The shared-library check requires a nonempty `OH_Symbols.kicad_symdir` directory. A retained packed `OH_Symbols.kicad_sym` file does not satisfy this check. Use KiCad 10 and follow the [symbol library mapping and verification guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md) after pulling the migration.
+The shared-library check requires nonempty `OH_Symbols.kicad_symdir`, `KiCadCustomLib.kicad_symdir`, `OH_Interconnect.kicad_symdir` and `OpenHornet.kicad_symdir` directories. Retained packed comparison copies do not satisfy these checks. `ABSIS` and `Arduino Pro Mini 5v` remain packed libraries. Use KiCad 10 and follow the [symbol library mapping and verification guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md) after pulling the migration.
 
 ## CLI usage
 

@@ -22,7 +22,7 @@ diff --git a/Contributing.md b/Contributing.md
 -- Use the project-supported KiCad version identified by the repository.
 -- Configure and use the OpenHornet KiCad libraries.
 +- Use KiCad 10, the project-supported major version.
-+- Configure and use the OpenHornet KiCad libraries. Map `OH_Symbols` to `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir`, preserving the nickname `OH_Symbols`. See the [setup and migration guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md).
++- Configure and use the OpenHornet KiCad libraries. Map `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` to their respective `${KICAD_USER_OH_SYMBOLS}/<nickname>.kicad_symdir` folders, preserving all nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed libraries. See the [setup and migration guide](https://github.com/jrsteensen/OpenHornet/blob/master/ECAD/docs/SYMBOL_LIBRARIES.md).
  - Update shared libraries only when required and include all affected references in the same contribution.
  - Confirm the issue requirements and affected PCBs, libraries, interconnect sheets, and outputs before beginning work.
 
