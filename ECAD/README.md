@@ -90,9 +90,9 @@ In **Global Libraries**, add or edit the six shared libraries below. Use library
 | `OH_Symbols` | `${KICAD_USER_OH_SYMBOLS}/OH_Symbols.kicad_symdir` |
 | `OpenHornet` | `${KICAD_USER_OH_SYMBOLS}/OpenHornet.kicad_symdir` |
 
-**Existing users:** change the paths for `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` from packed `.kicad_sym` files to their `.kicad_symdir` folders, keeping every nickname unchanged. Register each folder as one library, rather than adding its individual files. Check **Project Specific Libraries** for overriding entries with the same nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed files.
+**Existing users:** change the paths for `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` from packed `.kicad_sym` files to their `.kicad_symdir` folders, using the exact nicknames in the table. Register each folder as one library, rather than adding its individual files. Check **Project Specific Libraries** for overriding entries with the same nicknames. `ABSIS` and `Arduino Pro Mini 5v` remain packed files.
 
-Some schematics use alternate nicknames. For example, ABSIS Mega contains both `OH Symbols:...` and `OH_Symbols:...` references. Keep an existing `OH Symbols` entry and add `OH_Symbols` if missing, with both pointing to `OH_Symbols.kicad_symdir`. Likewise, retain any existing `OH Interconnect` entry while providing the canonical `OH_Interconnect` entry, both pointing to `OH_Interconnect.kicad_symdir`. Changing storage format does not remap schematic library IDs.
+Use the exact underscore nicknames `OH_Symbols` and `OH_Interconnect`, as shown in the table; do not substitute spaces. If a schematic still contains a library ID using a spaced nickname, correct its library reference through KiCad's symbol remapping tools. Changing a library-table nickname alone does not rewrite IDs embedded in schematics.
 
 See [symbol library setup, Windows conversion and verification](docs/SYMBOL_LIBRARIES.md). Contributors pulling the converted folder only need to update their library mapping. The screenshots below illustrate the dialogs; use the paths in this table for KiCad 10.
 

@@ -40,7 +40,7 @@ The current shared library setup uses these KiCad path variables:
 
 The current shared symbol libraries are `ABSIS`, `Arduino Pro Mini 5v`, `KiCadCustomLib`, `OH_Interconnect`, `OH_Symbols` and `OpenHornet`. The shared footprint library is `OH_Footprints`, resolving to `${KICAD_USER_OH_FOOTPRINTS}/OH_Footprints.pretty`.
 
-`OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` resolve to `${KICAD_USER_OH_SYMBOLS}/<nickname>.kicad_symdir`, unpacked KiCad 10 libraries with one file per symbol. Keep each existing nickname and register each directory as a single library. `ABSIS` and `Arduino Pro Mini 5v` retain their packed `.kicad_sym` files. Check project-specific tables for entries that override the global mapping. See [symbol library setup and migration](../SYMBOL_LIBRARIES.md) for Windows commands and verification.
+`OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` resolve to `${KICAD_USER_OH_SYMBOLS}/<nickname>.kicad_symdir`, unpacked KiCad 10 libraries with one file per symbol. Use the canonical nicknames `OH_Symbols`, `KiCadCustomLib`, `OH_Interconnect` and `OpenHornet` and register each directory as a single library. `ABSIS` and `Arduino Pro Mini 5v` retain their packed `.kicad_sym` files. Check project-specific tables for entries that override the global mapping. See [symbol library setup and migration](../SYMBOL_LIBRARIES.md) for Windows commands and verification.
 
 Before an AI-assisted editing session, confirm that every variable resolves to the **same repository revision being edited**. This is especially important with Git worktrees. A board in one worktree MUST NOT silently resolve symbols, footprints, 3D models or templates from another checkout/revision.
 
