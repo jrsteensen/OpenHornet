@@ -54,7 +54,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -198,10 +204,17 @@
         0.0,
         0.2032,
         0.3048,
+        0.381,
         0.4572,
         0.635,
         0.9144,
+        1.016,
+        1.27,
         1.6256,
+        1.778,
+        2.032,
+        2.286,
+        2.54,
         3.4544
       ],
       "tuning_pattern_settings": {
@@ -230,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -533,7 +551,7 @@
       "step": "MCAD/CONTROLLER_Radar Altimeter.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${KICAD_USER_OH_TEMPLATES}/Open_hornet_frame.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -669,7 +687,7 @@
         "uuid": "0415bfeb-8d78-4213-909b-3ce5c42ef472"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R9-10,J5-7,JP2,FID1-4,D2,D4",
     "variants": []
   },
   "sheets": [
