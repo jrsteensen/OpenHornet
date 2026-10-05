@@ -123,30 +123,75 @@ foreach ($name in $paths.Keys) {
 }
 
 $originalBytes = [IO.File]::ReadAllBytes($configFile)
-$config = Get-Content -LiteralPath $configFile -Raw -Encoding UTF8 | ConvertFrom-Json
-if ($config -isnot [System.Management.Automation.PSCustomObject]) {
-    throw 'KiCad preferences must contain a JSON object.'
+
+# JSON member names are case-sensitive. KiCad can store both "a" and "A"
+# (for example, shortcut keys), which ConvertFrom-Json's PSCustomObject rejects.
+# The built-in .NET JSON reader/writer preserves those names and JSON types on
+# Windows PowerShell 5.1 as well as PowerShell 7, without another installation.
+Add-Type -AssemblyName System.Runtime.Serialization
+function Read-PreferencesJson {
+    param([string]$Json)
+    $reader = [Runtime.Serialization.Json.JsonReaderWriterFactory]::CreateJsonReader(
+        [Text.Encoding]::UTF8.GetBytes($Json), [Xml.XmlDictionaryReaderQuotas]::Max)
+    try {
+        $document = [Xml.XmlDocument]::new()
+        $document.PreserveWhitespace = $true
+        $document.Load($reader)
+        if ($null -eq $document.DocumentElement -or
+            $document.DocumentElement.GetAttribute('type') -cne 'object') {
+            throw 'KiCad preferences must contain a JSON object.'
+        }
+        return ,$document
+    } finally { $reader.Close() }
+}
+function Write-PreferencesJson {
+    param([Xml.XmlDocument]$Document)
+    $stream = [IO.MemoryStream]::new()
+    $writer = [Runtime.Serialization.Json.JsonReaderWriterFactory]::CreateJsonWriter(
+        $stream, [Text.UTF8Encoding]::new($false), $false, $true, '  ')
+    try {
+        $Document.WriteTo($writer)
+        $writer.Flush()
+        return [Text.Encoding]::UTF8.GetString($stream.ToArray())
+    } finally {
+        $writer.Close()
+        $stream.Dispose()
+    }
 }
 function Get-OrAddObjectProperty {
-    param([object]$Parent, [string]$Name)
-    $property = $Parent.PSObject.Properties[$Name]
-    if ($null -eq $property) {
-        $Parent | Add-Member -MemberType NoteProperty -Name $Name -Value ([pscustomobject]@{})
-    } elseif ($property.Value -isnot [System.Management.Automation.PSCustomObject]) {
+    param([Xml.XmlElement]$Parent, [string]$Name)
+    $properties = $Parent.SelectNodes("./$Name")
+    if ($properties.Count -eq 0) {
+        $property = $Parent.OwnerDocument.CreateElement($Name)
+        $property.SetAttribute('type', 'object')
+        $null = $Parent.AppendChild($property)
+    } elseif ($properties.Count -ne 1 -or $properties[0].GetAttribute('type') -cne 'object') {
         throw "KiCad preferences property '$Name' must contain a JSON object."
+    } else {
+        $property = $properties[0]
     }
-    return $Parent.PSObject.Properties[$Name].Value
+    return ,$property
 }
-$environmentSettings = Get-OrAddObjectProperty $config 'environment'
+$config = Read-PreferencesJson ([IO.File]::ReadAllText($configFile, [Text.Encoding]::UTF8))
+$environmentSettings = Get-OrAddObjectProperty $config.DocumentElement 'environment'
 $variables = Get-OrAddObjectProperty $environmentSettings 'vars'
 $pathsChanged = $false
 foreach ($name in $paths.Keys) {
-    $property = $variables.PSObject.Properties[$name]
-    $previous = if ($null -eq $property) { '(not configured)' } else { $property.Value }
+    $properties = $variables.SelectNodes("./$name")
+    if ($properties.Count -gt 1) { throw "Duplicate OpenHornet path variable: $name" }
+    $property = if ($properties.Count -eq 0) { $null } else { $properties[0] }
+    $previous = if ($null -eq $property) { '(not configured)' } else { $property.InnerText }
     Write-Host "$name`n  Current: $previous`n  Target:  $($paths[$name])"
-    if ($null -eq $property -or $property.Value -cne $paths[$name]) {
+    if ($null -eq $property -or $property.GetAttribute('type') -cne 'string' -or
+        $property.InnerText -cne $paths[$name]) {
         $pathsChanged = $true
-        $variables | Add-Member -MemberType NoteProperty -Name $name -Value $paths[$name] -Force
+        if ($null -eq $property) {
+            $property = $config.CreateElement($name)
+            $null = $variables.AppendChild($property)
+        }
+        $property.RemoveAll()
+        $property.SetAttribute('type', 'string')
+        $property.InnerText = $paths[$name]
     }
 }
 
@@ -327,8 +372,8 @@ function Add-FilePlan {
     })
 }
 if ($pathsChanged) {
-    $json = $config | ConvertTo-Json -Depth 100 -WarningAction Stop
-    $null = $json | ConvertFrom-Json
+    $json = Write-PreferencesJson $config
+    $null = Read-PreferencesJson $json
     Add-FilePlan $configFile $originalBytes ($json + [Environment]::NewLine)
 }
 # Initializing the built-in libraries in native KiCad preserves the complete
