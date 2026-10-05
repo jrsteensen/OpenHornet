@@ -13,6 +13,16 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\utils\tools\ecad\Set-O
 
 The script preserves unrelated preferences and library entries. It backs up every changed file in the KiCad configuration folder with a restore manifest, checks for concurrent changes and attempts rollback if a later write fails. It supports `-Checkout` and `-ConfigDirectory`, detects external environment overrides and makes no changes when setup already matches. Project mapping repairs appear in `git diff`; review them before committing. See the [setup guide](../../../ECAD/docs/SYMBOL_LIBRARIES.md#windows-path-setup-script) for configuration discovery, restore instructions and verification. No administrator rights, Codex or Konnect are required.
 
+If an older copy reports a `ConvertFrom-Json` error about keys such as `a` and `A`, update the setup script and rerun it. The current utility preserves case-sensitive preference keys with Windows PowerShell 5.1 and PowerShell 7.
+
+Maintainers can run the disposable regression tests with Python 3 and PowerShell:
+
+```powershell
+python .\utils\tools\ecad\tests\test_kicad_setup.py
+```
+
+The tests prefer `powershell.exe` on Windows, otherwise `pwsh`. Set `OH_TEST_POWERSHELL` to test a particular executable. Close KiCad before running them.
+
 ## Astra launch utilities
 
 These wrappers implement the operator modes defined by `ECAD/docs/requirements/TOOLCHAIN.md`.
