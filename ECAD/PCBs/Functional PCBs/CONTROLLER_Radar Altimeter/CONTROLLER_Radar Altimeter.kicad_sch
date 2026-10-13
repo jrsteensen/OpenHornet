@@ -6,8 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Radar Altimeter Controller")
-		(date "2026-10-03")
-		(rev "4")
+		(date "2026-10-12")
+		(rev "5")
 		(company "OpenHornet")
 		(comment 1 "CC BY-NC-SA")
 	)
@@ -1191,6 +1191,223 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74LVC1G17"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "74LVC1G17"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Schmitt LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* SOT?553* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G17_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -2.54 -1.27) (xy -2.54 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G17_1_1"
+				(pin no_connect line
+					(at -7.62 5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5389,332 +5606,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "OH_Symbols:2N7002"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q1"
-				(at 5.207 0.6437 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.207 -1.2773 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "OH_Footprints:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C8545"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OH_Symbols:CDSOT23-SM712"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7722,352 +7613,6 @@
 				)
 			)
 			(symbol "Resistor_0603_10Ω_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OH_Symbols:Resistor_0603_2.2kΩ"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2.2K"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "OH_Footprints:R_0603_1608Metric"
-				(at 0.635 -8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2201T5E_C4190.pdf"
-				(at 3.175 -10.795 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor,, SMD 0603_1608, 2.2k Ohms"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C4190"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer PN" "0603WAF2201T5E"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Silkscreen" "2.2K"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor_0603_2.2kΩ_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_0603_2.2kΩ_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "OH_Symbols:Resistor_0603_470Ω"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "470"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "OH_Footprints:R_0603_1608Metric"
-				(at 0.635 -8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811081712_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf"
-				(at 3.175 -10.795 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor,, SMD 0603_1608, 470 Ohms"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C23179"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer PN" "0603WAF4700T5E"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Silkscreen" ""
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistor_0603_470Ω_0_1"
-				(rectangle
-					(start 2.54 -1.016)
-					(end -2.54 1.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor_0603_470Ω_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -10893,10 +10438,10 @@
 		(uuid "2e10e7d8-5640-4c70-bee5-b9bf1d1c0b1b")
 	)
 	(junction
-		(at 117.602 50.8)
+		(at 120.65 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "637626e9-2884-43ea-ae86-8d212af2fe3d")
+		(uuid "6c840550-51d2-4a18-b03e-ae5fe2b04c0b")
 	)
 	(junction
 		(at 151.638 150.114)
@@ -10953,12 +10498,6 @@
 		(uuid "cd21f7b2-cbfa-4aaf-a3ac-f680ec0d3692")
 	)
 	(junction
-		(at 117.602 42.418)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dddcdbf5-6592-41a8-999b-d1e6899a752e")
-	)
-	(junction
 		(at 67.818 139.954)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11011,16 +10550,6 @@
 	(no_connect
 		(at 254 40.64)
 		(uuid "fa3116fd-edf8-4682-8ad7-229759c9bc16")
-	)
-	(wire
-		(pts
-			(xy 117.602 41.402) (xy 117.602 42.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015cc863-00a6-47e1-96ec-29922659a454")
 	)
 	(wire
 		(pts
@@ -11114,16 +10643,6 @@
 	)
 	(wire
 		(pts
-			(xy 126.746 50.8) (xy 117.602 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11198f80-1439-4ae3-a2db-02d265eae38c")
-	)
-	(wire
-		(pts
 			(xy 158.496 142.494) (xy 166.116 142.494)
 		)
 		(stroke
@@ -11154,7 +10673,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 43.18) (xy 124.206 45.72)
+			(xy 138.43 44.45) (xy 138.43 46.99)
 		)
 		(stroke
 			(width 0)
@@ -11264,13 +10783,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.206 45.72) (xy 126.746 45.72)
+			(xy 138.43 46.99) (xy 140.97 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27f6200f-e360-4866-9671-182177879502")
+	)
+	(wire
+		(pts
+			(xy 102.87 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288c9fdc-2552-47fa-b6eb-63957a8e049e")
 	)
 	(wire
 		(pts
@@ -11382,6 +10911,16 @@
 		)
 		(uuid "586bd053-bfd0-44a8-bf09-5b5be90d2357")
 	)
+	(wire
+		(pts
+			(xy 135.89 52.07) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5975dbbc-0d49-46df-b232-b1ad34394db9")
+	)
 	(polyline
 		(pts
 			(xy 195.58 149.86) (xy 265.43 149.86)
@@ -11401,6 +10940,16 @@
 			(type default)
 		)
 		(uuid "5ca1e049-5f3b-468f-9f47-d24254dc77a9")
+	)
+	(wire
+		(pts
+			(xy 134.62 41.91) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd93319-8c84-41a4-aa68-8e78a9b048b0")
 	)
 	(wire
 		(pts
@@ -11464,16 +11013,6 @@
 	)
 	(wire
 		(pts
-			(xy 117.602 42.418) (xy 117.602 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb6e025-657a-4de3-a2d3-4cae104a433d")
-	)
-	(wire
-		(pts
 			(xy 158.496 142.494) (xy 158.496 145.034)
 		)
 		(stroke
@@ -11504,6 +11043,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 41.91) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8360a251-6554-449b-9026-1217ef8c24cf")
+	)
+	(wire
+		(pts
 			(xy 232.41 120.65) (xy 232.41 124.46)
 		)
 		(stroke
@@ -11511,6 +11060,16 @@
 			(type default)
 		)
 		(uuid "8535cc37-f6c1-4803-92d9-abfad5455066")
+	)
+	(wire
+		(pts
+			(xy 102.87 62.23) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866574e8-498b-4038-87bf-90b0568a0250")
 	)
 	(wire
 		(pts
@@ -11541,16 +11100,6 @@
 			(type default)
 		)
 		(uuid "921dbbdf-62f6-4dd4-aff1-0895dffc4e05")
-	)
-	(wire
-		(pts
-			(xy 120.904 42.418) (xy 120.904 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d1fbcb-8bf0-437f-bba7-49258cc85b1d")
 	)
 	(wire
 		(pts
@@ -11624,16 +11173,6 @@
 	)
 	(wire
 		(pts
-			(xy 117.602 42.418) (xy 120.904 42.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a502a8e9-423f-4704-aab0-4c07c280df82")
-	)
-	(wire
-		(pts
 			(xy 61.468 139.954) (xy 61.468 147.574)
 		)
 		(stroke
@@ -11641,6 +11180,16 @@
 			(type default)
 		)
 		(uuid "a88a6823-90f4-4b61-92d8-260bb075f3ec")
+	)
+	(wire
+		(pts
+			(xy 134.62 49.53) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac35ef8-d25a-4ced-81e1-cf60c311bf8a")
 	)
 	(wire
 		(pts
@@ -11754,16 +11303,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.904 48.26) (xy 126.746 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c486c4ed-7be4-46ee-9bca-702abbfd29fb")
-	)
-	(wire
-		(pts
 			(xy 256.54 130.81) (xy 256.54 137.16)
 		)
 		(stroke
@@ -11814,16 +11353,6 @@
 	)
 	(wire
 		(pts
-			(xy 117.602 60.96) (xy 117.602 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd505e0b-099c-4a85-bc89-d376a66e7d83")
-	)
-	(wire
-		(pts
 			(xy 121.158 142.494) (xy 121.158 139.954)
 		)
 		(stroke
@@ -11842,6 +11371,16 @@
 		)
 		(uuid "e3405e9c-33d4-413d-b266-ff9153cefccd")
 	)
+	(wire
+		(pts
+			(xy 107.95 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e19d8f-db4c-44b4-a549-3fe0e350c9a7")
+	)
 	(polyline
 		(pts
 			(xy 115.57 71.374) (xy 115.57 110.998)
@@ -11851,16 +11390,6 @@
 			(type default)
 		)
 		(uuid "ea78bd34-1c8c-48d0-ae8e-be701bc34397")
-	)
-	(wire
-		(pts
-			(xy 101.092 55.88) (xy 102.362 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eadb0bba-ed56-46fe-961d-a27894f67ece")
 	)
 	(polyline
 		(pts
@@ -11891,6 +11420,16 @@
 			(type default)
 		)
 		(uuid "f363eaa3-f91b-468b-90f1-95d6c62eac16")
+	)
+	(wire
+		(pts
+			(xy 120.65 41.91) (xy 134.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46ab01d-f07f-45cc-ad05-349ba7f4d5f4")
 	)
 	(wire
 		(pts
@@ -11992,6 +11531,16 @@
 		)
 		(uuid "2b4195b8-2da4-4ef2-8aa5-dd247ea9e532")
 	)
+	(label "~{D5}"
+		(at 107.95 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c4c159e-eb14-45fe-813a-0dc7258e96ee")
+	)
 	(label "D8A8"
 		(at 162.56 58.42 180)
 		(effects
@@ -12041,16 +11590,6 @@
 			(justify right bottom)
 		)
 		(uuid "48e887a0-f3fa-42ad-9a1f-0ed1a0e97b90")
-	)
-	(label "~{D5}"
-		(at 101.092 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4ce78202-89b2-43e4-a2ee-fa8da08624bd")
 	)
 	(label "~{D10A10}"
 		(at 254 50.8 0)
@@ -14724,7 +14263,7 @@
 	)
 	(symbol
 		(lib_id "OH_Symbols:PinHeader_1x03")
-		(at 131.826 48.26 0)
+		(at 146.05 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14734,7 +14273,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000619d9773")
 		(property "Reference" "J15"
-			(at 137.033 47.244 0)
+			(at 147.828 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14745,7 +14284,7 @@
 			)
 		)
 		(property "Value" "OFF_SERVO"
-			(at 143.891 49.53 0)
+			(at 147.32 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14756,7 +14295,7 @@
 			)
 		)
 		(property "Footprint" "OH_Footprints:Adam-Tech_1x03_P1.25mm_Vertical"
-			(at 131.826 64.77 0)
+			(at 146.05 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,7 +14306,7 @@
 			)
 		)
 		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf"
-			(at 131.826 60.96 0)
+			(at 146.05 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,7 +14317,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 131.826 48.26 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,7 +14328,7 @@
 			)
 		)
 		(property "PN" "125SH-B-03-TS"
-			(at 131.826 48.26 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,7 +14339,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 131.826 48.26 0)
+			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14811,7 +14350,7 @@
 			)
 		)
 		(property "Manufacturer PN" "PH1-03-UA"
-			(at 131.826 55.88 0)
+			(at 146.05 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14822,7 +14361,7 @@
 			)
 		)
 		(property "Silkscreen" ""
-			(at 131.826 48.26 0)
+			(at 146.05 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14852,7 +14391,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 124.206 43.18 180)
+		(at 138.43 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14862,7 +14401,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000619dd420")
 		(property "Reference" "#PWR0131"
-			(at 124.206 36.83 0)
+			(at 138.43 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +14412,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.206 39.37 0)
+			(at 138.43 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14883,7 +14422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.206 43.18 0)
+			(at 138.43 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14893,7 +14432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.206 43.18 0)
+			(at 138.43 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14903,7 +14442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.206 43.18 0)
+			(at 138.43 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16608,81 +16147,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_10")
-		(lib_id "power:GND")
-		(at 117.602 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c0e92bf-be89-44df-bd6f-4e8ca85e43fd")
-		(property "Reference" "#PWR01"
-			(at 117.602 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 117.602 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.602 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 117.602 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 117.602 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a486c604-db76-4ee5-bd16-0db0ed631e9c")
-		)
-		(instances
-			(project "CONTROLLER_Radar Altimeter"
-				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5V_5")
 		(lib_id "power:+5V")
 		(at 205.74 115.57 0)
@@ -16760,6 +16224,81 @@
 			(project "CONTROLLER_AMPCD DDI"
 				(path "/90801baf-c3c5-4643-9dee-a3d06555aba9"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_10")
+		(lib_id "power:GND")
+		(at 120.65 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3634583f-c292-4d15-b598-2c8b8fb1f39b")
+		(property "Reference" "#PWR019"
+			(at 120.65 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2e068e5-96dd-4f88-98c8-b03e5ee2a892")
+		)
+		(instances
+			(project "CONTROLLER_Radar Altimeter"
+				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17202,105 +16741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OH_Symbols:2N7002")
-		(at 115.062 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "522edefe-a4a6-43c7-93aa-c29cd066309b")
-		(property "Reference" "Q1"
-			(at 121.412 54.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 121.412 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OH_Footprints:SOT-23"
-			(at 120.142 57.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 115.062 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 115.062 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8545"
-			(at 115.062 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f744581b-b299-486d-a953-0c23d8621318")
-		)
-		(pin "2"
-			(uuid "92db5e77-a144-46e8-b192-b405e8218833")
-		)
-		(pin "3"
-			(uuid "c99c2e8c-ba07-4b7f-96e5-70bb3efb4ce9")
-		)
-		(instances
-			(project "CONTROLLER_Radar Altimeter"
-				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "OH_Symbols:Resistor_0603_10Ω")
 		(at 247.65 119.38 0)
 		(unit 1)
@@ -17510,6 +16950,110 @@
 			(project "CONTROLLER_Radar Altimeter"
 				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OH_Symbols:Capacitor_0603_0.1uF")
+		(at 102.87 55.88 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aea263d-947c-42f2-9cbb-71d306a487a9")
+		(property "Reference" "C6"
+			(at 102.362 53.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 102.616 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OH_Footprints:C_0603_1608Metric"
+			(at 103.8352 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 103.505 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Capacitor, Non-polarized, SMD 0603_1608, 0.1uF"
+			(at 102.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 102.87 45.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "CC0603KRX7R9BB104"
+			(at 103.505 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23519b68-29bf-4557-9f83-e8aa313d2893")
+		)
+		(pin "2"
+			(uuid "746749c5-bb28-4b86-9933-fabdf9467cfc")
+		)
+		(instances
+			(project "CONTROLLER_Radar Altimeter"
+				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -18152,6 +17696,156 @@
 			(project "CONTROLLER_Radar Altimeter"
 				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_10")
+		(lib_id "power:GND")
+		(at 102.87 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "752d1304-f1ad-4e59-99bc-ac0ab77efd4d")
+		(property "Reference" "#PWR020"
+			(at 102.87 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d4413f4-28bf-4c13-9732-34462bd4aeaa")
+		)
+		(instances
+			(project "CONTROLLER_Radar Altimeter"
+				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 41.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81de77fa-7546-4ea2-8d7a-4ebbe501a148")
+		(property "Reference" "#PWR018"
+			(at 120.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 120.65 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c276ea-eeca-4659-b5cc-72f1f1029f24")
+		)
+		(instances
+			(project "CONTROLLER_Radar Altimeter"
+				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -19678,119 +19372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "OH_Symbols:Resistor_0603_470Ω")
-		(at 106.172 55.88 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c9d1262a-5d58-4a8d-b19b-ba45b5e0da39")
-		(property "Reference" "R4"
-			(at 106.172 53.848 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 106.172 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OH_Footprints:R_0603_1608Metric"
-			(at 106.807 47.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811081712_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf"
-			(at 109.347 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor,, SMD 0603_1608, 470 Ohms"
-			(at 106.172 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23179"
-			(at 106.172 51.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "0603WAF4700T5E"
-			(at 106.172 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Silkscreen" ""
-			(at 106.172 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75efc04c-70e0-49ff-9fb4-4b3021586319")
-		)
-		(pin "2"
-			(uuid "37e4c23a-c66e-4b3f-8022-38acf9d5db50")
-		)
-		(instances
-			(project "CONTROLLER_Radar Altimeter"
-				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 67.818 155.194 0)
@@ -20509,9 +20090,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OH_Symbols:Resistor_0603_2.2kΩ")
-		(at 117.602 46.99 90)
-		(mirror x)
+		(lib_id "74xGxx:74LVC1G17")
+		(at 125.73 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20519,9 +20099,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "df984d76-8553-4ab1-a2bf-ea5f31fd45d4")
-		(property "Reference" "R3"
-			(at 115.57 46.863 0)
+		(uuid "e0d786ae-d682-4bd7-80e3-491f33350b21")
+		(property "Reference" "U1"
+			(at 128.016 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20530,8 +20110,8 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 117.602 46.99 0)
+		(property "Value" "74LVC1G17"
+			(at 128.016 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20540,8 +20120,8 @@
 				)
 			)
 		)
-		(property "Footprint" "OH_Footprints:R_0603_1608Metric"
-			(at 125.857 47.625 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20551,8 +20131,20 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF2201T5E_C4190.pdf"
-			(at 128.397 50.165 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+			(at 125.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Single Schmitt Buffer Gate, Low-Voltage CMOS"
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20562,8 +20154,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor,, SMD 0603_1608, 2.2k Ohms"
-			(at 117.602 46.99 0)
+		(property "LCSC" "C7836"
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20573,49 +20165,25 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
-			(at 122.047 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer PN" "0603WAF2201T5E"
-			(at 123.952 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Silkscreen" "2.2K"
-			(at 117.602 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "4"
+			(uuid "173fcb53-e042-40bf-8903-821c984dc05d")
 		)
 		(pin "1"
-			(uuid "0ff947da-29a8-4535-a30f-c81074d4c55f")
+			(uuid "8c8f7771-3d16-4013-a128-1fe0214d6a30")
+		)
+		(pin "5"
+			(uuid "1b9cf23d-df95-43fb-8c60-df1e9b2f448a")
+		)
+		(pin "3"
+			(uuid "afc9526d-a24e-4879-b956-831df53ed5b1")
 		)
 		(pin "2"
-			(uuid "90585a97-facc-49ee-9f18-fcc99fae13d4")
+			(uuid "1539a824-140b-4ff3-9d9b-10493bd668a2")
 		)
 		(instances
 			(project "CONTROLLER_Radar Altimeter"
 				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
-					(reference "R3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -20771,81 +20339,6 @@
 			(project "CONTROLLER_Radar Altimeter"
 				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
 					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 117.602 41.402 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f94ab90c-607a-4bcc-a66b-3a05870cbddf")
-		(property "Reference" "#PWR04"
-			(at 117.602 45.212 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 117.602 37.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 117.602 41.402 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 117.602 41.402 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 117.602 41.402 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd4942fd-fc7e-406c-ae55-78f3612c5e34")
-		)
-		(instances
-			(project "CONTROLLER_Radar Altimeter"
-				(path "/0415bfeb-8d78-4213-909b-3ce5c42ef472"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
