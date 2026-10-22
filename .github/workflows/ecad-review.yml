@@ -88,6 +88,38 @@ jobs:
           echo "head_sha=$HEAD" >> "$GITHUB_OUTPUT"
           echo "Comparing $BASE -> $HEAD"
 
+      - name: Record PR context for safe comment publishing
+        shell: bash
+        env:
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          BASE_SHA: ${{ steps.refs.outputs.base_sha }}
+          HEAD_SHA: ${{ steps.refs.outputs.head_sha }}
+          RUN_ID: ${{ github.run_id }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          payload = {
+              "repository": os.environ["REPO"],
+              "pr_number": int(os.environ["PR_NUMBER"]),
+              "base_sha": os.environ["BASE_SHA"],
+              "head_sha": os.environ["HEAD_SHA"],
+              "run_id": int(os.environ["RUN_ID"]),
+              "event": os.environ["EVENT_NAME"],
+          }
+          Path(os.environ["RUNNER_TEMP"], "ecad-review-context.json").write_text(json.dumps(payload))
+          PY
+
+      - name: Upload review context
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecad-review-context
+          path: ${{ runner.temp }}/ecad-review-context.json
+          retention-days: 14
+          if-no-files-found: error
+
       - name: Determine impacted ECAD projects
         id: projects
         shell: bash
