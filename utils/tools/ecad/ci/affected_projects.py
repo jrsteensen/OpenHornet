@@ -39,7 +39,7 @@ def slug(path):
 
 def affected(base, head):
     changed = [
-        Path(p) for p in git("diff", "--name-only", "--diff-filter=ACDMRT",
+        Path(p) for p in git("-c", "core.quotePath=false", "diff", "--name-only", "--diff-filter=ACDMRT",
                               base, head, "--", "ECAD").splitlines() if p
     ]
     projects = project_files()
