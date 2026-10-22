@@ -13,8 +13,8 @@ from pathlib import Path
 ECAD = Path("ECAD")
 DESIGN_EXTS = {".kicad_pcb", ".kicad_sch", ".kicad_pro"}
 LIB_EXTS = {".kicad_sym", ".kicad_mod"}
-LIB_ID_RE = re.compile(r'\\(lib_id\\s+"([^"]+)"\\)')
-FOOTPRINT_RE = re.compile(r'\\(footprint\\s+"([^"]+)"')
+LIB_ID_RE = re.compile(r'\(lib_id\s+"([^"]+)"\)')
+FOOTPRINT_RE = re.compile(r'\(footprint\s+"([^"]+)"')
 
 
 def git(*args):
