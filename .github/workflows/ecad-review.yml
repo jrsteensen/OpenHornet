@@ -44,7 +44,18 @@ jobs:
       - name: Checkout PR revision
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /ECAD/**/*.kicad_pcb
+            /ECAD/**/*.kicad_sch
+            /ECAD/**/*.kicad_pro
+            /ECAD/**/*.kicad_sym
+            /ECAD/**/*.kicad_mod
+            /ECAD/**/sym-lib-table
+            /ECAD/**/fp-lib-table
+            /utils/tools/ecad/ci/*
           persist-credentials: false
 
       - name: Resolve comparison refs
@@ -66,13 +77,13 @@ jobs:
             test "$(jq -r '.base.repo.full_name' <<< "$data")" = "$GH_REPO"
             BASE=$(jq -r '.base.sha' <<< "$data")
             HEAD=$(jq -r '.head.sha' <<< "$data")
-            git fetch --no-tags origin "+refs/pull/$PR_NUMBER/head:refs/remotes/origin/ecad-review-target"
+            git fetch --no-tags --filter=blob:none --depth=2 origin "+refs/pull/$PR_NUMBER/merge:refs/remotes/origin/ecad-review-merge" || git fetch --no-tags --filter=blob:none --depth=2 origin "+refs/pull/$PR_NUMBER/head:refs/remotes/origin/ecad-review-target"
           else
             BASE="$EVENT_BASE"
             HEAD="$EVENT_HEAD"
           fi
-          git cat-file -e "$BASE^{commit}"
-          git cat-file -e "$HEAD^{commit}"
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || git fetch --no-tags --filter=blob:none --depth=1 origin "$BASE"
+          git cat-file -e "$HEAD^{commit}" 2>/dev/null || git fetch --no-tags --filter=blob:none --depth=1 origin "$HEAD"
           echo "base_sha=$BASE" >> "$GITHUB_OUTPUT"
           echo "head_sha=$HEAD" >> "$GITHUB_OUTPUT"
           echo "Comparing $BASE -> $HEAD"
@@ -123,7 +134,18 @@ jobs:
       - name: Checkout with both Git revisions
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /ECAD/**/*.kicad_pcb
+            /ECAD/**/*.kicad_sch
+            /ECAD/**/*.kicad_pro
+            /ECAD/**/*.kicad_sym
+            /ECAD/**/*.kicad_mod
+            /ECAD/**/sym-lib-table
+            /ECAD/**/fp-lib-table
+            /utils/tools/ecad/ci/*
           persist-credentials: false
 
       - name: Install KiCad 10 for render and ERC/DRC
@@ -151,7 +173,8 @@ jobs:
           }
           with open(os.environ["GITHUB_ENV"], "a") as f:
               for key, value in envs.items():
-                  assert value.is_dir(), f"Missing {key}: {value}"
+                  if key in ("KICAD_USER_OH_SYMBOLS", "KICAD_USER_OH_FOOTPRINTS"):
+                      assert value.is_dir(), f"Missing {key}: {value}"
                   print(f"{key}={value}", file=f)
           config = Path.home() / ".config/kicad/10.0"
           config.mkdir(parents=True, exist_ok=True)
