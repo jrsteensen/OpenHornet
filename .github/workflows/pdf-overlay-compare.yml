@@ -3,6 +3,12 @@ name: PDF Overlay Compare
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "Pull request number to compare (including forks)"
+        required: true
+        type: number
 
 permissions:
   contents: read
@@ -15,27 +21,58 @@ jobs:
 
     steps:
       # -----------------------------------------------------------------------
-      # 1. Check out the PR head (shallow + blobless for speed).
-      #    The base SHA is fetched on-demand in step 3 via a targeted fetch.
+      # 1. Resolve either an automatic PR event or manual PR-number input.
       # -----------------------------------------------------------------------
-      - name: Checkout repository
+      - name: Resolve target PR
+        id: target
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, urllib.request
+          repo, pr = os.environ["REPO"], os.environ["PR_NUMBER"]
+          req = urllib.request.Request(
+              f"https://api.github.com/repos/{repo}/pulls/{pr}",
+              headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                       "Accept": "application/vnd.github+json"},
+          )
+          with urllib.request.urlopen(req) as response:
+              data = json.load(response)
+          if data["state"] != "open" or data["base"]["repo"]["full_name"] != repo:
+              raise SystemExit(f"PR #{pr} must be open and target {repo}")
+          print(f"Comparing PR #{pr}: {data['head']['sha']} against {data['base']['sha']}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"pr_number={pr}\n")
+              out.write(f"base_sha={data['base']['sha']}\n")
+              out.write(f"head_sha={data['head']['sha']}\n")
+              out.write(f"is_fork={str(data['head']['repo']['fork']).lower()}\n")
+          PYEOF
+
+      # 2. Run trusted scripts/dependencies from the default branch, not the
+      #    contributor's fork. Only the PR's PDF blobs are read during pairing.
+      # -----------------------------------------------------------------------
+      - name: Checkout trusted repository
         uses: actions/checkout@v6
         with:
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 1
           filter: blob:none
+          persist-credentials: false
 
       # -----------------------------------------------------------------------
-      # 2. Collect added and deleted PDFs in this PR
+      # 3. Collect changed PDFs in this PR
       # -----------------------------------------------------------------------
       - name: Detect added and deleted PDFs
         id: detect
         env:
           GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ steps.target.outputs.pr_number }}
           REPO: ${{ github.repository }}
         run: |
           python3 - <<'PYEOF'
-          import json, os, subprocess, sys, urllib.request, urllib.parse
+          import json, os, urllib.request
 
           token   = os.environ["GH_TOKEN"]
           repo    = os.environ["REPO"]
@@ -63,6 +100,15 @@ jobs:
                           added.append(fname)
                       elif status == "removed":
                           deleted.append(fname)
+                      elif status == "modified":
+                          # Same-path updates compare the base and head blobs.
+                          added.append(fname)
+                          deleted.append(fname)
+                      elif status == "renamed":
+                          added.append(fname)
+                          old_path = f.get("previous_filename", "")
+                          if old_path.lower().endswith(".pdf"):
+                              deleted.append(old_path)
               page += 1
 
           print(f"Added PDFs   : {added}")
@@ -79,151 +125,126 @@ jobs:
           PYEOF
 
       # -----------------------------------------------------------------------
-      # 3. Pair PDFs by key (leading alphanumeric+hyphen token of the basename,
-      #    e.g. "OH4A1A1-1" from both "OH4A1A1-1_ASSY_..._A.pdf" and the
-      #    malformed "OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf")
-      #    and extract old PDFs from the base SHA
+      # 4. Pair drawings by key. If multiple prior revisions were deleted,
+      #    choose the highest revision/version (if uniquely determinable).
       # -----------------------------------------------------------------------
-      - name: Pair PDFs and extract old versions
+      - name: Pair PDFs and extract old/new versions
         id: pair
         if: steps.detect.outputs.has_pairs == 'true'
         env:
           ADDED: ${{ steps.detect.outputs.added }}
           DELETED: ${{ steps.detect.outputs.deleted }}
-          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          BASE_SHA: ${{ steps.target.outputs.base_sha }}
+          HEAD_SHA: ${{ steps.target.outputs.head_sha }}
+          PR_NUMBER: ${{ steps.target.outputs.pr_number }}
         run: |
           python3 - <<'PYEOF'
-          import json, os, pathlib, re, subprocess, sys
-
-          added   = json.loads(os.environ["ADDED"])
-          deleted = json.loads(os.environ["DELETED"])
-          base_sha = os.environ["BASE_SHA"]
-
-          # Fetch the base commit so that git show <base_sha>:<path> works.
-          # The initial checkout is shallow (fetch-depth: 1), so the base commit
-          # is not present locally yet; a targeted single-depth fetch retrieves it.
-          fetch = subprocess.run(
-              ["git", "fetch", "--depth=1", "origin", base_sha],
-              capture_output=True,
-          )
-          if fetch.returncode != 0:
-              print(f"[WARN] git fetch for base SHA failed: {fetch.stderr.decode().strip()}")
-
-          def make_key(path: str) -> str:
-              """Key = leading alphanumeric+hyphen token of the filename stem.
-
-              Handles both well-formed names where the separator is '_':
-                  OH4A1A1-1_ASSY_LEFT_CONSOLE_STRUCTURE_v7_A.pdf  →  OH4A1A1-1
-              and malformed names that use any other separator (space, dash, comma…):
-                  OH4A1A1-1 - ASSY, LEFT CONSOLE STRUCTURE v7.pdf  →  OH4A1A1-1
-
-              If the stem begins with a character outside [A-Za-z0-9-] (e.g. a
-              special character), the full stem is returned as a fallback key and
-              a warning is emitted.  This path should not occur for OpenHornet PDFs.
-              """
-              stem = pathlib.Path(path).stem          # strip directory and .pdf
-              m = re.match(r'^([A-Za-z0-9-]+)', stem)
-              if not m:
-                  print(f"[WARN] Could not extract part-number key from stem '{stem}'; using full stem as fallback key.")
-                  return stem
-              return m.group(1)
-
-          def is_malformed(path: str, key: str) -> bool:
-              """Return True if the character immediately after the key in the stem
-              is not '_' (i.e. the filename does not follow the expected convention).
-              A bare key with no suffix (stem == key) is considered well-formed.
-              When make_key() falls back to returning the full stem, after='' so
-              is_malformed() correctly returns False for that degenerate case."""
-              stem = pathlib.Path(path).stem
-              after = stem[len(key):]
-              return bool(after) and not after.startswith('_')
-
-          # Group by key
+          import json, os, pathlib, re, subprocess
           from collections import defaultdict
-          added_by_key   = defaultdict(list)
-          deleted_by_key = defaultdict(list)
 
-          for p in added:
-              added_by_key[make_key(p)].append(p)
-          for p in deleted:
-              deleted_by_key[make_key(p)].append(p)
+          added, deleted = json.loads(os.environ["ADDED"]), json.loads(os.environ["DELETED"])
+          base_sha, head_sha, pr_number = (os.environ[k] for k in ("BASE_SHA", "HEAD_SHA", "PR_NUMBER"))
 
-          all_keys    = set(added_by_key) | set(deleted_by_key)
-          pairs       = []   # list of {key, old_path, new_path, old_tmp, malformed_new}
-          skipped     = []   # list of {key, reason, added, deleted, malformed_added}
+          def git(*args):
+              return subprocess.run(["git", *args], check=True, capture_output=True).stdout
 
-          work_dir = pathlib.Path("_pdf_compare_work")
-          work_dir.mkdir(exist_ok=True)
+          # PR head refs are fetchable from origin even for contributions from forks.
+          # Never execute contributor-controlled Python, requirements or shell scripts.
+          git("fetch", "--depth=1", "origin", base_sha)
+          git("fetch", "--depth=1", "origin", f"refs/pull/{pr_number}/head")
+          actual_head = git("rev-parse", "FETCH_HEAD").decode().strip()
+          if actual_head != head_sha:
+              raise SystemExit(f"PR head moved during run ({head_sha} -> {actual_head}); please rerun")
 
-          for key in sorted(all_keys):
-              a_list = added_by_key.get(key, [])
-              d_list = deleted_by_key.get(key, [])
+          def key_of(path):
+              stem = pathlib.Path(path).stem
+              found = re.match(r"^([A-Za-z0-9-]+)", stem)
+              return found.group(1) if found else stem
 
-              if len(a_list) != 1 or len(d_list) != 1:
-                  reason = f"{len(d_list)} removed, {len(a_list)} added"
-                  print(f"[SKIP] key='{key}' – ambiguous ({reason})")
-                  malformed_added = [p for p in a_list if is_malformed(p, key)]
-                  if malformed_added:
-                      print(f"  [WARN] Malformed added filename(s): {malformed_added}")
-                  skipped.append({
-                      "key": key,
-                      "reason": reason,
-                      "added": a_list,
-                      "deleted": d_list,
-                      "malformed_added": malformed_added,
-                  })
-                  continue
+          def malformed(path, key):
+              suffix = pathlib.Path(path).stem[len(key):]
+              return bool(suffix) and not suffix.startswith("_")
 
-              new_path = a_list[0]
-              old_path = d_list[0]
+          def revision_rank(path):
+              # Revision - < A < B ... < Z < AA; vN is a tiebreaker.
+              match = re.search(r"_([A-Za-z]+|-)_v(\d+)$", pathlib.Path(path).stem, re.I)
+              if not match:
+                  return None
+              revision, version = match.group(1).upper(), int(match.group(2))
+              rank = 0
+              if revision != "-":
+                  for letter in revision:
+                      rank = rank * 26 + ord(letter) - ord("A") + 1
+              return (rank, version)
 
-              malformed_new = is_malformed(new_path, key)
-              if malformed_new:
-                  print(f"[WARN] Added file has malformed name: '{new_path}'")
+          a_by_key, d_by_key = defaultdict(list), defaultdict(list)
+          for path in added:
+              a_by_key[key_of(path)].append(path)
+          for path in deleted:
+              d_by_key[key_of(path)].append(path)
 
-              # Extract old PDF from base SHA
-              safe_name = re.sub(r"[^\w\-.]", "_", key) + "_OLD.pdf"
-              old_tmp   = str(work_dir / safe_name)
+          work = pathlib.Path("_pdf_compare_work")
+          work.mkdir(exist_ok=True)
+          pairs, skipped, ignored = [], [], []
 
-              result = subprocess.run(
-                  ["git", "show", f"{base_sha}:{old_path}"],
-                  capture_output=True,
-              )
-              if result.returncode != 0:
-                  print(f"[WARN] Could not extract old PDF for key '{key}': {result.stderr.decode().strip()}")
-                  skipped.append({
-                      "key": key,
-                      "reason": "could not extract old PDF from base SHA",
-                      "added": a_list,
-                      "deleted": d_list,
-                      "malformed_added": [new_path] if malformed_new else [],
-                  })
-                  continue
+          for key in sorted(set(a_by_key) | set(d_by_key)):
+              additions, removals = a_by_key[key], d_by_key[key]
+              reason = None
+              if len(additions) != 1 or not removals:
+                  reason = f"{len(removals)} removed, {len(additions)} added"
+              else:
+                  new = additions[0]
+                  if len(removals) == 1:
+                      old = removals[0]
+                  else:
+                      same_dir = [p for p in removals if pathlib.PurePosixPath(p).parent
+                                  == pathlib.PurePosixPath(new).parent]
+                      if not same_dir:
+                          reason = "multiple old PDFs, none in the new drawing directory"
+                      else:
+                          ranked = [(revision_rank(p), p) for p in same_dir]
+                          if any(rank is None for rank, _ in ranked):
+                              reason = "cannot order old revision filenames"
+                          else:
+                              highest = max(rank for rank, _ in ranked)
+                              winners = [p for rank, p in ranked if rank == highest]
+                              if len(winners) != 1:
+                                  reason = "old revisions tied for latest revision/version"
+                              else:
+                                  old = winners[0]
+                  if not reason:
+                      old_tmp, new_tmp = str(work / f"{key}_OLD.pdf"), str(work / f"{key}_NEW.pdf")
+                      try:
+                          pathlib.Path(old_tmp).write_bytes(git("show", f"{base_sha}:{old}"))
+                          pathlib.Path(new_tmp).write_bytes(git("show", f"{head_sha}:{new}"))
+                      except subprocess.CalledProcessError as exc:
+                          reason = "could not extract PDFs: " + exc.stderr.decode(errors="replace").strip()
+                      else:
+                          extra_old = [p for p in removals if p != old]
+                          if extra_old:
+                              ignored.append({"key": key, "selected": old, "other_deleted": extra_old})
+                              print(f"::notice::Drawing {key}: selected {old}; ignored {len(extra_old)} older revision(s)")
+                          pairs.append({"key": key, "old_path": old, "new_path": new,
+                                        "old_tmp": old_tmp, "new_tmp": new_tmp,
+                                        "malformed_new": malformed(new, key)})
+                          print(f"[PAIR] {key}: {old} -> {new}")
+                          if malformed(new, key):
+                              print(f"::warning::Drawing {key} has a nonstandard new filename: {new}")
 
-              with open(old_tmp, "wb") as f:
-                  f.write(result.stdout)
+              if reason:
+                  skipped.append({"key": key, "reason": reason, "added": additions,
+                                  "deleted": removals, "malformed_added":
+                                  [p for p in additions if malformed(p, key)]})
+                  print(f"::warning::Drawing {key} skipped: {reason}")
 
-              pairs.append({
-                  "key": key,
-                  "old_path": old_path,
-                  "new_path": new_path,
-                  "old_tmp":  old_tmp,
-                  "malformed_new": malformed_new,
-              })
-              print(f"[PAIR] key='{key}' | old='{old_path}' new='{new_path}'")
-
-          print(f"\nPairs found : {len(pairs)}")
-          print(f"Skipped     : {len(skipped)}")
-
-          manifest = {"pairs": pairs, "skipped": skipped}
-          manifest_path = str(work_dir / "manifest.json")
-          with open(manifest_path, "w") as f:
-              json.dump(manifest, f, indent=2)
-
-          with open(os.environ["GITHUB_OUTPUT"], "a") as gh_out:
-              gh_out.write(f"manifest={manifest_path}\n")
-              gh_out.write(f"has_valid_pairs={'true' if pairs else 'false'}\n")
-              gh_out.write(f"work_dir={str(work_dir)}\n")
+          manifest = work / "manifest.json"
+          manifest.write_text(json.dumps({"pairs": pairs, "skipped": skipped,
+                                          "ignored": ignored}, indent=2))
+          print(f"Pairs: {len(pairs)}; skipped: {len(skipped)}; extra old revision groups: {len(ignored)}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"manifest={manifest}\n")
+              out.write(f"has_valid_pairs={str(bool(pairs)).lower()}\n")
+              out.write(f"work_dir={work}\n")
           PYEOF
 
       # -----------------------------------------------------------------------
@@ -272,7 +293,7 @@ jobs:
           for pair in manifest["pairs"]:
               key      = pair["key"]
               old_tmp  = pair["old_tmp"]
-              new_path = pair["new_path"]
+              new_path = pair["new_tmp"]
 
               # Sanitise key for filename (keep alphanumeric, spaces, hyphens, commas, dots)
               safe_key = re.sub(r"[^\w\s\-.,]", "_", key).strip()
@@ -313,13 +334,71 @@ jobs:
           if-no-files-found: warn
 
       # -----------------------------------------------------------------------
-      # 7. Post or update PR comment
+      # -----------------------------------------------------------------------
+      # 7. Summary is always visible on the Actions run, including fork PRs.
+      # -----------------------------------------------------------------------
+      - name: Publish comparison summary
+        if: always()
+        env:
+          PR_NUMBER: ${{ steps.target.outputs.pr_number }}
+          MANIFEST: ${{ steps.pair.outputs.manifest }}
+          HAS_PDF_CHANGES: ${{ steps.detect.outputs.has_pdf_changes }}
+          RUN_ID: ${{ github.run_id }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, pathlib
+
+          def safe(value):
+              return str(value).replace("|", r"\|").replace("\n", " ").replace("\r", " ")
+
+          path = pathlib.Path(os.environ.get("MANIFEST") or "/nonexistent/manifest.json")
+          data = json.loads(path.read_text()) if path.is_file() else {}
+          pairs, skipped = data.get("pairs", []), data.get("skipped", [])
+          ignored, generated = data.get("ignored", []), data.get("generated", [])
+          pr = os.environ.get("PR_NUMBER") or "unknown"
+          run_url = f"https://github.com/{os.environ['REPO']}/actions/runs/{os.environ['RUN_ID']}"
+          lines = [f"## PDF overlay compare — PR #{pr}", "",
+                   f"Generated: {len(generated)} | Skipped: {len(skipped)} | "
+                   f"Superseded PDFs: {sum(len(i['other_deleted']) for i in ignored)}", "",
+                   f"[Workflow run and artifact]({run_url})", ""]
+          if not pairs:
+              lines.append("No matching PDF pair found." if os.environ.get("HAS_PDF_CHANGES") == "true"
+                           else "No changed PDFs detected (or detection did not complete).")
+              lines.append("")
+          else:
+              lines += ["| Drawing | Selected old PDF | New PDF | Result |", "| --- | --- | --- | --- |"]
+              for pair in pairs:
+                  status = "Generated" if any(g["key"] == pair["key"] for g in generated) else "Not generated"
+                  lines.append(f"| {safe(pair['key'])} | {safe(pair['old_path'])} | "
+                               f"{safe(pair['new_path'])} | {status} |")
+              lines.append("")
+          if ignored:
+              lines += ["### Extra deleted revisions not used as baseline", ""]
+              for item in ignored:
+                  lines.append(f"- {safe(item['key'])}: selected {safe(item['selected'])}; ignored "
+                               + ", ".join(safe(x) for x in item["other_deleted"]))
+              lines.append("")
+          if skipped:
+              lines += ["### Skipped drawings", ""]
+              for item in skipped:
+                  lines.append(f"- {safe(item['key'])}: {safe(item['reason'])}")
+                  for label in ("added", "deleted"):
+                      if item.get(label):
+                          lines.append(f"  - {label.title()}: "
+                                       + ", ".join(safe(x) for x in item[label]))
+              lines.append("")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
+              out.write("\n".join(lines) + "\n")
+          PYEOF
+
+      # 8. Post or update PR comment
       # -----------------------------------------------------------------------
       - name: Post or update PR comment
-        if: always() && steps.detect.outputs.has_pdf_changes == 'true' && github.event.pull_request.head.repo.fork == false
+        if: always() && steps.detect.outputs.has_pdf_changes == 'true' && (github.event_name == 'workflow_dispatch' || steps.target.outputs.is_fork == 'false')
         env:
           GH_TOKEN: ${{ github.token }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_NUMBER: ${{ steps.target.outputs.pr_number }}
           REPO: ${{ github.repository }}
           RUN_ID: ${{ github.run_id }}
           MANIFEST: ${{ steps.pair.outputs.manifest }}
@@ -367,6 +446,7 @@ jobs:
 
               generated = manifest.get("generated", [])
               skipped   = manifest.get("skipped", [])
+              ignored   = manifest.get("ignored", [])
 
               lines = [
                   f"{MARKER}",
@@ -397,6 +477,13 @@ jobs:
                       "Added **and** deleted PDFs were detected, but no unambiguous "
                       "1-old/1-new pair could be formed – no comparison was generated."
                   )
+                  lines.append("")
+
+              if ignored:
+                  lines.append(f"**{len(ignored)} drawing(s) had superseded old revisions:**")
+                  for item in ignored:
+                      extras = ", ".join(item["other_deleted"])
+                      lines.append(f"- {item['key']}: selected {item['selected']}; ignored {extras}")
                   lines.append("")
 
               if skipped:
