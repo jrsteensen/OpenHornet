@@ -1,0 +1,320 @@
+# Experimental, read-only visual/structural ECAD review for OpenHornet.
+# Independent of the existing PDF overlay workflow; never modifies contributor branches.
+name: ECAD Review (experimental)
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    paths:
+      - 'ECAD/**/*.kicad_pcb'
+      - 'ECAD/**/*.kicad_sch'
+      - 'ECAD/**/*.kicad_pro'
+      - 'ECAD/**/*.kicad_sym'
+      - 'ECAD/**/*.kicad_mod'
+      - 'ECAD/**/sym-lib-table'
+      - 'ECAD/**/fp-lib-table'
+      - '.github/workflows/ecad-review.yml'
+      - 'utils/tools/ecad/ci/**'
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Open PR to review, including fork PRs (requires workflow on default branch)'
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ecad-review-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  plan:
+    name: Find affected projects
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.projects.outputs.matrix }}
+      total: ${{ steps.projects.outputs.total }}
+      omitted: ${{ steps.projects.outputs.omitted }}
+      base_sha: ${{ steps.refs.outputs.base_sha }}
+      head_sha: ${{ steps.refs.outputs.head_sha }}
+    steps:
+      - name: Checkout PR revision
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /ECAD/**/*.kicad_pcb
+            /ECAD/**/*.kicad_sch
+            /ECAD/**/*.kicad_pro
+            /ECAD/**/*.kicad_sym
+            /ECAD/**/*.kicad_mod
+            /ECAD/**/sym-lib-table
+            /ECAD/**/fp-lib-table
+            /utils/tools/ecad/ci/*
+          persist-credentials: false
+
+      - name: Resolve comparison refs
+        id: refs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EVENT_NAME: ${{ github.event_name }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          EVENT_BASE: ${{ github.event.pull_request.base.sha }}
+          EVENT_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            # Only an open PR targeting our repo may be reviewed.
+            data=$(gh api "repos/$GH_REPO/pulls/$PR_NUMBER")
+            test "$(jq -r '.state' <<< "$data")" = open
+            test "$(jq -r '.base.repo.full_name' <<< "$data")" = "$GH_REPO"
+            BASE=$(jq -r '.base.sha' <<< "$data")
+            HEAD=$(jq -r '.head.sha' <<< "$data")
+            git fetch --no-tags --filter=blob:none --depth=2 origin "+refs/pull/$PR_NUMBER/merge:refs/remotes/origin/ecad-review-merge" || git fetch --no-tags --filter=blob:none --depth=2 origin "+refs/pull/$PR_NUMBER/head:refs/remotes/origin/ecad-review-target"
+          else
+            BASE="$EVENT_BASE"
+            HEAD="$EVENT_HEAD"
+          fi
+          git cat-file -e "$BASE^{commit}" 2>/dev/null || git fetch --no-tags --filter=blob:none --depth=1 origin "$BASE"
+          git cat-file -e "$HEAD^{commit}" 2>/dev/null || git fetch --no-tags --filter=blob:none --depth=1 origin "$HEAD"
+          echo "base_sha=$BASE" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD" >> "$GITHUB_OUTPUT"
+          echo "Comparing $BASE -> $HEAD"
+
+      - name: Record PR context for safe comment publishing
+        shell: bash
+        env:
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr_number }}
+          BASE_SHA: ${{ steps.refs.outputs.base_sha }}
+          HEAD_SHA: ${{ steps.refs.outputs.head_sha }}
+          RUN_ID: ${{ github.run_id }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          payload = {
+              "repository": os.environ["REPO"],
+              "pr_number": int(os.environ["PR_NUMBER"]),
+              "base_sha": os.environ["BASE_SHA"],
+              "head_sha": os.environ["HEAD_SHA"],
+              "run_id": int(os.environ["RUN_ID"]),
+              "event": os.environ["EVENT_NAME"],
+          }
+          Path(os.environ["RUNNER_TEMP"], "ecad-review-context.json").write_text(json.dumps(payload))
+          PY
+
+      - name: Upload review context
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecad-review-context
+          path: ${{ runner.temp }}/ecad-review-context.json
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Validate trusted ECAD review commenter
+        run: |
+          python3 -m py_compile utils/tools/ecad/ci/post_review_comment.py
+          python3 -m unittest discover -s utils/tools/ecad/ci -p 'test_post_review_comment.py' -v
+
+      - name: Determine impacted ECAD projects
+        id: projects
+        shell: bash
+        env:
+          BASE_SHA: ${{ steps.refs.outputs.base_sha }}
+          HEAD_SHA: ${{ steps.refs.outputs.head_sha }}
+          DRAFT: ${{ github.event.pull_request.draft }}
+        run: |
+          set -euo pipefail
+          limit=12
+          if [[ "$DRAFT" == "true" ]]; then limit=6; fi
+          python3 utils/tools/ecad/ci/affected_projects.py "$BASE_SHA" "$HEAD_SHA" --limit "$limit" > "$RUNNER_TEMP/ecad-plan.json"
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          plan = json.loads(Path(os.environ["RUNNER_TEMP"], "ecad-plan.json").read_text())
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              print("matrix=" + json.dumps({"include": plan["include"]}, ensure_ascii=False), file=out)
+              print("total=" + str(plan["total"]), file=out)
+              print("omitted=" + str(plan["omitted"]), file=out)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as out:
+              print("## ECAD impacted projects", file=out)
+              print(f"Changed ECAD paths: {plan['changed_paths']}; matched projects: {plan['total']}", file=out)
+              for item in plan["include"]:
+                  print(f"- `{item['project']}`", file=out)
+              if plan["omitted"]:
+                  print(f"**Warning:** {plan['omitted']} additional projects were not reviewed because of the pilot cap.", file=out)
+          PY
+          if [[ "$(jq -r .omitted "$RUNNER_TEMP/ecad-plan.json")" != 0 ]]; then
+            echo "::warning::Some affected ECAD projects were omitted by the pilot cap."
+          fi
+
+      - name: Upload project-selection coverage report
+        if: ${{ always() && steps.projects.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecad-review-plan
+          path: ${{ runner.temp }}/ecad-plan.json
+          retention-days: 14
+          if-no-files-found: error
+
+  compare:
+    name: Diff ${{ matrix.slug }}
+    needs: plan
+    if: ${{ needs.plan.outputs.total != '0' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Checkout with both Git revisions
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /ECAD/**/*.kicad_pcb
+            /ECAD/**/*.kicad_sch
+            /ECAD/**/*.kicad_pro
+            /ECAD/**/*.kicad_sym
+            /ECAD/**/*.kicad_mod
+            /ECAD/**/sym-lib-table
+            /ECAD/**/fp-lib-table
+            /utils/tools/ecad/ci/*
+          persist-credentials: false
+
+      - name: Install KiCad 10 for render and ERC/DRC
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends kicad
+          kicad-cli --version
+
+      - name: Configure OpenHornet library paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          root = Path(os.environ["GITHUB_WORKSPACE"]).resolve()
+          envs = {
+              "KICAD_USER_OH_SYMBOLS": root / "ECAD/lib/OH_Symbols",
+              "KICAD_USER_OH_FOOTPRINTS": root / "ECAD/lib",
+              "KICAD_USER_OH_3DMODELS": root / "ECAD/lib/OH_3DModels",
+              "KICAD_USER_OH_TEMPLATES": root / "ECAD/lib/OH_Templates",
+          }
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              for key, value in envs.items():
+                  if key in ("KICAD_USER_OH_SYMBOLS", "KICAD_USER_OH_FOOTPRINTS"):
+                      assert value.is_dir(), f"Missing {key}: {value}"
+                  print(f"{key}={value}", file=f)
+          config = Path.home() / ".config/kicad/10.0"
+          config.mkdir(parents=True, exist_ok=True)
+          symbols = envs["KICAD_USER_OH_SYMBOLS"]
+          libs = [
+              ("ABSIS", symbols / "ABSIS.kicad_sym"),
+              ("Arduino Pro Mini 5v", symbols / "Arduino Pro Mini 5v.kicad_sym"),
+              ("KiCadCustomLib", symbols / "KiCadCustomLib.kicad_symdir"),
+              ("OH_Interconnect", symbols / "OH_Interconnect.kicad_symdir"),
+              ("OH_Symbols", symbols / "OH_Symbols.kicad_symdir"),
+              ("OpenHornet", symbols / "OpenHornet.kicad_symdir"),
+          ]
+          for name, path in libs:
+              assert path.exists(), f"Missing symbol library {name}: {path}"
+          for kind, entries in [
+              ("sym", libs),
+              ("fp", [("OH_Footprints", root / "ECAD/lib/OH_Footprints.pretty")]),
+          ]:
+              source = Path(f"/usr/share/kicad/template/{kind}-lib-table")
+              table = source.read_text() if source.is_file() else f"({kind}_lib_table\n)"
+              assert table.rstrip().endswith(")"), f"Invalid {kind} library template"
+              extra = "".join(
+                  f'  (lib (name "{name}") (type "KiCad") (uri "{path}") (options "") (descr ""))\n'
+                  for name, path in entries
+              )
+              table = table.rstrip()[:-1] + extra + ")\n"
+              (config / f"{kind}-lib-table").write_text(table)
+          print("KiCad 10 shared libraries and environment are configured.")
+          PY
+
+      - name: Generate interactive visual and structural diff
+        id: visual
+        continue-on-error: true
+        uses: sksat/kicadiff@v0.2.0
+        with:
+          path: ${{ matrix.project }}
+          from-ref: ${{ needs.plan.outputs.base_sha }}
+          to-ref: ${{ needs.plan.outputs.head_sha }}
+          kicad-version: ''
+          install-kicadiff: '0.2.0'
+          output-dir: ecad-review/${{ matrix.slug }}
+          job-summary: 'true'
+          upload-artifact: 'false'
+          pr-comment: 'false'
+          pr-description: 'false'
+
+      - name: Compare ERC/DRC findings (advisory)
+        id: rules
+        if: ${{ always() }}
+        continue-on-error: true
+        shell: bash
+        env:
+          BASE_SHA: ${{ needs.plan.outputs.base_sha }}
+          HEAD_SHA: ${{ needs.plan.outputs.head_sha }}
+          PROJECT: ${{ matrix.project }}
+          SLUG: ${{ matrix.slug }}
+        run: |
+          set -uo pipefail
+          mkdir -p "ecad-review/$SLUG"
+          if ! command -v bunx >/dev/null || ! command -v kicad-cli >/dev/null; then
+            echo "Toolchain unavailable; ERC/DRC comparison not run." | tee "ecad-review/$SLUG/rules.txt"
+            exit 1
+          fi
+          bunx --bun kicadiff@0.2.0 check --from "$BASE_SHA" --to "$HEAD_SHA" -- "$PROJECT" \
+            2>&1 | tee "ecad-review/$SLUG/rules.txt"
+          result=${PIPESTATUS[0]}
+          echo "ERC/DRC diff exit status: $result" | tee -a "ecad-review/$SLUG/rules.txt"
+          exit "$result"
+
+      - name: Report results
+        if: ${{ always() }}
+        shell: bash
+        env:
+          PROJECT: ${{ matrix.project }}
+          VISUAL: ${{ steps.visual.outcome }}
+          RULES: ${{ steps.rules.outcome }}
+        run: |
+          {
+            echo "## OpenHornet ECAD pilot"
+            echo "Project: \`$PROJECT\`"
+            echo "Visual comparison: **$VISUAL**"
+            echo "ERC/DRC comparison: **$RULES**"
+            echo "Advisory only: inspect artifacts and logs; neither failure blocks merging."
+            echo "Known limitation: renderers may resolve both sides against the checked-out library tables. Do not assume library-only edits are validated against each revision's own libraries."
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [[ "$VISUAL" != "success" || "$RULES" != "success" ]]; then
+            echo "::warning::ECAD pilot encountered a comparison failure or rule regression; review the logs."
+          fi
+
+      - name: Save ECAD review artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecad-review-${{ matrix.slug }}
+          path: ecad-review/${{ matrix.slug }}/
+          retention-days: 14
+          if-no-files-found: warn
