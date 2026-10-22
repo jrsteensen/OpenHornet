@@ -167,7 +167,7 @@ jobs:
 
           def revision_rank(path):
               # Revision - < A < B ... < Z < AA; vN is a tiebreaker.
-              match = re.search(r"_([A-Za-z]+|-)_v(\d+)$", pathlib.Path(path).stem, re.I)
+              match = re.search(r"_([A-Za-z]{1,2}|-)_v(\d+)$", pathlib.Path(path).stem, re.I)
               if not match:
                   return None
               revision, version = match.group(1).upper(), int(match.group(2))
