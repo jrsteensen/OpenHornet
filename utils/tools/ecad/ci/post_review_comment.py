@@ -203,9 +203,20 @@ def main():
             "stats": stats, "categories": cats
         })
     rows.sort(key=lambda row: row["name"])
-    # Only review metadata from GitHub itself is used for comment destination.
-    # Never execute untrusted artifact content or insert arbitrary text as Markdown.
+    # Read the untrusted plan as DATA only, never as code or Markdown.
+    # The reporter's own output is constructed from typed, bounded values.
     omitted = 0
+    plan_artifacts = [a for a in artifacts if a["name"] == "ecad-review-plan"]
+    if len(plan_artifacts) == 1:
+        try:
+            plan_text = extract(plan_artifacts[0], repo, token, "ecad-plan.json")
+            if plan_text:
+                plan = json.loads(plan_text)
+                value = plan.get("omitted", 0)
+                if type(value) is int and 0 <= value <= 10000:
+                    omitted = value
+        except (ValueError, zipfile.BadZipFile, urllib.error.URLError) as exc:
+            print("Could not inspect ECAD coverage artifact:", type(exc).__name__)
     message = render(repo, run, rows, omitted)
     comments = entries(repo, f"issues/{pr_number}/comments", token, "")
     own = [c for c in comments if MARKER in c.get("body", "") and
