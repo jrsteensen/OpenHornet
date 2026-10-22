@@ -120,6 +120,11 @@ jobs:
           retention-days: 14
           if-no-files-found: error
 
+      - name: Validate trusted ECAD review commenter
+        run: |
+          python3 -m py_compile utils/tools/ecad/ci/post_review_comment.py
+          python3 -m unittest discover -s utils/tools/ecad/ci -p 'test_post_review_comment.py' -v
+
       - name: Determine impacted ECAD projects
         id: projects
         shell: bash
@@ -151,6 +156,15 @@ jobs:
           if [[ "$(jq -r .omitted "$RUNNER_TEMP/ecad-plan.json")" != 0 ]]; then
             echo "::warning::Some affected ECAD projects were omitted by the pilot cap."
           fi
+
+      - name: Upload project-selection coverage report
+        if: ${{ always() && steps.projects.outcome == 'success' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ecad-review-plan
+          path: ${{ runner.temp }}/ecad-plan.json
+          retention-days: 14
+          if-no-files-found: error
 
   compare:
     name: Diff ${{ matrix.slug }}
