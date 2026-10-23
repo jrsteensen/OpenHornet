@@ -3,16 +3,16 @@
 
 kicadiff --md does NOT produce an HTML viewer. The workflow runs the normal
 kicadiff HTML mode separately, then this tool checks the output and creates
-small JPEGs for the GitHub step summary (<1 MiB).
+small JPEGs. A trusted workflow_run job publishes the JPEGs to a public\nassets branch so GitHub's Markdown summary can load them over HTTPS.
 """
 import argparse
-import base64
+import os
+import re
 from pathlib import Path
 
 from PIL import Image, ImageOps
 
-# Leave margin for other GitHub Actions step summary content.
-MAX_EMBED_BYTES = 760_000
+MAX_TOTAL_PREVIEW_BYTES = 760_000
 CANVAS = (850, 750)
 LABELS = {"pcb": "PCB (composite layers)", "sch": "Schematic"}
 
@@ -60,16 +60,14 @@ def build(directory: Path, summary: Path):
     for kind, before, after in pairs[:4]:
         selected.append((kind, before, after, thumbdir / f"{len(selected)}-before.jpg",
                          thumbdir / f"{len(selected)}-after.jpg"))
-    # Keep the *complete* set of visible thumbnails below the GH step-summary
-    # cap. Re-encode more aggressively if needed, without sacrificing original
-    # images or the full-resolution HTML review in the artifact.
+    # Keep the public preview images small. Never inline data: URIs: GitHub\n    # sanitizes them in job summaries, producing broken-image placeholders.
     for size, quality in ((850, 67), (750, 58), (640, 48), (500, 42), (360, 32)):
         for kind, before, after, left, right in selected:
             thumbnail(before, left, quality, size)
             thumbnail(after, right, quality, size)
-        total = sum((p.stat().st_size * 4 // 3 + 100)
+        total = sum(p.stat().st_size
                     for row in selected for p in row[3:])
-        if total < MAX_EMBED_BYTES:
+        if total < MAX_TOTAL_PREVIEW_BYTES:
             break
     else:
         raise RuntimeError("Previews too large for GitHub step-summary image limit")
@@ -93,17 +91,24 @@ def build(directory: Path, summary: Path):
         f"and open \`index.html\`. All PNG/SVG assets are included.",
         "",
     ]
+    run_id = os.environ.get("GITHUB_RUN_ID")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    slug = directory.name
+    if (not run_id or not run_id.isdigit() or not repo or
+            not re.fullmatch(r"[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+", repo) or
+            not re.fullmatch(r"[a-z0-9-]+", slug)):
+        raise RuntimeError("Invalid GitHub run/repo/slug for published preview URL")
+    base = f"https://raw.githubusercontent.com/{repo}/ecad-review-previews/runs/{run_id}/{slug}"
     for kind, before, after, left, right in selected:
-        # GitHub Actions step summaries support data URLs, subject to the 1 MiB
-        # summary cap. Raw artifact PNGs are far too large for this.
         def src(path):
-            return "data:image/jpeg;base64," + base64.b64encode(path.read_bytes()).decode("ascii")
+            return f"{base}/{path.name}"
         lines += [f"**{LABELS[kind]}**", "", "| Before | After |", "|:---:|:---:|",
                   f"| ![Before {kind}]({src(left)}) | ![After {kind}]({src(right)}) |",
                   ""]
+    lines += ["*Preview JPEGs are published by the separate trusted post-run job.*", ""]
     output = "\n".join(lines)
-    if len(output.encode("utf-8")) > 900_000:
-        raise RuntimeError("Unexpectedly large Actions summary")
+    if "data:image" in output:
+        raise RuntimeError("GitHub does not display inline data URI images")
     with summary.open("a", encoding="utf-8") as file:
         file.write(output + "\n")
     print(f"Verified {viewer}, {len(pairs)} image pairs, "
