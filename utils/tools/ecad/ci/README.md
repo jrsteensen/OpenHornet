@@ -25,15 +25,30 @@ writing to contributor branches.
    changes invalidate all projects; draft/ready caps still apply.
 4. Installs KiCad 10 via its PPA and configures OpenHornet symbol and footprint
    libraries. Runs pinned `sksat/kicadiff@v0.2.0` on each selected project.
-5. Produces interactive before/after HTML, PNG comparisons, a structural diff,
-   and text-only ERC/DRC regression diagnostics in downloadable artifacts.
-6. Uploads a small PR context artifact and project-coverage manifest. Once the
+5. Runs the kicadiff Action for Markdown + raw images **and** a separate
+   plain `kicadiff` invocation for the actual interactive `index.html`
+   viewer (the Action's `--md` mode never makes an HTML file). Validates
+   the viewer and image pairs before upload.
+6. Resizes main PCB and schematic before/after PNGs to compact JPEG
+   thumbnails embedded directly in the job summary, staying below the
+   1 MiB step-summary limit. The full-resolution original PNG/SVG files
+   and all per-layer images remain in the artifact.
+7. Uploads the ZIP containing `index.html`, `VIEW_ME_FIRST.txt`,
+   `kicadiff-report.md`, `rules.txt`, and all images. To review:
+   download the ZIP, extract **all** contents, open `index.html` in a
+   desktop browser. The viewer supports side-by-side, overlay, swipe,
+   layer controls, and schematic navigation.
+8. Uploads a small PR context artifact and project-coverage manifest. Once the
    review run completes, the privileged `ECAD Review PR Comment` workflow (which
    runs **only trusted code from `master`**) validates the PR head SHA, reads
    bounded artifact text as data, and posts/updates one bot comment. The comment
    summarizes new/resolved/unchanged ERC/DRC counts, diagnostic categories,
    omitted projects, and links **directly to each artifact** plus the run.
    Stale runs cannot overwrite comments for a newer PR revision.
+   Note that artifact URLs download ZIP files: GitHub Actions does not
+   serve artifact HTML directly as a browser page. Repository Pages are
+   currently disabled; an in-browser hosted link needs a separately
+   approved GitHub Pages publication workflow.
 
 ## Important limitations
 
@@ -55,14 +70,18 @@ writing to contributor branches.
 - The commenter can run only after **both workflows and the publisher script**
   are merged to the default branch. It was unit-tested on the draft PR, but
   automatic comments for a real fork PR cannot be exercised before merge.
-- The GitHub Actions job summary has a 1 MiB image limit. For substantial
-  boards, download the review artifact to open its full-resolution viewer.
+- The GitHub Actions job summary has a 1 MiB image limit, so it shows
+  resized quick-look JPEGs. Full-resolution images and interactive
+  controls are in the downloadable artifact.
+- Viewer generation is advisory but reports its own success/failure
+  separate from the Markdown and ERC/DRC stages. An artifact without
+  `index.html` is an actionable generation error, not a valid review.
 
 ## Initial verification
 
 Against GIGA Backlight Controller PR #1292, OpenHornet test draft PR #1294
 selected the `ABSIS_Backlight Controller` project, installed KiCad 10,
-rendered both schematic and PCB diffs, uploaded the HTML review artifact,
+rendered both schematic and PCB diffs, uploaded the Markdown/PNG artifact,
 and surfaced ERC/DRC changes as advisory warnings. Do **not** merge the
 composite test branch; once the pilot is accepted, merge standalone CI PR #1295 from clean
 `master`, then manually rerun against PR #1292 to verify automatic fork comments.
