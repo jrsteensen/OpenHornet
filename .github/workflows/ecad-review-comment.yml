@@ -31,6 +31,11 @@ jobs:
             /utils/tools/ecad/ci/post_review_comment.py
             /utils/tools/ecad/ci/publish_previews.py
 
+      - name: Install safe JPEG decoder
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends python3-pil
+
       - name: Publish GitHub-renderable ECAD thumbnails
         env:
           GITHUB_TOKEN: ${{ github.token }}
