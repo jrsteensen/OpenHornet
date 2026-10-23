@@ -200,7 +200,7 @@ jobs:
           set -euo pipefail
           sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
           sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends kicad
+          sudo apt-get install --yes --no-install-recommends kicad python3-pil
           kicad-cli --version
 
       - name: Configure OpenHornet library paths
@@ -262,10 +262,31 @@ jobs:
           kicad-version: ''
           install-kicadiff: '0.2.0'
           output-dir: ecad-review/${{ matrix.slug }}
-          job-summary: 'true'
+          job-summary: 'false'
           upload-artifact: 'false'
           pr-comment: 'false'
           pr-description: 'false'
+
+      - name: Generate and verify portable interactive HTML and preview images
+        id: viewer
+        if: ${{ always() }}
+        continue-on-error: true
+        shell: bash
+        env:
+          BASE_SHA: ${{ needs.plan.outputs.base_sha }}
+          HEAD_SHA: ${{ needs.plan.outputs.head_sha }}
+          PROJECT: ${{ matrix.project }}
+          SLUG: ${{ matrix.slug }}
+        run: |
+          set -euo pipefail
+          OUT_DIR="$GITHUB_WORKSPACE/ecad-review/$SLUG"
+          mkdir -p "$OUT_DIR"
+          # Unlike --md (used by the third-party action), the default mode
+          # produces the interactive HTML viewer and its image manifest.
+          bunx --bun kicadiff@0.2.0 --from "$BASE_SHA" --to "$HEAD_SHA" \
+            --output-dir "$OUT_DIR" --output "$OUT_DIR/index.html" -- "$PROJECT"
+          python3 utils/tools/ecad/ci/render_previews.py \
+            "$OUT_DIR" "$GITHUB_STEP_SUMMARY"
 
       - name: Compare ERC/DRC findings (advisory)
         id: rules
@@ -297,20 +318,23 @@ jobs:
           PROJECT: ${{ matrix.project }}
           VISUAL: ${{ steps.visual.outcome }}
           RULES: ${{ steps.rules.outcome }}
+          VIEWER: ${{ steps.viewer.outcome }}
         run: |
           {
             echo "## OpenHornet ECAD pilot"
             echo "Project: \`$PROJECT\`"
-            echo "Visual comparison: **$VISUAL**"
+            echo "Visual comparison (Markdown): **$VISUAL**"
+            echo "HTML viewer and preview validation: **$VIEWER**"
             echo "ERC/DRC comparison: **$RULES**"
             echo "Advisory only: inspect artifacts and logs; neither failure blocks merging."
             echo "Known limitation: renderers may resolve both sides against the checked-out library tables. Do not assume library-only edits are validated against each revision's own libraries."
           } >> "$GITHUB_STEP_SUMMARY"
-          if [[ "$VISUAL" != "success" || "$RULES" != "success" ]]; then
+          if [[ "$VISUAL" != "success" || "$VIEWER" != "success" || "$RULES" != "success" ]]; then
             echo "::warning::ECAD pilot encountered a comparison failure or rule regression; review the logs."
           fi
 
       - name: Save ECAD review artifact
+        id: artifact
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
@@ -318,3 +342,16 @@ jobs:
           path: ecad-review/${{ matrix.slug }}/
           retention-days: 14
           if-no-files-found: warn
+
+      - name: Link artifact beside quick visual previews
+        if: ${{ always() && steps.artifact.outputs.artifact-url != '' }}
+        shell: bash
+        env:
+          ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
+        run: |
+          {
+            echo ""
+            echo "### Full interactive comparison"
+            echo "[**Download complete HTML viewer and images**]($ARTIFACT_URL)"
+            echo "Extract the ZIP, then open **index.html** in your browser."
+          } >> "$GITHUB_STEP_SUMMARY"
