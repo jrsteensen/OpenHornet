@@ -88,7 +88,7 @@ def build(directory: Path, summary: Path):
         "## ECAD visual preview",
         "",
         f"**Interactive viewer:** download the review artifact ZIP, extract it, "
-        f"and open \`index.html\`. All PNG/SVG assets are included.",
+        f"and open `index.html`. All PNG/SVG assets are included.",
         "",
     ]
     run_id = os.environ.get("GITHUB_RUN_ID")
