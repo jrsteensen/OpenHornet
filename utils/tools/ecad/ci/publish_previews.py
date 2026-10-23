@@ -14,6 +14,8 @@ import sys
 import urllib.error
 import zipfile
 
+from PIL import Image, UnidentifiedImageError
+
 from post_review_comment import github, entries, find_context, request
 
 PREVIEW_BRANCH = "ecad-review-previews"
@@ -26,10 +28,20 @@ MAX_PROJECTS = 12
 
 
 def valid_jpeg(blob):
-    # Basic format/size guard. Images stay opaque; no image decoding, no SVG,
-    # HTML, arbitrary names, scripts or path traversal from an artifact.
-    return (100 <= len(blob) <= MAX_JPEG_BYTES and
-            blob[:3] == b"\xff\xd8\xff" and blob[-2:] == b"\xff\xd9")
+    # Validate *real* JPEGs: do not publish bogus marker-only files, SVG,
+    # HTML, scripts or oversize decompression bombs from untrusted artifacts.
+    if not (100 <= len(blob) <= MAX_JPEG_BYTES and
+            blob[:3] == b"\xff\xd8\xff" and blob[-2:] == b"\xff\xd9"):
+        return False
+    try:
+        with Image.open(io.BytesIO(blob)) as image:
+            if (image.format != "JPEG" or image.width > 1100 or
+                    image.height > 1100 or image.width < 1 or image.height < 1):
+                return False
+            image.verify()
+        return True
+    except (OSError, ValueError, UnidentifiedImageError):
+        return False
 
 
 def image_entries(artifact, repo, token):
