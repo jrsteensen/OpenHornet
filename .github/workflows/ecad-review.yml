@@ -123,7 +123,7 @@ jobs:
       - name: Validate trusted ECAD review commenter
         run: |
           python3 -m py_compile utils/tools/ecad/ci/post_review_comment.py
-          python3 -m unittest discover -s utils/tools/ecad/ci -p 'test_post_review_comment.py' -v
+          python3 -m unittest discover -s utils/tools/ecad/ci -p 'test_*.py' -v
 
       - name: Determine impacted ECAD projects
         id: projects
