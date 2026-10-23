@@ -9,8 +9,9 @@ on:
 
 permissions:
   actions: read
-  contents: read
+  contents: write # Only the trusted publisher can write safe JPEG assets
   issues: write
+  pull-requests: write
 
 jobs:
   publish:
@@ -28,6 +29,12 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /utils/tools/ecad/ci/post_review_comment.py
+            /utils/tools/ecad/ci/publish_previews.py
+
+      - name: Publish GitHub-renderable ECAD thumbnails
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 utils/tools/ecad/ci/publish_previews.py
 
       - name: Upsert ECAD review summary and artifact links
         env:
