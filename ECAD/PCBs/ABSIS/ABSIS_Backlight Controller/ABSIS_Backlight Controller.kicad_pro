@@ -62,7 +62,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.508,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -70,17 +70,14 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|201108000|69536000|42a514bc-1de2-4f05-9443-1a22da0c3670|3786bf25-bee8-4e59-9713-2a507e41d50a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|201228000|69656000|42a514bc-1de2-4f05-9443-1a22da0c3670|687839ed-40a7-4d9f-b26f-130b6fd3e73d",
-          ""
-        ]
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -222,6 +219,8 @@
       "track_widths": [
         0.0,
         0.2032,
+        0.2286,
+        0.254,
         0.3048,
         0.4572,
         0.635,
@@ -254,7 +253,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -644,7 +648,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -693,7 +697,7 @@
         "uuid": "a802b656-6e7e-48d2-a230-6a103acd5125"
       }
     ],
-    "used_designators": "R5-9,R12-15,R19",
+    "used_designators": "J22-23,R5-9,R12-15,R19,R23-24,#PWR50-52",
     "variants": []
   },
   "sheets": [
